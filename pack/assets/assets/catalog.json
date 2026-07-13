@@ -1,0 +1,5440 @@
+{
+  "version": 9,
+  "items": [
+    {
+      "plu": "3012",
+      "name": "Abate Fetel Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4750",
+      "name": "Acorn Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3451",
+      "name": "Adora Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4099",
+      "name": "Akane Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4098",
+      "name": "Akane Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4514",
+      "name": "Alfalfa Sprouts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3000",
+      "name": "Alkmene Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3064",
+      "name": "Aloe Vera Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3463",
+      "name": "Amaranth Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3438",
+      "name": "Ambrosia Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3510",
+      "name": "Ambrosia Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4427",
+      "name": "American Persimmon - Regular",
+      "category": "fruit"
+    },
+    {
+      "plu": "4677",
+      "name": "Anaheim Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3338",
+      "name": "Anise",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4417",
+      "name": "Anjou Pears - Red",
+      "category": "fruit"
+    },
+    {
+      "plu": "4416",
+      "name": "Anjou Pears, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4025",
+      "name": "Anjou Pears, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4233",
+      "name": "Apple Bananas (Manzano)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3600",
+      "name": "Apples - Antares",
+      "category": "fruit"
+    },
+    {
+      "plu": "3075",
+      "name": "Apples - Baldwin",
+      "category": "fruit"
+    },
+    {
+      "plu": "3484",
+      "name": "Apples - Dalinette",
+      "category": "fruit"
+    },
+    {
+      "plu": "3104",
+      "name": "Apples - Evelina",
+      "category": "fruit"
+    },
+    {
+      "plu": "3074",
+      "name": "Apples - Greening (RI)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3078",
+      "name": "Apples - Liberty",
+      "category": "fruit"
+    },
+    {
+      "plu": "3073",
+      "name": "Apples - Macoun",
+      "category": "fruit"
+    },
+    {
+      "plu": "3076",
+      "name": "Apples - Melrose",
+      "category": "fruit"
+    },
+    {
+      "plu": "3077",
+      "name": "Apples - Northern Spy",
+      "category": "fruit"
+    },
+    {
+      "plu": "3554",
+      "name": "Apples - Orléans",
+      "category": "fruit"
+    },
+    {
+      "plu": "3555",
+      "name": "Apples - Rosinette",
+      "category": "fruit"
+    },
+    {
+      "plu": "3315",
+      "name": "Apples - Scilate (ENVY) - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3272",
+      "name": "Apples - Sommerfeld",
+      "category": "fruit"
+    },
+    {
+      "plu": "3486",
+      "name": "Apples - SugarBee™",
+      "category": "fruit"
+    },
+    {
+      "plu": "3271",
+      "name": "Apples - Virginia Gold",
+      "category": "fruit"
+    },
+    {
+      "plu": "3557",
+      "name": "Apples - Wurtwinning (Bloss®)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4218",
+      "name": "Apricots",
+      "category": "fruit"
+    },
+    {
+      "plu": "4861",
+      "name": "Apricots - Dried",
+      "category": "fruit"
+    },
+    {
+      "plu": "3302",
+      "name": "Apricots - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3422",
+      "name": "Apriums",
+      "category": "fruit"
+    },
+    {
+      "plu": "4592",
+      "name": "Armenian Cucumber",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3390",
+      "name": "Arracach",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4084",
+      "name": "Artichoke",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4519",
+      "name": "Artichokes - Baby/Cocktail",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4762",
+      "name": "Artichokes - Extra Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4518",
+      "name": "Artichokes - Purple (Large)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4517",
+      "name": "Artichokes - Purple (Small)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3391",
+      "name": "Artichokes - Rouge Salambo",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4516",
+      "name": "Artichokes - Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4884",
+      "name": "Arugula",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4407",
+      "name": "Asian Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4408",
+      "name": "Asian/Nashi Pears - Brown",
+      "category": "fruit"
+    },
+    {
+      "plu": "4406",
+      "name": "Asian/Nashi Pears - White",
+      "category": "fruit"
+    },
+    {
+      "plu": "4521",
+      "name": "Asparagus - Green (Large)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3392",
+      "name": "Asparagus - Green Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3079",
+      "name": "Asparagus - Purple",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3394",
+      "name": "Asparagus - Purple Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4524",
+      "name": "Asparagus - Tips",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4523",
+      "name": "Asparagus - White (Large)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4522",
+      "name": "Asparagus - White (Small)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3393",
+      "name": "Asparagus - White Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4080",
+      "name": "Asparagus, Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4220",
+      "name": "Atemoyas",
+      "category": "fruit"
+    },
+    {
+      "plu": "3542",
+      "name": "Aura Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3290",
+      "name": "Aurora/Southern Rose Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3001",
+      "name": "Aurora/Southern Rose Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3452",
+      "name": "AutumnCrisp Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4223",
+      "name": "Avocado, Green, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4221",
+      "name": "Avocado, Green, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4225",
+      "name": "Avocado, Hass, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4046",
+      "name": "Avocado, Hass, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4770",
+      "name": "Avocado, Hass, XL",
+      "category": "fruit"
+    },
+    {
+      "plu": "4226",
+      "name": "Avocados - Cocktail/Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "4771",
+      "name": "Avocados - Green (Medium)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4224",
+      "name": "Avocados - Green - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4222",
+      "name": "Avocados - Green - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3080",
+      "name": "Avocados - Pinkerton",
+      "category": "fruit"
+    },
+    {
+      "plu": "3303",
+      "name": "Babaco",
+      "category": "fruit"
+    },
+    {
+      "plu": "3143",
+      "name": "Baby Acorn Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4234",
+      "name": "Baby Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "3277",
+      "name": "Baby Broccoli",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3471",
+      "name": "Baby Cactus Leaves (Nopales)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3161",
+      "name": "Baby Gai Choy (Chinese/Indian Mustard)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4756",
+      "name": "Baby Green Zucchini/Courgette",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3053",
+      "name": "Baby Parsnip",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4754",
+      "name": "Baby Scallopini Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3332",
+      "name": "Baby Spinach",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4755",
+      "name": "Baby Summer Green Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4589",
+      "name": "Baby Sweet Corn",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4232",
+      "name": "Banana Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4678",
+      "name": "Banana Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4757",
+      "name": "Banana Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4011",
+      "name": "Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "4186",
+      "name": "Bananas, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4410",
+      "name": "Bartlett Pears - Red",
+      "category": "fruit"
+    },
+    {
+      "plu": "4409",
+      "name": "Bartlett Pears, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4024",
+      "name": "Bartlett Pears, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4885",
+      "name": "Basil",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4886",
+      "name": "Basil - Opal",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4887",
+      "name": "Basil - Sweet",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3062",
+      "name": "Bay Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4536",
+      "name": "Bean Sprouts - Mung Bean Sprouts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4534",
+      "name": "Beans - Winged",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3061",
+      "name": "Beefsteak Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4542",
+      "name": "Beet Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4537",
+      "name": "Beets - Baby Golden",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4538",
+      "name": "Beets - Baby Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4539",
+      "name": "Beets - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4540",
+      "name": "Beets, Loose",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3339",
+      "name": "Belchard Chantecler Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4543",
+      "name": "Belgian Endive",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3395",
+      "name": "Belgian Endive - Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3602",
+      "name": "Belgica Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3120",
+      "name": "Bell Pepper - Green - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3119",
+      "name": "Bell Pepper - Green - Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3124",
+      "name": "Bell Pepper - Purple",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4679",
+      "name": "Bell Pepper, Brown (Field Grown)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3123",
+      "name": "Bell Pepper, Brown (Greenhouse)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4684",
+      "name": "Bell Pepper, White (Field Grown)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3122",
+      "name": "Bell Pepper, White (Greenhouse)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3420",
+      "name": "Belle du Jumet Pear (Honey Belle)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3340",
+      "name": "Bertanne/Golden Russet Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3013",
+      "name": "Beurre Hardy Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4590",
+      "name": "Bi-Color Sweet Corn",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3305",
+      "name": "Black Currants",
+      "category": "fruit"
+    },
+    {
+      "plu": "4646",
+      "name": "Black Forest Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4270",
+      "name": "Black Grapes, Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4056",
+      "name": "Black Grapes, Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3611",
+      "name": "Black Plumcot",
+      "category": "fruit"
+    },
+    {
+      "plu": "4244",
+      "name": "Black Raspberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "3138",
+      "name": "Black Sapote",
+      "category": "fruit"
+    },
+    {
+      "plu": "3044",
+      "name": "Black Velvet Apricot",
+      "category": "fruit"
+    },
+    {
+      "plu": "4239",
+      "name": "Blackberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4673",
+      "name": "Blackeyed Peas",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4381",
+      "name": "Blood Oranges",
+      "category": "fruit"
+    },
+    {
+      "plu": "4240",
+      "name": "Blueberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4658",
+      "name": "Boiling Onions",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4545",
+      "name": "Bok Choy",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3163",
+      "name": "Bok Choy - Shanghai",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4544",
+      "name": "Bok Choy - Small/Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3014",
+      "name": "Bon Rouge Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4546",
+      "name": "Boniato",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3419",
+      "name": "Borage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4412",
+      "name": "Bosc Pears, Large (East)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4413",
+      "name": "Bosc Pears, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4411",
+      "name": "Bosc Pears, Small (East)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4026",
+      "name": "Bosc Pears, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3292",
+      "name": "Boskoop/Belle de Boskoop Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3291",
+      "name": "Boskoop/Belle de Boskoop Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4241",
+      "name": "Boysenberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4103",
+      "name": "Braeburn Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4101",
+      "name": "Braeburn Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4254",
+      "name": "Breadfruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4060",
+      "name": "Broccoli",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3082",
+      "name": "Broccoli Crowns",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4548",
+      "name": "Broccoli Florettes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4547",
+      "name": "Broccoli Rabe / Chinese Broccoli",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4550",
+      "name": "Brussels Sprouts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3083",
+      "name": "Brussels Sprouts - Stalk",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4229",
+      "name": "Burro Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "4758",
+      "name": "Buttercup Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3441",
+      "name": "Butterkin Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4759",
+      "name": "Butternut Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3629",
+      "name": "CIVG198 Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3396",
+      "name": "Cabbage - Savoy, Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3397",
+      "name": "Cabbage - Summer Cabbage - Pointed type",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4558",
+      "name": "Cactus Leaves (Nopales)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4255",
+      "name": "Cactus Pear (Prickly Pear)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4760",
+      "name": "Calabaza Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4165",
+      "name": "California Sweet Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3464",
+      "name": "Calypso Mango",
+      "category": "fruit"
+    },
+    {
+      "plu": "3066",
+      "name": "Cameo Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3065",
+      "name": "Cameo Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4317",
+      "name": "Canary Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4050",
+      "name": "Cantaloupe",
+      "category": "fruit"
+    },
+    {
+      "plu": "4049",
+      "name": "Cantaloupe - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4319",
+      "name": "Cantaloupe/Muskmelon - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4318",
+      "name": "Cantaloupe/Muskmelon - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3002",
+      "name": "Cantared Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3039",
+      "name": "Cape Gooseberry (Physalis)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3466",
+      "name": "Cape Rose Pears (Cheeky®)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4559",
+      "name": "Cardoon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3142",
+      "name": "Carnival Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4560",
+      "name": "Carrots - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4094",
+      "name": "Carrots - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4563",
+      "name": "Carrots - Carrot Sticks",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4561",
+      "name": "Carrots - French",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3424",
+      "name": "Carrots - Purple/Red - Beta Sweet",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4562",
+      "name": "Carrots, Loose",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4320",
+      "name": "Casaba Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4079",
+      "name": "Cauliflower",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4573",
+      "name": "Cauliflower - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4566",
+      "name": "Cauliflower - Florettes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4567",
+      "name": "Cauliflower - Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4572",
+      "name": "Cauliflower - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4568",
+      "name": "Cauliflower - Purple",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3320",
+      "name": "Cauliflower - Romanesco",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4070",
+      "name": "Celery",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4575",
+      "name": "Celery - Hearts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4071",
+      "name": "Celery Bunch - Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4585",
+      "name": "Celery Root (Celeriac)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3321",
+      "name": "Celery Root - With Leaves Attached",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4582",
+      "name": "Celery, Bunch (Large)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4583",
+      "name": "Celery, Bunch (Large)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4576",
+      "name": "Celery, Loose Stalk",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4271",
+      "name": "Champagne Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4647",
+      "name": "Chanterelle Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3033",
+      "name": "Charentais Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3307",
+      "name": "Charentais Melon - Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3034",
+      "name": "Charentais Melon - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3306",
+      "name": "Charentais Melon - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3341",
+      "name": "Charles Ross Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3359",
+      "name": "Chasselas Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4761",
+      "name": "Chayote Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4257",
+      "name": "Cherimoya",
+      "category": "fruit"
+    },
+    {
+      "plu": "3549",
+      "name": "Cherries - HR87 (Timberline)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3550",
+      "name": "Cherries - RL 100 (Audra Rose)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4045",
+      "name": "Cherries, Red/Black",
+      "category": "fruit"
+    },
+    {
+      "plu": "4796",
+      "name": "Cherry Tomatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3084",
+      "name": "Chervil",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3398",
+      "name": "Chickpeas - Fresh",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4685",
+      "name": "Chili Pepper - Dried",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3089",
+      "name": "Chinese Eggplant",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4527",
+      "name": "Chinese Long Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4890",
+      "name": "Chinese Yali Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3479",
+      "name": "Chipilin Leaf",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4888",
+      "name": "Chives",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3322",
+      "name": "Choy Sum",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3323",
+      "name": "Choy Sum - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4889",
+      "name": "Cilantro",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4321",
+      "name": "Cinnabar Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3615",
+      "name": "Civni Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3015",
+      "name": "Clara Friis Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3385",
+      "name": "Clementine Tangerine - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3384",
+      "name": "Clementine Tangerine - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3383",
+      "name": "Clementine Tangerine - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3387",
+      "name": "Clementine Tangerine - Untreated",
+      "category": "fruit"
+    },
+    {
+      "plu": "3386",
+      "name": "Clementine Tangerine - With Leaves",
+      "category": "fruit"
+    },
+    {
+      "plu": "4450",
+      "name": "Clementines",
+      "category": "fruit"
+    },
+    {
+      "plu": "3630",
+      "name": "Co-op 43 Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3335",
+      "name": "Cocktail Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4261",
+      "name": "Coconut, Husked",
+      "category": "fruit"
+    },
+    {
+      "plu": "4260",
+      "name": "Coconut, In Husk",
+      "category": "fruit"
+    },
+    {
+      "plu": "4614",
+      "name": "Collard Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4414",
+      "name": "Comice Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4272",
+      "name": "Concord Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3016",
+      "name": "Concorde Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3017",
+      "name": "Conference Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4077",
+      "name": "Corn, White, Trimmed",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4078",
+      "name": "Corn, Yellow, Trimmed",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4106",
+      "name": "Cortland Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4104",
+      "name": "Cortland Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3507",
+      "name": "Cosmic Crisp Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4105",
+      "name": "Cox Orange Pippin Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4107",
+      "name": "Crab Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4242",
+      "name": "Cranberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4648",
+      "name": "Cremini Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4322",
+      "name": "Crenshaw Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3511",
+      "name": "Crimson Delight/Sunrise Magic Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4499",
+      "name": "Crimson Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3010",
+      "name": "Cripps Red (Sundowner) Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3301",
+      "name": "Cripps Red Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4110",
+      "name": "Crispin/Mutsu Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4111",
+      "name": "Crispin/Mutsu Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4108",
+      "name": "Crispin/Mutsu Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4109",
+      "name": "Crispin/Mutsu Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4115",
+      "name": "Criterion Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4113",
+      "name": "Criterion Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3059",
+      "name": "Crown Prince Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4687",
+      "name": "Cubanelle Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4062",
+      "name": "Cucumber",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3140",
+      "name": "Cucuzza Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3003",
+      "name": "D'Estivale Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4598",
+      "name": "Daikon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4451",
+      "name": "Dancy Tangerines",
+      "category": "fruit"
+    },
+    {
+      "plu": "4615",
+      "name": "Dandelion Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4263",
+      "name": "Dates, Fresh",
+      "category": "fruit"
+    },
+    {
+      "plu": "3529",
+      "name": "Dazzle Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3131",
+      "name": "Decorative Painted Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3632",
+      "name": "Dekopon Tangerine/Mandarin",
+      "category": "fruit"
+    },
+    {
+      "plu": "3342",
+      "name": "Delblush (Tentation) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4763",
+      "name": "Delicata Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3154",
+      "name": "Delta Seedless Oranges - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3153",
+      "name": "Delta Seedless Oranges - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3343",
+      "name": "Dessert Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4891",
+      "name": "Dill",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4892",
+      "name": "Dill - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4893",
+      "name": "Dill - Pickling",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3004",
+      "name": "Discovery Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4230",
+      "name": "Dominique Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "3040",
+      "name": "Dragon Fruit, Red",
+      "category": "fruit"
+    },
+    {
+      "plu": "4802",
+      "name": "Dried Tomatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3018",
+      "name": "Durondeau Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3050",
+      "name": "Dutch White Cabbage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4118",
+      "name": "Early Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4119",
+      "name": "Early Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4116",
+      "name": "Early Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4117",
+      "name": "Early Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4081",
+      "name": "Eggplant",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4599",
+      "name": "Eggplant - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4600",
+      "name": "Eggplant - Baby White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4601",
+      "name": "Eggplant - Japanese",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4602",
+      "name": "Eggplant - White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4609",
+      "name": "Elephant Garlic",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3032",
+      "name": "Ellendale Tangerine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3055",
+      "name": "Elongated Green Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3057",
+      "name": "Elongated Orange Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3054",
+      "name": "Elongated Red Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3058",
+      "name": "Elongated White Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3056",
+      "name": "Elongated Yellow Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4123",
+      "name": "Elstar Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4121",
+      "name": "Elstar Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3604",
+      "name": "Emmons Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4126",
+      "name": "Empire Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4127",
+      "name": "Empire Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4124",
+      "name": "Empire Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4125",
+      "name": "Empire Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4604",
+      "name": "Endive/Chicory",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4593",
+      "name": "English Cucumber",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3103",
+      "name": "Enoki Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3473",
+      "name": "Epazote",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3324",
+      "name": "Escarole - Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4605",
+      "name": "Escarole/Batavian Chicory - Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3490",
+      "name": "EverCrisp™ Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4452",
+      "name": "Fairchild Tangerine/Mandarin",
+      "category": "fruit"
+    },
+    {
+      "plu": "3144",
+      "name": "Fall Glo Tangerines",
+      "category": "fruit"
+    },
+    {
+      "plu": "4528",
+      "name": "Fava Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4265",
+      "name": "Feijoa",
+      "category": "fruit"
+    },
+    {
+      "plu": "4515",
+      "name": "Fennel (Anise)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3063",
+      "name": "Fennel Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4606",
+      "name": "Fiddlehead Ferns",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4120",
+      "name": "Fiesta Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3337",
+      "name": "Figs - Dried",
+      "category": "fruit"
+    },
+    {
+      "plu": "4266",
+      "name": "Figs, Black",
+      "category": "fruit"
+    },
+    {
+      "plu": "4267",
+      "name": "Figs, Brown",
+      "category": "fruit"
+    },
+    {
+      "plu": "4268",
+      "name": "Figs, White/Green",
+      "category": "fruit"
+    },
+    {
+      "plu": "3049",
+      "name": "Fine Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4102",
+      "name": "Fireside Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4100",
+      "name": "Fireside Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3019",
+      "name": "Flamingo Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3113",
+      "name": "Flat Peaches, White (Saturn/Donut)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3437",
+      "name": "Flat Yellow Nectarine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4783",
+      "name": "Foo Qua Bitter Melon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4418",
+      "name": "Forelle Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3621",
+      "name": "Francis Mango",
+      "category": "fruit"
+    },
+    {
+      "plu": "4324",
+      "name": "French Afternoon Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4325",
+      "name": "French Breakfast Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4419",
+      "name": "French Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3167",
+      "name": "Frisee",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4131",
+      "name": "Fuji Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4129",
+      "name": "Fuji Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3613",
+      "name": "Fuji Brak Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3509",
+      "name": "GEM Avocados",
+      "category": "fruit"
+    },
+    {
+      "plu": "3538",
+      "name": "GIGA® Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4607",
+      "name": "Gai Choy (Chinese Mustard)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3160",
+      "name": "Gai Lan (Chinese Broccoli)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4134",
+      "name": "Gala Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4135",
+      "name": "Gala Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4132",
+      "name": "Gala Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4133",
+      "name": "Gala Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3453",
+      "name": "Galangal Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4326",
+      "name": "Galia Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4608",
+      "name": "Garlic",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3399",
+      "name": "Garlic - Fresh with Leaves",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3401",
+      "name": "Garlic - One-clove types",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3400",
+      "name": "Garlic - Regular - Smoked",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3052",
+      "name": "Garlic - String",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3462",
+      "name": "Garlic Chives",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4765",
+      "name": "Gem Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4096",
+      "name": "Ginger Gold Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4097",
+      "name": "Ginger Gold Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4612",
+      "name": "Ginger Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3345",
+      "name": "Gloster Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3344",
+      "name": "Gloster Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3091",
+      "name": "Gobo Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3273",
+      "name": "Golden Beets",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3285",
+      "name": "Golden Delicious Apples - Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4137",
+      "name": "Golden Delicious Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4020",
+      "name": "Golden Delicious Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4136",
+      "name": "Golden Delicious Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4021",
+      "name": "Golden Delicious Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3005",
+      "name": "Golden Delicious Blush Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4766",
+      "name": "Golden Delicious Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3279",
+      "name": "Golden Kiwifruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4767",
+      "name": "Golden Nugget Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4245",
+      "name": "Golden Raspberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4243",
+      "name": "Gooseberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4018",
+      "name": "Granny Smith Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4017",
+      "name": "Granny Smith Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4138",
+      "name": "Granny Smith Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4139",
+      "name": "Granny Smith Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3071",
+      "name": "Granny Smith Red Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4803",
+      "name": "Grape/Teardrop Tomatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4280",
+      "name": "Grapefruit - Ruby/Red/Pink - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3361",
+      "name": "Grapefruit - Without postharvest treatment",
+      "category": "fruit"
+    },
+    {
+      "plu": "4287",
+      "name": "Grapefruit, Deep Red Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4288",
+      "name": "Grapefruit, Deep Red Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4289",
+      "name": "Grapefruit, Deep Red Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4495",
+      "name": "Grapefruit, Deep Red, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4496",
+      "name": "Grapefruit, Deep Red, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4494",
+      "name": "Grapefruit, Deep Red, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4285",
+      "name": "Grapefruit, Deep Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4284",
+      "name": "Grapefruit, Deep Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4286",
+      "name": "Grapefruit, Deep Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4281",
+      "name": "Grapefruit, Ruby Red, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4027",
+      "name": "Grapefruit, Ruby Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4047",
+      "name": "Grapefruit, Ruby Red, Small (Alt)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4492",
+      "name": "Grapefruit, Ruby/Red/Pink, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4493",
+      "name": "Grapefruit, Ruby/Red/Pink, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4491",
+      "name": "Grapefruit, Ruby/Red/Pink, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4282",
+      "name": "Grapefruit, Ruby/Red/Pink, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4283",
+      "name": "Grapefruit, Ruby/Red/Pink, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4294",
+      "name": "Grapefruit, White Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4295",
+      "name": "Grapefruit, White Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4291",
+      "name": "Grapefruit, White Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4292",
+      "name": "Grapefruit, White Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4293",
+      "name": "Grapefruit, White, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4290",
+      "name": "Grapefruit, White, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3552",
+      "name": "Grapes - ARDTHIRTYSIX (ARRA Cherry Crush)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3504",
+      "name": "Grapes - ARRA THIRTY (Sugardrop)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3505",
+      "name": "Grapes - ARRA THIRTYTWO (Mystic Dream)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3503",
+      "name": "Grapes - ARRA TWENTYEIGHT (Passion Punch™)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3502",
+      "name": "Grapes - ARRA TWENTYSEVEN",
+      "category": "fruit"
+    },
+    {
+      "plu": "4957",
+      "name": "Grapes - Blue/Black Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4638",
+      "name": "Grapes - Fantasy/Marroo",
+      "category": "fruit"
+    },
+    {
+      "plu": "3498",
+      "name": "Grapes - IFG Core Green Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3500",
+      "name": "Grapes - IFG Novelty Black Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3501",
+      "name": "Grapes - IFG Novelty Green Seedless (Cotton Candy®)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3499",
+      "name": "Grapes - IFG Novelty Red Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3360",
+      "name": "Grapes - Muscat de Hambourg",
+      "category": "fruit"
+    },
+    {
+      "plu": "4273",
+      "name": "Grapes - Red Seeded (Cardinal/Emperor/Queen/Christmas Rose)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4635",
+      "name": "Grapes - Red Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3506",
+      "name": "Grapes - Sweet Scarlet",
+      "category": "fruit"
+    },
+    {
+      "plu": "3508",
+      "name": "Grapes - Thomcord",
+      "category": "fruit"
+    },
+    {
+      "plu": "4274",
+      "name": "Grapes - White/Green Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4498",
+      "name": "Grapes - White/Green Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "4637",
+      "name": "Grapes, Red Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4158",
+      "name": "Gravenstein Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4156",
+      "name": "Gravenstein Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3070",
+      "name": "Gravenstein Red Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3069",
+      "name": "Gravenstein Red Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4231",
+      "name": "Green Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "4066",
+      "name": "Green Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4065",
+      "name": "Green Bell Pepper, Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4681",
+      "name": "Green Bell Pepper, Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4069",
+      "name": "Green Cabbage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4686",
+      "name": "Green Chili Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3444",
+      "name": "Green Dragon Apple",
+      "category": "fruit"
+    },
+    {
+      "plu": "4022",
+      "name": "Green Grapes, Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "4076",
+      "name": "Green Leaf Lettuce",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4068",
+      "name": "Green Onions (Scallions)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3522",
+      "name": "Green Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4674",
+      "name": "Green Peas",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3610",
+      "name": "Green Plumcot",
+      "category": "fruit"
+    },
+    {
+      "plu": "4299",
+      "name": "Guava",
+      "category": "fruit"
+    },
+    {
+      "plu": "3125",
+      "name": "Habanero Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3623",
+      "name": "Hami Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4058",
+      "name": "Haralson Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4057",
+      "name": "Haralson Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3287",
+      "name": "Hawaiian Plantain",
+      "category": "fruit"
+    },
+    {
+      "plu": "3423",
+      "name": "Heirloom Tomatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3048",
+      "name": "Helda/Flat Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3352",
+      "name": "Heritage Reinette Variety Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3346",
+      "name": "Holstein Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4300",
+      "name": "Homli Fruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "3622",
+      "name": "Honey Green Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4453",
+      "name": "Honey Tangerines",
+      "category": "fruit"
+    },
+    {
+      "plu": "3283",
+      "name": "Honeycrisp Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3468",
+      "name": "Honeycrisp Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4034",
+      "name": "Honeydew Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4329",
+      "name": "Honeydew Melon - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3546",
+      "name": "Honeymoon™ Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4302",
+      "name": "Horned Melon (Kiwano)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4625",
+      "name": "Horseradish Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4691",
+      "name": "Hot Mixed Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4690",
+      "name": "Hot Pepper - Hungarian Hot",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3601",
+      "name": "Huaguan (Autumn Glory) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4768",
+      "name": "Hubbard Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4692",
+      "name": "Hungarian Wax Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3528",
+      "name": "Hunnyz Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3497",
+      "name": "IFG Core Black Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3496",
+      "name": "IFG Core Red Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3540",
+      "name": "IFORED R Series Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3539",
+      "name": "IFORED Y Series Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4061",
+      "name": "Iceberg Lettuce",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4142",
+      "name": "Idared Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4140",
+      "name": "Idared Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3085",
+      "name": "Indian Decorative Corn - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3086",
+      "name": "Indian Decorative Corn - Mini",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3006",
+      "name": "Ingrid Marie Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3043",
+      "name": "Italia Grapes - Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4436",
+      "name": "Italian Prune Plums",
+      "category": "fruit"
+    },
+    {
+      "plu": "3454",
+      "name": "Jackfruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4693",
+      "name": "Jalapeno Pepper, Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4694",
+      "name": "Jalapeno Pepper, Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3031",
+      "name": "Jamaican Tangor Tangerine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4695",
+      "name": "Japanese Red Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4594",
+      "name": "Japanese White Cucumber",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3294",
+      "name": "Jazz Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3293",
+      "name": "Jazz Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4626",
+      "name": "Jicama",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4146",
+      "name": "Jonagold Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4147",
+      "name": "Jonagold Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4144",
+      "name": "Jonagold Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4145",
+      "name": "Jonagold Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4143",
+      "name": "Jonamac Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4141",
+      "name": "Jonamac Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4150",
+      "name": "Jonathan Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4151",
+      "name": "Jonathan Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4148",
+      "name": "Jonathan Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4149",
+      "name": "Jonathan Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4382",
+      "name": "Juice Oranges",
+      "category": "fruit"
+    },
+    {
+      "plu": "3467",
+      "name": "Juici™ Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3130",
+      "name": "Jumbo Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3530",
+      "name": "Jupiter Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4769",
+      "name": "Kabocha Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3446",
+      "name": "Kale Sprouts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4627",
+      "name": "Kale, Curly",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3095",
+      "name": "Kale, Red/Multicolor",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3521",
+      "name": "Karma Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4305",
+      "name": "Key Limes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4420",
+      "name": "King Royal Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4454",
+      "name": "Kinnow Mandarins",
+      "category": "fruit"
+    },
+    {
+      "plu": "4030",
+      "name": "Kiwifruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "3280",
+      "name": "Kiwifruit - Jumbo",
+      "category": "fruit"
+    },
+    {
+      "plu": "4628",
+      "name": "Kohlrabi",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3096",
+      "name": "Kohlrabi - Purple/Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3624",
+      "name": "Korean Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4303",
+      "name": "Kumquats",
+      "category": "fruit"
+    },
+    {
+      "plu": "3072",
+      "name": "Lady Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3461",
+      "name": "Lady Williams Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3347",
+      "name": "Laxtons Fortune Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4629",
+      "name": "Leeks",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4630",
+      "name": "Leeks - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3403",
+      "name": "Leeks - Baby - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3402",
+      "name": "Leeks - Regular - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4595",
+      "name": "Lemon Cucumber",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3516",
+      "name": "Lemonade Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3515",
+      "name": "Lemonade Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4894",
+      "name": "Lemongrass",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3362",
+      "name": "Lemons - Without postharvest treatment",
+      "category": "fruit"
+    },
+    {
+      "plu": "4053",
+      "name": "Lemons, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4958",
+      "name": "Lemons, Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "4033",
+      "name": "Lemons, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4631",
+      "name": "Lettuce - Bibb/Flat/Round",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3098",
+      "name": "Lettuce - Boston, Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4632",
+      "name": "Lettuce - Boston/Butter",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3169",
+      "name": "Lettuce - Catalogna",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4633",
+      "name": "Lettuce - Hydroponic",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4634",
+      "name": "Lettuce - Iceberg",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3325",
+      "name": "Lettuce - Lollo Bionda",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3326",
+      "name": "Lettuce - Lollo Rossa",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4639",
+      "name": "Lettuce - Mache",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3327",
+      "name": "Lettuce - Mignonette",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3328",
+      "name": "Lettuce - Mixed Small-Leaf Salad",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3329",
+      "name": "Lettuce - Oak Leaf - Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3097",
+      "name": "Lettuce - Romaine, Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4529",
+      "name": "Lima Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3309",
+      "name": "Lima Oranges",
+      "category": "fruit"
+    },
+    {
+      "plu": "4328",
+      "name": "Limequats",
+      "category": "fruit"
+    },
+    {
+      "plu": "4048",
+      "name": "Limes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3007",
+      "name": "Lochbuie Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3304",
+      "name": "Loganberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "3548",
+      "name": "Lolipop® Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4696",
+      "name": "Long Hot Pepper, Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4697",
+      "name": "Long Hot Red Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4251",
+      "name": "Long-stemmed Strawberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4307",
+      "name": "Longan",
+      "category": "fruit"
+    },
+    {
+      "plu": "4308",
+      "name": "Loquats",
+      "category": "fruit"
+    },
+    {
+      "plu": "3348",
+      "name": "Lord Lambourne Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3099",
+      "name": "Lotus Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3527",
+      "name": "LucyGlo Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3526",
+      "name": "LucyRose Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3537",
+      "name": "Ludacrisp Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4309",
+      "name": "Lychees",
+      "category": "fruit"
+    },
+    {
+      "plu": "3366",
+      "name": "Madroña",
+      "category": "fruit"
+    },
+    {
+      "plu": "3523",
+      "name": "Magic Star Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4644",
+      "name": "Malanga",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4310",
+      "name": "Mamey",
+      "category": "fruit"
+    },
+    {
+      "plu": "3114",
+      "name": "Mango - Green (Keitt/Francis) - Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4584",
+      "name": "Mango - Green (Large)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4311",
+      "name": "Mango - Green (Small)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3363",
+      "name": "Mango - Kensington Pride (Bowen)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3364",
+      "name": "Mango - R2E2",
+      "category": "fruit"
+    },
+    {
+      "plu": "3365",
+      "name": "Mango - Ripe/Ready-to-Eat",
+      "category": "fruit"
+    },
+    {
+      "plu": "4312",
+      "name": "Mango - Yellow (Small)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3488",
+      "name": "Mangoes, Red, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4959",
+      "name": "Mangoes, Red, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4051",
+      "name": "Mangoes, Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4961",
+      "name": "Mangoes, Yellow, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3042",
+      "name": "Mangosteen",
+      "category": "fruit"
+    },
+    {
+      "plu": "3607",
+      "name": "Mariri Red Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4895",
+      "name": "Marjoram",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4164",
+      "name": "Maui Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4330",
+      "name": "Mayan Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4019",
+      "name": "McIntosh Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4154",
+      "name": "McIntosh Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4152",
+      "name": "McIntosh Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4153",
+      "name": "McIntosh Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3152",
+      "name": "Melogold Grapefruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "3367",
+      "name": "Melon - Glasshouse - Netted varieties",
+      "category": "fruit"
+    },
+    {
+      "plu": "3100",
+      "name": "Melon - Gold Honeydew",
+      "category": "fruit"
+    },
+    {
+      "plu": "3368",
+      "name": "Melon - Ogen",
+      "category": "fruit"
+    },
+    {
+      "plu": "3101",
+      "name": "Melon - Piel de Sapo",
+      "category": "fruit"
+    },
+    {
+      "plu": "3626",
+      "name": "Meyer Lemons",
+      "category": "fruit"
+    },
+    {
+      "plu": "3349",
+      "name": "Michaelmas Red Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4331",
+      "name": "Mickey Lee Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3036",
+      "name": "Midknight Orange - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3156",
+      "name": "Midknight Oranges - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3155",
+      "name": "Midknight Oranges - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3449",
+      "name": "Midnight Beauty Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3489",
+      "name": "Migo™ Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3619",
+      "name": "Milwa Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3421",
+      "name": "Mini Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3133",
+      "name": "Mini White Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4383",
+      "name": "Minneola Tangelos",
+      "category": "fruit"
+    },
+    {
+      "plu": "3625",
+      "name": "Minnewashta (Zestar) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4896",
+      "name": "Mint",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3102",
+      "name": "Morel Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4698",
+      "name": "Morita Chili Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3404",
+      "name": "Mushrooms - Cep",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3405",
+      "name": "Mushrooms - Fairy Ring Champignon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3406",
+      "name": "Mushrooms - Grey - Tricholoma",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3407",
+      "name": "Mushrooms - Grisette",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3408",
+      "name": "Mushrooms - Horn of Plenty/Black Trumpet",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3409",
+      "name": "Mushrooms - Pioppino",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4332",
+      "name": "Musk Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4616",
+      "name": "Mustard Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4552",
+      "name": "Napa Cabbage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4385",
+      "name": "Navel Oranges, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4012",
+      "name": "Navel Oranges, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3107",
+      "name": "Navel Oranges, Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "4384",
+      "name": "Navel Oranges, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4013",
+      "name": "Navel Oranges, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3369",
+      "name": "Nectarine - Nectavigne (Red Flesh)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4378",
+      "name": "Nectarine - Yellow Flesh, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4377",
+      "name": "Nectarine - Yellow Flesh, Tree Ripened, Ready-to-eat - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3035",
+      "name": "Nectarines, White",
+      "category": "fruit"
+    },
+    {
+      "plu": "4036",
+      "name": "Nectarines, Yellow, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4035",
+      "name": "Nectarines, Yellow, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4699",
+      "name": "Negro Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4700",
+      "name": "New Mexico Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3417",
+      "name": "New Zealand Spinach",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3612",
+      "name": "Nicogreen Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3605",
+      "name": "Nicoter Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3524",
+      "name": "Noble Juicy Crunch Mandarins",
+      "category": "fruit"
+    },
+    {
+      "plu": "3330",
+      "name": "Oak Leaf Lettuce",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4656",
+      "name": "Okra - Chinese",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4657",
+      "name": "Okra - Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4655",
+      "name": "Okra - Regular (Green)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3162",
+      "name": "Ong Choy (Water Spinach)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4661",
+      "name": "Onions - Pickling, White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4659",
+      "name": "Onions, Bulb",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3618",
+      "name": "Opal Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3141",
+      "name": "Opo Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4682",
+      "name": "Orange Bell Pepper, Field Grown",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3121",
+      "name": "Orange Bell Pepper, Greenhouse",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3436",
+      "name": "Orange Cauliflower",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3458",
+      "name": "Orange Cherry Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4327",
+      "name": "Orange Flesh Cantaline Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3281",
+      "name": "Orange Seedless Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3308",
+      "name": "Orange Seedless Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3149",
+      "name": "Orange Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3476",
+      "name": "Orange Tree Leaf",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3028",
+      "name": "Oranges - Delta Seedless - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3553",
+      "name": "Oranges - M4 (Dulce Navels ™)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3370",
+      "name": "Oranges - Maltaise",
+      "category": "fruit"
+    },
+    {
+      "plu": "3110",
+      "name": "Oranges - Navel, Cara Cara",
+      "category": "fruit"
+    },
+    {
+      "plu": "3372",
+      "name": "Oranges - Navelate",
+      "category": "fruit"
+    },
+    {
+      "plu": "3373",
+      "name": "Oranges - Navelina",
+      "category": "fruit"
+    },
+    {
+      "plu": "3310",
+      "name": "Oranges - Pera",
+      "category": "fruit"
+    },
+    {
+      "plu": "3371",
+      "name": "Oranges - Salustiana",
+      "category": "fruit"
+    },
+    {
+      "plu": "3109",
+      "name": "Oranges - Seville",
+      "category": "fruit"
+    },
+    {
+      "plu": "3027",
+      "name": "Oranges - Shamouti",
+      "category": "fruit"
+    },
+    {
+      "plu": "3374",
+      "name": "Oranges - Untreated",
+      "category": "fruit"
+    },
+    {
+      "plu": "3108",
+      "name": "Oranges - Valencia, Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "4897",
+      "name": "Oregano",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3135",
+      "name": "Ornamental Gourd",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3092",
+      "name": "Oro Blanco/Sweetie Grapefruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4649",
+      "name": "Oyster Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4898",
+      "name": "Oyster Plant/Salsify",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3608",
+      "name": "Pacific Rose Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4122",
+      "name": "Pacific Rose Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4421",
+      "name": "Packham Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3477",
+      "name": "Papalo",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4395",
+      "name": "Papaya - Cooking/Mexican",
+      "category": "fruit"
+    },
+    {
+      "plu": "3112",
+      "name": "Papaya - Meridol",
+      "category": "fruit"
+    },
+    {
+      "plu": "4052",
+      "name": "Papaya - Regular - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4394",
+      "name": "Papaya - Regular Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3111",
+      "name": "Papaya, Solo Sunrise",
+      "category": "fruit"
+    },
+    {
+      "plu": "4671",
+      "name": "Parsley Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4899",
+      "name": "Parsley, Curly",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4901",
+      "name": "Parsley, Italian Flat Leaf",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4672",
+      "name": "Parsnips",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4701",
+      "name": "Pasilla Pepper, Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4703",
+      "name": "Pasilla Pod Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4702",
+      "name": "Pasilla Red Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3492",
+      "name": "Passion Fire™ Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3038",
+      "name": "Passion Fruit (Granadilla)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3311",
+      "name": "Passion Fruit - Curuba/Banana",
+      "category": "fruit"
+    },
+    {
+      "plu": "3312",
+      "name": "Passion Fruit - Granadilla - Yellow/Maracuja",
+      "category": "fruit"
+    },
+    {
+      "plu": "4397",
+      "name": "Passion Fruit - Purple",
+      "category": "fruit"
+    },
+    {
+      "plu": "4157",
+      "name": "Paulared Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4155",
+      "name": "Paulared Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3445",
+      "name": "Pazazz Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3115",
+      "name": "Peaches - Flat Yellow Flesh",
+      "category": "fruit"
+    },
+    {
+      "plu": "4399",
+      "name": "Peaches - Indian",
+      "category": "fruit"
+    },
+    {
+      "plu": "3375",
+      "name": "Peaches - Red Flesh",
+      "category": "fruit"
+    },
+    {
+      "plu": "3314",
+      "name": "Peaches - White Flesh - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3313",
+      "name": "Peaches - White Flesh - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3117",
+      "name": "Peaches - Yellow Flesh (Tree Ripened) - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3116",
+      "name": "Peaches - Yellow Flesh (Tree Ripened) - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4403",
+      "name": "Peaches - Yellow Flesh Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4402",
+      "name": "Peaches - Yellow Flesh Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4401",
+      "name": "Peaches, White, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4400",
+      "name": "Peaches, White, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4044",
+      "name": "Peaches, Yellow Flesh, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4043",
+      "name": "Peaches, Yellow Flesh, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4038",
+      "name": "Peaches, Yellow, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4037",
+      "name": "Peaches, Yellow, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4660",
+      "name": "Pearl Onions",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3376",
+      "name": "Pears - Alexander Lucas",
+      "category": "fruit"
+    },
+    {
+      "plu": "3317",
+      "name": "Pears - Angelys",
+      "category": "fruit"
+    },
+    {
+      "plu": "3316",
+      "name": "Pears - Carmen",
+      "category": "fruit"
+    },
+    {
+      "plu": "4960",
+      "name": "Pears - Fragrant",
+      "category": "fruit"
+    },
+    {
+      "plu": "3020",
+      "name": "Pears - General Leclerc",
+      "category": "fruit"
+    },
+    {
+      "plu": "3021",
+      "name": "Pears - Guyot",
+      "category": "fruit"
+    },
+    {
+      "plu": "3485",
+      "name": "Pears - Harovin Sundown",
+      "category": "fruit"
+    },
+    {
+      "plu": "3022",
+      "name": "Pears - Josephine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3377",
+      "name": "Pears - Louise Bonne",
+      "category": "fruit"
+    },
+    {
+      "plu": "3318",
+      "name": "Pears - Passe Crassane - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3023",
+      "name": "Pears - Passe Crassane - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3024",
+      "name": "Pears - Rocha",
+      "category": "fruit"
+    },
+    {
+      "plu": "3025",
+      "name": "Pears - Rosemarie",
+      "category": "fruit"
+    },
+    {
+      "plu": "3378",
+      "name": "Pears - Santa Maria",
+      "category": "fruit"
+    },
+    {
+      "plu": "3118",
+      "name": "Pears - Starkrimson",
+      "category": "fruit"
+    },
+    {
+      "plu": "3026",
+      "name": "Pears - Triumph de Vienne",
+      "category": "fruit"
+    },
+    {
+      "plu": "4333",
+      "name": "Pepino Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3475",
+      "name": "Peppermint Mint",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4334",
+      "name": "Persian Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4428",
+      "name": "Persimmon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4596",
+      "name": "Pickling Cucumbers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3134",
+      "name": "Pie Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4708",
+      "name": "Pimiento Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4864",
+      "name": "Pineapple - Dried",
+      "category": "fruit"
+    },
+    {
+      "plu": "4432",
+      "name": "Pineapple - Jet Fresh - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3379",
+      "name": "Pineapple - Mini",
+      "category": "fruit"
+    },
+    {
+      "plu": "3380",
+      "name": "Pineapple - Perola",
+      "category": "fruit"
+    },
+    {
+      "plu": "4430",
+      "name": "Pineapple, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4029",
+      "name": "Pineapple, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4431",
+      "name": "Pineapple, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3631",
+      "name": "Pink (Porcelain Doll) Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4130",
+      "name": "Pink Lady Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4128",
+      "name": "Pink Lady Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4704",
+      "name": "Pinole Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3435",
+      "name": "Pinova Apple",
+      "category": "fruit"
+    },
+    {
+      "plu": "4162",
+      "name": "Pippin Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4160",
+      "name": "Pippin Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3551",
+      "name": "Pitahaya - Red flesh (Fire Dragons)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3319",
+      "name": "Pitahaya - Yellow",
+      "category": "fruit"
+    },
+    {
+      "plu": "4235",
+      "name": "Plantains",
+      "category": "fruit"
+    },
+    {
+      "plu": "3620",
+      "name": "Plumac Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3278",
+      "name": "Plumcot (Pluot®)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4440",
+      "name": "Plums - Tree Ripened - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4439",
+      "name": "Plums - Tree Ripened - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4442",
+      "name": "Plums - Yellow - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4441",
+      "name": "Plums - Yellow - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4040",
+      "name": "Plums, Black, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4039",
+      "name": "Plums, Black, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4435",
+      "name": "Plums, Green, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4434",
+      "name": "Plums, Green, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4438",
+      "name": "Plums, Purple, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4437",
+      "name": "Plums, Purple, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4042",
+      "name": "Plums, Red, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4041",
+      "name": "Plums, Red, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4705",
+      "name": "Poblano Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4530",
+      "name": "Pole Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4617",
+      "name": "Polk Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3440",
+      "name": "Pomegranate - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3127",
+      "name": "Pomegranate, Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "4445",
+      "name": "Pomegranate, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4650",
+      "name": "Portabella Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4723",
+      "name": "Potato - Creamer - Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4724",
+      "name": "Potato - Creamer - White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4726",
+      "name": "Potato - Long - White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4725",
+      "name": "Potato - Russet",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3627",
+      "name": "PremA17 Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3628",
+      "name": "PremA280 Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3457",
+      "name": "President Plums",
+      "category": "fruit"
+    },
+    {
+      "plu": "4335",
+      "name": "Prince Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3129",
+      "name": "Pummelo, Red",
+      "category": "fruit"
+    },
+    {
+      "plu": "4279",
+      "name": "Pummelo, White",
+      "category": "fruit"
+    },
+    {
+      "plu": "4735",
+      "name": "Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4734",
+      "name": "Pumpkin - Mini",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3480",
+      "name": "Pumpkin Vine",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4683",
+      "name": "Purple Bell Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3483",
+      "name": "Purple Herb",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4531",
+      "name": "Purple Hull Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3128",
+      "name": "Purple Potato",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3495",
+      "name": "QTee® Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3037",
+      "name": "Queen Pineapple",
+      "category": "fruit"
+    },
+    {
+      "plu": "3478",
+      "name": "Quelites",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4447",
+      "name": "Quince",
+      "category": "fruit"
+    },
+    {
+      "plu": "3482",
+      "name": "Rabbit Herb",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4738",
+      "name": "Radicchio",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3168",
+      "name": "Radicchio - Castelfranco",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3165",
+      "name": "Radicchio - Treviso",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4739",
+      "name": "Radish - Black",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4740",
+      "name": "Radish - Bunched White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4741",
+      "name": "Radish - Italian Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4742",
+      "name": "Radish - Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4743",
+      "name": "Radish - White/Icicle",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4089",
+      "name": "Radishes, Red, Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4258",
+      "name": "Rainier Cherries",
+      "category": "fruit"
+    },
+    {
+      "plu": "3041",
+      "name": "Rambutan",
+      "category": "fruit"
+    },
+    {
+      "plu": "3487",
+      "name": "Rave™/First Kiss™ Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3614",
+      "name": "Red Apricots",
+      "category": "fruit"
+    },
+    {
+      "plu": "3415",
+      "name": "Red Baking Potato",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4236",
+      "name": "Red Bananas",
+      "category": "fruit"
+    },
+    {
+      "plu": "4088",
+      "name": "Red Bell Pepper (Field Grown)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4688",
+      "name": "Red Bell Pepper, Greenhouse",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4554",
+      "name": "Red Cabbage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4706",
+      "name": "Red Cheese Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3146",
+      "name": "Red Cherry Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3150",
+      "name": "Red Cocktail Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3088",
+      "name": "Red Currants",
+      "category": "fruit"
+    },
+    {
+      "plu": "3284",
+      "name": "Red Delicious Apples - Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4016",
+      "name": "Red Delicious Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4168",
+      "name": "Red Delicious Apples, Large (Alt)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4015",
+      "name": "Red Delicious Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4167",
+      "name": "Red Delicious Apples, Small (Alt)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4707",
+      "name": "Red Finger Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4636",
+      "name": "Red Globe Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4023",
+      "name": "Red Grapes, Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "3460",
+      "name": "Red Jonaprince Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4774",
+      "name": "Red Kuri Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4075",
+      "name": "Red Leaf Lettuce",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4082",
+      "name": "Red Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3331",
+      "name": "Red Onions - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4415",
+      "name": "Red Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3609",
+      "name": "Red Plumcot",
+      "category": "fruit"
+    },
+    {
+      "plu": "4073",
+      "name": "Red Potatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4054",
+      "name": "Red Raspberries",
+      "category": "fruit"
+    },
+    {
+      "plu": "3358",
+      "name": "Red/Black Cherries - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3357",
+      "name": "Red/Black Cherries - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3541",
+      "name": "RedPop® Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3298",
+      "name": "Redfield (Mahana Red) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4114",
+      "name": "Regent Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4112",
+      "name": "Regent Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3351",
+      "name": "Reine des Reinettes Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3350",
+      "name": "Reine des Reinettes Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3416",
+      "name": "Rhubarb - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4745",
+      "name": "Rhubarb - Regular",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3354",
+      "name": "Ripe Avocados",
+      "category": "fruit"
+    },
+    {
+      "plu": "3447",
+      "name": "Riverbelle Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4087",
+      "name": "Roma Tomatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3336",
+      "name": "Roma Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3282",
+      "name": "Roma Tomatoes on the Vine",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4640",
+      "name": "Romaine Lettuce",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4171",
+      "name": "Rome Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4172",
+      "name": "Rome Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4169",
+      "name": "Rome Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4170",
+      "name": "Rome Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4903",
+      "name": "Rosemary",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3418",
+      "name": "Round Zucchini/Courgette Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4174",
+      "name": "Royal Gala Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4173",
+      "name": "Royal Gala Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4455",
+      "name": "Royal Mandarin",
+      "category": "fruit"
+    },
+    {
+      "plu": "3008",
+      "name": "Rubinette Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3443",
+      "name": "RubyFrost Apple",
+      "category": "fruit"
+    },
+    {
+      "plu": "3009",
+      "name": "Russet Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4072",
+      "name": "Russet Potatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4747",
+      "name": "Rutabaga",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3469",
+      "name": "Sable Seedless® Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3472",
+      "name": "Sacred Pepper Leaf",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3410",
+      "name": "Saffron Milk-Cap Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3474",
+      "name": "Saffron Sweet Potato",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4904",
+      "name": "Sage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4336",
+      "name": "Santa Claus Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3136",
+      "name": "Sapodillo",
+      "category": "fruit"
+    },
+    {
+      "plu": "3081",
+      "name": "Saskatoon Berries",
+      "category": "fruit"
+    },
+    {
+      "plu": "4337",
+      "name": "Saticoy Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3029",
+      "name": "Satsuma Mandarins",
+      "category": "fruit"
+    },
+    {
+      "plu": "3389",
+      "name": "Satsuma Tangerine",
+      "category": "fruit"
+    },
+    {
+      "plu": "3388",
+      "name": "Satsuma Tangerine - Clauselina",
+      "category": "fruit"
+    },
+    {
+      "plu": "3139",
+      "name": "Savory",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4555",
+      "name": "Savoy Cabbage - Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4775",
+      "name": "Scallopini Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3450",
+      "name": "Scarlotta Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3296",
+      "name": "Sciearly (Pacific Beauty) Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3295",
+      "name": "Sciearly (Pacific Beauty) Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3616",
+      "name": "Scilate Apples (ENVY) - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3297",
+      "name": "Scired (Pacific Queen) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4422",
+      "name": "Seckel Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3617",
+      "name": "Seedless Lemons",
+      "category": "fruit"
+    },
+    {
+      "plu": "4709",
+      "name": "Serrano Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4662",
+      "name": "Shallots",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4338",
+      "name": "Sharlin Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3411",
+      "name": "Sheep Polypore Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4532",
+      "name": "Shell Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4651",
+      "name": "Shiitake Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3513",
+      "name": "Shinano Gold (yello®) Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3459",
+      "name": "Shiny Red Persimmon",
+      "category": "fruit"
+    },
+    {
+      "plu": "3448",
+      "name": "Skylar Rae Cherries",
+      "category": "fruit"
+    },
+    {
+      "plu": "3442",
+      "name": "SnapDragon Apple",
+      "category": "fruit"
+    },
+    {
+      "plu": "4092",
+      "name": "Snow Peas",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3300",
+      "name": "Sonya Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3299",
+      "name": "Sonya Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4905",
+      "name": "Sorrel",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3381",
+      "name": "Soursop",
+      "category": "fruit"
+    },
+    {
+      "plu": "4176",
+      "name": "Southern Snap Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4776",
+      "name": "Spaghetti Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4339",
+      "name": "Spanish Tendral Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4179",
+      "name": "Spartan Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4180",
+      "name": "Spartan Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4177",
+      "name": "Spartan Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4178",
+      "name": "Spartan Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4090",
+      "name": "Spinach, Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3051",
+      "name": "Spring Cabbage",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3289",
+      "name": "Sprite Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4751",
+      "name": "Squash - Acorn - Golden",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4752",
+      "name": "Squash - Acorn - Swan White Table Queen",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4753",
+      "name": "Squash - Australian Blue",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3353",
+      "name": "St Edmunds Pippin Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4256",
+      "name": "Starfruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4183",
+      "name": "Stayman Apples, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4181",
+      "name": "Stayman Apples, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3355",
+      "name": "Strawberries - 500g",
+      "category": "fruit"
+    },
+    {
+      "plu": "4323",
+      "name": "Strawberries - Bulk",
+      "category": "fruit"
+    },
+    {
+      "plu": "3356",
+      "name": "Strawberries, 250g",
+      "category": "fruit"
+    },
+    {
+      "plu": "4250",
+      "name": "Strawberries, Bulk 3-pack (3 pints)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4249",
+      "name": "Strawberries, Bulk 3-pack (3 pints)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4246",
+      "name": "Strawberries, Pint",
+      "category": "fruit"
+    },
+    {
+      "plu": "4028",
+      "name": "Strawberries, Pint",
+      "category": "fruit"
+    },
+    {
+      "plu": "4247",
+      "name": "Strawberries, Quart",
+      "category": "fruit"
+    },
+    {
+      "plu": "4248",
+      "name": "Strawberries, Quart",
+      "category": "fruit"
+    },
+    {
+      "plu": "3087",
+      "name": "Strawberry Indian Corn",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3465",
+      "name": "Stripy Bell Peppers (Enjoya™)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4182",
+      "name": "Sturmer Pippin Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3382",
+      "name": "Sugar Apple",
+      "category": "fruit"
+    },
+    {
+      "plu": "4790",
+      "name": "Sugar Cane",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4675",
+      "name": "Sugar Snap Peas",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3525",
+      "name": "SugarBee Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3533",
+      "name": "SugraFiftyFour Novelty Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3532",
+      "name": "SugraFiftySix Green Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3534",
+      "name": "SugraFiftyThree Red Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3531",
+      "name": "Sugrafortynine Black Seedless Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4497",
+      "name": "Sugraone Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4773",
+      "name": "Summer Squash (Patty Pan)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4449",
+      "name": "Sunburst Tangerines",
+      "category": "fruit"
+    },
+    {
+      "plu": "4777",
+      "name": "Sunburst Yellow Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4791",
+      "name": "Sunchokes (Jerusalem Artichokes)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3493",
+      "name": "Sunions® Tearless Sweet Onions",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3494",
+      "name": "Sunny Gold™ Yellow Mini Seedless Watermelon - 3-7 LBS",
+      "category": "fruit"
+    },
+    {
+      "plu": "3603",
+      "name": "SweeTango Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4764",
+      "name": "Sweet Dumpling Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4779",
+      "name": "Sweet Mama Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4166",
+      "name": "Sweet Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3520",
+      "name": "Sweet Onions",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3536",
+      "name": "Sweet Pixie Plums",
+      "category": "fruit"
+    },
+    {
+      "plu": "3334",
+      "name": "Sweet Potato - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3333",
+      "name": "Sweet Potato - Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4817",
+      "name": "Sweet Potato/Yam/Kumara - Red/Orangy Red Flesh - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4074",
+      "name": "Sweet Potatoes (Yam)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4816",
+      "name": "Sweet Potatoes, Golden",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4091",
+      "name": "Sweet Potatoes, White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3286",
+      "name": "Sweet Red Italian Onions - Flat",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3606",
+      "name": "Sweet Sensation Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3535",
+      "name": "Sweetheart Tearless Red Onions",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3491",
+      "name": "Sweeties™ Grapes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4586",
+      "name": "Swiss Chard, Green",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4587",
+      "name": "Swiss Chard, Red",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3068",
+      "name": "Swiss Gourmet Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3067",
+      "name": "Swiss Gourmet Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3413",
+      "name": "Tabasco Pepper",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4792",
+      "name": "Tamarillo - Golden",
+      "category": "fruit"
+    },
+    {
+      "plu": "4793",
+      "name": "Tamarillo - Red",
+      "category": "fruit"
+    },
+    {
+      "plu": "4448",
+      "name": "Tamarind",
+      "category": "fruit"
+    },
+    {
+      "plu": "4456",
+      "name": "Tangelo",
+      "category": "fruit"
+    },
+    {
+      "plu": "4459",
+      "name": "Tangelo - Jamaican (Ugli®)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4055",
+      "name": "Tangerines",
+      "category": "fruit"
+    },
+    {
+      "plu": "3427",
+      "name": "Tangerines/Mandarins - Ellendale - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3426",
+      "name": "Tangerines/Mandarins - Ellendale - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3425",
+      "name": "Tangerines/Mandarins - Ellendale - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3430",
+      "name": "Tangerines/Mandarins - Honey/Murcott - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3429",
+      "name": "Tangerines/Mandarins - Honey/Murcott - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3428",
+      "name": "Tangerines/Mandarins - Honey/Murcott - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3433",
+      "name": "Tangerines/Mandarins - Imperial - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3432",
+      "name": "Tangerines/Mandarins - Imperial - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3431",
+      "name": "Tangerines/Mandarins - Imperial - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3030",
+      "name": "Tangerines/mandarins - Nova",
+      "category": "fruit"
+    },
+    {
+      "plu": "3556",
+      "name": "Tangerines/mandarins - Tango Seedless (Tangold)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4794",
+      "name": "Taro Root",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4795",
+      "name": "Taro Root (Dasheen) - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4906",
+      "name": "Tarragon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3512",
+      "name": "Tasti-Lee Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4553",
+      "name": "Taylors Gold Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4387",
+      "name": "Temple Oranges, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4386",
+      "name": "Temple Oranges, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3514",
+      "name": "Tessa Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4618",
+      "name": "Texas Mustard Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4161",
+      "name": "Texas Sweet Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3090",
+      "name": "Thai Eggplant",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4907",
+      "name": "Thyme",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4801",
+      "name": "Tomatillos",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4797",
+      "name": "Tomatoes - Cherry - Yellow",
+      "category": "fruit"
+    },
+    {
+      "plu": "4804",
+      "name": "Tomatoes - Teardrop/Pear - Yellow",
+      "category": "fruit"
+    },
+    {
+      "plu": "4805",
+      "name": "Tomatoes - Vine Ripe, Regular - Red - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4664",
+      "name": "Tomatoes on the Vine",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4799",
+      "name": "Tomatoes, Greenhouse, Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4798",
+      "name": "Tomatoes, Greenhouse, Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4800",
+      "name": "Tomatoes, Native/Home Grown",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4064",
+      "name": "Tomatoes, Regular, Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4063",
+      "name": "Tomatoes, Regular, Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3434",
+      "name": "Tosca Pear",
+      "category": "fruit"
+    },
+    {
+      "plu": "4423",
+      "name": "Tree Ripened Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "4780",
+      "name": "Turban Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4809",
+      "name": "Turnip - Baby",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4810",
+      "name": "Turnip - Bunch/Banded",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4812",
+      "name": "Turnip - White",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4619",
+      "name": "Turnip Greens",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4811",
+      "name": "Turnips",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3166",
+      "name": "Tuscan Kale (Lacinato Kale)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4388",
+      "name": "Valencia Oranges, Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4014",
+      "name": "Valencia Oranges, Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4908",
+      "name": "Vanilla Bean",
+      "category": "fruit"
+    },
+    {
+      "plu": "3060",
+      "name": "Vegetable Marrow",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4159",
+      "name": "Vidalia Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3151",
+      "name": "Vine Ripe Tomatoes - Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4163",
+      "name": "Walla Walla Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4814",
+      "name": "Water Chestnuts",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4815",
+      "name": "Watercress",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3470",
+      "name": "Watermelon - Red, Small Seeds",
+      "category": "fruit"
+    },
+    {
+      "plu": "4031",
+      "name": "Watermelon, Red, Seeded",
+      "category": "fruit"
+    },
+    {
+      "plu": "4032",
+      "name": "Watermelon, Red, Seedless",
+      "category": "fruit"
+    },
+    {
+      "plu": "4533",
+      "name": "Wax Beans",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3414",
+      "name": "White Baking Potato",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4645",
+      "name": "White Button Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3439",
+      "name": "White Flesh Flat Nectarine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4188",
+      "name": "White Flesh Nectarine - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3157",
+      "name": "White Grapefruit, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3158",
+      "name": "White Grapefruit, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3159",
+      "name": "White Grapefruit, Extra Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4085",
+      "name": "White Mushrooms, Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4663",
+      "name": "White Onion",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4083",
+      "name": "White Potatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3132",
+      "name": "White Pumpkin",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3137",
+      "name": "White Sapote",
+      "category": "fruit"
+    },
+    {
+      "plu": "4781",
+      "name": "White Squash",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3276",
+      "name": "White Ñame",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3519",
+      "name": "Wild Twist Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4191",
+      "name": "Winesap Apples, Large (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4192",
+      "name": "Winesap Apples, Large (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4189",
+      "name": "Winesap Apples, Small (East/Central)",
+      "category": "fruit"
+    },
+    {
+      "plu": "4190",
+      "name": "Winesap Apples, Small (West)",
+      "category": "fruit"
+    },
+    {
+      "plu": "3456",
+      "name": "Winter Melon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4424",
+      "name": "Winter Nelis Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3545",
+      "name": "Wonderful® Seedless Lemons - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "3544",
+      "name": "Wonderful® Seedless Lemons - Medium",
+      "category": "fruit"
+    },
+    {
+      "plu": "3543",
+      "name": "Wonderful® Seedless Lemons - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "4652",
+      "name": "Wood Ear Mushrooms",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3011",
+      "name": "Worcester Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "3518",
+      "name": "Xenia Pears",
+      "category": "fruit"
+    },
+    {
+      "plu": "3481",
+      "name": "Xpelon",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4680",
+      "name": "Yellow Bell Pepper, Field Grown",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4689",
+      "name": "Yellow Bell Pepper, Greenhouse",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3147",
+      "name": "Yellow Cherry Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4772",
+      "name": "Yellow Chili Peppers",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3455",
+      "name": "Yellow Jackfruit",
+      "category": "fruit"
+    },
+    {
+      "plu": "4093",
+      "name": "Yellow Onion, Large",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4665",
+      "name": "Yellow Onion, Small",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4778",
+      "name": "Yellow Regular Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "3145",
+      "name": "Yellow Roma Tomatoes",
+      "category": "fruit"
+    },
+    {
+      "plu": "4341",
+      "name": "Yellow Seedless Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4784",
+      "name": "Yellow Squash, Crookneck",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4782",
+      "name": "Yellow Squash, Straightneck",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3148",
+      "name": "Yellow Tomatoes - On the Vine",
+      "category": "fruit"
+    },
+    {
+      "plu": "4095",
+      "name": "Yellow Turnip",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4340",
+      "name": "Yellow Watermelon",
+      "category": "fruit"
+    },
+    {
+      "plu": "4086",
+      "name": "Yellow Zucchini",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3275",
+      "name": "Yellow Ñame",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3412",
+      "name": "Yellow/Brown Onions - Bunch",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4187",
+      "name": "York Apples - Large",
+      "category": "fruit"
+    },
+    {
+      "plu": "4185",
+      "name": "York Apples - Small",
+      "category": "fruit"
+    },
+    {
+      "plu": "3164",
+      "name": "Yu Choy",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4819",
+      "name": "Yuca Root (Cassava)",
+      "category": "vegetable"
+    },
+    {
+      "plu": "4727",
+      "name": "Yukon Gold Potatoes",
+      "category": "vegetable"
+    },
+    {
+      "plu": "3547",
+      "name": "Zingy® Apples",
+      "category": "fruit"
+    },
+    {
+      "plu": "4067",
+      "name": "Zucchini",
+      "category": "vegetable"
+    }
+  ]
+}
