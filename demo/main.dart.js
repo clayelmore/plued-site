@@ -109525,7 +109525,7 @@ break
 default:s=49
 break}break
 case 5:s=50
-return A.c(p.lH("attempts","was_correct = 1"),$async$bN)
+return A.c(p.lH("attempts","was_correct = 1 AND mode = 'quick_play'"),$async$bN)
 case 50:q=c>=1
 s=1
 break
