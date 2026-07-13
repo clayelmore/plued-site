@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -3140,7 +3140,7 @@
       "name": "Cauliflower",
       "category": "vegetable",
       "plu": "4079",
-      "size_class": "L",
+      "size_class": "S",
       "rarity": "common",
       "confusion_group": null,
       "aliases": [
