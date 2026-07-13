@@ -1,0 +1,2141 @@
+{
+  "version": "2.0",
+  "description": "PLUed Memorization Learning Sequence — all codes verified against IFPS registry, with size/region/variety splits",
+  "mastery_threshold": 0.7,
+  "expansion_count": 2,
+  "verification_sources": [
+    "IFPS PLU registry (via ifpsglobal.com)",
+    "PLU Finder (plufinder.com)",
+    "Colnect fruit sticker database",
+    "IFPS alphabetical listing (fsproduce.com/2011-PLU-Listing1.pdf)",
+    "Produce Market Guide (producemarketguide.com)",
+    "Multiple retailer training flashcard sets (Quizlet)"
+  ],
+  "design_notes": [
+    "Items with size-based PLU variants are taught as SIZE SETS — all sizes presented together on one card.",
+    "Items with variety/form splits (bunch vs crowns, field vs greenhouse) are taught as VARIANT SETS.",
+    "Items with regional splits (East/Central vs West) include case-count context so learners understand the overlap.",
+    "Fuzzy logic should flag when a learner enters a valid code for the item but wrong size/region/form.",
+    "Frequency rankings based on IFPA 2025 household penetration data + ACNielsen/Circana sales data."
+  ],
+  "item_types": {
+    "single": "One PLU code covers all sizes. Just learn the number.",
+    "size_set": "Multiple PLU codes for different sizes of the same item. Learn the set.",
+    "variant_set": "Multiple PLU codes for different forms (bunch vs crowns, field vs greenhouse). Learn the set.",
+    "region_size_set": "PLU codes split by both size AND growing region. Learn the full matrix."
+  },
+  "waves": [
+    {
+      "wave": 0,
+      "label": "Core 12",
+      "description": "Highest-frequency produce by US household penetration (IFPA 2025)",
+      "unlock": "available_immediately",
+      "items": [
+        {
+          "name": "Banana",
+          "type": "single",
+          "household_pct": 83,
+          "codes": [
+            {
+              "plu": 4011,
+              "desc": "Yellow (incl. Cavendish)",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4011 is the common banana code; 4186 is small. Do not assume every banana uses 4011."
+        },
+        {
+          "name": "Russet Potato",
+          "type": "single",
+          "household_pct": 85,
+          "codes": [
+            {
+              "plu": 4072,
+              "desc": "Russet",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Other potato types: Red=4073, White=4083, Yellow=4727."
+        },
+        {
+          "name": "Yellow Onion",
+          "type": "size_set",
+          "household_pct": 83,
+          "codes": [
+            {
+              "plu": 4665,
+              "desc": "Yellow/Brown — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4093,
+              "desc": "Yellow/Brown — Large",
+              "size": "Large",
+              "size_spec": "3 count and larger, min diameter 75mm+"
+            }
+          ],
+          "card_note": "Two sizes! Large (4093) is in the veggie block. Small (4665) is way up in the 46xx range near mushrooms.",
+          "most_common": {
+            "plu": 4093,
+            "reason": "Large yellow onions outsell small at most stores"
+          }
+        },
+        {
+          "name": "Roma Tomato",
+          "type": "single",
+          "household_pct": 80,
+          "codes": [
+            {
+              "plu": 4087,
+              "desc": "Plum/Italian/Saladette/Roma — Red",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Official name is Plum/Italian/Saladette/Roma. NOT 3151 (that's Vine Ripe Large)."
+        },
+        {
+          "name": "Gala Apple",
+          "type": "size_set",
+          "household_pct": 78,
+          "codes": [
+            {
+              "plu": 4133,
+              "desc": "Gala — Small",
+              "size": "Small",
+              "size_spec": "100 count and smaller, avg fruit weight < 205g"
+            },
+            {
+              "plu": 4135,
+              "desc": "Gala — Large",
+              "size": "Large",
+              "size_spec": "88 count and larger, avg fruit weight 205g+"
+            }
+          ],
+          "card_note": "West uses odd codes: 4133 small, 4135 large. East/Central uses even codes: 4132 small, 4134 large.",
+          "most_common": {
+            "plu": 4135,
+            "reason": "Large Gala is the most stocked size"
+          }
+        },
+        {
+          "name": "Carrots (Loose)",
+          "type": "single",
+          "household_pct": 77,
+          "codes": [
+            {
+              "plu": 4562,
+              "desc": "Loose Carrots",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Bunch carrots = 4094, Baby = 4560, Sticks = 4563. Loose (4562) is the most common bulk code."
+        },
+        {
+          "name": "Iceberg Lettuce",
+          "type": "single",
+          "household_pct": 77,
+          "codes": [
+            {
+              "plu": 4061,
+              "desc": "Iceberg Lettuce",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Romaine=4640, Green Leaf=4076, Boston/Butter=4632."
+        },
+        {
+          "name": "Red Seedless Grapes",
+          "type": "single",
+          "household_pct": 75,
+          "codes": [
+            {
+              "plu": 4023,
+              "desc": "Red Seedless (Flame/Ruby/Emperatriz)",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Green seedless=4022, Black seedless=4056. Red Globe (seeded)=4636."
+        },
+        {
+          "name": "Green Bell Pepper (Field Grown)",
+          "type": "variant_set",
+          "household_pct": 73,
+          "codes": [
+            {
+              "plu": 4065,
+              "desc": "Bell, Field Grown — Green, Large",
+              "size": "Large",
+              "size_spec": "min diameter 65mm+",
+              "grow_method": "field"
+            },
+            {
+              "plu": 4681,
+              "desc": "Bell, Greenhouse — Green, Small",
+              "size": "Small",
+              "grow_method": "greenhouse"
+            },
+            {
+              "plu": 3120,
+              "desc": "Bell, Greenhouse — Green, Large",
+              "size": "Large",
+              "grow_method": "greenhouse"
+            }
+          ],
+          "card_note": "4065 is the everyday field-grown large green pepper; 4681 is field-grown small. Greenhouse small/large=3119/3120.",
+          "most_common": {
+            "plu": 4065,
+            "reason": "Field grown large green pepper is the standard grocery item"
+          }
+        },
+        {
+          "name": "Cucumber",
+          "type": "single",
+          "household_pct": 65,
+          "codes": [
+            {
+              "plu": 4062,
+              "desc": "Green/Ridge/Short Cucumber",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. English/Long Seedless=4593. Hot House=4593."
+        },
+        {
+          "name": "Celery",
+          "type": "size_set",
+          "household_pct": 62,
+          "codes": [
+            {
+              "plu": 4070,
+              "desc": "Celery Bunch — Small",
+              "size": "Small",
+              "size_spec": "30 count and smaller"
+            },
+            {
+              "plu": 4583,
+              "desc": "Celery Bunch — Large",
+              "size": "Large",
+              "size_spec": "24 count and larger"
+            }
+          ],
+          "card_note": "4070 (small) is the common one \u2014 nice round number in the veggie block. Large (4583) is in the 45xx zone. Hearts=4575, Sticks=4576.",
+          "most_common": {
+            "plu": 4070,
+            "reason": "Small bunch (4070) is what most stores stock as their standard celery"
+          }
+        },
+        {
+          "name": "Hass Avocado",
+          "type": "size_set",
+          "household_pct": 57,
+          "codes": [
+            {
+              "plu": 4046,
+              "desc": "Hass — Small/Medium",
+              "size": "Small/Med",
+              "size_spec": "60 count and smaller, ~3-5 oz"
+            },
+            {
+              "plu": 4225,
+              "desc": "Hass — Large",
+              "size": "Large",
+              "size_spec": "40-48 count, ~8-10 oz"
+            },
+            {
+              "plu": 4770,
+              "desc": "Hass — Extra Large",
+              "size": "Extra Large",
+              "size_spec": "36 count and larger, ~10-15 oz"
+            }
+          ],
+          "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one \u2014 all three show up at retail. Green-skin varieties have different codes entirely (4222, 4771).",
+          "most_common": {
+            "plu": 4046,
+            "reason": "Small/medium Hass is the highest volume avocado SKU in the US"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 1,
+      "label": "Citrus Trio",
+      "description": "Lemon (with size splits), regular lime, and Key Lime",
+      "unlock": "core_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Lemon",
+          "type": "size_set",
+          "household_pct": 28,
+          "codes": [
+            {
+              "plu": 4033,
+              "desc": "Lemon — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4958,
+              "desc": "Lemon — Medium",
+              "size": "Medium"
+            },
+            {
+              "plu": 4053,
+              "desc": "Lemon — Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "Three sizes. 4053 (large) is the most commonly seen. No regional split like oranges.",
+          "most_common": {
+            "plu": 4053,
+            "reason": "Large lemons are the standard grocery size"
+          }
+        },
+        {
+          "name": "Lime",
+          "type": "variant_set",
+          "household_pct": 16,
+          "codes": [
+            {
+              "plu": 4048,
+              "desc": "Regular (Persian/Tahiti/Bearss)",
+              "size": "All Sizes",
+              "form": "regular"
+            },
+            {
+              "plu": 4305,
+              "desc": "Key Lime (Mexican/West Indian)",
+              "size": "All Sizes",
+              "form": "key"
+            }
+          ],
+          "card_note": "Two varieties. Regular (4048) is the common grocery lime. Key Lime (4305) is smaller, rounder, more aromatic \u2014 used in Key Lime pie. Neither has a size split.",
+          "most_common": {
+            "plu": 4048,
+            "reason": "Regular Persian lime is 95%+ of lime sales"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "label": "Broccoli & Navel Orange",
+      "description": "Broccoli has form variants; navel has the most complex size/region matrix in produce",
+      "unlock": "wave_1_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Broccoli",
+          "type": "variant_set",
+          "household_pct": 51,
+          "codes": [
+            {
+              "plu": 4060,
+              "desc": "Broccoli Bunch",
+              "form": "bunch"
+            },
+            {
+              "plu": 3082,
+              "desc": "Broccoli Crowns",
+              "form": "crowns"
+            },
+            {
+              "plu": 4548,
+              "desc": "Broccoli Florettes",
+              "form": "florettes"
+            }
+          ],
+          "card_note": "Crowns (3082) are most common at retail. Bunch (4060) is in the veggie block. Florettes (4548) for pre-cut. Don't confuse with cauliflower florettes (4566).",
+          "most_common": {
+            "plu": 3082,
+            "reason": "Crowns outsell whole bunch broccoli at most retailers"
+          }
+        },
+        {
+          "name": "Navel Orange",
+          "type": "region_size_set",
+          "household_pct": 50,
+          "codes": [
+            {
+              "plu": 4013,
+              "desc": "Navel — Small, West",
+              "size": "Small",
+              "region": "West (CA/AZ)",
+              "size_spec": "113 count and smaller"
+            },
+            {
+              "plu": 3107,
+              "desc": "Navel — Medium, West",
+              "size": "Medium",
+              "region": "West (CA/AZ)",
+              "size_spec": "72-88 count"
+            },
+            {
+              "plu": 4012,
+              "desc": "Navel — Large, West",
+              "size": "Large",
+              "region": "West (CA/AZ)",
+              "size_spec": "56 count and larger"
+            },
+            {
+              "plu": 4384,
+              "desc": "Navel — Small, East/Central",
+              "size": "Small",
+              "region": "East/Central (FL)",
+              "size_spec": "125 count and smaller"
+            },
+            {
+              "plu": 4385,
+              "desc": "Navel — Large, East/Central",
+              "size": "Large",
+              "region": "East/Central (FL)",
+              "size_spec": "100 count and larger"
+            }
+          ],
+          "card_note": "\u26a0\ufe0f FIVE codes! Split by region AND size. Higher case count = smaller fruit. East/Central 'Large' (100ct) is actually SMALLER than West 'Medium' (88ct). West codes are most common since CA produces most US navels.",
+          "most_common": {
+            "plu": 4012,
+            "reason": "Large West navel (56ct) is the most common; CA produces most US navels"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "label": "Mushroom & Corn",
+      "description": "Common checkout items — mushrooms have size/variety splits",
+      "unlock": "wave_2_mastery >= 0.70",
+      "items": [
+        {
+          "name": "White Button Mushroom",
+          "type": "size_set",
+          "household_pct": 47,
+          "codes": [
+            {
+              "plu": 4645,
+              "desc": "Regular Button — Small",
+              "size": "Small",
+              "size_spec": "< 40mm diameter"
+            },
+            {
+              "plu": 4085,
+              "desc": "Regular Button — Large",
+              "size": "Large",
+              "size_spec": "40mm diameter and above"
+            }
+          ],
+          "card_note": "Small (4645) is in the 46xx mushroom zone. Large (4085) is in the veggie block! Cremini/Brown=4648, Portabella=4650. These are technically the same species at different growth stages.",
+          "most_common": {
+            "plu": 4085,
+            "reason": "Large button mushrooms (8oz/16oz packs) are the standard retail size"
+          }
+        },
+        {
+          "name": "Sweet Corn (Yellow)",
+          "type": "single",
+          "household_pct": 48,
+          "codes": [
+            {
+              "plu": 4078,
+              "desc": "Sweet Corn, Yellow",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. White corn=4077. Yellow (4078) is far more common."
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "label": "Pepper Colors & Second Apple",
+      "description": "Red bell pepper has field/greenhouse split; Fuji apple has size split",
+      "unlock": "wave_3_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Red Bell Pepper",
+          "type": "variant_set",
+          "household_pct": 73,
+          "codes": [
+            {
+              "plu": 4088,
+              "desc": "Bell, Field Grown — Red",
+              "size": "All Sizes",
+              "grow_method": "field"
+            },
+            {
+              "plu": 4688,
+              "desc": "Bell, Greenhouse — Red",
+              "size": "All Sizes",
+              "grow_method": "greenhouse"
+            }
+          ],
+          "card_note": "Field grown (4088) is in the veggie block right after Roma tomato (4087). Greenhouse (4688) is in the 46xx zone. Your store may use one or the other \u2014 check what's stocked.",
+          "most_common": {
+            "plu": 4088,
+            "reason": "Varies by store — field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
+          }
+        },
+        {
+          "name": "Fuji Apple",
+          "type": "size_set",
+          "household_pct": 78,
+          "codes": [
+            {
+              "plu": 4129,
+              "desc": "Fuji — Small",
+              "size": "Small",
+              "size_spec": "100 count and smaller, avg fruit weight < 205g"
+            },
+            {
+              "plu": 4131,
+              "desc": "Fuji — Large",
+              "size": "Large",
+              "size_spec": "88 count and larger, avg fruit weight 205g+"
+            }
+          ],
+          "card_note": "Small=4129, Large=4131. Compare to Gala (4133/4135) \u2014 Fuji codes are 4 less than Gala for each size.",
+          "most_common": {
+            "plu": 4131,
+            "reason": "Large Fuji is the most stocked size"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "label": "Tomato & Grape Depth",
+      "description": "Second tomato variety and green grapes",
+      "unlock": "wave_4_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Vine Ripe Tomato",
+          "type": "size_set",
+          "household_pct": 70,
+          "codes": [
+            {
+              "plu": 4805,
+              "desc": "Vine Ripe, Regular — Red, Small",
+              "size": "Small"
+            },
+            {
+              "plu": 3151,
+              "desc": "Vine Ripe, Regular — Red, Large",
+              "size": "Large",
+              "size_spec": "5x6 and larger, diameter 70mm+"
+            }
+          ],
+          "card_note": "Vine Ripe has a size split! 3151 is the large \u2014 this is NOT Roma (Roma=4087). On-the-vine/truss tomato (picked still on vine) = 4664, which is a different thing.",
+          "most_common": {
+            "plu": 3151,
+            "reason": "Large vine ripe is the standard tomato size"
+          }
+        },
+        {
+          "name": "Green Seedless Grapes",
+          "type": "single",
+          "household_pct": 70,
+          "codes": [
+            {
+              "plu": 4022,
+              "desc": "Green/White Seedless (Perlette/Thompson)",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Red seedless (4023) minus 1 = green seedless (4022)."
+        }
+      ]
+    },
+    {
+      "wave": 6,
+      "label": "Squash & Spinach",
+      "description": "Popular cooking vegetables — both are single codes",
+      "unlock": "wave_5_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Zucchini",
+          "type": "single",
+          "household_pct": 46,
+          "codes": [
+            {
+              "plu": 4067,
+              "desc": "Zucchini/Courgette",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Yellow zucchini/gold bar=4086. Regular zucchini (4067) is in the veggie block between green pepper (4065) and green onion (4068)."
+        },
+        {
+          "name": "Spinach",
+          "type": "single",
+          "household_pct": 45,
+          "codes": [
+            {
+              "plu": 4090,
+              "desc": "Regular/Bunched Spinach",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4090 is in the veggie block near onion (4093)."
+        }
+      ]
+    },
+    {
+      "wave": 7,
+      "label": "Melon Duo",
+      "description": "Watermelon is a variant set (seeded vs seedless); cantaloupe has size split",
+      "unlock": "wave_6_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Watermelon",
+          "type": "variant_set",
+          "household_pct": 70,
+          "codes": [
+            {
+              "plu": 4031,
+              "desc": "Red Seeded Watermelon",
+              "size": "All Sizes",
+              "form": "seeded"
+            },
+            {
+              "plu": 4032,
+              "desc": "Red Seedless Watermelon",
+              "size": "All Sizes",
+              "form": "seedless"
+            }
+          ],
+          "card_note": "Seeded=4031, Seedless=4032. Seedless is far more common today. Mini seedless=3421. Yellow seeded=4340, yellow seedless=4341.",
+          "most_common": {
+            "plu": 4032,
+            "reason": "Seedless has almost entirely replaced seeded watermelon at retail"
+          }
+        },
+        {
+          "name": "Cantaloupe",
+          "type": "size_set",
+          "household_pct": 56,
+          "codes": [
+            {
+              "plu": 4049,
+              "desc": "Cantaloupe/Muskmelon — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4050,
+              "desc": "Cantaloupe/Muskmelon — Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "Two sizes. 4050 (large) is more common. Don't confuse 4032 with cantaloupe \u2014 that's seedless watermelon!",
+          "most_common": {
+            "plu": 4050,
+            "reason": "Large cantaloupe is the standard grocery size"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 8,
+      "label": "More Apples",
+      "description": "Granny Smith and Honeycrisp round out the apple family",
+      "unlock": "wave_7_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Granny Smith Apple",
+          "type": "size_set",
+          "household_pct": 50,
+          "codes": [
+            {
+              "plu": 4139,
+              "desc": "Granny Smith — Small",
+              "size": "Small",
+              "size_spec": "100 count and smaller, avg fruit weight < 205g"
+            },
+            {
+              "plu": 4017,
+              "desc": "Granny Smith — Large",
+              "size": "Large",
+              "size_spec": "88 count and larger, avg fruit weight 205g+"
+            }
+          ],
+          "card_note": "\u26a0\ufe0f Unlike Gala/Fuji where small and large are 2 apart, Granny Smith codes are wildly separated: 4139 vs 4017. Large (4017) is near banana (4011) and orange (4012)!",
+          "most_common": {
+            "plu": 4017,
+            "reason": "Large Granny Smith is the most stocked size"
+          }
+        },
+        {
+          "name": "Honeycrisp Apple",
+          "type": "single",
+          "household_pct": 60,
+          "codes": [
+            {
+              "plu": 3283,
+              "desc": "Honeycrisp",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "Honeycrisp has a size split: 3283 large, 3468 small. Both live in the 3xxx range."
+        }
+      ]
+    },
+    {
+      "wave": 9,
+      "label": "Garlic, Cilantro & Cauliflower",
+      "description": "Small high-frequency items + cauliflower with its size/form splits",
+      "unlock": "wave_8_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Garlic",
+          "type": "single",
+          "household_pct": 28,
+          "codes": [
+            {
+              "plu": 4608,
+              "desc": "Garlic (bulb)",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4608 is in the 46xx zone with mushrooms and shallots (4662)."
+        },
+        {
+          "name": "Cauliflower",
+          "type": "size_set",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4079,
+              "desc": "Cauliflower — Small",
+              "size": "Small",
+              "size_spec": "12 count and smaller"
+            },
+            {
+              "plu": 4572,
+              "desc": "Cauliflower — Large",
+              "size": "Large",
+              "size_spec": "9 count and larger"
+            },
+            {
+              "plu": 4566,
+              "desc": "Cauliflower Florettes",
+              "form": "florettes"
+            }
+          ],
+          "card_note": "4079 is the small/standard cauliflower code; 4572 is large. Florettes=4566; Green=4567; Purple=4568.",
+          "most_common": {
+            "plu": 4079,
+            "reason": "Small/standard whole head is the most common; florettes growing in popularity"
+          }
+        },
+        {
+          "name": "Cilantro",
+          "type": "single",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4889,
+              "desc": "Cilantro/Coriander",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. Cilantro=4889, Dill=4891, Mint=4896. Italian parsley=4901 and curly parsley=4899."
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "label": "Yellow Pepper & Vine Tomato",
+      "description": "Building on pepper and tomato families already learned",
+      "unlock": "wave_9_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Yellow Bell Pepper",
+          "type": "variant_set",
+          "household_pct": 50,
+          "codes": [
+            {
+              "plu": 4680,
+              "desc": "Bell, Field Grown — Golden Yellow",
+              "size": "All Sizes",
+              "grow_method": "field"
+            },
+            {
+              "plu": 4689,
+              "desc": "Bell, Greenhouse — Yellow",
+              "size": "All Sizes",
+              "grow_method": "greenhouse"
+            }
+          ],
+          "card_note": "Field (4680) vs Greenhouse (4689). Compare: Green field=4065, Red field=4088, Yellow field=4680. No clean pattern between colors!",
+          "most_common": {
+            "plu": 4689,
+            "reason": "Most yellow bells at grocery are greenhouse grown (4689), but check your store"
+          }
+        },
+        {
+          "name": "On-the-Vine Tomato (Truss)",
+          "type": "single",
+          "household_pct": 65,
+          "codes": [
+            {
+              "plu": 4664,
+              "desc": "Regular — Red, On the Vine (Truss)",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "This is tomatoes sold still attached to the vine/truss. Different from Vine RIPE (3151/4805) which is about ripening method. 4664 is near yellow onion small (4665)."
+        }
+      ]
+    },
+    {
+      "wave": 11,
+      "label": "More Lettuce & Green Onion",
+      "description": "Romaine and green leaf are the next most common lettuces after iceberg; green onion is an everyday item",
+      "unlock": "wave_10_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Romaine Lettuce",
+          "type": "single",
+          "household_pct": 55,
+          "codes": [
+            {
+              "plu": 4640,
+              "desc": "Romaine/Cos Lettuce",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4640 is in the 46xx zone, NOT in the veggie block with iceberg (4061). Romaine hearts are often sold bagged with a UPC, not a PLU."
+        },
+        {
+          "name": "Green Leaf Lettuce",
+          "type": "single",
+          "household_pct": 45,
+          "codes": [
+            {
+              "plu": 4076,
+              "desc": "Green Leaf Lettuce",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4076 sits between red leaf lettuce 4075 and white corn 4077. Sweet potato is 4074."
+        },
+        {
+          "name": "Green Onion / Scallion",
+          "type": "single",
+          "household_pct": 50,
+          "codes": [
+            {
+              "plu": 4068,
+              "desc": "Green Onions (Scallions)/Spring Onions",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4068 is in the veggie block between zucchini (4067) and green cabbage (4069). Different from shallots (4662) and leeks (4629)."
+        }
+      ]
+    },
+    {
+      "wave": 12,
+      "label": "Pear Trio",
+      "description": "Three most common pear varieties — all have size splits; Bosc also has a regional split",
+      "unlock": "wave_11_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Bartlett Pear",
+          "type": "size_set",
+          "household_pct": 26,
+          "codes": [
+            {
+              "plu": 4024,
+              "desc": "Bartlett/Williams — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4409,
+              "desc": "Bartlett/Williams — Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "Small (4024) is in the fruit row near grapes. Large (4409) is in the pear zone (4409-4423). Red Bartlett=4410.",
+          "most_common": {
+            "plu": 4409,
+            "reason": "Large Bartlett is the standard grocery size"
+          }
+        },
+        {
+          "name": "D'Anjou Pear",
+          "type": "size_set",
+          "household_pct": 22,
+          "codes": [
+            {
+              "plu": 4025,
+              "desc": "D'Anjou — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4416,
+              "desc": "D'Anjou — Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "Small (4025) is in the fruit row. Large (4416) is in the pear zone. Red D'Anjou=4417.",
+          "most_common": {
+            "plu": 4416,
+            "reason": "Large D'Anjou is the standard grocery size"
+          }
+        },
+        {
+          "name": "Bosc Pear",
+          "type": "region_size_set",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4026,
+              "desc": "Bosc — Small/Large, West",
+              "size": "Small",
+              "region": "West"
+            },
+            {
+              "plu": 4411,
+              "desc": "Bosc — Small, East",
+              "size": "Small",
+              "region": "East"
+            },
+            {
+              "plu": 4413,
+              "desc": "Bosc — Large, West",
+              "size": "Large",
+              "region": "West"
+            },
+            {
+              "plu": 4412,
+              "desc": "Bosc — Large, East",
+              "size": "Large",
+              "region": "East"
+            }
+          ],
+          "card_note": "Bosc is the most complex pear \u2014 4 codes split by size AND region, similar to navel orange. 4026 (West) is in the fruit row. 4411-4413 are in the pear zone.",
+          "most_common": {
+            "plu": 4413,
+            "reason": "Large West Bosc is most common — majority of US pears come from WA/OR"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 13,
+      "label": "Hot Peppers",
+      "description": "Jalapeño, serrano, poblano, and habanero — the four most common hot peppers",
+      "unlock": "wave_12_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Jalapeño Pepper",
+          "type": "variant_set",
+          "household_pct": 40,
+          "codes": [
+            {
+              "plu": 4693,
+              "desc": "Jalapeño — Green",
+              "size": "All Sizes"
+            },
+            {
+              "plu": 4694,
+              "desc": "Jalapeño — Red",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "Green (4693) is far more common. Red (4694) is just a ripe green jalape\u00f1o. Both in the hot pepper zone (4690s).",
+          "most_common": {
+            "plu": 4693,
+            "reason": "Green jalapeño is 90%+ of jalapeño sales"
+          }
+        },
+        {
+          "name": "Serrano Pepper",
+          "type": "single",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4709,
+              "desc": "Serrano Pepper",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4709 is in the 47xx hot pepper zone. Smaller and hotter than jalape\u00f1o."
+        },
+        {
+          "name": "Poblano Pepper",
+          "type": "single",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4705,
+              "desc": "Poblano Pepper",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4705. The dried version is called Ancho. Mild heat, large size \u2014 often stuffed."
+        },
+        {
+          "name": "Habanero Pepper",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 3125,
+              "desc": "Habanero Pepper",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "3125 \u2014 the only common hot pepper in the 3xxx range. Very hot. Don't confuse with scotch bonnet (similar look, different code)."
+        }
+      ]
+    },
+    {
+      "wave": 14,
+      "label": "Pineapple & Mango",
+      "description": "Tropical fruits — pineapple has size split, mango has color/size splits",
+      "unlock": "wave_13_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Pineapple",
+          "type": "size_set",
+          "household_pct": 44,
+          "codes": [
+            {
+              "plu": 4029,
+              "desc": "Pineapple — Small",
+              "size": "Small",
+              "size_spec": "12 count and smaller"
+            },
+            {
+              "plu": 4430,
+              "desc": "Pineapple — Large",
+              "size": "Large",
+              "size_spec": "8 count and larger"
+            }
+          ],
+          "card_note": "Small (4029) is in the fruit row. Large (4430) is in the 44xx zone. Most stores carry large \u2014 4430 is the more common code.",
+          "most_common": {
+            "plu": 4430,
+            "reason": "Large pineapple is what most stores carry"
+          }
+        },
+        {
+          "name": "Mango (Red)",
+          "type": "size_set",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4051,
+              "desc": "Red Mango (Tommy Atkins/Haden/Kent) — Small",
+              "size": "Small",
+              "size_spec": "12 count and smaller"
+            },
+            {
+              "plu": 4959,
+              "desc": "Red Mango — Large",
+              "size": "Large",
+              "size_spec": "8-10 count"
+            }
+          ],
+          "card_note": "Mango PLUs are organized by SKIN COLOR, not variety. Red covers Tommy Atkins, Kent, Haden, etc. Yellow/Ataulfo mango is a separate code: 4312 (small), 4961 (large). Green/Keitt=4311.",
+          "most_common": {
+            "plu": 4051,
+            "reason": "Small red mango (Tommy Atkins etc.) is the most common size at retail"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 15,
+      "label": "Kiwi & Asparagus",
+      "description": "Both are single codes, commonly purchased",
+      "unlock": "wave_14_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Kiwifruit",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4030,
+              "desc": "Kiwifruit, Regular",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4030 is in the fruit row. Gold kiwi=4301."
+        },
+        {
+          "name": "Asparagus (Green)",
+          "type": "size_set",
+          "household_pct": 21,
+          "codes": [
+            {
+              "plu": 4080,
+              "desc": "Asparagus, Green — Small/Standard",
+              "size": "Small",
+              "size_spec": "Standard and large size"
+            },
+            {
+              "plu": 4521,
+              "desc": "Asparagus, Green — Large/Jumbo",
+              "size": "Large",
+              "size_spec": "Jumbo and extra large size"
+            }
+          ],
+          "card_note": "Standard (4080) is the common one \u2014 right at the edge of the veggie block after cauliflower (4079). Jumbo (4521) is less common. White asparagus=4522, Purple=3079.",
+          "most_common": {
+            "plu": 4080,
+            "reason": "Standard green asparagus is the everyday item; jumbo is specialty"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 16,
+      "label": "Potato & Sweet Potato Variants",
+      "description": "Red potato, white onion, and the sweet potato family",
+      "unlock": "wave_15_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Red Potato",
+          "type": "single",
+          "household_pct": 40,
+          "codes": [
+            {
+              "plu": 4073,
+              "desc": "Red Potato",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4073 is right next to russet (4072) in the veggie block. White=4083, Yellow/Yukon=4727."
+        },
+        {
+          "name": "Sweet Potato / Yam",
+          "type": "variant_set",
+          "household_pct": 19,
+          "codes": [
+            {
+              "plu": 4074,
+              "desc": "Sweet Potato — Red/Orange Flesh, Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4817,
+              "desc": "Sweet Potato — Red/Orange Flesh, Large",
+              "size": "Large"
+            },
+            {
+              "plu": 4816,
+              "desc": "Sweet Potato — Golden",
+              "size": "All Sizes"
+            },
+            {
+              "plu": 4091,
+              "desc": "Sweet Potato — White",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "Complex family. The orange-fleshed sweet potato most people buy is 4074 (small) or 4817 (large). Golden (4816) and White (4091) are different varieties. 4091 is in the veggie block; 4074 is too.",
+          "most_common": {
+            "plu": 4074,
+            "reason": "Small orange-fleshed sweet potato is the most common grocery sweet potato"
+          }
+        },
+        {
+          "name": "White Onion",
+          "type": "single",
+          "household_pct": 35,
+          "codes": [
+            {
+              "plu": 4663,
+              "desc": "White Onion",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "White onion=4663. Compare yellow large=4093, yellow small=4665, and red=4082."
+        }
+      ]
+    },
+    {
+      "wave": 17,
+      "label": "Stone Fruits",
+      "description": "Peaches, nectarines, and plums — seasonal but high volume. All have size splits.",
+      "unlock": "wave_16_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Yellow Peach",
+          "type": "size_set",
+          "household_pct": 49,
+          "codes": [
+            {
+              "plu": 4038,
+              "desc": "Yellow Peach — Small",
+              "size": "Small",
+              "size_spec": "70 count and smaller"
+            },
+            {
+              "plu": 4044,
+              "desc": "Yellow Peach — Large/Ready-to-Eat",
+              "size": "Large",
+              "size_spec": "Tree ripened, ready-to-eat"
+            }
+          ],
+          "card_note": "4037 is small yellow peach; 4038 is large. 4044 is tree-ripened/ready-to-eat, not the regular large code.",
+          "most_common": {
+            "plu": 4044,
+            "reason": "Large/ready-to-eat yellow peach is the standard retail size"
+          }
+        },
+        {
+          "name": "Yellow Nectarine",
+          "type": "size_set",
+          "household_pct": 35,
+          "codes": [
+            {
+              "plu": 4035,
+              "desc": "Yellow Nectarine — Small",
+              "size": "Small",
+              "size_spec": "70 count and smaller"
+            },
+            {
+              "plu": 4036,
+              "desc": "Yellow Nectarine — Large",
+              "size": "Large",
+              "size_spec": "56 count and larger"
+            }
+          ],
+          "card_note": "4035 (small) and 4036 (large) \u2014 consecutive numbers in the fruit row. White nectarine (tree-ripened)=3035.",
+          "most_common": {
+            "plu": 4036,
+            "reason": "Large yellow nectarine is the standard retail size"
+          }
+        },
+        {
+          "name": "Plum",
+          "type": "variant_set",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4040,
+              "desc": "Black Plum",
+              "size": "All Sizes"
+            },
+            {
+              "plu": 4042,
+              "desc": "Red Plum — Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "Black (4040) and Red (4042) \u2014 both in the fruit row. Pluots/Plumcots have their own codes (3278, etc.).",
+          "most_common": {
+            "plu": 4040,
+            "reason": "Black plum is more widely stocked than red plum"
+          }
+        }
+      ]
+    },
+    {
+      "wave": 18,
+      "label": "Herbs",
+      "description": "Parsley (two types), basil, dill, and mint — the most common fresh herbs after cilantro",
+      "unlock": "wave_17_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Italian Parsley",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4901,
+              "desc": "Parsley, Italian/Flat Leaf",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4901. Looks very similar to cilantro (4889) \u2014 one of the most common produce mix-ups. Curly parsley=4899."
+        },
+        {
+          "name": "Curly Parsley",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4899,
+              "desc": "Parsley, Curly",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4899. Two apart from Italian (4901). Curly is more commonly used as garnish."
+        },
+        {
+          "name": "Fresh Basil",
+          "type": "single",
+          "household_pct": 18,
+          "codes": [
+            {
+              "plu": 4885,
+              "desc": "Basil",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4885. Opal basil=4886, Sweet basil=4887. Herbs are clustered 4885-4908: Basil(4885), Chives(4888), Cilantro(4889), Dill(4891), Mint(4896), Parsley curly(4899), Parsley Italian(4901), Rosemary(4903), Thyme(4907)."
+        },
+        {
+          "name": "Fresh Dill",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4891,
+              "desc": "Dill",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4891. Pickling dill=4893 (different code). Regular dill is used fresh; pickling dill includes the flower head."
+        },
+        {
+          "name": "Fresh Mint",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4896,
+              "desc": "Mint",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4896. In the herb cluster between lemon grass (4894) and oregano (4897)."
+        }
+      ]
+    },
+    {
+      "wave": 19,
+      "label": "Cabbage & Squash Varieties",
+      "description": "Green cabbage plus butternut and acorn squash",
+      "unlock": "wave_18_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Green Cabbage",
+          "type": "single",
+          "household_pct": 43,
+          "codes": [
+            {
+              "plu": 4069,
+              "desc": "Green Cabbage",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4069 is in the veggie block between green onion (4068) and celery (4070). Red cabbage=4554, Napa=4552."
+        },
+        {
+          "name": "Butternut Squash",
+          "type": "single",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4759,
+              "desc": "Butternut Squash",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4759 is in the squash zone (4750-4770). Acorn=4750, Spaghetti=4776."
+        },
+        {
+          "name": "Acorn Squash",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4750,
+              "desc": "Acorn Squash",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4750 starts the squash zone. Spaghetti squash=4776."
+        }
+      ]
+    },
+    {
+      "wave": 20,
+      "label": "Specialty Mushrooms & Ginger",
+      "description": "Cremini, portabella, and ginger round out Tier 2",
+      "unlock": "wave_19_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Cremini / Brown Mushroom",
+          "type": "single",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4648,
+              "desc": "Cremini/Brown/Swiss Brown Mushroom",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4648 is in mushroom row (4645-4652). Cremini are actually baby portabellas \u2014 same species (Agaricus bisporus) as white button and portabella, just different growth stages."
+        },
+        {
+          "name": "Portabella Mushroom",
+          "type": "single",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4650,
+              "desc": "Portabella Mushroom",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4650. Same species as cremini (4648) and button (4645/4085) \u2014 just fully mature."
+        },
+        {
+          "name": "Ginger Root",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4612,
+              "desc": "Ginger Root",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4612. Often sold by weight. In the 46xx zone near garlic (4608) and collard greens (4614)."
+        }
+      ]
+    },
+    {
+      "wave": 21,
+      "label": "More Apples: Red & Golden Delicious",
+      "description": "Classic apple varieties — both have size AND regional splits like navel orange",
+      "unlock": "wave_20_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Red Delicious Apple",
+          "type": "region_size_set",
+          "household_pct": 35,
+          "codes": [
+            {
+              "plu": 4015,
+              "desc": "Red Delicious — Small, West",
+              "size": "Small",
+              "region": "West"
+            },
+            {
+              "plu": 4016,
+              "desc": "Red Delicious — Large, West",
+              "size": "Large",
+              "region": "West"
+            },
+            {
+              "plu": 4167,
+              "desc": "Red Delicious — Small, East/Central",
+              "size": "Small",
+              "region": "East/Central"
+            },
+            {
+              "plu": 4168,
+              "desc": "Red Delicious — Large, East/Central",
+              "size": "Large",
+              "region": "East/Central"
+            },
+            {
+              "plu": 3284,
+              "desc": "Red Delicious — Extra Large, West",
+              "size": "Extra Large",
+              "region": "West"
+            }
+          ],
+          "most_common": {
+            "plu": 4016,
+            "reason": "Large West Red Delicious is the standard grocery size"
+          },
+          "card_note": "5 codes! Regional + size split like navel orange. West codes (4015/4016) are in the fruit row near Granny Smith large (4017). East codes (4167/4168) are in the apple zone."
+        },
+        {
+          "name": "Golden Delicious Apple",
+          "type": "size_set",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4021,
+              "desc": "Golden Delicious — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4020,
+              "desc": "Golden Delicious — Large",
+              "size": "Large"
+            },
+            {
+              "plu": 3285,
+              "desc": "Golden Delicious — Extra Large/Jumbo",
+              "size": "Extra Large"
+            }
+          ],
+          "most_common": {
+            "plu": 4020,
+            "reason": "Large Golden Delicious is the standard grocery size"
+          },
+          "card_note": "The reversal is West-only: 4020 large, 4021 small. East/Central is normal: 4136 small, 4137 large. Extra large=3285."
+        }
+      ]
+    },
+    {
+      "wave": 22,
+      "label": "Pink Lady & Braeburn",
+      "description": "Two more popular apple varieties",
+      "unlock": "wave_21_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Pink Lady / Cripps Pink Apple",
+          "type": "size_set",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4128,
+              "desc": "Pink Lady/Cripps Pink — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4130,
+              "desc": "Pink Lady/Cripps Pink — Large",
+              "size": "Large"
+            }
+          ],
+          "most_common": {
+            "plu": 4130,
+            "reason": "Large Pink Lady is the standard grocery size"
+          },
+          "card_note": "Small=4128, Large=4130. Right before Fuji (4129/4131) in Apple Alley. Pink Lady is a trademarked name for Cripps Pink variety."
+        },
+        {
+          "name": "Braeburn Apple",
+          "type": "size_set",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4101,
+              "desc": "Braeburn — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4103,
+              "desc": "Braeburn — Large",
+              "size": "Large"
+            }
+          ],
+          "most_common": {
+            "plu": 4103,
+            "reason": "Large Braeburn is the standard grocery size"
+          },
+          "card_note": "Small=4101, Large=4103. In the 41xx apple zone. Two apart like Fuji and Gala."
+        }
+      ]
+    },
+    {
+      "wave": 23,
+      "label": "Grapefruit & Cherry Tomato",
+      "description": "Grapefruit has a size split; cherry tomatoes are increasingly popular",
+      "unlock": "wave_22_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Ruby/Red Grapefruit",
+          "type": "size_set",
+          "household_pct": 12,
+          "codes": [
+            {
+              "plu": 4047,
+              "desc": "Ruby/Red/Pink Grapefruit — Small",
+              "size": "Small",
+              "size_spec": "40 count and smaller"
+            },
+            {
+              "plu": 4281,
+              "desc": "Ruby Red Grapefruit — Large",
+              "size": "Large"
+            }
+          ],
+          "most_common": {
+            "plu": 4047,
+            "reason": "Small/standard grapefruit is more common than jumbo"
+          },
+          "card_note": "4027 is the common small Ruby Red grapefruit code; 4047 is the small alternate. Large=4281."
+        },
+        {
+          "name": "Cherry Tomato (Red)",
+          "type": "single",
+          "household_pct": 40,
+          "codes": [
+            {
+              "plu": 4796,
+              "desc": "Cherry Tomato — Red",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4796. Yellow cherry=4797. Most cherry/grape tomatoes are sold in clamshells with UPCs, but loose ones need the PLU."
+        },
+        {
+          "name": "Grape Tomato",
+          "type": "single",
+          "household_pct": 35,
+          "codes": [
+            {
+              "plu": 4799,
+              "desc": "Greenhouse/Hydroponic Tomato — Regular Red, Large",
+              "size": "Large"
+            }
+          ],
+          "card_note": "4799 is actually the greenhouse/hydroponic regular tomato (large). True grape tomatoes are often sold under retailer-assigned codes or UPC clamshells. Check your store's system."
+        }
+      ]
+    },
+    {
+      "wave": 24,
+      "label": "Eggplant, Green Beans & Radish",
+      "description": "Three common veggie-block-adjacent items",
+      "unlock": "wave_23_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Eggplant",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4081,
+              "desc": "Eggplant/Aubergine — Regular/Purple",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4081 is regular purple eggplant. Chinese=3089, Thai=3090, Japanese=4601."
+        },
+        {
+          "name": "Green Beans",
+          "type": "single",
+          "household_pct": 32,
+          "codes": [
+            {
+              "plu": 4066,
+              "desc": "Green Beans/Snap Beans/String Beans",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4066 is in the veggie block between green bell pepper (4065) and zucchini (4067)."
+        },
+        {
+          "name": "Red Radish (bunched)",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4089,
+              "desc": "Radish — Bunched Red",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4089 is in the veggie block right after red bell pepper field (4088). Daikon radish=4598."
+        }
+      ]
+    },
+    {
+      "wave": 25,
+      "label": "Beets, Leeks & Shallots",
+      "description": "Less common but regular items at most stores",
+      "unlock": "wave_24_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Beets (Red)",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4539,
+              "desc": "Beets — Red",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4539. Golden beets=4540. In the 45xx root vegetable zone."
+        },
+        {
+          "name": "Leek",
+          "type": "single",
+          "household_pct": 10,
+          "codes": [
+            {
+              "plu": 4629,
+              "desc": "Leek — Regular",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4629. Baby leek=4630. Not the same as green onion (4068) \u2014 leeks are much larger."
+        },
+        {
+          "name": "Shallots",
+          "type": "single",
+          "household_pct": 12,
+          "codes": [
+            {
+              "plu": 4662,
+              "desc": "Shallots",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4662 is in the 46xx onion zone near white onion (4663) and vine tomato (4664)."
+        }
+      ]
+    },
+    {
+      "wave": 26,
+      "label": "Winter Squash",
+      "description": "Spaghetti squash and delicata — seasonal but popular",
+      "unlock": "wave_25_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Spaghetti Squash",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4776,
+              "desc": "Spaghetti/Vegetable Spaghetti Squash",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4776 is in the squash zone (4750-4789). Popular low-carb pasta substitute."
+        },
+        {
+          "name": "Yellow Crookneck Squash",
+          "type": "single",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4784,
+              "desc": "Yellow Squash — Crookneck",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4784. The common 'yellow squash' at grocery. Straightneck yellow=4782. Different from yellow zucchini (4086)."
+        },
+        {
+          "name": "Yellow Straightneck Squash",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4782,
+              "desc": "Yellow Squash — Straightneck",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4782. Some stores use this interchangeably with crookneck (4784) \u2014 the shape of the neck is the difference."
+        }
+      ]
+    },
+    {
+      "wave": 27,
+      "label": "Tropical Fruits",
+      "description": "Papaya, coconut, and Ataulfo/yellow mango",
+      "unlock": "wave_26_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Papaya",
+          "type": "single",
+          "household_pct": 10,
+          "codes": [
+            {
+              "plu": 4394,
+              "desc": "Papaya/Pawpaw — Regular, Large",
+              "size": "Large",
+              "size_spec": "9 count and larger"
+            }
+          ],
+          "card_note": "4394 is regular large papaya. 4052 is the standard small Solo/Hawaiian papaya code. Cooking/Mexican papaya=4395."
+        },
+        {
+          "name": "Coconut",
+          "type": "single",
+          "household_pct": 8,
+          "codes": [
+            {
+              "plu": 4260,
+              "desc": "Coconut",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4260. Young/green coconut and coconut water are usually sold with UPCs."
+        },
+        {
+          "name": "Ataulfo / Yellow Mango",
+          "type": "size_set",
+          "household_pct": 20,
+          "codes": [
+            {
+              "plu": 4312,
+              "desc": "Yellow Mango (Ataulfo/Honey Manila) — Small",
+              "size": "Small",
+              "size_spec": "18 count and smaller"
+            },
+            {
+              "plu": 4961,
+              "desc": "Yellow Mango — Large",
+              "size": "Large",
+              "size_spec": "16 count and larger"
+            }
+          ],
+          "most_common": {
+            "plu": 4312,
+            "reason": "Small Ataulfo is the standard size — they're naturally smaller than red mangos"
+          },
+          "card_note": "Mangos are coded by SKIN COLOR: Red=4051/4959 (wave 14), Yellow/Ataulfo=4312/4961, Green/Keitt=4311. Ataulfo is flatter, creamier, and less fibrous than red varieties."
+        }
+      ]
+    },
+    {
+      "wave": 28,
+      "label": "Cherries, Tangerines & Apricots",
+      "description": "Fruits sold loose that actually need PLU entry — not clamshell/scan items",
+      "unlock": "wave_27_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Red Cherries",
+          "type": "single",
+          "household_pct": 41,
+          "codes": [
+            {
+              "plu": 4045,
+              "desc": "Cherries — Regular/Red/Black",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4045 is the common all-sizes red/black cherry code. Size-specific codes also exist: 3357 small, 3358 large."
+        },
+        {
+          "name": "Tangerine / Mandarin",
+          "type": "single",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4055,
+              "desc": "Tangerine/Mandarin",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4055 covers loose tangerines/mandarins. Cuties, Halos, etc. in bags have UPCs, but loose ones at the bin need this PLU. Right after raspberries (4054) in the fruit row."
+        },
+        {
+          "name": "Apricots",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4218,
+              "desc": "Apricots — Yellow",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4218=small/standard apricot; 3302=large. Red apricot is 3614."
+        }
+      ]
+    },
+    {
+      "wave": 29,
+      "label": "Onion & Pepper Variants",
+      "description": "Red onion, orange bell pepper, and Anaheim chile",
+      "unlock": "wave_28_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Red Onion",
+          "type": "single",
+          "household_pct": 45,
+          "codes": [
+            {
+              "plu": 4082,
+              "desc": "Red Onion",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "No size split. 4082 is in the veggie block. Unlike yellow onion which has small (4665) and large (4093), red onion is one code for all sizes."
+        },
+        {
+          "name": "Orange Bell Pepper",
+          "type": "variant_set",
+          "household_pct": 30,
+          "codes": [
+            {
+              "plu": 4682,
+              "desc": "Bell, Field Grown — Orange",
+              "size": "All Sizes",
+              "grow_method": "field"
+            },
+            {
+              "plu": 3121,
+              "desc": "Bell, Greenhouse — Orange",
+              "size": "All Sizes",
+              "grow_method": "greenhouse"
+            }
+          ],
+          "most_common": {
+            "plu": 3121,
+            "reason": "Most orange bells at retail are greenhouse grown"
+          },
+          "card_note": "Field (4682) vs Greenhouse (3121). Orange greenhouse is in the 3xxx range \u2014 the only common greenhouse pepper there. Compare: Red greenhouse=4688, Yellow greenhouse=4689."
+        },
+        {
+          "name": "Anaheim / New Mexico Chile",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4677,
+              "desc": "Anaheim Chile Pepper",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4677. Long, mild green chile. New Mexico chile=4700. Common in Southwestern cooking."
+        }
+      ]
+    },
+    {
+      "wave": 30,
+      "label": "Specialty Items",
+      "description": "Jicama, plantain, tomatillo — items that round out a well-stocked produce department",
+      "unlock": "wave_29_mastery >= 0.70",
+      "items": [
+        {
+          "name": "Tomatillo",
+          "type": "single",
+          "household_pct": 15,
+          "codes": [
+            {
+              "plu": 4801,
+              "desc": "Tomatillo/Husk Tomato",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4801. Looks like a small green tomato in a papery husk. Essential for salsa verde. NOT a green tomato."
+        },
+        {
+          "name": "Plantain",
+          "type": "single",
+          "household_pct": 12,
+          "codes": [
+            {
+              "plu": 4235,
+              "desc": "Plantain/Macho",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4235. Looks like a large banana but must be cooked. NOT banana (4011). Common in Latin, Caribbean, and African cooking."
+        },
+        {
+          "name": "Jicama",
+          "type": "single",
+          "household_pct": 10,
+          "codes": [
+            {
+              "plu": 4596,
+              "desc": "Jicama/Yam Bean",
+              "size": "All Sizes"
+            }
+          ],
+          "card_note": "4596 is pickling cucumber/Kirby: short, firm, and crisp, suited for pickling."
+        },
+        {
+          "name": "Honeydew Melon",
+          "type": "size_set",
+          "household_pct": 25,
+          "codes": [
+            {
+              "plu": 4329,
+              "desc": "Honeydew/White Honeydew — Small",
+              "size": "Small"
+            },
+            {
+              "plu": 4034,
+              "desc": "Honeydew/White Honeydew — Large",
+              "size": "Large",
+              "size_spec": "5 count and larger"
+            }
+          ],
+          "most_common": {
+            "plu": 4034,
+            "reason": "Large honeydew is the standard grocery size"
+          },
+          "card_note": "Small (4329) and Large (4034). Gold honeydew=3100. Large honeydew (4034) is in the fruit row near lemons and kiwi."
+        }
+      ]
+    }
+  ],
+  "organic_rule": {
+    "description": "Prefix any 4-digit PLU with 9 to get the organic version",
+    "examples": [
+      {
+        "conventional": 4011,
+        "organic": 94011,
+        "item": "Banana"
+      },
+      {
+        "conventional": 4087,
+        "organic": 94087,
+        "item": "Roma Tomato"
+      },
+      {
+        "conventional": 4046,
+        "organic": 94046,
+        "item": "Hass Avocado (Small/Med)"
+      },
+      {
+        "conventional": 4135,
+        "organic": 94135,
+        "item": "Gala Apple (Large)"
+      },
+      {
+        "conventional": 3283,
+        "organic": 93283,
+        "item": "Honeycrisp Apple"
+      }
+    ],
+    "unlock": "wave_1_mastery >= 0.70",
+    "card_note": "Once you know conventional codes, organic is free \u2014 just add 9 in front. Works for ALL sizes: 94046 = organic small Hass, 94225 = organic large Hass."
+  },
+  "number_neighborhoods": [
+    {
+      "range": "4060–4093",
+      "label": "The Veggie Block",
+      "residents": [
+        "4060 Broccoli (bunch)",
+        "4061 Iceberg Lettuce",
+        "4062 Cucumber",
+        "4065 Green Bell Pepper (field)",
+        "4067 Zucchini",
+        "4068 Green Onion/Scallion",
+        "4069 Green Cabbage",
+        "4070 Celery (small)",
+        "4072 Russet Potato",
+        "4073 Red Potato",
+        "4076 Green Leaf Lettuce",
+        "4078 Yellow Corn",
+        "4079 Cauliflower (small)",
+        "4082 Red Onion",
+        "4085 Button Mushroom (large)",
+        "4087 Roma Tomato",
+        "4088 Red Bell Pepper (field)",
+        "4090 Spinach",
+        "4093 Yellow Onion (large)"
+      ]
+    },
+    {
+      "range": "4011–4056",
+      "label": "Fruit Row",
+      "residents": [
+        "4011 Banana",
+        "4012 Navel Orange (large, West)",
+        "4013 Navel Orange (small, West)",
+        "4017 Granny Smith Apple (large)",
+        "4022 Green Seedless Grapes",
+        "4023 Red Seedless Grapes",
+        "4031 Watermelon (seeded)",
+        "4032 Watermelon (seedless)",
+        "4033 Lemon (small)",
+        "4046 Hass Avocado (small/med)",
+        "4048 Lime",
+        "4049 Cantaloupe (small)",
+        "4050 Cantaloupe (large)",
+        "4053 Lemon (large)",
+        "4056 Black Seedless Grapes"
+      ]
+    },
+    {
+      "range": "4129–4139",
+      "label": "Apple Alley",
+      "residents": [
+        "4129 Fuji (small)",
+        "4131 Fuji (large)",
+        "4133 Gala (small)",
+        "4135 Gala (large)",
+        "4139 Granny Smith (small)"
+      ],
+      "pattern_note": "Fuji 29/31, Gala 33/35, Granny 39. All odd numbers! Small is always 2 less than large (except Granny large=4017, the rebel)."
+    },
+    {
+      "range": "4645–4650",
+      "label": "Mushroom Row",
+      "residents": [
+        "4645 Button Mushroom (small)",
+        "4646 Black Forest",
+        "4647 Chanterelle",
+        "4648 Cremini/Brown",
+        "4649 Oyster",
+        "4650 Portabella"
+      ]
+    },
+    {
+      "range": "4688–4689",
+      "label": "Greenhouse Pepper Pair",
+      "residents": [
+        "4688 Red Bell (greenhouse)",
+        "4689 Yellow Bell (greenhouse)"
+      ]
+    }
+  ],
+  "confusing_pairs": [
+    {
+      "codes": [
+        3151,
+        4087
+      ],
+      "warning": "3151 is Vine Ripe Tomato (large), NOT Roma. Roma = 4087."
+    },
+    {
+      "codes": [
+        4664,
+        3151
+      ],
+      "warning": "4664 is On-the-Vine (truss) tomato. 3151 is Vine RIPE (large). Different ripening method vs selling format."
+    },
+    {
+      "codes": [
+        4032,
+        4050
+      ],
+      "warning": "4032 is Seedless Watermelon, NOT cantaloupe. Cantaloupe large = 4050."
+    },
+    {
+      "codes": [
+        4088,
+        4688
+      ],
+      "warning": "Both are red bell pepper. 4088 = field grown. 4688 = greenhouse. Check your store."
+    },
+    {
+      "codes": [
+        4060,
+        3082
+      ],
+      "warning": "Both are broccoli. 4060 = bunch. 3082 = crowns. Crowns are more common at retail."
+    },
+    {
+      "codes": [
+        4079,
+        4566
+      ],
+      "warning": "Both are cauliflower. 4079 = whole small head. 4566 = florettes (pre-cut)."
+    },
+    {
+      "codes": [
+        4085,
+        4645
+      ],
+      "warning": "Both are white button mushroom. 4085 = large (40mm+). 4645 = small (< 40mm)."
+    },
+    {
+      "codes": [
+        4385,
+        3107
+      ],
+      "warning": "East/Central 'large' navel (4385, 100ct) is physically smaller than West 'medium' (3107, 88ct). Case count is inverse to fruit size."
+    },
+    {
+      "codes": [
+        4017,
+        4139
+      ],
+      "warning": "Both are Granny Smith. 4017 = large (in the fruit row!). 4139 = small (in Apple Alley). Unlike Gala/Fuji, these are far apart."
+    }
+  ]
+}

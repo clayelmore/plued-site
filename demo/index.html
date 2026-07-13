@@ -1,33 +1,46 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PLUed Demo - Coming Soon</title>
-  <meta name="description" content="The PLUed browser demo is coming soon. Read the cashier guide or build a Store Pack now.">
-  <link rel="canonical" href="https://plued.app/demo/">
-  <meta property="og:title" content="PLUed Demo - Coming Soon">
-  <meta property="og:description" content="A browser-sized taste of PLUed is on the way.">
-  <meta property="og:url" content="https://plued.app/demo/">
-  <meta property="og:image" content="https://plued.app/assets/img/avocado_hass_large.png">
-  <link rel="stylesheet" href="/assets/site.css">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/demo/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="PLU code training app for grocery cashiers">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PLUed">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>PLUed</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header"><div class="shell nav-wrap">
-    <a class="wordmark" href="/" aria-label="PLUed home"><span class="wordmark-tag">PLU</span>ed</a>
-    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a aria-current="page" href="/demo/">Try the Demo<span class="soon">soon</span></a><a href="/support/">Support</a></nav>
-  </div></header>
-  <main id="main">
-    <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Browser demo</span><h1>The belt is still warming up.</h1><p>A small web demo is coming soon. Until then, see how training works in the cashier guide or build your store's pack.</p><div class="legal-meta"><a class="button" href="/guide/">Read the cashier guide</a><a class="button kraft" href="/pack/">Open the Pack Builder</a></div></div>
-      <img class="page-produce" src="/assets/img/strawberries_pint.png" alt="A pint of strawberries">
-    </div></section>
-  </main>
-  <footer class="site-footer"><div class="shell"><div class="footer-grid">
-    <div><a class="wordmark" href="/"><span class="wordmark-tag">PLU</span>ed</a><p>Produce codes, practiced like the real lane.</p></div>
-    <div><h3>Learn</h3><div class="footer-links"><a href="/guide/">Cashier guide</a><a href="/trainers/">Trainer guide</a><a href="/pack/">Pack Builder</a></div></div>
-    <div><h3>Help</h3><div class="footer-links"><a href="/support/">Support &amp; FAQ</a><a href="mailto:support@plued.app">support@plued.app</a><a href="/privacy/">Privacy</a></div></div>
-  </div><div class="footer-bottom"><span>&copy; 2026 Elmore Apps.</span><span>Built for cashiers.</span></div></div></footer>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

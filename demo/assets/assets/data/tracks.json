@@ -1,0 +1,1767 @@
+{
+  "version": 1,
+  "generated_by": "tool/build_tracks.dart",
+  "track_count": 31,
+  "tracks": [
+    {
+      "id": "most_common",
+      "name": "Most Common",
+      "kind": "most_common",
+      "family": null,
+      "chapters": [
+        {
+          "index": 0,
+          "name": "The Daily Dozen",
+          "concept_ids": [
+            "russet_potatoes",
+            "bananas",
+            "yellow_onion",
+            "roma_tomatoes",
+            "fuji_apples",
+            "gala_apples",
+            "carrots_loose",
+            "iceberg_lettuce",
+            "grapes_red_seedless",
+            "green_bell_pepper",
+            "red_bell_pepper",
+            "green_grapes_seedless"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Produce Aisle Regulars",
+          "concept_ids": [
+            "vine_ripe_tomatoes",
+            "watermelon_red",
+            "cucumber",
+            "tomatoes_on_the_vine",
+            "celery",
+            "honeycrisp_apples",
+            "avocado_hass",
+            "cantaloupe",
+            "romaine_lettuce",
+            "broccoli",
+            "granny_smith_apples",
+            "green_onions_scallions"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Cart Staples",
+          "concept_ids": [
+            "navel_oranges",
+            "yellow_bell_pepper",
+            "peaches_yellow_flesh",
+            "corn_yellow_trimmed",
+            "white_button_mushrooms",
+            "zucchini",
+            "green_leaf_lettuce",
+            "red_onion",
+            "spinach_bunch",
+            "pineapple",
+            "green_cabbage",
+            "red_black_cherries"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "The Usual Basket",
+          "concept_ids": [
+            "cherry_tomatoes",
+            "jalapeno_pepper",
+            "red_potatoes",
+            "nectarines_yellow",
+            "red_delicious_apples",
+            "tomatoes_greenhouse",
+            "white_onion",
+            "green_beans",
+            "cremini_mushrooms",
+            "golden_delicious_apples",
+            "mangoes_red",
+            "orange_bell_pepper"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "Kitchen Counter Keepers",
+          "concept_ids": [
+            "pink_lady_apples",
+            "plums_black",
+            "plums_red",
+            "tangerines",
+            "garlic",
+            "lemons",
+            "bartlett_pears",
+            "butternut_squash",
+            "cauliflower",
+            "cilantro",
+            "honeydew_melon",
+            "poblano_pepper"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "Weeknight Standbys",
+          "concept_ids": [
+            "portabella_mushrooms",
+            "serrano_pepper",
+            "anjou_pears",
+            "asparagus_green",
+            "acorn_squash",
+            "bosc_pears",
+            "braeburn_apples",
+            "eggplant",
+            "ginger_root",
+            "kiwifruit",
+            "mango_yellow",
+            "parsley_italian_flat_leaf"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "Market Mainstays",
+          "concept_ids": [
+            "yellow_squash_crookneck",
+            "sweet_potatoes_golden",
+            "sweet_potatoes_white",
+            "sweet_potatoes_yam",
+            "basil",
+            "key_limes",
+            "limes",
+            "anaheim_pepper",
+            "apricots",
+            "beets_bunch",
+            "dill",
+            "habanero_pepper"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "Everyday Essentials",
+          "concept_ids": [
+            "mint",
+            "parsley_curly",
+            "radishes_red_bunch",
+            "spaghetti_squash",
+            "tomatillos",
+            "yellow_squash_straightneck",
+            "grapefruit_ruby_red",
+            "plantains",
+            "shallots",
+            "leeks",
+            "papaya_regular",
+            "pickling_cucumbers"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Familiar Faces",
+          "concept_ids": [
+            "coconut_in_husk",
+            "ambrosia_apples",
+            "anjou_pears_red",
+            "apricots_dried",
+            "artichoke",
+            "arugula",
+            "asparagus_green_bunch",
+            "asparagus_tips",
+            "avocado_green",
+            "baby_spinach",
+            "bartlett_pears_red",
+            "basil_sweet"
+          ]
+        },
+        {
+          "index": 9,
+          "name": "The Home Stretch",
+          "concept_ids": [
+            "bay_leaves",
+            "bean_sprouts_mung",
+            "beans_wax_yellow",
+            "beefsteak_tomatoes",
+            "beets_loose",
+            "blackeyed_peas",
+            "bok_choy_small_baby",
+            "brussels_sprouts",
+            "cantaloupe_muskmelon",
+            "carrots_baby",
+            "carrots_bunch",
+            "carrots_sticks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_red_apples",
+      "name": "Red Apples",
+      "kind": "family",
+      "family": "red_apples",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Red Apples · Part 1",
+          "concept_ids": [
+            "fuji_apples",
+            "gala_apples",
+            "honeycrisp_apples",
+            "red_delicious_apples",
+            "pink_lady_apples",
+            "braeburn_apples",
+            "ambrosia_apples",
+            "cripps_red_sundowner_apples",
+            "dazzle_apples",
+            "early_apples",
+            "empire_apples",
+            "fuji_brak_apples",
+            "huaguan_autumn_glory_apples"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Red Apples · Part 2",
+          "concept_ids": [
+            "jonagold_apples",
+            "jonamac_apples",
+            "jonathan_apples",
+            "mcintosh_apples",
+            "nicoter_apples",
+            "rome_apples",
+            "scilate_apples",
+            "akane_apples",
+            "alkmene_apples",
+            "apples_antares",
+            "apples_baldwin",
+            "apples_cn121"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Red Apples · Part 3",
+          "concept_ids": [
+            "apples_dalinette",
+            "apples_haralson",
+            "apples_liberty",
+            "apples_macoun",
+            "apples_melrose",
+            "apples_northern_spy",
+            "apples_orleans",
+            "apples_rosinette",
+            "apples_scilate_envy",
+            "apples_wurtwinning_bloss",
+            "aura_apples",
+            "aurora_apples"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Red Apples · Part 4",
+          "concept_ids": [
+            "aurora_southern_rose_apples",
+            "belgica_apples",
+            "cameo_apples",
+            "civni_apples",
+            "coop_43_apples",
+            "cosmic_crisp_apples",
+            "crimson_delight_sunrise_magic_apples",
+            "cripps_red_apples",
+            "criterion_apples",
+            "discovery_apples",
+            "elstar_apples",
+            "emmons_apples"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "Red Apples · Part 5",
+          "concept_ids": [
+            "evercrisp_apples",
+            "fiesta_apples_all_sizes",
+            "fireside_apples",
+            "giga_apples",
+            "gloster_apples",
+            "golden_delicious_blush_apples",
+            "gravenstein_apples",
+            "gravenstein_red_apples",
+            "honeymoon_apples",
+            "hunnyz_apples",
+            "ifored_r_series_apples",
+            "ifored_y_series_apples"
+          ]
+        },
+        {
+          "index": 5,
+          "name": "Red Apples · Part 6",
+          "concept_ids": [
+            "jazz_apples",
+            "juici_apples",
+            "karma_apples",
+            "lolipop_apples",
+            "lord_lambourne_apples",
+            "ludacrisp_apples",
+            "magic_star_apples",
+            "mariri_red_apples",
+            "milwa_apples",
+            "minnewashta_zestar_apples",
+            "pacific_rose_apples",
+            "paulared_apples"
+          ]
+        },
+        {
+          "index": 6,
+          "name": "Red Apples · Part 7",
+          "concept_ids": [
+            "pazazz_apples",
+            "pinova_apple",
+            "plumac_apples",
+            "rave_first_kiss_apples",
+            "red_jonaprince_apples_all_sizes",
+            "redfield_apples",
+            "redpop_apples",
+            "regent_apples",
+            "royal_gala_apples",
+            "rubinette_apples",
+            "rubyfrost_apple",
+            "sciearly_apples"
+          ]
+        },
+        {
+          "index": 7,
+          "name": "Red Apples · Part 8",
+          "concept_ids": [
+            "scired_apples",
+            "snapdragon_apple",
+            "sonya_apples",
+            "southern_snap_apples",
+            "spartan_apples",
+            "sugarbee_apples",
+            "sweetango_apples",
+            "swiss_gourmet_apples",
+            "tessa_apples",
+            "wild_twist_apples",
+            "winesap_apples",
+            "worcester_apples"
+          ]
+        },
+        {
+          "index": 8,
+          "name": "Red Apples · Part 9",
+          "concept_ids": [
+            "york_apples",
+            "zingy_apples",
+            "boskoop_apples",
+            "cantared_apples",
+            "civg198_apples",
+            "cortland_apples",
+            "cox_orange_pippin_apples",
+            "crab_apples",
+            "destivale_apples",
+            "evelina_apples",
+            "granny_smith_red_apples",
+            "idared_apples"
+          ]
+        },
+        {
+          "index": 9,
+          "name": "Red Apples · Part 10",
+          "concept_ids": [
+            "ingrid_marie_apples",
+            "lady_apples",
+            "lady_williams_apples_all_sizes",
+            "lochbuie_apples",
+            "lucyglo_apples",
+            "lucyrose_apples",
+            "michaelmas_red_apples",
+            "prema17_apples",
+            "prema280_apples",
+            "riverbelle_apples",
+            "stayman_apples",
+            "sturmer_pippin_apples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_green_apples",
+      "name": "Green Apples",
+      "kind": "family",
+      "family": "green_apples",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Green Apples",
+          "concept_ids": [
+            "granny_smith_apples",
+            "crispin_mutsu_apples",
+            "dessert_apples",
+            "apples_greening_ri",
+            "charles_ross_apples",
+            "delblush_tentation_apples",
+            "laxtons_fortune_apples",
+            "lemonade_apples",
+            "nicogreen_apples",
+            "shinano_gold_yello_apples",
+            "ginger_gold_apples",
+            "green_dragon_apple",
+            "holstein_apples",
+            "opal_apples",
+            "pippin_apples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_pears",
+      "name": "Pears",
+      "kind": "family",
+      "family": "pears",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Pears · Part 1",
+          "concept_ids": [
+            "bartlett_pears",
+            "anjou_pears",
+            "bosc_pears",
+            "anjou_pears_red",
+            "bartlett_pears_red",
+            "green_pears_hw624",
+            "abate_fetel_pears",
+            "asian_nashi_pears_brown",
+            "asian_nashi_pears_white",
+            "asian_pears",
+            "beurre_hardy_pears",
+            "bon_rouge_pears",
+            "cape_rose_pears"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Pears · Part 2",
+          "concept_ids": [
+            "comice_pears",
+            "concorde_pears",
+            "conference_pears",
+            "flamingo_pears",
+            "fragrant_pears",
+            "king_royal_pears",
+            "migo_pears",
+            "pears_alexander_lucas",
+            "pears_angelys",
+            "pears_carmen",
+            "pears_general_leclerc",
+            "pears_guyot",
+            "pears_harovin_sundown"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Pears · Part 3",
+          "concept_ids": [
+            "pears_rocha",
+            "pears_santa_maria",
+            "pears_starkrimson",
+            "pears_taylors_gold",
+            "qtee_pears",
+            "red_pears",
+            "sweet_sensation_pears",
+            "tosca_pear",
+            "tree_ripened_pears",
+            "winter_nelis_pears",
+            "xenia_pears",
+            "belle_du_jumet_pear",
+            "chinese_yali_pears"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Pears · Part 4",
+          "concept_ids": [
+            "clara_friis_pears",
+            "durondeau_pears",
+            "forelle_pears",
+            "french_pears",
+            "packham_pears",
+            "pears_josephine",
+            "pears_louise_bonne",
+            "pears_passe_crassane",
+            "pears_rosemarie",
+            "pears_triumph_de_vienne",
+            "quince",
+            "seckel_pears"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_tropical",
+      "name": "Tropical Fruit",
+      "kind": "family",
+      "family": "tropical",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Tropical Fruit · Part 1",
+          "concept_ids": [
+            "pineapple",
+            "mangoes_red",
+            "kiwifruit",
+            "mango_yellow",
+            "papaya_regular",
+            "coconut_in_husk",
+            "mango_green",
+            "mango_ripe_ready_to_eat",
+            "pineapple_jet_fresh",
+            "pomegranate",
+            "ripe_avocados",
+            "avocados_pinkerton",
+            "bananas_burro"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Tropical Fruit · Part 2",
+          "concept_ids": [
+            "cactus_pear",
+            "calypso_mango_all_sizes",
+            "coconut_husked",
+            "francis_mango",
+            "golden_kiwifruit",
+            "hawaiian_plantain",
+            "mango_kensington_pride",
+            "mango_r2e2",
+            "meridol_papaya",
+            "papaya_cooking_mexican",
+            "papaya_solo_sunrise",
+            "passion_fruit_curuba",
+            "passion_fruit_granadilla_yellow"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Tropical Fruit · Part 3",
+          "concept_ids": [
+            "passion_fruit_purple",
+            "persimmon_american_regular",
+            "pineapple_mini",
+            "pineapple_perola",
+            "pitahaya_red_flesh_fire_dragons",
+            "queen_pineapple",
+            "atemoyas",
+            "babaco",
+            "bananas_dominique",
+            "breadfruit",
+            "cherimoya",
+            "dragon_fruit_red"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Tropical Fruit · Part 4",
+          "concept_ids": [
+            "feijoa",
+            "guava",
+            "loquats",
+            "lychees",
+            "passion_fruit_granadilla",
+            "sapote_white",
+            "soursop",
+            "starfruit",
+            "sugar_apple",
+            "tamarillo_golden",
+            "tamarillo_red",
+            "tamarind"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "Tropical Fruit · Part 5",
+          "concept_ids": [
+            "cape_gooseberry_physalis",
+            "homli_fruit",
+            "horned_melon_kiwano",
+            "jackfruit",
+            "longan",
+            "mamey",
+            "mangosteen",
+            "pitahaya_yellow",
+            "rambutan",
+            "sapodillo",
+            "sapote_black",
+            "yellow_jackfruit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_citrus",
+      "name": "Citrus",
+      "kind": "family",
+      "family": "citrus",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Citrus · Part 1",
+          "concept_ids": [
+            "navel_oranges",
+            "tangerines",
+            "lemons",
+            "key_limes",
+            "limes",
+            "grapefruit_ruby_red",
+            "clementine_tangerine",
+            "clementines",
+            "delta_seedless_oranges",
+            "grapefruit_deep_red",
+            "grapefruit_ruby_red_pink",
+            "grapefruit_white"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Citrus · Part 2",
+          "concept_ids": [
+            "midknight_orange",
+            "oranges_m4_dulce_navels",
+            "oranges_navelate",
+            "oranges_navelina",
+            "oranges_pera",
+            "satsuma_tangerine",
+            "tangelo",
+            "tangerines_honey_murcott",
+            "tangerines_mandarins_tango_seedless",
+            "tangerines_nova",
+            "valencia_oranges",
+            "wonderful_seedless_lemons"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Citrus · Part 3",
+          "concept_ids": [
+            "blood_oranges",
+            "cara_cara_navel_oranges",
+            "clementine_tangerine_untreated",
+            "clementine_tangerine_with_leaves",
+            "ellendale_tangerine",
+            "fairchild_tangerine",
+            "grapefruit_untreated",
+            "honey_tangerines",
+            "jamaican_tangor_tangerine",
+            "juice_oranges",
+            "lemons_untreated",
+            "meyer_lemons"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Citrus · Part 4",
+          "concept_ids": [
+            "minneola_tangelos",
+            "noble_juicy_crunch_mandarins",
+            "oranges_maltaise",
+            "oranges_salustiana",
+            "oranges_shamouti",
+            "oranges_untreated",
+            "royal_mandarin",
+            "satsuma_mandarins",
+            "satsuma_tangerine_clauselina",
+            "seedless_lemons",
+            "tangelo_jamaican_ugli",
+            "tangerines_imperial"
+          ]
+        },
+        {
+          "index": 4,
+          "name": "Citrus · Part 5",
+          "concept_ids": [
+            "dancy_tangerines",
+            "fall_glo_tangerines",
+            "kinnow_mandarins",
+            "kumquats",
+            "lima_oranges",
+            "melogold_grapefruit",
+            "oro_blanco_sweetie_grapefruit",
+            "pummelo_red",
+            "pummelo_white",
+            "sunburst_tangerines",
+            "temple_oranges"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_berries",
+      "name": "Berries",
+      "kind": "family",
+      "family": "berries",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Berries · Part 1",
+          "concept_ids": [
+            "blackberries",
+            "blueberries",
+            "red_raspberries",
+            "strawberries_250g",
+            "strawberries_500g",
+            "strawberries_bulk",
+            "strawberries_bulk_3_pack_3_pints",
+            "strawberries_pint",
+            "strawberries_quart",
+            "black_currants"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Berries · Part 2",
+          "concept_ids": [
+            "cranberries",
+            "currants_red",
+            "strawberries_long_stemmed",
+            "black_raspberries",
+            "boysenberries",
+            "golden_raspberries",
+            "gooseberries",
+            "loganberries",
+            "saskatoon_berries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_grapes",
+      "name": "Grapes",
+      "kind": "family",
+      "family": "grapes",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Grapes · Part 1",
+          "concept_ids": [
+            "grapes_red_seedless",
+            "grapes_red_seeded",
+            "grapes_white_green_seedless",
+            "ifg_core_black_seedless_grapes",
+            "ifg_core_green_seedless_grapes",
+            "ifg_core_red_seedless_grapes",
+            "midnight_beauty_grapes",
+            "sweet_scarlet_grapes",
+            "adora_seedless_grapes",
+            "arra_thirty_grapes",
+            "arra_thirtytwo_grapes",
+            "arra_twentyeight_grapes"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Grapes · Part 2",
+          "concept_ids": [
+            "arra_twentyseven_grapes",
+            "autumncrisp_grapes",
+            "blue_black_seeded_grapes",
+            "chasselas_grapes",
+            "grapes_ardthirtysix_arra_cherry_crush",
+            "grapes_fantasy_marroo",
+            "grapes_muscat_de_hambourg",
+            "grapes_white_green_seeded",
+            "ifg_novelty_black_seedless_grapes",
+            "ifg_novelty_green_seedless_cotton_candy_grapes",
+            "ifg_novelty_red_seedless_grapes"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Grapes · Part 3",
+          "concept_ids": [
+            "italia_seeded_grapes",
+            "jupiter_grapes",
+            "passion_fire_grapes",
+            "sable_seedless_grapes",
+            "scarlotta_seedless_grapes",
+            "sugrafiftysix_green_seedless_grapes",
+            "sugrafiftythree_red_seedless_grapes",
+            "sugrafortynine_black_seedless_grapes",
+            "sweeties_grapes",
+            "thomcord_grapes",
+            "sugrafiftyfour_novelty_seedless_grapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_stone_fruit",
+      "name": "Stone Fruit",
+      "kind": "family",
+      "family": "stone_fruit",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Stone Fruit · Part 1",
+          "concept_ids": [
+            "peaches_yellow_flesh",
+            "red_black_cherries",
+            "nectarines_yellow",
+            "plums_black",
+            "plums_red",
+            "apricots",
+            "cherries_hr87_timberline",
+            "cherries_rl100_audra_rose",
+            "peaches_white_flesh",
+            "plums_tree_ripened",
+            "plums_yellow",
+            "white_flesh_nectarine"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Stone Fruit · Part 2",
+          "concept_ids": [
+            "black_plumcot",
+            "flat_peaches_white_saturn_donut",
+            "flat_yellow_nectarine",
+            "green_plumcot",
+            "italian_prune_plums",
+            "nectarines_white",
+            "peaches_flat_yellow_flesh",
+            "peaches_red_flesh",
+            "plumcot",
+            "plums_green",
+            "plums_purple"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Stone Fruit · Part 3",
+          "concept_ids": [
+            "president_plums_all_sizes",
+            "rainier_cherries",
+            "red_apricots",
+            "red_plumcot",
+            "white_flesh_flat_nectarine",
+            "apriums",
+            "black_velvet_apricot",
+            "nectarine_nectavigne_red_flesh",
+            "peaches_indian",
+            "skylar_rae_cherries",
+            "sweet_pixie_plums"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_melons",
+      "name": "Melons",
+      "kind": "family",
+      "family": "melons",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Melons · Part 1",
+          "concept_ids": [
+            "watermelon_red",
+            "cantaloupe",
+            "honeydew_melon",
+            "cantaloupe_muskmelon",
+            "mickey_lee_watermelon",
+            "mini_watermelon",
+            "watermelon_red_small_seeds",
+            "charentais_melon",
+            "cinnabar_melon",
+            "crenshaw_melon",
+            "galia_melon",
+            "gold_honeydew_melon",
+            "hami_melon"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Melons · Part 2",
+          "concept_ids": [
+            "honey_green_melon",
+            "korean_melon",
+            "melon_glasshouse_netted",
+            "orange_flesh_cantaline_melon",
+            "piel_de_sapo_melon",
+            "santa_claus_melon",
+            "sharlin_melon",
+            "sprite_melon",
+            "sunny_gold_yellow_mini_seedless_watermelon",
+            "watermelon_orange_seedless",
+            "winter_melon_all_sizes",
+            "yellow_seedless_watermelon",
+            "yellow_watermelon"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Melons · Part 3",
+          "concept_ids": [
+            "canary_melon",
+            "casaba_melon",
+            "french_afternoon_melon",
+            "french_breakfast_melon",
+            "mayan_melon",
+            "melon_ogen",
+            "musk_melon",
+            "pepino_melon",
+            "persian_melon",
+            "prince_melon",
+            "saticoy_melon",
+            "spanish_tendral_melon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_tomatoes",
+      "name": "Tomatoes",
+      "kind": "family",
+      "family": "tomatoes",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Tomatoes · Part 1",
+          "concept_ids": [
+            "roma_tomatoes",
+            "vine_ripe_tomatoes",
+            "tomatoes_on_the_vine",
+            "cherry_tomatoes",
+            "tomatoes_greenhouse",
+            "tomatillos",
+            "beefsteak_tomatoes",
+            "cherry_tomatoes_yellow",
+            "cocktail_tomatoes_on_vine",
+            "grape_teardrop_tomatoes",
+            "orange_cherry_tomatoes_all_sizes",
+            "roma_tomatoes_on_vine",
+            "tasti_lee_tomatoes"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Tomatoes · Part 2",
+          "concept_ids": [
+            "tomatoes_cherry_red_on_vine",
+            "tomatoes_cocktail_red",
+            "tomatoes_regular",
+            "yellow_regular_tomatoes",
+            "dried_tomatoes",
+            "heirloom_tomatoes",
+            "roma_tomatoes_on_the_vine",
+            "teardrop_pear_tomatoes_yellow",
+            "tomatoes_cherry_yellow_on_vine",
+            "tomatoes_native_home_grown",
+            "tomatoes_regular_orange_on_vine",
+            "tomatoes_regular_yellow_on_vine",
+            "tomatoes_roma_yellow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_peppers",
+      "name": "Peppers",
+      "kind": "family",
+      "family": "peppers",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Peppers · Part 1",
+          "concept_ids": [
+            "green_bell_pepper",
+            "red_bell_pepper",
+            "yellow_bell_pepper",
+            "jalapeno_pepper",
+            "orange_bell_pepper",
+            "poblano_pepper",
+            "serrano_pepper",
+            "anaheim_pepper",
+            "habanero_pepper",
+            "green_chili_pepper",
+            "banana_pepper",
+            "bell_pepper_brown",
+            "bell_pepper_white",
+            "chili_pepper_dried"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Peppers · Part 2",
+          "concept_ids": [
+            "chili_peppers_yellow",
+            "elongated_green_pepper",
+            "elongated_orange_pepper",
+            "elongated_red_pepper",
+            "elongated_yellow_pepper",
+            "hot_mixed_peppers",
+            "hungarian_hot_pepper",
+            "japanese_red_peppers",
+            "long_hot_red_peppers",
+            "pasilla_red_peppers",
+            "red_finger_peppers",
+            "cubanelle_pepper",
+            "elongated_white_pepper"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Peppers · Part 3",
+          "concept_ids": [
+            "enjoya_stripy_bell_peppers_all_sizes",
+            "hungarian_wax_pepper",
+            "long_hot_pepper_green",
+            "morita_chili_peppers",
+            "negro_peppers",
+            "new_mexico_pepper",
+            "pasilla_pepper_green",
+            "pasilla_pod_peppers",
+            "pimiento_pepper",
+            "pinole_peppers",
+            "purple_bell_pepper",
+            "red_cheese_peppers",
+            "tabasco_pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_onions",
+      "name": "Onions & Alliums",
+      "kind": "family",
+      "family": "onions",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Onions & Alliums · Part 1",
+          "concept_ids": [
+            "yellow_onion",
+            "green_onions_scallions",
+            "red_onion",
+            "white_onion",
+            "shallots",
+            "leeks",
+            "leeks_regular_bunch",
+            "onions_bulb",
+            "red_onions_bunch",
+            "sweet_onion",
+            "sweet_onions_all_sizes",
+            "yellow_brown_onions_bunch",
+            "boiling_onions",
+            "garlic_elephant"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Onions & Alliums · Part 2",
+          "concept_ids": [
+            "garlic_fresh_leaves",
+            "garlic_one_clove_types",
+            "garlic_regular_smoked",
+            "leeks_baby_bunch",
+            "onions_pickling_white",
+            "onions_sweet_red_italian_flat",
+            "pearl_onions",
+            "sunions_tearless_sweet_onions",
+            "sweetheart_tearless_red_onions",
+            "vidalia_onion",
+            "california_sweet_onion",
+            "maui_onion",
+            "texas_sweet_onion",
+            "walla_walla_onion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_potatoes",
+      "name": "Potatoes",
+      "kind": "family",
+      "family": "potatoes",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Potatoes",
+          "concept_ids": [
+            "russet_potatoes",
+            "red_potatoes",
+            "sweet_potatoes_golden",
+            "sweet_potatoes_white",
+            "sweet_potatoes_yam",
+            "potato_creamer_red",
+            "potato_creamer_white",
+            "potato_long_white",
+            "red_baking_potato",
+            "white_baking_potato",
+            "white_potatoes",
+            "yukon_gold_potatoes",
+            "potato_purple"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_root_vegetables",
+      "name": "Root Vegetables",
+      "kind": "family",
+      "family": "root_vegetables",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Root Vegetables · Part 1",
+          "concept_ids": [
+            "carrots_loose",
+            "garlic",
+            "ginger_root",
+            "beets_bunch",
+            "radishes_red_bunch",
+            "beets_loose",
+            "carrots_baby",
+            "carrots_bunch",
+            "carrots_sticks",
+            "radish_red",
+            "sweet_potato",
+            "turnip_white"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Root Vegetables · Part 2",
+          "concept_ids": [
+            "arracach",
+            "baby_parsnip",
+            "beets_baby_golden",
+            "beets_baby_red",
+            "beets_golden",
+            "boniato",
+            "carrots_french",
+            "carrots_purple_red_beta_sweet",
+            "celery_root_with_leaves",
+            "daikon",
+            "gobo_root",
+            "horseradish_root"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Root Vegetables · Part 3",
+          "concept_ids": [
+            "jicama",
+            "kohlrabi",
+            "malanga",
+            "nyame_white",
+            "nyame_yellow",
+            "oyster_plant_salsify",
+            "parsley_root",
+            "parsnips",
+            "radish_black",
+            "radish_bunched_white",
+            "radish_italian_red",
+            "radish_white_icicle"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Root Vegetables · Part 4",
+          "concept_ids": [
+            "rutabaga",
+            "saffron_sweet_potato",
+            "sunchokes",
+            "taro_root",
+            "turnip_baby",
+            "turnip_bunch_banded",
+            "turnip_yellow",
+            "turnips",
+            "yuca_root_cassava",
+            "celery_root_celeriac",
+            "galangal_root"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_lettuce",
+      "name": "Lettuce",
+      "kind": "family",
+      "family": "lettuce",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Lettuce",
+          "concept_ids": [
+            "lettuce_bibb_flat_round",
+            "lettuce_boston_butter",
+            "lettuce_mixed_small_leaf_salad",
+            "oak_leaf_lettuce",
+            "boston_lettuce_red",
+            "endive_chicory",
+            "escarole_batavian_chicory_green",
+            "lettuce_hydroponic",
+            "lettuce_lollo_bionda",
+            "lettuce_lollo_rossa",
+            "lettuce_mignonette",
+            "lettuce_oak_leaf_green",
+            "romaine_lettuce_red",
+            "lettuce_mache"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_leafy_greens",
+      "name": "Leafy Greens",
+      "kind": "family",
+      "family": "leafy_greens",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Leafy Greens · Part 1",
+          "concept_ids": [
+            "iceberg_lettuce",
+            "romaine_lettuce",
+            "green_leaf_lettuce",
+            "spinach_bunch",
+            "green_cabbage",
+            "arugula",
+            "baby_spinach",
+            "collard_greens",
+            "red_cabbage",
+            "red_leaf_lettuce",
+            "amaranth_leaves_all_sizes",
+            "beet_greens",
+            "belgian_endive"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Leafy Greens · Part 2",
+          "concept_ids": [
+            "belgian_endive_red",
+            "bok_choy",
+            "dandelion_greens",
+            "escarole_red",
+            "mustard_greens",
+            "napa_cabbage",
+            "new_zealand_spinach",
+            "radicchio",
+            "sorrel",
+            "swiss_chard_green",
+            "swiss_chard_red",
+            "watercress",
+            "kale_sprouts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_greens",
+      "name": "Greens",
+      "kind": "family",
+      "family": "greens",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Greens",
+          "concept_ids": [
+            "broccoli",
+            "kale_curly",
+            "banana_leaves",
+            "frisee",
+            "kale_red",
+            "radicchio_treviso",
+            "lettuce_catalogna",
+            "radicchio_castelfranco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_cooking_greens",
+      "name": "Cooking Greens",
+      "kind": "family",
+      "family": "cooking_greens",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Cooking Greens",
+          "concept_ids": [
+            "celery",
+            "asparagus_tips",
+            "turnip_greens",
+            "tuscan_kale",
+            "broccoli_baby",
+            "broccoli_rabe_chinese_broccoli",
+            "leeks_baby",
+            "rhubarb_regular",
+            "texas_mustard_greens",
+            "cactus_leaves",
+            "cardoon",
+            "chipilin_leaf",
+            "polk_greens",
+            "quelites",
+            "pumpkin_vine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_cabbage",
+      "name": "Cabbage",
+      "kind": "family",
+      "family": "cabbage",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Cabbage",
+          "concept_ids": [
+            "dutch_white_cabbage",
+            "brussels_sprouts_stalk",
+            "cabbage_savoy_green",
+            "cabbage_savoy_red",
+            "cabbage_summer_pointed",
+            "kohlrabi_purple_red",
+            "orange_cauliflower",
+            "spring_cabbage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_squash",
+      "name": "Squash",
+      "kind": "family",
+      "family": "squash",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Squash · Part 1",
+          "concept_ids": [
+            "zucchini",
+            "butternut_squash",
+            "acorn_squash",
+            "yellow_squash_crookneck",
+            "spaghetti_squash",
+            "yellow_squash_straightneck",
+            "pumpkin",
+            "baby_green_zucchini_courgette",
+            "baby_scallopini_squash",
+            "baby_summer_green_squash",
+            "banana_squash"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Squash · Part 2",
+          "concept_ids": [
+            "butterkin_squash",
+            "chayote_squash",
+            "crown_prince_squash",
+            "delicata_squash",
+            "gem_squash",
+            "golden_nugget_squash",
+            "kabocha_squash",
+            "pink_porcelain_doll_pumpkin",
+            "pumpkin_mini",
+            "round_zucchini_squash",
+            "scallopini_squash"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Squash · Part 3",
+          "concept_ids": [
+            "squash_acorn_baby",
+            "squash_acorn_golden",
+            "squash_cucuzza",
+            "squash_opo",
+            "summer_squash_patty_pan",
+            "sunburst_yellow_squash",
+            "sweet_mama_squash",
+            "vegetable_marrow",
+            "white_squash",
+            "yellow_zucchini"
+          ]
+        },
+        {
+          "index": 3,
+          "name": "Squash · Part 4",
+          "concept_ids": [
+            "buttercup_squash",
+            "calabaza_squash",
+            "carnival_squash",
+            "golden_delicious_squash",
+            "hubbard_squash",
+            "red_kuri_squash",
+            "squash_acorn_swan_white_table_queen",
+            "squash_australian_blue",
+            "sweet_dumpling_squash",
+            "turban_squash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_pumpkins",
+      "name": "Pumpkins",
+      "kind": "family",
+      "family": "pumpkins",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Pumpkins",
+          "concept_ids": [
+            "pumpkin_pie",
+            "pumpkin_decorative_painted",
+            "pumpkin_jumbo",
+            "pumpkin_white",
+            "pumpkin_white_mini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_eggplants",
+      "name": "Eggplant",
+      "kind": "family",
+      "family": "eggplants",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Eggplant",
+          "concept_ids": [
+            "eggplant_baby",
+            "eggplant_japanese",
+            "eggplant_baby_white",
+            "eggplant_white"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_mushrooms",
+      "name": "Mushrooms",
+      "kind": "family",
+      "family": "mushrooms",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Mushrooms · Part 1",
+          "concept_ids": [
+            "white_button_mushrooms",
+            "cremini_mushrooms",
+            "portabella_mushrooms",
+            "enoki_mushrooms",
+            "mushrooms_pioppino",
+            "oyster_mushrooms",
+            "shiitake_mushrooms",
+            "black_forest_mushrooms",
+            "chanterelle_mushrooms"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Mushrooms · Part 2",
+          "concept_ids": [
+            "mushrooms_cep",
+            "mushrooms_horn_of_plenty_black_trumpet",
+            "saffron_milk_cap_mushroom",
+            "sheep_polypore_mushroom",
+            "wood_ear_mushrooms",
+            "morel_mushrooms",
+            "mushrooms_fairy_ring_champignon",
+            "mushrooms_grey_tricholoma",
+            "mushrooms_grisette"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_herbs",
+      "name": "Herbs",
+      "kind": "family",
+      "family": "herbs",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Herbs · Part 1",
+          "concept_ids": [
+            "cilantro",
+            "parsley_italian_flat_leaf",
+            "basil",
+            "dill",
+            "mint",
+            "parsley_curly",
+            "basil_sweet",
+            "bay_leaves",
+            "chives",
+            "oregano",
+            "peppermint_mint"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Herbs · Part 2",
+          "concept_ids": [
+            "sage",
+            "basil_opal",
+            "chervil",
+            "dill_baby",
+            "dill_pickling",
+            "fennel_leaves",
+            "garlic_chives_all_sizes",
+            "lemongrass",
+            "marjoram",
+            "rosemary"
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Herbs · Part 3",
+          "concept_ids": [
+            "savory",
+            "tarragon",
+            "thyme",
+            "borage",
+            "epazote",
+            "papalo",
+            "orange_tree_leaf",
+            "purple_herb",
+            "rabbit_herb",
+            "sacred_pepper_leaf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_peas_beans",
+      "name": "Peas & Beans",
+      "kind": "family",
+      "family": "peas_beans",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Peas & Beans · Part 1",
+          "concept_ids": [
+            "beans_wax_yellow",
+            "blackeyed_peas",
+            "fine_beans",
+            "green_peas",
+            "snow_peas",
+            "sugar_snap_peas",
+            "beans_chinese_long_snake",
+            "beans_fava_broad",
+            "beans_lima"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Peas & Beans · Part 2",
+          "concept_ids": [
+            "beans_pole_runner_stick",
+            "beans_purple_hull",
+            "beans_shell",
+            "beans_winged",
+            "helda_flat_beans",
+            "okra_red",
+            "okra_regular_green",
+            "chickpeas_fresh",
+            "xpelon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_more_fruit",
+      "name": "More Fruit",
+      "kind": "family",
+      "family": "more_fruit",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "More Fruit · Part 1",
+          "concept_ids": [
+            "bananas",
+            "green_grapes_seedless",
+            "avocado_hass",
+            "plantains",
+            "apricots_dried",
+            "baby_bananas",
+            "belchard_chantecler_apples",
+            "black_grapes_seeded",
+            "black_grapes_seedless",
+            "dates_fresh",
+            "dried_figs",
+            "figs_black",
+            "figs_brown",
+            "green_bananas",
+            "persimmon"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "More Fruit · Part 2",
+          "concept_ids": [
+            "pineapple_dried",
+            "red_globe_grapes",
+            "shiny_red_persimmon_all_sizes",
+            "apple_bananas_manzano",
+            "champagne_grapes",
+            "concord_grapes",
+            "crimson_grapes",
+            "figs_white_green",
+            "red_bananas",
+            "sommerfeld_apples",
+            "sugraone_grapes",
+            "virginia_gold_apples",
+            "madrona",
+            "vanilla_bean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_more_vegetables",
+      "name": "More Vegetables",
+      "kind": "family",
+      "family": "more_vegetables",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "More Vegetables · Part 1",
+          "concept_ids": [
+            "cucumber",
+            "corn_yellow_trimmed",
+            "green_beans",
+            "eggplant",
+            "pickling_cucumbers",
+            "asparagus_green_bunch",
+            "brussels_sprouts",
+            "corn_white_trimmed",
+            "english_cucumber",
+            "aloe_vera_leaves",
+            "anise",
+            "asparagus_purple",
+            "asparagus_purple_bunch",
+            "asparagus_white_bunch"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "More Vegetables · Part 2",
+          "concept_ids": [
+            "baby_cactus_leaves",
+            "cauliflower_green",
+            "cauliflower_purple",
+            "celery_loose_stalk",
+            "corn_indian_decorative",
+            "corn_indian_decorative_mini",
+            "fennel_anise",
+            "garlic_string",
+            "rhubarb_bunch",
+            "sugar_cane",
+            "artichokes_rouge_salambo",
+            "corn_indian_strawberry",
+            "fiddlehead_ferns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_asian_vegetables",
+      "name": "Asian Vegetables",
+      "kind": "family",
+      "family": "asian_vegetables",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Asian Vegetables · Part 1",
+          "concept_ids": [
+            "bean_sprouts_mung",
+            "bok_choy_small_baby",
+            "shanghai_bok_choy",
+            "baby_gai_choy",
+            "choy_sum",
+            "choy_sum_baby",
+            "eggplant_chinese",
+            "eggplant_thai"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Asian Vegetables · Part 2",
+          "concept_ids": [
+            "gai_choy",
+            "gai_lan",
+            "lotus_root",
+            "ong_choy",
+            "water_chestnuts",
+            "yu_choy",
+            "foo_qua_bitter_melon",
+            "okra_chinese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_odds_fruit",
+      "name": "Fruit Odds & Ends",
+      "kind": "family",
+      "family": "odds_fruit",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Fruit Odds & Ends",
+          "concept_ids": [
+            "golden_delicious_apples",
+            "avocado_green",
+            "bertanne_golden_russet_apples",
+            "dekopon_tangerine",
+            "gem_avocados",
+            "russet_apples",
+            "avocados_cocktail_seedless",
+            "heritage_reinette_varieties_apples",
+            "limequats",
+            "reine_des_reinettes_apples",
+            "seville_oranges",
+            "st_edmunds_pippin_apples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore_odds_vegetable",
+      "name": "Vegetable Odds & Ends",
+      "kind": "family",
+      "family": "odds_vegetable",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Vegetable Odds & Ends · Part 1",
+          "concept_ids": [
+            "cauliflower",
+            "asparagus_green",
+            "artichoke",
+            "celery_hearts",
+            "corn_sweet_bi_color",
+            "alfalfa_sprouts",
+            "artichokes_baby_cocktail",
+            "artichokes_purple"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Vegetable Odds & Ends · Part 2",
+          "concept_ids": [
+            "cauliflower_baby",
+            "cauliflower_romanesco",
+            "corn_sweet_baby",
+            "cucumber_armenian",
+            "cucumber_japanese_white",
+            "cucumber_lemon",
+            "gourd_ornamental",
+            "asparagus_white"
+          ]
+        }
+      ]
+    }
+  ]
+}

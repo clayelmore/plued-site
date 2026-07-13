@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "generated_by": "tool/build_concepts.dart",
+  "description": "Spec §8.2 retailer reserved-range family -> concept-family (confusion_group) routing for the guided store-code assignment picker.",
+  "map": {
+    "apple": {
+      "mode": "families",
+      "concept_families": [
+        "red_apples",
+        "green_apples",
+        "yellow_apples",
+        "russet_apples",
+        "heritage_apples"
+      ],
+      "note": "whole Apples track"
+    },
+    "melon": {
+      "mode": "families",
+      "concept_families": [
+        "melons"
+      ],
+      "note": "4342-4376"
+    },
+    "grape": {
+      "mode": "families",
+      "concept_families": [
+        "grapes"
+      ]
+    },
+    "grapefruit": {
+      "mode": "families",
+      "concept_families": [
+        "citrus"
+      ],
+      "note": "filter to grapefruit concepts"
+    },
+    "orange": {
+      "mode": "families",
+      "concept_families": [
+        "citrus",
+        "specialty_citrus"
+      ]
+    },
+    "mandarin": {
+      "mode": "families",
+      "concept_families": [
+        "citrus",
+        "specialty_citrus"
+      ]
+    },
+    "lemon": {
+      "mode": "families",
+      "concept_families": [
+        "citrus",
+        "specialty_citrus"
+      ]
+    },
+    "lime": {
+      "mode": "families",
+      "concept_families": [
+        "citrus",
+        "specialty_citrus"
+      ]
+    },
+    "pepper": {
+      "mode": "families",
+      "concept_families": [
+        "peppers"
+      ],
+      "note": "4710-4722"
+    },
+    "herb": {
+      "mode": "families",
+      "concept_families": [
+        "herbs"
+      ],
+      "note": "4909-4923"
+    },
+    "parsley": {
+      "mode": "families",
+      "concept_families": [
+        "herbs"
+      ]
+    },
+    "pear": {
+      "mode": "families",
+      "concept_families": [
+        "pears"
+      ]
+    },
+    "peach": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "nectarine": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "plum": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "plumcot": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "apricot": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "cherry": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "persimmon": {
+      "mode": "families",
+      "concept_families": [
+        "stone_fruit"
+      ]
+    },
+    "potato": {
+      "mode": "families",
+      "concept_families": [
+        "potatoes"
+      ]
+    },
+    "onion": {
+      "mode": "families",
+      "concept_families": [
+        "onions"
+      ]
+    },
+    "garlic": {
+      "mode": "families",
+      "concept_families": [
+        "onions"
+      ]
+    },
+    "leek": {
+      "mode": "families",
+      "concept_families": [
+        "onions"
+      ]
+    },
+    "lettuce": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "greens": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "chard": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "collard_greens": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "spinach": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "bok_choy": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "napa_cabbage": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "gai_lan": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "savoy_cabbage": {
+      "mode": "families",
+      "concept_families": [
+        "leafy_greens",
+        "cooking_greens",
+        "lettuce",
+        "cabbage",
+        "greens"
+      ],
+      "note": "broad greens track"
+    },
+    "squash": {
+      "mode": "families",
+      "concept_families": [
+        "squash",
+        "pumpkins",
+        "gourds"
+      ]
+    },
+    "spaghetti_squash": {
+      "mode": "families",
+      "concept_families": [
+        "squash",
+        "pumpkins",
+        "gourds"
+      ]
+    },
+    "butternut_squash": {
+      "mode": "families",
+      "concept_families": [
+        "squash",
+        "pumpkins",
+        "gourds"
+      ]
+    },
+    "acorn_squash": {
+      "mode": "families",
+      "concept_families": [
+        "squash",
+        "pumpkins",
+        "gourds"
+      ]
+    },
+    "pumpkin": {
+      "mode": "families",
+      "concept_families": [
+        "squash",
+        "pumpkins",
+        "gourds"
+      ]
+    },
+    "mushroom": {
+      "mode": "families",
+      "concept_families": [
+        "mushrooms"
+      ]
+    },
+    "tomato": {
+      "mode": "families",
+      "concept_families": [
+        "tomatoes"
+      ]
+    },
+    "carrot": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "beet": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "radish": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "daikon": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "turnip": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "rutabaga": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "turmeric": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "ginger": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "celery_root": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "kohlrabi": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "rhubarb": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "roots track"
+    },
+    "sweet_potato": {
+      "mode": "families",
+      "concept_families": [
+        "root_vegetables",
+        "potatoes"
+      ],
+      "note": "extension: roots track"
+    },
+    "bean": {
+      "mode": "families",
+      "concept_families": [
+        "peas_beans"
+      ]
+    },
+    "pea": {
+      "mode": "families",
+      "concept_families": [
+        "peas_beans"
+      ]
+    },
+    "snow_pea": {
+      "mode": "families",
+      "concept_families": [
+        "peas_beans"
+      ]
+    },
+    "fava_bean": {
+      "mode": "families",
+      "concept_families": [
+        "peas_beans"
+      ]
+    },
+    "banana": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "mango": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "papaya": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "passion_fruit": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "coconut": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "fig": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "kiwifruit": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "pomegranate": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "avocado": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "berry": {
+      "mode": "families",
+      "concept_families": [
+        "tropical",
+        "berries",
+        "avocados"
+      ],
+      "note": "tropical/berries by fruit"
+    },
+    "broccoli": {
+      "mode": "families",
+      "concept_families": [
+        "cruciferous_vegetables",
+        "cabbage",
+        "brassicas"
+      ]
+    },
+    "cauliflower": {
+      "mode": "families",
+      "concept_families": [
+        "cruciferous_vegetables",
+        "cabbage",
+        "brassicas"
+      ]
+    },
+    "cabbage": {
+      "mode": "families",
+      "concept_families": [
+        "cruciferous_vegetables",
+        "cabbage",
+        "brassicas"
+      ]
+    },
+    "brussels_sprouts": {
+      "mode": "families",
+      "concept_families": [
+        "cruciferous_vegetables",
+        "cabbage",
+        "brassicas"
+      ]
+    },
+    "asparagus": {
+      "mode": "families",
+      "concept_families": [
+        "asparagus"
+      ]
+    },
+    "artichoke": {
+      "mode": "families",
+      "concept_families": [
+        "artichokes"
+      ]
+    },
+    "corn": {
+      "mode": "families",
+      "concept_families": [
+        "corn"
+      ]
+    },
+    "cucumber": {
+      "mode": "families",
+      "concept_families": [
+        "cucumbers"
+      ]
+    },
+    "eggplant": {
+      "mode": "families",
+      "concept_families": [
+        "eggplants"
+      ]
+    },
+    "celery": {
+      "mode": "escape",
+      "category": "vegetable",
+      "note": "no matching confusion_group; §8.2 category fallback"
+    },
+    "fennel": {
+      "mode": "escape",
+      "category": "vegetable",
+      "note": "no matching confusion_group; §8.2 category fallback"
+    },
+    "other_fruit": {
+      "mode": "escape",
+      "category": "fruit",
+      "note": "§8.3 escape hatch"
+    },
+    "other_vegetable": {
+      "mode": "escape",
+      "category": "vegetable",
+      "note": "§8.3 escape hatch"
+    },
+    "any": {
+      "mode": "wildcard"
+    }
+  }
+}
