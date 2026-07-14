@@ -181,7 +181,7 @@
               "grow_method": "greenhouse"
             }
           ],
-          "card_note": "4065 is the everyday field-grown large green pepper; 4681 is field-grown small. Greenhouse small/large=3119/3120.",
+          "card_note": "4065 is the everyday field-grown large green pepper; 4681 is field-grown small. Greenhouse small=3119, large=3120.",
           "most_common": {
             "plu": 4065,
             "reason": "Field grown large green pepper is the standard grocery item"
@@ -342,7 +342,7 @@
               "form": "florettes"
             }
           ],
-          "card_note": "Crowns (3082) are most common at retail. Bunch (4060) is in the veggie block. Florettes (4548) for pre-cut. Don't confuse with cauliflower florettes (4566).",
+          "card_note": "Crowns (3082) are most common at retail. The whole head is 4060 in the veggie block. Florettes (4548) for pre-cut. Don't confuse with cauliflower florettes (4566).",
           "most_common": {
             "plu": 3082,
             "reason": "Crowns outsell whole bunch broccoli at most retailers"
@@ -1080,7 +1080,7 @@
               "size_spec": "Jumbo and extra large size"
             }
           ],
-          "card_note": "Standard (4080) is the common one \u2014 right at the edge of the veggie block after cauliflower (4079). Jumbo (4521) is less common. White asparagus=4522, Purple=3079.",
+          "card_note": "Standard (4080) is the common one \u2014 right at the edge of the veggie block after cauliflower (4079). Large (4521) is less common. White asparagus=4522, Purple=3079.",
           "most_common": {
             "plu": 4080,
             "reason": "Standard green asparagus is the everyday item; jumbo is specialty"

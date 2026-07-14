@@ -6,7 +6,7 @@
   "review_gate": "docs/l10n/es-approval.md (R4c)",
   "glossary": "docs/l10n/es-glossary.md",
   "note": "raw dimension string (size/region/grow_method/form) -> es label for code chips.",
-  "count": 32,
+  "count": 33,
   "dimensions": {
     "All Sizes": "Todos los Tamaños",
     "East/Central": "Este/Central",
@@ -18,14 +18,12 @@
     "bulk": "A Granel",
     "bunch": "Manojo",
     "crowns": "Coronas",
-    "east_na": "Este de Norteamérica",
     "field": "De Campo",
     "florettes": "Floretes",
     "green": "Verde",
     "greenhouse": "De Invernadero",
     "hearts": "Corazones",
     "hydroponic": "Hidropónico",
-    "international": "Internacional",
     "long_stemmed": "De Tallo Largo",
     "loose": "Suelto",
     "loose_stalk": "Tallo Suelto",
@@ -39,6 +37,9 @@
     "seeded": "Con Semilla",
     "seedless": "Sin Semilla",
     "sticks": "Bastones",
-    "tree_ripened": "Madurado en Árbol"
+    "tree_ripened": "Madurado en Árbol",
+    "jet_fresh": "Jet Fresh",
+    "seeded_other": "Con Semilla (otras)",
+    "seedless_other": "Sin Semilla (otras)"
   }
 }

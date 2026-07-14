@@ -59089,7 +59089,7 @@
       "pair_key": "celery|celery_bunch_small",
       "item_a": "celery",
       "item_b": "celery_bunch_small",
-      "source": "size"
+      "source": "concept"
     },
     {
       "pair_key": "chanterelle_mushrooms|cremini_mushrooms",

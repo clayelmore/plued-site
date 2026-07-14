@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -122,7 +122,8 @@
       "aliases": [
         "Red Delicious (alternate)"
       ],
-      "image_filename": "red_delicious_apples_small.png"
+      "image_filename": "red_delicious_apples_small.png",
+      "legacy": true
     },
     {
       "id": "red_delicious_apples_large_alt",
@@ -135,7 +136,8 @@
       "aliases": [
         "Red Delicious (alternate)"
       ],
-      "image_filename": "red_delicious_apples_large.png"
+      "image_filename": "red_delicious_apples_large.png",
+      "legacy": true
     },
     {
       "id": "golden_delicious_apples_large",
@@ -195,7 +197,8 @@
       ],
       "image_filename": "granny_smith_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "fuji_apples_small",
@@ -238,7 +241,8 @@
       ],
       "image_filename": "gala_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "gala_apples_large",
@@ -408,7 +412,8 @@
       ],
       "image_filename": "mcintosh_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "mcintosh_apples_small",
@@ -423,7 +428,8 @@
       ],
       "image_filename": "mcintosh_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "empire_apples_small",
@@ -438,7 +444,8 @@
       ],
       "image_filename": "empire_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "empire_apples_large",
@@ -453,7 +460,8 @@
       ],
       "image_filename": "empire_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "jonagold_apples_small",
@@ -468,7 +476,8 @@
       ],
       "image_filename": "jonagold_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "jonagold_apples_large",
@@ -498,7 +507,8 @@
       ],
       "image_filename": "jonathan_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "jonathan_apples_large",
@@ -513,7 +523,8 @@
       ],
       "image_filename": "jonathan_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "cortland_apples_small",
@@ -641,7 +652,8 @@
       ],
       "image_filename": "winesap_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "winesap_apples_large",
@@ -656,7 +668,8 @@
       ],
       "image_filename": "winesap_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "crab_apples",
@@ -903,7 +916,8 @@
         "Ruby/Red/Pink"
       ],
       "image_filename": "grapefruit_ruby_red_small.png",
-      "count": 48
+      "count": 48,
+      "legacy": true
     },
     {
       "id": "grapefruit_ruby_red_small_alt",
@@ -943,7 +957,8 @@
       "aliases": [
         "Deep Red"
       ],
-      "image_filename": "grapefruit_deep_red_small.png"
+      "image_filename": "grapefruit_deep_red_small.png",
+      "legacy": true
     },
     {
       "id": "grapefruit_white_small",
@@ -957,7 +972,8 @@
         "White"
       ],
       "image_filename": "grapefruit_white_small.png",
-      "count": 48
+      "count": 48,
+      "legacy": true
     },
     {
       "id": "grapefruit_white_large",
@@ -971,7 +987,8 @@
         "White"
       ],
       "image_filename": "grapefruit_white_large.png",
-      "count": 36
+      "count": 36,
+      "legacy": true
     },
     {
       "id": "pummelo_red",
@@ -1884,7 +1901,7 @@
       "name": "Charentais Melon",
       "category": "fruit",
       "plu": "3033",
-      "size_class": "M",
+      "size_class": "S",
       "rarity": "exotic",
       "confusion_group": "melons",
       "aliases": [
@@ -2003,7 +2020,8 @@
         "Green (Florida type)"
       ],
       "image_filename": "avocado_green_small.png",
-      "count": 130
+      "count": 130,
+      "legacy": true
     },
     {
       "id": "avocado_green_large",
@@ -2017,7 +2035,8 @@
         "Green (Florida type)"
       ],
       "image_filename": "avocado_green_large.png",
-      "count": 100
+      "count": 100,
+      "legacy": true
     },
     {
       "id": "kiwifruit",
@@ -3168,7 +3187,7 @@
       "name": "Celery",
       "category": "vegetable",
       "plu": "4070",
-      "size_class": "L",
+      "size_class": "S",
       "rarity": "common",
       "confusion_group": null,
       "aliases": [
@@ -4160,7 +4179,8 @@
       ],
       "image_filename": "crispin_mutsu_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "crispin_mutsu_apples_large",
@@ -4175,7 +4195,8 @@
       ],
       "image_filename": "crispin_mutsu_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "idared_apples_small",
@@ -4218,7 +4239,8 @@
       ],
       "image_filename": "spartan_apples_small.png",
       "count": 130,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "spartan_apples_large",
@@ -4233,7 +4255,8 @@
       ],
       "image_filename": "spartan_apples_large.png",
       "count": 100,
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "apple_bananas_manzano",
@@ -5660,7 +5683,8 @@
         "tree ripened peach"
       ],
       "image_filename": "peaches_yellow_flesh_small.png",
-      "count": 130
+      "count": 130,
+      "legacy": true
     },
     {
       "id": "peaches_yellow_flesh_large",
@@ -5675,7 +5699,8 @@
         "tree ripened peach"
       ],
       "image_filename": "peaches_yellow_flesh_large.png",
-      "count": 100
+      "count": 100,
+      "legacy": true
     },
     {
       "id": "pears_starkrimson",
@@ -6107,7 +6132,8 @@
       "confusion_group": "citrus",
       "aliases": [],
       "image_filename": "white_grapefruit_extra_large_3157.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "white_grapefruit_extra_large_3158",
@@ -6119,7 +6145,8 @@
       "confusion_group": "citrus",
       "aliases": [],
       "image_filename": "white_grapefruit_extra_large_3158.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "white_grapefruit_extra_large_3159",
@@ -6641,7 +6668,7 @@
     },
     {
       "id": "orange_seedless_watermelon",
-      "name": "Orange Seedless Watermelon",
+      "name": "Orange Seeded Watermelon",
       "category": "fruit",
       "plu": "3308",
       "size_class": "L",
@@ -7236,7 +7263,8 @@
       "aliases": [
         "Ready-to-Eat Avocados"
       ],
-      "image_filename": "ripe_avocados.png"
+      "image_filename": "ripe_avocados.png",
+      "usage_class": "non_us"
     },
     {
       "id": "strawberries_500g",
@@ -7250,7 +7278,8 @@
         "Strawberries - 1 litre"
       ],
       "image_filename": "strawberries_500g.png",
-      "is_scannable": true
+      "is_scannable": true,
+      "usage_class": "non_us"
     },
     {
       "id": "strawberries_250g",
@@ -7264,7 +7293,8 @@
         "Strawberries - 1/2 litre"
       ],
       "image_filename": "strawberries_250g.png",
-      "is_scannable": true
+      "is_scannable": true,
+      "usage_class": "non_us"
     },
     {
       "id": "red_black_cherries_small",
@@ -7278,7 +7308,8 @@
         "Regular Cherries"
       ],
       "image_filename": "red_black_cherries_small.png",
-      "count": 130
+      "count": 130,
+      "usage_class": "non_us"
     },
     {
       "id": "red_black_cherries_large",
@@ -7292,7 +7323,8 @@
         "Regular Cherries"
       ],
       "image_filename": "red_black_cherries_large.png",
-      "count": 100
+      "count": 100,
+      "usage_class": "non_us"
     },
     {
       "id": "chasselas_grapes",
@@ -7330,7 +7362,8 @@
         "organic grapefruit",
         "natural grapefruit"
       ],
-      "image_filename": "grapefruit_untreated.png"
+      "image_filename": "grapefruit_untreated.png",
+      "usage_class": "non_us"
     },
     {
       "id": "lemons_untreated",
@@ -7344,7 +7377,8 @@
         "organic lemons",
         "natural lemons"
       ],
-      "image_filename": "lemons_untreated.png"
+      "image_filename": "lemons_untreated.png",
+      "usage_class": "non_us"
     },
     {
       "id": "mango_kensington_pride",
@@ -7383,7 +7417,8 @@
         "ripe mango",
         "ready to eat mango"
       ],
-      "image_filename": "mango_ripe_ready_to_eat.png"
+      "image_filename": "mango_ripe_ready_to_eat.png",
+      "usage_class": "non_us"
     },
     {
       "id": "madrona",
@@ -7410,7 +7445,8 @@
       "aliases": [
         "greenhouse netted melon"
       ],
-      "image_filename": "melon_glasshouse_netted.png"
+      "image_filename": "melon_glasshouse_netted.png",
+      "usage_class": "non_us"
     },
     {
       "id": "melon_ogen",
@@ -7504,7 +7540,8 @@
         "Organic Oranges",
         "Unwaxed Oranges"
       ],
-      "image_filename": "oranges_untreated.png"
+      "image_filename": "oranges_untreated.png",
+      "usage_class": "non_us"
     },
     {
       "id": "peaches_red_flesh",
@@ -7628,7 +7665,8 @@
         "Clementine - Small"
       ],
       "image_filename": "clementine_tangerine_small.png",
-      "count": 130
+      "count": 130,
+      "usage_class": "non_us"
     },
     {
       "id": "clementine_tangerine_medium",
@@ -7642,7 +7680,8 @@
         "Clementine - Medium"
       ],
       "image_filename": "clementine_tangerine_medium.png",
-      "count": 80
+      "count": 80,
+      "usage_class": "non_us"
     },
     {
       "id": "clementine_tangerine_large",
@@ -7656,7 +7695,8 @@
         "Clementine - Large"
       ],
       "image_filename": "clementine_tangerine_large.png",
-      "count": 100
+      "count": 100,
+      "usage_class": "non_us"
     },
     {
       "id": "clementine_tangerine_with_leaves",
@@ -7670,7 +7710,8 @@
         "Leaf-on Clementine",
         "Clementine on the branch"
       ],
-      "image_filename": "clementine_tangerine_with_leaves.png"
+      "image_filename": "clementine_tangerine_with_leaves.png",
+      "usage_class": "non_us"
     },
     {
       "id": "clementine_tangerine_untreated",
@@ -7685,7 +7726,8 @@
         "Unwaxed Clementine",
         "Natural Clementine"
       ],
-      "image_filename": "clementine_tangerine_untreated.png"
+      "image_filename": "clementine_tangerine_untreated.png",
+      "usage_class": "non_us"
     },
     {
       "id": "satsuma_tangerine_clauselina",
@@ -7698,7 +7740,8 @@
       "aliases": [
         "Clauselina Tangerine"
       ],
-      "image_filename": "satsuma_tangerine_clauselina.png"
+      "image_filename": "satsuma_tangerine_clauselina.png",
+      "usage_class": "non_us"
     },
     {
       "id": "satsuma_tangerine",
@@ -7711,7 +7754,8 @@
       "aliases": [
         "Satsuma Mandarin"
       ],
-      "image_filename": "satsuma_tangerine.png"
+      "image_filename": "satsuma_tangerine.png",
+      "usage_class": "non_us"
     },
     {
       "id": "arracach",
@@ -7752,7 +7796,8 @@
       "rarity": "common",
       "confusion_group": null,
       "aliases": [],
-      "image_filename": "asparagus_green_bunch.png"
+      "image_filename": "asparagus_green_bunch.png",
+      "usage_class": "non_us"
     },
     {
       "id": "asparagus_white_bunch",
@@ -7763,7 +7808,8 @@
       "rarity": "uncommon",
       "confusion_group": null,
       "aliases": [],
-      "image_filename": "asparagus_white_bunch.png"
+      "image_filename": "asparagus_white_bunch.png",
+      "usage_class": "non_us"
     },
     {
       "id": "asparagus_purple_bunch",
@@ -7774,7 +7820,8 @@
       "rarity": "uncommon",
       "confusion_group": null,
       "aliases": [],
-      "image_filename": "asparagus_purple_bunch.png"
+      "image_filename": "asparagus_purple_bunch.png",
+      "usage_class": "non_us"
     },
     {
       "id": "belgian_endive_red",
@@ -7884,7 +7931,8 @@
       "aliases": [
         "Standard Leeks"
       ],
-      "image_filename": "leeks_regular_bunch.png"
+      "image_filename": "leeks_regular_bunch.png",
+      "usage_class": "non_us"
     },
     {
       "id": "leeks_baby_bunch",
@@ -7897,7 +7945,8 @@
       "aliases": [
         "Baby Leeks"
       ],
-      "image_filename": "leeks_baby_bunch.png"
+      "image_filename": "leeks_baby_bunch.png",
+      "usage_class": "non_us"
     },
     {
       "id": "mushrooms_cep",
@@ -8067,7 +8116,8 @@
         "sea spinach",
         "botany bay greens"
       ],
-      "image_filename": "new_zealand_spinach.png"
+      "image_filename": "new_zealand_spinach.png",
+      "usage_class": "non_us"
     },
     {
       "id": "round_zucchini_squash",
@@ -8138,7 +8188,8 @@
         "Ellendale Mandarins"
       ],
       "image_filename": "tangerines_ellendale_small.png",
-      "count": 130
+      "count": 130,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_ellendale_medium",
@@ -8153,7 +8204,8 @@
         "Ellendale Mandarins"
       ],
       "image_filename": "tangerines_ellendale_medium.png",
-      "count": 80
+      "count": 80,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_ellendale_large",
@@ -8168,7 +8220,8 @@
         "Ellendale Mandarins"
       ],
       "image_filename": "tangerines_ellendale_large.png",
-      "count": 100
+      "count": 100,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_honey_murcott_small",
@@ -8183,7 +8236,8 @@
         "Murcott Mandarins"
       ],
       "image_filename": "tangerines_honey_murcott_small.png",
-      "count": 130
+      "count": 130,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_honey_murcott_medium",
@@ -8198,7 +8252,8 @@
         "Murcott Mandarins"
       ],
       "image_filename": "tangerines_honey_murcott_medium.png",
-      "count": 80
+      "count": 80,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_honey_murcott_large",
@@ -8213,7 +8268,8 @@
         "Murcott Mandarins"
       ],
       "image_filename": "tangerines_honey_murcott_large.png",
-      "count": 100
+      "count": 100,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_imperial_small",
@@ -8228,7 +8284,8 @@
         "Imperial Tangerines"
       ],
       "image_filename": "tangerines_imperial_small.png",
-      "count": 130
+      "count": 130,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_imperial_medium",
@@ -8243,7 +8300,8 @@
         "Imperial Tangerines"
       ],
       "image_filename": "tangerines_imperial_medium.png",
-      "count": 80
+      "count": 80,
+      "usage_class": "non_us"
     },
     {
       "id": "tangerines_imperial_large",
@@ -8258,7 +8316,8 @@
         "Imperial Tangerines"
       ],
       "image_filename": "tangerines_imperial_large.png",
-      "count": 100
+      "count": 100,
+      "usage_class": "non_us"
     },
     {
       "id": "tosca_pear",
@@ -10194,7 +10253,8 @@
       "confusion_group": "green_apples",
       "aliases": [],
       "image_filename": "granny_smith_apples_large_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "pineapple_small_v2",
@@ -10298,7 +10358,8 @@
       "rarity": "common",
       "confusion_group": "greens",
       "aliases": [],
-      "image_filename": "celery_bunch_small.png"
+      "image_filename": "celery_bunch_small.png",
+      "legacy": true
     },
     {
       "id": "snow_peas",
@@ -10483,7 +10544,8 @@
       "confusion_group": "red_apples",
       "aliases": [],
       "image_filename": "early_apples_small_4116.png",
-      "count": 125
+      "count": 125,
+      "legacy": true
     },
     {
       "id": "early_apples_small_4117",
@@ -10507,7 +10569,8 @@
       "confusion_group": "red_apples",
       "aliases": [],
       "image_filename": "early_apples_large_4118.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "early_apples_large_4119",
@@ -10604,7 +10667,8 @@
       "confusion_group": "red_apples",
       "aliases": [],
       "image_filename": "gala_apples_large_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "golden_delicious_apples_small_v2",
@@ -10616,7 +10680,8 @@
       "confusion_group": "yellow_apples",
       "aliases": [],
       "image_filename": "golden_delicious_apples_small_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "golden_delicious_apples_large_v2",
@@ -10628,7 +10693,8 @@
       "confusion_group": "yellow_apples",
       "aliases": [],
       "image_filename": "golden_delicious_apples_large_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "granny_smith_apples_small_v2",
@@ -10688,7 +10754,8 @@
       "confusion_group": "red_apples",
       "aliases": [],
       "image_filename": "jonagold_apples_large_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "jonathan_apples_small_v2",
@@ -10942,8 +11009,7 @@
       "rarity": "common",
       "confusion_group": "avocados",
       "aliases": [
-        "Green Skin Avocado - Small",
-        "International Avocado - Small"
+        "Green Skin Avocado - Small"
       ],
       "image_filename": "avocados_green_small.png",
       "count": 130
@@ -10957,8 +11023,7 @@
       "rarity": "common",
       "confusion_group": "avocados",
       "aliases": [
-        "Green Skin Avocado - Large",
-        "International Avocado - Large"
+        "Green Skin Avocado - Large"
       ],
       "image_filename": "avocados_green_large.png",
       "count": 100
@@ -11024,7 +11089,8 @@
       "aliases": [],
       "image_filename": "strawberries_pint_v2.png",
       "count": 80,
-      "is_scannable": true
+      "is_scannable": true,
+      "legacy": true
     },
     {
       "id": "strawberries_quart_v2",
@@ -11037,7 +11103,8 @@
       "aliases": [],
       "image_filename": "strawberries_quart_v2.png",
       "count": 100,
-      "is_scannable": true
+      "is_scannable": true,
+      "legacy": true
     },
     {
       "id": "strawberries_bulk_3_pack_3_pints_4249",
@@ -11052,7 +11119,8 @@
       ],
       "image_filename": "strawberries_bulk_3_pack_3_pints_4249.png",
       "count": 80,
-      "is_scannable": true
+      "is_scannable": true,
+      "legacy": true
     },
     {
       "id": "strawberries_bulk_3_pack_3_pints_4250",
@@ -11201,7 +11269,8 @@
         "Ruby Red Grapefruit"
       ],
       "image_filename": "grapefruit_ruby_red_pink_large_2.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "grapefruit_deep_red_small_1",
@@ -11213,7 +11282,8 @@
       "confusion_group": "citrus",
       "aliases": [],
       "image_filename": "grapefruit_deep_red_small_1.png",
-      "count": 125
+      "count": 125,
+      "legacy": true
     },
     {
       "id": "grapefruit_deep_red_small_2",
@@ -11240,7 +11310,8 @@
         "Red Grapefruit"
       ],
       "image_filename": "grapefruit_deep_red_large_4287.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "grapefruit_deep_red_large_4288",
@@ -11270,7 +11341,8 @@
         "Red Grapefruit"
       ],
       "image_filename": "grapefruit_deep_red_large_4289.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "grapefruit_white_small_4291",
@@ -11298,7 +11370,8 @@
         "White Marsh Grapefruit"
       ],
       "image_filename": "grapefruit_white_small_4292.png",
-      "count": 125
+      "count": 125,
+      "legacy": true
     },
     {
       "id": "grapefruit_white_large_4294",
@@ -11326,7 +11399,8 @@
         "White Marsh Grapefruit"
       ],
       "image_filename": "grapefruit_white_large_4295.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "cantaloupe_muskmelon_small",
@@ -11620,7 +11694,8 @@
         "navel orange"
       ],
       "image_filename": "navel_oranges_small_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "navel_oranges_large_v2",
@@ -11634,7 +11709,8 @@
         "navel orange"
       ],
       "image_filename": "navel_oranges_large_v2.png",
-      "region": "East/Central"
+      "region": "East/Central",
+      "legacy": true
     },
     {
       "id": "papaya_regular_large",
@@ -11698,7 +11774,8 @@
       "confusion_group": "stone_fruit",
       "aliases": [],
       "image_filename": "peaches_yellow_flesh_small_v3.png",
-      "count": 130
+      "count": 130,
+      "legacy": true
     },
     {
       "id": "peaches_yellow_flesh_large_v3",
@@ -11710,7 +11787,8 @@
       "confusion_group": "stone_fruit",
       "aliases": [],
       "image_filename": "peaches_yellow_flesh_large_v3.png",
-      "count": 100
+      "count": 100,
+      "legacy": true
     },
     {
       "id": "asian_nashi_pears_white",
@@ -12007,7 +12085,8 @@
         "ruby red grapefruit"
       ],
       "image_filename": "grapefruit_ruby_red_pink_extra_large_4491.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "grapefruit_ruby_red_pink_extra_large_4492",
@@ -12043,7 +12122,8 @@
         "ruby red grapefruit"
       ],
       "image_filename": "grapefruit_ruby_red_pink_extra_large_4493.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "grapefruit_deep_red_extra_large_4494",
@@ -12059,7 +12139,8 @@
         "ruby red grapefruit"
       ],
       "image_filename": "grapefruit_deep_red_extra_large_4494.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "grapefruit_deep_red_extra_large_4495",
@@ -12091,7 +12172,8 @@
         "ruby red grapefruit"
       ],
       "image_filename": "grapefruit_deep_red_extra_large_4496.png",
-      "count": 40
+      "count": 40,
+      "legacy": true
     },
     {
       "id": "grapes_white_green_seedless",
@@ -12638,7 +12720,8 @@
         "stalk celery"
       ],
       "image_filename": "celery_bunch_large_4582.png",
-      "count": 52
+      "count": 52,
+      "legacy": true
     },
     {
       "id": "celery_bunch_large_4583",
@@ -12997,7 +13080,8 @@
         "iceberg lettuce",
         "crisphead lettuce"
       ],
-      "image_filename": "lettuce_iceberg.png"
+      "image_filename": "lettuce_iceberg.png",
+      "legacy": true
     },
     {
       "id": "grapes_red_seedless",
@@ -13691,7 +13775,8 @@
         "hass_avocado_medium"
       ],
       "image_filename": "avocados_green_medium.png",
-      "count": 80
+      "count": 80,
+      "legacy": true
     },
     {
       "id": "chili_peppers_yellow",
