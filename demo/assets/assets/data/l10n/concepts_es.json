@@ -7,7 +7,7 @@
   "glossary": "docs/l10n/es-glossary.md",
   "note": "id -> es concept name; card_notes id -> es note (PLU digits preserved).",
   "name_count": 876,
-  "note_count": 93,
+  "note_count": 94,
   "names": {
     "abate_fetel_pears": "Peras Abate Fetel",
     "acorn_squash": "Calabaza Acorn",
@@ -892,6 +892,7 @@
     "anjou_pears": "La chica (4025) está en la fila de frutas. La grande (4416) está en la zona de peras. D'Anjou roja=4417.",
     "apricots": "4218=chabacano chico/estándar; 3302=grande. El chabacano rojo es 3614.",
     "asparagus_green": "El estándar (4080) es el común — justo al borde del bloque de verduras, después de la coliflor (4079). El jumbo (4521) es menos común. Espárrago blanco=4522, Morado=3079.",
+    "avocado_green": "Dos estándares: 4221/4771/4223 son del Este de Norteamérica. 4222/4224 son internacionales, rara vez correctos en tiendas de EE. UU. Revisa cuál usa tu tienda.",
     "avocado_hass": "¡Tres tamaños! 4046 es el más común (chico/mediano). No aprendas solo uno — los tres aparecen en la tienda. Las variedades de cáscara verde tienen códigos totalmente distintos (4222, 4771).",
     "bananas": "4011 es el código común del plátano; 4186 es el chico. No supongas que todo plátano usa 4011.",
     "bartlett_pears": "La chica (4024) está en la fila de frutas, cerca de las uvas. La grande (4409) está en la zona de peras (4409-4423). Bartlett roja=4410.",

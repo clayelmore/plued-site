@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -10942,8 +10942,8 @@
       "rarity": "common",
       "confusion_group": "avocados",
       "aliases": [
-        "Florida Avocado - Small",
-        "Green Skin Avocado - Small"
+        "Green Skin Avocado - Small",
+        "International Avocado - Small"
       ],
       "image_filename": "avocados_green_small.png",
       "count": 130
@@ -10957,8 +10957,8 @@
       "rarity": "common",
       "confusion_group": "avocados",
       "aliases": [
-        "Florida Avocado - Large",
-        "Green Skin Avocado - Large"
+        "Green Skin Avocado - Large",
+        "International Avocado - Large"
       ],
       "image_filename": "avocados_green_large.png",
       "count": 100

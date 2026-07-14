@@ -1760,12 +1760,10 @@
           "size": "S",
           "region": null,
           "grow_method": null,
-          "form": null,
+          "form": "east_na",
           "origin": "standard",
           "pack_id": null,
-          "interchangeable_with": [
-            "4222"
-          ],
+          "interchangeable_with": [],
           "is_scannable": false
         },
         {
@@ -1774,12 +1772,10 @@
           "size": "S",
           "region": null,
           "grow_method": null,
-          "form": null,
+          "form": "international",
           "origin": "standard",
           "pack_id": null,
-          "interchangeable_with": [
-            "4221"
-          ],
+          "interchangeable_with": [],
           "is_scannable": false
         },
         {
@@ -1788,12 +1784,10 @@
           "size": "L",
           "region": null,
           "grow_method": null,
-          "form": null,
+          "form": "east_na",
           "origin": "standard",
           "pack_id": null,
-          "interchangeable_with": [
-            "4224"
-          ],
+          "interchangeable_with": [],
           "is_scannable": false
         },
         {
@@ -1802,12 +1796,10 @@
           "size": "L",
           "region": null,
           "grow_method": null,
-          "form": null,
+          "form": "international",
           "origin": "standard",
           "pack_id": null,
-          "interchangeable_with": [
-            "4223"
-          ],
+          "interchangeable_with": [],
           "is_scannable": false
         },
         {
@@ -1816,7 +1808,7 @@
           "size": "M",
           "region": null,
           "grow_method": null,
-          "form": null,
+          "form": "east_na",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
@@ -1828,7 +1820,7 @@
         "rank_basis": "rarity+category",
         "proxy_tier": "common"
       },
-      "card_note": null,
+      "card_note": "Two standards: 4221/4771/4223 = East North America. 4222/4224 = international, rarely correct in US stores. Check yours.",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
