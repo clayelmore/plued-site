@@ -108884,7 +108884,7 @@ gac8(){return"The Most Common list is your main path, grouped into chapters. Cha
 gac9(){return"Your Journey"},
 gaca(){return"Your level is based on how many PLU codes you actually know. An item becomes \"Known\" the first time you answer it correctly, without hints, in under 5 seconds. It stays Known as long as you maintain 75%+ accuracy. One typo won't cost you! Tap your level badge to see all 16 ranks and what's ahead."},
 gacb(){return"Your Level"},
-gacc(){return"Browse all 882 concepts. Filter by family, Most Common, My Store, or mastery \u2014 or search any name or code. Long-press to select concepts, then Study, Practice, Test, or Save as a custom group."},
+gacc(){return"Browse all 876 concepts. Filter by family, Most Common, My Store, or mastery \u2014 or search any name or code. Long-press to select concepts, then Study, Practice, Test, or Save as a custom group."},
 gacd(){return"Library"},
 gace(){return"A new daily puzzle \u2014 guess the PLU code in 6 tries. Same puzzle for everyone, great for comparing with coworkers."},
 gacf(){return"PLUzzle"},
@@ -109367,7 +109367,7 @@ gac8(){return"La lista de Los M\xe1s Comunes es tu ruta principal, agrupada en c
 gac9(){return"Tu Recorrido"},
 gaca(){return'Tu nivel se basa en cu\xe1ntos c\xf3digos PLU realmente sabes. Un art\xedculo pasa a "Aprendido" la primera vez que lo respondes correctamente, sin pistas, en menos de 5 segundos. Sigue Aprendido mientras mantengas 75% o m\xe1s de precisi\xf3n. \xa1Un error de dedo no te costar\xe1! Toca tu insignia de nivel para ver los 16 rangos y lo que viene.'},
 gacb(){return"Tu Nivel"},
-gacc(){return"Explora los 882 conceptos. Filtra por familia, Los M\xe1s Comunes, Mi Tienda o dominio \u2014 o busca cualquier nombre o c\xf3digo. Mant\xe9n presionado para seleccionar conceptos, luego Estudiar, Practicar, Ponerte a prueba o Guardar como grupo personalizado."},
+gacc(){return"Explora los 876 conceptos. Filtra por familia, Los M\xe1s Comunes, Mi Tienda o dominio \u2014 o busca cualquier nombre o c\xf3digo. Mant\xe9n presionado para seleccionar conceptos, luego Estudiar, Practicar, Ponerte a prueba o Guardar como grupo personalizado."},
 gacd(){return"Biblioteca"},
 gace(){return"Un nuevo acertijo diario \u2014 adivina el c\xf3digo PLU en 6 intentos. El mismo acertijo para todos, ideal para comparar con tus compa\xf1eros."},
 gacf(){return"PLUzzle"},
@@ -114011,7 +114011,7 @@ $1(a){return B.RH},
 $S:715}
 A.alO.prototype={
 $2(a,b){var s=null,r=$.o,q=A.fy(),p=this.a,o=t.p
-return A.aH(s,A.aF(A.b([new A.af(B.je,A.aH(s,s,B.l,s,s,new A.aq($.o.c,s,s,A.an(2),s,s,B.p),s,4,s,s,s,s,s,40),s),A.b7(A.qB(A.aF(A.b([A.w(A.t(a).gacp(),s,s,s,A.nM(),s,s),B.bs,A.w(A.t(a).gaco(),s,s,s,A.c1($.o.Q),s,s),B.bk,p.nP(B.tu,$.o.f,A.t(a).gacj(),A.t(a).gaci()),p.nP(B.tw,$.o.f,A.t(a).gach(),A.t(a).gacg()),p.nP(B.fi,$.o.x,A.t(a).gac7(),A.t(a).gac6()),p.nP(B.tr,$.o.x,A.t(a).gacf(),A.t(a).gace()),p.nP(B.nL,$.o.y,A.t(a).gacd(),A.t(a).gacc()),p.nP(B.jB,$.o.f,A.t(a).gac9(),A.t(a).gac8()),p.nP(B.tx,$.o.y,A.t(a).gacl(),A.t(a).gack()),p.nP(B.ST,$.o.f,A.t(a).gacb(),A.t(a).gaca()),p.nP(B.ts,$.o.x,A.t(a).gacn(),A.t(a).gacm()),B.ag,A.bB(A.w("v1.0.0+57",s,s,s,A.cn($.o.Q.bE(0.6)),s,s),s,s)],o),B.Q,B.f,B.h),b,B.mT),1)],o),B.j,B.f,B.h),B.l,s,s,new A.aq(r.a,s,s,B.e8,q,s,B.p),s,s,s,s,s,s,s,s)},
+return A.aH(s,A.aF(A.b([new A.af(B.je,A.aH(s,s,B.l,s,s,new A.aq($.o.c,s,s,A.an(2),s,s,B.p),s,4,s,s,s,s,s,40),s),A.b7(A.qB(A.aF(A.b([A.w(A.t(a).gacp(),s,s,s,A.nM(),s,s),B.bs,A.w(A.t(a).gaco(),s,s,s,A.c1($.o.Q),s,s),B.bk,p.nP(B.tu,$.o.f,A.t(a).gacj(),A.t(a).gaci()),p.nP(B.tw,$.o.f,A.t(a).gach(),A.t(a).gacg()),p.nP(B.fi,$.o.x,A.t(a).gac7(),A.t(a).gac6()),p.nP(B.tr,$.o.x,A.t(a).gacf(),A.t(a).gace()),p.nP(B.nL,$.o.y,A.t(a).gacd(),A.t(a).gacc()),p.nP(B.jB,$.o.f,A.t(a).gac9(),A.t(a).gac8()),p.nP(B.tx,$.o.y,A.t(a).gacl(),A.t(a).gack()),p.nP(B.ST,$.o.f,A.t(a).gacb(),A.t(a).gaca()),p.nP(B.ts,$.o.x,A.t(a).gacn(),A.t(a).gacm()),B.ag,A.bB(A.w("v1.0.0+58",s,s,s,A.cn($.o.Q.bE(0.6)),s,s),s,s)],o),B.Q,B.f,B.h),b,B.mT),1)],o),B.j,B.f,B.h),B.l,s,s,new A.aq(r.a,s,s,B.e8,q,s,B.p),s,s,s,s,s,s,s,s)},
 $S:80}
 A.W1.prototype={
 B(a){var s=null,r=A.t(a).gacv(),q=$.o,p=A.an(999)
@@ -116705,7 +116705,7 @@ j.push(A.w(A.t(a5).gWI(),c,c,c,A.cu(c),c,c))
 j.push(B.at)
 j.push(new A.cJ(A.t(a5).gWt(),a2.gaG9(),B.bj,B.nM,!0,c))
 j.push(B.bO)
-j.push(A.bB(A.cI(B.T,new A.af(B.el,A.w("PLUed v1.0.0+57",c,c,c,A.cu(c),c,c),c),B.F,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,a2.gaAb(),c,c,c,c,c,c),c,c))
+j.push(A.bB(A.cI(B.T,new A.af(B.el,A.w("PLUed v1.0.0+58",c,c,c,A.cu(c),c,c),c),B.F,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,a2.gaAb(),c,c,c,c,c,c),c,c))
 return A.aH(c,A.aF(A.b([new A.af(B.je,a0,c),A.b7(A.qB(A.aF(j,B.aC,B.f,B.h),a6,B.mT),1)],g),B.j,B.f,B.h),B.l,c,c,new A.aq(b.a,c,c,B.e8,a,c,B.p),c,c,c,c,c,c,c,c)},
 $S:80}
 A.aR5.prototype={
