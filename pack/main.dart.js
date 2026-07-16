@@ -26007,7 +26007,7 @@ for(;;)switch(s){case 0:p=new A.ay($.an,t.fo)
 o=v.G
 n=o.document.createElement("input")
 n.type="file"
-n.accept=a
+if(a.length!==0)n.accept=a
 if(b)n.setAttribute("capture","environment")
 n.style.display="none"
 o=o.document.body
@@ -87898,7 +87898,7 @@ r.push(g)}},
 wU(){var s=0,r=A.R(t.H),q,p=this,o,n,m,l,k
 var $async$wU=A.S(function(a,b){if(a===1)return A.O(b,r)
 for(;;)switch(s){case 0:s=3
-return A.W(A.Xe(".plupack,application/json",!1),$async$wU)
+return A.W(A.Xe("",!1),$async$wU)
 case 3:k=b
 if(k==null){s=1
 break}try{o=A.atB(k)
