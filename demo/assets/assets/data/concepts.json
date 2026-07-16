@@ -2020,7 +2020,7 @@
         "tier": "EXACT",
         "household_pct": 57
       },
-      "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one — all three show up at retail. Green-skin varieties have different codes entirely (4222, 4771).",
+      "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one — all three show up at retail. Green-skin varieties have different codes entirely (4222, 4224).",
       "most_common": {
         "plu": 4046,
         "reason": "Small/medium Hass is the highest volume avocado SKU in the US"
@@ -10543,7 +10543,7 @@
         "tier": "EXACT",
         "household_pct": 78
       },
-      "card_note": "West uses odd codes: 4133 small, 4135 large. East/Central uses even codes: 4132 small, 4134 large.",
+      "card_note": "4133 small, 4135 large — same codes everywhere now (the old regional split was retired).",
       "most_common": {
         "plu": 4135,
         "reason": "Large Gala is the most stocked size"
@@ -11185,7 +11185,7 @@
         "tier": "EXACT",
         "household_pct": 30
       },
-      "card_note": "The reversal is West-only: 4020 large, 4021 small. East/Central is normal: 4136 small, 4137 large. Extra large=3285.",
+      "card_note": "4020 is Large and 4021 is Small — reversed from the usual pattern, so double-check. Extra large=3285. Same codes everywhere now (the old regional split was retired).",
       "most_common": {
         "plu": 4020,
         "reason": "Large Golden Delicious is the standard grocery size"
@@ -11743,7 +11743,7 @@
         "tier": "EXACT",
         "household_pct": 12
       },
-      "card_note": "4027 is the common small Ruby Red grapefruit code; 4047 is the small alternate. Large=4281.",
+      "card_note": "4047 is the common small Ruby Red grapefruit code. Large=4281.",
       "most_common": {
         "plu": 4047,
         "reason": "Small/standard grapefruit is more common than jumbo"
@@ -17544,7 +17544,7 @@
         "tier": "EXACT",
         "household_pct": 50
       },
-      "card_note": "⚠️ FIVE codes! Split by region AND size. Higher case count = smaller fruit. East/Central 'Large' (100ct) is actually SMALLER than West 'Medium' (88ct). West codes are most common since CA produces most US navels.",
+      "card_note": "Three codes by size: 4013 small, 3107 medium, 4012 large — same everywhere now (the old regional split was retired). Higher case count = smaller fruit.",
       "most_common": {
         "plu": 4012,
         "reason": "Large West navel (56ct) is the most common; CA produces most US navels"
@@ -22770,7 +22770,7 @@
         "tier": "EXACT",
         "household_pct": 41
       },
-      "card_note": "4045 is the common all-sizes red/black cherry code. Size-specific codes also exist: 3357 small, 3358 large.",
+      "card_note": "4045 is the all-sizes code for red/black cherries — the one you'll actually see at US retail. Size-specific alternates exist internationally but aren't used in the US/Canada.",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
@@ -22918,7 +22918,7 @@
         "tier": "EXACT",
         "household_pct": 35
       },
-      "card_note": "5 codes! Regional + size split like navel orange. West codes (4015/4016) are in the fruit row near Granny Smith large (4017). East codes (4167/4168) are in the apple zone.",
+      "card_note": "Three codes by size: 4015 small, 4016 large, 3284 extra large — same everywhere now (the old regional split was retired). Near Granny Smith large (4017) in the fruit row.",
       "most_common": {
         "plu": 4016,
         "reason": "Large West Red Delicious is the standard grocery size"

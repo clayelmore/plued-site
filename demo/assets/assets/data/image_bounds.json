@@ -1,0 +1,6512 @@
+{
+  "version": 1,
+  "generated_by": "tool/build_image_bounds.dart",
+  "alpha_threshold": 128,
+  "image_count": 1084,
+  "bounds": {
+    "abate_fetel_pears.png": {
+      "left": 0.263671875,
+      "top": 0.046875,
+      "right": 0.73046875,
+      "bottom": 0.921875
+    },
+    "acorn_squash.png": {
+      "left": 0.171875,
+      "top": 0.123046875,
+      "right": 0.822265625,
+      "bottom": 0.890625
+    },
+    "adora_seedless_grapes.png": {
+      "left": 0.154296875,
+      "top": 0.029296875,
+      "right": 0.83984375,
+      "bottom": 0.94921875
+    },
+    "akane_apples_large.png": {
+      "left": 0.126953125,
+      "top": 0.119140625,
+      "right": 0.869140625,
+      "bottom": 0.8828125
+    },
+    "akane_apples_small.png": {
+      "left": 0.21875,
+      "top": 0.197265625,
+      "right": 0.783203125,
+      "bottom": 0.818359375
+    },
+    "alfalfa_sprouts.png": {
+      "left": 0.228515625,
+      "top": 0.185546875,
+      "right": 0.740234375,
+      "bottom": 0.775390625
+    },
+    "alkmene_apples.png": {
+      "left": 0.158203125,
+      "top": 0.11328125,
+      "right": 0.837890625,
+      "bottom": 0.859375
+    },
+    "aloe_vera_leaves.png": {
+      "left": 0.37109375,
+      "top": 0.015625,
+      "right": 0.626953125,
+      "bottom": 0.9765625
+    },
+    "amaranth_leaves_all_sizes.png": {
+      "left": 0.18359375,
+      "top": 0.025390625,
+      "right": 0.8203125,
+      "bottom": 0.978515625
+    },
+    "ambrosia_apples.png": {
+      "left": 0.22265625,
+      "top": 0.130859375,
+      "right": 0.76953125,
+      "bottom": 0.8984375
+    },
+    "ambrosia_apples_small.png": {
+      "left": 0.1953125,
+      "top": 0.111328125,
+      "right": 0.80078125,
+      "bottom": 0.90625
+    },
+    "anaheim_pepper.png": {
+      "left": 0.3671875,
+      "top": 0.033203125,
+      "right": 0.61328125,
+      "bottom": 0.953125
+    },
+    "anise.png": {
+      "left": 0.244140625,
+      "top": 0.0625,
+      "right": 0.794921875,
+      "bottom": 0.916015625
+    },
+    "anjou_pears_large.png": {
+      "left": 0.185546875,
+      "top": 0.08203125,
+      "right": 0.80859375,
+      "bottom": 0.9140625
+    },
+    "anjou_pears_red.png": {
+      "left": 0.208984375,
+      "top": 0.068359375,
+      "right": 0.787109375,
+      "bottom": 0.921875
+    },
+    "anjou_pears_small.png": {
+      "left": 0.294921875,
+      "top": 0.236328125,
+      "right": 0.6953125,
+      "bottom": 0.78125
+    },
+    "apple_bananas_manzano.png": {
+      "left": 0.171875,
+      "top": 0.158203125,
+      "right": 0.798828125,
+      "bottom": 0.802734375
+    },
+    "apples_antares.png": {
+      "left": 0.154296875,
+      "top": 0.1484375,
+      "right": 0.845703125,
+      "bottom": 0.853515625
+    },
+    "apples_baldwin.png": {
+      "left": 0.1328125,
+      "top": 0.119140625,
+      "right": 0.8671875,
+      "bottom": 0.88671875
+    },
+    "apples_cn121.png": {
+      "left": 0.166015625,
+      "top": 0.1796875,
+      "right": 0.833984375,
+      "bottom": 0.84765625
+    },
+    "apples_dalinette.png": {
+      "left": 0.1796875,
+      "top": 0.150390625,
+      "right": 0.8203125,
+      "bottom": 0.837890625
+    },
+    "apples_golden_delicious_extra_large.png": {
+      "left": 0.15234375,
+      "top": 0.126953125,
+      "right": 0.841796875,
+      "bottom": 0.876953125
+    },
+    "apples_greening_ri.png": {
+      "left": 0.064453125,
+      "top": 0.09375,
+      "right": 0.927734375,
+      "bottom": 0.9296875
+    },
+    "apples_haralson_large.png": {
+      "left": 0.13671875,
+      "top": 0.119140625,
+      "right": 0.849609375,
+      "bottom": 0.9140625
+    },
+    "apples_haralson_small.png": {
+      "left": 0.322265625,
+      "top": 0.30859375,
+      "right": 0.677734375,
+      "bottom": 0.744140625
+    },
+    "apples_liberty.png": {
+      "left": 0.14453125,
+      "top": 0.1328125,
+      "right": 0.8515625,
+      "bottom": 0.8671875
+    },
+    "apples_macoun.png": {
+      "left": 0.138671875,
+      "top": 0.134765625,
+      "right": 0.859375,
+      "bottom": 0.869140625
+    },
+    "apples_melrose.png": {
+      "left": 0.146484375,
+      "top": 0.201171875,
+      "right": 0.85546875,
+      "bottom": 0.853515625
+    },
+    "apples_northern_spy.png": {
+      "left": 0.1328125,
+      "top": 0.12890625,
+      "right": 0.865234375,
+      "bottom": 0.875
+    },
+    "apples_orleans.png": {
+      "left": 0.185546875,
+      "top": 0.130859375,
+      "right": 0.82421875,
+      "bottom": 0.85546875
+    },
+    "apples_red_delicious_extra_large.png": {
+      "left": 0.197265625,
+      "top": 0.087890625,
+      "right": 0.806640625,
+      "bottom": 0.904296875
+    },
+    "apples_rosinette.png": {
+      "left": 0.197265625,
+      "top": 0.169921875,
+      "right": 0.802734375,
+      "bottom": 0.828125
+    },
+    "apples_scilate_envy_small.png": {
+      "left": 0.197265625,
+      "top": 0.173828125,
+      "right": 0.802734375,
+      "bottom": 0.84375
+    },
+    "apples_wurtwinning_bloss.png": {
+      "left": 0.181640625,
+      "top": 0.158203125,
+      "right": 0.81640625,
+      "bottom": 0.84375
+    },
+    "apricots.png": {
+      "left": 0.287109375,
+      "top": 0.30078125,
+      "right": 0.703125,
+      "bottom": 0.74609375
+    },
+    "apricots_dried.png": {
+      "left": 0.091796875,
+      "top": 0.048828125,
+      "right": 0.935546875,
+      "bottom": 0.9453125
+    },
+    "apricots_large.png": {
+      "left": 0.16796875,
+      "top": 0.154296875,
+      "right": 0.830078125,
+      "bottom": 0.84765625
+    },
+    "apriums.png": {
+      "left": 0.15234375,
+      "top": 0.154296875,
+      "right": 0.8359375,
+      "bottom": 0.861328125
+    },
+    "arra_thirty_grapes.png": {
+      "left": 0.22265625,
+      "top": 0.052734375,
+      "right": 0.7734375,
+      "bottom": 0.923828125
+    },
+    "arra_thirtytwo_grapes.png": {
+      "left": 0.177734375,
+      "top": 0.0625,
+      "right": 0.802734375,
+      "bottom": 0.927734375
+    },
+    "arra_twentyeight_grapes.png": {
+      "left": 0.193359375,
+      "top": 0.048828125,
+      "right": 0.794921875,
+      "bottom": 0.9453125
+    },
+    "arra_twentyseven_grapes.png": {
+      "left": 0.212890625,
+      "top": 0.037109375,
+      "right": 0.779296875,
+      "bottom": 0.90234375
+    },
+    "arracach.png": {
+      "left": 0.30859375,
+      "top": 0.0703125,
+      "right": 0.6875,
+      "bottom": 0.9375
+    },
+    "artichoke.png": {
+      "left": 0.142578125,
+      "top": 0.068359375,
+      "right": 0.861328125,
+      "bottom": 0.94140625
+    },
+    "artichokes_baby_cocktail.png": {
+      "left": 0.208984375,
+      "top": 0.115234375,
+      "right": 0.79296875,
+      "bottom": 0.8828125
+    },
+    "artichokes_extra_large.png": {
+      "left": 0.08984375,
+      "top": 0.068359375,
+      "right": 0.908203125,
+      "bottom": 0.943359375
+    },
+    "artichokes_purple_large.png": {
+      "left": 0.1171875,
+      "top": 0.08203125,
+      "right": 0.857421875,
+      "bottom": 0.939453125
+    },
+    "artichokes_purple_small.png": {
+      "left": 0.310546875,
+      "top": 0.306640625,
+      "right": 0.681640625,
+      "bottom": 0.7421875
+    },
+    "artichokes_rouge_salambo.png": {
+      "left": 0.16015625,
+      "top": 0.0390625,
+      "right": 0.845703125,
+      "bottom": 0.951171875
+    },
+    "artichokes_small.png": {
+      "left": 0.326171875,
+      "top": 0.3203125,
+      "right": 0.67578125,
+      "bottom": 0.6796875
+    },
+    "arugula.png": {
+      "left": 0.185546875,
+      "top": 0.05078125,
+      "right": 0.775390625,
+      "bottom": 0.9375
+    },
+    "asian_nashi_pears_brown.png": {
+      "left": 0.150390625,
+      "top": 0.14453125,
+      "right": 0.84765625,
+      "bottom": 0.884765625
+    },
+    "asian_nashi_pears_white.png": {
+      "left": 0.16796875,
+      "top": 0.126953125,
+      "right": 0.830078125,
+      "bottom": 0.8671875
+    },
+    "asian_pears.png": {
+      "left": 0.1171875,
+      "top": 0.095703125,
+      "right": 0.87890625,
+      "bottom": 0.892578125
+    },
+    "asparagus_green.png": {
+      "left": 0.35546875,
+      "top": 0.05078125,
+      "right": 0.6484375,
+      "bottom": 0.94921875
+    },
+    "asparagus_green_bunch.png": {
+      "left": 0.3125,
+      "top": 0.060546875,
+      "right": 0.6796875,
+      "bottom": 0.939453125
+    },
+    "asparagus_green_large.png": {
+      "left": 0.341796875,
+      "top": 0.0,
+      "right": 0.65625,
+      "bottom": 0.998046875
+    },
+    "asparagus_purple.png": {
+      "left": 0.28515625,
+      "top": 0.009765625,
+      "right": 0.697265625,
+      "bottom": 0.982421875
+    },
+    "asparagus_purple_bunch.png": {
+      "left": 0.32421875,
+      "top": 0.041015625,
+      "right": 0.677734375,
+      "bottom": 0.95703125
+    },
+    "asparagus_tips.png": {
+      "left": 0.107421875,
+      "top": 0.162109375,
+      "right": 0.876953125,
+      "bottom": 0.802734375
+    },
+    "asparagus_white_bunch.png": {
+      "left": 0.30859375,
+      "top": 0.046875,
+      "right": 0.689453125,
+      "bottom": 0.955078125
+    },
+    "asparagus_white_large.png": {
+      "left": 0.296875,
+      "top": 0.052734375,
+      "right": 0.703125,
+      "bottom": 0.962890625
+    },
+    "asparagus_white_small.png": {
+      "left": 0.34375,
+      "top": 0.08984375,
+      "right": 0.6640625,
+      "bottom": 0.908203125
+    },
+    "atemoyas.png": {
+      "left": 0.1484375,
+      "top": 0.09765625,
+      "right": 0.83203125,
+      "bottom": 0.8984375
+    },
+    "aura_apples.png": {
+      "left": 0.177734375,
+      "top": 0.115234375,
+      "right": 0.8203125,
+      "bottom": 0.84375
+    },
+    "aurora_apples_large.png": {
+      "left": 0.142578125,
+      "top": 0.080078125,
+      "right": 0.857421875,
+      "bottom": 0.9140625
+    },
+    "aurora_southern_rose_apples_small.png": {
+      "left": 0.224609375,
+      "top": 0.16796875,
+      "right": 0.77734375,
+      "bottom": 0.83984375
+    },
+    "autumncrisp_grapes.png": {
+      "left": 0.255859375,
+      "top": 0.08203125,
+      "right": 0.74609375,
+      "bottom": 0.91015625
+    },
+    "avocado_green_large.png": {
+      "left": 0.205078125,
+      "top": 0.091796875,
+      "right": 0.794921875,
+      "bottom": 0.927734375
+    },
+    "avocado_green_small.png": {
+      "left": 0.337890625,
+      "top": 0.310546875,
+      "right": 0.662109375,
+      "bottom": 0.744140625
+    },
+    "avocado_hass_large.png": {
+      "left": 0.154296875,
+      "top": 0.046875,
+      "right": 0.845703125,
+      "bottom": 0.958984375
+    },
+    "avocado_hass_small.png": {
+      "left": 0.19921875,
+      "top": 0.12109375,
+      "right": 0.802734375,
+      "bottom": 0.904296875
+    },
+    "avocado_hass_xl.png": {
+      "left": 0.140625,
+      "top": 0.03125,
+      "right": 0.86328125,
+      "bottom": 0.986328125
+    },
+    "avocados_cocktail_seedless.png": {
+      "left": 0.353515625,
+      "top": 0.044921875,
+      "right": 0.6484375,
+      "bottom": 0.935546875
+    },
+    "avocados_green_large.png": {
+      "left": 0.2109375,
+      "top": 0.103515625,
+      "right": 0.787109375,
+      "bottom": 0.9140625
+    },
+    "avocados_green_medium.png": {
+      "left": 0.19140625,
+      "top": 0.08203125,
+      "right": 0.810546875,
+      "bottom": 0.91796875
+    },
+    "avocados_green_small.png": {
+      "left": 0.33203125,
+      "top": 0.310546875,
+      "right": 0.669921875,
+      "bottom": 0.751953125
+    },
+    "avocados_pinkerton.png": {
+      "left": 0.29296875,
+      "top": 0.091796875,
+      "right": 0.70703125,
+      "bottom": 0.90625
+    },
+    "babaco.png": {
+      "left": 0.294921875,
+      "top": 0.046875,
+      "right": 0.705078125,
+      "bottom": 0.953125
+    },
+    "baby_bananas.png": {
+      "left": 0.087890625,
+      "top": 0.13671875,
+      "right": 0.876953125,
+      "bottom": 0.826171875
+    },
+    "baby_cactus_leaves.png": {
+      "left": 0.2734375,
+      "top": 0.134765625,
+      "right": 0.728515625,
+      "bottom": 0.87109375
+    },
+    "baby_gai_choy.png": {
+      "left": 0.25,
+      "top": 0.025390625,
+      "right": 0.7578125,
+      "bottom": 0.955078125
+    },
+    "baby_green_zucchini_courgette.png": {
+      "left": 0.373046875,
+      "top": 0.05078125,
+      "right": 0.623046875,
+      "bottom": 0.951171875
+    },
+    "baby_parsnip.png": {
+      "left": 0.404296875,
+      "top": 0.05078125,
+      "right": 0.59375,
+      "bottom": 0.94921875
+    },
+    "baby_scallopini_squash.png": {
+      "left": 0.1796875,
+      "top": 0.22265625,
+      "right": 0.80078125,
+      "bottom": 0.75390625
+    },
+    "baby_spinach.png": {
+      "left": 0.134765625,
+      "top": 0.0859375,
+      "right": 0.85546875,
+      "bottom": 0.90625
+    },
+    "baby_summer_green_squash.png": {
+      "left": 0.38671875,
+      "top": 0.0703125,
+      "right": 0.603515625,
+      "bottom": 0.9296875
+    },
+    "banana_leaves.png": {
+      "left": 0.2578125,
+      "top": 0.04296875,
+      "right": 0.697265625,
+      "bottom": 0.958984375
+    },
+    "banana_pepper.png": {
+      "left": 0.333984375,
+      "top": 0.08984375,
+      "right": 0.640625,
+      "bottom": 0.923828125
+    },
+    "banana_squash.png": {
+      "left": 0.31640625,
+      "top": 0.009765625,
+      "right": 0.673828125,
+      "bottom": 0.98828125
+    },
+    "bananas.png": {
+      "left": 0.111328125,
+      "top": 0.095703125,
+      "right": 0.90625,
+      "bottom": 0.82421875
+    },
+    "bananas_burro.png": {
+      "left": 0.123046875,
+      "top": 0.28515625,
+      "right": 0.904296875,
+      "bottom": 0.740234375
+    },
+    "bananas_dominique.png": {
+      "left": 0.142578125,
+      "top": 0.107421875,
+      "right": 0.904296875,
+      "bottom": 0.830078125
+    },
+    "bananas_small.png": {
+      "left": 0.1796875,
+      "top": 0.29296875,
+      "right": 0.841796875,
+      "bottom": 0.671875
+    },
+    "bartlett_pears_large.png": {
+      "left": 0.21875,
+      "top": 0.056640625,
+      "right": 0.767578125,
+      "bottom": 0.91015625
+    },
+    "bartlett_pears_red.png": {
+      "left": 0.22265625,
+      "top": 0.041015625,
+      "right": 0.759765625,
+      "bottom": 0.91015625
+    },
+    "bartlett_pears_small.png": {
+      "left": 0.337890625,
+      "top": 0.251953125,
+      "right": 0.66015625,
+      "bottom": 0.77734375
+    },
+    "basil.png": {
+      "left": 0.123046875,
+      "top": 0.1171875,
+      "right": 0.884765625,
+      "bottom": 0.87890625
+    },
+    "basil_opal.png": {
+      "left": 0.08203125,
+      "top": 0.048828125,
+      "right": 0.9375,
+      "bottom": 0.94921875
+    },
+    "basil_sweet.png": {
+      "left": 0.08984375,
+      "top": 0.123046875,
+      "right": 0.921875,
+      "bottom": 0.859375
+    },
+    "bay_leaves.png": {
+      "left": 0.314453125,
+      "top": 0.162109375,
+      "right": 0.673828125,
+      "bottom": 0.85546875
+    },
+    "bean_sprouts_mung.png": {
+      "left": 0.37890625,
+      "top": 0.09765625,
+      "right": 0.58203125,
+      "bottom": 0.93359375
+    },
+    "beans_chinese_long_snake.png": {
+      "left": 0.400390625,
+      "top": 0.037109375,
+      "right": 0.58203125,
+      "bottom": 0.958984375
+    },
+    "beans_fava_broad.png": {
+      "left": 0.18359375,
+      "top": 0.052734375,
+      "right": 0.81640625,
+      "bottom": 0.939453125
+    },
+    "beans_lima.png": {
+      "left": 0.302734375,
+      "top": 0.150390625,
+      "right": 0.703125,
+      "bottom": 0.83203125
+    },
+    "beans_pole_runner_stick.png": {
+      "left": 0.40234375,
+      "top": 0.021484375,
+      "right": 0.58203125,
+      "bottom": 0.974609375
+    },
+    "beans_purple_hull.png": {
+      "left": 0.38671875,
+      "top": 0.0,
+      "right": 0.59765625,
+      "bottom": 0.998046875
+    },
+    "beans_shell.png": {
+      "left": 0.154296875,
+      "top": 0.08984375,
+      "right": 0.8203125,
+      "bottom": 0.923828125
+    },
+    "beans_wax_yellow.png": {
+      "left": 0.4375,
+      "top": 0.044921875,
+      "right": 0.55859375,
+      "bottom": 0.97265625
+    },
+    "beans_winged.png": {
+      "left": 0.37109375,
+      "top": 0.02734375,
+      "right": 0.6015625,
+      "bottom": 0.96875
+    },
+    "beefsteak_tomatoes.png": {
+      "left": 0.111328125,
+      "top": 0.09375,
+      "right": 0.88671875,
+      "bottom": 0.869140625
+    },
+    "beet_greens.png": {
+      "left": 0.09765625,
+      "top": 0.046875,
+      "right": 0.880859375,
+      "bottom": 0.951171875
+    },
+    "beets_baby_golden.png": {
+      "left": 0.2734375,
+      "top": 0.138671875,
+      "right": 0.724609375,
+      "bottom": 0.921875
+    },
+    "beets_baby_red.png": {
+      "left": 0.189453125,
+      "top": 0.119140625,
+      "right": 0.8125,
+      "bottom": 0.892578125
+    },
+    "beets_bunch.png": {
+      "left": 0.171875,
+      "top": 0.0,
+      "right": 0.794921875,
+      "bottom": 0.984375
+    },
+    "beets_golden.png": {
+      "left": 0.2265625,
+      "top": 0.138671875,
+      "right": 0.771484375,
+      "bottom": 0.84765625
+    },
+    "beets_loose.png": {
+      "left": 0.158203125,
+      "top": 0.111328125,
+      "right": 0.84375,
+      "bottom": 0.892578125
+    },
+    "belchard_chantecler_apples.png": {
+      "left": 0.16015625,
+      "top": 0.12890625,
+      "right": 0.837890625,
+      "bottom": 0.865234375
+    },
+    "belgian_endive.png": {
+      "left": 0.30078125,
+      "top": 0.07421875,
+      "right": 0.69140625,
+      "bottom": 0.923828125
+    },
+    "belgian_endive_red.png": {
+      "left": 0.30078125,
+      "top": 0.05859375,
+      "right": 0.6953125,
+      "bottom": 0.9453125
+    },
+    "belgica_apples.png": {
+      "left": 0.166015625,
+      "top": 0.119140625,
+      "right": 0.8359375,
+      "bottom": 0.876953125
+    },
+    "bell_pepper_brown.png": {
+      "left": 0.1796875,
+      "top": 0.080078125,
+      "right": 0.81640625,
+      "bottom": 0.904296875
+    },
+    "bell_pepper_brown_v2.png": {
+      "left": 0.169921875,
+      "top": 0.0859375,
+      "right": 0.828125,
+      "bottom": 0.9140625
+    },
+    "bell_pepper_green_large.png": {
+      "left": 0.169921875,
+      "top": 0.103515625,
+      "right": 0.828125,
+      "bottom": 0.8984375
+    },
+    "bell_pepper_green_small.png": {
+      "left": 0.36328125,
+      "top": 0.357421875,
+      "right": 0.642578125,
+      "bottom": 0.677734375
+    },
+    "bell_pepper_purple.png": {
+      "left": 0.181640625,
+      "top": 0.103515625,
+      "right": 0.802734375,
+      "bottom": 0.87890625
+    },
+    "bell_pepper_white.png": {
+      "left": 0.205078125,
+      "top": 0.109375,
+      "right": 0.796875,
+      "bottom": 0.857421875
+    },
+    "bell_pepper_white_v2.png": {
+      "left": 0.216796875,
+      "top": 0.107421875,
+      "right": 0.783203125,
+      "bottom": 0.884765625
+    },
+    "belle_du_jumet_pear.png": {
+      "left": 0.216796875,
+      "top": 0.05859375,
+      "right": 0.78515625,
+      "bottom": 0.908203125
+    },
+    "bertanne_golden_russet_apples.png": {
+      "left": 0.2109375,
+      "top": 0.119140625,
+      "right": 0.78125,
+      "bottom": 0.896484375
+    },
+    "beurre_hardy_pears.png": {
+      "left": 0.212890625,
+      "top": 0.056640625,
+      "right": 0.7890625,
+      "bottom": 0.927734375
+    },
+    "black_currants.png": {
+      "left": 0.26171875,
+      "top": 0.271484375,
+      "right": 0.744140625,
+      "bottom": 0.78125
+    },
+    "black_forest_mushrooms.png": {
+      "left": 0.150390625,
+      "top": 0.146484375,
+      "right": 0.84375,
+      "bottom": 0.8828125
+    },
+    "black_grapes_seeded.png": {
+      "left": 0.2109375,
+      "top": 0.056640625,
+      "right": 0.78515625,
+      "bottom": 0.9296875
+    },
+    "black_grapes_seedless.png": {
+      "left": 0.236328125,
+      "top": 0.03515625,
+      "right": 0.763671875,
+      "bottom": 0.93359375
+    },
+    "black_plumcot.png": {
+      "left": 0.16015625,
+      "top": 0.1875,
+      "right": 0.8359375,
+      "bottom": 0.83203125
+    },
+    "black_raspberries.png": {
+      "left": 0.185546875,
+      "top": 0.19140625,
+      "right": 0.80859375,
+      "bottom": 0.796875
+    },
+    "black_velvet_apricot.png": {
+      "left": 0.13671875,
+      "top": 0.140625,
+      "right": 0.857421875,
+      "bottom": 0.869140625
+    },
+    "blackberries.png": {
+      "left": 0.265625,
+      "top": 0.138671875,
+      "right": 0.734375,
+      "bottom": 0.853515625
+    },
+    "blackeyed_peas.png": {
+      "left": 0.353515625,
+      "top": 0.056640625,
+      "right": 0.6875,
+      "bottom": 0.931640625
+    },
+    "blood_oranges.png": {
+      "left": 0.103515625,
+      "top": 0.193359375,
+      "right": 0.904296875,
+      "bottom": 0.8046875
+    },
+    "blue_black_seeded_grapes.png": {
+      "left": 0.21484375,
+      "top": 0.0390625,
+      "right": 0.779296875,
+      "bottom": 0.9375
+    },
+    "blueberries.png": {
+      "left": 0.18359375,
+      "top": 0.205078125,
+      "right": 0.8203125,
+      "bottom": 0.8203125
+    },
+    "boiling_onions.png": {
+      "left": 0.283203125,
+      "top": 0.205078125,
+      "right": 0.716796875,
+      "bottom": 0.748046875
+    },
+    "bok_choy.png": {
+      "left": 0.142578125,
+      "top": 0.03125,
+      "right": 0.826171875,
+      "bottom": 0.96484375
+    },
+    "bok_choy_small_baby.png": {
+      "left": 0.185546875,
+      "top": 0.072265625,
+      "right": 0.79296875,
+      "bottom": 0.92578125
+    },
+    "bon_rouge_pears.png": {
+      "left": 0.21484375,
+      "top": 0.04296875,
+      "right": 0.7734375,
+      "bottom": 0.91015625
+    },
+    "boniato.png": {
+      "left": 0.271484375,
+      "top": 0.0,
+      "right": 0.71875,
+      "bottom": 0.98828125
+    },
+    "borage.png": {
+      "left": 0.2109375,
+      "top": 0.115234375,
+      "right": 0.794921875,
+      "bottom": 0.91796875
+    },
+    "bosc_pears_large.png": {
+      "left": 0.275390625,
+      "top": 0.0,
+      "right": 0.734375,
+      "bottom": 0.9765625
+    },
+    "bosc_pears_large_v2.png": {
+      "left": 0.287109375,
+      "top": 0.044921875,
+      "right": 0.712890625,
+      "bottom": 0.91796875
+    },
+    "bosc_pears_small.png": {
+      "left": 0.287109375,
+      "top": 0.04296875,
+      "right": 0.7109375,
+      "bottom": 0.94921875
+    },
+    "bosc_pears_small_v2.png": {
+      "left": 0.30078125,
+      "top": 0.04296875,
+      "right": 0.697265625,
+      "bottom": 0.92578125
+    },
+    "boskoop_apples_large.png": {
+      "left": 0.109375,
+      "top": 0.11328125,
+      "right": 0.87890625,
+      "bottom": 0.912109375
+    },
+    "boskoop_apples_small.png": {
+      "left": 0.296875,
+      "top": 0.31640625,
+      "right": 0.697265625,
+      "bottom": 0.736328125
+    },
+    "boston_lettuce_red.png": {
+      "left": 0.103515625,
+      "top": 0.111328125,
+      "right": 0.921875,
+      "bottom": 0.888671875
+    },
+    "boysenberries.png": {
+      "left": 0.29296875,
+      "top": 0.083984375,
+      "right": 0.705078125,
+      "bottom": 0.90234375
+    },
+    "braeburn_apples_large.png": {
+      "left": 0.16796875,
+      "top": 0.11328125,
+      "right": 0.83203125,
+      "bottom": 0.880859375
+    },
+    "braeburn_apples_small.png": {
+      "left": 0.181640625,
+      "top": 0.12890625,
+      "right": 0.8203125,
+      "bottom": 0.876953125
+    },
+    "breadfruit.png": {
+      "left": 0.169921875,
+      "top": 0.041015625,
+      "right": 0.830078125,
+      "bottom": 0.923828125
+    },
+    "broccoli.png": {
+      "left": 0.142578125,
+      "top": 0.0859375,
+      "right": 0.861328125,
+      "bottom": 0.919921875
+    },
+    "broccoli_baby.png": {
+      "left": 0.265625,
+      "top": 0.095703125,
+      "right": 0.73046875,
+      "bottom": 0.91796875
+    },
+    "broccoli_crowns.png": {
+      "left": 0.17578125,
+      "top": 0.181640625,
+      "right": 0.828125,
+      "bottom": 0.818359375
+    },
+    "broccoli_florettes.png": {
+      "left": 0.083984375,
+      "top": 0.19921875,
+      "right": 0.91015625,
+      "bottom": 0.767578125
+    },
+    "broccoli_rabe_chinese_broccoli.png": {
+      "left": 0.19921875,
+      "top": 0.029296875,
+      "right": 0.7890625,
+      "bottom": 0.962890625
+    },
+    "brussels_sprouts.png": {
+      "left": 0.263671875,
+      "top": 0.251953125,
+      "right": 0.734375,
+      "bottom": 0.748046875
+    },
+    "brussels_sprouts_stalk.png": {
+      "left": 0.345703125,
+      "top": 0.033203125,
+      "right": 0.65625,
+      "bottom": 0.962890625
+    },
+    "buttercup_squash.png": {
+      "left": 0.150390625,
+      "top": 0.142578125,
+      "right": 0.845703125,
+      "bottom": 0.86328125
+    },
+    "butterkin_squash.png": {
+      "left": 0.185546875,
+      "top": 0.119140625,
+      "right": 0.80859375,
+      "bottom": 0.884765625
+    },
+    "butternut_squash.png": {
+      "left": 0.26171875,
+      "top": 0.04296875,
+      "right": 0.736328125,
+      "bottom": 0.9140625
+    },
+    "cabbage_savoy_green.png": {
+      "left": 0.12109375,
+      "top": 0.13671875,
+      "right": 0.87890625,
+      "bottom": 0.833984375
+    },
+    "cabbage_savoy_red.png": {
+      "left": 0.080078125,
+      "top": 0.11328125,
+      "right": 0.9140625,
+      "bottom": 0.916015625
+    },
+    "cabbage_summer_pointed.png": {
+      "left": 0.21875,
+      "top": 0.03125,
+      "right": 0.78515625,
+      "bottom": 0.96484375
+    },
+    "cactus_leaves.png": {
+      "left": 0.220703125,
+      "top": 0.07421875,
+      "right": 0.775390625,
+      "bottom": 0.931640625
+    },
+    "cactus_pear.png": {
+      "left": 0.220703125,
+      "top": 0.1328125,
+      "right": 0.76171875,
+      "bottom": 0.88671875
+    },
+    "calabaza_squash.png": {
+      "left": 0.08984375,
+      "top": 0.091796875,
+      "right": 0.9140625,
+      "bottom": 0.931640625
+    },
+    "california_sweet_onion.png": {
+      "left": 0.1328125,
+      "top": 0.125,
+      "right": 0.86328125,
+      "bottom": 0.87890625
+    },
+    "calypso_mango_all_sizes.png": {
+      "left": 0.185546875,
+      "top": 0.107421875,
+      "right": 0.80859375,
+      "bottom": 0.890625
+    },
+    "cameo_apples_large.png": {
+      "left": 0.13671875,
+      "top": 0.126953125,
+      "right": 0.869140625,
+      "bottom": 0.8828125
+    },
+    "cameo_apples_small.png": {
+      "left": 0.16015625,
+      "top": 0.140625,
+      "right": 0.83984375,
+      "bottom": 0.8828125
+    },
+    "canary_melon.png": {
+      "left": 0.197265625,
+      "top": 0.1171875,
+      "right": 0.80078125,
+      "bottom": 0.91015625
+    },
+    "cantaloupe.png": {
+      "left": 0.1328125,
+      "top": 0.134765625,
+      "right": 0.875,
+      "bottom": 0.875
+    },
+    "cantaloupe_muskmelon_large.png": {
+      "left": 0.115234375,
+      "top": 0.1328125,
+      "right": 0.8828125,
+      "bottom": 0.880859375
+    },
+    "cantaloupe_muskmelon_small.png": {
+      "left": 0.109375,
+      "top": 0.1171875,
+      "right": 0.88671875,
+      "bottom": 0.904296875
+    },
+    "cantaloupe_small.png": {
+      "left": 0.15234375,
+      "top": 0.162109375,
+      "right": 0.85546875,
+      "bottom": 0.880859375
+    },
+    "cantared_apples.png": {
+      "left": 0.19140625,
+      "top": 0.15234375,
+      "right": 0.8125,
+      "bottom": 0.83984375
+    },
+    "cape_gooseberry_physalis.png": {
+      "left": 0.232421875,
+      "top": 0.103515625,
+      "right": 0.76171875,
+      "bottom": 0.833984375
+    },
+    "cape_rose_pears.png": {
+      "left": 0.22265625,
+      "top": 0.08203125,
+      "right": 0.775390625,
+      "bottom": 0.87890625
+    },
+    "cara_cara_navel_oranges.png": {
+      "left": 0.14453125,
+      "top": 0.150390625,
+      "right": 0.85546875,
+      "bottom": 0.85546875
+    },
+    "cardoon.png": {
+      "left": 0.1328125,
+      "top": 0.025390625,
+      "right": 0.86328125,
+      "bottom": 0.970703125
+    },
+    "carnival_squash.png": {
+      "left": 0.134765625,
+      "top": 0.09375,
+      "right": 0.875,
+      "bottom": 0.919921875
+    },
+    "carrots_baby.png": {
+      "left": 0.400390625,
+      "top": 0.109375,
+      "right": 0.59765625,
+      "bottom": 0.90234375
+    },
+    "carrots_bunch.png": {
+      "left": 0.21484375,
+      "top": 0.0,
+      "right": 0.796875,
+      "bottom": 0.998046875
+    },
+    "carrots_french.png": {
+      "left": 0.392578125,
+      "top": 0.04296875,
+      "right": 0.599609375,
+      "bottom": 0.96484375
+    },
+    "carrots_loose.png": {
+      "left": 0.392578125,
+      "top": 0.052734375,
+      "right": 0.607421875,
+      "bottom": 0.955078125
+    },
+    "carrots_purple_red_beta_sweet.png": {
+      "left": 0.396484375,
+      "top": 0.0,
+      "right": 0.6015625,
+      "bottom": 0.986328125
+    },
+    "carrots_sticks.png": {
+      "left": 0.162109375,
+      "top": 0.21875,
+      "right": 0.837890625,
+      "bottom": 0.791015625
+    },
+    "casaba_melon.png": {
+      "left": 0.162109375,
+      "top": 0.107421875,
+      "right": 0.830078125,
+      "bottom": 0.90234375
+    },
+    "cauliflower.png": {
+      "left": 0.099609375,
+      "top": 0.115234375,
+      "right": 0.875,
+      "bottom": 0.861328125
+    },
+    "cauliflower_baby.png": {
+      "left": 0.150390625,
+      "top": 0.162109375,
+      "right": 0.78515625,
+      "bottom": 0.8046875
+    },
+    "cauliflower_florettes.png": {
+      "left": 0.14453125,
+      "top": 0.078125,
+      "right": 0.84765625,
+      "bottom": 0.93359375
+    },
+    "cauliflower_green.png": {
+      "left": 0.126953125,
+      "top": 0.125,
+      "right": 0.875,
+      "bottom": 0.873046875
+    },
+    "cauliflower_large.png": {
+      "left": 0.080078125,
+      "top": 0.08203125,
+      "right": 0.90625,
+      "bottom": 0.896484375
+    },
+    "cauliflower_purple.png": {
+      "left": 0.115234375,
+      "top": 0.087890625,
+      "right": 0.890625,
+      "bottom": 0.853515625
+    },
+    "cauliflower_romanesco.png": {
+      "left": 0.140625,
+      "top": 0.03515625,
+      "right": 0.876953125,
+      "bottom": 0.9375
+    },
+    "celery.png": {
+      "left": 0.2265625,
+      "top": 0.00390625,
+      "right": 0.767578125,
+      "bottom": 0.978515625
+    },
+    "celery_bunch_large_4582.png": {
+      "left": 0.193359375,
+      "top": 0.0,
+      "right": 0.8203125,
+      "bottom": 1.0
+    },
+    "celery_bunch_large_4583.png": {
+      "left": 0.15234375,
+      "top": 0.0,
+      "right": 0.859375,
+      "bottom": 1.0
+    },
+    "celery_bunch_small.png": {
+      "left": 0.23046875,
+      "top": 0.060546875,
+      "right": 0.787109375,
+      "bottom": 0.939453125
+    },
+    "celery_hearts.png": {
+      "left": 0.251953125,
+      "top": 0.0,
+      "right": 0.763671875,
+      "bottom": 0.982421875
+    },
+    "celery_loose_stalk.png": {
+      "left": 0.365234375,
+      "top": 0.021484375,
+      "right": 0.572265625,
+      "bottom": 0.96875
+    },
+    "celery_root_celeriac.png": {
+      "left": 0.14453125,
+      "top": 0.123046875,
+      "right": 0.85546875,
+      "bottom": 0.90234375
+    },
+    "celery_root_with_leaves.png": {
+      "left": 0.140625,
+      "top": 0.0234375,
+      "right": 0.83984375,
+      "bottom": 0.96484375
+    },
+    "champagne_grapes.png": {
+      "left": 0.28515625,
+      "top": 0.078125,
+      "right": 0.69140625,
+      "bottom": 0.892578125
+    },
+    "chanterelle_mushrooms.png": {
+      "left": 0.1171875,
+      "top": 0.154296875,
+      "right": 0.880859375,
+      "bottom": 0.884765625
+    },
+    "charentais_melon.png": {
+      "left": 0.171875,
+      "top": 0.095703125,
+      "right": 0.830078125,
+      "bottom": 0.857421875
+    },
+    "charentais_melon_extra_large.png": {
+      "left": 0.0859375,
+      "top": 0.05859375,
+      "right": 0.9140625,
+      "bottom": 0.931640625
+    },
+    "charentais_melon_large.png": {
+      "left": 0.162109375,
+      "top": 0.12109375,
+      "right": 0.837890625,
+      "bottom": 0.853515625
+    },
+    "charentais_melon_medium.png": {
+      "left": 0.158203125,
+      "top": 0.111328125,
+      "right": 0.84765625,
+      "bottom": 0.8671875
+    },
+    "charles_ross_apples.png": {
+      "left": 0.12109375,
+      "top": 0.138671875,
+      "right": 0.876953125,
+      "bottom": 0.876953125
+    },
+    "chasselas_grapes.png": {
+      "left": 0.236328125,
+      "top": 0.041015625,
+      "right": 0.76171875,
+      "bottom": 0.9296875
+    },
+    "chayote_squash.png": {
+      "left": 0.1953125,
+      "top": 0.08984375,
+      "right": 0.798828125,
+      "bottom": 0.876953125
+    },
+    "cherimoya.png": {
+      "left": 0.166015625,
+      "top": 0.095703125,
+      "right": 0.83203125,
+      "bottom": 0.896484375
+    },
+    "cherries_hr87_timberline.png": {
+      "left": 0.29296875,
+      "top": 0.0859375,
+      "right": 0.705078125,
+      "bottom": 0.85546875
+    },
+    "cherries_red_black.png": {
+      "left": 0.26171875,
+      "top": 0.044921875,
+      "right": 0.732421875,
+      "bottom": 0.87890625
+    },
+    "cherries_rl100_audra_rose.png": {
+      "left": 0.2734375,
+      "top": 0.091796875,
+      "right": 0.73046875,
+      "bottom": 0.8515625
+    },
+    "cherry_tomatoes.png": {
+      "left": 0.283203125,
+      "top": 0.228515625,
+      "right": 0.71875,
+      "bottom": 0.75390625
+    },
+    "cherry_tomatoes_yellow.png": {
+      "left": 0.24609375,
+      "top": 0.18359375,
+      "right": 0.748046875,
+      "bottom": 0.794921875
+    },
+    "chervil.png": {
+      "left": 0.255859375,
+      "top": 0.130859375,
+      "right": 0.74609375,
+      "bottom": 0.890625
+    },
+    "chickpeas_fresh.png": {
+      "left": 0.2265625,
+      "top": 0.068359375,
+      "right": 0.79296875,
+      "bottom": 0.916015625
+    },
+    "chili_pepper_dried.png": {
+      "left": 0.361328125,
+      "top": 0.05859375,
+      "right": 0.66796875,
+      "bottom": 0.90234375
+    },
+    "chili_peppers_yellow.png": {
+      "left": 0.384765625,
+      "top": 0.08203125,
+      "right": 0.607421875,
+      "bottom": 0.90625
+    },
+    "chinese_yali_pears.png": {
+      "left": 0.283203125,
+      "top": 0.03125,
+      "right": 0.70703125,
+      "bottom": 0.951171875
+    },
+    "chipilin_leaf.png": {
+      "left": 0.275390625,
+      "top": 0.103515625,
+      "right": 0.69140625,
+      "bottom": 0.900390625
+    },
+    "chives.png": {
+      "left": 0.31640625,
+      "top": 0.095703125,
+      "right": 0.68359375,
+      "bottom": 0.919921875
+    },
+    "choy_sum.png": {
+      "left": 0.19921875,
+      "top": 0.044921875,
+      "right": 0.796875,
+      "bottom": 0.95703125
+    },
+    "choy_sum_baby.png": {
+      "left": 0.271484375,
+      "top": 0.107421875,
+      "right": 0.71484375,
+      "bottom": 0.892578125
+    },
+    "cilantro.png": {
+      "left": 0.224609375,
+      "top": 0.060546875,
+      "right": 0.765625,
+      "bottom": 0.939453125
+    },
+    "cinnabar_melon.png": {
+      "left": 0.16015625,
+      "top": 0.177734375,
+      "right": 0.845703125,
+      "bottom": 0.853515625
+    },
+    "civg198_apples.png": {
+      "left": 0.126953125,
+      "top": 0.1171875,
+      "right": 0.875,
+      "bottom": 0.888671875
+    },
+    "civni_apples.png": {
+      "left": 0.203125,
+      "top": 0.15234375,
+      "right": 0.794921875,
+      "bottom": 0.83203125
+    },
+    "clara_friis_pears.png": {
+      "left": 0.248046875,
+      "top": 0.123046875,
+      "right": 0.75390625,
+      "bottom": 0.84375
+    },
+    "clementine_tangerine_large.png": {
+      "left": 0.140625,
+      "top": 0.125,
+      "right": 0.859375,
+      "bottom": 0.904296875
+    },
+    "clementine_tangerine_medium.png": {
+      "left": 0.162109375,
+      "top": 0.15625,
+      "right": 0.814453125,
+      "bottom": 0.849609375
+    },
+    "clementine_tangerine_small.png": {
+      "left": 0.208984375,
+      "top": 0.263671875,
+      "right": 0.791015625,
+      "bottom": 0.8203125
+    },
+    "clementine_tangerine_untreated.png": {
+      "left": 0.177734375,
+      "top": 0.154296875,
+      "right": 0.833984375,
+      "bottom": 0.833984375
+    },
+    "clementine_tangerine_with_leaves.png": {
+      "left": 0.111328125,
+      "top": 0.087890625,
+      "right": 0.806640625,
+      "bottom": 0.904296875
+    },
+    "clementines.png": {
+      "left": 0.193359375,
+      "top": 0.228515625,
+      "right": 0.798828125,
+      "bottom": 0.80078125
+    },
+    "cocktail_tomatoes_on_vine.png": {
+      "left": 0.20703125,
+      "top": 0.130859375,
+      "right": 0.80859375,
+      "bottom": 0.84765625
+    },
+    "coconut_husked.png": {
+      "left": 0.158203125,
+      "top": 0.099609375,
+      "right": 0.845703125,
+      "bottom": 0.892578125
+    },
+    "coconut_in_husk.png": {
+      "left": 0.16796875,
+      "top": 0.10546875,
+      "right": 0.82421875,
+      "bottom": 0.884765625
+    },
+    "collard_greens.png": {
+      "left": 0.173828125,
+      "top": 0.025390625,
+      "right": 0.8203125,
+      "bottom": 0.970703125
+    },
+    "comice_pears.png": {
+      "left": 0.201171875,
+      "top": 0.115234375,
+      "right": 0.79296875,
+      "bottom": 0.857421875
+    },
+    "concord_grapes.png": {
+      "left": 0.23828125,
+      "top": 0.07421875,
+      "right": 0.751953125,
+      "bottom": 0.892578125
+    },
+    "concorde_pears.png": {
+      "left": 0.275390625,
+      "top": 0.03125,
+      "right": 0.716796875,
+      "bottom": 0.955078125
+    },
+    "conference_pears.png": {
+      "left": 0.29296875,
+      "top": 0.025390625,
+      "right": 0.705078125,
+      "bottom": 0.9609375
+    },
+    "coop_43_apples.png": {
+      "left": 0.158203125,
+      "top": 0.12109375,
+      "right": 0.833984375,
+      "bottom": 0.861328125
+    },
+    "corn_indian_decorative_large.png": {
+      "left": 0.283203125,
+      "top": 0.0,
+      "right": 0.705078125,
+      "bottom": 1.0
+    },
+    "corn_indian_decorative_mini.png": {
+      "left": 0.310546875,
+      "top": 0.017578125,
+      "right": 0.630859375,
+      "bottom": 0.953125
+    },
+    "corn_indian_strawberry.png": {
+      "left": 0.26953125,
+      "top": 0.048828125,
+      "right": 0.662109375,
+      "bottom": 0.939453125
+    },
+    "corn_sweet_baby.png": {
+      "left": 0.404296875,
+      "top": 0.076171875,
+      "right": 0.5859375,
+      "bottom": 0.93359375
+    },
+    "corn_sweet_bi_color.png": {
+      "left": 0.359375,
+      "top": 0.013671875,
+      "right": 0.6328125,
+      "bottom": 0.97265625
+    },
+    "corn_white_trimmed.png": {
+      "left": 0.236328125,
+      "top": 0.044921875,
+      "right": 0.763671875,
+      "bottom": 0.943359375
+    },
+    "corn_yellow_trimmed.png": {
+      "left": 0.3359375,
+      "top": 0.00390625,
+      "right": 0.65625,
+      "bottom": 0.98046875
+    },
+    "cortland_apples_large.png": {
+      "left": 0.1328125,
+      "top": 0.15625,
+      "right": 0.876953125,
+      "bottom": 0.861328125
+    },
+    "cortland_apples_small.png": {
+      "left": 0.306640625,
+      "top": 0.4140625,
+      "right": 0.701171875,
+      "bottom": 0.791015625
+    },
+    "cosmic_crisp_apples.png": {
+      "left": 0.1328125,
+      "top": 0.126953125,
+      "right": 0.861328125,
+      "bottom": 0.861328125
+    },
+    "cox_orange_pippin_apples.png": {
+      "left": 0.169921875,
+      "top": 0.16796875,
+      "right": 0.828125,
+      "bottom": 0.8359375
+    },
+    "crab_apples.png": {
+      "left": 0.25,
+      "top": 0.08984375,
+      "right": 0.74609375,
+      "bottom": 0.8203125
+    },
+    "cranberries.png": {
+      "left": 0.29296875,
+      "top": 0.275390625,
+      "right": 0.7109375,
+      "bottom": 0.75
+    },
+    "cremini_mushrooms.png": {
+      "left": 0.173828125,
+      "top": 0.189453125,
+      "right": 0.830078125,
+      "bottom": 0.83203125
+    },
+    "crenshaw_melon.png": {
+      "left": 0.2265625,
+      "top": 0.1015625,
+      "right": 0.7734375,
+      "bottom": 0.908203125
+    },
+    "crimson_delight_sunrise_magic_apples.png": {
+      "left": 0.16796875,
+      "top": 0.134765625,
+      "right": 0.830078125,
+      "bottom": 0.865234375
+    },
+    "crimson_grapes.png": {
+      "left": 0.21484375,
+      "top": 0.07421875,
+      "right": 0.77734375,
+      "bottom": 0.9140625
+    },
+    "cripps_red_apples_large.png": {
+      "left": 0.166015625,
+      "top": 0.15234375,
+      "right": 0.833984375,
+      "bottom": 0.853515625
+    },
+    "cripps_red_sundowner_apples_small.png": {
+      "left": 0.205078125,
+      "top": 0.185546875,
+      "right": 0.79296875,
+      "bottom": 0.814453125
+    },
+    "crispin_mutsu_apples_large.png": {
+      "left": 0.1171875,
+      "top": 0.123046875,
+      "right": 0.8828125,
+      "bottom": 0.8984375
+    },
+    "crispin_mutsu_apples_large_v2.png": {
+      "left": 0.11328125,
+      "top": 0.12109375,
+      "right": 0.880859375,
+      "bottom": 0.884765625
+    },
+    "crispin_mutsu_apples_small.png": {
+      "left": 0.130859375,
+      "top": 0.15234375,
+      "right": 0.869140625,
+      "bottom": 0.87890625
+    },
+    "crispin_mutsu_apples_small_v2.png": {
+      "left": 0.169921875,
+      "top": 0.201171875,
+      "right": 0.833984375,
+      "bottom": 0.857421875
+    },
+    "criterion_apples_large.png": {
+      "left": 0.16015625,
+      "top": 0.11328125,
+      "right": 0.8359375,
+      "bottom": 0.865234375
+    },
+    "criterion_apples_small.png": {
+      "left": 0.185546875,
+      "top": 0.15625,
+      "right": 0.8125,
+      "bottom": 0.8359375
+    },
+    "crown_prince_squash.png": {
+      "left": 0.09375,
+      "top": 0.134765625,
+      "right": 0.90625,
+      "bottom": 0.873046875
+    },
+    "cubanelle_pepper.png": {
+      "left": 0.369140625,
+      "top": 0.017578125,
+      "right": 0.6328125,
+      "bottom": 0.95703125
+    },
+    "cucumber.png": {
+      "left": 0.369140625,
+      "top": 0.03125,
+      "right": 0.62109375,
+      "bottom": 0.966796875
+    },
+    "cucumber_armenian.png": {
+      "left": 0.380859375,
+      "top": 0.0,
+      "right": 0.62109375,
+      "bottom": 1.0
+    },
+    "cucumber_japanese_white.png": {
+      "left": 0.41796875,
+      "top": 0.033203125,
+      "right": 0.580078125,
+      "bottom": 0.947265625
+    },
+    "cucumber_lemon.png": {
+      "left": 0.17578125,
+      "top": 0.109375,
+      "right": 0.826171875,
+      "bottom": 0.87109375
+    },
+    "currants_red.png": {
+      "left": 0.333984375,
+      "top": 0.107421875,
+      "right": 0.673828125,
+      "bottom": 0.861328125
+    },
+    "daikon.png": {
+      "left": 0.193359375,
+      "top": 0.04296875,
+      "right": 0.875,
+      "bottom": 0.94921875
+    },
+    "dancy_tangerines.png": {
+      "left": 0.15625,
+      "top": 0.20703125,
+      "right": 0.84375,
+      "bottom": 0.83203125
+    },
+    "dandelion_greens.png": {
+      "left": 0.064453125,
+      "top": 0.02734375,
+      "right": 0.90234375,
+      "bottom": 0.95703125
+    },
+    "dates_fresh.png": {
+      "left": 0.3046875,
+      "top": 0.154296875,
+      "right": 0.69140625,
+      "bottom": 0.85546875
+    },
+    "dazzle_apples.png": {
+      "left": 0.171875,
+      "top": 0.12109375,
+      "right": 0.826171875,
+      "bottom": 0.841796875
+    },
+    "dekopon_tangerine.png": {
+      "left": 0.140625,
+      "top": 0.109375,
+      "right": 0.8515625,
+      "bottom": 0.896484375
+    },
+    "delblush_tentation_apples.png": {
+      "left": 0.13671875,
+      "top": 0.119140625,
+      "right": 0.83984375,
+      "bottom": 0.900390625
+    },
+    "delicata_squash.png": {
+      "left": 0.0859375,
+      "top": 0.349609375,
+      "right": 0.939453125,
+      "bottom": 0.685546875
+    },
+    "delta_seedless_oranges_large.png": {
+      "left": 0.1171875,
+      "top": 0.123046875,
+      "right": 0.876953125,
+      "bottom": 0.884765625
+    },
+    "delta_seedless_oranges_medium.png": {
+      "left": 0.169921875,
+      "top": 0.169921875,
+      "right": 0.83203125,
+      "bottom": 0.8359375
+    },
+    "dessert_apples.png": {
+      "left": 0.193359375,
+      "top": 0.17578125,
+      "right": 0.8046875,
+      "bottom": 0.826171875
+    },
+    "destivale_apples.png": {
+      "left": 0.16015625,
+      "top": 0.140625,
+      "right": 0.8359375,
+      "bottom": 0.859375
+    },
+    "dill.png": {
+      "left": 0.13671875,
+      "top": 0.068359375,
+      "right": 0.837890625,
+      "bottom": 0.892578125
+    },
+    "dill_baby.png": {
+      "left": 0.2109375,
+      "top": 0.05078125,
+      "right": 0.7578125,
+      "bottom": 0.95703125
+    },
+    "dill_pickling.png": {
+      "left": 0.177734375,
+      "top": 0.037109375,
+      "right": 0.794921875,
+      "bottom": 0.96875
+    },
+    "discovery_apples.png": {
+      "left": 0.17578125,
+      "top": 0.14453125,
+      "right": 0.818359375,
+      "bottom": 0.8515625
+    },
+    "dragon_fruit_red.png": {
+      "left": 0.06640625,
+      "top": 0.03125,
+      "right": 0.912109375,
+      "bottom": 0.923828125
+    },
+    "dried_figs.png": {
+      "left": 0.1875,
+      "top": 0.119140625,
+      "right": 0.8125,
+      "bottom": 0.87890625
+    },
+    "dried_tomatoes.png": {
+      "left": 0.2109375,
+      "top": 0.134765625,
+      "right": 0.771484375,
+      "bottom": 0.8515625
+    },
+    "durondeau_pears.png": {
+      "left": 0.23046875,
+      "top": 0.064453125,
+      "right": 0.76953125,
+      "bottom": 0.896484375
+    },
+    "dutch_white_cabbage.png": {
+      "left": 0.1171875,
+      "top": 0.1328125,
+      "right": 0.88671875,
+      "bottom": 0.873046875
+    },
+    "early_apples_large_4118.png": {
+      "left": 0.07421875,
+      "top": 0.08203125,
+      "right": 0.923828125,
+      "bottom": 0.927734375
+    },
+    "early_apples_large_4119.png": {
+      "left": 0.12109375,
+      "top": 0.150390625,
+      "right": 0.876953125,
+      "bottom": 0.876953125
+    },
+    "early_apples_small_4116.png": {
+      "left": 0.251953125,
+      "top": 0.263671875,
+      "right": 0.748046875,
+      "bottom": 0.7734375
+    },
+    "early_apples_small_4117.png": {
+      "left": 0.263671875,
+      "top": 0.236328125,
+      "right": 0.7265625,
+      "bottom": 0.75
+    },
+    "eggplant.png": {
+      "left": 0.220703125,
+      "top": 0.03515625,
+      "right": 0.775390625,
+      "bottom": 0.947265625
+    },
+    "eggplant_baby.png": {
+      "left": 0.271484375,
+      "top": 0.07421875,
+      "right": 0.720703125,
+      "bottom": 0.90625
+    },
+    "eggplant_baby_white.png": {
+      "left": 0.27734375,
+      "top": 0.0390625,
+      "right": 0.71875,
+      "bottom": 0.927734375
+    },
+    "eggplant_chinese.png": {
+      "left": 0.412109375,
+      "top": 0.015625,
+      "right": 0.578125,
+      "bottom": 0.9765625
+    },
+    "eggplant_japanese.png": {
+      "left": 0.3828125,
+      "top": 0.033203125,
+      "right": 0.62890625,
+      "bottom": 0.97265625
+    },
+    "eggplant_thai.png": {
+      "left": 0.236328125,
+      "top": 0.083984375,
+      "right": 0.759765625,
+      "bottom": 0.86328125
+    },
+    "eggplant_white.png": {
+      "left": 0.228515625,
+      "top": 0.033203125,
+      "right": 0.76953125,
+      "bottom": 0.943359375
+    },
+    "ellendale_tangerine.png": {
+      "left": 0.12109375,
+      "top": 0.146484375,
+      "right": 0.8828125,
+      "bottom": 0.876953125
+    },
+    "elongated_green_pepper.png": {
+      "left": 0.3203125,
+      "top": 0.04296875,
+      "right": 0.677734375,
+      "bottom": 0.953125
+    },
+    "elongated_orange_pepper.png": {
+      "left": 0.318359375,
+      "top": 0.021484375,
+      "right": 0.669921875,
+      "bottom": 0.97265625
+    },
+    "elongated_red_pepper.png": {
+      "left": 0.31640625,
+      "top": 0.05078125,
+      "right": 0.671875,
+      "bottom": 0.951171875
+    },
+    "elongated_white_pepper.png": {
+      "left": 0.337890625,
+      "top": 0.037109375,
+      "right": 0.6484375,
+      "bottom": 0.962890625
+    },
+    "elongated_yellow_pepper.png": {
+      "left": 0.330078125,
+      "top": 0.0625,
+      "right": 0.66015625,
+      "bottom": 0.939453125
+    },
+    "elstar_apples_large.png": {
+      "left": 0.126953125,
+      "top": 0.107421875,
+      "right": 0.8671875,
+      "bottom": 0.8671875
+    },
+    "elstar_apples_small.png": {
+      "left": 0.1640625,
+      "top": 0.15234375,
+      "right": 0.837890625,
+      "bottom": 0.84375
+    },
+    "emmons_apples.png": {
+      "left": 0.125,
+      "top": 0.140625,
+      "right": 0.875,
+      "bottom": 0.890625
+    },
+    "empire_apples_large.png": {
+      "left": 0.142578125,
+      "top": 0.142578125,
+      "right": 0.859375,
+      "bottom": 0.869140625
+    },
+    "empire_apples_large_v2.png": {
+      "left": 0.142578125,
+      "top": 0.1484375,
+      "right": 0.8515625,
+      "bottom": 0.853515625
+    },
+    "empire_apples_small.png": {
+      "left": 0.181640625,
+      "top": 0.197265625,
+      "right": 0.8203125,
+      "bottom": 0.83984375
+    },
+    "empire_apples_small_v2.png": {
+      "left": 0.173828125,
+      "top": 0.134765625,
+      "right": 0.828125,
+      "bottom": 0.837890625
+    },
+    "endive_chicory.png": {
+      "left": 0.29296875,
+      "top": 0.046875,
+      "right": 0.69921875,
+      "bottom": 0.955078125
+    },
+    "english_cucumber.png": {
+      "left": 0.41796875,
+      "top": 0.0078125,
+      "right": 0.5859375,
+      "bottom": 0.98828125
+    },
+    "enjoya_stripy_bell_peppers_all_sizes.png": {
+      "left": 0.306640625,
+      "top": 0.056640625,
+      "right": 0.705078125,
+      "bottom": 0.943359375
+    },
+    "enoki_mushrooms.png": {
+      "left": 0.26171875,
+      "top": 0.041015625,
+      "right": 0.73046875,
+      "bottom": 0.95703125
+    },
+    "epazote.png": {
+      "left": 0.19140625,
+      "top": 0.087890625,
+      "right": 0.8046875,
+      "bottom": 0.919921875
+    },
+    "escarole_batavian_chicory_green.png": {
+      "left": 0.0625,
+      "top": 0.080078125,
+      "right": 0.9375,
+      "bottom": 0.892578125
+    },
+    "escarole_red.png": {
+      "left": 0.06640625,
+      "top": 0.09765625,
+      "right": 0.9296875,
+      "bottom": 0.90234375
+    },
+    "evelina_apples.png": {
+      "left": 0.15234375,
+      "top": 0.142578125,
+      "right": 0.84765625,
+      "bottom": 0.8671875
+    },
+    "evercrisp_apples.png": {
+      "left": 0.15625,
+      "top": 0.138671875,
+      "right": 0.845703125,
+      "bottom": 0.8671875
+    },
+    "fairchild_tangerine.png": {
+      "left": 0.16015625,
+      "top": 0.203125,
+      "right": 0.84375,
+      "bottom": 0.82421875
+    },
+    "fall_glo_tangerines.png": {
+      "left": 0.134765625,
+      "top": 0.15234375,
+      "right": 0.8671875,
+      "bottom": 0.86328125
+    },
+    "feijoa.png": {
+      "left": 0.267578125,
+      "top": 0.14453125,
+      "right": 0.73046875,
+      "bottom": 0.853515625
+    },
+    "fennel_anise.png": {
+      "left": 0.19921875,
+      "top": 0.037109375,
+      "right": 0.80078125,
+      "bottom": 0.951171875
+    },
+    "fennel_leaves.png": {
+      "left": 0.185546875,
+      "top": 0.033203125,
+      "right": 0.7890625,
+      "bottom": 0.88671875
+    },
+    "fiddlehead_ferns.png": {
+      "left": 0.142578125,
+      "top": 0.12109375,
+      "right": 0.86328125,
+      "bottom": 0.81640625
+    },
+    "fiesta_apples_all_sizes.png": {
+      "left": 0.16015625,
+      "top": 0.14453125,
+      "right": 0.837890625,
+      "bottom": 0.85546875
+    },
+    "figs_black.png": {
+      "left": 0.228515625,
+      "top": 0.107421875,
+      "right": 0.771484375,
+      "bottom": 0.873046875
+    },
+    "figs_brown.png": {
+      "left": 0.23828125,
+      "top": 0.119140625,
+      "right": 0.763671875,
+      "bottom": 0.87109375
+    },
+    "figs_white_green.png": {
+      "left": 0.23046875,
+      "top": 0.09375,
+      "right": 0.767578125,
+      "bottom": 0.873046875
+    },
+    "fine_beans.png": {
+      "left": 0.40625,
+      "top": 0.068359375,
+      "right": 0.5546875,
+      "bottom": 0.939453125
+    },
+    "fireside_apples_large.png": {
+      "left": 0.12890625,
+      "top": 0.119140625,
+      "right": 0.869140625,
+      "bottom": 0.8828125
+    },
+    "fireside_apples_small.png": {
+      "left": 0.20703125,
+      "top": 0.208984375,
+      "right": 0.796875,
+      "bottom": 0.826171875
+    },
+    "flamingo_pears.png": {
+      "left": 0.236328125,
+      "top": 0.05859375,
+      "right": 0.751953125,
+      "bottom": 0.884765625
+    },
+    "flat_peaches_white_saturn_donut.png": {
+      "left": 0.12890625,
+      "top": 0.169921875,
+      "right": 0.875,
+      "bottom": 0.85546875
+    },
+    "flat_yellow_nectarine.png": {
+      "left": 0.1328125,
+      "top": 0.1796875,
+      "right": 0.865234375,
+      "bottom": 0.845703125
+    },
+    "foo_qua_bitter_melon.png": {
+      "left": 0.361328125,
+      "top": 0.0234375,
+      "right": 0.642578125,
+      "bottom": 0.9375
+    },
+    "forelle_pears.png": {
+      "left": 0.2421875,
+      "top": 0.080078125,
+      "right": 0.7578125,
+      "bottom": 0.884765625
+    },
+    "fragrant_pears.png": {
+      "left": 0.189453125,
+      "top": 0.103515625,
+      "right": 0.810546875,
+      "bottom": 0.8671875
+    },
+    "francis_mango.png": {
+      "left": 0.095703125,
+      "top": 0.240234375,
+      "right": 0.923828125,
+      "bottom": 0.767578125
+    },
+    "french_afternoon_melon.png": {
+      "left": 0.13671875,
+      "top": 0.11328125,
+      "right": 0.859375,
+      "bottom": 0.857421875
+    },
+    "french_breakfast_melon.png": {
+      "left": 0.173828125,
+      "top": 0.115234375,
+      "right": 0.828125,
+      "bottom": 0.87890625
+    },
+    "french_pears.png": {
+      "left": 0.234375,
+      "top": 0.046875,
+      "right": 0.767578125,
+      "bottom": 0.89453125
+    },
+    "frisee.png": {
+      "left": 0.083984375,
+      "top": 0.095703125,
+      "right": 0.91015625,
+      "bottom": 0.85546875
+    },
+    "fuji_apples_large.png": {
+      "left": 0.111328125,
+      "top": 0.095703125,
+      "right": 0.8828125,
+      "bottom": 0.8984375
+    },
+    "fuji_apples_small.png": {
+      "left": 0.115234375,
+      "top": 0.125,
+      "right": 0.87890625,
+      "bottom": 0.890625
+    },
+    "fuji_brak_apples.png": {
+      "left": 0.203125,
+      "top": 0.14453125,
+      "right": 0.79296875,
+      "bottom": 0.830078125
+    },
+    "gai_choy.png": {
+      "left": 0.142578125,
+      "top": 0.056640625,
+      "right": 0.818359375,
+      "bottom": 0.93359375
+    },
+    "gai_lan.png": {
+      "left": 0.197265625,
+      "top": 0.0546875,
+      "right": 0.767578125,
+      "bottom": 0.955078125
+    },
+    "gala_apples_large.png": {
+      "left": 0.1328125,
+      "top": 0.12109375,
+      "right": 0.869140625,
+      "bottom": 0.875
+    },
+    "gala_apples_large_v2.png": {
+      "left": 0.13671875,
+      "top": 0.12109375,
+      "right": 0.86328125,
+      "bottom": 0.875
+    },
+    "gala_apples_small.png": {
+      "left": 0.189453125,
+      "top": 0.173828125,
+      "right": 0.8125,
+      "bottom": 0.82421875
+    },
+    "gala_apples_small_v2.png": {
+      "left": 0.181640625,
+      "top": 0.1328125,
+      "right": 0.82421875,
+      "bottom": 0.82421875
+    },
+    "galangal_root.png": {
+      "left": 0.248046875,
+      "top": 0.087890625,
+      "right": 0.724609375,
+      "bottom": 0.90234375
+    },
+    "galia_melon.png": {
+      "left": 0.154296875,
+      "top": 0.14453125,
+      "right": 0.84765625,
+      "bottom": 0.86328125
+    },
+    "garlic.png": {
+      "left": 0.21484375,
+      "top": 0.16796875,
+      "right": 0.78125,
+      "bottom": 0.78515625
+    },
+    "garlic_chives_all_sizes.png": {
+      "left": 0.234375,
+      "top": 0.02734375,
+      "right": 0.75390625,
+      "bottom": 0.953125
+    },
+    "garlic_elephant.png": {
+      "left": 0.1640625,
+      "top": 0.09375,
+      "right": 0.830078125,
+      "bottom": 0.8828125
+    },
+    "garlic_fresh_leaves.png": {
+      "left": 0.283203125,
+      "top": 0.029296875,
+      "right": 0.71484375,
+      "bottom": 0.89453125
+    },
+    "garlic_one_clove_types.png": {
+      "left": 0.203125,
+      "top": 0.1171875,
+      "right": 0.798828125,
+      "bottom": 0.853515625
+    },
+    "garlic_regular_smoked.png": {
+      "left": 0.201171875,
+      "top": 0.08984375,
+      "right": 0.796875,
+      "bottom": 0.84765625
+    },
+    "garlic_string.png": {
+      "left": 0.36328125,
+      "top": 0.02734375,
+      "right": 0.630859375,
+      "bottom": 0.95703125
+    },
+    "gem_avocados.png": {
+      "left": 0.2421875,
+      "top": 0.15625,
+      "right": 0.767578125,
+      "bottom": 0.859375
+    },
+    "gem_squash.png": {
+      "left": 0.162109375,
+      "top": 0.1171875,
+      "right": 0.837890625,
+      "bottom": 0.8671875
+    },
+    "giga_apples.png": {
+      "left": 0.16015625,
+      "top": 0.125,
+      "right": 0.837890625,
+      "bottom": 0.84375
+    },
+    "ginger_gold_apples_large.png": {
+      "left": 0.16796875,
+      "top": 0.169921875,
+      "right": 0.8359375,
+      "bottom": 0.841796875
+    },
+    "ginger_gold_apples_small.png": {
+      "left": 0.33203125,
+      "top": 0.337890625,
+      "right": 0.673828125,
+      "bottom": 0.71484375
+    },
+    "ginger_root.png": {
+      "left": 0.240234375,
+      "top": 0.13671875,
+      "right": 0.78125,
+      "bottom": 0.8359375
+    },
+    "gloster_apples_large.png": {
+      "left": 0.16015625,
+      "top": 0.111328125,
+      "right": 0.84375,
+      "bottom": 0.89453125
+    },
+    "gloster_apples_small.png": {
+      "left": 0.328125,
+      "top": 0.28125,
+      "right": 0.673828125,
+      "bottom": 0.75390625
+    },
+    "gobo_root.png": {
+      "left": 0.0546875,
+      "top": 0.41796875,
+      "right": 0.93359375,
+      "bottom": 0.625
+    },
+    "gold_honeydew_melon.png": {
+      "left": 0.189453125,
+      "top": 0.11328125,
+      "right": 0.814453125,
+      "bottom": 0.873046875
+    },
+    "golden_delicious_apples_large.png": {
+      "left": 0.171875,
+      "top": 0.12109375,
+      "right": 0.826171875,
+      "bottom": 0.86328125
+    },
+    "golden_delicious_apples_large_v2.png": {
+      "left": 0.140625,
+      "top": 0.09765625,
+      "right": 0.84765625,
+      "bottom": 0.888671875
+    },
+    "golden_delicious_apples_small.png": {
+      "left": 0.16015625,
+      "top": 0.130859375,
+      "right": 0.837890625,
+      "bottom": 0.87109375
+    },
+    "golden_delicious_apples_small_v2.png": {
+      "left": 0.205078125,
+      "top": 0.169921875,
+      "right": 0.79296875,
+      "bottom": 0.83203125
+    },
+    "golden_delicious_blush_apples.png": {
+      "left": 0.173828125,
+      "top": 0.14453125,
+      "right": 0.8203125,
+      "bottom": 0.853515625
+    },
+    "golden_delicious_squash.png": {
+      "left": 0.189453125,
+      "top": 0.123046875,
+      "right": 0.8203125,
+      "bottom": 0.853515625
+    },
+    "golden_kiwifruit.png": {
+      "left": 0.103515625,
+      "top": 0.1796875,
+      "right": 0.90625,
+      "bottom": 0.8359375
+    },
+    "golden_nugget_squash.png": {
+      "left": 0.15625,
+      "top": 0.12890625,
+      "right": 0.845703125,
+      "bottom": 0.84375
+    },
+    "golden_raspberries.png": {
+      "left": 0.18359375,
+      "top": 0.17578125,
+      "right": 0.826171875,
+      "bottom": 0.826171875
+    },
+    "gooseberries.png": {
+      "left": 0.2421875,
+      "top": 0.076171875,
+      "right": 0.755859375,
+      "bottom": 0.8984375
+    },
+    "gourd_ornamental.png": {
+      "left": 0.255859375,
+      "top": 0.13671875,
+      "right": 0.75390625,
+      "bottom": 0.861328125
+    },
+    "granny_smith_apples_large.png": {
+      "left": 0.115234375,
+      "top": 0.125,
+      "right": 0.87890625,
+      "bottom": 0.888671875
+    },
+    "granny_smith_apples_large_v2.png": {
+      "left": 0.12109375,
+      "top": 0.103515625,
+      "right": 0.875,
+      "bottom": 0.900390625
+    },
+    "granny_smith_apples_small.png": {
+      "left": 0.181640625,
+      "top": 0.1796875,
+      "right": 0.8046875,
+      "bottom": 0.83984375
+    },
+    "granny_smith_apples_small_v2.png": {
+      "left": 0.158203125,
+      "top": 0.162109375,
+      "right": 0.84375,
+      "bottom": 0.8515625
+    },
+    "granny_smith_red_apples.png": {
+      "left": 0.17578125,
+      "top": 0.16796875,
+      "right": 0.82421875,
+      "bottom": 0.841796875
+    },
+    "grape_teardrop_tomatoes.png": {
+      "left": 0.298828125,
+      "top": 0.140625,
+      "right": 0.697265625,
+      "bottom": 0.83203125
+    },
+    "grapefruit_deep_red_extra_large_4494.png": {
+      "left": 0.0703125,
+      "top": 0.083984375,
+      "right": 0.9375,
+      "bottom": 0.94140625
+    },
+    "grapefruit_deep_red_extra_large_4495.png": {
+      "left": 0.0703125,
+      "top": 0.091796875,
+      "right": 0.9296875,
+      "bottom": 0.9296875
+    },
+    "grapefruit_deep_red_extra_large_4496.png": {
+      "left": 0.05078125,
+      "top": 0.068359375,
+      "right": 0.9453125,
+      "bottom": 0.9765625
+    },
+    "grapefruit_deep_red_large_4287.png": {
+      "left": 0.109375,
+      "top": 0.1328125,
+      "right": 0.890625,
+      "bottom": 0.896484375
+    },
+    "grapefruit_deep_red_large_4288.png": {
+      "left": 0.099609375,
+      "top": 0.115234375,
+      "right": 0.900390625,
+      "bottom": 0.904296875
+    },
+    "grapefruit_deep_red_large_4289.png": {
+      "left": 0.11328125,
+      "top": 0.125,
+      "right": 0.8828125,
+      "bottom": 0.916015625
+    },
+    "grapefruit_deep_red_small.png": {
+      "left": 0.169921875,
+      "top": 0.1953125,
+      "right": 0.83203125,
+      "bottom": 0.83984375
+    },
+    "grapefruit_deep_red_small_1.png": {
+      "left": 0.19140625,
+      "top": 0.203125,
+      "right": 0.806640625,
+      "bottom": 0.833984375
+    },
+    "grapefruit_deep_red_small_2.png": {
+      "left": 0.181640625,
+      "top": 0.212890625,
+      "right": 0.81640625,
+      "bottom": 0.84765625
+    },
+    "grapefruit_ruby_red_large.png": {
+      "left": 0.06640625,
+      "top": 0.076171875,
+      "right": 0.9375,
+      "bottom": 0.939453125
+    },
+    "grapefruit_ruby_red_pink_extra_large_4491.png": {
+      "left": 0.076171875,
+      "top": 0.087890625,
+      "right": 0.927734375,
+      "bottom": 0.931640625
+    },
+    "grapefruit_ruby_red_pink_extra_large_4492.png": {
+      "left": 0.044921875,
+      "top": 0.052734375,
+      "right": 0.953125,
+      "bottom": 0.9453125
+    },
+    "grapefruit_ruby_red_pink_extra_large_4493.png": {
+      "left": 0.05078125,
+      "top": 0.072265625,
+      "right": 0.94921875,
+      "bottom": 0.943359375
+    },
+    "grapefruit_ruby_red_pink_large_1.png": {
+      "left": 0.080078125,
+      "top": 0.103515625,
+      "right": 0.919921875,
+      "bottom": 0.935546875
+    },
+    "grapefruit_ruby_red_pink_large_2.png": {
+      "left": 0.08203125,
+      "top": 0.09765625,
+      "right": 0.919921875,
+      "bottom": 0.939453125
+    },
+    "grapefruit_ruby_red_pink_small.png": {
+      "left": 0.12109375,
+      "top": 0.1484375,
+      "right": 0.87109375,
+      "bottom": 0.876953125
+    },
+    "grapefruit_ruby_red_small.png": {
+      "left": 0.09375,
+      "top": 0.11328125,
+      "right": 0.90625,
+      "bottom": 0.919921875
+    },
+    "grapefruit_untreated.png": {
+      "left": 0.115234375,
+      "top": 0.125,
+      "right": 0.8828125,
+      "bottom": 0.90234375
+    },
+    "grapefruit_white_large.png": {
+      "left": 0.080078125,
+      "top": 0.103515625,
+      "right": 0.91796875,
+      "bottom": 0.94140625
+    },
+    "grapefruit_white_large_4294.png": {
+      "left": 0.076171875,
+      "top": 0.1015625,
+      "right": 0.921875,
+      "bottom": 0.92578125
+    },
+    "grapefruit_white_large_4295.png": {
+      "left": 0.10546875,
+      "top": 0.123046875,
+      "right": 0.89453125,
+      "bottom": 0.890625
+    },
+    "grapefruit_white_small.png": {
+      "left": 0.11328125,
+      "top": 0.1328125,
+      "right": 0.88671875,
+      "bottom": 0.88671875
+    },
+    "grapefruit_white_small_4291.png": {
+      "left": 0.166015625,
+      "top": 0.189453125,
+      "right": 0.837890625,
+      "bottom": 0.857421875
+    },
+    "grapefruit_white_small_4292.png": {
+      "left": 0.1953125,
+      "top": 0.21875,
+      "right": 0.802734375,
+      "bottom": 0.822265625
+    },
+    "grapes_ardthirtysix_arra_cherry_crush.png": {
+      "left": 0.208984375,
+      "top": 0.0625,
+      "right": 0.77734375,
+      "bottom": 0.947265625
+    },
+    "grapes_fantasy_marroo.png": {
+      "left": 0.205078125,
+      "top": 0.04296875,
+      "right": 0.783203125,
+      "bottom": 0.94140625
+    },
+    "grapes_muscat_de_hambourg.png": {
+      "left": 0.20703125,
+      "top": 0.05078125,
+      "right": 0.7734375,
+      "bottom": 0.9375
+    },
+    "grapes_red_seeded.png": {
+      "left": 0.333984375,
+      "top": 0.283203125,
+      "right": 0.65625,
+      "bottom": 0.751953125
+    },
+    "grapes_red_seeded_v2.png": {
+      "left": 0.205078125,
+      "top": 0.0390625,
+      "right": 0.814453125,
+      "bottom": 0.953125
+    },
+    "grapes_red_seedless.png": {
+      "left": 0.23046875,
+      "top": 0.0546875,
+      "right": 0.775390625,
+      "bottom": 0.91796875
+    },
+    "grapes_white_green_seeded.png": {
+      "left": 0.2265625,
+      "top": 0.056640625,
+      "right": 0.771484375,
+      "bottom": 0.908203125
+    },
+    "grapes_white_green_seedless.png": {
+      "left": 0.21484375,
+      "top": 0.0390625,
+      "right": 0.794921875,
+      "bottom": 0.9140625
+    },
+    "gravenstein_apples_large.png": {
+      "left": 0.126953125,
+      "top": 0.154296875,
+      "right": 0.87109375,
+      "bottom": 0.875
+    },
+    "gravenstein_apples_small.png": {
+      "left": 0.341796875,
+      "top": 0.388671875,
+      "right": 0.658203125,
+      "bottom": 0.69921875
+    },
+    "gravenstein_red_apples_large.png": {
+      "left": 0.126953125,
+      "top": 0.123046875,
+      "right": 0.86328125,
+      "bottom": 0.869140625
+    },
+    "gravenstein_red_apples_small.png": {
+      "left": 0.34375,
+      "top": 0.365234375,
+      "right": 0.65625,
+      "bottom": 0.689453125
+    },
+    "green_bananas.png": {
+      "left": 0.09375,
+      "top": 0.205078125,
+      "right": 0.9453125,
+      "bottom": 0.75
+    },
+    "green_beans.png": {
+      "left": 0.103515625,
+      "top": 0.376953125,
+      "right": 0.92578125,
+      "bottom": 0.572265625
+    },
+    "green_bell_pepper_large.png": {
+      "left": 0.173828125,
+      "top": 0.068359375,
+      "right": 0.8203125,
+      "bottom": 0.916015625
+    },
+    "green_bell_pepper_small.png": {
+      "left": 0.353515625,
+      "top": 0.35546875,
+      "right": 0.646484375,
+      "bottom": 0.716796875
+    },
+    "green_cabbage.png": {
+      "left": 0.12890625,
+      "top": 0.1171875,
+      "right": 0.876953125,
+      "bottom": 0.884765625
+    },
+    "green_chili_pepper.png": {
+      "left": 0.365234375,
+      "top": 0.056640625,
+      "right": 0.623046875,
+      "bottom": 0.9375
+    },
+    "green_dragon_apple.png": {
+      "left": 0.158203125,
+      "top": 0.099609375,
+      "right": 0.83984375,
+      "bottom": 0.8984375
+    },
+    "green_grapes_seedless.png": {
+      "left": 0.22265625,
+      "top": 0.046875,
+      "right": 0.76171875,
+      "bottom": 0.892578125
+    },
+    "green_leaf_lettuce.png": {
+      "left": 0.08984375,
+      "top": 0.10546875,
+      "right": 0.912109375,
+      "bottom": 0.888671875
+    },
+    "green_onions_scallions.png": {
+      "left": 0.345703125,
+      "top": 0.021484375,
+      "right": 0.681640625,
+      "bottom": 0.953125
+    },
+    "green_pears_hw624.png": {
+      "left": 0.23828125,
+      "top": 0.1015625,
+      "right": 0.755859375,
+      "bottom": 0.869140625
+    },
+    "green_peas.png": {
+      "left": 0.123046875,
+      "top": 0.080078125,
+      "right": 0.80078125,
+      "bottom": 0.888671875
+    },
+    "green_plumcot.png": {
+      "left": 0.1953125,
+      "top": 0.126953125,
+      "right": 0.814453125,
+      "bottom": 0.84765625
+    },
+    "guava.png": {
+      "left": 0.2265625,
+      "top": 0.130859375,
+      "right": 0.767578125,
+      "bottom": 0.849609375
+    },
+    "habanero_pepper.png": {
+      "left": 0.298828125,
+      "top": 0.111328125,
+      "right": 0.697265625,
+      "bottom": 0.810546875
+    },
+    "hami_melon.png": {
+      "left": 0.2578125,
+      "top": 0.13671875,
+      "right": 0.7421875,
+      "bottom": 0.904296875
+    },
+    "hawaiian_plantain.png": {
+      "left": 0.23046875,
+      "top": 0.044921875,
+      "right": 0.806640625,
+      "bottom": 0.9140625
+    },
+    "heirloom_tomatoes.png": {
+      "left": 0.119140625,
+      "top": 0.138671875,
+      "right": 0.880859375,
+      "bottom": 0.830078125
+    },
+    "helda_flat_beans.png": {
+      "left": 0.408203125,
+      "top": 0.017578125,
+      "right": 0.583984375,
+      "bottom": 0.978515625
+    },
+    "heritage_reinette_varieties_apples.png": {
+      "left": 0.16015625,
+      "top": 0.15234375,
+      "right": 0.845703125,
+      "bottom": 0.85546875
+    },
+    "holstein_apples.png": {
+      "left": 0.12890625,
+      "top": 0.109375,
+      "right": 0.873046875,
+      "bottom": 0.890625
+    },
+    "homli_fruit.png": {
+      "left": 0.189453125,
+      "top": 0.083984375,
+      "right": 0.8125,
+      "bottom": 0.890625
+    },
+    "honey_green_melon.png": {
+      "left": 0.181640625,
+      "top": 0.076171875,
+      "right": 0.81640625,
+      "bottom": 0.908203125
+    },
+    "honey_tangerines.png": {
+      "left": 0.150390625,
+      "top": 0.181640625,
+      "right": 0.849609375,
+      "bottom": 0.849609375
+    },
+    "honeycrisp_apples_large.png": {
+      "left": 0.09765625,
+      "top": 0.130859375,
+      "right": 0.8984375,
+      "bottom": 0.927734375
+    },
+    "honeycrisp_apples_small.png": {
+      "left": 0.291015625,
+      "top": 0.32421875,
+      "right": 0.708984375,
+      "bottom": 0.7421875
+    },
+    "honeydew_melon.png": {
+      "left": 0.14453125,
+      "top": 0.115234375,
+      "right": 0.853515625,
+      "bottom": 0.904296875
+    },
+    "honeydew_melon_small.png": {
+      "left": 0.181640625,
+      "top": 0.107421875,
+      "right": 0.81640625,
+      "bottom": 0.87890625
+    },
+    "honeymoon_apples.png": {
+      "left": 0.169921875,
+      "top": 0.1484375,
+      "right": 0.830078125,
+      "bottom": 0.84765625
+    },
+    "horned_melon_kiwano.png": {
+      "left": 0.22265625,
+      "top": 0.103515625,
+      "right": 0.76953125,
+      "bottom": 0.888671875
+    },
+    "horseradish_root.png": {
+      "left": 0.3671875,
+      "top": 0.048828125,
+      "right": 0.630859375,
+      "bottom": 0.9609375
+    },
+    "hot_mixed_peppers.png": {
+      "left": 0.083984375,
+      "top": 0.11328125,
+      "right": 0.904296875,
+      "bottom": 0.8828125
+    },
+    "huaguan_autumn_glory_apples.png": {
+      "left": 0.177734375,
+      "top": 0.140625,
+      "right": 0.822265625,
+      "bottom": 0.8515625
+    },
+    "hubbard_squash.png": {
+      "left": 0.17578125,
+      "top": 0.0,
+      "right": 0.83203125,
+      "bottom": 0.978515625
+    },
+    "hungarian_hot_pepper.png": {
+      "left": 0.26953125,
+      "top": 0.078125,
+      "right": 0.646484375,
+      "bottom": 0.9375
+    },
+    "hungarian_wax_pepper.png": {
+      "left": 0.357421875,
+      "top": 0.0625,
+      "right": 0.625,
+      "bottom": 0.939453125
+    },
+    "hunnyz_apples.png": {
+      "left": 0.169921875,
+      "top": 0.14453125,
+      "right": 0.828125,
+      "bottom": 0.884765625
+    },
+    "iceberg_lettuce.png": {
+      "left": 0.11328125,
+      "top": 0.1171875,
+      "right": 0.884765625,
+      "bottom": 0.849609375
+    },
+    "idared_apples_large.png": {
+      "left": 0.140625,
+      "top": 0.1171875,
+      "right": 0.859375,
+      "bottom": 0.87109375
+    },
+    "idared_apples_small.png": {
+      "left": 0.267578125,
+      "top": 0.2890625,
+      "right": 0.736328125,
+      "bottom": 0.775390625
+    },
+    "ifg_core_black_seedless_grapes.png": {
+      "left": 0.2421875,
+      "top": 0.041015625,
+      "right": 0.771484375,
+      "bottom": 0.923828125
+    },
+    "ifg_core_green_seedless_grapes.png": {
+      "left": 0.18359375,
+      "top": 0.05078125,
+      "right": 0.79296875,
+      "bottom": 0.91796875
+    },
+    "ifg_core_red_seedless_grapes.png": {
+      "left": 0.205078125,
+      "top": 0.0625,
+      "right": 0.796875,
+      "bottom": 0.9296875
+    },
+    "ifg_novelty_black_seedless_grapes.png": {
+      "left": 0.130859375,
+      "top": 0.05078125,
+      "right": 0.865234375,
+      "bottom": 0.9609375
+    },
+    "ifg_novelty_green_seedless_cotton_candy_grapes.png": {
+      "left": 0.177734375,
+      "top": 0.037109375,
+      "right": 0.814453125,
+      "bottom": 0.921875
+    },
+    "ifg_novelty_red_seedless_grapes.png": {
+      "left": 0.205078125,
+      "top": 0.044921875,
+      "right": 0.78125,
+      "bottom": 0.939453125
+    },
+    "ifored_r_series_apples.png": {
+      "left": 0.17578125,
+      "top": 0.15625,
+      "right": 0.82421875,
+      "bottom": 0.84375
+    },
+    "ifored_y_series_apples.png": {
+      "left": 0.04296875,
+      "top": 0.193359375,
+      "right": 0.953125,
+      "bottom": 0.80078125
+    },
+    "ingrid_marie_apples.png": {
+      "left": 0.14453125,
+      "top": 0.142578125,
+      "right": 0.845703125,
+      "bottom": 0.84765625
+    },
+    "italia_seeded_grapes.png": {
+      "left": 0.21484375,
+      "top": 0.05078125,
+      "right": 0.76953125,
+      "bottom": 0.91015625
+    },
+    "italian_prune_plums.png": {
+      "left": 0.27734375,
+      "top": 0.080078125,
+      "right": 0.70703125,
+      "bottom": 0.865234375
+    },
+    "jackfruit.png": {
+      "left": 0.1953125,
+      "top": 0.015625,
+      "right": 0.8046875,
+      "bottom": 0.955078125
+    },
+    "jalapeno_pepper_green.png": {
+      "left": 0.337890625,
+      "top": 0.083984375,
+      "right": 0.671875,
+      "bottom": 0.90234375
+    },
+    "jalapeno_pepper_red.png": {
+      "left": 0.328125,
+      "top": 0.052734375,
+      "right": 0.671875,
+      "bottom": 0.916015625
+    },
+    "jamaican_tangor_tangerine.png": {
+      "left": 0.1875,
+      "top": 0.11328125,
+      "right": 0.8359375,
+      "bottom": 0.921875
+    },
+    "japanese_red_peppers.png": {
+      "left": 0.396484375,
+      "top": 0.052734375,
+      "right": 0.61328125,
+      "bottom": 0.939453125
+    },
+    "jazz_apples_large.png": {
+      "left": 0.1328125,
+      "top": 0.115234375,
+      "right": 0.8671875,
+      "bottom": 0.8828125
+    },
+    "jazz_apples_small.png": {
+      "left": 0.193359375,
+      "top": 0.169921875,
+      "right": 0.802734375,
+      "bottom": 0.830078125
+    },
+    "jicama.png": {
+      "left": 0.119140625,
+      "top": 0.14453125,
+      "right": 0.8828125,
+      "bottom": 0.86328125
+    },
+    "jonagold_apples_large.png": {
+      "left": 0.119140625,
+      "top": 0.12109375,
+      "right": 0.873046875,
+      "bottom": 0.87890625
+    },
+    "jonagold_apples_large_v2.png": {
+      "left": 0.125,
+      "top": 0.107421875,
+      "right": 0.875,
+      "bottom": 0.892578125
+    },
+    "jonagold_apples_small.png": {
+      "left": 0.11328125,
+      "top": 0.130859375,
+      "right": 0.8828125,
+      "bottom": 0.884765625
+    },
+    "jonagold_apples_small_v2.png": {
+      "left": 0.169921875,
+      "top": 0.15234375,
+      "right": 0.830078125,
+      "bottom": 0.84375
+    },
+    "jonamac_apples_large.png": {
+      "left": 0.12890625,
+      "top": 0.123046875,
+      "right": 0.869140625,
+      "bottom": 0.87890625
+    },
+    "jonamac_apples_small.png": {
+      "left": 0.20703125,
+      "top": 0.201171875,
+      "right": 0.796875,
+      "bottom": 0.806640625
+    },
+    "jonathan_apples_large.png": {
+      "left": 0.146484375,
+      "top": 0.134765625,
+      "right": 0.85546875,
+      "bottom": 0.857421875
+    },
+    "jonathan_apples_large_v2.png": {
+      "left": 0.125,
+      "top": 0.126953125,
+      "right": 0.873046875,
+      "bottom": 0.884765625
+    },
+    "jonathan_apples_small.png": {
+      "left": 0.1484375,
+      "top": 0.150390625,
+      "right": 0.8515625,
+      "bottom": 0.865234375
+    },
+    "jonathan_apples_small_v2.png": {
+      "left": 0.142578125,
+      "top": 0.126953125,
+      "right": 0.859375,
+      "bottom": 0.890625
+    },
+    "juice_oranges.png": {
+      "left": 0.17578125,
+      "top": 0.177734375,
+      "right": 0.818359375,
+      "bottom": 0.83203125
+    },
+    "juici_apples.png": {
+      "left": 0.185546875,
+      "top": 0.15234375,
+      "right": 0.8125,
+      "bottom": 0.83984375
+    },
+    "jupiter_grapes.png": {
+      "left": 0.16796875,
+      "top": 0.041015625,
+      "right": 0.830078125,
+      "bottom": 0.951171875
+    },
+    "kabocha_squash.png": {
+      "left": 0.12109375,
+      "top": 0.18359375,
+      "right": 0.87890625,
+      "bottom": 0.828125
+    },
+    "kale_curly.png": {
+      "left": 0.20703125,
+      "top": 0.0,
+      "right": 0.783203125,
+      "bottom": 0.982421875
+    },
+    "kale_red.png": {
+      "left": 0.1953125,
+      "top": 0.02734375,
+      "right": 0.787109375,
+      "bottom": 0.96875
+    },
+    "kale_sprouts.png": {
+      "left": 0.17578125,
+      "top": 0.08203125,
+      "right": 0.841796875,
+      "bottom": 0.923828125
+    },
+    "karma_apples.png": {
+      "left": 0.16796875,
+      "top": 0.130859375,
+      "right": 0.833984375,
+      "bottom": 0.859375
+    },
+    "key_limes.png": {
+      "left": 0.291015625,
+      "top": 0.296875,
+      "right": 0.708984375,
+      "bottom": 0.73046875
+    },
+    "king_royal_pears.png": {
+      "left": 0.240234375,
+      "top": 0.076171875,
+      "right": 0.76953125,
+      "bottom": 0.87890625
+    },
+    "kinnow_mandarins.png": {
+      "left": 0.181640625,
+      "top": 0.203125,
+      "right": 0.814453125,
+      "bottom": 0.83984375
+    },
+    "kiwifruit.png": {
+      "left": 0.12109375,
+      "top": 0.177734375,
+      "right": 0.890625,
+      "bottom": 0.84765625
+    },
+    "kiwifruit_jumbo.png": {
+      "left": 0.09765625,
+      "top": 0.13671875,
+      "right": 0.912109375,
+      "bottom": 0.875
+    },
+    "kohlrabi.png": {
+      "left": 0.228515625,
+      "top": 0.0390625,
+      "right": 0.7421875,
+      "bottom": 0.935546875
+    },
+    "kohlrabi_purple_red.png": {
+      "left": 0.15234375,
+      "top": 0.04296875,
+      "right": 0.82421875,
+      "bottom": 0.91015625
+    },
+    "korean_melon.png": {
+      "left": 0.20703125,
+      "top": 0.125,
+      "right": 0.796875,
+      "bottom": 0.88671875
+    },
+    "kumquats.png": {
+      "left": 0.294921875,
+      "top": 0.205078125,
+      "right": 0.708984375,
+      "bottom": 0.78125
+    },
+    "lady_apples.png": {
+      "left": 0.20703125,
+      "top": 0.185546875,
+      "right": 0.78515625,
+      "bottom": 0.80859375
+    },
+    "lady_williams_apples_all_sizes.png": {
+      "left": 0.19140625,
+      "top": 0.134765625,
+      "right": 0.810546875,
+      "bottom": 0.849609375
+    },
+    "laxtons_fortune_apples.png": {
+      "left": 0.15234375,
+      "top": 0.142578125,
+      "right": 0.845703125,
+      "bottom": 0.857421875
+    },
+    "leeks.png": {
+      "left": 0.275390625,
+      "top": 0.0,
+      "right": 0.755859375,
+      "bottom": 1.0
+    },
+    "leeks_baby.png": {
+      "left": 0.31640625,
+      "top": 0.029296875,
+      "right": 0.697265625,
+      "bottom": 0.96875
+    },
+    "leeks_baby_bunch.png": {
+      "left": 0.32421875,
+      "top": 0.0234375,
+      "right": 0.65625,
+      "bottom": 0.974609375
+    },
+    "leeks_regular_bunch.png": {
+      "left": 0.318359375,
+      "top": 0.0,
+      "right": 0.701171875,
+      "bottom": 1.0
+    },
+    "lemonade_apples_large.png": {
+      "left": 0.15625,
+      "top": 0.14453125,
+      "right": 0.845703125,
+      "bottom": 0.857421875
+    },
+    "lemonade_apples_small.png": {
+      "left": 0.1875,
+      "top": 0.150390625,
+      "right": 0.8125,
+      "bottom": 0.83203125
+    },
+    "lemongrass.png": {
+      "left": 0.419921875,
+      "top": 0.0,
+      "right": 0.583984375,
+      "bottom": 1.0
+    },
+    "lemons_large.png": {
+      "left": 0.251953125,
+      "top": 0.150390625,
+      "right": 0.755859375,
+      "bottom": 0.859375
+    },
+    "lemons_medium.png": {
+      "left": 0.2734375,
+      "top": 0.337890625,
+      "right": 0.724609375,
+      "bottom": 0.66796875
+    },
+    "lemons_small.png": {
+      "left": 0.23046875,
+      "top": 0.11328125,
+      "right": 0.759765625,
+      "bottom": 0.892578125
+    },
+    "lemons_untreated.png": {
+      "left": 0.23046875,
+      "top": 0.1328125,
+      "right": 0.7734375,
+      "bottom": 0.89453125
+    },
+    "lettuce_bibb_flat_round.png": {
+      "left": 0.08203125,
+      "top": 0.12109375,
+      "right": 0.900390625,
+      "bottom": 0.869140625
+    },
+    "lettuce_boston_butter.png": {
+      "left": 0.09375,
+      "top": 0.1015625,
+      "right": 0.8984375,
+      "bottom": 0.845703125
+    },
+    "lettuce_catalogna.png": {
+      "left": 0.185546875,
+      "top": 0.0,
+      "right": 0.798828125,
+      "bottom": 0.994140625
+    },
+    "lettuce_hydroponic.png": {
+      "left": 0.1171875,
+      "top": 0.083984375,
+      "right": 0.865234375,
+      "bottom": 0.91015625
+    },
+    "lettuce_iceberg.png": {
+      "left": 0.11328125,
+      "top": 0.125,
+      "right": 0.876953125,
+      "bottom": 0.865234375
+    },
+    "lettuce_lollo_bionda.png": {
+      "left": 0.08984375,
+      "top": 0.125,
+      "right": 0.908203125,
+      "bottom": 0.8671875
+    },
+    "lettuce_lollo_rossa.png": {
+      "left": 0.091796875,
+      "top": 0.115234375,
+      "right": 0.919921875,
+      "bottom": 0.89453125
+    },
+    "lettuce_mache.png": {
+      "left": 0.166015625,
+      "top": 0.17578125,
+      "right": 0.8125,
+      "bottom": 0.771484375
+    },
+    "lettuce_mignonette.png": {
+      "left": 0.103515625,
+      "top": 0.14453125,
+      "right": 0.90234375,
+      "bottom": 0.85546875
+    },
+    "lettuce_mixed_small_leaf_salad.png": {
+      "left": 0.083984375,
+      "top": 0.109375,
+      "right": 0.9140625,
+      "bottom": 0.88671875
+    },
+    "lettuce_oak_leaf_green.png": {
+      "left": 0.099609375,
+      "top": 0.076171875,
+      "right": 0.87890625,
+      "bottom": 0.921875
+    },
+    "lima_oranges.png": {
+      "left": 0.2109375,
+      "top": 0.236328125,
+      "right": 0.7890625,
+      "bottom": 0.8125
+    },
+    "limequats.png": {
+      "left": 0.263671875,
+      "top": 0.14453125,
+      "right": 0.736328125,
+      "bottom": 0.85546875
+    },
+    "limes.png": {
+      "left": 0.21875,
+      "top": 0.15625,
+      "right": 0.78125,
+      "bottom": 0.857421875
+    },
+    "lochbuie_apples.png": {
+      "left": 0.138671875,
+      "top": 0.125,
+      "right": 0.861328125,
+      "bottom": 0.876953125
+    },
+    "loganberries.png": {
+      "left": 0.298828125,
+      "top": 0.060546875,
+      "right": 0.69921875,
+      "bottom": 0.91015625
+    },
+    "lolipop_apples.png": {
+      "left": 0.17578125,
+      "top": 0.125,
+      "right": 0.82421875,
+      "bottom": 0.849609375
+    },
+    "long_hot_pepper_green.png": {
+      "left": 0.38671875,
+      "top": 0.015625,
+      "right": 0.58984375,
+      "bottom": 0.982421875
+    },
+    "long_hot_red_peppers.png": {
+      "left": 0.328125,
+      "top": 0.033203125,
+      "right": 0.609375,
+      "bottom": 0.97265625
+    },
+    "longan.png": {
+      "left": 0.267578125,
+      "top": 0.232421875,
+      "right": 0.73828125,
+      "bottom": 0.74609375
+    },
+    "loquats.png": {
+      "left": 0.28125,
+      "top": 0.12890625,
+      "right": 0.724609375,
+      "bottom": 0.845703125
+    },
+    "lord_lambourne_apples.png": {
+      "left": 0.166015625,
+      "top": 0.171875,
+      "right": 0.8359375,
+      "bottom": 0.84765625
+    },
+    "lotus_root.png": {
+      "left": 0.109375,
+      "top": 0.220703125,
+      "right": 0.931640625,
+      "bottom": 0.796875
+    },
+    "lucyglo_apples.png": {
+      "left": 0.1171875,
+      "top": 0.107421875,
+      "right": 0.876953125,
+      "bottom": 0.89453125
+    },
+    "lucyrose_apples.png": {
+      "left": 0.1484375,
+      "top": 0.125,
+      "right": 0.837890625,
+      "bottom": 0.8359375
+    },
+    "ludacrisp_apples.png": {
+      "left": 0.16796875,
+      "top": 0.146484375,
+      "right": 0.828125,
+      "bottom": 0.87109375
+    },
+    "lychees.png": {
+      "left": 0.234375,
+      "top": 0.25,
+      "right": 0.76171875,
+      "bottom": 0.80859375
+    },
+    "madrona.png": {
+      "left": 0.216796875,
+      "top": 0.12109375,
+      "right": 0.78515625,
+      "bottom": 0.84375
+    },
+    "magic_star_apples.png": {
+      "left": 0.16015625,
+      "top": 0.11328125,
+      "right": 0.841796875,
+      "bottom": 0.8671875
+    },
+    "malanga.png": {
+      "left": 0.208984375,
+      "top": 0.107421875,
+      "right": 0.7734375,
+      "bottom": 0.919921875
+    },
+    "mamey.png": {
+      "left": 0.091796875,
+      "top": 0.10546875,
+      "right": 0.919921875,
+      "bottom": 0.9140625
+    },
+    "mango_green_extra_large.png": {
+      "left": 0.095703125,
+      "top": 0.048828125,
+      "right": 0.916015625,
+      "bottom": 0.958984375
+    },
+    "mango_green_large.png": {
+      "left": 0.185546875,
+      "top": 0.09765625,
+      "right": 0.81640625,
+      "bottom": 0.90625
+    },
+    "mango_green_small.png": {
+      "left": 0.171875,
+      "top": 0.138671875,
+      "right": 0.814453125,
+      "bottom": 0.896484375
+    },
+    "mango_kensington_pride.png": {
+      "left": 0.203125,
+      "top": 0.150390625,
+      "right": 0.783203125,
+      "bottom": 0.869140625
+    },
+    "mango_r2e2.png": {
+      "left": 0.208984375,
+      "top": 0.130859375,
+      "right": 0.791015625,
+      "bottom": 0.875
+    },
+    "mango_ripe_ready_to_eat.png": {
+      "left": 0.19921875,
+      "top": 0.123046875,
+      "right": 0.791015625,
+      "bottom": 0.890625
+    },
+    "mango_yellow_small.png": {
+      "left": 0.205078125,
+      "top": 0.142578125,
+      "right": 0.796875,
+      "bottom": 0.884765625
+    },
+    "mangoes_red_large.png": {
+      "left": 0.166015625,
+      "top": 0.1171875,
+      "right": 0.841796875,
+      "bottom": 0.896484375
+    },
+    "mangoes_red_small.png": {
+      "left": 0.208984375,
+      "top": 0.123046875,
+      "right": 0.78125,
+      "bottom": 0.8828125
+    },
+    "mangoes_red_xl.png": {
+      "left": 0.1171875,
+      "top": 0.064453125,
+      "right": 0.876953125,
+      "bottom": 0.947265625
+    },
+    "mangoes_yellow_large.png": {
+      "left": 0.208984375,
+      "top": 0.091796875,
+      "right": 0.771484375,
+      "bottom": 0.91796875
+    },
+    "mangosteen.png": {
+      "left": 0.16015625,
+      "top": 0.119140625,
+      "right": 0.833984375,
+      "bottom": 0.900390625
+    },
+    "mariri_red_apples.png": {
+      "left": 0.16796875,
+      "top": 0.12890625,
+      "right": 0.828125,
+      "bottom": 0.85546875
+    },
+    "marjoram.png": {
+      "left": 0.25390625,
+      "top": 0.083984375,
+      "right": 0.728515625,
+      "bottom": 0.921875
+    },
+    "maui_onion.png": {
+      "left": 0.14453125,
+      "top": 0.123046875,
+      "right": 0.85546875,
+      "bottom": 0.85546875
+    },
+    "mayan_melon.png": {
+      "left": 0.21484375,
+      "top": 0.078125,
+      "right": 0.7890625,
+      "bottom": 0.908203125
+    },
+    "mcintosh_apples_large.png": {
+      "left": 0.11328125,
+      "top": 0.119140625,
+      "right": 0.88671875,
+      "bottom": 0.884765625
+    },
+    "mcintosh_apples_large_v2.png": {
+      "left": 0.11328125,
+      "top": 0.134765625,
+      "right": 0.884765625,
+      "bottom": 0.880859375
+    },
+    "mcintosh_apples_small.png": {
+      "left": 0.16796875,
+      "top": 0.18359375,
+      "right": 0.828125,
+      "bottom": 0.84375
+    },
+    "mcintosh_apples_small_v2.png": {
+      "left": 0.126953125,
+      "top": 0.162109375,
+      "right": 0.873046875,
+      "bottom": 0.87109375
+    },
+    "melogold_grapefruit.png": {
+      "left": 0.08984375,
+      "top": 0.123046875,
+      "right": 0.91015625,
+      "bottom": 0.896484375
+    },
+    "melon_glasshouse_netted.png": {
+      "left": 0.158203125,
+      "top": 0.072265625,
+      "right": 0.84375,
+      "bottom": 0.892578125
+    },
+    "melon_ogen.png": {
+      "left": 0.150390625,
+      "top": 0.11328125,
+      "right": 0.84765625,
+      "bottom": 0.873046875
+    },
+    "meridol_papaya.png": {
+      "left": 0.21484375,
+      "top": 0.072265625,
+      "right": 0.78125,
+      "bottom": 0.931640625
+    },
+    "meyer_lemons.png": {
+      "left": 0.2109375,
+      "top": 0.14453125,
+      "right": 0.7890625,
+      "bottom": 0.853515625
+    },
+    "michaelmas_red_apples.png": {
+      "left": 0.181640625,
+      "top": 0.16015625,
+      "right": 0.818359375,
+      "bottom": 0.82421875
+    },
+    "mickey_lee_watermelon.png": {
+      "left": 0.08984375,
+      "top": 0.111328125,
+      "right": 0.9140625,
+      "bottom": 0.888671875
+    },
+    "midknight_orange_small.png": {
+      "left": 0.220703125,
+      "top": 0.1640625,
+      "right": 0.771484375,
+      "bottom": 0.8125
+    },
+    "midknight_oranges_large.png": {
+      "left": 0.169921875,
+      "top": 0.185546875,
+      "right": 0.82421875,
+      "bottom": 0.849609375
+    },
+    "midknight_oranges_medium.png": {
+      "left": 0.17578125,
+      "top": 0.185546875,
+      "right": 0.82421875,
+      "bottom": 0.83203125
+    },
+    "midnight_beauty_grapes.png": {
+      "left": 0.205078125,
+      "top": 0.041015625,
+      "right": 0.78515625,
+      "bottom": 0.953125
+    },
+    "migo_pears.png": {
+      "left": 0.24609375,
+      "top": 0.052734375,
+      "right": 0.7421875,
+      "bottom": 0.90234375
+    },
+    "milwa_apples.png": {
+      "left": 0.169921875,
+      "top": 0.15234375,
+      "right": 0.833984375,
+      "bottom": 0.8515625
+    },
+    "mini_watermelon.png": {
+      "left": 0.140625,
+      "top": 0.142578125,
+      "right": 0.8828125,
+      "bottom": 0.873046875
+    },
+    "minneola_tangelos.png": {
+      "left": 0.17578125,
+      "top": 0.087890625,
+      "right": 0.8203125,
+      "bottom": 0.888671875
+    },
+    "minnewashta_zestar_apples.png": {
+      "left": 0.14453125,
+      "top": 0.146484375,
+      "right": 0.8515625,
+      "bottom": 0.86328125
+    },
+    "mint.png": {
+      "left": 0.158203125,
+      "top": 0.150390625,
+      "right": 0.826171875,
+      "bottom": 0.8828125
+    },
+    "morel_mushrooms.png": {
+      "left": 0.27734375,
+      "top": 0.0625,
+      "right": 0.724609375,
+      "bottom": 0.935546875
+    },
+    "morita_chili_peppers.png": {
+      "left": 0.326171875,
+      "top": 0.0234375,
+      "right": 0.67578125,
+      "bottom": 0.94140625
+    },
+    "mushrooms_cep.png": {
+      "left": 0.166015625,
+      "top": 0.0859375,
+      "right": 0.826171875,
+      "bottom": 0.935546875
+    },
+    "mushrooms_fairy_ring_champignon.png": {
+      "left": 0.25,
+      "top": 0.1171875,
+      "right": 0.751953125,
+      "bottom": 0.912109375
+    },
+    "mushrooms_grey_tricholoma.png": {
+      "left": 0.154296875,
+      "top": 0.095703125,
+      "right": 0.83984375,
+      "bottom": 0.904296875
+    },
+    "mushrooms_grisette.png": {
+      "left": 0.205078125,
+      "top": 0.033203125,
+      "right": 0.7890625,
+      "bottom": 0.96875
+    },
+    "mushrooms_horn_of_plenty_black_trumpet.png": {
+      "left": 0.1953125,
+      "top": 0.150390625,
+      "right": 0.80078125,
+      "bottom": 0.892578125
+    },
+    "mushrooms_pioppino.png": {
+      "left": 0.2109375,
+      "top": 0.115234375,
+      "right": 0.794921875,
+      "bottom": 0.9296875
+    },
+    "musk_melon.png": {
+      "left": 0.1484375,
+      "top": 0.08203125,
+      "right": 0.859375,
+      "bottom": 0.884765625
+    },
+    "mustard_greens.png": {
+      "left": 0.189453125,
+      "top": 0.005859375,
+      "right": 0.810546875,
+      "bottom": 0.98046875
+    },
+    "napa_cabbage.png": {
+      "left": 0.26953125,
+      "top": 0.0,
+      "right": 0.73046875,
+      "bottom": 1.0
+    },
+    "navel_oranges_large.png": {
+      "left": 0.115234375,
+      "top": 0.130859375,
+      "right": 0.875,
+      "bottom": 0.8828125
+    },
+    "navel_oranges_large_v2.png": {
+      "left": 0.12890625,
+      "top": 0.130859375,
+      "right": 0.873046875,
+      "bottom": 0.884765625
+    },
+    "navel_oranges_medium.png": {
+      "left": 0.1640625,
+      "top": 0.173828125,
+      "right": 0.8359375,
+      "bottom": 0.8359375
+    },
+    "navel_oranges_small.png": {
+      "left": 0.21484375,
+      "top": 0.232421875,
+      "right": 0.779296875,
+      "bottom": 0.798828125
+    },
+    "navel_oranges_small_v2.png": {
+      "left": 0.16796875,
+      "top": 0.181640625,
+      "right": 0.83203125,
+      "bottom": 0.83203125
+    },
+    "nectarine_nectavigne_red_flesh.png": {
+      "left": 0.12109375,
+      "top": 0.1171875,
+      "right": 0.87890625,
+      "bottom": 0.8828125
+    },
+    "nectarine_yellow_flesh_large.png": {
+      "left": 0.146484375,
+      "top": 0.15625,
+      "right": 0.849609375,
+      "bottom": 0.8515625
+    },
+    "nectarine_yellow_flesh_tree_ripened_small.png": {
+      "left": 0.154296875,
+      "top": 0.169921875,
+      "right": 0.845703125,
+      "bottom": 0.84765625
+    },
+    "nectarines_white.png": {
+      "left": 0.15234375,
+      "top": 0.15625,
+      "right": 0.85546875,
+      "bottom": 0.859375
+    },
+    "nectarines_yellow_large.png": {
+      "left": 0.1328125,
+      "top": 0.142578125,
+      "right": 0.861328125,
+      "bottom": 0.859375
+    },
+    "nectarines_yellow_small.png": {
+      "left": 0.14453125,
+      "top": 0.162109375,
+      "right": 0.849609375,
+      "bottom": 0.853515625
+    },
+    "negro_peppers.png": {
+      "left": 0.392578125,
+      "top": 0.0,
+      "right": 0.58984375,
+      "bottom": 0.9765625
+    },
+    "new_mexico_pepper.png": {
+      "left": 0.375,
+      "top": 0.037109375,
+      "right": 0.6171875,
+      "bottom": 0.96484375
+    },
+    "new_zealand_spinach.png": {
+      "left": 0.154296875,
+      "top": 0.08203125,
+      "right": 0.810546875,
+      "bottom": 0.892578125
+    },
+    "nicogreen_apples.png": {
+      "left": 0.177734375,
+      "top": 0.15625,
+      "right": 0.822265625,
+      "bottom": 0.845703125
+    },
+    "nicoter_apples.png": {
+      "left": 0.158203125,
+      "top": 0.115234375,
+      "right": 0.833984375,
+      "bottom": 0.85546875
+    },
+    "noble_juicy_crunch_mandarins.png": {
+      "left": 0.181640625,
+      "top": 0.220703125,
+      "right": 0.8125,
+      "bottom": 0.80078125
+    },
+    "nyame_white.png": {
+      "left": 0.21484375,
+      "top": 0.091796875,
+      "right": 0.76171875,
+      "bottom": 0.8984375
+    },
+    "nyame_yellow.png": {
+      "left": 0.310546875,
+      "top": 0.09765625,
+      "right": 0.693359375,
+      "bottom": 0.89453125
+    },
+    "oak_leaf_lettuce.png": {
+      "left": 0.07421875,
+      "top": 0.07421875,
+      "right": 0.93359375,
+      "bottom": 0.912109375
+    },
+    "okra_chinese.png": {
+      "left": 0.435546875,
+      "top": 0.025390625,
+      "right": 0.560546875,
+      "bottom": 0.96875
+    },
+    "okra_red.png": {
+      "left": 0.41015625,
+      "top": 0.05078125,
+      "right": 0.5859375,
+      "bottom": 0.953125
+    },
+    "okra_regular_green.png": {
+      "left": 0.130859375,
+      "top": 0.05859375,
+      "right": 0.91796875,
+      "bottom": 0.93359375
+    },
+    "ong_choy.png": {
+      "left": 0.1640625,
+      "top": 0.00390625,
+      "right": 0.80859375,
+      "bottom": 0.9609375
+    },
+    "onions_bulb_4659.png": {
+      "left": 0.19921875,
+      "top": 0.12890625,
+      "right": 0.798828125,
+      "bottom": 0.8515625
+    },
+    "onions_pickling_white.png": {
+      "left": 0.064453125,
+      "top": 0.142578125,
+      "right": 0.9296875,
+      "bottom": 0.80859375
+    },
+    "onions_sweet_red_italian_flat.png": {
+      "left": 0.087890625,
+      "top": 0.169921875,
+      "right": 0.908203125,
+      "bottom": 0.833984375
+    },
+    "opal_apples.png": {
+      "left": 0.17578125,
+      "top": 0.11328125,
+      "right": 0.82421875,
+      "bottom": 0.84765625
+    },
+    "orange_bell_pepper_field_grown.png": {
+      "left": 0.169921875,
+      "top": 0.080078125,
+      "right": 0.8203125,
+      "bottom": 0.8984375
+    },
+    "orange_bell_pepper_greenhouse.png": {
+      "left": 0.21484375,
+      "top": 0.11328125,
+      "right": 0.787109375,
+      "bottom": 0.85546875
+    },
+    "orange_cauliflower.png": {
+      "left": 0.109375,
+      "top": 0.130859375,
+      "right": 0.892578125,
+      "bottom": 0.8515625
+    },
+    "orange_cherry_tomatoes_all_sizes.png": {
+      "left": 0.220703125,
+      "top": 0.158203125,
+      "right": 0.791015625,
+      "bottom": 0.875
+    },
+    "orange_flesh_cantaline_melon.png": {
+      "left": 0.1328125,
+      "top": 0.109375,
+      "right": 0.873046875,
+      "bottom": 0.884765625
+    },
+    "orange_seedless_watermelon.png": {
+      "left": 0.072265625,
+      "top": 0.091796875,
+      "right": 0.9375,
+      "bottom": 0.912109375
+    },
+    "orange_tree_leaf.png": {
+      "left": 0.283203125,
+      "top": 0.0859375,
+      "right": 0.7109375,
+      "bottom": 0.912109375
+    },
+    "oranges_delta_seedless_small.png": {
+      "left": 0.236328125,
+      "top": 0.259765625,
+      "right": 0.767578125,
+      "bottom": 0.78125
+    },
+    "oranges_m4_dulce_navels.png": {
+      "left": 0.1171875,
+      "top": 0.130859375,
+      "right": 0.875,
+      "bottom": 0.884765625
+    },
+    "oranges_maltaise.png": {
+      "left": 0.193359375,
+      "top": 0.203125,
+      "right": 0.80859375,
+      "bottom": 0.810546875
+    },
+    "oranges_navelate.png": {
+      "left": 0.16015625,
+      "top": 0.166015625,
+      "right": 0.837890625,
+      "bottom": 0.841796875
+    },
+    "oranges_navelina.png": {
+      "left": 0.185546875,
+      "top": 0.189453125,
+      "right": 0.814453125,
+      "bottom": 0.8125
+    },
+    "oranges_pera.png": {
+      "left": 0.18359375,
+      "top": 0.169921875,
+      "right": 0.8125,
+      "bottom": 0.849609375
+    },
+    "oranges_salustiana.png": {
+      "left": 0.150390625,
+      "top": 0.111328125,
+      "right": 0.8671875,
+      "bottom": 0.900390625
+    },
+    "oranges_shamouti.png": {
+      "left": 0.19140625,
+      "top": 0.134765625,
+      "right": 0.810546875,
+      "bottom": 0.876953125
+    },
+    "oranges_untreated.png": {
+      "left": 0.146484375,
+      "top": 0.154296875,
+      "right": 0.8515625,
+      "bottom": 0.869140625
+    },
+    "oregano.png": {
+      "left": 0.185546875,
+      "top": 0.099609375,
+      "right": 0.818359375,
+      "bottom": 0.9140625
+    },
+    "oro_blanco_sweetie_grapefruit.png": {
+      "left": 0.1015625,
+      "top": 0.146484375,
+      "right": 0.89453125,
+      "bottom": 0.90234375
+    },
+    "oyster_mushrooms.png": {
+      "left": 0.109375,
+      "top": 0.126953125,
+      "right": 0.896484375,
+      "bottom": 0.869140625
+    },
+    "oyster_plant_salsify.png": {
+      "left": 0.416015625,
+      "top": 0.03515625,
+      "right": 0.580078125,
+      "bottom": 0.970703125
+    },
+    "pacific_rose_apples.png": {
+      "left": 0.1640625,
+      "top": 0.17578125,
+      "right": 0.837890625,
+      "bottom": 0.84375
+    },
+    "pacific_rose_apples_small.png": {
+      "left": 0.337890625,
+      "top": 0.37890625,
+      "right": 0.6640625,
+      "bottom": 0.732421875
+    },
+    "packham_pears.png": {
+      "left": 0.20703125,
+      "top": 0.087890625,
+      "right": 0.79296875,
+      "bottom": 0.890625
+    },
+    "papalo.png": {
+      "left": 0.162109375,
+      "top": 0.046875,
+      "right": 0.833984375,
+      "bottom": 0.955078125
+    },
+    "papaya_cooking_mexican.png": {
+      "left": 0.2109375,
+      "top": 0.056640625,
+      "right": 0.775390625,
+      "bottom": 0.912109375
+    },
+    "papaya_regular_large.png": {
+      "left": 0.220703125,
+      "top": 0.03515625,
+      "right": 0.77734375,
+      "bottom": 0.962890625
+    },
+    "papaya_regular_small.png": {
+      "left": 0.25,
+      "top": 0.12890625,
+      "right": 0.7421875,
+      "bottom": 0.91015625
+    },
+    "papaya_solo_sunrise.png": {
+      "left": 0.25,
+      "top": 0.0859375,
+      "right": 0.751953125,
+      "bottom": 0.9140625
+    },
+    "parsley_curly.png": {
+      "left": 0.185546875,
+      "top": 0.09765625,
+      "right": 0.80859375,
+      "bottom": 0.908203125
+    },
+    "parsley_italian_flat_leaf.png": {
+      "left": 0.22265625,
+      "top": 0.064453125,
+      "right": 0.77734375,
+      "bottom": 0.93359375
+    },
+    "parsley_root.png": {
+      "left": 0.39453125,
+      "top": 0.0546875,
+      "right": 0.62109375,
+      "bottom": 0.94921875
+    },
+    "parsnips.png": {
+      "left": 0.376953125,
+      "top": 0.03515625,
+      "right": 0.615234375,
+      "bottom": 0.962890625
+    },
+    "pasilla_pepper_green.png": {
+      "left": 0.3828125,
+      "top": 0.0,
+      "right": 0.630859375,
+      "bottom": 1.0
+    },
+    "pasilla_pod_peppers.png": {
+      "left": 0.396484375,
+      "top": 0.0234375,
+      "right": 0.626953125,
+      "bottom": 0.9765625
+    },
+    "pasilla_red_peppers.png": {
+      "left": 0.373046875,
+      "top": 0.046875,
+      "right": 0.611328125,
+      "bottom": 0.94921875
+    },
+    "passion_fire_grapes.png": {
+      "left": 0.205078125,
+      "top": 0.0625,
+      "right": 0.77734375,
+      "bottom": 0.8984375
+    },
+    "passion_fruit_curuba.png": {
+      "left": 0.33984375,
+      "top": 0.056640625,
+      "right": 0.654296875,
+      "bottom": 0.923828125
+    },
+    "passion_fruit_granadilla.png": {
+      "left": 0.216796875,
+      "top": 0.0546875,
+      "right": 0.78515625,
+      "bottom": 0.943359375
+    },
+    "passion_fruit_granadilla_yellow.png": {
+      "left": 0.212890625,
+      "top": 0.076171875,
+      "right": 0.783203125,
+      "bottom": 0.86328125
+    },
+    "passion_fruit_purple.png": {
+      "left": 0.1875,
+      "top": 0.181640625,
+      "right": 0.8125,
+      "bottom": 0.833984375
+    },
+    "paulared_apples_large.png": {
+      "left": 0.16796875,
+      "top": 0.15625,
+      "right": 0.828125,
+      "bottom": 0.84765625
+    },
+    "paulared_apples_small.png": {
+      "left": 0.376953125,
+      "top": 0.357421875,
+      "right": 0.6328125,
+      "bottom": 0.658203125
+    },
+    "pazazz_apples.png": {
+      "left": 0.146484375,
+      "top": 0.119140625,
+      "right": 0.845703125,
+      "bottom": 0.869140625
+    },
+    "peaches_flat_yellow_flesh.png": {
+      "left": 0.087890625,
+      "top": 0.27734375,
+      "right": 0.91796875,
+      "bottom": 0.7578125
+    },
+    "peaches_indian.png": {
+      "left": 0.1328125,
+      "top": 0.14453125,
+      "right": 0.869140625,
+      "bottom": 0.859375
+    },
+    "peaches_red_flesh.png": {
+      "left": 0.15625,
+      "top": 0.16796875,
+      "right": 0.84375,
+      "bottom": 0.83984375
+    },
+    "peaches_white_flesh_large.png": {
+      "left": 0.09375,
+      "top": 0.1171875,
+      "right": 0.8984375,
+      "bottom": 0.888671875
+    },
+    "peaches_white_flesh_small.png": {
+      "left": 0.197265625,
+      "top": 0.216796875,
+      "right": 0.80078125,
+      "bottom": 0.79296875
+    },
+    "peaches_white_large.png": {
+      "left": 0.125,
+      "top": 0.150390625,
+      "right": 0.861328125,
+      "bottom": 0.853515625
+    },
+    "peaches_white_small.png": {
+      "left": 0.140625,
+      "top": 0.15625,
+      "right": 0.857421875,
+      "bottom": 0.83984375
+    },
+    "peaches_yellow_flesh_large.png": {
+      "left": 0.126953125,
+      "top": 0.142578125,
+      "right": 0.86328125,
+      "bottom": 0.859375
+    },
+    "peaches_yellow_flesh_large_v2.png": {
+      "left": 0.1171875,
+      "top": 0.134765625,
+      "right": 0.8828125,
+      "bottom": 0.876953125
+    },
+    "peaches_yellow_flesh_large_v3.png": {
+      "left": 0.10546875,
+      "top": 0.130859375,
+      "right": 0.892578125,
+      "bottom": 0.90234375
+    },
+    "peaches_yellow_flesh_small.png": {
+      "left": 0.142578125,
+      "top": 0.1640625,
+      "right": 0.857421875,
+      "bottom": 0.85546875
+    },
+    "peaches_yellow_flesh_small_v2.png": {
+      "left": 0.32421875,
+      "top": 0.337890625,
+      "right": 0.6796875,
+      "bottom": 0.685546875
+    },
+    "peaches_yellow_flesh_small_v3.png": {
+      "left": 0.263671875,
+      "top": 0.296875,
+      "right": 0.736328125,
+      "bottom": 0.744140625
+    },
+    "peaches_yellow_large.png": {
+      "left": 0.125,
+      "top": 0.138671875,
+      "right": 0.876953125,
+      "bottom": 0.875
+    },
+    "peaches_yellow_small.png": {
+      "left": 0.154296875,
+      "top": 0.169921875,
+      "right": 0.84765625,
+      "bottom": 0.833984375
+    },
+    "pearl_onions.png": {
+      "left": 0.263671875,
+      "top": 0.2578125,
+      "right": 0.736328125,
+      "bottom": 0.751953125
+    },
+    "pears_alexander_lucas.png": {
+      "left": 0.193359375,
+      "top": 0.05078125,
+      "right": 0.810546875,
+      "bottom": 0.91796875
+    },
+    "pears_angelys.png": {
+      "left": 0.23046875,
+      "top": 0.095703125,
+      "right": 0.7734375,
+      "bottom": 0.88671875
+    },
+    "pears_carmen.png": {
+      "left": 0.220703125,
+      "top": 0.03515625,
+      "right": 0.771484375,
+      "bottom": 0.921875
+    },
+    "pears_general_leclerc.png": {
+      "left": 0.201171875,
+      "top": 0.052734375,
+      "right": 0.796875,
+      "bottom": 0.9140625
+    },
+    "pears_guyot.png": {
+      "left": 0.236328125,
+      "top": 0.046875,
+      "right": 0.76171875,
+      "bottom": 0.892578125
+    },
+    "pears_harovin_sundown.png": {
+      "left": 0.212890625,
+      "top": 0.033203125,
+      "right": 0.783203125,
+      "bottom": 0.931640625
+    },
+    "pears_josephine.png": {
+      "left": 0.23046875,
+      "top": 0.08984375,
+      "right": 0.751953125,
+      "bottom": 0.900390625
+    },
+    "pears_louise_bonne.png": {
+      "left": 0.263671875,
+      "top": 0.033203125,
+      "right": 0.740234375,
+      "bottom": 0.9140625
+    },
+    "pears_passe_crassane_large.png": {
+      "left": 0.140625,
+      "top": 0.095703125,
+      "right": 0.859375,
+      "bottom": 0.91796875
+    },
+    "pears_passe_crassane_small.png": {
+      "left": 0.306640625,
+      "top": 0.3671875,
+      "right": 0.693359375,
+      "bottom": 0.8359375
+    },
+    "pears_rocha.png": {
+      "left": 0.236328125,
+      "top": 0.087890625,
+      "right": 0.767578125,
+      "bottom": 0.875
+    },
+    "pears_rosemarie.png": {
+      "left": 0.234375,
+      "top": 0.0546875,
+      "right": 0.755859375,
+      "bottom": 0.8984375
+    },
+    "pears_santa_maria.png": {
+      "left": 0.21484375,
+      "top": 0.037109375,
+      "right": 0.787109375,
+      "bottom": 0.916015625
+    },
+    "pears_starkrimson.png": {
+      "left": 0.23828125,
+      "top": 0.064453125,
+      "right": 0.7578125,
+      "bottom": 0.91015625
+    },
+    "pears_taylors_gold.png": {
+      "left": 0.234375,
+      "top": 0.07421875,
+      "right": 0.765625,
+      "bottom": 0.904296875
+    },
+    "pears_triumph_de_vienne.png": {
+      "left": 0.25390625,
+      "top": 0.017578125,
+      "right": 0.72265625,
+      "bottom": 0.951171875
+    },
+    "pepino_melon.png": {
+      "left": 0.205078125,
+      "top": 0.080078125,
+      "right": 0.79296875,
+      "bottom": 0.9140625
+    },
+    "peppermint_mint.png": {
+      "left": 0.18359375,
+      "top": 0.107421875,
+      "right": 0.810546875,
+      "bottom": 0.90234375
+    },
+    "persian_melon.png": {
+      "left": 0.103515625,
+      "top": 0.0859375,
+      "right": 0.8984375,
+      "bottom": 0.90625
+    },
+    "persimmon.png": {
+      "left": 0.138671875,
+      "top": 0.142578125,
+      "right": 0.861328125,
+      "bottom": 0.875
+    },
+    "persimmon_american_regular.png": {
+      "left": 0.146484375,
+      "top": 0.125,
+      "right": 0.8515625,
+      "bottom": 0.875
+    },
+    "pickling_cucumbers.png": {
+      "left": 0.318359375,
+      "top": 0.076171875,
+      "right": 0.681640625,
+      "bottom": 0.923828125
+    },
+    "piel_de_sapo_melon.png": {
+      "left": 0.2109375,
+      "top": 0.111328125,
+      "right": 0.79296875,
+      "bottom": 0.88671875
+    },
+    "pimiento_pepper.png": {
+      "left": 0.205078125,
+      "top": 0.06640625,
+      "right": 0.78125,
+      "bottom": 0.916015625
+    },
+    "pineapple_dried.png": {
+      "left": 0.10546875,
+      "top": 0.09375,
+      "right": 0.88671875,
+      "bottom": 0.923828125
+    },
+    "pineapple_jet_fresh_large.png": {
+      "left": 0.29296875,
+      "top": 0.01953125,
+      "right": 0.703125,
+      "bottom": 0.935546875
+    },
+    "pineapple_large.png": {
+      "left": 0.279296875,
+      "top": 0.02734375,
+      "right": 0.71484375,
+      "bottom": 0.955078125
+    },
+    "pineapple_mini.png": {
+      "left": 0.30078125,
+      "top": 0.07421875,
+      "right": 0.697265625,
+      "bottom": 0.87890625
+    },
+    "pineapple_perola.png": {
+      "left": 0.28515625,
+      "top": 0.005859375,
+      "right": 0.7109375,
+      "bottom": 0.939453125
+    },
+    "pineapple_small.png": {
+      "left": 0.373046875,
+      "top": 0.2734375,
+      "right": 0.625,
+      "bottom": 0.75
+    },
+    "pineapple_small_v2.png": {
+      "left": 0.283203125,
+      "top": 0.056640625,
+      "right": 0.70703125,
+      "bottom": 0.8984375
+    },
+    "pink_lady_apples_large.png": {
+      "left": 0.158203125,
+      "top": 0.1328125,
+      "right": 0.845703125,
+      "bottom": 0.859375
+    },
+    "pink_lady_apples_small.png": {
+      "left": 0.306640625,
+      "top": 0.30859375,
+      "right": 0.6953125,
+      "bottom": 0.732421875
+    },
+    "pink_porcelain_doll_pumpkin.png": {
+      "left": 0.107421875,
+      "top": 0.111328125,
+      "right": 0.884765625,
+      "bottom": 0.861328125
+    },
+    "pinole_peppers.png": {
+      "left": 0.357421875,
+      "top": 0.123046875,
+      "right": 0.64453125,
+      "bottom": 0.873046875
+    },
+    "pinova_apple.png": {
+      "left": 0.16796875,
+      "top": 0.12109375,
+      "right": 0.822265625,
+      "bottom": 0.8515625
+    },
+    "pippin_apples_large.png": {
+      "left": 0.109375,
+      "top": 0.14453125,
+      "right": 0.88671875,
+      "bottom": 0.880859375
+    },
+    "pippin_apples_small.png": {
+      "left": 0.126953125,
+      "top": 0.18359375,
+      "right": 0.8671875,
+      "bottom": 0.87890625
+    },
+    "pitahaya_red_flesh_fire_dragons.png": {
+      "left": 0.138671875,
+      "top": 0.056640625,
+      "right": 0.88671875,
+      "bottom": 0.943359375
+    },
+    "pitahaya_yellow.png": {
+      "left": 0.234375,
+      "top": 0.1015625,
+      "right": 0.76953125,
+      "bottom": 0.89453125
+    },
+    "plantains.png": {
+      "left": 0.044921875,
+      "top": 0.2265625,
+      "right": 0.955078125,
+      "bottom": 0.8046875
+    },
+    "plumac_apples.png": {
+      "left": 0.169921875,
+      "top": 0.119140625,
+      "right": 0.828125,
+      "bottom": 0.87890625
+    },
+    "plumcot.png": {
+      "left": 0.12890625,
+      "top": 0.13671875,
+      "right": 0.873046875,
+      "bottom": 0.869140625
+    },
+    "plums_black_large.png": {
+      "left": 0.14453125,
+      "top": 0.125,
+      "right": 0.84765625,
+      "bottom": 0.865234375
+    },
+    "plums_black_small.png": {
+      "left": 0.16796875,
+      "top": 0.14453125,
+      "right": 0.833984375,
+      "bottom": 0.849609375
+    },
+    "plums_green_large.png": {
+      "left": 0.185546875,
+      "top": 0.138671875,
+      "right": 0.802734375,
+      "bottom": 0.84765625
+    },
+    "plums_green_small.png": {
+      "left": 0.1875,
+      "top": 0.134765625,
+      "right": 0.8046875,
+      "bottom": 0.830078125
+    },
+    "plums_purple_large.png": {
+      "left": 0.19921875,
+      "top": 0.07421875,
+      "right": 0.791015625,
+      "bottom": 0.88671875
+    },
+    "plums_purple_small.png": {
+      "left": 0.2265625,
+      "top": 0.18359375,
+      "right": 0.76953125,
+      "bottom": 0.794921875
+    },
+    "plums_red_large.png": {
+      "left": 0.095703125,
+      "top": 0.12109375,
+      "right": 0.880859375,
+      "bottom": 0.8671875
+    },
+    "plums_red_small.png": {
+      "left": 0.119140625,
+      "top": 0.123046875,
+      "right": 0.876953125,
+      "bottom": 0.875
+    },
+    "plums_tree_ripened_large.png": {
+      "left": 0.146484375,
+      "top": 0.08203125,
+      "right": 0.857421875,
+      "bottom": 0.8828125
+    },
+    "plums_tree_ripened_small.png": {
+      "left": 0.31640625,
+      "top": 0.28125,
+      "right": 0.67578125,
+      "bottom": 0.7421875
+    },
+    "plums_yellow_large.png": {
+      "left": 0.140625,
+      "top": 0.08984375,
+      "right": 0.853515625,
+      "bottom": 0.880859375
+    },
+    "plums_yellow_small.png": {
+      "left": 0.197265625,
+      "top": 0.15234375,
+      "right": 0.798828125,
+      "bottom": 0.8046875
+    },
+    "poblano_pepper.png": {
+      "left": 0.20703125,
+      "top": 0.052734375,
+      "right": 0.76953125,
+      "bottom": 0.939453125
+    },
+    "polk_greens.png": {
+      "left": 0.08203125,
+      "top": 0.03515625,
+      "right": 0.90234375,
+      "bottom": 0.955078125
+    },
+    "pomegranate_large.png": {
+      "left": 0.17578125,
+      "top": 0.138671875,
+      "right": 0.822265625,
+      "bottom": 0.8671875
+    },
+    "pomegranate_medium.png": {
+      "left": 0.150390625,
+      "top": 0.1015625,
+      "right": 0.845703125,
+      "bottom": 0.89453125
+    },
+    "pomegranate_small.png": {
+      "left": 0.1875,
+      "top": 0.130859375,
+      "right": 0.810546875,
+      "bottom": 0.85546875
+    },
+    "portabella_mushrooms.png": {
+      "left": 0.08984375,
+      "top": 0.09375,
+      "right": 0.908203125,
+      "bottom": 0.91796875
+    },
+    "potato_creamer_red.png": {
+      "left": 0.224609375,
+      "top": 0.203125,
+      "right": 0.7734375,
+      "bottom": 0.81640625
+    },
+    "potato_creamer_white.png": {
+      "left": 0.228515625,
+      "top": 0.19140625,
+      "right": 0.76953125,
+      "bottom": 0.83203125
+    },
+    "potato_long_white.png": {
+      "left": 0.265625,
+      "top": 0.068359375,
+      "right": 0.72265625,
+      "bottom": 0.9375
+    },
+    "potato_purple.png": {
+      "left": 0.22265625,
+      "top": 0.1171875,
+      "right": 0.775390625,
+      "bottom": 0.890625
+    },
+    "potato_russet.png": {
+      "left": 0.212890625,
+      "top": 0.0703125,
+      "right": 0.783203125,
+      "bottom": 0.94921875
+    },
+    "prema17_apples_large.png": {
+      "left": 0.134765625,
+      "top": 0.10546875,
+      "right": 0.859375,
+      "bottom": 0.892578125
+    },
+    "prema280_apples.png": {
+      "left": 0.17578125,
+      "top": 0.166015625,
+      "right": 0.8203125,
+      "bottom": 0.841796875
+    },
+    "president_plums_all_sizes.png": {
+      "left": 0.234375,
+      "top": 0.123046875,
+      "right": 0.787109375,
+      "bottom": 0.865234375
+    },
+    "prince_melon.png": {
+      "left": 0.16796875,
+      "top": 0.13671875,
+      "right": 0.837890625,
+      "bottom": 0.826171875
+    },
+    "pummelo_red.png": {
+      "left": 0.205078125,
+      "top": 0.0703125,
+      "right": 0.828125,
+      "bottom": 0.9296875
+    },
+    "pummelo_white.png": {
+      "left": 0.142578125,
+      "top": 0.078125,
+      "right": 0.85546875,
+      "bottom": 0.93359375
+    },
+    "pumpkin.png": {
+      "left": 0.126953125,
+      "top": 0.068359375,
+      "right": 0.875,
+      "bottom": 0.90234375
+    },
+    "pumpkin_decorative_painted.png": {
+      "left": 0.1015625,
+      "top": 0.091796875,
+      "right": 0.904296875,
+      "bottom": 0.8984375
+    },
+    "pumpkin_jumbo.png": {
+      "left": 0.107421875,
+      "top": 0.09375,
+      "right": 0.8828125,
+      "bottom": 0.90234375
+    },
+    "pumpkin_mini.png": {
+      "left": 0.1484375,
+      "top": 0.130859375,
+      "right": 0.84765625,
+      "bottom": 0.8203125
+    },
+    "pumpkin_pie.png": {
+      "left": 0.18359375,
+      "top": 0.087890625,
+      "right": 0.81640625,
+      "bottom": 0.861328125
+    },
+    "pumpkin_vine.png": {
+      "left": 0.078125,
+      "top": 0.033203125,
+      "right": 0.90234375,
+      "bottom": 0.93359375
+    },
+    "pumpkin_white.png": {
+      "left": 0.123046875,
+      "top": 0.083984375,
+      "right": 0.875,
+      "bottom": 0.888671875
+    },
+    "pumpkin_white_mini.png": {
+      "left": 0.181640625,
+      "top": 0.185546875,
+      "right": 0.81640625,
+      "bottom": 0.78515625
+    },
+    "purple_bell_pepper.png": {
+      "left": 0.173828125,
+      "top": 0.099609375,
+      "right": 0.806640625,
+      "bottom": 0.896484375
+    },
+    "purple_herb.png": {
+      "left": 0.15625,
+      "top": 0.0546875,
+      "right": 0.822265625,
+      "bottom": 0.939453125
+    },
+    "qtee_pears.png": {
+      "left": 0.234375,
+      "top": 0.099609375,
+      "right": 0.7578125,
+      "bottom": 0.875
+    },
+    "queen_pineapple.png": {
+      "left": 0.294921875,
+      "top": 0.046875,
+      "right": 0.7109375,
+      "bottom": 0.919921875
+    },
+    "quelites.png": {
+      "left": 0.119140625,
+      "top": 0.068359375,
+      "right": 0.859375,
+      "bottom": 0.912109375
+    },
+    "quince.png": {
+      "left": 0.212890625,
+      "top": 0.115234375,
+      "right": 0.7890625,
+      "bottom": 0.884765625
+    },
+    "rabbit_herb.png": {
+      "left": 0.181640625,
+      "top": 0.142578125,
+      "right": 0.798828125,
+      "bottom": 0.869140625
+    },
+    "radicchio.png": {
+      "left": 0.150390625,
+      "top": 0.13671875,
+      "right": 0.84765625,
+      "bottom": 0.86328125
+    },
+    "radicchio_castelfranco.png": {
+      "left": 0.103515625,
+      "top": 0.12890625,
+      "right": 0.89453125,
+      "bottom": 0.85546875
+    },
+    "radicchio_treviso.png": {
+      "left": 0.33203125,
+      "top": 0.046875,
+      "right": 0.669921875,
+      "bottom": 0.955078125
+    },
+    "radish_black.png": {
+      "left": 0.228515625,
+      "top": 0.029296875,
+      "right": 0.771484375,
+      "bottom": 0.96875
+    },
+    "radish_bunched_white.png": {
+      "left": 0.1953125,
+      "top": 0.0,
+      "right": 0.80078125,
+      "bottom": 0.9765625
+    },
+    "radish_italian_red.png": {
+      "left": 0.21875,
+      "top": 0.04296875,
+      "right": 0.701171875,
+      "bottom": 0.958984375
+    },
+    "radish_red.png": {
+      "left": 0.1875,
+      "top": 0.01171875,
+      "right": 0.8203125,
+      "bottom": 0.97265625
+    },
+    "radish_white_icicle.png": {
+      "left": 0.421875,
+      "top": 0.060546875,
+      "right": 0.57421875,
+      "bottom": 0.955078125
+    },
+    "radishes_red_bunch.png": {
+      "left": 0.138671875,
+      "top": 0.0546875,
+      "right": 0.837890625,
+      "bottom": 0.947265625
+    },
+    "rainier_cherries.png": {
+      "left": 0.255859375,
+      "top": 0.0625,
+      "right": 0.73828125,
+      "bottom": 0.896484375
+    },
+    "rambutan.png": {
+      "left": 0.177734375,
+      "top": 0.14453125,
+      "right": 0.828125,
+      "bottom": 0.826171875
+    },
+    "rave_first_kiss_apples.png": {
+      "left": 0.142578125,
+      "top": 0.115234375,
+      "right": 0.84765625,
+      "bottom": 0.875
+    },
+    "red_apricots.png": {
+      "left": 0.189453125,
+      "top": 0.17578125,
+      "right": 0.802734375,
+      "bottom": 0.84765625
+    },
+    "red_baking_potato.png": {
+      "left": 0.169921875,
+      "top": 0.107421875,
+      "right": 0.818359375,
+      "bottom": 0.900390625
+    },
+    "red_bananas.png": {
+      "left": 0.310546875,
+      "top": 0.119140625,
+      "right": 0.71484375,
+      "bottom": 0.88671875
+    },
+    "red_bell_pepper.png": {
+      "left": 0.189453125,
+      "top": 0.09765625,
+      "right": 0.8046875,
+      "bottom": 0.875
+    },
+    "red_bell_pepper_greenhouse.png": {
+      "left": 0.1875,
+      "top": 0.12109375,
+      "right": 0.78515625,
+      "bottom": 0.8671875
+    },
+    "red_black_cherries_large.png": {
+      "left": 0.234375,
+      "top": 0.046875,
+      "right": 0.767578125,
+      "bottom": 0.8984375
+    },
+    "red_black_cherries_small.png": {
+      "left": 0.361328125,
+      "top": 0.244140625,
+      "right": 0.638671875,
+      "bottom": 0.724609375
+    },
+    "red_cabbage.png": {
+      "left": 0.115234375,
+      "top": 0.12109375,
+      "right": 0.87109375,
+      "bottom": 0.876953125
+    },
+    "red_cheese_peppers.png": {
+      "left": 0.18359375,
+      "top": 0.146484375,
+      "right": 0.806640625,
+      "bottom": 0.833984375
+    },
+    "red_delicious_apples_large.png": {
+      "left": 0.20703125,
+      "top": 0.083984375,
+      "right": 0.787109375,
+      "bottom": 0.896484375
+    },
+    "red_delicious_apples_small.png": {
+      "left": 0.318359375,
+      "top": 0.263671875,
+      "right": 0.677734375,
+      "bottom": 0.73828125
+    },
+    "red_finger_peppers.png": {
+      "left": 0.36328125,
+      "top": 0.064453125,
+      "right": 0.62109375,
+      "bottom": 0.916015625
+    },
+    "red_globe_grapes.png": {
+      "left": 0.1640625,
+      "top": 0.044921875,
+      "right": 0.845703125,
+      "bottom": 0.916015625
+    },
+    "red_grapes_seedless.png": {
+      "left": 0.19921875,
+      "top": 0.0546875,
+      "right": 0.802734375,
+      "bottom": 0.900390625
+    },
+    "red_jonaprince_apples_all_sizes.png": {
+      "left": 0.146484375,
+      "top": 0.1171875,
+      "right": 0.849609375,
+      "bottom": 0.876953125
+    },
+    "red_kuri_squash.png": {
+      "left": 0.1953125,
+      "top": 0.064453125,
+      "right": 0.798828125,
+      "bottom": 0.91796875
+    },
+    "red_leaf_lettuce.png": {
+      "left": 0.091796875,
+      "top": 0.0859375,
+      "right": 0.927734375,
+      "bottom": 0.923828125
+    },
+    "red_onion.png": {
+      "left": 0.158203125,
+      "top": 0.087890625,
+      "right": 0.84765625,
+      "bottom": 0.8984375
+    },
+    "red_onions_bunch.png": {
+      "left": 0.251953125,
+      "top": 0.0,
+      "right": 0.73046875,
+      "bottom": 0.994140625
+    },
+    "red_pears.png": {
+      "left": 0.2265625,
+      "top": 0.0859375,
+      "right": 0.76953125,
+      "bottom": 0.8984375
+    },
+    "red_plumcot.png": {
+      "left": 0.138671875,
+      "top": 0.12109375,
+      "right": 0.859375,
+      "bottom": 0.859375
+    },
+    "red_potatoes.png": {
+      "left": 0.162109375,
+      "top": 0.162109375,
+      "right": 0.8359375,
+      "bottom": 0.8515625
+    },
+    "red_raspberries.png": {
+      "left": 0.240234375,
+      "top": 0.1875,
+      "right": 0.765625,
+      "bottom": 0.828125
+    },
+    "redfield_apples.png": {
+      "left": 0.19140625,
+      "top": 0.18359375,
+      "right": 0.810546875,
+      "bottom": 0.82421875
+    },
+    "redpop_apples.png": {
+      "left": 0.17578125,
+      "top": 0.1484375,
+      "right": 0.828125,
+      "bottom": 0.84375
+    },
+    "regent_apples_large.png": {
+      "left": 0.12890625,
+      "top": 0.13671875,
+      "right": 0.876953125,
+      "bottom": 0.88671875
+    },
+    "regent_apples_small.png": {
+      "left": 0.333984375,
+      "top": 0.39453125,
+      "right": 0.66796875,
+      "bottom": 0.765625
+    },
+    "reine_des_reinettes_apples_large.png": {
+      "left": 0.130859375,
+      "top": 0.12109375,
+      "right": 0.87109375,
+      "bottom": 0.88671875
+    },
+    "reine_des_reinettes_apples_small.png": {
+      "left": 0.326171875,
+      "top": 0.353515625,
+      "right": 0.689453125,
+      "bottom": 0.716796875
+    },
+    "rhubarb_bunch.png": {
+      "left": 0.25,
+      "top": 0.0,
+      "right": 0.767578125,
+      "bottom": 0.9921875
+    },
+    "rhubarb_regular.png": {
+      "left": 0.38671875,
+      "top": 0.0,
+      "right": 0.611328125,
+      "bottom": 1.0
+    },
+    "ripe_avocados.png": {
+      "left": 0.212890625,
+      "top": 0.130859375,
+      "right": 0.7890625,
+      "bottom": 0.890625
+    },
+    "riverbelle_apples.png": {
+      "left": 0.189453125,
+      "top": 0.171875,
+      "right": 0.8046875,
+      "bottom": 0.8359375
+    },
+    "roma_tomatoes.png": {
+      "left": 0.255859375,
+      "top": 0.056640625,
+      "right": 0.734375,
+      "bottom": 0.939453125
+    },
+    "roma_tomatoes_on_the_vine.png": {
+      "left": 0.263671875,
+      "top": 0.04296875,
+      "right": 0.76171875,
+      "bottom": 0.943359375
+    },
+    "roma_tomatoes_on_vine.png": {
+      "left": 0.25390625,
+      "top": 0.05859375,
+      "right": 0.724609375,
+      "bottom": 0.93359375
+    },
+    "romaine_lettuce.png": {
+      "left": 0.21875,
+      "top": 0.037109375,
+      "right": 0.763671875,
+      "bottom": 0.958984375
+    },
+    "romaine_lettuce_red.png": {
+      "left": 0.267578125,
+      "top": 0.0390625,
+      "right": 0.73046875,
+      "bottom": 0.95703125
+    },
+    "rome_apples_large.png": {
+      "left": 0.154296875,
+      "top": 0.16796875,
+      "right": 0.849609375,
+      "bottom": 0.849609375
+    },
+    "rome_apples_large_v2.png": {
+      "left": 0.1171875,
+      "top": 0.103515625,
+      "right": 0.888671875,
+      "bottom": 0.90234375
+    },
+    "rome_apples_small.png": {
+      "left": 0.16015625,
+      "top": 0.169921875,
+      "right": 0.84375,
+      "bottom": 0.875
+    },
+    "rome_apples_small_v2.png": {
+      "left": 0.16015625,
+      "top": 0.1796875,
+      "right": 0.83203125,
+      "bottom": 0.84375
+    },
+    "rosemary.png": {
+      "left": 0.287109375,
+      "top": 0.05078125,
+      "right": 0.68359375,
+      "bottom": 0.94921875
+    },
+    "round_zucchini_squash.png": {
+      "left": 0.21875,
+      "top": 0.083984375,
+      "right": 0.78515625,
+      "bottom": 0.93359375
+    },
+    "royal_gala_apples_large.png": {
+      "left": 0.140625,
+      "top": 0.087890625,
+      "right": 0.859375,
+      "bottom": 0.908203125
+    },
+    "royal_gala_apples_small.png": {
+      "left": 0.287109375,
+      "top": 0.27734375,
+      "right": 0.71484375,
+      "bottom": 0.763671875
+    },
+    "royal_mandarin.png": {
+      "left": 0.173828125,
+      "top": 0.16796875,
+      "right": 0.822265625,
+      "bottom": 0.84375
+    },
+    "rubinette_apples.png": {
+      "left": 0.158203125,
+      "top": 0.13671875,
+      "right": 0.84375,
+      "bottom": 0.884765625
+    },
+    "rubyfrost_apple.png": {
+      "left": 0.16015625,
+      "top": 0.15234375,
+      "right": 0.83984375,
+      "bottom": 0.849609375
+    },
+    "russet_apples.png": {
+      "left": 0.234375,
+      "top": 0.111328125,
+      "right": 0.759765625,
+      "bottom": 0.8984375
+    },
+    "russet_potatoes.png": {
+      "left": 0.22265625,
+      "top": 0.08984375,
+      "right": 0.775390625,
+      "bottom": 0.91796875
+    },
+    "rutabaga.png": {
+      "left": 0.10546875,
+      "top": 0.1171875,
+      "right": 0.892578125,
+      "bottom": 0.8984375
+    },
+    "sable_seedless_grapes.png": {
+      "left": 0.2265625,
+      "top": 0.095703125,
+      "right": 0.765625,
+      "bottom": 0.87109375
+    },
+    "sacred_pepper_leaf.png": {
+      "left": 0.1484375,
+      "top": 0.111328125,
+      "right": 0.853515625,
+      "bottom": 0.90625
+    },
+    "saffron_milk_cap_mushroom.png": {
+      "left": 0.08984375,
+      "top": 0.111328125,
+      "right": 0.8984375,
+      "bottom": 0.91015625
+    },
+    "saffron_sweet_potato.png": {
+      "left": 0.07421875,
+      "top": 0.267578125,
+      "right": 0.875,
+      "bottom": 0.7109375
+    },
+    "sage.png": {
+      "left": 0.150390625,
+      "top": 0.05078125,
+      "right": 0.802734375,
+      "bottom": 0.951171875
+    },
+    "santa_claus_melon.png": {
+      "left": 0.076171875,
+      "top": 0.19921875,
+      "right": 0.912109375,
+      "bottom": 0.859375
+    },
+    "sapodillo.png": {
+      "left": 0.19921875,
+      "top": 0.115234375,
+      "right": 0.791015625,
+      "bottom": 0.890625
+    },
+    "sapote_black.png": {
+      "left": 0.10546875,
+      "top": 0.11328125,
+      "right": 0.89453125,
+      "bottom": 0.88671875
+    },
+    "sapote_white.png": {
+      "left": 0.15234375,
+      "top": 0.134765625,
+      "right": 0.845703125,
+      "bottom": 0.857421875
+    },
+    "saskatoon_berries.png": {
+      "left": 0.220703125,
+      "top": 0.134765625,
+      "right": 0.779296875,
+      "bottom": 0.810546875
+    },
+    "saticoy_melon.png": {
+      "left": 0.158203125,
+      "top": 0.169921875,
+      "right": 0.84375,
+      "bottom": 0.86328125
+    },
+    "satsuma_mandarins.png": {
+      "left": 0.1328125,
+      "top": 0.189453125,
+      "right": 0.865234375,
+      "bottom": 0.833984375
+    },
+    "satsuma_tangerine.png": {
+      "left": 0.169921875,
+      "top": 0.232421875,
+      "right": 0.822265625,
+      "bottom": 0.80859375
+    },
+    "satsuma_tangerine_clauselina.png": {
+      "left": 0.126953125,
+      "top": 0.197265625,
+      "right": 0.861328125,
+      "bottom": 0.833984375
+    },
+    "savory.png": {
+      "left": 0.228515625,
+      "top": 0.0859375,
+      "right": 0.76953125,
+      "bottom": 0.9140625
+    },
+    "scallopini_squash.png": {
+      "left": 0.154296875,
+      "top": 0.1953125,
+      "right": 0.84765625,
+      "bottom": 0.7890625
+    },
+    "scarlotta_seedless_grapes.png": {
+      "left": 0.220703125,
+      "top": 0.044921875,
+      "right": 0.78515625,
+      "bottom": 0.92578125
+    },
+    "sciearly_apples_large.png": {
+      "left": 0.150390625,
+      "top": 0.14453125,
+      "right": 0.849609375,
+      "bottom": 0.859375
+    },
+    "sciearly_apples_small.png": {
+      "left": 0.177734375,
+      "top": 0.1640625,
+      "right": 0.814453125,
+      "bottom": 0.837890625
+    },
+    "scilate_apples_large.png": {
+      "left": 0.142578125,
+      "top": 0.15234375,
+      "right": 0.849609375,
+      "bottom": 0.86328125
+    },
+    "scired_apples.png": {
+      "left": 0.1484375,
+      "top": 0.125,
+      "right": 0.849609375,
+      "bottom": 0.890625
+    },
+    "seckel_pears.png": {
+      "left": 0.263671875,
+      "top": 0.119140625,
+      "right": 0.728515625,
+      "bottom": 0.845703125
+    },
+    "seedless_lemons.png": {
+      "left": 0.228515625,
+      "top": 0.1171875,
+      "right": 0.7734375,
+      "bottom": 0.892578125
+    },
+    "serrano_pepper.png": {
+      "left": 0.328125,
+      "top": 0.115234375,
+      "right": 0.603515625,
+      "bottom": 0.873046875
+    },
+    "seville_oranges.png": {
+      "left": 0.130859375,
+      "top": 0.140625,
+      "right": 0.869140625,
+      "bottom": 0.87890625
+    },
+    "shallots.png": {
+      "left": 0.322265625,
+      "top": 0.083984375,
+      "right": 0.673828125,
+      "bottom": 0.85546875
+    },
+    "shanghai_bok_choy.png": {
+      "left": 0.15625,
+      "top": 0.048828125,
+      "right": 0.85546875,
+      "bottom": 0.94921875
+    },
+    "sharlin_melon.png": {
+      "left": 0.2421875,
+      "top": 0.056640625,
+      "right": 0.744140625,
+      "bottom": 0.919921875
+    },
+    "sheep_polypore_mushroom.png": {
+      "left": 0.0625,
+      "top": 0.123046875,
+      "right": 0.94140625,
+      "bottom": 0.90625
+    },
+    "shiitake_mushrooms.png": {
+      "left": 0.150390625,
+      "top": 0.1875,
+      "right": 0.8359375,
+      "bottom": 0.84375
+    },
+    "shinano_gold_yello_apples.png": {
+      "left": 0.1875,
+      "top": 0.150390625,
+      "right": 0.8125,
+      "bottom": 0.8671875
+    },
+    "shiny_red_persimmon_all_sizes.png": {
+      "left": 0.11328125,
+      "top": 0.142578125,
+      "right": 0.884765625,
+      "bottom": 0.873046875
+    },
+    "skylar_rae_cherries.png": {
+      "left": 0.2421875,
+      "top": 0.0390625,
+      "right": 0.75,
+      "bottom": 0.9140625
+    },
+    "snapdragon_apple.png": {
+      "left": 0.15625,
+      "top": 0.14453125,
+      "right": 0.841796875,
+      "bottom": 0.869140625
+    },
+    "snow_peas.png": {
+      "left": 0.080078125,
+      "top": 0.310546875,
+      "right": 0.931640625,
+      "bottom": 0.6640625
+    },
+    "sommerfeld_apples.png": {
+      "left": 0.1484375,
+      "top": 0.12109375,
+      "right": 0.84375,
+      "bottom": 0.857421875
+    },
+    "sonya_apples_large.png": {
+      "left": 0.171875,
+      "top": 0.150390625,
+      "right": 0.826171875,
+      "bottom": 0.873046875
+    },
+    "sonya_apples_small.png": {
+      "left": 0.216796875,
+      "top": 0.158203125,
+      "right": 0.783203125,
+      "bottom": 0.84765625
+    },
+    "sorrel.png": {
+      "left": 0.12109375,
+      "top": 0.029296875,
+      "right": 0.83984375,
+      "bottom": 0.953125
+    },
+    "soursop.png": {
+      "left": 0.21484375,
+      "top": 0.109375,
+      "right": 0.796875,
+      "bottom": 0.8984375
+    },
+    "southern_snap_apples.png": {
+      "left": 0.1796875,
+      "top": 0.17578125,
+      "right": 0.82421875,
+      "bottom": 0.837890625
+    },
+    "spaghetti_squash.png": {
+      "left": 0.201171875,
+      "top": 0.05078125,
+      "right": 0.798828125,
+      "bottom": 0.94140625
+    },
+    "spanish_tendral_melon.png": {
+      "left": 0.220703125,
+      "top": 0.07421875,
+      "right": 0.7734375,
+      "bottom": 0.923828125
+    },
+    "spartan_apples_large.png": {
+      "left": 0.15234375,
+      "top": 0.15625,
+      "right": 0.853515625,
+      "bottom": 0.849609375
+    },
+    "spartan_apples_large_v2.png": {
+      "left": 0.14453125,
+      "top": 0.115234375,
+      "right": 0.85546875,
+      "bottom": 0.869140625
+    },
+    "spartan_apples_small.png": {
+      "left": 0.16796875,
+      "top": 0.154296875,
+      "right": 0.833984375,
+      "bottom": 0.841796875
+    },
+    "spartan_apples_small_v2.png": {
+      "left": 0.166015625,
+      "top": 0.1640625,
+      "right": 0.83203125,
+      "bottom": 0.84375
+    },
+    "spinach_bunch.png": {
+      "left": 0.107421875,
+      "top": 0.0390625,
+      "right": 0.87109375,
+      "bottom": 0.953125
+    },
+    "spring_cabbage.png": {
+      "left": 0.177734375,
+      "top": 0.05078125,
+      "right": 0.798828125,
+      "bottom": 0.947265625
+    },
+    "sprite_melon.png": {
+      "left": 0.203125,
+      "top": 0.169921875,
+      "right": 0.79296875,
+      "bottom": 0.84765625
+    },
+    "squash_acorn_baby.png": {
+      "left": 0.197265625,
+      "top": 0.193359375,
+      "right": 0.796875,
+      "bottom": 0.83984375
+    },
+    "squash_acorn_golden.png": {
+      "left": 0.19921875,
+      "top": 0.11328125,
+      "right": 0.802734375,
+      "bottom": 0.8984375
+    },
+    "squash_acorn_swan_white_table_queen.png": {
+      "left": 0.181640625,
+      "top": 0.095703125,
+      "right": 0.818359375,
+      "bottom": 0.88671875
+    },
+    "squash_australian_blue.png": {
+      "left": 0.0703125,
+      "top": 0.126953125,
+      "right": 0.9296875,
+      "bottom": 0.87109375
+    },
+    "squash_cucuzza.png": {
+      "left": 0.38671875,
+      "top": 0.015625,
+      "right": 0.59765625,
+      "bottom": 0.96484375
+    },
+    "squash_opo.png": {
+      "left": 0.265625,
+      "top": 0.056640625,
+      "right": 0.732421875,
+      "bottom": 0.935546875
+    },
+    "st_edmunds_pippin_apples.png": {
+      "left": 0.15234375,
+      "top": 0.16015625,
+      "right": 0.84765625,
+      "bottom": 0.84375
+    },
+    "starfruit.png": {
+      "left": 0.228515625,
+      "top": 0.09375,
+      "right": 0.765625,
+      "bottom": 0.916015625
+    },
+    "stayman_apples_large.png": {
+      "left": 0.103515625,
+      "top": 0.125,
+      "right": 0.890625,
+      "bottom": 0.89453125
+    },
+    "stayman_apples_small.png": {
+      "left": 0.294921875,
+      "top": 0.359375,
+      "right": 0.701171875,
+      "bottom": 0.76171875
+    },
+    "strawberries_250g.png": {
+      "left": 0.109375,
+      "top": 0.181640625,
+      "right": 0.88671875,
+      "bottom": 0.85546875
+    },
+    "strawberries_500g.png": {
+      "left": 0.0703125,
+      "top": 0.236328125,
+      "right": 0.931640625,
+      "bottom": 0.82421875
+    },
+    "strawberries_bulk.png": {
+      "left": 0.08203125,
+      "top": 0.078125,
+      "right": 0.91796875,
+      "bottom": 0.875
+    },
+    "strawberries_bulk_3_pack_3_pints_4249.png": {
+      "left": 0.046875,
+      "top": 0.255859375,
+      "right": 0.94140625,
+      "bottom": 0.791015625
+    },
+    "strawberries_bulk_3_pack_3_pints_4250.png": {
+      "left": 0.005859375,
+      "top": 0.232421875,
+      "right": 0.998046875,
+      "bottom": 0.78515625
+    },
+    "strawberries_long_stemmed.png": {
+      "left": 0.095703125,
+      "top": 0.025390625,
+      "right": 0.908203125,
+      "bottom": 0.939453125
+    },
+    "strawberries_pint.png": {
+      "left": 0.08984375,
+      "top": 0.15625,
+      "right": 0.912109375,
+      "bottom": 0.861328125
+    },
+    "strawberries_pint_v2.png": {
+      "left": 0.044921875,
+      "top": 0.134765625,
+      "right": 0.947265625,
+      "bottom": 0.890625
+    },
+    "strawberries_quart.png": {
+      "left": 0.056640625,
+      "top": 0.125,
+      "right": 0.9375,
+      "bottom": 0.8828125
+    },
+    "strawberries_quart_v2.png": {
+      "left": 0.04296875,
+      "top": 0.14453125,
+      "right": 0.974609375,
+      "bottom": 0.859375
+    },
+    "sturmer_pippin_apples.png": {
+      "left": 0.158203125,
+      "top": 0.189453125,
+      "right": 0.83984375,
+      "bottom": 0.845703125
+    },
+    "sugar_apple.png": {
+      "left": 0.189453125,
+      "top": 0.13671875,
+      "right": 0.8046875,
+      "bottom": 0.83203125
+    },
+    "sugar_cane.png": {
+      "left": 0.068359375,
+      "top": 0.068359375,
+      "right": 0.94140625,
+      "bottom": 0.931640625
+    },
+    "sugar_snap_peas.png": {
+      "left": 0.173828125,
+      "top": 0.044921875,
+      "right": 0.8671875,
+      "bottom": 0.90234375
+    },
+    "sugarbee_apples_small.png": {
+      "left": 0.18359375,
+      "top": 0.140625,
+      "right": 0.810546875,
+      "bottom": 0.841796875
+    },
+    "sugrafiftyfour_novelty_seedless_grapes.png": {
+      "left": 0.294921875,
+      "top": 0.041015625,
+      "right": 0.705078125,
+      "bottom": 0.92578125
+    },
+    "sugrafiftysix_green_seedless_grapes.png": {
+      "left": 0.1796875,
+      "top": 0.05078125,
+      "right": 0.755859375,
+      "bottom": 0.91796875
+    },
+    "sugrafiftythree_red_seedless_grapes.png": {
+      "left": 0.1953125,
+      "top": 0.0546875,
+      "right": 0.806640625,
+      "bottom": 0.939453125
+    },
+    "sugrafortynine_black_seedless_grapes.png": {
+      "left": 0.24609375,
+      "top": 0.04296875,
+      "right": 0.755859375,
+      "bottom": 0.947265625
+    },
+    "sugraone_grapes.png": {
+      "left": 0.220703125,
+      "top": 0.0546875,
+      "right": 0.783203125,
+      "bottom": 0.921875
+    },
+    "summer_squash_patty_pan.png": {
+      "left": 0.119140625,
+      "top": 0.119140625,
+      "right": 0.873046875,
+      "bottom": 0.85546875
+    },
+    "sunburst_tangerines.png": {
+      "left": 0.169921875,
+      "top": 0.1953125,
+      "right": 0.830078125,
+      "bottom": 0.82421875
+    },
+    "sunburst_yellow_squash.png": {
+      "left": 0.08984375,
+      "top": 0.1015625,
+      "right": 0.90234375,
+      "bottom": 0.888671875
+    },
+    "sunchokes.png": {
+      "left": 0.103515625,
+      "top": 0.298828125,
+      "right": 0.912109375,
+      "bottom": 0.71875
+    },
+    "sunions_tearless_sweet_onions.png": {
+      "left": 0.099609375,
+      "top": 0.138671875,
+      "right": 0.89453125,
+      "bottom": 0.869140625
+    },
+    "sunny_gold_yellow_mini_seedless_watermelon.png": {
+      "left": 0.123046875,
+      "top": 0.169921875,
+      "right": 0.9140625,
+      "bottom": 0.865234375
+    },
+    "sweet_dumpling_squash.png": {
+      "left": 0.12890625,
+      "top": 0.1328125,
+      "right": 0.8671875,
+      "bottom": 0.8515625
+    },
+    "sweet_mama_squash.png": {
+      "left": 0.123046875,
+      "top": 0.166015625,
+      "right": 0.876953125,
+      "bottom": 0.853515625
+    },
+    "sweet_onion.png": {
+      "left": 0.126953125,
+      "top": 0.138671875,
+      "right": 0.873046875,
+      "bottom": 0.869140625
+    },
+    "sweet_onions_all_sizes.png": {
+      "left": 0.134765625,
+      "top": 0.091796875,
+      "right": 0.865234375,
+      "bottom": 0.869140625
+    },
+    "sweet_pixie_plums.png": {
+      "left": 0.236328125,
+      "top": 0.119140625,
+      "right": 0.755859375,
+      "bottom": 0.8203125
+    },
+    "sweet_potato_large.png": {
+      "left": 0.306640625,
+      "top": 0.0546875,
+      "right": 0.67578125,
+      "bottom": 0.939453125
+    },
+    "sweet_potato_red_orange_flesh_large.png": {
+      "left": 0.283203125,
+      "top": 0.046875,
+      "right": 0.69921875,
+      "bottom": 0.962890625
+    },
+    "sweet_potato_small.png": {
+      "left": 0.087890625,
+      "top": 0.33984375,
+      "right": 0.9140625,
+      "bottom": 0.677734375
+    },
+    "sweet_potatoes_golden.png": {
+      "left": 0.150390625,
+      "top": 0.14453125,
+      "right": 0.8359375,
+      "bottom": 0.8671875
+    },
+    "sweet_potatoes_white.png": {
+      "left": 0.31640625,
+      "top": 0.025390625,
+      "right": 0.6328125,
+      "bottom": 0.970703125
+    },
+    "sweet_potatoes_yam.png": {
+      "left": 0.322265625,
+      "top": 0.076171875,
+      "right": 0.66015625,
+      "bottom": 0.9296875
+    },
+    "sweet_scarlet_grapes.png": {
+      "left": 0.232421875,
+      "top": 0.041015625,
+      "right": 0.7578125,
+      "bottom": 0.927734375
+    },
+    "sweet_sensation_pears.png": {
+      "left": 0.2421875,
+      "top": 0.064453125,
+      "right": 0.76171875,
+      "bottom": 0.884765625
+    },
+    "sweetango_apples.png": {
+      "left": 0.17578125,
+      "top": 0.125,
+      "right": 0.8203125,
+      "bottom": 0.859375
+    },
+    "sweetheart_tearless_red_onions.png": {
+      "left": 0.1796875,
+      "top": 0.125,
+      "right": 0.8203125,
+      "bottom": 0.87109375
+    },
+    "sweeties_grapes.png": {
+      "left": 0.25,
+      "top": 0.072265625,
+      "right": 0.728515625,
+      "bottom": 0.876953125
+    },
+    "swiss_chard_green.png": {
+      "left": 0.177734375,
+      "top": 0.0,
+      "right": 0.80859375,
+      "bottom": 1.0
+    },
+    "swiss_chard_red.png": {
+      "left": 0.201171875,
+      "top": 0.0,
+      "right": 0.7890625,
+      "bottom": 1.0
+    },
+    "swiss_gourmet_apples_large.png": {
+      "left": 0.123046875,
+      "top": 0.115234375,
+      "right": 0.876953125,
+      "bottom": 0.890625
+    },
+    "swiss_gourmet_apples_small.png": {
+      "left": 0.208984375,
+      "top": 0.185546875,
+      "right": 0.7890625,
+      "bottom": 0.81640625
+    },
+    "tabasco_pepper.png": {
+      "left": 0.412109375,
+      "top": 0.087890625,
+      "right": 0.595703125,
+      "bottom": 0.865234375
+    },
+    "tamarillo_golden.png": {
+      "left": 0.30859375,
+      "top": 0.078125,
+      "right": 0.693359375,
+      "bottom": 0.85546875
+    },
+    "tamarillo_red.png": {
+      "left": 0.2890625,
+      "top": 0.052734375,
+      "right": 0.716796875,
+      "bottom": 0.91015625
+    },
+    "tamarind.png": {
+      "left": 0.16015625,
+      "top": 0.150390625,
+      "right": 0.81640625,
+      "bottom": 0.8046875
+    },
+    "tangelo.png": {
+      "left": 0.19921875,
+      "top": 0.123046875,
+      "right": 0.8046875,
+      "bottom": 0.896484375
+    },
+    "tangelo_jamaican_ugli.png": {
+      "left": 0.146484375,
+      "top": 0.1484375,
+      "right": 0.84375,
+      "bottom": 0.873046875
+    },
+    "tangerines.png": {
+      "left": 0.203125,
+      "top": 0.234375,
+      "right": 0.791015625,
+      "bottom": 0.798828125
+    },
+    "tangerines_ellendale_large.png": {
+      "left": 0.15234375,
+      "top": 0.1875,
+      "right": 0.845703125,
+      "bottom": 0.845703125
+    },
+    "tangerines_ellendale_medium.png": {
+      "left": 0.169921875,
+      "top": 0.197265625,
+      "right": 0.833984375,
+      "bottom": 0.8359375
+    },
+    "tangerines_ellendale_small.png": {
+      "left": 0.193359375,
+      "top": 0.232421875,
+      "right": 0.806640625,
+      "bottom": 0.8046875
+    },
+    "tangerines_honey_murcott_large.png": {
+      "left": 0.14453125,
+      "top": 0.203125,
+      "right": 0.853515625,
+      "bottom": 0.8515625
+    },
+    "tangerines_honey_murcott_medium.png": {
+      "left": 0.14453125,
+      "top": 0.181640625,
+      "right": 0.849609375,
+      "bottom": 0.8515625
+    },
+    "tangerines_honey_murcott_small.png": {
+      "left": 0.19921875,
+      "top": 0.2421875,
+      "right": 0.79296875,
+      "bottom": 0.798828125
+    },
+    "tangerines_imperial_large.png": {
+      "left": 0.1640625,
+      "top": 0.154296875,
+      "right": 0.84765625,
+      "bottom": 0.849609375
+    },
+    "tangerines_imperial_medium.png": {
+      "left": 0.16796875,
+      "top": 0.203125,
+      "right": 0.83203125,
+      "bottom": 0.8359375
+    },
+    "tangerines_imperial_small.png": {
+      "left": 0.326171875,
+      "top": 0.482421875,
+      "right": 0.681640625,
+      "bottom": 0.79296875
+    },
+    "tangerines_mandarins_tango_seedless.png": {
+      "left": 0.15234375,
+      "top": 0.19140625,
+      "right": 0.845703125,
+      "bottom": 0.841796875
+    },
+    "tangerines_nova.png": {
+      "left": 0.1796875,
+      "top": 0.208984375,
+      "right": 0.8203125,
+      "bottom": 0.80859375
+    },
+    "taro_root.png": {
+      "left": 0.21875,
+      "top": 0.12109375,
+      "right": 0.78125,
+      "bottom": 0.884765625
+    },
+    "taro_root_large.png": {
+      "left": 0.197265625,
+      "top": 0.08984375,
+      "right": 0.810546875,
+      "bottom": 0.92578125
+    },
+    "tarragon.png": {
+      "left": 0.208984375,
+      "top": 0.05859375,
+      "right": 0.732421875,
+      "bottom": 0.94140625
+    },
+    "tasti_lee_tomatoes.png": {
+      "left": 0.11328125,
+      "top": 0.068359375,
+      "right": 0.88671875,
+      "bottom": 0.90625
+    },
+    "teardrop_pear_tomatoes_yellow.png": {
+      "left": 0.298828125,
+      "top": 0.1171875,
+      "right": 0.693359375,
+      "bottom": 0.861328125
+    },
+    "temple_oranges_large.png": {
+      "left": 0.140625,
+      "top": 0.150390625,
+      "right": 0.861328125,
+      "bottom": 0.8671875
+    },
+    "temple_oranges_small.png": {
+      "left": 0.169921875,
+      "top": 0.197265625,
+      "right": 0.8203125,
+      "bottom": 0.837890625
+    },
+    "tessa_apples.png": {
+      "left": 0.15625,
+      "top": 0.115234375,
+      "right": 0.845703125,
+      "bottom": 0.861328125
+    },
+    "texas_mustard_greens.png": {
+      "left": 0.171875,
+      "top": 0.01953125,
+      "right": 0.841796875,
+      "bottom": 0.97265625
+    },
+    "texas_sweet_onion.png": {
+      "left": 0.109375,
+      "top": 0.10546875,
+      "right": 0.892578125,
+      "bottom": 0.880859375
+    },
+    "thomcord_grapes.png": {
+      "left": 0.1953125,
+      "top": 0.05859375,
+      "right": 0.796875,
+      "bottom": 0.904296875
+    },
+    "thyme.png": {
+      "left": 0.21484375,
+      "top": 0.091796875,
+      "right": 0.7890625,
+      "bottom": 0.908203125
+    },
+    "tomatillos.png": {
+      "left": 0.19921875,
+      "top": 0.08203125,
+      "right": 0.794921875,
+      "bottom": 0.91015625
+    },
+    "tomatoes_cherry_red_on_vine.png": {
+      "left": 0.244140625,
+      "top": 0.11328125,
+      "right": 0.75390625,
+      "bottom": 0.90625
+    },
+    "tomatoes_cherry_yellow_on_vine.png": {
+      "left": 0.201171875,
+      "top": 0.10546875,
+      "right": 0.7734375,
+      "bottom": 0.90625
+    },
+    "tomatoes_cocktail_red.png": {
+      "left": 0.19921875,
+      "top": 0.107421875,
+      "right": 0.794921875,
+      "bottom": 0.83984375
+    },
+    "tomatoes_greenhouse_large.png": {
+      "left": 0.142578125,
+      "top": 0.078125,
+      "right": 0.861328125,
+      "bottom": 0.884765625
+    },
+    "tomatoes_greenhouse_small.png": {
+      "left": 0.34765625,
+      "top": 0.310546875,
+      "right": 0.654296875,
+      "bottom": 0.703125
+    },
+    "tomatoes_native_home_grown.png": {
+      "left": 0.150390625,
+      "top": 0.09765625,
+      "right": 0.845703125,
+      "bottom": 0.888671875
+    },
+    "tomatoes_on_the_vine.png": {
+      "left": 0.15234375,
+      "top": 0.126953125,
+      "right": 0.87109375,
+      "bottom": 0.900390625
+    },
+    "tomatoes_regular_large.png": {
+      "left": 0.115234375,
+      "top": 0.1015625,
+      "right": 0.8828125,
+      "bottom": 0.884765625
+    },
+    "tomatoes_regular_orange_on_vine.png": {
+      "left": 0.1640625,
+      "top": 0.123046875,
+      "right": 0.845703125,
+      "bottom": 0.876953125
+    },
+    "tomatoes_regular_small.png": {
+      "left": 0.150390625,
+      "top": 0.10546875,
+      "right": 0.845703125,
+      "bottom": 0.87109375
+    },
+    "tomatoes_regular_yellow_on_vine.png": {
+      "left": 0.177734375,
+      "top": 0.09765625,
+      "right": 0.8359375,
+      "bottom": 0.94140625
+    },
+    "tomatoes_roma_yellow.png": {
+      "left": 0.279296875,
+      "top": 0.048828125,
+      "right": 0.72265625,
+      "bottom": 0.939453125
+    },
+    "tosca_pear.png": {
+      "left": 0.25,
+      "top": 0.091796875,
+      "right": 0.744140625,
+      "bottom": 0.869140625
+    },
+    "tree_ripened_pears.png": {
+      "left": 0.2421875,
+      "top": 0.083984375,
+      "right": 0.759765625,
+      "bottom": 0.87890625
+    },
+    "turban_squash.png": {
+      "left": 0.14453125,
+      "top": 0.09375,
+      "right": 0.85546875,
+      "bottom": 0.88671875
+    },
+    "turnip_baby.png": {
+      "left": 0.193359375,
+      "top": 0.18359375,
+      "right": 0.810546875,
+      "bottom": 0.826171875
+    },
+    "turnip_bunch_banded.png": {
+      "left": 0.244140625,
+      "top": 0.029296875,
+      "right": 0.7265625,
+      "bottom": 0.96875
+    },
+    "turnip_greens.png": {
+      "left": 0.10546875,
+      "top": 0.044921875,
+      "right": 0.884765625,
+      "bottom": 0.9453125
+    },
+    "turnip_white.png": {
+      "left": 0.20703125,
+      "top": 0.103515625,
+      "right": 0.791015625,
+      "bottom": 0.9375
+    },
+    "turnip_yellow.png": {
+      "left": 0.16796875,
+      "top": 0.154296875,
+      "right": 0.83203125,
+      "bottom": 0.8671875
+    },
+    "turnips.png": {
+      "left": 0.15625,
+      "top": 0.181640625,
+      "right": 0.84765625,
+      "bottom": 0.85546875
+    },
+    "tuscan_kale.png": {
+      "left": 0.337890625,
+      "top": 0.0,
+      "right": 0.673828125,
+      "bottom": 1.0
+    },
+    "valencia_oranges_large.png": {
+      "left": 0.119140625,
+      "top": 0.123046875,
+      "right": 0.88671875,
+      "bottom": 0.89453125
+    },
+    "valencia_oranges_medium.png": {
+      "left": 0.13671875,
+      "top": 0.14453125,
+      "right": 0.865234375,
+      "bottom": 0.873046875
+    },
+    "valencia_oranges_small.png": {
+      "left": 0.189453125,
+      "top": 0.205078125,
+      "right": 0.806640625,
+      "bottom": 0.8203125
+    },
+    "vanilla_bean.png": {
+      "left": 0.45703125,
+      "top": 0.064453125,
+      "right": 0.55078125,
+      "bottom": 0.9296875
+    },
+    "vegetable_marrow.png": {
+      "left": 0.064453125,
+      "top": 0.33203125,
+      "right": 0.94140625,
+      "bottom": 0.68359375
+    },
+    "vidalia_onion.png": {
+      "left": 0.095703125,
+      "top": 0.126953125,
+      "right": 0.90625,
+      "bottom": 0.849609375
+    },
+    "vine_ripe_tomatoes_large.png": {
+      "left": 0.130859375,
+      "top": 0.15625,
+      "right": 0.875,
+      "bottom": 0.884765625
+    },
+    "vine_ripe_tomatoes_red_small.png": {
+      "left": 0.17578125,
+      "top": 0.083984375,
+      "right": 0.8515625,
+      "bottom": 0.94921875
+    },
+    "virginia_gold_apples.png": {
+      "left": 0.158203125,
+      "top": 0.140625,
+      "right": 0.830078125,
+      "bottom": 0.857421875
+    },
+    "walla_walla_onion.png": {
+      "left": 0.181640625,
+      "top": 0.1015625,
+      "right": 0.8125,
+      "bottom": 0.8828125
+    },
+    "water_chestnuts.png": {
+      "left": 0.20703125,
+      "top": 0.228515625,
+      "right": 0.787109375,
+      "bottom": 0.77734375
+    },
+    "watercress.png": {
+      "left": 0.150390625,
+      "top": 0.064453125,
+      "right": 0.841796875,
+      "bottom": 0.958984375
+    },
+    "watermelon_orange_seedless.png": {
+      "left": 0.072265625,
+      "top": 0.125,
+      "right": 0.927734375,
+      "bottom": 0.91015625
+    },
+    "watermelon_red_seeded.png": {
+      "left": 0.078125,
+      "top": 0.068359375,
+      "right": 0.919921875,
+      "bottom": 0.919921875
+    },
+    "watermelon_red_seedless.png": {
+      "left": 0.109375,
+      "top": 0.1015625,
+      "right": 0.8984375,
+      "bottom": 0.921875
+    },
+    "watermelon_red_small_seeds.png": {
+      "left": 0.07421875,
+      "top": 0.05859375,
+      "right": 0.919921875,
+      "bottom": 0.9296875
+    },
+    "white_baking_potato.png": {
+      "left": 0.197265625,
+      "top": 0.080078125,
+      "right": 0.78515625,
+      "bottom": 0.927734375
+    },
+    "white_button_mushrooms.png": {
+      "left": 0.146484375,
+      "top": 0.15625,
+      "right": 0.84765625,
+      "bottom": 0.84375
+    },
+    "white_flesh_flat_nectarine.png": {
+      "left": 0.08984375,
+      "top": 0.142578125,
+      "right": 0.90625,
+      "bottom": 0.86328125
+    },
+    "white_flesh_nectarine_small.png": {
+      "left": 0.1796875,
+      "top": 0.197265625,
+      "right": 0.822265625,
+      "bottom": 0.818359375
+    },
+    "white_grapefruit_extra_large_3157.png": {
+      "left": 0.064453125,
+      "top": 0.087890625,
+      "right": 0.943359375,
+      "bottom": 0.94921875
+    },
+    "white_grapefruit_extra_large_3158.png": {
+      "left": 0.05859375,
+      "top": 0.083984375,
+      "right": 0.939453125,
+      "bottom": 0.955078125
+    },
+    "white_grapefruit_extra_large_3159.png": {
+      "left": 0.06640625,
+      "top": 0.087890625,
+      "right": 0.939453125,
+      "bottom": 0.94921875
+    },
+    "white_mushrooms_large.png": {
+      "left": 0.1015625,
+      "top": 0.130859375,
+      "right": 0.900390625,
+      "bottom": 0.875
+    },
+    "white_onion.png": {
+      "left": 0.189453125,
+      "top": 0.11328125,
+      "right": 0.8125,
+      "bottom": 0.865234375
+    },
+    "white_potatoes.png": {
+      "left": 0.173828125,
+      "top": 0.123046875,
+      "right": 0.81640625,
+      "bottom": 0.900390625
+    },
+    "white_squash.png": {
+      "left": 0.302734375,
+      "top": 0.0703125,
+      "right": 0.6953125,
+      "bottom": 0.90625
+    },
+    "wild_twist_apples.png": {
+      "left": 0.185546875,
+      "top": 0.15234375,
+      "right": 0.810546875,
+      "bottom": 0.845703125
+    },
+    "winesap_apples_large.png": {
+      "left": 0.142578125,
+      "top": 0.126953125,
+      "right": 0.8515625,
+      "bottom": 0.873046875
+    },
+    "winesap_apples_large_v2.png": {
+      "left": 0.142578125,
+      "top": 0.125,
+      "right": 0.853515625,
+      "bottom": 0.87890625
+    },
+    "winesap_apples_small.png": {
+      "left": 0.166015625,
+      "top": 0.13671875,
+      "right": 0.830078125,
+      "bottom": 0.8515625
+    },
+    "winesap_apples_small_v2.png": {
+      "left": 0.1640625,
+      "top": 0.125,
+      "right": 0.8359375,
+      "bottom": 0.865234375
+    },
+    "winter_melon_all_sizes.png": {
+      "left": 0.267578125,
+      "top": 0.033203125,
+      "right": 0.73046875,
+      "bottom": 0.966796875
+    },
+    "winter_nelis_pears.png": {
+      "left": 0.25,
+      "top": 0.1015625,
+      "right": 0.751953125,
+      "bottom": 0.865234375
+    },
+    "wonderful_seedless_lemons_large.png": {
+      "left": 0.19140625,
+      "top": 0.091796875,
+      "right": 0.80859375,
+      "bottom": 0.919921875
+    },
+    "wonderful_seedless_lemons_medium.png": {
+      "left": 0.19140625,
+      "top": 0.115234375,
+      "right": 0.798828125,
+      "bottom": 0.900390625
+    },
+    "wonderful_seedless_lemons_small.png": {
+      "left": 0.24609375,
+      "top": 0.138671875,
+      "right": 0.7578125,
+      "bottom": 0.873046875
+    },
+    "wood_ear_mushrooms.png": {
+      "left": 0.1484375,
+      "top": 0.125,
+      "right": 0.8671875,
+      "bottom": 0.87109375
+    },
+    "worcester_apples.png": {
+      "left": 0.16015625,
+      "top": 0.1484375,
+      "right": 0.83984375,
+      "bottom": 0.8515625
+    },
+    "xenia_pears.png": {
+      "left": 0.248046875,
+      "top": 0.078125,
+      "right": 0.7578125,
+      "bottom": 0.876953125
+    },
+    "xpelon.png": {
+      "left": 0.27734375,
+      "top": 0.267578125,
+      "right": 0.7265625,
+      "bottom": 0.748046875
+    },
+    "yellow_bell_pepper_field_grown.png": {
+      "left": 0.173828125,
+      "top": 0.08984375,
+      "right": 0.8203125,
+      "bottom": 0.90234375
+    },
+    "yellow_bell_pepper_greenhouse.png": {
+      "left": 0.181640625,
+      "top": 0.109375,
+      "right": 0.81640625,
+      "bottom": 0.888671875
+    },
+    "yellow_brown_onions_bunch.png": {
+      "left": 0.265625,
+      "top": 0.021484375,
+      "right": 0.708984375,
+      "bottom": 0.94140625
+    },
+    "yellow_jackfruit.png": {
+      "left": 0.177734375,
+      "top": 0.08203125,
+      "right": 0.826171875,
+      "bottom": 0.908203125
+    },
+    "yellow_onion_large.png": {
+      "left": 0.166015625,
+      "top": 0.056640625,
+      "right": 0.837890625,
+      "bottom": 0.89453125
+    },
+    "yellow_onion_small.png": {
+      "left": 0.1953125,
+      "top": 0.125,
+      "right": 0.806640625,
+      "bottom": 0.865234375
+    },
+    "yellow_regular_tomatoes.png": {
+      "left": 0.166015625,
+      "top": 0.1171875,
+      "right": 0.837890625,
+      "bottom": 0.873046875
+    },
+    "yellow_seedless_watermelon.png": {
+      "left": 0.103515625,
+      "top": 0.0859375,
+      "right": 0.912109375,
+      "bottom": 0.91015625
+    },
+    "yellow_squash_crookneck.png": {
+      "left": 0.23046875,
+      "top": 0.037109375,
+      "right": 0.716796875,
+      "bottom": 0.95703125
+    },
+    "yellow_squash_straightneck.png": {
+      "left": 0.3671875,
+      "top": 0.056640625,
+      "right": 0.630859375,
+      "bottom": 0.9296875
+    },
+    "yellow_watermelon.png": {
+      "left": 0.08203125,
+      "top": 0.11328125,
+      "right": 0.927734375,
+      "bottom": 0.873046875
+    },
+    "yellow_zucchini.png": {
+      "left": 0.3671875,
+      "top": 0.0625,
+      "right": 0.62109375,
+      "bottom": 0.943359375
+    },
+    "york_apples_large.png": {
+      "left": 0.125,
+      "top": 0.119140625,
+      "right": 0.84765625,
+      "bottom": 0.8671875
+    },
+    "york_apples_small.png": {
+      "left": 0.166015625,
+      "top": 0.134765625,
+      "right": 0.8359375,
+      "bottom": 0.859375
+    },
+    "yu_choy.png": {
+      "left": 0.232421875,
+      "top": 0.0,
+      "right": 0.7578125,
+      "bottom": 1.0
+    },
+    "yuca_root_cassava.png": {
+      "left": 0.10546875,
+      "top": 0.1015625,
+      "right": 0.8828125,
+      "bottom": 0.908203125
+    },
+    "yukon_gold_potatoes.png": {
+      "left": 0.158203125,
+      "top": 0.115234375,
+      "right": 0.83984375,
+      "bottom": 0.89453125
+    },
+    "zingy_apples.png": {
+      "left": 0.154296875,
+      "top": 0.10546875,
+      "right": 0.8359375,
+      "bottom": 0.96484375
+    },
+    "zucchini.png": {
+      "left": 0.341796875,
+      "top": 0.03125,
+      "right": 0.626953125,
+      "bottom": 0.96484375
+    }
+  }
+}
