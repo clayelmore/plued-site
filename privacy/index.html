@@ -23,15 +23,15 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective July 12, 2026</span></div></div>
+      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective July 17, 2026</span></div></div>
       <img class="page-produce" src="/assets/img/dill.png" alt="Fresh dill">
     </div></section>
     <div class="chalk-divider"></div>
 
     <div class="shell docs-layout">
-      <aside class="toc" aria-label="Privacy contents"><strong>On this page</strong><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#contact">Contact</a></nav></aside>
+      <aside class="toc" aria-label="Privacy contents"><strong>On this page</strong><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#pluzzle">PLUzzle stats</a><a href="#contact">Contact</a></nav></aside>
       <article class="doc-content">
-        <details class="mobile-toc"><summary>Privacy contents</summary><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#contact">Contact</a></nav></details>
+        <details class="mobile-toc"><summary>Privacy contents</summary><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#pluzzle">PLUzzle stats</a><a href="#contact">Contact</a></nav></details>
 
         <section class="doc-section reveal" id="short">
           <h2>The short version</h2>
@@ -39,8 +39,9 @@
             <li>No PLUed account is required.</li>
             <li>Your answers, mastery, stars, settings, streaks, and imported packs stay on your device.</li>
             <li>The app has no analytics or advertising tracking SDK.</li>
-            <li>The optional full-access purchase is processed by Apple.</li>
-            <li>A Store Pack is sent to PLUed only when its builder explicitly opts in to sharing.</li>
+            <li>The optional full-access purchase is processed by the app store you installed from (Apple App Store, Google Play, or Amazon Appstore).</li>
+            <li>A Store Pack is uploaded only to make its share link work (packs with photos), or when its builder chooses to submit it to the PLUed team.</li>
+            <li>Finishing the daily PLUzzle sends one anonymous result — puzzle number and guess count, no identifiers — to power the everyone's-guesses chart.</li>
           </ul>
         </section>
 
@@ -53,13 +54,14 @@
 
         <section class="doc-section reveal" id="purchase">
           <h2>The optional purchase</h2>
-          <p>PLUed offers one optional, non-consumable in-app purchase for full training access. Apple processes the transaction through the App Store. PLUed receives the purchase result needed to unlock or restore access; PLUed does not receive your payment card details.</p>
+          <p>PLUed offers one optional, non-consumable in-app purchase for full training access. The app store you installed PLUed from — the Apple App Store, Google Play, or the Amazon Appstore — processes the transaction. PLUed receives the purchase result needed to unlock or restore access; PLUed does not receive your payment card details.</p>
         </section>
 
         <section class="doc-section reveal" id="packs">
-          <h2>Store Packs and the explicit opt-in</h2>
-          <p>The Pack Builder can make a Store Pack without sending it to PLUed. The builder includes an unchecked sharing box. Nothing is uploaded unless the person building the pack checks that box.</p>
-          <p>When the box is checked, the builder sends the pack's store name, codes, sets, and included photos to the PLUed hosted pack service. The builder states that the store name, codes, and photos are sent.</p>
+          <h2>Store Packs and publishing</h2>
+          <p>A Store Pack without photos shares as a self-contained link or file — nothing is uploaded to PLUed.</p>
+          <p>A Store Pack <strong>with photos</strong> is published to the PLUed hosted pack service when its builder shares it. This is what makes the share link and QR able to deliver the photos, and the builder shows a "Publishing" state while it happens. What is published is exactly the pack: store name, codes, sets, and photos.</p>
+          <p>Separately, the builder has an unchecked <strong>submission</strong> box. Ticking it flags the pack for the PLUed team to consider for the built-in catalog, with an optional "who is this from?" note. Nothing is flagged for the team unless that box is ticked.</p>
           <p>Do not include employee names, schedules, customer information, or other personal information in a Store Pack.</p>
         </section>
 
@@ -69,6 +71,11 @@
           <p><strong>Automated photo screening.</strong> Before a pack is hosted, its photos are checked by an automated content-safety service (OpenAI's moderation API). Photos are sent only for this check, are not used to train models, and packs with flagged photos are not hosted. Hosted content is additionally screened for child-safety material.</p>
           <p>An offline <code>.plupack</code> file stays wherever its builder saves or sends it. A code-only offline link does not upload pack photos.</p>
           <p>To request removal of a hosted pack, email us with the store name and any link or pack details you have.</p>
+        </section>
+
+        <section class="doc-section reveal" id="pluzzle">
+          <h2>Anonymous daily-puzzle stats</h2>
+          <p>When you finish the daily PLUzzle, the app sends one anonymous result — the puzzle number and how many guesses you used — so the result screen can show how everyone did. No account, device identifier, or location is sent or stored, at most one result is sent per puzzle per device, and the app works normally if the submission fails or is unavailable.</p>
         </section>
 
         <section class="doc-section reveal" id="contact">
