@@ -249,3 +249,7 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* App icon beside the wordmark (2026-07-17) */
+.wordmark{display:inline-flex;align-items:center;gap:.5rem;}
+.wordmark-icon{height:28px;width:28px;border-radius:7px;display:block;}
