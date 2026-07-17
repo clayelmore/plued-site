@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "generated_by": "tool/build_concepts.dart",
   "concept_count": 876,
   "concepts": [
@@ -1543,7 +1543,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -1605,7 +1605,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -1712,7 +1712,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -1890,14 +1890,14 @@
           "plu": "4221",
           "item_id": "avocado_green_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -1918,14 +1918,14 @@
           "plu": "4223",
           "item_id": "avocado_green_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -1946,14 +1946,14 @@
           "plu": "4771",
           "item_id": "avocados_green_medium",
           "size": "M",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -1962,7 +1962,7 @@
         "rank_basis": "rarity+category",
         "proxy_tier": "common"
       },
-      "card_note": "Green-skin avocado: 4222 Small, 4224 Large. Most stores sell Hass instead (4046 Small, 4225 Large).",
+      "card_note": "Green-skin avocado: 4222 Small / 4224 Large everywhere; East stores also use 4221 Small, 4771 Medium, 4223 Large. Most stores sell Hass instead (4046 Small, 4225 Large).",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
@@ -2020,7 +2020,7 @@
         "tier": "EXACT",
         "household_pct": 57
       },
-      "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one — all three show up at retail. Green-skin varieties have different codes entirely (4222, 4224).",
+      "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one — all three show up at retail. Green-skin varieties have different codes entirely (4222/4224, plus 4221/4771/4223 East).",
       "most_common": {
         "plu": 4046,
         "reason": "Small/medium Hass is the highest volume avocado SKU in the US"
@@ -5693,28 +5693,28 @@
           "plu": "4071",
           "item_id": "celery_bunch_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "bunch",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4582",
           "item_id": "celery_bunch_large_4582",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "bunch",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -6701,7 +6701,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3384",
@@ -6715,7 +6715,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3385",
@@ -6729,7 +6729,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -6760,7 +6760,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -6791,7 +6791,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -7693,21 +7693,21 @@
           "plu": "4108",
           "item_id": "crispin_mutsu_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4109",
           "item_id": "crispin_mutsu_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -7721,21 +7721,21 @@
           "plu": "4110",
           "item_id": "crispin_mutsu_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4111",
           "item_id": "crispin_mutsu_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -8674,14 +8674,14 @@
           "plu": "4116",
           "item_id": "early_apples_small_4116",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -8702,14 +8702,14 @@
           "plu": "4118",
           "item_id": "early_apples_large_4118",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -8985,7 +8985,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3426",
@@ -8999,7 +8999,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3427",
@@ -9013,7 +9013,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -9267,21 +9267,21 @@
           "plu": "4124",
           "item_id": "empire_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4125",
           "item_id": "empire_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -9295,21 +9295,21 @@
           "plu": "4126",
           "item_id": "empire_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4127",
           "item_id": "empire_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -10486,21 +10486,21 @@
           "plu": "4132",
           "item_id": "gala_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4133",
           "item_id": "gala_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -10514,21 +10514,21 @@
           "plu": "4134",
           "item_id": "gala_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4135",
           "item_id": "gala_apples_large",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -10543,7 +10543,7 @@
         "tier": "EXACT",
         "household_pct": 78
       },
-      "card_note": "4133 small, 4135 large — same codes everywhere now (the old regional split was retired).",
+      "card_note": "West: 4133 small, 4135 large. East/Central-grown: 4132 small, 4134 large.",
       "most_common": {
         "plu": 4135,
         "reason": "Large Gala is the most stocked size"
@@ -11128,7 +11128,7 @@
           "plu": "4020",
           "item_id": "golden_delicious_apples_large",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11142,7 +11142,7 @@
           "plu": "4021",
           "item_id": "golden_delicious_apples_small",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11156,28 +11156,28 @@
           "plu": "4136",
           "item_id": "golden_delicious_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4137",
           "item_id": "golden_delicious_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -11185,7 +11185,7 @@
         "tier": "EXACT",
         "household_pct": 30
       },
-      "card_note": "4020 is Large and 4021 is Small — reversed from the usual pattern, so double-check. Extra large=3285. Same codes everywhere now (the old regional split was retired).",
+      "card_note": "West: 4020 is Large and 4021 is Small — reversed from the usual pattern, so double-check. Extra large=3285. East/Central-grown: 4136 small, 4137 large.",
       "most_common": {
         "plu": 4020,
         "reason": "Large Golden Delicious is the standard grocery size"
@@ -11420,7 +11420,7 @@
           "plu": "4017",
           "item_id": "granny_smith_apples_large",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11434,35 +11434,35 @@
           "plu": "4018",
           "item_id": "granny_smith_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4138",
           "item_id": "granny_smith_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4139",
           "item_id": "granny_smith_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11557,14 +11557,14 @@
           "plu": "4284",
           "item_id": "grapefruit_deep_red_small_1",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11585,28 +11585,28 @@
           "plu": "4286",
           "item_id": "grapefruit_deep_red_small",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4287",
           "item_id": "grapefruit_deep_red_large_4287",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11627,28 +11627,28 @@
           "plu": "4289",
           "item_id": "grapefruit_deep_red_large_4289",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4494",
           "item_id": "grapefruit_deep_red_extra_large_4494",
           "size": "XL",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11669,14 +11669,14 @@
           "plu": "4496",
           "item_id": "grapefruit_deep_red_extra_large_4496",
           "size": "XL",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -11700,14 +11700,14 @@
           "plu": "4027",
           "item_id": "grapefruit_ruby_red_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11743,7 +11743,7 @@
         "tier": "EXACT",
         "household_pct": 12
       },
-      "card_note": "4047 is the common small Ruby Red grapefruit code. Large=4281.",
+      "card_note": "4047 small (everywhere); East-grown fruit also uses 4027 small. Large=4281.",
       "most_common": {
         "plu": 4047,
         "reason": "Small/standard grapefruit is more common than jumbo"
@@ -11789,28 +11789,28 @@
           "plu": "4283",
           "item_id": "grapefruit_ruby_red_pink_large_2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4491",
           "item_id": "grapefruit_ruby_red_pink_extra_large_4491",
           "size": "XL",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11831,14 +11831,14 @@
           "plu": "4493",
           "item_id": "grapefruit_ruby_red_pink_extra_large_4493",
           "size": "XL",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -11849,7 +11849,12 @@
       },
       "card_note": null,
       "most_common": null,
-      "matrix_gaps": [],
+      "matrix_gaps": [
+        {
+          "size": "L",
+          "region": "East/Central"
+        }
+      ],
       "is_most_common": false
     },
     {
@@ -11870,7 +11875,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -11893,28 +11898,28 @@
           "plu": "3157",
           "item_id": "white_grapefruit_extra_large_3157",
           "size": "XL",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "3158",
           "item_id": "white_grapefruit_extra_large_3158",
           "size": "XL",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11935,14 +11940,14 @@
           "plu": "4290",
           "item_id": "grapefruit_white_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -11963,28 +11968,28 @@
           "plu": "4292",
           "item_id": "grapefruit_white_small_4292",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4293",
           "item_id": "grapefruit_white_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -12005,14 +12010,14 @@
           "plu": "4295",
           "item_id": "grapefruit_white_large_4295",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -13505,14 +13510,14 @@
           "plu": "4634",
           "item_id": "lettuce_iceberg",
           "size": "All Sizes",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -14137,21 +14142,21 @@
           "plu": "4144",
           "item_id": "jonagold_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4145",
           "item_id": "jonagold_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -14165,21 +14170,21 @@
           "plu": "4146",
           "item_id": "jonagold_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4147",
           "item_id": "jonagold_apples_large",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -14255,21 +14260,21 @@
           "plu": "4148",
           "item_id": "jonathan_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4149",
           "item_id": "jonathan_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -14283,21 +14288,21 @@
           "plu": "4150",
           "item_id": "jonathan_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4151",
           "item_id": "jonathan_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -14998,7 +15003,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -15029,7 +15034,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -15197,7 +15202,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -16281,7 +16286,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -16567,35 +16572,35 @@
           "plu": "4019",
           "item_id": "mcintosh_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4152",
           "item_id": "mcintosh_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4153",
           "item_id": "mcintosh_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -16609,7 +16614,7 @@
           "plu": "4154",
           "item_id": "mcintosh_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -17487,7 +17492,7 @@
           "plu": "4012",
           "item_id": "navel_oranges_large",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -17501,7 +17506,7 @@
           "plu": "4013",
           "item_id": "navel_oranges_small",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -17515,28 +17520,28 @@
           "plu": "4384",
           "item_id": "navel_oranges_small_v2",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4385",
           "item_id": "navel_oranges_large_v2",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -17544,7 +17549,7 @@
         "tier": "EXACT",
         "household_pct": 50
       },
-      "card_note": "Three codes by size: 4013 small, 3107 medium, 4012 large — same everywhere now (the old regional split was retired). Higher case count = smaller fruit.",
+      "card_note": "West: 4013 small, 3107 medium, 4012 large. East-grown: 4384 small, 4385 large. Higher case count = smaller fruit — an East \"Large\" can be smaller than a West \"Medium\".",
       "most_common": {
         "plu": 4012,
         "reason": "Large West navel (56ct) is the most common; CA produces most US navels"
@@ -17769,7 +17774,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -18622,7 +18627,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -19594,28 +19599,28 @@
           "plu": "3116",
           "item_id": "peaches_yellow_flesh_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "tree_ripened",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "3117",
           "item_id": "peaches_yellow_flesh_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "tree_ripened",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -19678,28 +19683,28 @@
           "plu": "4402",
           "item_id": "peaches_yellow_flesh_small_v3",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4403",
           "item_id": "peaches_yellow_flesh_large_v3",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -22735,7 +22740,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3358",
@@ -22749,7 +22754,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "4045",
@@ -22770,7 +22775,7 @@
         "tier": "EXACT",
         "household_pct": 41
       },
-      "card_note": "4045 is the all-sizes code for red/black cherries — the one you'll actually see at US retail. Size-specific alternates exist internationally but aren't used in the US/Canada.",
+      "card_note": "4045 is the all-sizes code you'll see most; 3357 (small) and 3358 (large) are the size-specific codes.",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
@@ -22889,28 +22894,28 @@
           "plu": "4167",
           "item_id": "red_delicious_apples_small_alt",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4168",
           "item_id": "red_delicious_apples_large_alt",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -22918,7 +22923,7 @@
         "tier": "EXACT",
         "household_pct": 35
       },
-      "card_note": "Three codes by size: 4015 small, 4016 large, 3284 extra large — same everywhere now (the old regional split was retired). Near Granny Smith large (4017) in the fruit row.",
+      "card_note": "West: 4015 small, 4016 large, 3284 extra large. East/Central-grown: 4167 small, 4168 large. Near Granny Smith large (4017) in the fruit row.",
       "most_common": {
         "plu": 4016,
         "reason": "Large West Red Delicious is the standard grocery size"
@@ -23497,7 +23502,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -24467,7 +24472,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -24498,7 +24503,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -25383,21 +25388,21 @@
           "plu": "4177",
           "item_id": "spartan_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4178",
           "item_id": "spartan_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -25411,21 +25416,21 @@
           "plu": "4179",
           "item_id": "spartan_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4180",
           "item_id": "spartan_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -25849,7 +25854,7 @@
           "interchangeable_with": [],
           "is_scannable": true,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -25880,7 +25885,7 @@
           "interchangeable_with": [],
           "is_scannable": true,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -25934,14 +25939,14 @@
           "plu": "4249",
           "item_id": "strawberries_bulk_3_pack_3_pints_4249",
           "size": "All Sizes",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "pack_3_pints",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": true,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -26024,14 +26029,14 @@
           "plu": "4246",
           "item_id": "strawberries_pint_v2",
           "size": "All Sizes",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "pint",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": true,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         }
       ],
@@ -26055,14 +26060,14 @@
           "plu": "4247",
           "item_id": "strawberries_quart_v2",
           "size": "All Sizes",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": "quart",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": true,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
@@ -27389,7 +27394,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3429",
@@ -27403,7 +27408,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3430",
@@ -27417,7 +27422,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -27448,7 +27453,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3432",
@@ -27462,7 +27467,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         },
         {
           "plu": "3433",
@@ -27476,7 +27481,7 @@
           "interchangeable_with": [],
           "is_scannable": false,
           "legacy": false,
-          "usage_class": "non_us"
+          "usage_class": null
         }
       ],
       "frequency": {
@@ -29284,21 +29289,21 @@
           "plu": "4189",
           "item_id": "winesap_apples_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4190",
           "item_id": "winesap_apples_small_v2",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -29312,21 +29317,21 @@
           "plu": "4191",
           "item_id": "winesap_apples_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
           "is_scannable": false,
-          "legacy": true,
+          "legacy": false,
           "usage_class": null
         },
         {
           "plu": "4192",
           "item_id": "winesap_apples_large_v2",
           "size": "L",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
