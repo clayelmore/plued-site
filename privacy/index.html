@@ -23,7 +23,7 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective July 17, 2026</span></div></div>
+      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective July 18, 2026</span></div></div>
       <img class="page-produce" src="/assets/img/dill.png" alt="Fresh dill">
     </div></section>
     <div class="chalk-divider"></div>
@@ -40,7 +40,7 @@
             <li>Your answers, mastery, stars, settings, streaks, and imported packs stay on your device.</li>
             <li>The app has no analytics or advertising tracking SDK.</li>
             <li>The optional full-access purchase is processed by the app store you installed from (Apple App Store, Google Play, or Amazon Appstore).</li>
-            <li>A Store Pack is uploaded only to make its share link work (packs with photos), or when its builder chooses to submit it to the PLUed team.</li>
+            <li>Store Packs share as self-contained links — nothing is uploaded when you share. A pack reaches PLUed only if its builder chooses to submit it to the PLUed team.</li>
             <li>Finishing the daily PLUzzle sends one anonymous result — puzzle number and guess count, no identifiers — to power the everyone's-guesses chart.</li>
           </ul>
         </section>
@@ -59,17 +59,16 @@
 
         <section class="doc-section reveal" id="packs">
           <h2>Store Packs and publishing</h2>
-          <p>A Store Pack without photos shares as a self-contained link or file — nothing is uploaded to PLUed.</p>
-          <p>A Store Pack <strong>with photos</strong> is published to the PLUed hosted pack service when its builder shares it. This is what makes the share link and QR able to deliver the photos, and the builder shows a "Publishing" state while it happens. What is published is exactly the pack: store name, codes, sets, and photos.</p>
+          <p>A Store Pack shares as a self-contained link, QR code, or <code>.plupack</code> file. Its item graphics are references to PLUed's own built-in catalog images, so codes, sets, and graphics all travel inside the link itself — nothing is uploaded to PLUed when you share, and links work offline.</p>
           <p>Separately, the builder has an unchecked <strong>submission</strong> box. Ticking it flags the pack for the PLUed team to consider for the built-in catalog, with an optional "who is this from?" note. Nothing is flagged for the team unless that box is ticked.</p>
           <p>Do not include employee names, schedules, customer information, or other personal information in a Store Pack.</p>
         </section>
 
         <section class="doc-section reveal" id="hosted">
           <h2>Hosted share links</h2>
-          <p>A hosted Store Pack is stored on PLUed's server so a short link and QR code can deliver its codes and photos. Anyone with the hosted link can view the pack's import page and use the link to import it. Hosted links should be treated as shareable, not private.</p>
-          <p><strong>Automated photo screening.</strong> Before a pack is hosted, its photos are checked by an automated content-safety service (OpenAI's moderation API). Photos are sent only for this check, are not used to train models, and packs with flagged photos are not hosted. Hosted content is additionally screened for child-safety material.</p>
-          <p>An offline <code>.plupack</code> file stays wherever its builder saves or sends it. A code-only offline link does not upload pack photos.</p>
+          <p>PLUed also operates a hosted pack service: a pack stored on PLUed's server so a short link and QR code can deliver it. Anyone with a hosted link can view the pack's import page and use the link to import it. Hosted links should be treated as shareable, not private.</p>
+          <p><strong>Automated photo screening.</strong> Before any pack is hosted, any photos it contains are checked by an automated content-safety service (OpenAI's moderation API). Photos are sent only for this check, are not used to train models, and packs with flagged photos are not hosted. Hosted content is additionally screened for child-safety material.</p>
+          <p>A <code>.plupack</code> file stays wherever its builder saves or sends it.</p>
           <p>To request removal of a hosted pack, email us with the store name and any link or pack details you have.</p>
         </section>
 
