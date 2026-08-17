@@ -1020,18 +1020,17 @@
             "radicchio",
             "radicchio_treviso",
             "romaine_lettuce_red",
-            "sorrel",
-            "swiss_chard_green"
+            "sorrel"
           ]
         },
         {
           "index": 3,
           "name": "Leafy Greens & Lettuce · Part 4",
           "concept_ids": [
+            "swiss_chard_green",
             "swiss_chard_red",
             "texas_mustard_greens",
             "watercress",
-            "cardoon",
             "chipilin_leaf",
             "kale_sprouts",
             "lettuce_catalogna",
@@ -1671,6 +1670,7 @@
             "artichokes_rouge_salambo",
             "asparagus_white",
             "cactus_leaves",
+            "cardoon",
             "corn_indian_strawberry",
             "fiddlehead_ferns"
           ]

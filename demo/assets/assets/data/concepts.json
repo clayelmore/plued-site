@@ -1622,7 +1622,7 @@
       "id": "asparagus_tips",
       "name": "Asparagus Tips",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "asparagus",
       "codes": [
         {
           "plu": "4524",
@@ -4454,7 +4454,7 @@
       "id": "broccoli_baby",
       "name": "Broccoli Baby",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "greens",
       "codes": [
         {
           "plu": "3277",
@@ -4485,7 +4485,7 @@
       "id": "broccoli_rabe_chinese_broccoli",
       "name": "Broccoli Rabe Chinese Broccoli",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "greens",
       "codes": [
         {
           "plu": "4547",
@@ -5210,7 +5210,7 @@
       "id": "cardoon",
       "name": "Cardoon",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "stalk_vegetables",
       "codes": [
         {
           "plu": "4559",
@@ -5673,7 +5673,7 @@
       "id": "celery",
       "name": "Celery",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "stalk_vegetables",
       "codes": [
         {
           "plu": "4070",
@@ -5779,7 +5779,7 @@
       "id": "celery_loose_stalk",
       "name": "Celery Loose Stalk",
       "category": "vegetable",
-      "family": "more_vegetables",
+      "family": "stalk_vegetables",
       "codes": [
         {
           "plu": "4576",
@@ -14958,7 +14958,7 @@
       "id": "leeks_baby",
       "name": "Leeks Baby",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "onions",
       "codes": [
         {
           "plu": "4630",
@@ -23457,7 +23457,7 @@
       "id": "rhubarb_regular",
       "name": "Rhubarb Regular",
       "category": "vegetable",
-      "family": "cooking_greens",
+      "family": "stalk_vegetables",
       "codes": [
         {
           "plu": "4745",
