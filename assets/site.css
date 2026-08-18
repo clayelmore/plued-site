@@ -85,19 +85,19 @@ p, ul, ol { margin-top: 0; }
 .hero h1 { max-width: 680px; margin-bottom: 22px; }
 .hero-copy > p { max-width: 610px; margin-bottom: 30px; color: var(--muted); font-size: clamp(1.05rem, 1.7vw, 1.25rem); }
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; }
-.hero-art { position: relative; min-height: 590px; isolation: isolate; }
-.hero-art::before { position: absolute; inset: 11% 8% 9% 10%; z-index: -1; border: 1px dashed var(--border); border-radius: 47% 53% 44% 56%; background: color-mix(in srgb, var(--card), transparent 25%); content: ""; transform: rotate(-4deg); }
+.hero-art { position: relative; min-height: 470px; isolation: isolate; }
+.hero-art::before { position: absolute; inset: 9% 17% 8% 18%; z-index: -1; border: 1px dashed var(--border); border-radius: 47% 53% 44% 56%; background: color-mix(in srgb, var(--card), transparent 25%); content: ""; transform: rotate(-4deg); }
 .produce-float { position: absolute; width: var(--size); filter: drop-shadow(0 15px 14px rgba(44, 36, 26, 0.16)); animation: float var(--duration) ease-in-out infinite; animation-delay: var(--delay); }
-.p-avocado { top: 31%; left: 34%; --size: 205px; --duration: 7.8s; --delay: -1s; }
-.p-apple { top: 2%; left: 29%; --size: 180px; --duration: 8.5s; --delay: -4s; }
-.p-grapes { top: 15%; right: 2%; --size: 132px; --duration: 7.2s; --delay: -2s; }
-.p-dill { top: 1%; left: 1%; --size: 155px; --duration: 9s; --delay: -6s; }
-.p-cantaloupe { top: 38%; right: -2%; --size: 160px; --duration: 6.8s; --delay: -3s; }
-.p-plantain { bottom: 2%; left: 21%; --size: 220px; --duration: 8.8s; --delay: -5s; }
-.p-cabbage { bottom: 1%; right: 7%; --size: 164px; --duration: 7.4s; --delay: -1.5s; }
-.p-squash { top: 31%; left: -1%; --size: 165px; --duration: 8.2s; --delay: -4.5s; }
-.p-pepper { bottom: 19%; left: 2%; --size: 132px; --duration: 6.6s; --delay: -2.5s; }
-.p-lemons { top: 7%; left: 58%; --size: 120px; --duration: 7.6s; --delay: -3.5s; }
+.p-avocado { top: 31%; left: 34%; --size: 145px; --duration: 7.8s; --delay: -1s; }
+.p-apple { top: 2%; left: 29%; --size: 128px; --duration: 8.5s; --delay: -4s; }
+.p-grapes { top: 15%; right: 2%; --size: 96px; --duration: 7.2s; --delay: -2s; }
+.p-dill { top: 1%; left: 1%; --size: 110px; --duration: 9s; --delay: -6s; }
+.p-cantaloupe { top: 38%; right: -2%; --size: 114px; --duration: 6.8s; --delay: -3s; }
+.p-plantain { bottom: 2%; left: 21%; --size: 155px; --duration: 8.8s; --delay: -5s; }
+.p-cabbage { bottom: 1%; right: 7%; --size: 116px; --duration: 7.4s; --delay: -1.5s; }
+.p-squash { top: 31%; left: -1%; --size: 118px; --duration: 8.2s; --delay: -4.5s; }
+.p-pepper { bottom: 19%; left: 2%; --size: 96px; --duration: 6.6s; --delay: -2.5s; }
+.p-lemons { top: 7%; left: 58%; --size: 86px; --duration: 7.6s; --delay: -3.5s; }
 @keyframes float { 0%, 100% { transform: translateY(0) rotate(-1.5deg); } 50% { transform: translateY(-7px) rotate(1.5deg); } }
 .chalk-divider { width: min(calc(100% - 40px), var(--max)); height: 1px; margin: 0 auto; border-top: 2px dashed color-mix(in srgb, var(--border), var(--ink) 7%); }
 .section { padding: 88px 0; }
@@ -189,7 +189,7 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 64px; }
   .hero-copy { max-width: 760px; }
-  .hero-art { width: min(100%, 650px); min-height: 560px; margin: 20px auto 0; }
+  .hero-art { width: min(100%, 650px); min-height: 470px; margin: 20px auto 0; }
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
   .docs-layout { grid-template-columns: 1fr; }
   .toc { display: none; }
@@ -202,9 +202,9 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   .main-nav { display: grid; grid-template-columns: repeat(2, auto); justify-items: end; gap: 8px 16px; font-size: 0.78rem; }
   .soon { top: -12px; }
   .hero { padding: 48px 0 62px; }
-  .hero-art { min-height: 430px; }
-  .p-avocado { --size: 150px; } .p-apple { --size: 125px; } .p-grapes { --size: 92px; } .p-dill { --size: 108px; } .p-cantaloupe { --size: 112px; }
-  .p-plantain { --size: 158px; } .p-cabbage { --size: 118px; } .p-squash { --size: 115px; } .p-pepper { --size: 92px; } .p-lemons { --size: 84px; }
+  .hero-art { min-height: 370px; }
+  .p-avocado { --size: 105px; } .p-apple { --size: 88px; } .p-grapes { --size: 64px; } .p-dill { --size: 76px; } .p-cantaloupe { --size: 78px; }
+  .p-plantain { --size: 110px; } .p-cabbage { --size: 83px; } .p-squash { --size: 81px; } .p-pepper { --size: 64px; } .p-lemons { --size: 59px; }
   .section { padding: 66px 0; }
   .stats-grid, .feature-grid, .steps, .footer-grid, .mini-grid { grid-template-columns: 1fr; }
   .feature-card { min-height: auto; }
@@ -222,7 +222,7 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   .wordmark { font-size: 1.4rem; }
   .main-nav { gap: 6px 10px; font-size: 0.72rem; }
   .cta-row .button { width: 100%; }
-  .hero-art { min-height: 390px; }
+  .hero-art { min-height: 330px; }
 }
 @media (prefers-color-scheme: dark) {
   :root {
