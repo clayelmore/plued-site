@@ -90,13 +90,13 @@ p, ul, ol { margin-top: 0; }
 .produce-float { position: absolute; width: var(--size); filter: drop-shadow(0 15px 14px rgba(44, 36, 26, 0.16)); animation: float var(--duration) ease-in-out infinite; animation-delay: var(--delay); }
 .p-avocado { top: 31%; left: 34%; --size: 205px; --duration: 7.8s; --delay: -1s; }
 .p-apple { top: 2%; left: 29%; --size: 180px; --duration: 8.5s; --delay: -4s; }
-.p-mangosteen { top: 15%; right: 2%; --size: 132px; --duration: 7.2s; --delay: -2s; }
+.p-grapes { top: 15%; right: 2%; --size: 132px; --duration: 7.2s; --delay: -2s; }
 .p-dill { top: 1%; left: 1%; --size: 155px; --duration: 9s; --delay: -6s; }
-.p-cherries { top: 38%; right: -2%; --size: 160px; --duration: 6.8s; --delay: -3s; }
+.p-cantaloupe { top: 38%; right: -2%; --size: 160px; --duration: 6.8s; --delay: -3s; }
 .p-plantain { bottom: 2%; left: 21%; --size: 220px; --duration: 8.8s; --delay: -5s; }
 .p-cabbage { bottom: 1%; right: 7%; --size: 164px; --duration: 7.4s; --delay: -1.5s; }
 .p-squash { top: 31%; left: -1%; --size: 165px; --duration: 8.2s; --delay: -4.5s; }
-.p-strawberries { bottom: 19%; left: 2%; --size: 132px; --duration: 6.6s; --delay: -2.5s; }
+.p-pepper { bottom: 19%; left: 2%; --size: 132px; --duration: 6.6s; --delay: -2.5s; }
 .p-lemons { top: 7%; left: 58%; --size: 120px; --duration: 7.6s; --delay: -3.5s; }
 @keyframes float { 0%, 100% { transform: translateY(0) rotate(-1.5deg); } 50% { transform: translateY(-7px) rotate(1.5deg); } }
 .chalk-divider { width: min(calc(100% - 40px), var(--max)); height: 1px; margin: 0 auto; border-top: 2px dashed color-mix(in srgb, var(--border), var(--ink) 7%); }
@@ -203,8 +203,8 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   .soon { top: -12px; }
   .hero { padding: 48px 0 62px; }
   .hero-art { min-height: 430px; }
-  .p-avocado { --size: 150px; } .p-apple { --size: 125px; } .p-mangosteen { --size: 92px; } .p-dill { --size: 108px; } .p-cherries { --size: 112px; }
-  .p-plantain { --size: 158px; } .p-cabbage { --size: 118px; } .p-squash { --size: 115px; } .p-strawberries { --size: 92px; } .p-lemons { --size: 84px; }
+  .p-avocado { --size: 150px; } .p-apple { --size: 125px; } .p-grapes { --size: 92px; } .p-dill { --size: 108px; } .p-cantaloupe { --size: 112px; }
+  .p-plantain { --size: 158px; } .p-cabbage { --size: 118px; } .p-squash { --size: 115px; } .p-pepper { --size: 92px; } .p-lemons { --size: 84px; }
   .section { padding: 66px 0; }
   .stats-grid, .feature-grid, .steps, .footer-grid, .mini-grid { grid-template-columns: 1fr; }
   .feature-card { min-height: auto; }
