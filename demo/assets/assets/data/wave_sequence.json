@@ -218,7 +218,7 @@
               "size_spec": "24 count and larger"
             }
           ],
-          "card_note": "4070 (small) is the common one \u2014 nice round number in the veggie block. Large (4583) is in the 45xx zone. Hearts=4575, Sticks=4576.",
+          "card_note": "4070 (small) is the common one. Nice round number in the veggie block. Large (4583) is in the 45xx zone. Hearts=4575, Sticks=4576.",
           "most_common": {
             "plu": 4070,
             "reason": "Small bunch (4070) is what most stores stock as their standard celery"
@@ -248,7 +248,7 @@
               "size_spec": "36 count and larger, ~10-15 oz"
             }
           ],
-          "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one \u2014 all three show up at retail. Green-skin varieties have different codes entirely (4222, 4771).",
+          "card_note": "Three sizes! 4046 is the most common (small/med). Don't learn just one. All three show up at retail. Green-skin varieties have different codes entirely (4222, 4771).",
           "most_common": {
             "plu": 4046,
             "reason": "Small/medium Hass is the highest volume avocado SKU in the US"
@@ -307,7 +307,7 @@
               "form": "key"
             }
           ],
-          "card_note": "Two varieties. Regular (4048) is the common grocery lime. Key Lime (4305) is smaller, rounder, more aromatic \u2014 used in Key Lime pie. Neither has a size split.",
+          "card_note": "Two varieties. Regular (4048) is the common grocery lime. Key Lime (4305) is smaller, rounder, more aromatic, used in Key Lime pie. Neither has a size split.",
           "most_common": {
             "plu": 4048,
             "reason": "Regular Persian lime is 95%+ of lime sales"
@@ -466,7 +466,7 @@
               "grow_method": "greenhouse"
             }
           ],
-          "card_note": "Field grown (4088) is in the veggie block right after Roma tomato (4087). Greenhouse (4688) is in the 46xx zone. Your store may use one or the other \u2014 check what's stocked.",
+          "card_note": "Field grown (4088) is in the veggie block right after Roma tomato (4087). Greenhouse (4688) is in the 46xx zone. Your store may use one or the other, check what's stocked.",
           "most_common": {
             "plu": 4088,
             "reason": "Varies by store — field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
@@ -490,7 +490,7 @@
               "size_spec": "88 count and larger, avg fruit weight 205g+"
             }
           ],
-          "card_note": "Small=4129, Large=4131. Compare to Gala (4133/4135) \u2014 Fuji codes are 4 less than Gala for each size.",
+          "card_note": "Small=4129, Large=4131. Compare to Gala (4133/4135), Fuji codes are 4 less than Gala for each size.",
           "most_common": {
             "plu": 4131,
             "reason": "Large Fuji is the most stocked size"
@@ -521,7 +521,7 @@
               "size_spec": "5x6 and larger, diameter 70mm+"
             }
           ],
-          "card_note": "Vine Ripe has a size split! 3151 is the large \u2014 this is NOT Roma (Roma=4087). On-the-vine/truss tomato (picked still on vine) = 4664, which is a different thing.",
+          "card_note": "Vine Ripe has a size split! 3151 is the large, this is NOT Roma (Roma=4087). On-the-vine/truss tomato (picked still on vine) = 4664, which is a different thing.",
           "most_common": {
             "plu": 3151,
             "reason": "Large vine ripe is the standard tomato size"
@@ -622,7 +622,7 @@
               "size": "Large"
             }
           ],
-          "card_note": "Two sizes. 4050 (large) is more common. Don't confuse 4032 with cantaloupe \u2014 that's seedless watermelon!",
+          "card_note": "Two sizes. 4050 (large) is more common. Don't confuse 4032 with cantaloupe. That's seedless watermelon!",
           "most_common": {
             "plu": 4050,
             "reason": "Large cantaloupe is the standard grocery size"
@@ -910,7 +910,7 @@
               "region": "East"
             }
           ],
-          "card_note": "Bosc is the most complex pear \u2014 4 codes split by size AND region, similar to navel orange. 4026 (West) is in the fruit row. 4411-4413 are in the pear zone.",
+          "card_note": "Bosc is the most complex pear, 4 codes split by size AND region, similar to navel orange. 4026 (West) is in the fruit row. 4411-4413 are in the pear zone.",
           "most_common": {
             "plu": 4413,
             "reason": "Large West Bosc is most common — majority of US pears come from WA/OR"
@@ -970,7 +970,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "No size split. 4705. The dried version is called Ancho. Mild heat, large size \u2014 often stuffed."
+          "card_note": "No size split. 4705. The dried version is called Ancho. Mild heat, large size, often stuffed."
         },
         {
           "name": "Habanero Pepper",
@@ -983,7 +983,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "3125 \u2014 the only common hot pepper in the 3xxx range. Very hot. Don't confuse with scotch bonnet (similar look, different code)."
+          "card_note": "3125. The only common hot pepper in the 3xxx range. Very hot. Don't confuse with scotch bonnet (similar look, different code)."
         }
       ]
     },
@@ -1011,7 +1011,7 @@
               "size_spec": "8 count and larger"
             }
           ],
-          "card_note": "Small (4029) is in the fruit row. Large (4430) is in the 44xx zone. Most stores carry large \u2014 4430 is the more common code.",
+          "card_note": "Small (4029) is in the fruit row. Large (4430) is in the 44xx zone. Most stores carry large, 4430 is the more common code.",
           "most_common": {
             "plu": 4430,
             "reason": "Large pineapple is what most stores carry"
@@ -1080,7 +1080,7 @@
               "size_spec": "Jumbo and extra large size"
             }
           ],
-          "card_note": "Standard (4080) is the common one \u2014 right at the edge of the veggie block after cauliflower (4079). Large (4521) is less common. White asparagus=4522, Purple=3079.",
+          "card_note": "Standard (4080) is the common one. Right at the edge of the veggie block after cauliflower (4079). Large (4521) is less common. White asparagus=4522, Purple=3079.",
           "most_common": {
             "plu": 4080,
             "reason": "Standard green asparagus is the everyday item; jumbo is specialty"
@@ -1202,7 +1202,7 @@
               "size_spec": "56 count and larger"
             }
           ],
-          "card_note": "4035 (small) and 4036 (large) \u2014 consecutive numbers in the fruit row. White nectarine (tree-ripened)=3035.",
+          "card_note": "4035 (small) and 4036 (large), consecutive numbers in the fruit row. White nectarine (tree-ripened)=3035.",
           "most_common": {
             "plu": 4036,
             "reason": "Large yellow nectarine is the standard retail size"
@@ -1224,7 +1224,7 @@
               "size": "Large"
             }
           ],
-          "card_note": "Black (4040) and Red (4042) \u2014 both in the fruit row. Pluots/Plumcots have their own codes (3278, etc.).",
+          "card_note": "Black (4040) and Red (4042), both in the fruit row. Pluots/Plumcots have their own codes (3278, etc.).",
           "most_common": {
             "plu": 4040,
             "reason": "Black plum is more widely stocked than red plum"
@@ -1249,7 +1249,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "4901. Looks very similar to cilantro (4889) \u2014 one of the most common produce mix-ups. Curly parsley=4899."
+          "card_note": "4901. Looks very similar to cilantro (4889), one of the most common produce mix-ups. Curly parsley=4899."
         },
         {
           "name": "Curly Parsley",
@@ -1369,7 +1369,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "No size split. 4648 is in mushroom row (4645-4652). Cremini are actually baby portabellas \u2014 same species (Agaricus bisporus) as white button and portabella, just different growth stages."
+          "card_note": "No size split. 4648 is in mushroom row (4645-4652). Cremini are actually baby portabellas, same species (Agaricus bisporus) as white button and portabella, just different growth stages."
         },
         {
           "name": "Portabella Mushroom",
@@ -1382,7 +1382,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "No size split. 4650. Same species as cremini (4648) and button (4645/4085) \u2014 just fully mature."
+          "card_note": "No size split. 4650. Same species as cremini (4648) and button (4645/4085), just fully mature."
         },
         {
           "name": "Ginger Root",
@@ -1662,7 +1662,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "No size split. 4629. Baby leek=4630. Not the same as green onion (4068) \u2014 leeks are much larger."
+          "card_note": "No size split. 4629. Baby leek=4630. Not the same as green onion (4068), leeks are much larger."
         },
         {
           "name": "Shallots",
@@ -1722,7 +1722,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "4782. Some stores use this interchangeably with crookneck (4784) \u2014 the shape of the neck is the difference."
+          "card_note": "4782. Some stores use this interchangeably with crookneck (4784). The shape of the neck is the difference."
         }
       ]
     },
@@ -1873,7 +1873,7 @@
             "plu": 3121,
             "reason": "Most orange bells at retail are greenhouse grown"
           },
-          "card_note": "Field (4682) vs Greenhouse (3121). Orange greenhouse is in the 3xxx range \u2014 the only common greenhouse pepper there. Compare: Red greenhouse=4688, Yellow greenhouse=4689."
+          "card_note": "Field (4682) vs Greenhouse (3121). Orange greenhouse is in the 3xxx range. The only common greenhouse pepper there. Compare: Red greenhouse=4688, Yellow greenhouse=4689."
         },
         {
           "name": "Anaheim / New Mexico Chile",
@@ -1991,7 +1991,7 @@
       }
     ],
     "unlock": "wave_1_mastery >= 0.70",
-    "card_note": "Once you know conventional codes, organic is free \u2014 just add 9 in front. Works for ALL sizes: 94046 = organic small Hass, 94225 = organic large Hass."
+    "card_note": "Once you know conventional codes, organic is free, just add 9 in front. Works for ALL sizes: 94046 = organic small Hass, 94225 = organic large Hass."
   },
   "number_neighborhoods": [
     {
