@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>PLUed Registry Admin</title>
+<style>
+  :root {
+    --cream: #f7f2e7; --ink: #1e3b2f; --ink-soft: #5c6f64; --paper: #fffdf7;
+    --kraft: #d8c8a8; --leaf: #3d7a4e; --tomato: #c0392b; --citrus: #d9931d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--cream); color: var(--ink);
+    font: 15px/1.5 "Albert Sans", -apple-system, system-ui, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  main { max-width: 1080px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: var(--ink-soft); margin: 0 0 20px; }
+  .card {
+    background: var(--paper); border: 1.5px solid var(--kraft);
+    border-radius: 12px; padding: 16px; margin-bottom: 16px;
+  }
+  label { font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--ink-soft); }
+  input[type=password] {
+    width: 100%; max-width: 480px; padding: 10px 12px; margin: 6px 8px 6px 0;
+    border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit;
+  }
+  button {
+    font: inherit; font-weight: 600; padding: 9px 14px; border-radius: 8px;
+    border: 1.5px solid var(--leaf); background: var(--leaf); color: #fff; cursor: pointer;
+  }
+  button.quiet { background: transparent; color: var(--ink); border-color: var(--kraft); }
+  button.danger { background: transparent; color: var(--tomato); border-color: var(--tomato); }
+  button:disabled { opacity: .5; cursor: default; }
+  #status { min-height: 22px; font-size: 14px; margin: 8px 0; }
+  #status.err { color: var(--tomato); }
+  #status.ok { color: var(--leaf); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--kraft); vertical-align: top; }
+  th { font-size: 11px; letter-spacing: .08em; color: var(--ink-soft); }
+  td.actions { white-space: nowrap; }
+  td .id { color: var(--ink-soft); font: 12px ui-monospace, monospace; }
+  .badge {
+    display: inline-block; font-size: 11px; font-weight: 700; border-radius: 999px;
+    padding: 2px 8px; margin: 1px 2px 1px 0;
+  }
+  .badge.submitted { background: #e4efe7; color: var(--leaf); }
+  .badge.reports { background: #f7e3e0; color: var(--tomato); }
+  .badge.request { background: #f8ecd8; color: var(--citrus); }
+  .note { color: var(--ink-soft); font-size: 13px; }
+  pre {
+    background: #10241b; color: #e7f0e9; border-radius: 10px; padding: 14px;
+    overflow: auto; max-height: 480px; font-size: 12.5px;
+  }
+  .wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PLUed Registry Admin</h1>
+  <p class="sub">Hosted Store Packs: review, delete, and send the digest. The token stays in this browser only.</p>
+
+  <div class="card">
+    <label for="token">ADMIN TOKEN</label><br>
+    <input id="token" type="password" placeholder="paste your admin token" autocomplete="off">
+    <button id="save" class="quiet">Save in this browser</button>
+    <button id="forget" class="quiet">Forget</button>
+  </div>
+
+  <div class="card">
+    <button id="refresh">Refresh list</button>
+    <button id="digest" class="quiet">Send digest email now</button>
+    <div id="status"></div>
+    <div class="wrap"><table id="packs" hidden>
+      <thead><tr>
+        <th>Store</th><th>Codes</th><th>Received</th><th>Flags</th><th>Actions</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+
+  <div class="card" id="viewer" hidden>
+    <button id="closeView" class="quiet">Close</button>
+    <pre id="packJson"></pre>
+  </div>
+</main>
+<script>
+(function () {
+  'use strict';
+  var API = '/api';
+  var tokenInput = document.getElementById('token');
+  var statusEl = document.getElementById('status');
+  var table = document.getElementById('packs');
+  var tbody = table.querySelector('tbody');
+  var viewer = document.getElementById('viewer');
+  var packJson = document.getElementById('packJson');
+
+  tokenInput.value = localStorage.getItem('plued_admin_token') || '';
+
+  function token() { return tokenInput.value.trim(); }
+  function setStatus(msg, cls) {
+    statusEl.textContent = msg || '';
+    statusEl.className = cls || '';
+  }
+  function auth() { return { 'Authorization': 'Bearer ' + token() }; }
+  function needToken() {
+    if (token()) return false;
+    setStatus('Paste your admin token first.', 'err');
+    return true;
+  }
+  function apiError(res) {
+    if (res.status === 401) return 'Token rejected (401). Check it, or rotate the ADMIN_TOKEN secret on the worker.';
+    return 'Request failed: HTTP ' + res.status;
+  }
+
+  document.getElementById('save').onclick = function () {
+    localStorage.setItem('plued_admin_token', token());
+    setStatus('Token saved in this browser.', 'ok');
+  };
+  document.getElementById('forget').onclick = function () {
+    localStorage.removeItem('plued_admin_token');
+    tokenInput.value = '';
+    setStatus('Token forgotten.', 'ok');
+  };
+  document.getElementById('closeView').onclick = function () { viewer.hidden = true; };
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function row(entry) {
+    var tr = document.createElement('tr');
+    var flags = '';
+    if (entry.submitted) {
+      flags += '<span class="badge submitted">SUBMITTED</span>';
+      if (entry.note) flags += '<div class="note">' + esc(entry.note) + '</div>';
+    }
+    if ((entry.reports || 0) > 0) {
+      flags += '<span class="badge reports">REPORTS: ' + entry.reports + '</span>';
+    }
+    if (entry.graphic_requests) {
+      flags += '<span class="badge request">GRAPHIC REQUEST</span>' +
+        '<div class="note">' + esc(entry.graphic_requests) + '</div>';
+    }
+    tr.innerHTML =
+      '<td>' + esc(entry.store_name || '(unnamed)') +
+        '<div class="id">' + esc(entry.pack_id) + '</div></td>' +
+      '<td>' + (entry.codes_count || 0) + '</td>' +
+      '<td>' + new Date(entry.received_at).toLocaleString() + '</td>' +
+      '<td>' + (flags || '<span class="note">none</span>') + '</td>' +
+      '<td class="actions"></td>';
+    var actions = tr.querySelector('.actions');
+
+    var view = document.createElement('button');
+    view.className = 'quiet';
+    view.textContent = 'View';
+    view.onclick = function () {
+      setStatus('Loading pack…');
+      fetch(API + '/packs/' + entry.pack_id, { headers: auth() }).then(function (res) {
+        if (!res.ok) { setStatus(apiError(res), 'err'); return; }
+        res.json().then(function (body) {
+          packJson.textContent = JSON.stringify(body, null, 2);
+          viewer.hidden = false;
+          setStatus('');
+          viewer.scrollIntoView({ behavior: 'smooth' });
+        });
+      }).catch(function () { setStatus('Network error.', 'err'); });
+    };
+
+    var del = document.createElement('button');
+    del.className = 'danger';
+    del.textContent = 'Delete';
+    del.onclick = function () {
+      var name = entry.store_name || entry.pack_id;
+      if (!confirm('Delete the hosted pack "' + name + '"?\n\nIts share link stops working immediately. Copies already imported on phones are unaffected. This cannot be undone.')) return;
+      setStatus('Deleting…');
+      fetch(API + '/packs/' + entry.pack_id, { method: 'DELETE', headers: auth() }).then(function (res) {
+        if (!res.ok) { setStatus(apiError(res), 'err'); return; }
+        setStatus('Deleted "' + name + '".', 'ok');
+        load();
+      }).catch(function () { setStatus('Network error.', 'err'); });
+    };
+
+    actions.appendChild(view);
+    actions.appendChild(document.createTextNode(' '));
+    actions.appendChild(del);
+    return tr;
+  }
+
+  function load() {
+    if (needToken()) return;
+    setStatus('Loading…');
+    fetch(API + '/packs', { headers: auth() }).then(function (res) {
+      if (!res.ok) { setStatus(apiError(res), 'err'); table.hidden = true; return; }
+      res.json().then(function (entries) {
+        tbody.innerHTML = '';
+        entries.forEach(function (e) { tbody.appendChild(row(e)); });
+        table.hidden = false;
+        setStatus(entries.length + ' hosted pack(s).', 'ok');
+      });
+    }).catch(function () { setStatus('Network error.', 'err'); });
+  }
+
+  document.getElementById('refresh').onclick = load;
+  document.getElementById('digest').onclick = function () {
+    if (needToken()) return;
+    setStatus('Sending digest…');
+    fetch(API + '/digest', { method: 'POST', headers: auth() }).then(function (res) {
+      if (!res.ok) { setStatus(apiError(res), 'err'); return; }
+      setStatus('Digest sent. Check your inbox.', 'ok');
+    }).catch(function () { setStatus('Network error.', 'err'); });
+  };
+
+  if (token()) load();
+})();
+</script>
+</body>
+</html>
