@@ -82,9 +82,24 @@
     </table></div>
   </div>
 
+  <div class="card" id="requests" hidden>
+    <h2 style="margin:0 0 4px;font-size:18px;">Graphic requests</h2>
+    <p class="sub" style="margin:0 0 10px;">Each request parsed from its pack. Copy the Claude prompt, paste it into a Claude Code session in the PLUed repo, and the graphic joins the next build.</p>
+    <div class="wrap"><table>
+      <thead><tr><th>PLU</th><th>Name</th><th>Description</th><th>Store</th><th></th></tr></thead>
+      <tbody id="requestRows"></tbody>
+    </table></div>
+  </div>
+
   <div class="card" id="viewer" hidden>
     <button id="closeView" class="quiet">Close</button>
-    <pre id="packJson"></pre>
+    <button id="toggleRaw" class="quiet">Show raw JSON</button>
+    <h2 id="viewerTitle" style="margin:10px 0 6px;font-size:18px;"></h2>
+    <div class="wrap"><table id="codesTable">
+      <thead><tr><th>Graphic</th><th>Code</th><th>Name</th><th>Category</th><th>Size</th><th>Graphic file</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <pre id="packJson" hidden></pre>
   </div>
 </main>
 <script>
@@ -97,6 +112,11 @@
   var tbody = table.querySelector('tbody');
   var viewer = document.getElementById('viewer');
   var packJson = document.getElementById('packJson');
+  var codesTbody = document.querySelector('#codesTable tbody');
+  var viewerTitle = document.getElementById('viewerTitle');
+  var requestsCard = document.getElementById('requests');
+  var requestRows = document.getElementById('requestRows');
+  var IMG_BASE = 'https://plued.app/demo/assets/assets/images/produce/';
 
   tokenInput.value = localStorage.getItem('plued_admin_token') || '';
 
@@ -126,6 +146,87 @@
     setStatus('Token forgotten.', 'ok');
   };
   document.getElementById('closeView').onclick = function () { viewer.hidden = true; };
+  document.getElementById('toggleRaw').onclick = function () {
+    packJson.hidden = !packJson.hidden;
+    this.textContent = packJson.hidden ? 'Show raw JSON' : 'Hide raw JSON';
+  };
+
+  function claudePrompt(plu, name, desc) {
+    var slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+    return 'Generate a PLUed catalog graphic from a trainer\u2019s Store Pack request.\n\n' +
+      'Item: ' + name + ' (store code ' + plu + ')\n' +
+      'Trainer\u2019s description: ' + desc + '\n\n' +
+      'Follow docs/IMAGE_PIPELINE.md in the PLUed repo:\n' +
+      '1. cd tool/generate_images && dart run bin/generate_openai_single.dart <KEY> ' + slug + '.png ' +
+      '"Professional product photograph of ' + desc + ', studio lighting, centered, photorealistic, ' +
+      'no text, no labels, no stickers, no brand names, no drop shadow, no reflection, no surface, ' +
+      'produce floating in empty space"\n' +
+      '2. MANDATORY: zsh tool/compress_catalog.sh, then dart run tool/build_image_bounds.dart ' +
+      '(existing bounds must not change).\n' +
+      '3. If this item should join the standard catalog, add it to assets/data/plu_seed.json ' +
+      '(it needs an official 4-digit PLU; retailer-assigned codes stay pack-side art only).\n' +
+      '4. Regenerate the web catalog: cd tool/generate_images && dart run bin/dump_features.dart > ../features_dump.tsv, ' +
+      'then from the repo root dart run tool/build_web_catalog.dart.\n' +
+      '5. Run flutter test, then commit.';
+  }
+
+  function parseRequests(entry) {
+    var out = [];
+    String(entry.graphic_requests || '').split('\n').forEach(function (line) {
+      var m = line.match(/^(\d{3,5})\s+(.*?):\s*(.+)$/);
+      if (m) out.push({ plu: m[1], name: m[2], desc: m[3], store: entry.store_name || '', packId: entry.pack_id });
+      else if (line.trim()) out.push({ plu: '', name: '', desc: line.trim(), store: entry.store_name || '', packId: entry.pack_id });
+    });
+    return out;
+  }
+
+  function renderRequests(entries) {
+    requestRows.innerHTML = '';
+    var all = [];
+    entries.forEach(function (e) { all = all.concat(parseRequests(e)); });
+    requestsCard.hidden = all.length === 0;
+    all.forEach(function (r) {
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + esc(r.plu) + '</td><td>' + esc(r.name) + '</td>' +
+        '<td>' + esc(r.desc) + '</td><td class="note">' + esc(r.store) + '</td><td></td>';
+      var btn = document.createElement('button');
+      btn.className = 'quiet';
+      btn.textContent = 'Copy Claude prompt';
+      btn.onclick = function () {
+        navigator.clipboard.writeText(claudePrompt(r.plu, r.name || 'the item', r.desc)).then(function () {
+          setStatus('Prompt copied. Paste it into a Claude Code session in the PLUed repo.', 'ok');
+        }, function () { setStatus('Clipboard blocked by the browser.', 'err'); });
+      };
+      tr.lastChild.appendChild(btn);
+      requestRows.appendChild(tr);
+    });
+  }
+
+  function renderCodesTable(body) {
+    codesTbody.innerHTML = '';
+    var codes = Array.isArray(body.codes) ? body.codes : [];
+    codes.forEach(function (c) {
+      var ref = c.image_ref || '';
+      var cell;
+      if (ref) {
+        cell = '<img src="' + IMG_BASE + esc(ref) + '" alt="" width="40" height="40" ' +
+          'style="object-fit:contain;background:#fff;border-radius:6px;border:1px solid var(--kraft);" ' +
+          'onerror="this.replaceWith(document.createTextNode(\u0027(missing)\u0027))">';
+      } else if (c.thumbnail) {
+        cell = '<span class="note">photo</span>';
+      } else {
+        cell = '<span class="note">none</span>';
+      }
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + cell + '</td>' +
+        '<td>' + esc(c.code || c.plu || '') + '</td>' +
+        '<td>' + esc(c.name || '') + '</td>' +
+        '<td>' + esc(c.category || '') + '</td>' +
+        '<td>' + esc(c.size || '') + '</td>' +
+        '<td class="note">' + esc(ref || (c.thumbnail ? '(uploaded photo)' : '')) + '</td>';
+      codesTbody.appendChild(tr);
+    });
+  }
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
@@ -160,11 +261,16 @@
     view.className = 'quiet';
     view.textContent = 'View';
     view.onclick = function () {
-      setStatus('Loading pack…');
+      setStatus('Loading pack...');
       fetch(API + '/packs/' + entry.pack_id, { headers: auth() }).then(function (res) {
         if (!res.ok) { setStatus(apiError(res), 'err'); return; }
         res.json().then(function (body) {
+          viewerTitle.textContent = (body.store || entry.store_name || '(unnamed)') +
+            ' \u00b7 ' + ((body.codes || []).length) + ' code(s)';
+          renderCodesTable(body);
           packJson.textContent = JSON.stringify(body, null, 2);
+          packJson.hidden = true;
+          document.getElementById('toggleRaw').textContent = 'Show raw JSON';
           viewer.hidden = false;
           setStatus('');
           viewer.scrollIntoView({ behavior: 'smooth' });
@@ -201,6 +307,7 @@
         tbody.innerHTML = '';
         entries.forEach(function (e) { tbody.appendChild(row(e)); });
         table.hidden = false;
+        renderRequests(entries);
         setStatus(entries.length + ' hosted pack(s).', 'ok');
       });
     }).catch(function () { setStatus('Network error.', 'err'); });
