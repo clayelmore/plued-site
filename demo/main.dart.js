@@ -122385,14 +122385,14 @@ var $async$vx=A.h(function(b,c){if(b===1)return A.i(c,r)
 for(;;)switch(s){case 0:n=p.a
 l=A
 s=3
-return A.c(n.iY("SELECT COUNT(*) AS cnt FROM produce_items WHERE category = ? AND is_active = 1",[a]),$async$vx)
+return A.c(n.iY("SELECT COUNT(*) AS cnt FROM produce_items WHERE category = ? AND is_active = 1 AND is_custom = 0",[a]),$async$vx)
 case 3:m=l.j3(c)
 if(m==null)m=0
 if(m===0){q=!1
 s=1
 break}l=A
 s=4
-return A.c(n.iY("SELECT COUNT(DISTINCT a.item_id) AS cnt FROM attempts a INNER JOIN produce_items p ON a.item_id = p.id WHERE a.was_correct = 1 AND p.category = ? AND p.is_active = 1",[a]),$async$vx)
+return A.c(n.iY("SELECT COUNT(DISTINCT a.item_id) AS cnt FROM attempts a INNER JOIN produce_items p ON a.item_id = p.id WHERE a.was_correct = 1 AND p.category = ? AND p.is_active = 1 AND p.is_custom = 0",[a]),$async$vx)
 case 4:o=l.j3(c)
 q=(o==null?0:o)>=m
 s=1
