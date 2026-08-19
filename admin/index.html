@@ -86,7 +86,7 @@
     <h2 style="margin:0 0 4px;font-size:18px;">Graphic requests</h2>
     <p class="sub" style="margin:0 0 10px;">Each request parsed from its pack. Copy the Claude prompt, paste it into a Claude Code session in the PLUed repo, and the graphic joins the next build.</p>
     <div class="wrap"><table>
-      <thead><tr><th>PLU</th><th>Name</th><th>Description</th><th>Store</th><th></th></tr></thead>
+      <thead><tr><th>Stand-in art</th><th>PLU</th><th>Name</th><th>Description</th><th>Store</th><th></th></tr></thead>
       <tbody id="requestRows"></tbody>
     </table></div>
   </div>
@@ -180,6 +180,14 @@
     return out;
   }
 
+  function artCell(ref) {
+    if (!ref) return '<span class="note">none yet</span>';
+    return '<img src="' + IMG_BASE + esc(ref) + '" alt="" width="40" height="40" ' +
+      'style="object-fit:contain;background:#fff;border-radius:6px;border:1px solid var(--kraft);" ' +
+      'title="' + esc(ref) + '" ' +
+      'onerror="this.replaceWith(document.createTextNode(String.fromCharCode(40)+\'missing\'+String.fromCharCode(41)))">';
+  }
+
   function renderRequests(entries) {
     requestRows.innerHTML = '';
     var all = [];
@@ -187,7 +195,10 @@
     requestsCard.hidden = all.length === 0;
     all.forEach(function (r) {
       var tr = document.createElement('tr');
-      tr.innerHTML = '<td>' + esc(r.plu) + '</td><td>' + esc(r.name) + '</td>' +
+      tr.innerHTML =
+        '<td class="standin" data-pack="' + esc(r.packId) + '" data-plu="' + esc(r.plu) + '">' +
+          '<span class="note">loading\u2026</span></td>' +
+        '<td>' + esc(r.plu) + '</td><td>' + esc(r.name) + '</td>' +
         '<td>' + esc(r.desc) + '</td><td class="note">' + esc(r.store) + '</td><td></td>';
       var btn = document.createElement('button');
       btn.className = 'quiet';
@@ -199,6 +210,25 @@
       };
       tr.lastChild.appendChild(btn);
       requestRows.appendChild(tr);
+    });
+    // Resolve each requesting pack ONCE and fill in the stand-in graphic the
+    // trainer picked for that code (what cashiers see today, next to what
+    // was asked for).
+    var packIds = {};
+    all.forEach(function (r) { if (r.packId) packIds[r.packId] = true; });
+    Object.keys(packIds).forEach(function (id) {
+      fetch(API + '/packs/' + id, { headers: auth() }).then(function (res) {
+        if (!res.ok) return;
+        res.json().then(function (body) {
+          var byPlu = {};
+          (body.codes || []).forEach(function (c) {
+            byPlu[c.code || c.plu || ''] = c.image_ref || '';
+          });
+          requestRows.querySelectorAll('td.standin[data-pack="' + id + '"]').forEach(function (td) {
+            td.innerHTML = artCell(byPlu[td.getAttribute('data-plu')] || '');
+          });
+        });
+      }).catch(function () {});
     });
   }
 
