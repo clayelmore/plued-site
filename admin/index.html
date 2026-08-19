@@ -131,9 +131,12 @@
     setStatus('Paste your admin token first.', 'err');
     return true;
   }
-  function apiError(res) {
+  function apiError(res, body) {
     if (res.status === 401) return 'Token rejected (401). Check it, or rotate the ADMIN_TOKEN secret on the worker.';
-    return 'Request failed: HTTP ' + res.status;
+    var msg = 'Request failed: HTTP ' + res.status;
+    if (body && body.detail) msg += ' — ' + body.detail;
+    else if (body && body.error) msg += ' (' + body.error + ')';
+    return msg;
   }
 
   document.getElementById('save').onclick = function () {
@@ -338,17 +341,24 @@
         entries.forEach(function (e) { tbody.appendChild(row(e)); });
         table.hidden = false;
         renderRequests(entries);
+        // Owner: nothing to digest -> no send button.
+        digestBtn.hidden = entries.length === 0;
         setStatus(entries.length + ' hosted pack(s).', 'ok');
       });
     }).catch(function () { setStatus('Network error.', 'err'); });
   }
 
   document.getElementById('refresh').onclick = load;
-  document.getElementById('digest').onclick = function () {
+  var digestBtn = document.getElementById('digest');
+  digestBtn.onclick = function () {
     if (needToken()) return;
     setStatus('Sending digest…');
     fetch(API + '/digest', { method: 'POST', headers: auth() }).then(function (res) {
-      if (!res.ok) { setStatus(apiError(res), 'err'); return; }
+      if (!res.ok) {
+        res.json().then(function (body) { setStatus(apiError(res, body), 'err'); },
+                        function () { setStatus(apiError(res), 'err'); });
+        return;
+      }
       setStatus('Digest sent. Check your inbox.', 'ok');
     }).catch(function () { setStatus('Network error.', 'err'); });
   };
