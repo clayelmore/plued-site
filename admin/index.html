@@ -160,8 +160,14 @@
       'Item: ' + name + ' (store code ' + plu + ')\n' +
       'Trainer\u2019s description: ' + desc + '\n\n' +
       'Follow docs/IMAGE_PIPELINE.md in the PLUed repo:\n' +
+      '0. FIRST write an expert visual description of this item \u2014 one or two ' +
+      'sentences covering shape, skin color/texture, distinguishing marks, and how it ' +
+      'differs from lookalikes \u2014 in the style of ' +
+      'tool/generate_images/lib/distinguishing_features.dart (read a few entries for the ' +
+      'house voice). Research the item if unfamiliar. The trainer\u2019s description above ' +
+      'is a hint, not the prompt; your description replaces it below.\n' +
       '1. cd tool/generate_images && dart run bin/generate_openai_single.dart <KEY> ' + slug + '.png ' +
-      '"Professional product photograph of ' + desc + ', studio lighting, centered, photorealistic, ' +
+      '"Professional product photograph of [YOUR description from step 0], studio lighting, centered, photorealistic, ' +
       'no text, no labels, no stickers, no brand names, no drop shadow, no reflection, no surface, ' +
       'produce floating in empty space"\n' +
       '2. MANDATORY: zsh tool/compress_catalog.sh, then dart run tool/build_image_bounds.dart ' +
@@ -301,6 +307,7 @@
           viewerTitle.textContent = (body.store || entry.store_name || '(unnamed)') +
             ' \u00b7 ' + ((body.codes || []).length) + ' code(s)';
           renderCodesTable(body);
+          viewer.dataset.packId = entry.pack_id;
           packJson.textContent = JSON.stringify(body, null, 2);
           packJson.hidden = true;
           document.getElementById('toggleRaw').textContent = 'Show raw JSON';
@@ -321,6 +328,13 @@
       fetch(API + '/packs/' + entry.pack_id, { method: 'DELETE', headers: auth() }).then(function (res) {
         if (!res.ok) { setStatus(apiError(res), 'err'); return; }
         setStatus('Deleted "' + name + '".', 'ok');
+        // Owner: rows open for this pack must go too — close the detail
+        // viewer if it is showing the pack we just deleted (the list and
+        // request workbench rebuild via load()).
+        if (viewer.dataset.packId === entry.pack_id) {
+          viewer.hidden = true;
+          delete viewer.dataset.packId;
+        }
         load();
       }).catch(function () { setStatus('Network error.', 'err'); });
     };
