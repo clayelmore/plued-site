@@ -111275,7 +111275,7 @@ gajO(){return"Played"},
 gajP(){return"Practice This Produce"},
 V3(a){return"PLUzzle #"+a},
 gajQ(){return"Results copied to clipboard!"},
-gajR(){return"Get PLUed: https://plued.app"},
+gajR(){return"plued.app/get"},
 V4(a,b){return"PLUzzle #"+a+" "+b+"/6"},
 gajT(){return"Share Results"},
 ajU(a){return"Solved in "+a+"/6"},
@@ -111848,7 +111848,7 @@ gajO(){return"Jugados"},
 gajP(){return"Practicar este producto"},
 V3(a){return"PLUzzle #"+a},
 gajQ(){return"\xa1Resultados copiados al portapapeles!"},
-gajR(){return"Consigue PLUed: https://plued.app"},
+gajR(){return"plued.app/get"},
 V4(a,b){return"PLUzzle #"+a+" "+b+"/6"},
 gajT(){return"Compartir resultados"},
 ajU(a){return"Resuelto en "+a+"/6"},
@@ -119600,7 +119600,7 @@ break}a.ah(t.J).f.fV(A.ft(null,null,null,null,null,B.F,null,A.u(A.o(a).gajo(),nu
 case 1:return A.j(q,r)}})
 return A.k($async$EH,r)},
 A(a){var s=null,r=$.n,q=A.ag(18),p=A.bU(r.c,1),o=A.b4f()
-return A.aw(s,A.ax(A.b([A.u(A.o(a).gajw(),s,s,s,A.cl(s),s,s),B.a9,A.u(A.o(a).gajq(),s,s,s,A.bz($.n.Q),s,s),B.bV,new A.Jg("https://plued.app/#app-store",A.c7($.n.d),B.a_,s),B.b3,new A.cF(A.o(a).gajp(),new A.aMH(this,a),B.bd,B.TG,!0,s)],t.p),B.aE,B.f,B.h),B.j,s,s,new A.ai(r.b,s,p,q,o,s,B.o),s,s,s,s,B.S7,s,s,s)}}
+return A.aw(s,A.ax(A.b([A.u(A.o(a).gajw(),s,s,s,A.cl(s),s,s),B.a9,A.u(A.o(a).gajq(),s,s,s,A.bz($.n.Q),s,s),B.bV,new A.Jg("https://plued.app/get",A.c7($.n.d),B.a_,s),B.b3,new A.cF(A.o(a).gajp(),new A.aMH(this,a),B.bd,B.TG,!0,s)],t.p),B.aE,B.f,B.h),B.j,s,s,new A.ai(r.b,s,p,q,o,s,B.o),s,s,s,s,B.S7,s,s,s)}}
 A.aMH.prototype={
 $0(){return this.a.EH(this.b)},
 $S:0}
@@ -131749,7 +131749,7 @@ B.j=new A.xS(0,"none")
 B.F=new A.xS(1,"hardEdge")
 B.bE=new A.xS(2,"antiAlias")
 B.dl=new A.xS(3,"antiAliasWithSaveLayer")
-B.Pa=new A.nk("https://plued.app/#app-store")
+B.Pa=new A.nk("https://plued.app/get")
 B.mB=new A.xX(0,"pasteable")
 B.mC=new A.xX(1,"unknown")
 B.aek=new A.vZ(1,"closeButton")
