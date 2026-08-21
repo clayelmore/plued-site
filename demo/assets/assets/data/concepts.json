@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "generated_by": "tool/build_concepts.dart",
   "concept_count": 876,
   "concepts": [
@@ -24029,7 +24029,7 @@
           "plu": "4725",
           "item_id": "potato_russet",
           "size": "All Sizes",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -24046,7 +24046,7 @@
         "tier": "EXACT",
         "household_pct": 85
       },
-      "card_note": "No size split. Other potato types: Red=4073, White=4083, Yellow=4727.",
+      "card_note": "Two codes, one potato: 4072 everywhere; East-grown stock also uses 4725. Either counts as correct. Other potato types: Red=4073, White=4083, Yellow=4727.",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true

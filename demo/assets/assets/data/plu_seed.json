@@ -13448,7 +13448,8 @@
         "baking potato",
         "Idaho potato"
       ],
-      "image_filename": "potato_russet.png"
+      "image_filename": "potato_russet.png",
+      "region": "East/Central"
     },
     {
       "id": "potato_long_white",

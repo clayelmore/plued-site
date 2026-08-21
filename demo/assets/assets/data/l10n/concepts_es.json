@@ -962,7 +962,7 @@
     "red_potatoes": "Sin división por tamaño. 4073 está justo al lado de la russet (4072) en el bloque de verduras. Blanca=4083, Amarilla/Yukon=4727.",
     "roma_tomatoes": "Sin división por tamaño. El nombre oficial es Plum/Italiano/Saladette/Roma. NO es 3151 (ese es Madurado en Rama Grande).",
     "romaine_lettuce": "Sin división por tamaño. 4640 está en la zona 46xx, NO en el bloque de verduras con la iceberg (4061). Los corazones de romana suelen venderse en bolsa con código UPC, no con PLU.",
-    "russet_potatoes": "Sin división por tamaño. Otros tipos de papa: Roja=4073, Blanca=4083, Amarilla=4727.",
+    "russet_potatoes": "Dos códigos, una papa: 4072 en todas partes; la mercancía cultivada en el Este también usa 4725. Cualquiera de los dos cuenta como correcto. Otros tipos de papa: Roja=4073, Blanca=4083, Amarilla=4727.",
     "serrano_pepper": "Sin división por tamaño. 4709 está en la zona de chiles picantes 47xx. Más chico y más picante que el jalapeño.",
     "shallots": "Sin división por tamaño. 4662 está en la zona de cebollas 46xx, cerca de la cebolla blanca (4663) y el tomate en rama (4664).",
     "spaghetti_squash": "Sin división por tamaño. 4776 está en la zona de calabazas (4750-4789). Popular sustituto de la pasta bajo en carbohidratos.",
