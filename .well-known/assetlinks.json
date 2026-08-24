@@ -1,12 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.elmoreapps.plued",
       "sha256_cert_fingerprints": [
         "18:C9:F1:54:22:DB:8A:5A:79:EB:8F:42:EF:23:B4:76:54:9B:A1:82:1E:56:20:27:5B:17:61:0C:F8:14:FA:57",
-        "EA:8A:3D:0C:68:25:0B:97:3A:40:F3:BA:C8:D5:D4:5C:1B:2C:74:C9:04:79:BF:C8:18:5F:76:0E:42:0A:DE:C0"
+        "EA:8A:3D:0C:68:25:0B:97:3A:40:F3:BA:C8:D5:D4:5C:1B:2C:74:C9:04:79:BF:C8:18:5F:76:0E:42:0A:DE:C0",
+        "1A:1C:4C:F2:99:73:76:85:83:B9:68:BA:F6:3E:EC:B6:02:99:AC:42:DB:83:5E:77:4B:C6:85:15:CB:72:80:76"
       ]
     }
   }
