@@ -166,12 +166,13 @@
       'tool/generate_images/lib/distinguishing_features.dart (read a few entries for the ' +
       'house voice). Research the item if unfamiliar. The trainer\u2019s description above ' +
       'is a hint, not the prompt; your description replaces it below.\n' +
-      '1. cd tool/generate_images && dart run bin/generate_openai_single.dart <KEY> ' + slug + '.png ' +
-      '"Professional product photograph of [YOUR description from step 0], studio lighting, centered, photorealistic, ' +
-      'no text, no labels, no stickers, no brand names, no drop shadow, no reflection, no surface, ' +
-      'produce floating in empty space"\n' +
+      '1. Generate on the Codex lane (subscription-billed, no API key): ' +
+      'zsh tool/generate_images/codex_gen.sh ' + slug + '.png --desc "YOUR description from step 0". ' +
+      'The result lands in tool/generate_images/staging/ \u2014 EYEBALL it against the description ' +
+      '(single item, full frame, clean alpha edge), regenerate if off, then copy it into ' +
+      'assets/images/produce/ deliberately.\n' +
       '2. MANDATORY: zsh tool/compress_catalog.sh, then dart run tool/build_image_bounds.dart ' +
-      '(existing bounds must not change).\n' +
+      '(EXISTING bounds must not change; the new file gains an entry).\n' +
       '3. If this item should join the standard catalog, add it to assets/data/plu_seed.json ' +
       '(it needs an official 4-digit PLU; retailer-assigned codes stay pack-side art only).\n' +
       '4. Regenerate the web catalog: cd tool/generate_images && dart run bin/dump_features.dart > ../features_dump.tsv, ' +
