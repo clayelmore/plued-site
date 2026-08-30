@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -933,7 +933,8 @@
         "Ruby/Red/Pink"
       ],
       "image_filename": "grapefruit_ruby_red_large.png",
-      "count": 36
+      "count": 36,
+      "region": "East/Central"
     },
     {
       "id": "grapefruit_deep_red_small",
@@ -11188,7 +11189,8 @@
         "Ray Ruby Grapefruit",
         "Ruby Red Grapefruit"
       ],
-      "image_filename": "grapefruit_ruby_red_pink_small.png"
+      "image_filename": "grapefruit_ruby_red_pink_small.png",
+      "region": "West"
     },
     {
       "id": "grapefruit_ruby_red_pink_large_1",
@@ -11363,7 +11365,8 @@
         "Netted Melon"
       ],
       "image_filename": "cantaloupe_muskmelon_small.png",
-      "count": 130
+      "count": 130,
+      "region": "East/Central"
     },
     {
       "id": "cantaloupe_muskmelon_large",
@@ -11377,7 +11380,8 @@
         "Netted Melon"
       ],
       "image_filename": "cantaloupe_muskmelon_large.png",
-      "count": 100
+      "count": 100,
+      "region": "East/Central"
     },
     {
       "id": "cinnabar_melon",

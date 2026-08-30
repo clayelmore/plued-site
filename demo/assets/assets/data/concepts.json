@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "generated_by": "tool/build_concepts.dart",
   "concept_count": 876,
   "concepts": [
@@ -5063,7 +5063,7 @@
           "plu": "4318",
           "item_id": "cantaloupe_muskmelon_small",
           "size": "S",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -5077,7 +5077,7 @@
           "plu": "4319",
           "item_id": "cantaloupe_muskmelon_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11827,7 +11827,7 @@
           "plu": "4281",
           "item_id": "grapefruit_ruby_red_large",
           "size": "L",
-          "region": null,
+          "region": "East/Central",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11860,7 +11860,7 @@
           "plu": "4280",
           "item_id": "grapefruit_ruby_red_pink_small",
           "size": "S",
-          "region": null,
+          "region": "West",
           "grow_method": null,
           "form": null,
           "origin": "standard",
@@ -11964,6 +11964,10 @@
       "matrix_gaps": [
         {
           "size": "L",
+          "region": "East/Central"
+        },
+        {
+          "size": "S",
           "region": "East/Central"
         }
       ],
