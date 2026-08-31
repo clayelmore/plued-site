@@ -56,14 +56,14 @@
 
         <section class="doc-section reveal" id="bulk">
           <h2>Bulk import from a spreadsheet</h2>
-          <p>For a longer wall, do not type every row. Choose <strong>Import CSV</strong> in the builder.</p>
+          <p>For a longer wall, do not type every row. Choose <strong>Import CSV / XLSX</strong> in the builder &mdash; a plain <code>.csv</code> file or an Excel <code>.xlsx</code> workbook both import directly, so most register exports work as-is.</p>
           <table class="data-table">
             <thead><tr><th>Column</th><th>Required?</th><th>What goes here</th></tr></thead>
             <tbody>
               <tr><td><code>code</code></td><td>Yes</td><td>The PLU or store code. Keep leading zeroes when your system uses them.</td></tr>
               <tr><td><code>name</code></td><td>Yes</td><td>The cashier-facing item name.</td></tr>
               <tr><td><code>category</code></td><td>Yes</td><td>A supported produce category such as <code>fruit</code> or <code>veg</code>.</td></tr>
-              <tr><td><code>size</code></td><td>No</td><td>Large, small, bunch, each, or another useful register distinction.</td></tr>
+              <tr><td><code>size</code></td><td>No</td><td>XS, S, M, L, or XL. Register words work too &mdash; "Large" maps to L, and "Each" or "All Sizes" mean no size. Leave blank when size does not matter.</td></tr>
               <tr><td><code>description</code></td><td>No</td><td>What the item looks like ("large green apple, waxy skin"). Used with the name to auto-match a PLUed graphic.</td></tr>
             </tbody>
           </table>
