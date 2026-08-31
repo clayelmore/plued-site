@@ -12,7 +12,7 @@
   <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
   <link rel="icon" type="image/png" href="/assets/img/app-icon.png">
   <link rel="apple-touch-icon" href="/assets/img/app-icon.png">
-  <link rel="stylesheet" href="/assets/site.css?v=70336396">
+  <link rel="stylesheet" href="/assets/site.css?v=ed0bbfaa">
   <style>
     .store-buttons { display: flex; flex-direction: column; gap: 14px; max-width: 420px; margin: 28px auto 0; }
     .store-button { display: flex; align-items: center; gap: 14px; padding: 16px 22px; border-radius: 14px; text-decoration: none; border: 2px solid var(--kraft, #d9c9a3); background: var(--paper, #faf6ee); transition: transform .12s ease; }
@@ -20,6 +20,8 @@
     .store-button strong { font-size: 1.05rem; }
     .store-button span { display: block; font-size: .85rem; opacity: .75; }
     .store-glyph { font-size: 1.6rem; width: 40px; text-align: center; }
+    .store-badge-img { height: 44px; width: auto; display: block; }
+    .badge-play-inline { height: 65px; margin: -10.5px; }
     .get-hero { text-align: center; padding-top: 12px; }
     .get-hero .app-badge { width: 96px; height: 96px; border-radius: 22px; margin: 0 auto 18px; display: block; box-shadow: 0 6px 24px rgba(30,59,47,.18); }
   </style>
@@ -28,7 +30,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><div class="shell nav-wrap">
     <a class="wordmark" href="/" aria-label="PLUed home"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
-    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a href="/demo/">Try the Demo</a><a href="/support/">Support</a></nav>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a href="/demo/">Try the Demo</a><a aria-current="page" href="/get/">Get the app</a><a href="/support/">Support</a></nav>
   </div></header>
 
   <main id="main">
@@ -39,15 +41,15 @@
       <p>1,087 produce items with photorealistic graphics, flashcards, quizzes, and the checkout belt game. In English and Spanish, and it works offline.</p>
       <div class="store-buttons">
         <a class="store-button" href="https://apps.apple.com/app/id6759439888">
-          <span class="store-glyph">&#63743;</span>
+          <img class="store-badge-img" src="/assets/img/badge-app-store.svg" alt="Download on the App Store">
           <span><strong>App Store</strong><span>iPhone and iPad</span></span>
         </a>
         <a class="store-button" href="https://play.google.com/store/apps/details?id=com.elmoreapps.plued">
-          <span class="store-glyph">&#9654;</span>
+          <img class="store-badge-img badge-play-inline" src="/assets/img/badge-google-play.png" alt="Get it on Google Play">
           <span><strong>Google Play</strong><span>Android phones and tablets</span></span>
         </a>
         <a class="store-button" href="https://www.amazon.com/dp/B0HFKPWKK4">
-          <span class="store-glyph">a</span>
+          <img class="store-badge-img" src="/assets/img/badge-amazon.png" alt="Available at Amazon Appstore">
           <span><strong>Amazon Appstore</strong><span>Fire tablets</span></span>
         </a>
       </div>

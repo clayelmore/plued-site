@@ -253,3 +253,13 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
 /* App icon beside the wordmark (2026-07-17) */
 .wordmark{display:inline-flex;align-items:center;gap:.5rem;}
 .wordmark-icon{height:28px;width:28px;border-radius:7px;display:block;}
+
+/* Official store badges (2026-08-31 — all three stores live).
+   The Google Play PNG ships ~1.49x transparent padding around the pill;
+   the height + negative margin render its VISIBLE pill at the same 54px
+   as the Apple and Amazon badges. Badges are official artwork — never
+   recolor or crop the files themselves. */
+.store-badges{display:flex;flex-wrap:wrap;align-items:center;gap:12px;}
+.store-badges a{display:inline-flex;line-height:0;}
+.store-badges img{height:54px;width:auto;display:block;}
+.store-badges img.badge-play{height:80px;margin:-13px;}
