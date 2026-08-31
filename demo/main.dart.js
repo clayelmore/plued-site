@@ -117412,7 +117412,7 @@ B.b.O(n,l)}else{l=A.T(m.a3a(a),l)
 l.push(B.ah)
 B.b.O(l,m.a4O(a))
 B.b.O(n,l)}n.push(B.a6)
-n.push(A.bv(A.u("v1.0.0+83",s,s,s,s,A.c7($.m.Q.bq(0.6)),s,s),s,s))
+n.push(A.bv(A.u("v1.0.0+84",s,s,s,s,A.c7($.m.Q.bq(0.6)),s,s),s,s))
 return A.ao(s,A.ar(A.b([new A.a3(B.fk,p,s),A.aT(A.mJ(A.ar(n,B.J,B.f,B.h),b,B.jI),1)],o),B.i,B.f,B.h),B.j,s,s,new A.ah(r.a,s,s,B.dg,q,s,B.o),s,s,s,s,s,s,s,s)},
 $S:73}
 A.anV.prototype={
@@ -120936,7 +120936,7 @@ h.push(new A.cH(A.o(a7).gYH(),new A.aUG(a7),B.be,B.hV,!0,a))
 h.push(B.b4)
 h.push(new A.cH(A.o(a7).gYQ(),a4.gaLE(),B.be,B.og,!0,a))
 h.push(B.bA)
-h.push(A.bv(A.cm(B.R,new A.a3(B.du,A.u("PLUed v1.0.0+83",a,a,a,a,A.bS(a),a,a),a),B.E,!1,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a4.gaFf(),a,a,a,a,a,a),a,a))
+h.push(A.bv(A.cm(B.R,new A.a3(B.du,A.u("PLUed v1.0.0+84",a,a,a,a,A.bS(a),a,a),a),B.E,!1,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a4.gaFf(),a,a,a,a,a,a),a,a))
 return A.ao(a,A.ar(A.b([new A.a3(B.fk,a2,a),A.aT(A.mJ(A.ar(h,B.ax,B.f,B.h),a8,B.jI),1)],e),B.i,B.f,B.h),B.j,a,a,new A.ah(a0.a,a,a,B.dg,a1,a,B.o),a,a,a,a,a,a,a,a)},
 $S:73}
 A.aUx.prototype={
@@ -123444,7 +123444,7 @@ return A.c(l.h4("pluzzle_last_submitted_puzzle",""+a),$async$uX)
 case 4:p=6
 l=A.aeP("https","plued.app","/api/pluzzle/result",null)
 s=9
-return A.c(n.b.$3(l,A.a1(["ns","prod","puzzle",a,"guesses",b?c:0],t.N,t.z),B.t4),$async$uX)
+return A.c(n.b.$3(l,A.a1(["ns","prod2","puzzle",a,"guesses",b?c:0],t.N,t.z),B.t4),$async$uX)
 case 9:p=2
 s=8
 break
@@ -123462,7 +123462,7 @@ aUV(a){var s=0,r=A.l(t.s9),q,p=2,o=[],n=this,m,l,k,j
 var $async$Bv=A.h(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.c(n.c.$2(A.aeP("https","plued.app","/api/pluzzle/stats/prod/"+a,null),B.t4),$async$Bv)
+return A.c(n.c.$2(A.aeP("https","plued.app","/api/pluzzle/stats/prod2/"+a,null),B.t4),$async$Bv)
 case 7:m=c
 if(m==null){q=null
 s=1
@@ -137642,7 +137642,7 @@ s($,"bFY","b8p",()=>A.anJ())
 s($,"bF7","bji",()=>A.a1(["fruit",A.bp8(),"vegetable",A.bp7(),"other",A.bp6()],t.N,t.g))
 s($,"bBX","bhD",()=>new A.ai9(A.b9g(),A.b9g()))
 s($,"bDO","ho",()=>new A.a_n($.az()))
-s($,"bDW","biz",()=>A.V7(2026,9,1,0,0,0,0))
+s($,"bDW","biz",()=>A.V7(2026,10,1,0,0,0,0))
 s($,"bGa","b8s",()=>A.c8("^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",!1,!1))
 s($,"bDP","Dr",()=>A.anJ())
 s($,"bHG","b3K",()=>A.c8("^[a-z0-9_.-]+\\.png$",!0,!1))
