@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play PLUzzle - the daily produce puzzle</title>
+  <meta name="description" content="One produce item a day, six tries to get the PLU code. Free forever, no account, playable right in your browser.">
+  <link rel="canonical" href="https://plued.app/play/">
+  <meta property="og:title" content="PLUzzle - the daily produce puzzle">
+  <meta property="og:description" content="One produce item a day. Six tries to get the code. Free forever, no account. Play it in your browser.">
+  <meta property="og:url" content="https://plued.app/play/">
+  <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/assets/img/app-icon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=ed0bbfaa">
+  <!-- Straight through to today's puzzle. The redirect is a real <meta> so it
+       works with JS disabled; the visible card below is what a crawler and a
+       slow connection see. -->
+  <meta http-equiv="refresh" content="0; url=/demo/?start=pluzzle">
+  <style>
+    .door { text-align: center; padding: 12vh 20px; }
+    .door h1 { margin-bottom: .4em; }
+    .door p { max-width: 34em; margin: 0 auto 1.4em; }
+  </style>
+</head>
+<body>
+  <main class="door">
+    <span class="eyebrow">PLUzzle</span>
+    <h1>Opening today's puzzle&hellip;</h1>
+    <p>One produce item a day. Six tries to get the code. Free forever, no account needed.</p>
+    <p><a class="button" href="/demo/?start=pluzzle">Play PLUzzle</a></p>
+    <p><a class="text-button" href="/get/">Get the app for iPhone, Android, or Fire &rarr;</a></p>
+  </main>
+  <script>location.replace('/demo/?start=pluzzle');</script>
+</body>
+</html>
