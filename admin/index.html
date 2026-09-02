@@ -284,6 +284,11 @@
     if ((entry.reports || 0) > 0) {
       flags += '<span class="badge reports">REPORTS: ' + entry.reports + '</span>';
     }
+    if (entry.logo_request || entry.logo_ref) {
+      // Store branding: the trainer's logo request + the owner-set ref.
+      html += '<div class="note"><b>Logo request:</b> ' + esc(entry.logo_request || '(none)') +
+        (entry.logo_ref ? ' &middot; <b>logo:</b> ' + esc(entry.logo_ref) : ' &middot; no logo set') + '</div>';
+    }
     if (entry.graphic_requests) {
       flags += '<span class="badge request">GRAPHIC REQUEST</span>' +
         '<div class="note">' + esc(entry.graphic_requests) + '</div>';
@@ -319,6 +324,21 @@
       }).catch(function () { setStatus('Network error.', 'err'); });
     };
 
+    // Store branding: set / clear the curated logo ref (PATCH, Bearer).
+    var logo = document.createElement('button');
+    logo.textContent = entry.logo_ref ? 'Logo: ' + entry.logo_ref : 'Set logo';
+    logo.className = 'secondary';
+    logo.addEventListener('click', function () {
+      var ref = prompt('Logo file name in site/assets/logos/ (e.g. smiths-topeka.png). Leave empty to clear.', entry.logo_ref || '');
+      if (ref === null) return;
+      fetch(API + '/packs/' + entry.pack_id + '/brand', {
+        method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()),
+        body: JSON.stringify({ logo_ref: ref.trim() }),
+      }).then(function (res) { return res.json().then(function (b) { return { ok: res.ok, b: b }; }); })
+        .then(function (r) { if (!r.ok) { alert('Not saved: ' + (r.b.error || res.status)); return; } load(); })
+        .catch(function (e) { alert('Not saved: ' + e); });
+    });
+    actions.appendChild(logo);
     var del = document.createElement('button');
     del.className = 'danger';
     del.textContent = 'Delete';
