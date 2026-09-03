@@ -7,7 +7,7 @@
 
   var API = '/api';
   var GET_URL = 'https://plued.app/get';
-  var TIERS = { 25: 199, 50: 299, 100: 449 }; // PROPOSED yearly prices; Stripe holds the real ones.
+  var TIERS = { 25: 149, 50: 249, 100: 399 }; // Yearly prices as set in Stripe (owner, 2026-09-02); Stripe holds the truth.
   var TIER_ORDER = [25, 50, 100];
 
   function esc(s) {
