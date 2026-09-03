@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PLUed Store Plan - one word unlocks every cashier</title>
+  <meta name="description" content="Buy a year of PLUed for your store. Hand your cashiers one word and PLUed is unlocked on every phone. Your store's own codes, your logo, a private status page.">
+  <link rel="canonical" href="https://plued.app/store/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PLUed">
+  <meta property="og:title" content="PLUed Store Plan">
+  <meta property="og:description" content="One word unlocks PLUed for every cashier in your store. Your codes, your logo, maintained by us.">
+  <meta property="og:url" content="https://plued.app/store/">
+  <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=a61fe90b">
+  <link rel="stylesheet" href="/assets/store.css">
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="shell nav-wrap">
+    <a class="wordmark" href="/" aria-label="PLUed home"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a aria-current="page" href="/store/">For Stores</a><a href="/demo/">Try the Demo</a><a href="/get/">Get the app</a><a href="/support/">Support</a></nav>
+  </div></header>
+
+  <main id="main" class="shell store-page">
+
+    <!-- 1. Buying: hero, tiers, order form. Hidden once checkout opens. -->
+    <div id="buy">
+      <section class="store-hero">
+        <div>
+          <span class="eyebrow">Store Plan</span>
+          <h1>Every cashier on your produce codes. One word.</h1>
+          <p class="lede">Buy a year for your store, hand your cashiers one word, and PLUed is unlocked on every phone. Your store's codes stay right because we maintain them.</p>
+          <p class="safe" id="upgrade-note" hidden></p>
+        </div>
+        <div class="tile-mock" aria-hidden="true">
+          <div class="tile-mock-head"><div class="tile-mock-logo">H</div><div><strong>Hometown Foods</strong><span>My Store, in every cashier's app</span></div></div>
+          <div class="tile-mock-word"><b>HOMETOWNFOOD</b><span>your store word</span></div>
+          <p class="tile-mock-foot">Your codes, your logo, your seats. One tile.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="pick-heading">
+        <h2 id="pick-heading" class="visually-hidden">Choose a plan</h2>
+        <div class="tiers" role="radiogroup" aria-label="Choose a plan" id="tiers">
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="25">
+            <span class="tier-seats">Up to 25 seats</span>
+            <span class="tier-price">$199<small>/year</small></span>
+            <ul>
+              <li>Your store's codes, curated and maintained by us</li>
+              <li>Your logo in every cashier's app</li>
+              <li>New produce graphics on request</li>
+              <li>A private status page</li>
+              <li>Seats for the plan year</li>
+            </ul>
+            <span class="tier-pick">Choose 25 seats</span>
+          </button>
+          <button type="button" class="tier" role="radio" aria-checked="true" data-tier="50">
+            <span class="tier-flag">Most stores</span>
+            <span class="tier-seats">Up to 50 seats</span>
+            <span class="tier-price">$299<small>/year</small></span>
+            <ul>
+              <li>Your store's codes, curated and maintained by us</li>
+              <li>Your logo in every cashier's app</li>
+              <li>New produce graphics on request</li>
+              <li>A private status page</li>
+              <li>Seats for the plan year</li>
+            </ul>
+            <span class="tier-pick">Choose 50 seats</span>
+          </button>
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="100">
+            <span class="tier-seats">Up to 100 seats</span>
+            <span class="tier-price">$449<small>/year</small></span>
+            <ul>
+              <li>Your store's codes, curated and maintained by us</li>
+              <li>Your logo in every cashier's app</li>
+              <li>New produce graphics on request</li>
+              <li>A private status page</li>
+              <li>Seats for the plan year</li>
+            </ul>
+            <span class="tier-pick">Choose 100 seats</span>
+          </button>
+        </div>
+        <p class="tier-note">A seat is one cashier's phone. iPhone and Android count together. Every phone you unlock stays unlocked, even if you don't renew.</p>
+      </section>
+
+      <section class="order-wrap" aria-labelledby="order-heading">
+        <form id="order" class="order" novalidate>
+          <h2 id="order-heading">Your store</h2>
+          <label class="field" for="store">
+            <span>Store name</span>
+            <input id="store" name="store" type="text" required maxlength="80" autocomplete="organization" placeholder="As you'd say it to a cashier">
+            <span class="hint">This becomes your word. "Hometown Foods" becomes HOMETOWNFOOD.</span>
+            <span class="field-error" id="store-error">Enter your store's name.</span>
+          </label>
+          <label class="field" for="email">
+            <span>Email for the receipt and your store page</span>
+            <input id="email" name="email" type="email" required maxlength="200" autocomplete="email" inputmode="email" placeholder="you@yourstore.com">
+            <span class="field-error" id="email-error">Enter a working email address. Your word and your store page link go there.</span>
+          </label>
+          <button type="submit" class="button cta" id="pay">Continue to secure checkout</button>
+          <p class="form-status" id="order-status" aria-live="polite"></p>
+          <p class="safe">Payment handled by Stripe. We never see your card. Your word arrives on screen and by email the moment payment clears.</p>
+          <p class="safe">Every phone you unlock stays unlocked, even if you don't renew. Something not right after you buy? Email support@plued.app and we make it right.</p>
+        </form>
+        <aside class="order-side">
+          <h3>What happens after you pay</h3>
+          <ol>
+            <li>Your store word appears on this page and in your email. It works right away.</li>
+            <li>Cashiers install PLUed, tap "Did your store give you a code?", and enter the word.</li>
+            <li>Build your pack or send us your spreadsheet. We keep your codes right all year.</li>
+            <li>Your private store page shows seats used, your pack, and your plan. No account, no password.</li>
+          </ol>
+          <p class="muted">Renews yearly. Cancel any time from your store page; the plan runs to the end of the paid year.</p>
+        </aside>
+      </section>
+
+      <p class="lead-link"><a href="#lead" id="lead-toggle">Buying for several stores or need an invoice?</a></p>
+      <form id="lead" class="lead" hidden novalidate>
+        <h2>Several stores or an invoice</h2>
+        <p class="muted">Tell us a little and we send one invoice for all of your stores. Each store still gets its own word and store page.</p>
+        <div class="two">
+          <label class="field" for="lead-chain"><span>Chain or company</span><input id="lead-chain" name="chain" type="text" required maxlength="120"></label>
+          <label class="field" for="lead-stores"><span>How many stores</span><input id="lead-stores" name="stores" type="number" min="1" max="100000" inputmode="numeric" required></label>
+        </div>
+        <div class="two">
+          <label class="field" for="lead-contact"><span>Your name</span><input id="lead-contact" name="contact" type="text" required maxlength="120" autocomplete="name"></label>
+          <label class="field" for="lead-email"><span>Email</span><input id="lead-email" name="email" type="email" required maxlength="200" autocomplete="email"></label>
+        </div>
+        <label class="field" for="lead-phone"><span>Phone <span class="muted">(optional)</span></span><input id="lead-phone" name="phone" type="tel" maxlength="40" autocomplete="tel"></label>
+        <label class="field" for="lead-note"><span>Anything we should know</span><textarea id="lead-note" name="note" maxlength="1000" placeholder="Store names, timing, who to invoice"></textarea></label>
+        <button type="submit" class="button cta small" id="lead-send">Send this to PLUed</button>
+        <p class="form-status" id="lead-status" aria-live="polite"></p>
+        <p class="safe">We reply from support@plued.app, usually the same business day. Nothing is charged until you approve the invoice.</p>
+      </form>
+
+      <p class="relink"><a href="#relink" id="relink-toggle">Lost your store page link?</a></p>
+      <div class="relink-box" id="relink" hidden>
+        <label class="visually-hidden" for="relink-email">The email you bought with</label>
+        <input id="relink-email" type="email" placeholder="the email you bought with" autocomplete="email">
+        <button type="button" class="button kraft">send my link again</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <!-- 2. Checkout: summary beside the Stripe panel. -->
+    <section id="checkout-panel" hidden aria-labelledby="checkout-heading">
+      <p class="checkout-back"><a href="#" id="checkout-back">&larr; Change the plan or store name</a></p>
+      <div class="checkout-grid">
+        <div class="order-summary">
+          <h2 id="checkout-heading">Your order</h2>
+          <dl>
+            <dt>Store</dt><dd id="sum-store"></dd>
+            <dt>Plan</dt><dd id="sum-tier"></dd>
+            <dt>Price</dt><dd id="sum-price"></dd>
+            <dt>Renews</dt><dd id="sum-renews"></dd>
+          </dl>
+          <p class="safe">Payment handled by Stripe. We never see your card.</p>
+          <p class="safe">Every phone you unlock stays unlocked, even if you don't renew.</p>
+        </div>
+        <div class="stripe-frame">
+          <div class="stripe-mark">Secure payment by <b>Stripe</b></div>
+          <div id="checkout"><p class="loading" id="checkout-loading">Opening secure checkout...</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Welcome: the four Next steps. -->
+    <section id="welcome" class="welcome" hidden aria-labelledby="welcome-heading">
+      <span class="eyebrow">You're in</span>
+      <h2 id="welcome-heading">Next steps for <span id="w-store"></span></h2>
+      <p class="lede">Your word already works. Four steps and your whole store is on PLUed.</p>
+      <ol class="next-steps" id="w-steps"></ol>
+      <p class="safe">Your private store page: <a id="w-link" href="#"></a><br>We emailed all of this to you. Keep that link; it is your login. Lost it? This page has "send my link again".</p>
+    </section>
+
+    <section id="waiting" hidden aria-live="polite">
+      <span class="eyebrow">Payment received</span>
+      <h2>Setting up your store...</h2>
+      <p class="lede" id="waiting-text">This takes a few seconds. Your word and your store page link are on their way to your email too.</p>
+    </section>
+
+    <p class="fine">PLUed is made by Arbolinea. Questions before you buy: <a href="mailto:support@plued.app">support@plued.app</a>. Prices in US dollars; sales tax added where it applies. <a href="/privacy/">Privacy</a>.</p>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-grid">
+    <div><a class="wordmark" href="/"><span class="wordmark-tag">PLU</span>ed</a><p>Produce codes, practiced like the real lane.</p></div>
+    <div><h3>Learn</h3><div class="footer-links"><a href="/guide/">Cashier guide</a><a href="/trainers/">Trainer guide</a><a href="/pack/">Pack Builder</a><a href="/store/">Store Plan</a></div></div>
+    <div><h3>Help</h3><div class="footer-links"><a href="/support/">Support &amp; FAQ</a><a href="mailto:support@plued.app">support@plued.app</a><a href="/privacy/">Privacy</a></div></div>
+  </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Built for cashiers.</span></div></div></footer>
+
+  <script src="/assets/qr.js"></script>
+  <script src="/assets/store.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    var S = window.PluedStore;
+    var $ = function (id) { return document.getElementById(id); };
+    var state = { tier: 50, config: null, clientSecret: null, checkout: null, token: null, upgradeFrom: null };
+    var params = new URLSearchParams(location.search);
+
+    // ---- Tiers -----------------------------------------------------------
+    var tierButtons = document.querySelectorAll('#tiers .tier');
+    function selectTier(tier) {
+      state.tier = Number(tier);
+      for (var i = 0; i < tierButtons.length; i++) {
+        var b = tierButtons[i];
+        b.setAttribute('aria-checked', Number(b.getAttribute('data-tier')) === state.tier ? 'true' : 'false');
+      }
+    }
+    for (var i = 0; i < tierButtons.length; i++) {
+      tierButtons[i].addEventListener('click', function () { selectTier(this.getAttribute('data-tier')); });
+    }
+    var upgrade = Number(params.get('upgrade'));
+    if (S.TIERS[upgrade]) selectTier(upgrade);
+
+    // Upgrade from the status page: the tier rides the query, the store's
+    // token rides the fragment (never a query string), and both go in the
+    // checkout body so the worker can close the old plan after minting.
+    var frag = (location.hash || '').slice(1);
+    if (S.TIERS[upgrade] && /^[A-Za-z0-9_-]{43}$/.test(frag)) {
+      state.upgradeFrom = frag;
+      S.api('GET', '/store/' + frag).then(function (r) {
+        if (!r.ok || !r.body) return;
+        $('store').value = r.body.store || '';
+        var note = $('upgrade-note');
+        note.textContent = 'Adding seats for ' + r.body.store + ': your current ' + r.body.seats + '-seat plan closes when the new one starts. Phones already unlocked stay unlocked and do not count against the new seats.';
+        note.hidden = false;
+      });
+    }
+
+    // ---- Config (publishable key) ----------------------------------------
+    function loadConfig() {
+      return S.api('GET', '/store/config').then(function (r) {
+        if (r.ok && r.body && r.body.publishable_key) { state.config = r.body; return true; }
+        return false;
+      });
+    }
+    var configReady = loadConfig();
+
+    // ---- Order form -------------------------------------------------------
+    var form = $('order');
+    var status = $('order-status');
+    function setStatus(el, msg, cls) { el.textContent = msg || ''; el.className = 'form-status' + (cls ? ' ' + cls : ''); }
+    function fieldError(input, errId, on) {
+      input.setAttribute('aria-invalid', on ? 'true' : 'false');
+      $(errId).classList.toggle('is-on', !!on);
+    }
+    function validStore() {
+      var v = $('store').value.trim();
+      var ok = v.length >= 2;
+      fieldError($('store'), 'store-error', !ok);
+      return ok ? v : null;
+    }
+    function validEmail(input, errId) {
+      var v = input.value.trim().toLowerCase();
+      var ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+      fieldError(input, errId, !ok);
+      return ok ? v : null;
+    }
+    $('store').addEventListener('input', function () { if (this.getAttribute('aria-invalid') === 'true') validStore(); });
+    $('email').addEventListener('input', function () { if (this.getAttribute('aria-invalid') === 'true') validEmail(this, 'email-error'); });
+
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var store = validStore();
+      var email = validEmail($('email'), 'email-error');
+      if (!store) { $('store').focus(); return; }
+      if (!email) { $('email').focus(); return; }
+      var pay = $('pay');
+      pay.disabled = true; pay.textContent = 'Opening secure checkout...';
+      setStatus(status, '');
+      configReady.then(function (ok) {
+        if (!ok) { fail('Checkout is not available right now. Nothing was charged. Try again in a minute, or email support@plued.app.'); return; }
+        var body = { tier: state.tier, store: store, email: email };
+        if (state.upgradeFrom) body.upgrade_from = state.upgradeFrom;
+        return S.api('POST', '/store/checkout', body).then(function (r) {
+          if (!r.ok || !r.body || !r.body.client_secret) {
+            var why = r.body && r.body.error;
+            if (why === 'bad_email') fail('That email address did not go through. Check it and try again.');
+            else if (why === 'bad_store') fail('Enter your store\'s name.');
+            else fail('Checkout is not available right now. Nothing was charged. Try again in a minute, or email support@plued.app.');
+            return;
+          }
+          state.clientSecret = r.body.client_secret;
+          openCheckout(store, email);
+        });
+      });
+      function fail(msg) {
+        pay.disabled = false; pay.textContent = 'Continue to secure checkout';
+        setStatus(status, msg, 'err');
+      }
+    });
+
+    // ---- Checkout panel ---------------------------------------------------
+    function openCheckout(store, email) {
+      $('sum-store').textContent = store;
+      $('sum-tier').textContent = 'Store Plan, up to ' + state.tier + ' seats';
+      $('sum-price').textContent = S.money(state.tier) + ' per year';
+      var renews = new Date(); renews.setFullYear(renews.getFullYear() + 1);
+      $('sum-renews').textContent = S.fmtDate(renews.toISOString());
+      $('buy').hidden = true;
+      $('checkout-panel').hidden = false;
+      window.scrollTo(0, 0);
+      var loading = $('checkout-loading');
+      try {
+        var stripe = Stripe(state.config.publishable_key);
+        var secret = state.clientSecret;
+        stripe.initEmbeddedCheckout({ fetchClientSecret: function () { return Promise.resolve(secret); } })
+          .then(function (checkout) {
+            state.checkout = checkout;
+            if (loading) loading.remove();
+            checkout.mount('#checkout');
+          }, function () { checkoutFailed(); });
+      } catch (e) { checkoutFailed(); }
+      function checkoutFailed() {
+        loading.className = 'loading err';
+        loading.textContent = 'Secure checkout could not open. Nothing was charged. Go back and try again, or email support@plued.app.';
+      }
+    }
+    $('checkout-back').addEventListener('click', function (ev) {
+      ev.preventDefault();
+      if (state.checkout) { try { state.checkout.destroy(); } catch (e) {} state.checkout = null; }
+      $('checkout').innerHTML = '<p class="loading" id="checkout-loading">Opening secure checkout...</p>';
+      $('checkout-panel').hidden = true;
+      $('buy').hidden = false;
+      var pay = $('pay'); pay.disabled = false; pay.textContent = 'Continue to secure checkout';
+      window.scrollTo(0, 0);
+    });
+
+    // ---- Return from Stripe: ?session_id= -> token -> Welcome -------------
+    var sessionId = params.get('session_id');
+    if (sessionId && /^cs_[A-Za-z0-9_]+$/.test(sessionId)) {
+      $('buy').hidden = true;
+      $('waiting').hidden = false;
+      var tries = 0;
+      (function poll() {
+        S.api('GET', '/store/by-session/' + encodeURIComponent(sessionId)).then(function (r) {
+          if (r.ok && r.body && r.body.token) { showWelcome(r.body.token); return; }
+          tries += 1;
+          if (tries < 30) { setTimeout(poll, 2000); return; }
+          $('waiting-text').textContent = 'Your payment went through and your store is being set up. Your word and your store page link are in your email within a few minutes. If they are not there by then, write support@plued.app and we sort it out.';
+        });
+      })();
+    }
+
+    function showWelcome(token) {
+      S.api('GET', '/store/' + token).then(function (r) {
+        if (!r.ok || !r.body) {
+          $('waiting-text').textContent = 'Your store is set up. Open the link in your welcome email to see your word and next steps, or use "send my link again" below.';
+          return;
+        }
+        var s = r.body; s.token = token;
+        state.token = token;
+        $('waiting').hidden = true;
+        $('w-store').textContent = s.store;
+        var link = $('w-link'); link.href = S.statusUrl(token); link.textContent = S.statusUrl(token);
+        var list = $('w-steps');
+        S.renderNextSteps(list, s, {
+          token: token,
+          onSelfMark: function (key) {
+            s.steps[key] = true;
+            S.markStepDone(list, key);
+            S.api('POST', '/store/' + token + '/step', { step: key, done: true });
+          }
+        });
+        $('welcome').hidden = false;
+        window.scrollTo(0, 0);
+      });
+    }
+
+    // ---- Lead form ---------------------------------------------------------
+    var lead = $('lead');
+    $('lead-toggle').addEventListener('click', function (ev) {
+      ev.preventDefault();
+      lead.hidden = !lead.hidden;
+      if (!lead.hidden) { lead.scrollIntoView({ behavior: 'smooth', block: 'start' }); $('lead-chain').focus(); }
+    });
+    if (location.hash === '#lead') { lead.hidden = false; }
+    lead.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var st = $('lead-status');
+      var chain = $('lead-chain').value.trim();
+      var contact = $('lead-contact').value.trim();
+      var email = $('lead-email').value.trim().toLowerCase();
+      var stores = Number($('lead-stores').value);
+      if (chain.length < 2) { setStatus(st, 'Enter your chain or company name.', 'err'); $('lead-chain').focus(); return; }
+      if (!(stores >= 1)) { setStatus(st, 'How many stores?', 'err'); $('lead-stores').focus(); return; }
+      if (contact.length < 2) { setStatus(st, 'Enter your name.', 'err'); $('lead-contact').focus(); return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus(st, 'Enter a working email address.', 'err'); $('lead-email').focus(); return; }
+      var btn = $('lead-send'); btn.disabled = true;
+      setStatus(st, 'Sending...');
+      S.api('POST', '/store/lead', { chain: chain, contact: contact, email: email, phone: $('lead-phone').value.trim(), stores: stores, note: $('lead-note').value.trim() })
+        .then(function (r) {
+          if (r.ok) {
+            setStatus(st, 'Sent. We reply to ' + email + ', usually the same business day.', 'ok');
+            btn.textContent = 'Sent';
+            return;
+          }
+          btn.disabled = false;
+          if (r.body && r.body.error === 'text_flagged') setStatus(st, 'That note could not be sent. Please reword it, or email support@plued.app directly.', 'err');
+          else setStatus(st, 'Could not send right now. Email support@plued.app and we take it from there.', 'err');
+        });
+    });
+
+    // ---- Relink ------------------------------------------------------------
+    var relink = $('relink');
+    $('relink-toggle').addEventListener('click', function (ev) {
+      ev.preventDefault();
+      relink.hidden = !relink.hidden;
+      if (!relink.hidden) $('relink-email').focus();
+    });
+    if (location.hash === '#relink') relink.hidden = false;
+    S.wireRelink(relink);
+  })();
+  </script>
+</body>
+</html>

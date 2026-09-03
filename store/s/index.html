@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Your PLUed store page</title>
+  <meta name="description" content="Your store's private PLUed page: seats used, your word, your pack, your plan.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=a61fe90b">
+  <link rel="stylesheet" href="/assets/store.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="shell nav-wrap">
+    <a class="wordmark" href="/" aria-label="PLUed home"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a aria-current="page" href="/store/">For Stores</a><a href="/demo/">Try the Demo</a><a href="/get/">Get the app</a><a href="/support/">Support</a></nav>
+  </div></header>
+
+  <main id="main" class="shell store-page">
+
+    <!-- No token, wrong token, or the worker is unreachable. -->
+    <section id="no-token" class="no-token" hidden>
+      <span class="eyebrow">Your store page</span>
+      <h2 id="no-token-title">Open this page from the link in your welcome email.</h2>
+      <p class="muted" id="no-token-text">The link is your login. There is no password to remember.</p>
+      <p class="relink">Lost the link?</p>
+      <div class="relink-box" id="relink-a">
+        <label class="visually-hidden" for="relink-email-a">The email you bought with</label>
+        <input id="relink-email-a" type="email" placeholder="the email you bought with" autocomplete="email">
+        <button type="button" class="button kraft">send my link again</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="loading" aria-live="polite">
+      <p class="muted">Loading your store page...</p>
+    </section>
+
+    <div id="page" hidden>
+      <section class="status-head">
+        <span class="eyebrow">Your store page</span>
+        <h1 id="h-store"></h1>
+        <p class="lede">Seats, your word, your pack, and your plan. This link is your login; keep it.</p>
+      </section>
+
+      <!-- Next steps: the same four cards as Welcome, one line once done. -->
+      <section id="next" class="welcome" aria-labelledby="next-heading">
+        <h2 id="next-heading">Next steps</h2>
+        <ol class="next-steps" id="steps"></ol>
+        <div class="all-set" id="all-set" hidden><b>All set.</b> <span>Your word is out, your pack is live, your logo is on, and cashiers are in.</span> <button type="button" class="text-button" id="show-steps">Show the steps</button></div>
+      </section>
+
+      <div class="status-blocks">
+        <!-- Seats -->
+        <section class="status-block" id="seats" aria-labelledby="seats-heading">
+          <h2 id="seats-heading">Seats <small id="seats-plan"></small></h2>
+          <p class="seats-line"><span id="seats-used">0</span> of <span id="seats-total">0</span> seats used <small id="seats-reserved"></small></p>
+          <div class="bar" id="seats-bar"><span></span></div>
+          <p>iPhone and Android counted together; a phone that redeems twice costs one seat. Every phone you unlock stays unlocked, even if you don't renew.</p>
+          <a class="add-seats" id="add-seats" href="#" hidden>Add seats &rarr;</a>
+        </section>
+
+        <!-- Your word -->
+        <section class="status-block" id="word-block" aria-labelledby="word-heading">
+          <h2 id="word-heading">Your word</h2>
+          <p class="word" id="word"></p>
+          <p>Cashiers install PLUed, tap "Did your store give you a code?", and type this word.</p>
+          <pre class="breakroom" id="note"></pre>
+          <div class="row">
+            <button type="button" class="button kraft" id="copy-word">Copy the word</button>
+            <a class="button kraft" id="poster" href="#">Print the poster</a>
+            <button type="button" class="button kraft" id="copy-note">Copy the break-room note</button>
+            <button type="button" class="button kraft" id="resend">Resend welcome email</button>
+          </div>
+          <p class="form-status" id="word-status" aria-live="polite"></p>
+        </section>
+
+        <!-- Your pack -->
+        <section class="status-block" id="pack" aria-labelledby="pack-heading">
+          <h2 id="pack-heading">Your pack</h2>
+          <div id="pack-none" hidden>
+            <p>No pack yet. Open the Pack Builder with your store name filled in, or send us your spreadsheet and we build it.</p>
+            <div class="row"><a class="button" id="pack-build" href="#">Open the Pack Builder</a><a class="button kraft" href="#requests" data-request="spreadsheet">Send us your spreadsheet</a></div>
+          </div>
+          <div id="pack-some" hidden>
+            <dl class="kv">
+              <dt>Pack</dt><dd id="pack-name"></dd>
+              <dt>Codes</dt><dd id="pack-codes"></dd>
+              <dt>Last updated by us</dt><dd id="pack-updated"></dd>
+            </dl>
+            <div class="row"><a class="button kraft" id="pack-open" href="#">Open in the builder</a></div>
+          </div>
+
+          <h3 id="requests" style="margin-top:22px;">Ask us for something</h3>
+          <p>Send a spreadsheet to curate, a logo to prepare, a produce graphic to make, or anything else. We reply by email and the request shows its state here.</p>
+          <form id="request-form" novalidate>
+            <label class="field" for="req-type"><span>What do you need</span>
+              <select id="req-type" name="type">
+                <option value="spreadsheet">Curate my spreadsheet into a pack (CSV or XLSX)</option>
+                <option value="logo">Prepare my logo (PNG, JPG, or SVG)</option>
+                <option value="graphic">Make a produce graphic</option>
+                <option value="other">Something else</option>
+              </select>
+            </label>
+            <label class="field" for="req-text"><span>Details</span><textarea id="req-text" name="text" maxlength="1000" placeholder="Anything that helps us get it right"></textarea></label>
+            <label class="field" for="req-file"><span>File <span class="muted">(optional, up to 2 MB)</span></span><input id="req-file" name="file" type="file"><span class="file-note" id="file-note">CSV or XLSX for a spreadsheet; PNG, JPG, or SVG for a logo or graphic.</span></label>
+            <p class="safe" id="logo-consent-wrap" hidden><label><input type="checkbox" id="logo-consent"> I confirm our store may use this mark.</label></p>
+            <button type="submit" class="button cta small" id="req-send">Send the request</button>
+            <p class="form-status" id="req-status" aria-live="polite"></p>
+          </form>
+          <ul class="request-list" id="request-list"></ul>
+        </section>
+
+        <!-- Plan -->
+        <section class="status-block" id="plan" aria-labelledby="plan-heading">
+          <h2 id="plan-heading">Plan</h2>
+          <dl class="kv">
+            <dt>Store Plan</dt><dd id="plan-tier"></dd>
+            <dt>Started</dt><dd id="plan-start"></dd>
+            <dt id="plan-end-label">Renews</dt><dd id="plan-end"></dd>
+            <dt>iPhone code</dt><dd id="plan-apple"></dd>
+          </dl>
+          <div class="closed-note" id="closed" hidden></div>
+          <div class="row"><button type="button" class="button kraft" id="portal">Manage billing</button></div>
+          <p class="form-status" id="plan-status" aria-live="polite"></p>
+          <p>If you cancel, your plan runs to the end of the paid year; every phone already unlocked stays unlocked, and the word stops taking new cashiers after that. Payment handled by Stripe. We never see your card.</p>
+        </section>
+      </div>
+
+      <p class="relink">Bookmark this page, or keep the welcome email. Lost both?</p>
+      <div class="relink-box" id="relink-b">
+        <label class="visually-hidden" for="relink-email-b">The email you bought with</label>
+        <input id="relink-email-b" type="email" placeholder="the email you bought with" autocomplete="email">
+        <button type="button" class="button kraft">send my link again</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <p class="fine">Questions any time: <a href="mailto:support@plued.app">support@plued.app</a>. PLUed is made by Arbolinea.</p>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-grid">
+    <div><a class="wordmark" href="/"><span class="wordmark-tag">PLU</span>ed</a><p>Produce codes, practiced like the real lane.</p></div>
+    <div><h3>Learn</h3><div class="footer-links"><a href="/guide/">Cashier guide</a><a href="/trainers/">Trainer guide</a><a href="/pack/">Pack Builder</a><a href="/store/">Store Plan</a></div></div>
+    <div><h3>Help</h3><div class="footer-links"><a href="/support/">Support &amp; FAQ</a><a href="mailto:support@plued.app">support@plued.app</a><a href="/privacy/">Privacy</a></div></div>
+  </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Built for cashiers.</span></div></div></footer>
+
+  <script src="/assets/qr.js"></script>
+  <script src="/assets/store.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    var S = window.PluedStore;
+    var $ = function (id) { return document.getElementById(id); };
+    var token = (location.hash || '').slice(1);
+    var params = new URLSearchParams(location.search);
+    var s = null; // status payload
+
+    S.wireRelink($('relink-a'));
+    S.wireRelink($('relink-b'));
+
+    function setStatus(el, msg, cls) { el.textContent = msg || ''; el.className = 'form-status' + (cls ? ' ' + cls : ''); }
+    function noToken(title, text) {
+      $('loading').hidden = true;
+      $('page').hidden = true;
+      if (title) $('no-token-title').textContent = title;
+      if (text) $('no-token-text').textContent = text;
+      $('no-token').hidden = false;
+    }
+
+    if (!/^[A-Za-z0-9_-]{43}$/.test(token)) { noToken(); return; }
+
+    function load() {
+      return S.api('GET', '/store/' + token).then(function (r) {
+        if (r.status === 404) { noToken('That link is not one of ours.', 'Open the link from your welcome email, or ask for it again below.'); return null; }
+        if (!r.ok || !r.body) { noToken('Could not reach PLUed.', 'Check your connection and reload this page.'); return null; }
+        s = r.body; s.token = token;
+        render();
+        return s;
+      });
+    }
+
+    function render() {
+      $('loading').hidden = true;
+      $('no-token').hidden = true;
+      $('page').hidden = false;
+      document.title = s.store + ' on PLUed';
+      $('h-store').textContent = s.store;
+
+      // Next steps
+      var list = $('steps');
+      S.renderNextSteps(list, s, {
+        token: token, onStatusPage: true,
+        onSelfMark: function (key) { s.steps[key] = true; S.markStepDone(list, key); S.api('POST', '/store/' + token + '/step', { step: key, done: true }); },
+        onRequestLink: goToRequests
+      });
+      var done = S.allDone(s.steps);
+      list.hidden = done;
+      $('all-set').hidden = !done;
+
+      // Seats
+      var used = Number(s.used) || 0, seats = Number(s.seats) || 0, reserved = Number(s.reserved) || 0;
+      var pct = seats ? Math.min(100, Math.round(used / seats * 100)) : 0;
+      $('seats-used').textContent = used;
+      $('seats-total').textContent = seats;
+      $('seats-plan').textContent = 'up to ' + seats + ' this plan year';
+      $('seats-reserved').textContent = reserved ? '(' + reserved + ' waiting on an iPhone unlock)' : '';
+      var bar = $('seats-bar');
+      bar.querySelector('span').style.width = pct + '%';
+      bar.classList.toggle('is-high', pct >= 80);
+      bar.setAttribute('role', 'img');
+      bar.setAttribute('aria-label', used + ' of ' + seats + ' seats used');
+      var next = S.nextTier(s.tier);
+      var add = $('add-seats');
+      if (pct >= 80 && next && !s.closed_at) {
+        add.textContent = 'Add seats: move up to ' + next + ' seats →';
+        add.href = '/store/?upgrade=' + next + '#' + token;
+        add.hidden = false;
+      } else { add.hidden = true; }
+
+      // Your word
+      $('word').textContent = s.word;
+      $('note').textContent = S.breakroomNote(s.word);
+      S.attachPoster($('poster'), s.store, s.word);
+
+      // Your pack
+      var builder = 'https://plued.app/pack/?store=' + encodeURIComponent(s.store) + '&store_token=' + encodeURIComponent(token);
+      if (s.pack_id) {
+        $('pack-none').hidden = true; $('pack-some').hidden = false;
+        $('pack-name').textContent = s.store;
+        $('pack-codes').textContent = '...';
+        $('pack-updated').textContent = '...';
+        $('pack-open').href = 'https://plued.app/pack/?open=' + encodeURIComponent(s.pack_id) + '&store_token=' + encodeURIComponent(token);
+        S.api('GET', '/packs/' + encodeURIComponent(s.pack_id) + '/meta').then(function (r) {
+          if (!r.ok || !r.body) { $('pack-codes').textContent = 'published'; $('pack-updated').textContent = ''; return; }
+          $('pack-codes').textContent = (r.body.codes_count || 0) + ' code' + (r.body.codes_count === 1 ? '' : 's');
+          $('pack-updated').textContent = r.body.received_at ? S.fmtDate(new Date(r.body.received_at).toISOString()) : '';
+        });
+      } else {
+        $('pack-none').hidden = false; $('pack-some').hidden = true;
+        $('pack-build').href = builder;
+      }
+      renderRequests();
+
+      // Plan
+      $('plan-tier').textContent = 'Up to ' + s.seats + ' seats, ' + S.money(s.tier) + ' per year';
+      $('plan-start').textContent = S.fmtDate(s.plan_start);
+      $('plan-end').textContent = S.fmtDate(s.plan_end);
+      $('plan-end-label').textContent = s.closed_at ? 'Ran to' : 'Renews';
+      var apple = { created: 'Ready. The same word works on iPhone.', pending: 'Being set up on Apple\'s side. Android and Fire tablets work now; iPhone within a day.', inactive: 'Closed.', skipped: 'Android and Fire tablets work now. iPhone is being set up.' };
+      $('plan-apple').textContent = apple[s.apple] || apple.skipped;
+      var closed = $('closed');
+      if (s.closed_at) {
+        closed.textContent = 'Closed to new cashiers since ' + S.fmtDate(s.closed_at) + '. Phones already unlocked keep their unlock. Renew from Manage billing to reopen the word.';
+        closed.hidden = false;
+      } else { closed.hidden = true; }
+      $('portal').hidden = !s.stripe_portal;
+
+      // Deep entry from Welcome: ?to=requests&type=logo#<token>
+      if (params.get('to') === 'requests') {
+        var t = params.get('type');
+        goToRequests(['spreadsheet', 'logo', 'graphic', 'other'].indexOf(t) >= 0 ? t : null);
+      }
+    }
+
+    function goToRequests(type) {
+      if (type) { $('req-type').value = type; typeChanged(); }
+      $('requests').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(function () { $('req-text').focus(); }, 400);
+    }
+
+    function renderRequests() {
+      var ul = $('request-list');
+      ul.innerHTML = '';
+      var labels = { spreadsheet: 'Spreadsheet', logo: 'Logo', graphic: 'Graphic', other: 'Other' };
+      var states = { open: 'Open', in_progress: 'In progress', done: 'Done' };
+      var reqs = (s.requests || []).slice().sort(function (a, b) { return String(b.created).localeCompare(String(a.created)); });
+      for (var i = 0; i < reqs.length; i++) {
+        var r = reqs[i];
+        var li = document.createElement('li');
+        li.className = 'request-item';
+        li.innerHTML = '<div><span class="type">' + S.esc(labels[r.type] || r.type) + '</span>' +
+          (r.has_file ? ' <span class="muted">(file attached)</span>' : '') +
+          '<div class="text">' + S.esc(r.text || '') + '</div>' +
+          '<div class="muted" style="font-size:.82rem">' + S.esc(S.fmtDate(r.created)) + '</div></div>' +
+          '<span class="chip ' + S.esc(r.state) + '">' + S.esc(states[r.state] || r.state) + '</span>';
+        ul.appendChild(li);
+      }
+    }
+
+    // ---- Word block buttons ------------------------------------------------
+    var wordStatus = $('word-status');
+    var markWord = function () {
+      if (s.steps.word) return;
+      s.steps.word = true; S.markStepDone($('steps'), 'word');
+      S.api('POST', '/store/' + token + '/step', { step: 'word', done: true });
+    };
+    $('copy-word').onclick = function () { var b = this; S.copyText(s.word, function (ok) { S.flash(b, ok ? 'Copied' : 'Select and copy it'); if (ok) markWord(); }); };
+    $('copy-note').onclick = function () { var b = this; S.copyText(S.breakroomNote(s.word), function (ok) { S.flash(b, ok ? 'Copied' : 'Select and copy it'); if (ok) markWord(); }); };
+    $('poster').addEventListener('click', markWord);
+    $('resend').onclick = function () {
+      var b = this; b.disabled = true;
+      setStatus(wordStatus, 'Sending...');
+      S.api('POST', '/store/' + token + '/resend', {}).then(function (r) {
+        b.disabled = false;
+        if (r.ok) setStatus(wordStatus, 'Sent. The welcome email is on its way to the address you bought with.', 'ok');
+        else setStatus(wordStatus, 'Could not send right now. Try again in a minute, or email support@plued.app.', 'err');
+      });
+    };
+    $('show-steps').onclick = function () { $('steps').hidden = false; $('all-set').hidden = true; };
+
+    // ---- Requests form -------------------------------------------------------
+    var ACCEPT = {
+      spreadsheet: { mimes: ['text/csv', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'], ext: /\.(csv|xlsx)$/i, accept: '.csv,.xlsx', note: 'CSV or XLSX, up to 2 MB.' },
+      logo: { mimes: ['image/png', 'image/jpeg', 'image/svg+xml'], ext: /\.(png|jpe?g|svg)$/i, accept: '.png,.jpg,.jpeg,.svg', note: 'PNG, JPG, or SVG, up to 2 MB. Square or wide works best.' },
+      graphic: { mimes: ['image/png', 'image/jpeg'], ext: /\.(png|jpe?g)$/i, accept: '.png,.jpg,.jpeg', note: 'A photo of the item helps. PNG or JPG, up to 2 MB.' },
+      other: { mimes: ['image/png', 'image/jpeg', 'text/csv', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'], ext: /\.(png|jpe?g|csv|xlsx)$/i, accept: '.png,.jpg,.jpeg,.csv,.xlsx', note: 'PNG, JPG, CSV, or XLSX, up to 2 MB.' }
+    };
+    var MAX = 2 * 1024 * 1024;
+    function typeChanged() {
+      var t = $('req-type').value;
+      $('req-file').setAttribute('accept', ACCEPT[t].accept);
+      $('file-note').textContent = ACCEPT[t].note;
+      $('logo-consent-wrap').hidden = t !== 'logo';
+    }
+    $('req-type').addEventListener('change', typeChanged);
+    typeChanged();
+
+    function mimeFor(file, type) {
+      var name = file.name || '';
+      if (/\.csv$/i.test(name)) return 'text/csv';
+      if (/\.xlsx$/i.test(name)) return 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+      if (/\.png$/i.test(name)) return 'image/png';
+      if (/\.jpe?g$/i.test(name)) return 'image/jpeg';
+      if (/\.svg$/i.test(name)) return 'image/svg+xml';
+      return ACCEPT[type].mimes.indexOf(file.type) >= 0 ? file.type : '';
+    }
+
+    $('request-form').addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var st = $('req-status');
+      var type = $('req-type').value;
+      var text = $('req-text').value.trim();
+      var fileInput = $('req-file');
+      var file = fileInput.files && fileInput.files[0];
+      if (!text && !file) { setStatus(st, 'Add a few words or attach a file.', 'err'); $('req-text').focus(); return; }
+      if (type === 'logo' && file && !$('logo-consent').checked) { setStatus(st, 'Please confirm your store may use this mark.', 'err'); $('logo-consent').focus(); return; }
+      if (file) {
+        if (file.size > MAX) { setStatus(st, 'That file is ' + (file.size / 1024 / 1024).toFixed(1) + ' MB. Files up to 2 MB, please. A smaller export or a PNG under 2 MB works.', 'err'); return; }
+        var mime = mimeFor(file, type);
+        if (!mime || ACCEPT[type].mimes.indexOf(mime) < 0 || !ACCEPT[type].ext.test(file.name || '')) { setStatus(st, ACCEPT[type].note.replace(', up to 2 MB.', ' only for this request.'), 'err'); return; }
+      }
+      var btn = $('req-send'); btn.disabled = true;
+      setStatus(st, file ? 'Uploading...' : 'Sending...');
+      var body = { type: type, text: text };
+      var send = function () {
+        S.api('POST', '/store/' + token + '/request', body).then(function (r) {
+          btn.disabled = false;
+          if (r.status === 201) {
+            setStatus(st, 'Sent. We reply by email; the request shows here until it is done.', 'ok');
+            $('req-text').value = ''; fileInput.value = ''; $('logo-consent').checked = false;
+            load();
+            return;
+          }
+          var why = r.body && r.body.error;
+          if (why === 'text_flagged') setStatus(st, 'That text could not be sent. Please reword it, or email support@plued.app.', 'err');
+          else if (why === 'file_too_large') setStatus(st, 'That file is over 2 MB.', 'err');
+          else if (why === 'bad_file' || why === 'bad_file_type') setStatus(st, 'That file type is not accepted for this request.', 'err');
+          else setStatus(st, 'Could not send right now. Try again in a minute, or email support@plued.app.', 'err');
+        });
+      };
+      if (!file) { send(); return; }
+      var reader = new FileReader();
+      reader.onload = function () {
+        var b64 = String(reader.result).split(',')[1] || '';
+        body.file = { name: file.name, mime: mime, b64: b64 };
+        send();
+      };
+      reader.onerror = function () { btn.disabled = false; setStatus(st, 'Could not read that file.', 'err'); };
+      reader.readAsDataURL(file);
+    });
+
+    // ---- Billing portal ---------------------------------------------------
+    $('portal').onclick = function () {
+      var b = this; b.disabled = true;
+      setStatus($('plan-status'), 'Opening Stripe...');
+      S.api('POST', '/store/' + token + '/portal', {}).then(function (r) {
+        b.disabled = false;
+        if (r.ok && r.body && r.body.url) { setStatus($('plan-status'), ''); location.href = r.body.url; return; }
+        setStatus($('plan-status'), 'Billing is not available right now. Email support@plued.app and we handle it.', 'err');
+      });
+    };
+
+    load();
+  })();
+  </script>
+</body>
+</html>

@@ -56,12 +56,24 @@
     overflow: auto; max-height: 480px; font-size: 12.5px;
   }
   .wrap { overflow-x: auto; }
+  .badge.apple-created { background: #e4efe7; color: var(--leaf); }
+  .badge.apple-pending { background: #f8ecd8; color: var(--citrus); }
+  .badge.apple-inactive, .badge.closed { background: #f7e3e0; color: var(--tomato); }
+  .badge.apple-skipped { background: #ece7db; color: var(--ink-soft); }
+  .mint { display: grid; grid-template-columns: 2fr 2fr 1fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 14px; }
+  .mint label { display: block; }
+  .mint input, .mint select { width: 100%; padding: 9px 10px; margin-top: 4px; border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit; }
+  tr.drawer td { background: #fbf7ec; }
+  .drawer-inner { padding: 6px 0 4px; }
+  .drawer-inner table { font-size: 13px; }
+  .drawer-inner select { font: inherit; padding: 4px 6px; border: 1.5px solid var(--kraft); border-radius: 6px; background: #fff; }
+  @media (max-width: 720px) { .mint { grid-template-columns: 1fr 1fr; } }
 </style>
 </head>
 <body>
 <main>
   <h1>PLUed Registry Admin</h1>
-  <p class="sub">Hosted Store Packs: review, delete, and send the digest. The token stays in this browser only.</p>
+  <p class="sub">Hosted Store Packs, Store Plans, and leads: review, mint, resend, close, and send the digest. The token stays in this browser only.</p>
 
   <div class="card">
     <label for="token">ADMIN TOKEN</label><br>
@@ -88,6 +100,33 @@
     <div class="wrap"><table>
       <thead><tr><th>Stand-in art</th><th>PLU</th><th>Name</th><th>Description</th><th>Store</th><th></th></tr></thead>
       <tbody id="requestRows"></tbody>
+    </table></div>
+  </div>
+
+  <div class="card" id="stores">
+    <h2 style="margin:0 0 4px;font-size:18px;">Stores</h2>
+    <p class="sub" style="margin:0 0 10px;">Store Plans: one word per store, minted by Stripe or by hand here. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
+    <form class="mint" id="mintForm" novalidate>
+      <label>STORE<input id="mintStore" maxlength="80" placeholder="Hometown Foods"></label>
+      <label>EMAIL<input id="mintEmail" type="email" maxlength="200" placeholder="manager@store.com"></label>
+      <label>TIER<select id="mintTier"><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select></label>
+      <label>PLAN END <span class="note">(optional)</span><input id="mintEnd" type="date"></label>
+      <button type="submit" id="mintBtn">Mint</button>
+    </form>
+    <div id="storesStatus" class="note"></div>
+    <div class="wrap"><table id="storesTable" hidden>
+      <thead><tr><th>Store</th><th>Word</th><th>Tier</th><th>Seats</th><th>Plan end</th><th>Apple</th><th>Requests</th><th>Actions</th></tr></thead>
+      <tbody id="storeRows"></tbody>
+    </table></div>
+    <p class="note" id="storesEmpty" hidden>No stores yet.</p>
+  </div>
+
+  <div class="card" id="leads" hidden>
+    <h2 style="margin:0 0 4px;font-size:18px;">Leads</h2>
+    <p class="sub" style="margin:0 0 10px;">From "Buying for several stores or need an invoice?" on plued.app/store. Invoice from Stripe with <code>store=&lt;name&gt;</code> line metadata and the worker mints each store on invoice.paid.</p>
+    <div class="wrap"><table>
+      <thead><tr><th>Chain</th><th>Contact</th><th>Stores</th><th>Note</th><th>Received</th></tr></thead>
+      <tbody id="leadRows"></tbody>
     </table></div>
   </div>
 
@@ -286,7 +325,7 @@
     }
     if (entry.logo_request || entry.logo_ref) {
       // Store branding: the trainer's logo request + the owner-set ref.
-      html += '<div class="note"><b>Logo request:</b> ' + esc(entry.logo_request || '(none)') +
+      flags += '<div class="note"><b>Logo request:</b> ' + esc(entry.logo_request || '(none)') +
         (entry.logo_ref ? ' &middot; <b>logo:</b> ' + esc(entry.logo_ref) : ' &middot; no logo set') + '</div>';
     }
     if (entry.graphic_requests) {
@@ -335,7 +374,7 @@
         method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()),
         body: JSON.stringify({ logo_ref: ref.trim() }),
       }).then(function (res) { return res.json().then(function (b) { return { ok: res.ok, b: b }; }); })
-        .then(function (r) { if (!r.ok) { alert('Not saved: ' + (r.b.error || res.status)); return; } load(); })
+        .then(function (r) { if (!r.ok) { alert('Not saved: ' + (r.b.error || 'request failed')); return; } load(); })
         .catch(function (e) { alert('Not saved: ' + e); });
     });
     actions.appendChild(logo);
@@ -383,7 +422,193 @@
     }).catch(function () { setStatus('Network error.', 'err'); });
   }
 
-  document.getElementById('refresh').onclick = load;
+  // ---- Stores tab (Store Plan, 2026-09-03) ----------------------------
+  var storeRows = document.getElementById('storeRows');
+  var storesTable = document.getElementById('storesTable');
+  var storesStatus = document.getElementById('storesStatus');
+  var leadsCard = document.getElementById('leads');
+  var leadRows = document.getElementById('leadRows');
+  var openDrawers = {};
+
+  function setStoresStatus(msg, cls) { storesStatus.textContent = msg || ''; storesStatus.className = 'note ' + (cls || ''); }
+  function fmtDay(iso) { return iso ? new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : ''; }
+  function badge(cls, text) { return '<span class="badge ' + cls + '">' + esc(text) + '</span>'; }
+  function storeApi(path, method, body) {
+    var init = { method: method || 'GET', headers: auth() };
+    if (body !== undefined) { init.headers['Content-Type'] = 'application/json'; init.body = JSON.stringify(body); }
+    return fetch(API + path, init).then(function (res) {
+      return res.text().then(function (t) { var b = null; try { b = t ? JSON.parse(t) : null; } catch (e) {} return { ok: res.ok, status: res.status, body: b, res: res }; });
+    });
+  }
+
+  function loadStores() {
+    if (!token()) return;
+    // Keep an action's result line ("Minted ...") on screen through the reload.
+    var quiet = !!storesStatus.textContent;
+    if (!quiet) setStoresStatus('Loading stores...');
+    storeApi('/store').then(function (r) {
+      if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
+      renderStores(r.body && r.body.stores ? r.body.stores : []);
+      renderLeads(r.body && r.body.leads ? r.body.leads : []);
+      if (!quiet) setStoresStatus('');
+    }).catch(function () { setStoresStatus('Network error.', 'err'); });
+  }
+
+  function openRequests(s) { return (s.requests || []).filter(function (r) { return r.state !== 'done'; }).length; }
+
+  function renderStores(stores) {
+    storeRows.innerHTML = '';
+    storesTable.hidden = stores.length === 0;
+    document.getElementById('storesEmpty').hidden = stores.length > 0;
+    stores.forEach(function (s) {
+      var tr = document.createElement('tr');
+      var open = openRequests(s);
+      tr.innerHTML =
+        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') + '</td>' +
+        '<td><b>' + esc(s.word) + '</b></td>' +
+        '<td>' + esc(s.tier) + '</td>' +
+        '<td>' + esc(s.used || 0) + ' / ' + esc(s.seats) + '</td>' +
+        '<td>' + esc(fmtDay(s.plan_end)) + '</td>' +
+        '<td>' + badge('apple-' + esc(s.apple || 'skipped'), s.apple || 'skipped') + '</td>' +
+        '<td>' + (open ? badge('request', open + ' OPEN') : '<span class="note">' + ((s.requests || []).length ? 'all done' : 'none') + '</span>') + '</td>' +
+        '<td class="actions"></td>';
+      var actions = tr.querySelector('.actions');
+      var reqBtn = document.createElement('button'); reqBtn.className = 'quiet';
+      reqBtn.textContent = openDrawers[s.token] ? 'Hide requests' : 'Requests';
+      reqBtn.onclick = function () { openDrawers[s.token] = !openDrawers[s.token]; renderStores(stores); };
+      var page = document.createElement('a'); page.className = 'note'; page.style.marginLeft = '8px';
+      page.href = '/store/s/#' + s.token; page.target = '_blank'; page.rel = 'noopener'; page.textContent = 'store page';
+      var resend = document.createElement('button'); resend.className = 'quiet'; resend.textContent = 'Resend welcome';
+      resend.onclick = function () {
+        setStoresStatus('Resending welcome to ' + s.email + '...');
+        storeApi('/store/' + s.token + '/resend', 'POST', {}).then(function (r) {
+          setStoresStatus(r.ok ? 'Welcome resent to ' + s.email + '.' : apiError(r.res, r.body), r.ok ? 'ok' : 'err');
+        });
+      };
+      var close = document.createElement('button'); close.className = 'danger'; close.textContent = 'Close word';
+      close.disabled = !!s.closed_at;
+      close.onclick = function () {
+        if (!confirm('Close the word ' + s.word + ' for "' + s.store + '"?\n\nNew cashiers can no longer redeem it (Android now, Apple when the code is deactivated). Phones already unlocked keep their unlock. Renewal reopens it.')) return;
+        setStoresStatus('Closing ' + s.word + '...');
+        storeApi('/store/' + s.token + '/close', 'POST', {}).then(function (r) {
+          if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
+          setStoresStatus('Closed ' + s.word + '.', 'ok'); loadStores();
+        });
+      };
+      actions.appendChild(reqBtn); actions.appendChild(document.createTextNode(' '));
+      actions.appendChild(resend); actions.appendChild(document.createTextNode(' '));
+      actions.appendChild(close); actions.appendChild(page);
+      storeRows.appendChild(tr);
+      if (openDrawers[s.token]) storeRows.appendChild(drawerRow(s));
+    });
+  }
+
+  function drawerRow(s) {
+    var tr = document.createElement('tr'); tr.className = 'drawer';
+    var td = document.createElement('td'); td.colSpan = 8;
+    var inner = document.createElement('div'); inner.className = 'drawer-inner';
+    var reqs = (s.requests || []).slice().sort(function (a, b) { return String(b.created).localeCompare(String(a.created)); });
+    var head = document.createElement('div'); head.className = 'note';
+    head.innerHTML = '<b>' + esc(s.store) + '</b> &middot; token <span class="id">' + esc(s.token.slice(0, 8)) + '&hellip;</span> &middot; pack ' +
+      (s.pack_id ? '<span class="id">' + esc(s.pack_id) + '</span>' : '(none yet)') +
+      ' &middot; steps: ' + ['word', 'pack', 'logo', 'invite'].map(function (k) { return k + (s.steps && s.steps[k] ? ' ✓' : ' ·'); }).join(' ');
+    inner.appendChild(head);
+    if (!reqs.length) {
+      var none = document.createElement('p'); none.className = 'note'; none.textContent = 'No requests from this store.'; inner.appendChild(none);
+    } else {
+      var table = document.createElement('table');
+      table.innerHTML = '<thead><tr><th>Type</th><th>Text</th><th>Received</th><th>State</th><th>File</th><th></th></tr></thead><tbody></tbody>';
+      var tb = table.querySelector('tbody');
+      reqs.forEach(function (r) {
+        var row = document.createElement('tr');
+        row.innerHTML = '<td>' + esc(r.type) + '</td><td>' + esc(r.text || '(file only)') + '</td><td class="note">' + esc(new Date(r.created).toLocaleString()) + '</td><td></td><td></td><td></td>';
+        var sel = document.createElement('select');
+        ['open', 'in_progress', 'done'].forEach(function (st) { var o = document.createElement('option'); o.value = st; o.textContent = st.replace('_', ' '); if (st === r.state) o.selected = true; sel.appendChild(o); });
+        sel.onchange = function () {
+          storeApi('/store/' + s.token + '/request/' + r.id, 'POST', { state: sel.value }).then(function (x) {
+            if (!x.ok) { setStoresStatus(apiError(x.res, x.body), 'err'); return; }
+            r.state = sel.value; setStoresStatus('Request marked ' + sel.value.replace('_', ' ') + '.', 'ok'); loadStores();
+          });
+        };
+        row.children[3].appendChild(sel);
+        if (r.has_file) {
+          var dl = document.createElement('button'); dl.className = 'quiet'; dl.textContent = 'Download file';
+          dl.onclick = function () {
+            setStoresStatus('Fetching file...');
+            fetch(API + '/store/' + s.token + '/file/' + r.id, { headers: auth() }).then(function (res) {
+              if (!res.ok) { setStoresStatus(apiError(res), 'err'); return; }
+              var cd = res.headers.get('Content-Disposition') || '';
+              var m = /filename="([^"]+)"/.exec(cd);
+              return res.blob().then(function (blob) {
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a'); a.href = url; a.download = m ? m[1] : (r.type + '-' + r.id);
+                document.body.appendChild(a); a.click(); a.remove();
+                setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+                setStoresStatus('');
+              });
+            }).catch(function () { setStoresStatus('Network error.', 'err'); });
+          };
+          row.children[4].appendChild(dl);
+        } else { row.children[4].innerHTML = '<span class="note">none</span>'; }
+        if (r.type === 'logo' && r.state !== 'done') {
+          // Set logo lives beside the logo request: same brand PATCH as the packs table.
+          var logo = document.createElement('button'); logo.className = 'quiet';
+          logo.textContent = s.pack_id ? 'Set logo' : 'Set logo (no pack yet)';
+          logo.disabled = !s.pack_id;
+          logo.onclick = function () {
+            var ref = prompt('Logo file name in site/assets/logos/ (e.g. hometown-foods.png). Leave empty to clear.', '');
+            if (ref === null) return;
+            fetch(API + '/packs/' + s.pack_id + '/brand', { method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()), body: JSON.stringify({ logo_ref: ref.trim() }) })
+              .then(function (res) { return res.json().then(function (b) { return { ok: res.ok, b: b }; }); })
+              .then(function (x) { if (!x.ok) { setStoresStatus('Logo not saved: ' + (x.b.error || 'request failed'), 'err'); return; } setStoresStatus('Logo set on pack ' + s.pack_id + '.', 'ok'); loadStores(); load(); })
+              .catch(function () { setStoresStatus('Network error.', 'err'); });
+          };
+          row.children[5].appendChild(logo);
+        }
+        tb.appendChild(row);
+      });
+      inner.appendChild(table);
+    }
+    td.appendChild(inner); tr.appendChild(td);
+    return tr;
+  }
+
+  function renderLeads(leads) {
+    leadRows.innerHTML = '';
+    leadsCard.hidden = leads.length === 0;
+    leads.forEach(function (l) {
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>' + esc(l.chain) + '</td>' +
+        '<td>' + esc(l.contact) + '<div class="id">' + esc(l.email) + (l.phone ? ' · ' + esc(l.phone) : '') + '</div></td>' +
+        '<td>' + esc(l.stores) + '</td><td class="note">' + esc(l.note || '') + '</td>' +
+        '<td class="note">' + esc(new Date(l.created).toLocaleString()) + '</td>';
+      leadRows.appendChild(tr);
+    });
+  }
+
+  document.getElementById('mintForm').addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    if (needToken()) return;
+    var store = document.getElementById('mintStore').value.trim();
+    var email = document.getElementById('mintEmail').value.trim();
+    var tier = Number(document.getElementById('mintTier').value);
+    var end = document.getElementById('mintEnd').value;
+    if (store.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStoresStatus('Store name and a valid email are required to mint.', 'err'); return; }
+    if (!confirm('Mint a ' + tier + '-seat Store Plan for "' + store + '"?\n\nThis creates the word, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '. Use it for invoice orders or anything Stripe did not mint.')) return;
+    var body = { store: store, email: email, tier: tier };
+    if (end) body.plan_end = new Date(end + 'T00:00:00Z').toISOString();
+    var btn = document.getElementById('mintBtn'); btn.disabled = true;
+    setStoresStatus('Minting...');
+    storeApi('/store/mint', 'POST', body).then(function (r) {
+      btn.disabled = false;
+      if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
+      setStoresStatus('Minted ' + (r.body && r.body.word) + ' for "' + store + '". Welcome sent to ' + email + '.', 'ok');
+      document.getElementById('mintForm').reset();
+      loadStores();
+    }).catch(function () { btn.disabled = false; setStoresStatus('Network error.', 'err'); });
+  });
+
+  document.getElementById('refresh').onclick = function () { load(); loadStores(); };
   var digestBtn = document.getElementById('digest');
   digestBtn.onclick = function () {
     if (needToken()) return;
@@ -398,7 +623,7 @@
     }).catch(function () { setStatus('Network error.', 'err'); });
   };
 
-  if (token()) load();
+  if (token()) { load(); loadStores(); }
 })();
 </script>
 </body>
