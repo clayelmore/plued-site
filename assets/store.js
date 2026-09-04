@@ -67,8 +67,8 @@
     }
   }
 
-  /* Poster: 1200x1600 PNG. Cream ground, the word, a QR that opens
-     plued.app/get with the word prefilled, the three-line note. */
+  /* Poster: 1200x1600 PNG. Cream ground, the store code, a QR that opens
+     plued.app/get with the store code prefilled, the three-line note. */
   function drawPoster(store, word) {
     var W = 1200, H = 1600;
     var c = document.createElement('canvas');
@@ -86,7 +86,7 @@
     fitText(g, store, W / 2, 210, W - 200, '700 46px Fraunces, Georgia, serif', '#1e3b2f');
     g.fillStyle = '#5c6b60';
     g.font = '400 30px "Albert Sans", Arial, sans-serif';
-    g.fillText('PLUed is free for our store. Your store word:', W / 2, 300);
+    g.fillText('PLUed is free for our store. Your store code:', W / 2, 300);
     fitText(g, word, W / 2, 420, W - 160, '700 120px Fraunces, Georgia, serif', '#1e3b2f', 0.06);
     // QR
     var size = 560, x = (W - size) / 2, y = 500;
@@ -169,10 +169,10 @@
     var reqUrl = function (type) { return '/store/s/?to=requests&type=' + type + '#' + token; };
     var onStatus = !!opts.onStatusPage;
     var html = '';
-    html += step('word', 'Share your word',
-      '<p>Cashiers install PLUed, tap "Did your store give you a code?", and type this word. Nothing else to set up.</p>' +
+    html += step('word', 'Share your store code',
+      '<p>Cashiers install PLUed, tap "Did your store give you a code?", and type this store code. Nothing else to set up.</p>' +
       '<p class="word" id="ns-word">' + esc(s.word) + '</p>' +
-      '<div class="row"><button type="button" class="button kraft" id="ns-copy-word">Copy the word</button>' +
+      '<div class="row"><button type="button" class="button kraft" id="ns-copy-word">Copy the store code</button>' +
       '<a class="button kraft" id="ns-poster" href="#">Print the poster</a>' +
       '<button type="button" class="button kraft" id="ns-copy-note">Copy the break-room note</button></div>' +
       '<pre class="breakroom" id="ns-note">' + esc(breakroomNote(s.word)) + '</pre>');

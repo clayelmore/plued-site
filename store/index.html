@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PLUed Store Plan - one word unlocks every cashier</title>
-  <meta name="description" content="Buy a year of PLUed for your store. Hand your cashiers one word and PLUed is unlocked on every phone. Your store's own codes, your logo, a private status page.">
+  <title>PLUed Store Plan - one store code unlocks every cashier</title>
+  <meta name="description" content="Buy a year of PLUed for your store. Hand your cashiers one store code and PLUed is unlocked on every phone. Your store's own codes, your logo, a private status page.">
   <link rel="canonical" href="https://plued.app/store/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PLUed">
   <meta property="og:title" content="PLUed Store Plan">
-  <meta property="og:description" content="One word unlocks PLUed for every cashier in your store. Your codes, your logo, maintained by us.">
+  <meta property="og:description" content="One store code unlocks PLUed for every cashier in your store. Your codes, your logo, maintained by us.">
   <meta property="og:url" content="https://plued.app/store/">
   <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -34,13 +34,13 @@
       <section class="store-hero">
         <div>
           <span class="eyebrow">Store Plan</span>
-          <h1>Every cashier on your produce codes. One word.</h1>
-          <p class="lede">Buy a year for your store, hand your cashiers one word, and PLUed is unlocked on every phone. Your store's codes stay right because we maintain them.</p>
+          <h1>Every cashier on your produce codes. One store code.</h1>
+          <p class="lede">Buy a year for your store, hand your cashiers one store code, and PLUed is unlocked on every phone. Your store's codes stay right because we maintain them.</p>
           <p class="safe" id="upgrade-note" hidden></p>
         </div>
         <div class="tile-mock" aria-hidden="true">
           <div class="tile-mock-head"><div class="tile-mock-logo">H</div><div><strong>Hometown Foods</strong><span>My Store, in every cashier's app</span></div></div>
-          <div class="tile-mock-word"><b>HOMETOWNFOOD</b><span>your store word</span></div>
+          <div class="tile-mock-word"><b>HOMETOWNFOOD</b><span>your store code</span></div>
           <p class="tile-mock-foot">Your codes, your logo, your seats. One tile.</p>
         </div>
       </section>
@@ -95,24 +95,24 @@
           <label class="field" for="store">
             <span>Store name</span>
             <input id="store" name="store" type="text" required maxlength="80" autocomplete="organization" placeholder="As you'd say it to a cashier">
-            <span class="hint">This becomes your word. "Hometown Foods" becomes HOMETOWNFOOD.</span>
+            <span class="hint">This becomes your store code. "Hometown Foods" becomes HOMETOWNFOOD.</span>
             <span class="field-error" id="store-error">Enter your store's name.</span>
           </label>
           <label class="field" for="email">
             <span>Email for the receipt and your store page</span>
             <input id="email" name="email" type="email" required maxlength="200" autocomplete="email" inputmode="email" placeholder="you@yourstore.com">
-            <span class="field-error" id="email-error">Enter a working email address. Your word and your store page link go there.</span>
+            <span class="field-error" id="email-error">Enter a working email address. Your store code and your store page link go there.</span>
           </label>
           <button type="submit" class="button cta" id="pay">Continue to secure checkout</button>
           <p class="form-status" id="order-status" aria-live="polite"></p>
-          <p class="safe">Payment handled by Stripe. We never see your card. Your word arrives on screen and by email the moment payment clears.</p>
+          <p class="safe">Payment handled by Stripe. We never see your card. Your store code arrives on screen and by email the moment payment clears.</p>
           <p class="safe">Every phone you unlock stays unlocked, even if you don't renew. Not right for your store? Email <a href="mailto:support@plued.app">support@plued.app</a> within 30 days and we'll refund it, no questions asked.</p>
         </form>
         <aside class="order-side">
           <h3>What happens after you pay</h3>
           <ol>
-            <li>Your store word appears on this page and in your email. It works right away.</li>
-            <li>Cashiers install PLUed, tap "Did your store give you a code?", and enter the word.</li>
+            <li>Your store code appears on this page and in your email. It works right away.</li>
+            <li>Cashiers install PLUed, tap "Did your store give you a code?", and enter the store code.</li>
             <li>Build your pack or send us your spreadsheet. We keep your codes right all year.</li>
             <li>Your private store page shows seats used, your pack, and your plan. No account, no password.</li>
           </ol>
@@ -123,7 +123,7 @@
       <p class="lead-link"><a href="#lead" id="lead-toggle">Buying for several stores or need an invoice?</a></p>
       <form id="lead" class="lead" hidden novalidate>
         <h2>Several stores or an invoice</h2>
-        <p class="muted">Tell us a little and we send one invoice for all of your stores. Each store still gets its own word and store page.</p>
+        <p class="muted">Tell us a little and we send one invoice for all of your stores. Each store still gets its own store code and store page.</p>
         <div class="two">
           <label class="field" for="lead-chain"><span>Chain or company</span><input id="lead-chain" name="chain" type="text" required maxlength="120"></label>
           <label class="field" for="lead-stores"><span>How many stores</span><input id="lead-stores" name="stores" type="number" min="1" max="100000" inputmode="numeric" required></label>
@@ -174,7 +174,7 @@
     <section id="welcome" class="welcome" hidden aria-labelledby="welcome-heading">
       <span class="eyebrow">Payment received</span>
       <h2 id="welcome-heading">Thank you, <span id="w-store"></span>. Here is what happens next.</h2>
-      <p class="lede">Your word already works. Four steps and your whole store is on PLUed.</p>
+      <p class="lede">Your store code already works. Four steps and your whole store is on PLUed.</p>
       <ol class="next-steps" id="w-steps"></ol>
       <p class="safe">Your private store page: <a id="w-link" href="#"></a><br>We emailed all of this to you. Keep that link; it is your login. Lost it? This page has "send my link again".</p>
     </section>
@@ -182,7 +182,7 @@
     <section id="waiting" hidden aria-live="polite">
       <span class="eyebrow">Payment received</span>
       <h2>Setting up your store...</h2>
-      <p class="lede" id="waiting-text">This takes a few seconds. Your word and your store page link are on their way to your email too.</p>
+      <p class="lede" id="waiting-text">This takes a few seconds. Your store code and your store page link are on their way to your email too.</p>
     </section>
 
     <p class="fine">PLUed is made by Arbolinea. Questions before you buy: <a href="mailto:support@plued.app">support@plued.app</a>. Prices in US dollars; sales tax added where it applies. <a href="/privacy/">Privacy</a>.</p>
@@ -344,7 +344,7 @@
           if (r.ok && r.body && r.body.token) { showWelcome(r.body.token); return; }
           tries += 1;
           if (tries < 30) { setTimeout(poll, 2000); return; }
-          $('waiting-text').textContent = 'Your payment went through and your store is being set up. Your word and your store page link are in your email within a few minutes. If they are not there by then, write support@plued.app and we sort it out.';
+          $('waiting-text').textContent = 'Your payment went through and your store is being set up. Your store code and your store page link are in your email within a few minutes. If they are not there by then, write support@plued.app and we sort it out.';
         });
       })();
     }
@@ -352,7 +352,7 @@
     function showWelcome(token) {
       S.api('GET', '/store/' + token).then(function (r) {
         if (!r.ok || !r.body) {
-          $('waiting-text').textContent = 'Your store is set up. Open the link in your welcome email to see your word and next steps, or use "send my link again" below.';
+          $('waiting-text').textContent = 'Your store is set up. Open the link in your welcome email to see your store code and next steps, or use "send my link again" below.';
           return;
         }
         var s = r.body; s.token = token;

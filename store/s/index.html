@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>Your PLUed store page</title>
-  <meta name="description" content="Your store's private PLUed page: seats used, your word, your pack, your plan.">
+  <meta name="description" content="Your store's private PLUed page: seats used, your store code, your pack, your plan.">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
@@ -43,14 +43,14 @@
       <section class="status-head">
         <span class="eyebrow">Your store page</span>
         <h1 id="h-store"></h1>
-        <p class="lede">Seats, your word, your pack, and your plan. This link is your login; keep it.</p>
+        <p class="lede">Seats, your store code, your pack, and your plan. This link is your login; keep it.</p>
       </section>
 
       <!-- Next steps: the same four cards as Welcome, one line once done. -->
       <section id="next" class="welcome" aria-labelledby="next-heading">
         <h2 id="next-heading">Next steps</h2>
         <ol class="next-steps" id="steps"></ol>
-        <div class="all-set" id="all-set" hidden><b>All set.</b> <span>Your word is out, your pack is live, your logo is on, and cashiers are in.</span> <button type="button" class="text-button" id="show-steps">Show the steps</button></div>
+        <div class="all-set" id="all-set" hidden><b>All set.</b> <span>Your store code is out, your pack is live, your logo is on, and cashiers are in.</span> <button type="button" class="text-button" id="show-steps">Show the steps</button></div>
       </section>
 
       <div class="status-blocks">
@@ -63,14 +63,14 @@
           <a class="add-seats" id="add-seats" href="#" hidden>Add seats &rarr;</a>
         </section>
 
-        <!-- Your word -->
+        <!-- Your store code -->
         <section class="status-block" id="word-block" aria-labelledby="word-heading">
-          <h2 id="word-heading">Your word</h2>
+          <h2 id="word-heading">Your store code</h2>
           <p class="word" id="word"></p>
-          <p>Cashiers install PLUed, tap "Did your store give you a code?", and type this word.</p>
+          <p>Cashiers install PLUed, tap "Did your store give you a code?", and type this store code.</p>
           <pre class="breakroom" id="note"></pre>
           <div class="row">
-            <button type="button" class="button kraft" id="copy-word">Copy the word</button>
+            <button type="button" class="button kraft" id="copy-word">Copy the store code</button>
             <a class="button kraft" id="poster" href="#">Print the poster</a>
             <button type="button" class="button kraft" id="copy-note">Copy the break-room note</button>
             <button type="button" class="button kraft" id="resend">Resend welcome email</button>
@@ -126,7 +126,7 @@
           <div class="closed-note" id="closed" hidden></div>
           <div class="row"><button type="button" class="button kraft" id="portal">Manage billing</button></div>
           <p class="form-status" id="plan-status" aria-live="polite"></p>
-          <p>If you cancel, your plan runs to the end of the paid year; every phone already unlocked stays unlocked, and the word stops taking new cashiers after that. Payment handled by Stripe. We never see your card.</p>
+          <p>If you cancel, your plan runs to the end of the paid year; every phone already unlocked stays unlocked, and the store code stops taking new cashiers after that. Payment handled by Stripe. We never see your card.</p>
         </section>
       </div>
 
@@ -221,7 +221,7 @@
         add.hidden = false;
       } else { add.hidden = true; }
 
-      // Your word
+      // Your store code
       $('word').textContent = s.word;
       $('note').textContent = S.breakroomNote(s.word);
       S.attachPoster($('poster'), s.store, s.word);
@@ -250,11 +250,11 @@
       $('plan-start').textContent = S.fmtDate(s.plan_start);
       $('plan-end').textContent = S.fmtDate(s.plan_end);
       $('plan-end-label').textContent = s.closed_at ? 'Ran to' : 'Renews';
-      var apple = { created: 'Ready. The same word works on iPhone.', pending: 'Being set up on Apple\'s side. Android and Fire tablets work now; iPhone within a day.', inactive: 'Closed.', skipped: 'Android and Fire tablets work now. iPhone is being set up.' };
+      var apple = { created: 'Ready. The same store code works on iPhone.', pending: 'Being set up on Apple\'s side. Android and Fire tablets work now; iPhone within a day.', inactive: 'Closed.', skipped: 'Android and Fire tablets work now. iPhone is being set up.' };
       $('plan-apple').textContent = apple[s.apple] || apple.skipped;
       var closed = $('closed');
       if (s.closed_at) {
-        closed.textContent = 'Closed to new cashiers since ' + S.fmtDate(s.closed_at) + '. Phones already unlocked keep their unlock. Renew from Manage billing to reopen the word.';
+        closed.textContent = 'Closed to new cashiers since ' + S.fmtDate(s.closed_at) + '. Phones already unlocked keep their unlock. Renew from Manage billing to reopen the store code.';
         closed.hidden = false;
       } else { closed.hidden = true; }
       $('portal').hidden = !s.stripe_portal;
@@ -346,7 +346,7 @@
       var text = $('req-text').value.trim();
       var fileInput = $('req-file');
       var file = fileInput.files && fileInput.files[0];
-      if (!text && !file) { setStatus(st, 'Add a few words or attach a file.', 'err'); $('req-text').focus(); return; }
+      if (!text && !file) { setStatus(st, 'Add a few store codes or attach a file.', 'err'); $('req-text').focus(); return; }
       if (type === 'logo' && file && !$('logo-consent').checked) { setStatus(st, 'Please confirm your store may use this mark.', 'err'); $('logo-consent').focus(); return; }
       if (file) {
         if (file.size > MAX) { setStatus(st, 'That file is ' + (file.size / 1024 / 1024).toFixed(1) + ' MB. Files up to 2 MB, please. A smaller export or a PNG under 2 MB works.', 'err'); return; }

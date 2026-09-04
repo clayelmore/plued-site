@@ -105,7 +105,7 @@
 
   <div class="card" id="stores">
     <h2 style="margin:0 0 4px;font-size:18px;">Stores</h2>
-    <p class="sub" style="margin:0 0 10px;">Store Plans: one word per store, minted by Stripe or by hand here. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
+    <p class="sub" style="margin:0 0 10px;">Store Plans: one store code per store, minted by Stripe or by hand here. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
     <form class="mint" id="mintForm" novalidate>
       <label>STORE<input id="mintStore" maxlength="80" placeholder="Hometown Foods"></label>
       <label>EMAIL<input id="mintEmail" type="email" maxlength="200" placeholder="manager@store.com"></label>
@@ -115,7 +115,7 @@
     </form>
     <div id="storesStatus" class="note"></div>
     <div class="wrap"><table id="storesTable" hidden>
-      <thead><tr><th>Store</th><th>Word</th><th>Tier</th><th>Seats</th><th>Plan end</th><th>Apple</th><th>Requests</th><th>Actions</th></tr></thead>
+      <thead><tr><th>Store</th><th>Store code</th><th>Tier</th><th>Seats</th><th>Plan end</th><th>Apple</th><th>Requests</th><th>Actions</th></tr></thead>
       <tbody id="storeRows"></tbody>
     </table></div>
     <p class="note" id="storesEmpty" hidden>No stores yet.</p>
@@ -485,10 +485,10 @@
           setStoresStatus(r.ok ? 'Welcome resent to ' + s.email + '.' : apiError(r.res, r.body), r.ok ? 'ok' : 'err');
         });
       };
-      var close = document.createElement('button'); close.className = 'danger'; close.textContent = 'Close word';
+      var close = document.createElement('button'); close.className = 'danger'; close.textContent = 'Close store code';
       close.disabled = !!s.closed_at;
       close.onclick = function () {
-        if (!confirm('Close the word ' + s.word + ' for "' + s.store + '"?\n\nNew cashiers can no longer redeem it (Android now, Apple when the code is deactivated). Phones already unlocked keep their unlock. Renewal reopens it.')) return;
+        if (!confirm('Close the store code ' + s.word + ' for "' + s.store + '"?\n\nNew cashiers can no longer redeem it (Android now, Apple when the code is deactivated). Phones already unlocked keep their unlock. Renewal reopens it.')) return;
         setStoresStatus('Closing ' + s.word + '...');
         storeApi('/store/' + s.token + '/close', 'POST', {}).then(function (r) {
           if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
@@ -594,7 +594,7 @@
     var tier = Number(document.getElementById('mintTier').value);
     var end = document.getElementById('mintEnd').value;
     if (store.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStoresStatus('Store name and a valid email are required to mint.', 'err'); return; }
-    if (!confirm('Mint a ' + tier + '-seat Store Plan for "' + store + '"?\n\nThis creates the word, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '. Use it for invoice orders or anything Stripe did not mint.')) return;
+    if (!confirm('Mint a ' + tier + '-seat Store Plan for "' + store + '"?\n\nThis creates the store code, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '. Use it for invoice orders or anything Stripe did not mint.')) return;
     var body = { store: store, email: email, tier: tier };
     if (end) body.plan_end = new Date(end + 'T00:00:00Z').toISOString();
     var btn = document.getElementById('mintBtn'); btn.disabled = true;
