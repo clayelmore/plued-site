@@ -29,8 +29,8 @@
       <p class="relink">Lost the link?</p>
       <div class="relink-box" id="relink-a">
         <label class="visually-hidden" for="relink-email-a">The email you bought with</label>
-        <input id="relink-email-a" type="email" placeholder="the email you bought with" autocomplete="email">
-        <button type="button" class="button kraft">send my link again</button>
+        <input id="relink-email-a" type="email" placeholder="you@yourstore.com" autocomplete="email">
+        <button type="button" class="button kraft">Send my link again</button>
         <p class="form-status" aria-live="polite"></p>
       </div>
     </section>
@@ -59,7 +59,7 @@
           <h2 id="seats-heading">Seats <small id="seats-plan"></small></h2>
           <p class="seats-line"><span id="seats-used">0</span> of <span id="seats-total">0</span> seats used <small id="seats-reserved"></small></p>
           <div class="bar" id="seats-bar"><span></span></div>
-          <p>iPhone and Android counted together; a phone that redeems twice costs one seat. Every phone you unlock stays unlocked, even if you don't renew.</p>
+          <p>A phone that joins twice still uses one seat. Every phone you unlock stays unlocked, even if you don't renew.</p>
           <a class="add-seats" id="add-seats" href="#" hidden>Add seats &rarr;</a>
         </section>
 
@@ -121,7 +121,7 @@
             <dt>Store Plan</dt><dd id="plan-tier"></dd>
             <dt>Started</dt><dd id="plan-start"></dd>
             <dt id="plan-end-label">Renews</dt><dd id="plan-end"></dd>
-            <dt>iPhone code</dt><dd id="plan-apple"></dd>
+            <dt id="plan-apple-label" hidden>Status</dt><dd id="plan-apple" hidden></dd>
           </dl>
           <div class="closed-note" id="closed" hidden></div>
           <div class="row"><button type="button" class="button kraft" id="portal">Manage billing</button></div>
@@ -130,11 +130,11 @@
         </section>
       </div>
 
-      <p class="relink">Bookmark this page, or keep the welcome email. Lost both?</p>
+      <p class="relink">Bookmark this page, or keep the welcome email. Lost both? Enter the email you bought with and we send the link again.</p>
       <div class="relink-box" id="relink-b">
         <label class="visually-hidden" for="relink-email-b">The email you bought with</label>
-        <input id="relink-email-b" type="email" placeholder="the email you bought with" autocomplete="email">
-        <button type="button" class="button kraft">send my link again</button>
+        <input id="relink-email-b" type="email" placeholder="you@yourstore.com" autocomplete="email">
+        <button type="button" class="button kraft">Send my link again</button>
         <p class="form-status" aria-live="polite"></p>
       </div>
     </div>
@@ -207,7 +207,7 @@
       $('seats-used').textContent = used;
       $('seats-total').textContent = seats;
       $('seats-plan').textContent = 'up to ' + seats + ' this plan year';
-      $('seats-reserved').textContent = reserved ? '(' + reserved + ' waiting on an iPhone unlock)' : '';
+      $('seats-reserved').textContent = reserved ? '(' + reserved + ' joining now)' : '';
       var bar = $('seats-bar');
       bar.querySelector('span').style.width = pct + '%';
       bar.classList.toggle('is-high', pct >= 80);
@@ -250,8 +250,8 @@
       $('plan-start').textContent = S.fmtDate(s.plan_start);
       $('plan-end').textContent = S.fmtDate(s.plan_end);
       $('plan-end-label').textContent = s.closed_at ? 'Ran to' : 'Renews';
-      var apple = { created: 'Ready. The same store code works on iPhone.', pending: 'Being set up on Apple\'s side. Android and Fire tablets work now; iPhone within a day.', inactive: 'Closed.', skipped: 'Android and Fire tablets work now. iPhone is being set up.' };
-      $('plan-apple').textContent = apple[s.apple] || apple.skipped;
+      var apple = { created: '', skipped: '', pending: 'Still being set up on our side; your cashiers can start now.', inactive: 'Closed to new cashiers.' };
+      (function (t) { $('plan-apple').textContent = t; $('plan-apple').hidden = !t; $('plan-apple-label').hidden = !t; })(apple[s.apple] || '');
       var closed = $('closed');
       if (s.closed_at) {
         closed.textContent = 'Closed to new cashiers since ' + S.fmtDate(s.closed_at) + '. Phones already unlocked keep their unlock. Renew from Manage billing to reopen the store code.';
