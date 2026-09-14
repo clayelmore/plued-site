@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1084,
+  "image_count": 1094,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -33,6 +33,12 @@
       "top": 0.197265625,
       "right": 0.783203125,
       "bottom": 0.818359375
+    },
+    "alache.png": {
+      "left": 0.009765625,
+      "top": 0.0078125,
+      "right": 0.990234375,
+      "bottom": 0.9921875
     },
     "alfalfa_sprouts.png": {
       "left": 0.228515625,
@@ -1384,6 +1390,24 @@
       "right": 0.79296875,
       "bottom": 0.916015625
     },
+    "chilacayota.png": {
+      "left": 0.015625,
+      "top": 0.1875,
+      "right": 0.986328125,
+      "bottom": 0.8203125
+    },
+    "chile_de_arbol_fresh.png": {
+      "left": 0.01953125,
+      "top": 0.017578125,
+      "right": 0.9921875,
+      "bottom": 0.9765625
+    },
+    "chile_manzano.png": {
+      "left": 0.0,
+      "top": 0.009765625,
+      "right": 0.994140625,
+      "bottom": 0.958984375
+    },
     "chili_pepper_dried.png": {
       "left": 0.361328125,
       "top": 0.05859375,
@@ -1731,6 +1755,12 @@
       "top": 0.109375,
       "right": 0.826171875,
       "bottom": 0.87109375
+    },
+    "culantro.png": {
+      "left": 0.015625,
+      "top": 0.0,
+      "right": 0.984375,
+      "bottom": 1.0
     },
     "currants_red.png": {
       "left": 0.333984375,
@@ -2770,6 +2800,12 @@
       "right": 0.814453125,
       "bottom": 0.84765625
     },
+    "guajes.png": {
+      "left": 0.009765625,
+      "top": 0.0078125,
+      "right": 0.986328125,
+      "bottom": 0.98828125
+    },
     "guava.png": {
       "left": 0.2265625,
       "top": 0.130859375,
@@ -2811,6 +2847,12 @@
       "top": 0.15234375,
       "right": 0.845703125,
       "bottom": 0.85546875
+    },
+    "hierba_mora.png": {
+      "left": 0.0,
+      "top": 0.009765625,
+      "right": 0.88671875,
+      "bottom": 1.0
     },
     "holstein_apples.png": {
       "left": 0.12890625,
@@ -2889,6 +2931,12 @@
       "top": 0.140625,
       "right": 0.822265625,
       "bottom": 0.8515625
+    },
+    "huauzontle.png": {
+      "left": 0.0390625,
+      "top": 0.005859375,
+      "right": 0.97265625,
+      "bottom": 0.994140625
     },
     "hubbard_squash.png": {
       "left": 0.17578125,
@@ -3045,6 +3093,12 @@
       "top": 0.14453125,
       "right": 0.8828125,
       "bottom": 0.86328125
+    },
+    "jocote.png": {
+      "left": 0.021484375,
+      "top": 0.03125,
+      "right": 0.98828125,
+      "bottom": 0.9765625
     },
     "jonagold_apples_large.png": {
       "left": 0.119140625,
@@ -3447,6 +3501,12 @@
       "top": 0.146484375,
       "right": 0.828125,
       "bottom": 0.87109375
+    },
+    "lulo.png": {
+      "left": 0.06640625,
+      "top": 0.029296875,
+      "right": 0.93359375,
+      "bottom": 0.966796875
     },
     "lychees.png": {
       "left": 0.234375,

@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "note": "Graphics-only catalog entries: produce with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text.",
+  "items": [
+    {
+      "id": "jocote",
+      "name": "Jocote",
+      "category": "fruit",
+      "section": "Tropical & Exotic",
+      "image": "jocote.png",
+      "aliases": [
+        "ciruela",
+        "ciruela roja",
+        "ciruela de huesito",
+        "Spanish plum",
+        "red mombin",
+        "hog plum",
+        "xocote",
+        "jocote de corona"
+      ],
+      "desc": "Jocotes are small oval fruits, about the size of a grape tomato to a small plum, with a slightly elongated teardrop shape and often a small knob at the tip. The skin is thin, smooth, and glossy with no dusty bloom, and a pile shows the whole ripening range: some fruit yellow-green, most orange-red to deep red, a few nearly purple, with occasional light brown scuffs. There is no visible stem or leaf. They are sold loose by the pound, shown as a small heap of about fifteen fruit sitting fully inside the frame with every fruit whole and visible."
+    },
+    {
+      "id": "lulo",
+      "name": "Lulo",
+      "category": "fruit",
+      "section": "Tropical & Exotic",
+      "image": "lulo.png",
+      "aliases": [
+        "naranjilla",
+        "naranjilla de Quito",
+        "lulo fruit",
+        "Solanum quitoense"
+      ],
+      "desc": "A lulo is a round fruit about the size of a small tomato, with a thick, leathery, bright golden-orange skin that is smooth to faintly velvety, with a trace of fine brown fuzz near the top. The stem end is capped by a stiff, rough, five-pointed greenish-brown calyx with a short dry stalk. The body is evenly round without ribs or shoulders and the color is uniform golden orange with no green patches. It is sold whole and loose by the pound, shown as a single whole fruit, never cut."
+    },
+    {
+      "id": "chilacayota",
+      "name": "Chilacayota",
+      "category": "vegetable",
+      "section": "Squash & Gourds",
+      "image": "chilacayota.png",
+      "aliases": [
+        "chilacayote",
+        "cidra",
+        "cidra cayote",
+        "alcayota",
+        "fig-leaf gourd",
+        "fig leaf gourd",
+        "calabaza de cabello de angel",
+        "cabello de angel",
+        "Malabar gourd",
+        "calabaza chilacayote"
+      ],
+      "desc": "A chilacayota is a large, clearly elongated oblong squash, about twice as long as it is wide, with bluntly rounded ends, lying on its side. The rind is hard, smooth, and faintly glossy, mid-to-dark green and irregularly mottled with cream-white blotches, speckles, and short broken streaks of uneven size and shape, never even stripes and never star-shaped spots. A short, hard, ridged tan stem sits at one end. The surface has no ribs. It is sold whole by the pound, shown as a single squash."
+    },
+    {
+      "id": "huauzontle",
+      "name": "Huauzontle",
+      "category": "vegetable",
+      "section": "Leafy Greens & Lettuce",
+      "image": "huauzontle.png",
+      "aliases": [
+        "huazontle",
+        "huanzontle",
+        "huauhzontle",
+        "guausoncle",
+        "Aztec broccoli",
+        "Aztec spinach",
+        "quelite"
+      ],
+      "desc": "Huauzontle is sold as a bunch of long, slender, upright green branches, each thickly covered along its upper length with dense clusters of tiny unopened green flower buds that form narrow, bumpy, feathery spikes. The stems are thin and wiry, faintly tinged with red near the base, and carry only a few small diamond-shaped green leaves between the bud clusters, so the bunch reads as bud-covered stalks rather than a leafy green. The buds are fine and granular, soft yellow-green to mid green, with no domed heads and no open flowers. It is a bunch of several forearm-length branches tied together at the stem ends."
+    },
+    {
+      "id": "guajes",
+      "name": "Guajes",
+      "category": "vegetable",
+      "section": "Peas & Beans",
+      "image": "guajes.png",
+      "aliases": [
+        "guaje",
+        "huaje",
+        "huajes",
+        "guaje verde",
+        "river tamarind",
+        "wild tamarind",
+        "leadtree pods",
+        "uaxim",
+        "guaje beans"
+      ],
+      "desc": "Guajes are long, flat, strap-like green pods, about 20 to 28 centimeters long and 2 to 3 centimeters wide, straight or very gently curved, tapering to a short point at each end. The surface is smooth and matte, pale to light green, often finely speckled, and one face commonly shows a reddish-brown blush. A single row of flat oval seeds shows through the pod as a line of gentle bumps along its length. They are sold fresh as a cluster of several pods fanning out from one shared stalk."
+    },
+    {
+      "id": "alache",
+      "name": "Alache",
+      "category": "vegetable",
+      "section": "Leafy Greens & Lettuce",
+      "image": "alache.png",
+      "aliases": [
+        "alaches",
+        "violeta de campo",
+        "spurred anoda",
+        "crested anoda",
+        "malva de Castilla",
+        "amapolita morada",
+        "quelite"
+      ],
+      "desc": "Alache is sold as a loose bunch of tender, slender, ridged green stems carrying alternate, long-stalked leaves. The leaves are medium green, matte and softly hairy, roughly triangular to arrowhead-shaped with a pointed tip, often showing three shallow lobes and a coarsely toothed edge, and many carry a faint dark purple streak along the midvein. Leaves are about 4 to 8 centimeters long. A few small five-petaled lavender-purple flowers on long stalks appear among the leaves. It is a bunch of several stems gathered at the base."
+    },
+    {
+      "id": "culantro",
+      "name": "Culantro",
+      "category": "vegetable",
+      "section": "Fresh Herbs",
+      "image": "culantro.png",
+      "aliases": [
+        "cilantro macho",
+        "cilantro ancho",
+        "cilantro de hoja ancha",
+        "recao",
+        "recaito",
+        "alcapate",
+        "sawtooth coriander",
+        "long coriander",
+        "Mexican coriander",
+        "ngo gai",
+        "chadon beni",
+        "culantro coyote"
+      ],
+      "desc": "Culantro leaves are long, flat, and lance-shaped, about 15 to 25 centimeters long and 3 to 5 centimeters wide, glossy dark green with a pale central midrib and a finely saw-toothed edge along the entire margin, each small tooth ending in a tiny pale spine. The leaves are thick and leathery and grow directly from a short crown with no stalks, fanning out from a single base like a loose rosette. It is sold as a small bunch of roughly eight to twelve whole leaves held together by a band near the base, the leaves spreading upward and outward, sometimes with a short pale taproot still attached."
+    },
+    {
+      "id": "hierba_mora",
+      "name": "Hierba Mora",
+      "category": "vegetable",
+      "section": "Leafy Greens & Lettuce",
+      "image": "hierba_mora.png",
+      "aliases": [
+        "yerba mora",
+        "hierbamora",
+        "macuy",
+        "quilete",
+        "chichiquelite",
+        "mora",
+        "black nightshade greens",
+        "American black nightshade",
+        "quelite"
+      ],
+      "desc": "Hierba mora is a leafy green herb with soft, slender, branching stems carrying simple ovate, pointed leaves of noticeably different sizes, about 3 to 8 centimeters long, medium to deep green with a smooth to slightly wavy edge and a visible pale midrib. Tiny white star-shaped flowers with a bright yellow center hang in small clusters along the stems, with a few small round green berries beside them. It is sold as a loose bunch of several tender stems banded at the cut ends, roughly 25 to 35 centimeters long, with the leaves spreading outward and the flower clusters visible near the tips."
+    },
+    {
+      "id": "chile_de_arbol_fresh",
+      "name": "Chile de Arbol, Fresh",
+      "category": "vegetable",
+      "section": "Peppers",
+      "image": "chile_de_arbol_fresh.png",
+      "aliases": [
+        "chile de arbol",
+        "chile de arbol fresco",
+        "chile de arbol verde",
+        "arbol chile",
+        "tree chile",
+        "bird's beak chile",
+        "pico de pajaro",
+        "cola de rata",
+        "fresh arbol pepper"
+      ],
+      "desc": "Fresh chile de arbol pods are long, slender, and cylindrical, about 5 to 8 centimeters long and only a centimeter wide, tapering evenly to a fine sharp point and often bending slightly along their length. The skin is smooth, glossy, and taut, most pods a deep green with a few in the pile turning orange or bright red, and each pod carries a long, thin green stem that curves away from the small green cap. The flesh is thin and the pods look light and pliable rather than plump. They are sold loose by the pound, shown as a small heap of about twenty pods sitting fully inside the frame with every pod whole and visible, their stems tangling together."
+    },
+    {
+      "id": "chile_manzano",
+      "name": "Chile Manzano",
+      "category": "vegetable",
+      "section": "Peppers",
+      "image": "chile_manzano.png",
+      "aliases": [
+        "manzano pepper",
+        "chile manzana",
+        "chile peron",
+        "chile canario",
+        "chile caballo",
+        "chile ciruelo",
+        "rocoto",
+        "locoto",
+        "apple chile",
+        "apple pepper"
+      ],
+      "desc": "Chile manzano is a small, round, apple-shaped pepper about 3 to 5 centimeters across, with a smooth, taut, waxy skin in a uniform golden yellow to yellow-orange. The body is plump and gently lobed, with a shallow dimple at the top where a long, slender green stem bends away from a small green calyx, and a smoothly rounded base with no point. The walls are thick and the pod looks solid and heavy for its size. It is sold loose as whole pods, shown as a small pile of several whole pods, one of them halved to reveal the thick flesh around a cavity of small flat black seeds."
+    }
+  ]
+}
