@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "generated_by": "tool/build_concepts.dart",
   "concept_count": 876,
   "concepts": [
@@ -235,7 +235,7 @@
     },
     {
       "id": "amaranth_leaves_all_sizes",
-      "name": "Amaranth Leaves All Sizes",
+      "name": "Amaranth Leaves",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -543,7 +543,7 @@
     },
     {
       "id": "apples_cn121",
-      "name": "Apples Cn121",
+      "name": "SugarBee Apples (Large)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -805,7 +805,7 @@
     },
     {
       "id": "apples_orleans",
-      "name": "Apples Orleans",
+      "name": "Orléans Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -2810,7 +2810,7 @@
     },
     {
       "id": "beans_chinese_long_snake",
-      "name": "Beans Chinese Long Snake",
+      "name": "Chinese Long Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -2841,7 +2841,7 @@
     },
     {
       "id": "beans_fava_broad",
-      "name": "Beans Fava Broad",
+      "name": "Fava Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -2903,7 +2903,7 @@
     },
     {
       "id": "beans_pole_runner_stick",
-      "name": "Beans Pole Runner Stick",
+      "name": "Pole Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -2996,7 +2996,7 @@
     },
     {
       "id": "beans_wax_yellow",
-      "name": "Beans Wax Yellow",
+      "name": "Wax Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -4901,7 +4901,7 @@
     },
     {
       "id": "calypso_mango_all_sizes",
-      "name": "Calypso Mango All Sizes",
+      "name": "Calypso Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -6149,7 +6149,7 @@
     },
     {
       "id": "cherries_hr87_timberline",
-      "name": "Cherries Hr87 Timberline",
+      "name": "Timberline Cherries (HR87)",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -6180,7 +6180,7 @@
     },
     {
       "id": "cherries_rl100_audra_rose",
-      "name": "Cherries Rl100 Audra Rose",
+      "name": "Audra Rose Cherries (RL 100)",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -6612,7 +6612,7 @@
     },
     {
       "id": "civg198_apples",
-      "name": "Civg198 Apples",
+      "name": "CIVG198 Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -7104,7 +7104,7 @@
     },
     {
       "id": "coop_43_apples",
-      "name": "Coop 43 Apples",
+      "name": "Co-op 43 Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -9438,7 +9438,7 @@
     },
     {
       "id": "enjoya_stripy_bell_peppers_all_sizes",
-      "name": "Enjoya Stripy Bell Peppers All Sizes",
+      "name": "Enjoya Stripy Bell Peppers",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -9841,7 +9841,7 @@
     },
     {
       "id": "fiesta_apples_all_sizes",
-      "name": "Fiesta Apples All Sizes",
+      "name": "Fiesta Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -10697,7 +10697,7 @@
     },
     {
       "id": "garlic_chives_all_sizes",
-      "name": "Garlic Chives All Sizes",
+      "name": "Garlic Chives",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -11975,7 +11975,7 @@
     },
     {
       "id": "grapefruit_untreated",
-      "name": "Grapefruit Untreated",
+      "name": "Grapefruit (Untreated)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -12828,7 +12828,7 @@
     },
     {
       "id": "green_pears_hw624",
-      "name": "Green Pears Hw624",
+      "name": "Green Pears (HW624)",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -15027,7 +15027,7 @@
     },
     {
       "id": "lady_williams_apples_all_sizes",
-      "name": "Lady Williams Apples All Sizes",
+      "name": "Lady Williams Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -15349,7 +15349,7 @@
     },
     {
       "id": "lemons_untreated",
-      "name": "Lemons Untreated",
+      "name": "Lemons (Untreated)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -16188,7 +16188,7 @@
     },
     {
       "id": "madrona",
-      "name": "Madrona",
+      "name": "Madroña",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -16402,7 +16402,7 @@
     },
     {
       "id": "mango_r2e2",
-      "name": "Mango R2e2",
+      "name": "R2E2 Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -18480,7 +18480,7 @@
     },
     {
       "id": "orange_cherry_tomatoes_all_sizes",
-      "name": "Orange Cherry Tomatoes All Sizes",
+      "name": "Orange Cherry Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -18573,7 +18573,7 @@
     },
     {
       "id": "oranges_m4_dulce_navels",
-      "name": "Oranges M4 Dulce Navels",
+      "name": "Dulce Navels Oranges (M4)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -21743,7 +21743,7 @@
     },
     {
       "id": "prema17_apples",
-      "name": "Prema17 Apples",
+      "name": "PremA17 Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -21774,7 +21774,7 @@
     },
     {
       "id": "prema280_apples",
-      "name": "Prema280 Apples",
+      "name": "PremA280 Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -21805,7 +21805,7 @@
     },
     {
       "id": "president_plums_all_sizes",
-      "name": "President Plums All Sizes",
+      "name": "President Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -23198,7 +23198,7 @@
     },
     {
       "id": "red_jonaprince_apples_all_sizes",
-      "name": "Red Jonaprince Apples All Sizes",
+      "name": "Red Jonaprince Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -25237,7 +25237,7 @@
     },
     {
       "id": "shiny_red_persimmon_all_sizes",
-      "name": "Shiny Red Persimmon All Sizes",
+      "name": "Shiny Red Persimmon",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -26057,7 +26057,7 @@
     },
     {
       "id": "strawberries_250g",
-      "name": "Strawberries 250g",
+      "name": "Strawberries, 250 g",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26088,7 +26088,7 @@
     },
     {
       "id": "strawberries_500g",
-      "name": "Strawberries 500g",
+      "name": "Strawberries, 500 g",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26150,7 +26150,7 @@
     },
     {
       "id": "strawberries_bulk_3_pack_3_pints",
-      "name": "Strawberries Bulk 3 Pack 3 Pints",
+      "name": "Strawberries, 3-pack (3 pints)",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26452,7 +26452,7 @@
     },
     {
       "id": "sugarbee_apples",
-      "name": "Sugarbee Apples",
+      "name": "SugarBee Apples (Small)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -26917,7 +26917,7 @@
     },
     {
       "id": "sweet_onions_all_sizes",
-      "name": "Sweet Onions All Sizes",
+      "name": "Sweet Onions",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -29593,7 +29593,7 @@
     },
     {
       "id": "winter_melon_all_sizes",
-      "name": "Winter Melon All Sizes",
+      "name": "Winter Melon",
       "category": "fruit",
       "family": "melons",
       "codes": [

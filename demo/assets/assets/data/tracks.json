@@ -248,21 +248,19 @@
             "alkmene_apples",
             "apples_antares",
             "apples_baldwin",
-            "apples_cn121",
             "apples_dalinette",
             "apples_greening_ri",
-            "apples_haralson"
+            "apples_haralson",
+            "apples_liberty"
           ]
         },
         {
           "index": 3,
           "name": "Apples & Pears · Part 4",
           "concept_ids": [
-            "apples_liberty",
             "apples_macoun",
             "apples_melrose",
             "apples_northern_spy",
-            "apples_orleans",
             "apples_rosinette",
             "apples_scilate_envy",
             "apples_wurtwinning_bloss",
@@ -270,15 +268,15 @@
             "asian_nashi_pears_white",
             "asian_pears",
             "aura_apples",
-            "aurora_apples"
+            "aurora_apples",
+            "aurora_southern_rose_apples",
+            "belchard_chantecler_apples"
           ]
         },
         {
           "index": 4,
           "name": "Apples & Pears · Part 5",
           "concept_ids": [
-            "aurora_southern_rose_apples",
-            "belchard_chantecler_apples",
             "belgica_apples",
             "bertanne_golden_russet_apples",
             "beurre_hardy_pears",
@@ -287,16 +285,16 @@
             "cape_rose_pears",
             "charles_ross_apples",
             "civni_apples",
+            "coop_43_apples",
             "comice_pears",
-            "concorde_pears"
+            "concorde_pears",
+            "conference_pears"
           ]
         },
         {
           "index": 5,
           "name": "Apples & Pears · Part 6",
           "concept_ids": [
-            "conference_pears",
-            "coop_43_apples",
             "cosmic_crisp_apples",
             "crimson_delight_sunrise_magic_apples",
             "cripps_red_apples",
@@ -306,15 +304,15 @@
             "elstar_apples",
             "emmons_apples",
             "evercrisp_apples",
-            "fiesta_apples_all_sizes"
+            "fiesta_apples_all_sizes",
+            "fireside_apples",
+            "flamingo_pears"
           ]
         },
         {
           "index": 6,
           "name": "Apples & Pears · Part 7",
           "concept_ids": [
-            "fireside_apples",
-            "flamingo_pears",
             "fragrant_pears",
             "giga_apples",
             "gloster_apples",
@@ -324,15 +322,15 @@
             "honeymoon_apples",
             "hunnyz_apples",
             "ifored_r_series_apples",
-            "ifored_y_series_apples"
+            "ifored_y_series_apples",
+            "jazz_apples",
+            "juici_apples"
           ]
         },
         {
           "index": 7,
           "name": "Apples & Pears · Part 8",
           "concept_ids": [
-            "jazz_apples",
-            "juici_apples",
             "karma_apples",
             "king_royal_pears",
             "laxtons_fortune_apples",
@@ -342,16 +340,17 @@
             "ludacrisp_apples",
             "magic_star_apples",
             "mariri_red_apples",
-            "migo_pears"
+            "migo_pears",
+            "milwa_apples",
+            "minnewashta_zestar_apples"
           ]
         },
         {
           "index": 8,
           "name": "Apples & Pears · Part 9",
           "concept_ids": [
-            "milwa_apples",
-            "minnewashta_zestar_apples",
             "nicogreen_apples",
+            "apples_orleans",
             "pacific_rose_apples",
             "paulared_apples",
             "pazazz_apples",
@@ -360,14 +359,14 @@
             "pears_carmen",
             "pears_general_leclerc",
             "pears_guyot",
-            "pears_harovin_sundown"
+            "pears_harovin_sundown",
+            "pears_rocha"
           ]
         },
         {
           "index": 9,
           "name": "Apples & Pears · Part 10",
           "concept_ids": [
-            "pears_rocha",
             "pears_santa_maria",
             "pears_starkrimson",
             "pears_taylors_gold",
@@ -378,14 +377,14 @@
             "red_jonaprince_apples_all_sizes",
             "red_pears",
             "redfield_apples",
-            "redpop_apples"
+            "redpop_apples",
+            "regent_apples"
           ]
         },
         {
           "index": 10,
           "name": "Apples & Pears · Part 11",
           "concept_ids": [
-            "regent_apples",
             "royal_gala_apples",
             "rubinette_apples",
             "rubyfrost_apple",
@@ -396,7 +395,8 @@
             "snapdragon_apple",
             "sonya_apples",
             "southern_snap_apples",
-            "spartan_apples"
+            "spartan_apples",
+            "apples_cn121"
           ]
         },
         {
@@ -510,17 +510,17 @@
             "clementine_tangerine",
             "clementines",
             "delta_seedless_oranges",
+            "oranges_m4_dulce_navels",
             "grapefruit_deep_red",
             "grapefruit_ruby_red_pink",
-            "grapefruit_white",
-            "midknight_orange"
+            "grapefruit_white"
           ]
         },
         {
           "index": 1,
           "name": "Citrus · Part 2",
           "concept_ids": [
-            "oranges_m4_dulce_navels",
+            "midknight_orange",
             "oranges_navelate",
             "oranges_navelina",
             "oranges_pera",
@@ -604,12 +604,12 @@
             "blackberries",
             "blueberries",
             "red_raspberries",
-            "strawberries_250g",
-            "strawberries_500g",
             "strawberries_bulk",
-            "strawberries_bulk_3_pack_3_pints",
             "strawberries_pint",
             "strawberries_quart",
+            "strawberries_250g",
+            "strawberries_bulk_3_pack_3_pints",
+            "strawberries_500g",
             "black_currants"
           ]
         },
@@ -710,11 +710,11 @@
             "plums_black",
             "plums_red",
             "apricots",
-            "cherries_hr87_timberline",
             "cherries_rl100_audra_rose",
             "peaches_white_flesh",
             "plums_tree_ripened",
             "plums_yellow",
+            "cherries_hr87_timberline",
             "white_flesh_nectarine"
           ]
         },
@@ -882,17 +882,16 @@
             "green_bananas",
             "hawaiian_plantain",
             "mango_kensington_pride",
-            "mango_r2e2",
             "meridol_papaya",
             "papaya_cooking_mexican",
-            "papaya_solo_sunrise"
+            "papaya_solo_sunrise",
+            "passion_fruit_curuba"
           ]
         },
         {
           "index": 3,
           "name": "Tropical & Exotic · Part 4",
           "concept_ids": [
-            "passion_fruit_curuba",
             "passion_fruit_granadilla_yellow",
             "passion_fruit_purple",
             "persimmon",
@@ -902,6 +901,7 @@
             "pineapple_perola",
             "pitahaya_red_flesh_fire_dragons",
             "queen_pineapple",
+            "mango_r2e2",
             "shiny_red_persimmon_all_sizes",
             "apple_bananas_manzano"
           ]
@@ -1492,28 +1492,28 @@
           "name": "Peas & Beans · Part 1",
           "concept_ids": [
             "green_beans",
-            "beans_wax_yellow",
             "blackeyed_peas",
             "fine_beans",
             "green_peas",
             "snow_peas",
             "sugar_snap_peas",
-            "beans_chinese_long_snake",
-            "beans_fava_broad",
-            "beans_lima"
+            "beans_wax_yellow",
+            "beans_lima",
+            "beans_purple_hull",
+            "beans_shell"
           ]
         },
         {
           "index": 1,
           "name": "Peas & Beans · Part 2",
           "concept_ids": [
-            "beans_pole_runner_stick",
-            "beans_purple_hull",
-            "beans_shell",
             "beans_winged",
+            "beans_chinese_long_snake",
+            "beans_fava_broad",
             "helda_flat_beans",
             "okra_red",
             "okra_regular_green",
+            "beans_pole_runner_stick",
             "chickpeas_fresh",
             "xpelon"
           ]
