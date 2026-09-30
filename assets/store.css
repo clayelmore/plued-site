@@ -5,6 +5,11 @@
    the site sheet's .step / .steps (the trainer how-it-works grid). */
 
 .store-page { padding-bottom: 40px; }
+/* The hidden attribute must win (2026-09-30). .relink-box, .all-set and
+   .add-seats set their own display, which silently beat [hidden]: the
+   "Lost your store page link?" box showed before it was asked for, and the
+   status page showed "All set" and "Add seats" to every store. */
+.store-page [hidden] { display: none !important; }
 .store-page .lede { max-width: 640px; margin: 0 0 4px; color: var(--muted); font-size: clamp(1.05rem, 1.8vw, 1.22rem); }
 .store-page section { scroll-margin-top: 24px; }
 .store-page .safe { max-width: 640px; margin: 0; color: var(--muted); font-size: 0.95rem; overflow-wrap: anywhere; }
