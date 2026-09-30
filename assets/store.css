@@ -59,8 +59,10 @@
 .field textarea { min-height: 110px; resize: vertical; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid color-mix(in srgb, var(--action), transparent 40%); outline-offset: 1px; border-color: var(--action); }
 .field input[aria-invalid="true"] { border-color: var(--red); }
-.field-error { display: none; margin-top: 6px; color: var(--red); font-size: 0.85rem; }
-.field-error.is-on { display: block; }
+/* .field > span (the label) is display: block, and it outranked .field-error,
+   so both error lines showed on load (2026-09-30). The .field prefix wins. */
+.field .field-error { display: none; margin-top: 6px; color: var(--red); font-size: 0.85rem; }
+.field .field-error.is-on { display: block; }
 .cta { width: 100%; min-height: 54px; font-size: 1.05rem; }
 .cta.small { width: auto; min-height: 46px; font-size: 0.95rem; }
 .order .safe { margin-top: 16px; }
