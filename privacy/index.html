@@ -27,25 +27,27 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective October 3, 2026</span></div></div>
+      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put advertising or tracking code in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective October 5, 2026</span></div></div>
       <img class="page-produce" src="/assets/img/dill.png" alt="Fresh dill">
     </div></section>
     <div class="chalk-divider"></div>
 
     <div class="shell docs-layout">
-      <aside class="toc" aria-label="Privacy contents"><strong>On this page</strong><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#pluzzle">PLUzzle stats</a><a href="#contact">Contact</a></nav></aside>
+      <aside class="toc" aria-label="Privacy contents"><strong>On this page</strong><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#storecodes">Store codes</a><a href="#scanner">Sticker scanner</a><a href="#pluzzle">PLUzzle stats</a><a href="#storeplans">Store Plans</a><a href="#contact">Contact</a></nav></aside>
       <article class="doc-content">
-        <details class="mobile-toc"><summary>Privacy contents</summary><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#pluzzle">PLUzzle stats</a><a href="#contact">Contact</a></nav></details>
+        <details class="mobile-toc"><summary>Privacy contents</summary><nav><a href="#short">The short version</a><a href="#device">Data on your device</a><a href="#purchase">Purchase</a><a href="#packs">Store Packs</a><a href="#hosted">Hosted links</a><a href="#storecodes">Store codes</a><a href="#scanner">Sticker scanner</a><a href="#pluzzle">PLUzzle stats</a><a href="#storeplans">Store Plans</a><a href="#contact">Contact</a></nav></details>
 
         <section class="doc-section reveal" id="short">
           <h2>The short version</h2>
           <ul>
             <li>No PLUed account is required.</li>
             <li>Your answers, mastery, stars, settings, streaks, and imported packs stay on your device.</li>
-            <li>The app has no analytics or advertising tracking SDK.</li>
+            <li>The app has no advertising or tracking SDK, and PLUed adds no analytics of its own. The sticker scanner reads stickers on your device with Google's ML Kit, which sends Google basic technical diagnostics; the picture never leaves your phone (see <a href="#scanner">Sticker scanner</a>).</li>
             <li>The optional full-access purchase is processed by the app store you installed from (Apple App Store, Google Play, or Amazon Appstore).</li>
             <li>Store Packs share as self-contained links that work offline. When a builder reaches the share step, a copy of the pack (store name, code names, practice lists) is also sent to PLUed for automated content checks, including checks by OpenAI's services, and for catalog curation. Packs never contain cashier data or learning history.</li>
+            <li>If your store gives you a store code, entering it in the app sends PLUed the code and a random install ID so your seat can be counted. No name, email, or account is involved (see <a href="#storecodes">Store codes</a>).</li>
             <li>Finishing the daily PLUzzle sends one anonymous result (puzzle number and guess count, no identifiers) to power the everyone's-guesses chart.</li>
+            <li>A store manager who buys a Store Plan on our website gives PLUed a store name and an email address. Stripe handles the payment (see <a href="#storeplans">Store Plans</a>).</li>
           </ul>
         </section>
 
@@ -73,19 +75,40 @@
           <p>PLUed also operates a hosted pack service: a pack stored on PLUed's server so a short link and QR code can deliver it. Anyone with a hosted link can view the pack's import page and use the link to import it. Hosted links should be treated as shareable, not private.</p>
           <p><strong>Automated content checks.</strong> Before a pack is hosted, its text (the store name, code names, practice-list and section names, any graphic or logo request, and the optional note to the PLUed team) is checked three ways: against a built-in word list, by OpenAI's moderation API, and by a short automated review from an OpenAI language model (gpt-4o-mini) that flags inappropriate names in any language. Photos, which only older packs contain, are checked by OpenAI's moderation API. A pack with flagged text or photos is not hosted. Hosted content is additionally screened for child-safety material.</p>
           <p><strong>What OpenAI receives.</strong> Pack text and photos are sent to OpenAI only for these checks. Under OpenAI's API policies, data sent through its API is not used to train OpenAI's models by default. OpenAI may keep API data for a limited period under OpenAI's policies to monitor for abuse.</p>
-          <p><strong>What PLUed keeps from the checks.</strong> PLUed may keep a one-way fingerprint of a checked name (a code computed from the name, not the name itself) so the same name is not checked twice. If the automated review flags a name, PLUed may keep that name for up to 30 days so the PLUed team can review it and improve the word list.</p>
+          <p><strong>What PLUed keeps from the checks.</strong> PLUed may keep a one-way fingerprint of a checked name (a code computed from the name, not the name itself) so the same name is not checked twice. If the automated review flags a name, PLUed may keep that name for up to 30 days so the PLUed team can review it and improve the word list. If the team decides a flagged name is fine, PLUed keeps that name on an allow list so it is not flagged again. The allow list holds only names the team approved, and the team can remove a name from it at any time.</p>
           <p>A <code>.plupack</code> file stays wherever its builder saves or sends it.</p>
           <p>To request removal of a hosted pack, email us with the store name and any link or pack details you have.</p>
         </section>
 
+        <section class="doc-section reveal" id="storecodes">
+          <h2>Store codes</h2>
+          <p>Some stores buy a Store Plan for their team and give cashiers a store code. Entering a store code is optional; the app works without one.</p>
+          <p><strong>What the app sends.</strong> If your store gives you a store code, entering it in the app sends PLUed two things: the store code and an install ID, a random number the app creates once on your phone. PLUed uses them only to check that the code is valid and to count seats, so entering the code again on the same phone does not use a second seat. The install ID is not your name, email, phone number, or your device's advertising or hardware ID, and it is not used for advertising or to follow you across other apps.</p>
+          <p><strong>What PLUed keeps.</strong> PLUed keeps the install ID in that store code's seat list. It is not deleted automatically, including after the store's plan renews or ends. The store's manager sees how many seats are in use, never which phones. On iPhone, a seat is held while Apple's offer-code sheet is open; if Apple's unlock never arrives, the hold stops counting after 24 hours. Apple handles the iPhone redemption itself under Apple's privacy policy.</p>
+          <p>To have your install ID removed from a store's seat list, email us with the store code.</p>
+        </section>
+
+        <section class="doc-section reveal" id="scanner">
+          <h2>Sticker scanner</h2>
+          <p><strong>Scan a sticker</strong> reads the PLU on a produce sticker on your phone. The picture is not sent anywhere and is not saved to your photo library.</p>
+          <p>The sticker reader, and on Android phones and Fire tablets the QR code reader, come from Google's ML Kit, which runs on your device. ML Kit sends Google technical diagnostics about how the reader ran (such as device model, operating system and app version, speed, and error codes) with an ID for that app install that is not meant to identify you or your device. PLUed does not receive this data. Google describes it on its <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure page</a>.</p>
+        </section>
+
         <section class="doc-section reveal" id="pluzzle">
           <h2>Anonymous daily-puzzle stats</h2>
-          <p>When you finish the daily PLUzzle, the app sends one anonymous result (the puzzle number and how many guesses you used) so the result screen can show how everyone did. No account, device identifier, or location is sent or stored. At most one result is sent per puzzle per device, and the app works normally if the submission fails or is unavailable.</p>
+          <p>When you finish the daily PLUzzle, the app sends one anonymous result (the puzzle number and how many guesses you used) so the result screen can show how everyone did. PLUed keeps only each puzzle's running totals (how many players finished in each number of guesses) and nothing else about you. No account, device identifier, or location is sent or stored. At most one result is sent per puzzle per device, and the app works normally if the submission fails or is unavailable.</p>
+        </section>
+
+        <section class="doc-section reveal" id="storeplans">
+          <h2>Store Plans</h2>
+          <p>A store manager who buys a Store Plan on <a href="/store/">plued.app/store</a> gives PLUed the store's name and an email address. Payment is handled by Stripe in a checkout form on that page, under Stripe's privacy policy; PLUed never sees card details. PLUed uses the email to send the store code and the store's private status link, and sends these emails through its Google email account. The store code is also set up with Apple as an offer code so iPhones can redeem it.</p>
+          <p>PLUed keeps the store's record (store name, email, plan and dates, store code, seat count, and Stripe's reference numbers for the customer and subscription) to run the plan. The record is kept after a plan ends as a business record; it is not deleted automatically.</p>
+          <p>Anything a store sends through its private status page (such as a request, a spreadsheet, or a logo file) is kept with the store's record so we can act on it. The form for buying for several stores collects a company name, a contact name, an email address, a phone number, the number of stores, and an optional note; it is kept so we can reply. Before it is saved, the text of a request and the names, phone number, and note in the several-stores form are checked by OpenAI's moderation API. Neither is deleted automatically; email us to ask for removal.</p>
         </section>
 
         <section class="doc-section reveal" id="contact">
           <h2>Questions or removal requests</h2>
-          <p>Email <a href="mailto:support@plued.app">support@plued.app</a>. We may update this policy when the app or hosted pack service changes. The effective date at the top shows the current version.</p>
+          <p>Email <a href="mailto:support@plued.app">support@plued.app</a>. We may update this policy when the app, the hosted pack service, or Store Plans change. The effective date at the top shows the current version.</p>
         </section>
       </article>
     </div>
