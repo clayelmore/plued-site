@@ -109,6 +109,7 @@
         closed.hidden = false;
       } else { closed.hidden = true; }
       $('portal').hidden = !s.stripe_portal;
+      renderRefund();
 
       // Deep entry from Welcome: ?to=requests&type=logo#<token>
       if (params.get('to') === 'requests') {
@@ -126,7 +127,7 @@
     function renderRequests() {
       var ul = $('request-list');
       ul.innerHTML = '';
-      var labels = { spreadsheet: S.t('reqSpreadsheet'), logo: S.t('reqLogo'), graphic: S.t('reqGraphic'), other: S.t('reqOther') };
+      var labels = { spreadsheet: S.t('reqSpreadsheet'), logo: S.t('reqLogo'), graphic: S.t('reqGraphic'), other: S.t('reqOther'), refund: S.t('reqRefund') };
       var states = { open: S.t('stateOpen'), in_progress: S.t('stateInProgress'), done: S.t('stateDone') };
       var reqs = (s.requests || []).slice().sort(function (a, b) { return String(b.created).localeCompare(String(a.created)); });
       for (var i = 0; i < reqs.length; i++) {
@@ -233,6 +234,74 @@
       reader.onerror = function () { btn.disabled = false; setStatus(st, S.t('reqUnreadable'), 'err'); };
       reader.readAsDataURL(file);
     });
+
+    // ---- Changed your mind? (money-back rule, 2026-10-05) -----------------
+    // Lives in the Plan card under Manage billing. Built here, not in the
+    // HTML, so the English and Spanish pages share it. The worker computes
+    // every number; the button only asks (refunds are made by hand in
+    // Stripe, and the refund closes the store code).
+    function refundBox() {
+      var box = $('refund');
+      if (box) return box;
+      box = document.createElement('div');
+      box.className = 'refund-box';
+      box.id = 'refund';
+      box.hidden = true;
+      var anchor = $('plan-status');
+      anchor.parentNode.insertBefore(box, anchor.nextSibling);
+      return box;
+    }
+
+    function renderRefund(message) {
+      var box = refundBox();
+      var rf = s.refund;
+      if (!rf || s.closed_at) { box.hidden = true; box.innerHTML = ''; return; }
+      var html = '<h3 id="refund-heading">' + S.esc(S.t('refundHeading')) + '</h3>';
+      if (rf.request) {
+        html += '<p class="refund-done" role="status">' + S.esc(s.email
+          ? S.t('refundRequested', { date: S.fmtDate(rf.request.created), email: s.email })
+          : S.t('refundRequestedNoEmail', { date: S.fmtDate(rf.request.created) })) + '</p>';
+      } else if (rf.within_window && rf.suggested_usd === 0) {
+        // The phones already unlocked cover the price: the rule gives $0.00,
+        // so there is nothing to ask for (owner, 2026-10-05).
+        html += '<p>' + S.esc(S.t(s.stripe_portal ? 'refundUsed' : 'refundUsedNoBilling')) + '</p>';
+      } else if (rf.within_window) {
+        var n = Number(rf.phones) || 0;
+        var phones = n === 0 ? S.t('refundPhonesNone') : n === 1 ? S.t('refundPhonesOne') : S.t('refundPhonesMany', { count: n });
+        html += '<p>' + S.esc(S.t('refundBought', { date: S.fmtDate(rf.purchased) })) + ' ' + S.esc(phones) + ' ' +
+          S.esc(S.t('refundRule', { amount: S.usd(rf.suggested_usd) })) + '</p>' +
+          '<div class="row"><button type="button" class="button kraft" id="refund-request">' + S.esc(S.t('refundButton')) + '</button></div>' +
+          '<p class="refund-closes">' + S.esc(S.t('refundCloses', { date: S.fmtDate(rf.window_end) })) + '</p>' +
+          '<p class="form-status" id="refund-status" aria-live="polite"></p>';
+      } else {
+        html += '<p>' + S.esc(S.t(s.stripe_portal ? 'refundEnded' : 'refundEndedNoBilling', { date: S.fmtDate(rf.window_end) })) + '</p>';
+      }
+      box.innerHTML = html;
+      box.setAttribute('aria-labelledby', 'refund-heading');
+      box.hidden = false;
+      var btn = $('refund-request');
+      if (btn) btn.onclick = requestRefund;
+      if (message) setStatus($('refund-status'), message, 'err');
+    }
+
+    function requestRefund() {
+      var btn = this;
+      if (!window.confirm(S.t('refundConfirm', { amount: S.usd(s.refund.suggested_usd) }))) return;
+      btn.disabled = true;
+      setStatus($('refund-status'), S.t('sending'));
+      S.api('POST', '/store/' + token + '/request', { type: 'refund' }).then(function (r) {
+        var why = r.body && r.body.error;
+        if ((r.status === 201 || why === 'refund_already_requested') && r.body && r.body.request) {
+          s.refund.request = r.body.request;
+          renderRefund();
+          load(); // the request list and every number, fresh from the worker
+          return;
+        }
+        if (why === 'refund_window_closed' || why === 'store_closed' || why === 'refund_rule_zero') { load(); return; }
+        btn.disabled = false;
+        setStatus($('refund-status'), S.t('tryAgainLater'), 'err');
+      });
+    }
 
     // ---- Billing portal ---------------------------------------------------
     $('portal').onclick = function () {

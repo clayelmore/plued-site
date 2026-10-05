@@ -83,7 +83,25 @@
       reqFlagged: 'That text could not be sent. Please reword it, or email support@plued.app.',
       reqOver: 'That file is over 2 MB.', reqBadType: 'That file type is not accepted for this request.',
       reqUnreadable: 'Could not read that file.',
-      openingStripe: 'Opening Stripe...', billingUnavailable: 'Billing is not available right now. Email support@plued.app and we handle it.'
+      openingStripe: 'Opening Stripe...', billingUnavailable: 'Billing is not available right now. Email support@plued.app and we handle it.',
+      // "Changed your mind?" (the money-back rule, 2026-10-05). The amount,
+      // the dates and the phone count come from the worker.
+      reqRefund: 'Refund',
+      refundHeading: 'Changed your mind?',
+      refundBought: 'You bought your plan on {date}.',
+      refundPhonesNone: 'No phones have unlocked so far.',
+      refundPhonesOne: '1 phone has unlocked so far.',
+      refundPhonesMany: '{count} phones have unlocked so far.',
+      refundRule: 'Under our money-back rule, you\'d get {amount} back, and your store code would close. Phones that already unlocked stay unlocked.',
+      refundButton: 'Request a refund',
+      refundCloses: 'Requests close {date}.',
+      refundConfirm: 'Request a refund of {amount}?\n\nWhen we refund, your store code closes. Phones that already unlocked stay unlocked.',
+      refundRequested: 'Refund requested on {date}. We\'ll email you at {email} within 2 business days.',
+      refundRequestedNoEmail: 'Refund requested on {date}. We\'ll email you within 2 business days.',
+      refundEnded: 'The 30-day money-back window ended on {date}. You can turn off renewal under Manage billing; your plan runs to the end of the paid year.',
+      refundEndedNoBilling: 'The 30-day money-back window ended on {date}. Your plan runs to the end of the paid year.',
+      refundUsed: 'Your plan has been used, so the money-back rule doesn\'t apply. You can turn off renewal under Manage billing.',
+      refundUsedNoBilling: 'Your plan has been used, so the money-back rule doesn\'t apply.'
     },
     es: {
       done: 'Listo', toDo: 'Pendiente', copied: 'Copiado', selectCopy: 'Selecciónalo y cópialo',
@@ -149,7 +167,23 @@
       reqFlagged: 'No se pudo enviar ese texto. Por favor, escríbelo de otra forma o escribe a support@plued.app.',
       reqOver: 'Ese archivo pesa más de 2 MB.', reqBadType: 'Ese tipo de archivo no se acepta para esta solicitud.',
       reqUnreadable: 'No se pudo leer ese archivo.',
-      openingStripe: 'Abriendo Stripe...', billingUnavailable: 'La facturación no está disponible en este momento. Escribe a support@plued.app y nosotros nos encargamos.'
+      openingStripe: 'Abriendo Stripe...', billingUnavailable: 'La facturación no está disponible en este momento. Escribe a support@plued.app y nosotros nos encargamos.',
+      reqRefund: 'Reembolso',
+      refundHeading: '¿Cambiaste de opinión?',
+      refundBought: 'Compraste tu plan el {date}.',
+      refundPhonesNone: 'Hasta ahora no se ha desbloqueado ningún teléfono.',
+      refundPhonesOne: 'Hasta ahora se ha desbloqueado 1 teléfono.',
+      refundPhonesMany: 'Hasta ahora se han desbloqueado {count} teléfonos.',
+      refundRule: 'Según nuestra regla de devolución, recibirías {amount} y tu código de tienda se cerraría. Los teléfonos que ya se desbloquearon siguen desbloqueados.',
+      refundButton: 'Solicitar un reembolso',
+      refundCloses: 'Las solicitudes se cierran el {date}.',
+      refundConfirm: '¿Solicitar un reembolso de {amount}?\n\nCuando hagamos el reembolso, tu código de tienda se cierra. Los teléfonos que ya se desbloquearon siguen desbloqueados.',
+      refundRequested: 'Reembolso solicitado el {date}. Te escribiremos a {email} en un plazo de 2 días hábiles.',
+      refundRequestedNoEmail: 'Reembolso solicitado el {date}. Te escribiremos en un plazo de 2 días hábiles.',
+      refundEnded: 'El plazo de 30 días para devolverte tu dinero terminó el {date}. Puedes desactivar la renovación en Administrar facturación; tu plan sigue hasta el final del año pagado.',
+      refundEndedNoBilling: 'El plazo de 30 días para devolverte tu dinero terminó el {date}. Tu plan sigue hasta el final del año pagado.',
+      refundUsed: 'Tu plan ya se usó, así que la regla de devolución no aplica. Puedes desactivar la renovación en Administrar facturación.',
+      refundUsedNoBilling: 'Tu plan ya se usó, así que la regla de devolución no aplica.'
     }
   };
 
@@ -175,6 +209,15 @@
   function money(tier) {
     var n = TIERS[tier];
     return n ? '$' + n : '';
+  }
+
+  /* Dollars and cents, US style in both languages: 49 -> "$49.00",
+     89.2 -> "$89.20", 1234.5 -> "$1,234.50". */
+  function usd(amount) {
+    var n = Number(amount);
+    if (!isFinite(n)) return '';
+    var parts = n.toFixed(2).split('.');
+    return '$' + parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '.' + parts[1];
   }
 
   function nextTier(tier) {
@@ -433,7 +476,7 @@
 
   window.PluedStore = {
     API: API, TIERS: TIERS, TIER_ORDER: TIER_ORDER, GET_URL: GET_URL, LANG: LANG, PREFIX: PREFIX, t: t,
-    esc: esc, money: money, nextTier: nextTier, fmtDate: fmtDate,
+    esc: esc, money: money, usd: usd, nextTier: nextTier, fmtDate: fmtDate,
     statusUrl: statusUrl, codeUrl: codeUrl, breakroomNote: breakroomNote, inviteText: inviteText,
     copyText: copyText, drawPoster: drawPoster, attachPoster: attachPoster,
     renderNextSteps: renderNextSteps, markStepDone: markStepDone, allDone: allDone, flash: flash,

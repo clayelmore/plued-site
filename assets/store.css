@@ -208,3 +208,13 @@
   .step-card.is-link, .step-card.is-link .step-go { transition: none; }
   .step-card.is-link:hover, .step-card.is-link:hover .step-go { transform: none; }
 }
+
+/* "Changed your mind?" in the Plan card (money-back rule, 2026-10-05). */
+.refund-box { max-width: 720px; margin: 4px 0 16px; padding: 16px 18px; border: 1px dashed var(--border); border-radius: 14px; background: var(--paper); }
+.refund-box h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.refund-box p { margin: 0; overflow-wrap: break-word; }
+.refund-box .row { margin-top: 12px; }
+.refund-box .refund-closes { margin-top: 8px; font-size: 0.9rem; }
+.refund-box .refund-done { color: var(--ink); }
+/* An empty status line takes no room (it still exists for aria-live). */
+.refund-box .form-status:empty { min-height: 0; margin: 0; }

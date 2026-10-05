@@ -60,7 +60,7 @@
   .wrap { overflow-x: auto; }
   .badge.apple-created { background: #e4efe7; color: var(--leaf); }
   .badge.apple-pending { background: #f8ecd8; color: var(--citrus); }
-  .badge.apple-inactive, .badge.closed { background: #f7e3e0; color: var(--tomato); }
+  .badge.apple-inactive, .badge.closed, .badge.refund { background: #f7e3e0; color: var(--tomato); }
   .badge.apple-skipped { background: #ece7db; color: var(--ink-soft); }
   .mint { display: grid; grid-template-columns: 2fr 2fr 1fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 14px; }
   .mint label { display: block; }
@@ -493,6 +493,17 @@
   }
 
   function openRequests(s) { return (s.requests || []).filter(function (r) { return r.state !== 'done'; }).length; }
+  // "Request a refund" from the store's status page (2026-10-05): the worker
+  // keeps the money-back numbers it computed at that moment on r.refund.
+  function openRefund(s) { return (s.requests || []).some(function (r) { return r.type === 'refund' && r.state !== 'done'; }); }
+  function usd(v) { return typeof v === 'number' ? '$' + v.toFixed(2) : '?'; }
+  function requestText(r) {
+    if (r.type !== 'refund') return r.text || '(file only)';
+    var t = r.refund || {};
+    return 'Refund requested. Money-back rule: ' + usd(t.suggested_usd) + ' of ' + usd(t.price_usd) +
+      ' (' + (t.phones || 0) + (t.phones === 1 ? ' phone' : ' phones') + ' unlocked at the request; bought ' + fmtDay(t.purchased) +
+      '; 30 days end ' + fmtDay(t.window_end) + '). Refund in Stripe; any amount closes the store.';
+  }
 
   function renderStores(stores) {
     storeRows.innerHTML = '';
@@ -502,7 +513,8 @@
       var tr = document.createElement('tr');
       var open = openRequests(s);
       tr.innerHTML =
-        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') + '</td>' +
+        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
+          (openRefund(s) ? ' ' + badge('refund', 'REFUND REQUESTED') : '') + '</td>' +
         '<td><b>' + esc(s.word) + '</b></td>' +
         '<td>' + esc(s.tier) + '</td>' +
         '<td>' + esc(s.used || 0) + ' / ' + esc(s.seats) + '</td>' +
@@ -559,7 +571,7 @@
       var tb = table.querySelector('tbody');
       reqs.forEach(function (r) {
         var row = document.createElement('tr');
-        row.innerHTML = '<td>' + esc(r.type) + '</td><td>' + esc(r.text || '(file only)') + '</td><td class="note">' + esc(new Date(r.created).toLocaleString()) + '</td><td></td><td></td><td></td>';
+        row.innerHTML = '<td>' + esc(r.type) + '</td><td>' + esc(requestText(r)) + '</td><td class="note">' + esc(new Date(r.created).toLocaleString()) + '</td><td></td><td></td><td></td>';
         var sel = document.createElement('select');
         ['open', 'in_progress', 'done'].forEach(function (st) { var o = document.createElement('option'); o.value = st; o.textContent = st.replace('_', ' '); if (st === r.state) o.selected = true; sel.appendChild(o); });
         sel.onchange = function () {
