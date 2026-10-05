@@ -27,7 +27,7 @@
 .tile-mock-head strong { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; line-height: 1.1; }
 .tile-mock-head span { color: var(--muted); font-size: 0.85rem; }
 .tile-mock-word { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; padding: 12px 14px; border: 1px dashed var(--border); border-radius: 10px; background: var(--paper); }
-.tile-mock-word b { font-family: "Fraunces", Georgia, serif; font-size: 1.25rem; letter-spacing: 0.08em; overflow-wrap: anywhere; }
+.tile-mock-word b { font-family: "Fraunces", Georgia, serif; font-size: clamp(0.85rem, 4.4vw, 1.2rem); letter-spacing: 0.08em; overflow-wrap: anywhere; }
 .tile-mock-word span { color: var(--muted); font-size: 0.8rem; }
 .tile-mock-foot { margin: 12px 0 0; color: var(--muted); font-size: 0.82rem; }
 
@@ -104,7 +104,7 @@
 .next-step.is-done .state { background: color-mix(in srgb, var(--success), var(--paper) 80%); border-color: color-mix(in srgb, var(--success), var(--border) 40%); color: var(--action-dark); }
 .next-step .row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
 .next-step .row .button { min-height: 44px; padding: 9px 16px; font-size: 0.95rem; }
-.word { margin: 4px 0 12px; font-family: "Fraunces", Georgia, serif; font-size: clamp(2rem, 6vw, 2.75rem); font-weight: 700; letter-spacing: 0.08em; line-height: 1.1; overflow-wrap: anywhere; }
+.word { margin: 4px 0 12px; font-family: "Fraunces", Georgia, serif; font-size: clamp(0.9rem, 4.7vw, 2.75rem); font-weight: 700; letter-spacing: 0.08em; line-height: 1.1; overflow-wrap: anywhere; }
 .breakroom { margin: 12px 0 0; padding: 14px 16px; border: 1px dashed var(--border); border-radius: 12px; background: var(--paper); color: var(--ink); font: inherit; font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
 .all-set { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 16px 20px; border: 1px solid var(--border); border-radius: 14px; background: color-mix(in srgb, var(--success), var(--card) 85%); }
 .all-set b { color: var(--action-dark); }
@@ -178,7 +178,7 @@
   .order { padding: 22px 18px 20px; }
 }
 @media (max-width: 400px) {
-  .word { font-size: 1.85rem; letter-spacing: 0.06em; }
+  .word { font-size: min(1.85rem, 4.7vw); letter-spacing: 0.06em; }
   .tier-price { font-size: 1.9rem; }
   .next-step .row .button, .status-block .row .button { width: 100%; }
 }
@@ -187,4 +187,24 @@
   .stripe-frame { background: #fbf8f1; color: #1e3b2f; }
   .stripe-mark { color: #5c6b60; }
   .stripe-frame .loading { color: #5c6b60; }
+}
+
+/* How a Store Plan works: each card is one link (owner, 2026-10-05: "It just
+   feels like it should be clickable"). The title's link stretches over the
+   whole card, so the card is the tap target and a screen reader hears one
+   link per step. 1 jumps to the plan cards, 2 and 3 to "What happens after
+   you pay". */
+.store-page #tiers, .store-page #after-pay { scroll-margin-top: 24px; }
+.step-card.is-link { transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease; }
+.step-card.is-link .step-title { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.step-card.is-link .step-link { color: inherit; text-decoration: none; }
+.step-card.is-link .step-link::after { position: absolute; inset: 0; border-radius: inherit; content: ""; }
+.step-card.is-link .step-go { flex: none; color: var(--action); font-family: "Albert Sans", Arial, sans-serif; font-size: 1.1rem; transition: transform 0.15s ease; }
+.step-card.is-link:hover { border-color: var(--action); box-shadow: var(--shadow); transform: translateY(-2px); }
+.step-card.is-link:hover .step-go { transform: translateX(3px); }
+.step-card.is-link:focus-within { outline: 3px solid var(--action); outline-offset: 3px; }
+.step-card.is-link .step-link:focus { outline: none; }
+@media (prefers-reduced-motion: reduce) {
+  .step-card.is-link, .step-card.is-link .step-go { transition: none; }
+  .step-card.is-link:hover, .step-card.is-link:hover .step-go { transform: none; }
 }

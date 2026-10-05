@@ -163,7 +163,12 @@
         S.api('GET', '/store/by-session/' + encodeURIComponent(sessionId)).then(function (r) {
           if (r.ok && r.body && r.body.token) { showWelcome(r.body.token); return; }
           tries += 1;
-          if (tries < 30) { setTimeout(poll, 2000); return; }
+          // The new store's record can take up to about a minute to reach
+          // every Cloudflare location (owner's live purchase, 2026-10-05), so
+          // keep asking for about 3 minutes: every 2 s for 30 s, then every
+          // 5 s, saying "almost done" after ~15 s so the page never looks stuck.
+          if (tries === 8) $('waiting-text').textContent = S.t('waitingAlmost');
+          if (tries < 45) { setTimeout(poll, tries < 15 ? 2000 : 5000); return; }
           $('waiting-text').textContent = S.t('waitingSlow');
         });
       })();

@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/site.css?v=bd59db03">
-  <link rel="stylesheet" href="/assets/store.css?v=007e9d6f">
+  <link rel="stylesheet" href="/assets/store.css?v=67b10511">
   <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
@@ -41,7 +41,7 @@
         </div>
         <div class="tile-mock" aria-hidden="true">
           <div class="tile-mock-head"><div class="tile-mock-logo">H</div><div><strong>Hometown Foods</strong><span>My Store, in every cashier's app</span></div></div>
-          <div class="tile-mock-word"><b>HOMETOWNFOOD</b><span>your store code</span></div>
+          <div class="tile-mock-word"><b>HOMETOWN7KM4QX9P</b><span>your store code</span></div>
           <p class="tile-mock-foot">Your codes, your logo, your seats. One tile.</p>
         </div>
       </section>
@@ -50,9 +50,9 @@
         <h2 id="how-heading">How a Store Plan works</h2>
         <div class="steps-wrap">
           <ol class="steps-flow" role="list" data-steps="3">
-            <li class="step-card"><span class="step-num" aria-hidden="true">1</span><h3 class="step-title">Buy a year</h3><p class="step-text">Pick your seats and pay by card. Your store code arrives on screen and by email.</p></li>
-            <li class="step-card"><span class="step-num" aria-hidden="true">2</span><h3 class="step-title">Share the store code</h3><p class="step-text">Print the poster or post the break-room note. One code for the whole store.</p></li>
-            <li class="step-card"><span class="step-num" aria-hidden="true">3</span><h3 class="step-title">Cashiers unlock</h3><p class="step-text">Each cashier installs PLUed, taps "Did your store give you a code?", and enters it.</p></li>
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">1</span><h3 class="step-title"><a class="step-link" href="#tiers">Buy a year</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Pick your seats and pay by card. Your store code arrives on screen and by email.</p></li>
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">2</span><h3 class="step-title"><a class="step-link" href="#after-pay">Share the store code</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Print the poster or post the break-room note. One code for the whole store.</p></li>
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">3</span><h3 class="step-title"><a class="step-link" href="#after-pay">Cashiers unlock</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Each cashier installs PLUed, taps "Did your store give you a code?", and enters it.</p></li>
           </ol>
         </div>
       </section>
@@ -119,7 +119,7 @@
           <label class="field" for="store">
             <span>Store name</span>
             <input id="store" name="store" type="text" required maxlength="80" autocomplete="organization" placeholder="As you'd say it to a cashier">
-            <span class="hint">This becomes your store code. "Hometown Foods" becomes HOMETOWNFOOD.</span>
+            <span class="hint">Your store code starts with this name, plus 8 random characters, like HOMETOWN7KM4QX9P.</span>
             <span class="field-error" id="store-error">Enter your store's name.</span>
           </label>
           <label class="field" for="email">
@@ -130,10 +130,10 @@
           <button type="submit" class="button cta" id="pay">Continue to secure checkout</button>
           <p class="form-status" id="order-status" aria-live="polite"></p>
           <p class="safe">Payment handled by Stripe. We never see your card. Your store code arrives on screen and by email the moment payment clears.</p>
-          <p class="safe">Every phone you unlock stays unlocked, even if you don't renew. Not right for your store? Email <a href="mailto:support@plued.app">support@plued.app</a> within 30 days and we'll refund it, no questions asked.</p>
+          <p class="safe">Every phone you unlock stays unlocked, even if you don't renew. Not right for your store? Email <a href="mailto:support@plued.app">support@plued.app</a> within 30 days. We'll refund your plan, minus $4.90 for each phone that has already unlocked, and close your store code.</p>
         </form>
         <aside class="order-side">
-          <h3>What happens after you pay</h3>
+          <h3 id="after-pay">What happens after you pay</h3>
           <ol>
             <li>Your store code appears on this page and in your email. It works right away.</li>
             <li>Cashiers install PLUed, tap "Did your store give you a code?", and enter the store code.</li>
@@ -219,7 +219,7 @@
   </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Built for cashiers.</span></div></div></footer>
 
   <script src="/assets/qr.js?v=4b2af7be"></script>
-  <script src="/assets/store.js?v=c7627e66"></script>
-  <script src="/assets/store-buy.js?v=a44d848b"></script>
+  <script src="/assets/store.js?v=bd9ce11b"></script>
+  <script src="/assets/store-buy.js?v=c295a3d0"></script>
 </body>
 </html>
