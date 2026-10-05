@@ -2,7 +2,8 @@
    Extends /assets/site.css (tokens, header, footer, buttons). One page per
    job; everything stacks to one column below 720px and never scrolls
    sideways at 390px. Class names are prefixed so they cannot collide with
-   the site sheet's .step / .steps (the trainer how-it-works grid). */
+   the site sheet's .steps-flow / .step-card (the circled how-it-works
+   steps, which the buying page also uses). */
 
 .store-page { padding-bottom: 40px; }
 /* The hidden attribute must win (2026-09-30). .relink-box, .all-set and
@@ -91,9 +92,11 @@
 
 /* Welcome and the Next steps checklist (shared with the status page). */
 .welcome { margin-bottom: 44px; }
+.store-how { margin: 0 0 40px; }
+.store-how h2 { margin-bottom: 18px; font-size: clamp(1.45rem, 2.4vw, 1.9rem); }
 .next-steps { display: grid; gap: 14px; margin: 18px 0 20px; padding: 0; list-style: none; counter-reset: next; }
 .next-step { position: relative; display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; padding: 22px 22px 20px; border: 1px solid var(--border); border-radius: 18px; background: var(--card); box-shadow: var(--shadow-small); counter-increment: next; }
-.next-step::before { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 12px 8px 12px 8px; background: var(--paper); content: counter(next); font-family: "Fraunces", Georgia, serif; font-size: 1.25rem; font-weight: 700; transform: rotate(-3deg); }
+.next-step::before { display: grid; place-items: center; width: 44px; height: 44px; border: 2px solid var(--action); border-radius: 50%; background: var(--paper); color: var(--action); content: counter(next); font-family: "Fraunces", Georgia, serif; font-size: 1.25rem; font-weight: 700; box-shadow: 0 0 0 5px color-mix(in srgb, var(--action), transparent 85%); }
 .next-step.is-done::before { background: var(--action); border-color: var(--action); color: #fff; content: "\2713"; }
 .next-step h3 { margin-bottom: 6px; font-size: 1.2rem; }
 .next-step p { margin-bottom: 10px; color: var(--muted); }

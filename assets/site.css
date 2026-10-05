@@ -125,6 +125,41 @@ p, ul, ol { margin-top: 0; }
 .step::before { position: absolute; top: 13px; left: 25px; display: grid; width: 44px; height: 36px; place-items: center; border: 1px solid var(--border); border-radius: 7px 5px 8px 5px; background: var(--card); box-shadow: var(--shadow-small); content: counter(steps, decimal-leading-zero); font-family: "Fraunces", Georgia, serif; font-weight: 700; transform: rotate(-3deg); }
 .step h3 { margin-bottom: 8px; }
 .step p { color: var(--muted); }
+/* Circled steps (W5, 2026-09-30). The Pack Builder's "How it works" panel is
+   the model: a numbered circle, a bold title, one plain line, boxed. Markup:
+     <div class="steps-wrap"><ol class="steps-flow" role="list" data-steps="3">
+       <li class="step-card"><span class="step-num" aria-hidden="true">1</span>
+         <h3 class="step-title">Title</h3><p class="step-text">One line.</p></li>
+     </ol></div>
+   An <ol> so a screen reader announces "1 of 3"; role="list" because Safari
+   drops list semantics from a list styled list-style: none. The visible
+   number is aria-hidden so it is not read twice. The wrapper is a size
+   container: the cards lay out by the width they are GIVEN (a full-width
+   section or a narrow docs column), never by the window. One column below
+   540 px, then a row of 3 (or 2 x 2 for four steps), then a row of 4. */
+.steps-wrap { container-type: inline-size; }
+.steps-flow { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; margin: 0; padding: 0; list-style: none; }
+.step-card { position: relative; display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 22px 22px 20px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow-small); }
+.step-num { display: grid; flex: none; width: 46px; height: 46px; place-items: center; margin-bottom: 6px; border-radius: 50%; background: var(--action); color: #fff; font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; font-weight: 700; line-height: 1; box-shadow: 0 0 0 5px color-mix(in srgb, var(--action), transparent 82%); }
+.step-card .step-title { margin: 0; color: var(--ink); font-size: clamp(1.12rem, 1.6vw, 1.3rem); overflow-wrap: break-word; hyphens: manual; }
+.step-card .step-text { margin: 0; color: var(--muted); font-size: 0.97rem; }
+.steps-note { margin: 18px 0 0; color: var(--muted); }
+@container (min-width: 540px) {
+  .steps-flow[data-steps="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .steps-flow[data-steps="4"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@container (min-width: 880px) {
+  .steps-flow[data-steps="4"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.doc-section .steps-wrap { margin: 22px 0; }
+.doc-section .steps-flow { padding: 0; }
+/* Compact: the circle beside the words, for a short flow inside a box. */
+.steps-flow.compact { gap: 10px; }
+.steps-flow.compact .step-card { flex-direction: row; align-items: center; gap: 14px; padding: 12px 14px; box-shadow: none; background: var(--paper); }
+.steps-flow.compact .step-num { width: 36px; height: 36px; margin: 0; font-size: 1.05rem; box-shadow: 0 0 0 4px color-mix(in srgb, var(--action), transparent 82%); }
+.steps-flow.compact .step-title { font-family: "Albert Sans", Arial, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: 0; }
+.steps-flow.compact .step-text { font-size: 0.92rem; }
+.doc-section .step-card .step-title { margin: 0; }
 .trainer-band { position: relative; overflow: hidden; padding: 52px; border: 1px solid var(--border); border-radius: 24px; background: var(--card-strong); box-shadow: var(--shadow); }
 .trainer-band::after { position: absolute; right: -34px; bottom: -66px; width: 235px; height: 235px; border: 18px double color-mix(in srgb, var(--border), transparent 30%); border-radius: 50%; content: ""; }
 .trainer-band > * { position: relative; z-index: 1; }
@@ -200,7 +235,7 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   .site-header { padding-top: 16px; }
   /* 2026-09-01: the 2-column grid held 4 links tidily; the fifth ("Get the
      app") spilled into a third row on its own and read as a broken menu.
-     Stack the header instead — wordmark, then one centred nav row that wraps
+     Stack the header instead — wordmark, then one centered nav row that wraps
      evenly — so adding a sixth link can never look accidental. */
   .nav-wrap { flex-direction: column; align-items: center; gap: 12px; }
   .main-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 18px; font-size: 0.84rem; }
@@ -267,3 +302,18 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
 .store-badges a{display:inline-flex;line-height:0;}
 .store-badges img{height:54px;width:auto;display:block;}
 .store-badges img.badge-play{height:80px;margin:-13px;}
+
+/* Language pill (W4, 2026-09-30). EN / ES in every page header, modeled on
+   the app's welcome-page pill. Each half is a link to the same page in the
+   other language; /assets/lang.js remembers the choice (localStorage
+   plued_lang) and carries the query and hash across so a store page keeps
+   its token. The current language is marked aria-current. */
+.lang-pill { display: inline-flex; flex: none; align-items: center; padding: 3px; border: 1px solid var(--border); border-radius: 999px; background: var(--card); box-shadow: var(--shadow-small); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em; }
+.main-nav .lang-pill a, .lang-pill a { position: relative; display: inline-grid; min-width: 44px; min-height: 30px; place-items: center; padding: 0 12px; border-radius: 999px; color: var(--muted); text-decoration: none; }
+/* 44 x 44 touch target without a taller header: each half is 44 px wide,
+   and an invisible layer extends the tap area 7 px above and below the
+   30 px visible pill (30 + 7 + 7 = 44). Nothing is drawn, so nothing moves. */
+.lang-pill a::after { position: absolute; top: -7px; right: 0; bottom: -7px; left: 0; content: ""; }
+.main-nav .lang-pill a:hover { color: var(--action); }
+.main-nav .lang-pill a[aria-current="true"], .lang-pill a[aria-current="true"] { background: var(--action); color: #fff; }
+.door .lang-pill { margin-bottom: 18px; }
