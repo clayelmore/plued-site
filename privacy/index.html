@@ -27,7 +27,7 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective August 18, 2026</span></div></div>
+      <div><span class="eyebrow">Plain-language policy</span><h1>Your practice belongs to you.</h1><p>PLUed does not require an account, does not put an analytics tracker in the app, and does not upload your learning history.</p><div class="legal-meta"><span class="tag-chip">Effective October 3, 2026</span></div></div>
       <img class="page-produce" src="/assets/img/dill.png" alt="Fresh dill">
     </div></section>
     <div class="chalk-divider"></div>
@@ -44,7 +44,7 @@
             <li>Your answers, mastery, stars, settings, streaks, and imported packs stay on your device.</li>
             <li>The app has no analytics or advertising tracking SDK.</li>
             <li>The optional full-access purchase is processed by the app store you installed from (Apple App Store, Google Play, or Amazon Appstore).</li>
-            <li>Store Packs share as self-contained links that work offline. When a builder reaches the share step, a copy of the pack (store name, code names, practice lists) is also sent to PLUed for content screening and catalog curation. Packs never contain cashier data or learning history.</li>
+            <li>Store Packs share as self-contained links that work offline. When a builder reaches the share step, a copy of the pack (store name, code names, practice lists) is also sent to PLUed for automated content checks, including checks by OpenAI's services, and for catalog curation. Packs never contain cashier data or learning history.</li>
             <li>Finishing the daily PLUzzle sends one anonymous result (puzzle number and guess count, no identifiers) to power the everyone's-guesses chart.</li>
           </ul>
         </section>
@@ -63,7 +63,7 @@
 
         <section class="doc-section reveal" id="packs">
           <h2>Store Packs and publishing</h2>
-          <p>A Store Pack shares as a self-contained link, QR code, or <code>.plupack</code> file. Its item graphics are references to PLUed's own built-in catalog images, so codes, practice lists, and graphics all travel inside the link itself, and links work offline. When a pack is shared from the builder, a copy is also sent to PLUed, where its text passes automated content screening; the PLUed team can review hosted packs and remove any pack. A pack contains only what the builder typed: a store name, code names, and practice lists. It never contains anything about the cashiers who import it.</p>
+          <p>A Store Pack shares as a self-contained link, QR code, or <code>.plupack</code> file. Its item graphics are references to PLUed's own built-in catalog images, so codes, practice lists, and graphics all travel inside the link itself, and links work offline. When a pack is shared from the builder, a copy is also sent to PLUed, where its text passes automated content checks (see <a href="#hosted">Hosted share links</a>); the PLUed team can review hosted packs and remove any pack. A pack contains only what the builder typed: a store name, code names, and practice lists. It never contains anything about the cashiers who import it.</p>
           <p>Separately, the builder has an unchecked <strong>submission</strong> box. Ticking it flags the pack for the PLUed team to consider for the built-in catalog, with an optional "who is this from?" note. Nothing is flagged for the team unless that box is ticked.</p>
           <p>Do not include employee names, schedules, customer information, or other personal information in a Store Pack.</p>
         </section>
@@ -71,7 +71,9 @@
         <section class="doc-section reveal" id="hosted">
           <h2>Hosted share links</h2>
           <p>PLUed also operates a hosted pack service: a pack stored on PLUed's server so a short link and QR code can deliver it. Anyone with a hosted link can view the pack's import page and use the link to import it. Hosted links should be treated as shareable, not private.</p>
-          <p><strong>Automated photo screening.</strong> Before any pack is hosted, any photos it contains are checked by an automated content-safety service (OpenAI's moderation API). Photos are sent only for this check, are not used to train models, and packs with flagged photos are not hosted. Hosted content is additionally screened for child-safety material.</p>
+          <p><strong>Automated content checks.</strong> Before a pack is hosted, its text (the store name, code names, practice-list and section names, any graphic or logo request, and the optional note to the PLUed team) is checked three ways: against a built-in word list, by OpenAI's moderation API, and by a short automated review from an OpenAI language model (gpt-4o-mini) that flags inappropriate names in any language. Photos, which only older packs contain, are checked by OpenAI's moderation API. A pack with flagged text or photos is not hosted. Hosted content is additionally screened for child-safety material.</p>
+          <p><strong>What OpenAI receives.</strong> Pack text and photos are sent to OpenAI only for these checks. Under OpenAI's API policies, data sent through its API is not used to train OpenAI's models by default. OpenAI may keep API data for a limited period under OpenAI's policies to monitor for abuse.</p>
+          <p><strong>What PLUed keeps from the checks.</strong> PLUed may keep a one-way fingerprint of a checked name (a code computed from the name, not the name itself) so the same name is not checked twice. If the automated review flags a name, PLUed may keep that name for up to 30 days so the PLUed team can review it and improve the word list.</p>
           <p>A <code>.plupack</code> file stays wherever its builder saves or sends it.</p>
           <p>To request removal of a hosted pack, email us with the store name and any link or pack details you have.</p>
         </section>
