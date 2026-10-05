@@ -30,8 +30,9 @@
 .tile-mock-word span { color: var(--muted); font-size: 0.8rem; }
 .tile-mock-foot { margin: 12px 0 0; color: var(--muted); font-size: 0.82rem; }
 
-/* Tier cards: a radio group drawn as three cards. */
-.tiers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 8px 0 34px; }
+/* Tier cards: a radio group drawn as four cards (one row wide, two rows
+   below 1060px, one column below 720px). */
+.tiers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin: 8px 0 34px; }
 .tier { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 10px; min-height: 100%; padding: 26px 22px 22px; border: 2px solid var(--border); border-radius: 18px; background: var(--card); color: var(--ink); text-align: left; cursor: pointer; box-shadow: var(--shadow-small); transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
 .tier:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 .tier:focus-visible { outline: 3px solid color-mix(in srgb, var(--action), transparent 50%); outline-offset: 3px; }
@@ -148,6 +149,9 @@
 .no-token h2 { font-size: 1.5rem; }
 .file-note { margin-top: 6px; color: var(--muted); font-size: 0.85rem; }
 
+@media (max-width: 1060px) {
+  .tiers { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 26px; }
+}
 @media (max-width: 900px) {
   .store-hero { grid-template-columns: minmax(0, 1fr); gap: 26px; padding-top: 44px; }
   .tile-mock { justify-self: start; }

@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/site.css?v=a61fe90b">
-  <link rel="stylesheet" href="/assets/store.css?v=d8434c38">
+  <link rel="stylesheet" href="/assets/store.css?v=ad76c946">
   <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
@@ -48,9 +48,21 @@
       <section aria-labelledby="pick-heading">
         <h2 id="pick-heading" class="visually-hidden">Choose a plan</h2>
         <div class="tiers" role="radiogroup" aria-label="Choose a plan" id="tiers">
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="10">
+            <span class="tier-seats">Up to 10 seats</span>
+            <span class="tier-price">$49<small>/year</small></span>
+            <ul>
+              <li>Your store's codes, curated and maintained by us</li>
+              <li>Your logo in every cashier's app</li>
+              <li>New produce graphics on request</li>
+              <li>A private status page</li>
+              <li>Seats for the plan year</li>
+            </ul>
+            <span class="tier-pick">Choose 10 seats</span>
+          </button>
           <button type="button" class="tier" role="radio" aria-checked="false" data-tier="25">
             <span class="tier-seats">Up to 25 seats</span>
-            <span class="tier-price">$149<small>/year</small></span>
+            <span class="tier-price">$99<small>/year</small></span>
             <ul>
               <li>Your store's codes, curated and maintained by us</li>
               <li>Your logo in every cashier's app</li>
@@ -63,7 +75,7 @@
           <button type="button" class="tier" role="radio" aria-checked="true" data-tier="50">
             <span class="tier-flag">Most stores</span>
             <span class="tier-seats">Up to 50 seats</span>
-            <span class="tier-price">$249<small>/year</small></span>
+            <span class="tier-price">$179<small>/year</small></span>
             <ul>
               <li>Your store's codes, curated and maintained by us</li>
               <li>Your logo in every cashier's app</li>
@@ -75,7 +87,7 @@
           </button>
           <button type="button" class="tier" role="radio" aria-checked="false" data-tier="100">
             <span class="tier-seats">Up to 100 seats</span>
-            <span class="tier-price">$399<small>/year</small></span>
+            <span class="tier-price">$299<small>/year</small></span>
             <ul>
               <li>Your store's codes, curated and maintained by us</li>
               <li>Your logo in every cashier's app</li>
@@ -237,9 +249,24 @@
     // ---- Config (publishable key) ----------------------------------------
     function loadConfig() {
       return S.api('GET', '/store/config').then(function (r) {
-        if (r.ok && r.body && r.body.publishable_key) { state.config = r.body; return true; }
+        if (r.ok && r.body && r.body.publishable_key) { state.config = r.body; offerConfiguredTiers(r.body.tiers); return true; }
         return false;
       });
+    }
+    // Only offer a plan the worker can sell: a tier missing from the config
+    // (its Stripe price is not set yet) hides its card instead of failing
+    // at checkout. If the hidden card was chosen, fall back to the next one.
+    function offerConfiguredTiers(tiers) {
+      if (!tiers || !tiers.length) return;
+      var sold = {};
+      for (var i = 0; i < tiers.length; i++) sold[Number(tiers[i].tier)] = true;
+      var fallback = null;
+      for (var j = 0; j < tierButtons.length; j++) {
+        var t = Number(tierButtons[j].getAttribute('data-tier'));
+        tierButtons[j].hidden = !sold[t];
+        if (sold[t] && (fallback === null || t === 50)) fallback = t;
+      }
+      if (!sold[state.tier] && fallback !== null) selectTier(fallback);
     }
     var configReady = loadConfig();
 

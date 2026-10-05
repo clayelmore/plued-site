@@ -38,6 +38,8 @@
   #status { min-height: 22px; font-size: 14px; margin: 8px 0; }
   #status.err { color: var(--tomato); }
   #status.ok { color: var(--leaf); }
+  .note.err { color: var(--tomato); }
+  .note.ok { color: var(--leaf); }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--kraft); vertical-align: top; }
   th { font-size: 11px; letter-spacing: .08em; color: var(--ink-soft); }
@@ -68,6 +70,24 @@
   .drawer-inner table { font-size: 13px; }
   .drawer-inner select { font: inherit; padding: 4px 6px; border: 1.5px solid var(--kraft); border-radius: 6px; background: #fff; }
   @media (max-width: 720px) { .mint { grid-template-columns: 1fr 1fr; } }
+  /* Review (H2d): names the AI check refused; 44 px targets, wraps at 390 px. */
+  #review button, #review input[type=text] { min-height: 44px; }
+  #review button { min-width: 44px; }
+  .review-item { border-top: 1px solid var(--kraft); padding: 12px 0; }
+  .review-item:first-child { border-top: 0; }
+  .review-meta { font-size: 12px; color: var(--ink-soft); margin-bottom: 6px; overflow-wrap: anywhere; }
+  .review-words { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+  .review-words button.word { background: #fff; color: var(--ink); border-color: var(--kraft); font-weight: 500; padding: 8px 12px; overflow-wrap: anywhere; max-width: 100%; }
+  .review-words button.word[aria-pressed="true"] { background: var(--tomato); border-color: var(--tomato); color: #fff; }
+  .review-extra { width: 100%; max-width: 480px; padding: 10px 12px; margin: 0 0 8px; border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit; }
+  .review-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .review-actions .note { flex-basis: 100%; }
+  .learned { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .learned span.term { display: inline-flex; align-items: center; gap: 6px; padding: 0 0 0 12px; border: 1.5px solid var(--kraft); border-radius: 999px; background: #fff; }
+  .learned span.term button { border-radius: 999px; padding: 6px 12px; }
+  .allowed-item { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-top: 1px solid var(--kraft); padding: 8px 0; }
+  .allowed-item:first-child { border-top: 0; }
+  .allowed-item .allowed-text { flex: 1 1 240px; min-width: 0; overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -94,6 +114,24 @@
     </table></div>
   </div>
 
+  <div class="card" id="review">
+    <h2 style="margin:0 0 4px;font-size:18px;">Names to review</h2>
+    <p class="sub" style="margin:0 0 10px;">Names the AI check refused. Tap the words that should always be refused and press Add: the word list then refuses them on its own, with no AI call. Ignore removes the item and teaches nothing. Produce words and everyday words cannot be added. Items leave on their own after 30 days.</p>
+    <p class="sub" style="margin:0 0 10px;">Allow: this name is fine; never ask the AI about it again. (The word list and the safety screen still check it.)</p>
+    <button id="reviewRefresh" class="quiet">Refresh review</button>
+    <div id="reviewStatus" class="note" role="status"></div>
+    <div id="reviewList"></div>
+    <p class="note" id="reviewEmpty" hidden>Nothing to review.</p>
+    <h3 style="margin:18px 0 0;font-size:15px;">Learned words</h3>
+    <p class="note" style="margin:2px 0 0;">Words you added. Remove one to undo it.</p>
+    <div class="learned" id="learnedList"></div>
+    <p class="note" id="learnedEmpty" hidden>No learned words yet.</p>
+    <h3 style="margin:18px 0 0;font-size:15px;">Allowed names</h3>
+    <p class="note" style="margin:2px 0 0;">Names you allowed. Remove one to undo it: that name is checked again (a pack that was already refused for it stays refused).</p>
+    <div id="allowedList"></div>
+    <p class="note" id="allowedEmpty" hidden>No allowed names yet.</p>
+  </div>
+
   <div class="card" id="requests" hidden>
     <h2 style="margin:0 0 4px;font-size:18px;">Graphic requests</h2>
     <p class="sub" style="margin:0 0 10px;">Each request parsed from its pack. Copy the Claude prompt, paste it into a Claude Code session in the PLUed repo, and the graphic joins the next build.</p>
@@ -109,7 +147,7 @@
     <form class="mint" id="mintForm" novalidate>
       <label>STORE<input id="mintStore" maxlength="80" placeholder="Hometown Foods"></label>
       <label>EMAIL<input id="mintEmail" type="email" maxlength="200" placeholder="manager@store.com"></label>
-      <label>TIER<select id="mintTier"><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select></label>
+      <label>TIER<select id="mintTier"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select></label>
       <label>PLAN END <span class="note">(optional)</span><input id="mintEnd" type="date"></label>
       <button type="submit" id="mintBtn">Mint</button>
     </form>
@@ -608,7 +646,164 @@
     }).catch(function () { btn.disabled = false; setStoresStatus('Network error.', 'err'); });
   });
 
-  document.getElementById('refresh').onclick = function () { load(); loadStores(); };
+  // ---- Review tab (H2d, 2026-10-02) ------------------------------------
+  // Names the AI check refused (GET /api/review). Tapping a word toggles it
+  // as a term to add; the free text box takes more (comma separated). Add
+  // POSTs {action:'add', terms}; Allow POSTs {action:'allow'} (H2e: an AI
+  // false positive on a real name); Ignore POSTs {action:'ignore'}. Learned
+  // words (GET /api/learned-words) can be removed (DELETE) to undo; so can
+  // allowed names (H2f: GET /api/allowed, DELETE /api/allowed/<h>). Every
+  // stored text is rendered with textContent only.
+  var reviewList = document.getElementById('reviewList');
+  var allowedList = document.getElementById('allowedList');
+  var reviewStatus = document.getElementById('reviewStatus');
+  var learnedList = document.getElementById('learnedList');
+  function setReviewStatus(msg, cls) { reviewStatus.textContent = msg || ''; reviewStatus.className = 'note ' + (cls || ''); }
+  function fieldLabel(it) {
+    var names = { store: 'Store name', code_name: 'Code name', set_name: 'Practice list', graphic_request: 'Graphic request', logo_request: 'Logo request', note: 'Note' };
+    var label = names[it.field] || it.field || 'Text';
+    if (it.plu) label += ' ' + it.plu;
+    if (it.set_id) label += ' (' + it.set_id + ')';
+    return label;
+  }
+  function wordsOf(text) {
+    var seen = {};
+    return String(text || '').split(/\s+/).map(function (w) {
+      return w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
+    }).filter(function (w) {
+      var k = w.toLowerCase();
+      if (!w || seen[k]) return false;
+      seen[k] = true;
+      return true;
+    });
+  }
+  function reviewItem(it) {
+    var box = document.createElement('div'); box.className = 'review-item';
+    var meta = document.createElement('div'); meta.className = 'review-meta';
+    meta.textContent = fieldLabel(it) + ' \u00b7 ' + (it.at ? new Date(it.at).toLocaleString() : '');
+    var words = document.createElement('div'); words.className = 'review-words';
+    var picked = {};
+    wordsOf(it.text).forEach(function (w) {
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'word';
+      b.textContent = w; b.setAttribute('aria-pressed', 'false');
+      b.onclick = function () {
+        picked[w] = !picked[w];
+        b.setAttribute('aria-pressed', picked[w] ? 'true' : 'false');
+      };
+      words.appendChild(b);
+    });
+    var full = document.createElement('div'); full.className = 'note'; full.textContent = 'Full text: ' + it.text;
+    // H2f: the AI judges the folded text; when folding changed letters
+    // (full-width, circled), show what the AI read and what Allow covers.
+    if (it.judged) {
+      var judged = document.createElement('div'); judged.className = 'note';
+      judged.textContent = 'Judged as: ' + it.judged;
+      full.appendChild(judged);
+    }
+    var extra = document.createElement('input'); extra.type = 'text'; extra.className = 'review-extra';
+    extra.placeholder = 'More words, comma separated'; extra.setAttribute('aria-label', 'Other words to add');
+    var actions = document.createElement('div'); actions.className = 'review-actions';
+    var add = document.createElement('button'); add.type = 'button'; add.textContent = 'Add to word list';
+    var allow = document.createElement('button'); allow.type = 'button'; allow.className = 'quiet'; allow.textContent = 'Allow';
+    allow.setAttribute('aria-label', 'Allow: this name is fine; never ask the AI about it again');
+    var ignore = document.createElement('button'); ignore.type = 'button'; ignore.className = 'quiet'; ignore.textContent = 'Ignore';
+    var msg = document.createElement('div'); msg.className = 'note';
+    function busy(on) { add.disabled = on; allow.disabled = on; ignore.disabled = on; }
+    add.onclick = function () {
+      var terms = Object.keys(picked).filter(function (w) { return picked[w]; });
+      extra.value.split(',').forEach(function (t) { t = t.trim(); if (t) terms.push(t); });
+      if (!terms.length) { msg.textContent = 'Tap a word or type one first.'; msg.className = 'note err'; return; }
+      busy(true);
+      storeApi('/review/' + it.id, 'POST', { action: 'add', terms: terms }).then(function (r) {
+        busy(false);
+        if (!r.ok) {
+          msg.className = 'note err';
+          msg.textContent = (r.body && r.body.message) || (r.body && r.body.detail) || apiError(r.res, r.body);
+          return;
+        }
+        setReviewStatus('Added ' + terms.join(', ') + ' to the word list.', 'ok');
+        loadReview();
+      }).catch(function () { busy(false); msg.className = 'note err'; msg.textContent = 'Network error.'; });
+    };
+    allow.onclick = function () {
+      busy(true);
+      storeApi('/review/' + it.id, 'POST', { action: 'allow' }).then(function (r) {
+        if (!r.ok) { busy(false); msg.className = 'note err'; msg.textContent = apiError(r.res, r.body); return; }
+        setReviewStatus('Allowed. The AI will not be asked about this name again.', 'ok');
+        loadReview();
+      }).catch(function () { busy(false); msg.className = 'note err'; msg.textContent = 'Network error.'; });
+    };
+    ignore.onclick = function () {
+      busy(true);
+      storeApi('/review/' + it.id, 'POST', { action: 'ignore' }).then(function (r) {
+        if (!r.ok) { busy(false); msg.className = 'note err'; msg.textContent = apiError(r.res, r.body); return; }
+        setReviewStatus('Ignored.', 'ok');
+        loadReview();
+      }).catch(function () { busy(false); msg.className = 'note err'; msg.textContent = 'Network error.'; });
+    };
+    actions.appendChild(add); actions.appendChild(allow); actions.appendChild(ignore); actions.appendChild(msg);
+    box.appendChild(meta); box.appendChild(words); box.appendChild(full); box.appendChild(extra); box.appendChild(actions);
+    return box;
+  }
+  function renderLearned(words) {
+    learnedList.innerHTML = '';
+    document.getElementById('learnedEmpty').hidden = words.length > 0;
+    words.forEach(function (w) {
+      var chip = document.createElement('span'); chip.className = 'term';
+      chip.appendChild(document.createTextNode(w.term));
+      var rm = document.createElement('button'); rm.type = 'button'; rm.className = 'quiet'; rm.textContent = 'Remove';
+      rm.setAttribute('aria-label', 'Remove ' + w.term);
+      rm.onclick = function () {
+        rm.disabled = true;
+        storeApi('/learned-words/' + encodeURIComponent(w.term), 'DELETE').then(function (r) {
+          if (!r.ok) { rm.disabled = false; setReviewStatus(apiError(r.res, r.body), 'err'); return; }
+          setReviewStatus('Removed ' + w.term + '.', 'ok');
+          loadReview();
+        }).catch(function () { rm.disabled = false; setReviewStatus('Network error.', 'err'); });
+      };
+      chip.appendChild(rm);
+      learnedList.appendChild(chip);
+    });
+  }
+  function renderAllowed(entries) {
+    allowedList.innerHTML = '';
+    document.getElementById('allowedEmpty').hidden = entries.length > 0;
+    entries.forEach(function (e) {
+      var row = document.createElement('div'); row.className = 'allowed-item';
+      var label = document.createElement('span'); label.className = 'allowed-text';
+      var shown = e.text || '(name not recorded)';
+      label.textContent = shown + (e.judged ? ' (judged as: ' + e.judged + ')' : '') + (e.at ? ' \u00b7 ' + new Date(e.at).toLocaleString() : '');
+      var rm = document.createElement('button'); rm.type = 'button'; rm.className = 'quiet'; rm.textContent = 'Remove';
+      rm.setAttribute('aria-label', 'Remove the Allow for ' + shown);
+      rm.onclick = function () {
+        rm.disabled = true;
+        storeApi('/allowed/' + encodeURIComponent(e.h), 'DELETE').then(function (r) {
+          if (!r.ok) { rm.disabled = false; setReviewStatus(apiError(r.res, r.body), 'err'); return; }
+          setReviewStatus('Removed the Allow. The AI checks that name again.', 'ok');
+          loadReview();
+        }).catch(function () { rm.disabled = false; setReviewStatus('Network error.', 'err'); });
+      };
+      row.appendChild(label); row.appendChild(rm);
+      allowedList.appendChild(row);
+    });
+  }
+  function loadReview() {
+    if (!token()) return;
+    Promise.all([storeApi('/review'), storeApi('/learned-words'), storeApi('/allowed')]).then(function (rs) {
+      var r = rs[0], lw = rs[1], al = rs[2];
+      if (!r.ok) { setReviewStatus(apiError(r.res, r.body), 'err'); return; }
+      var items = (r.body && r.body.items) || [];
+      reviewList.innerHTML = '';
+      items.forEach(function (it) { reviewList.appendChild(reviewItem(it)); });
+      document.getElementById('reviewEmpty').hidden = items.length > 0;
+      if (lw.ok) renderLearned((lw.body && lw.body.words) || []);
+      if (al.ok) renderAllowed((al.body && al.body.allowed) || []);
+      if (location.hash === '#review') document.getElementById('review').scrollIntoView();
+    }).catch(function () { setReviewStatus('Network error.', 'err'); });
+  }
+  document.getElementById('reviewRefresh').onclick = function () { if (!needToken()) { setReviewStatus(''); loadReview(); } };
+
+  document.getElementById('refresh').onclick = function () { load(); loadStores(); loadReview(); };
   var digestBtn = document.getElementById('digest');
   digestBtn.onclick = function () {
     if (needToken()) return;
@@ -623,7 +818,7 @@
     }).catch(function () { setStatus('Network error.', 'err'); });
   };
 
-  if (token()) { load(); loadStores(); }
+  if (token()) { load(); loadStores(); loadReview(); }
 })();
 </script>
 </body>
