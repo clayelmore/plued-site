@@ -46,7 +46,8 @@
       S.renderNextSteps(list, s, {
         token: token, onStatusPage: true,
         onSelfMark: function (key) { s.steps[key] = true; S.markStepDone(list, key); S.api('POST', '/store/' + token + '/step', { step: key, done: true }); },
-        onRequestLink: goToRequests
+        onRequestLink: goToRequests,
+        onLogoLink: goToLogo
       });
       var done = S.allDone(s.steps);
       list.hidden = done;
@@ -95,6 +96,7 @@
         $('pack-build').href = builder;
       }
       renderRequests();
+      renderLogo();
 
       // Plan
       $('plan-tier').textContent = S.t('planTier', { seats: s.seats, price: S.money(s.tier) });
@@ -111,11 +113,65 @@
       $('portal').hidden = !s.stripe_portal;
       renderRefund();
 
-      // Deep entry from Welcome: ?to=requests&type=logo#<token>
-      if (params.get('to') === 'requests') {
-        var t = params.get('type');
-        goToRequests(['spreadsheet', 'logo', 'graphic', 'other'].indexOf(t) >= 0 ? t : null);
+      // Deep entry from Welcome: ?to=logo#<token> (the "Add your logo"
+      // step), or ?to=requests&type=<type>#<token>. An older link that asked
+      // for the logo request opens the logo panel too.
+      if (!deepEntryDone) {
+        deepEntryDone = true;
+        var to = params.get('to'), t = params.get('type');
+        if (to === 'logo' || (to === 'requests' && t === 'logo')) goToLogo();
+        else if (to === 'requests') goToRequests(['spreadsheet', 'logo', 'graphic', 'other'].indexOf(t) >= 0 ? t : null);
       }
+    }
+    var deepEntryDone = false;
+
+    // ---- Your logo (automatic store logos, 2026-10-05) ---------------------
+    // Its own block after "Your pack", built here so the English and Spanish
+    // pages share it. The panel itself (store-logo.js) loads on first render.
+    var logoMessage = null;
+    function logoBlock() {
+      var block = $('logo-block');
+      if (block) return block;
+      block = document.createElement('section');
+      block.className = 'status-block logo-block';
+      block.id = 'logo-block';
+      block.setAttribute('aria-labelledby', 'logo-heading');
+      var pack = $('pack');
+      pack.parentNode.insertBefore(block, pack.nextSibling);
+      return block;
+    }
+    var logoScript = null;
+    function logoReady() {
+      if (window.PluedStoreLogo) return Promise.resolve();
+      if (!logoScript) {
+        logoScript = new Promise(function (resolve, reject) {
+          var el = document.createElement('script');
+          el.src = '/assets/store-logo.js';
+          el.onload = resolve;
+          el.onerror = reject;
+          document.head.appendChild(el);
+        });
+      }
+      return logoScript;
+    }
+    function renderLogo() {
+      var block = logoBlock();
+      var message = logoMessage;
+      logoMessage = null;
+      return logoReady().then(function () {
+        window.PluedStoreLogo.mount(block, {
+          s: s, token: token, message: message,
+          onAskUs: function () { goToRequests('logo'); },
+          onSaved: function (body, msg) { logoMessage = msg; load(); }
+        });
+      }, function () {
+        block.innerHTML = '<h2 id="logo-heading">' + S.esc(S.t('logoHeading')) + '</h2><p>' + S.esc(S.t('logoFailed')) + '</p>';
+      });
+    }
+    function goToLogo() {
+      var block = logoBlock();
+      block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(function () { var f = block.querySelector('.logo-pick'); if (f) f.focus(); var i = block.querySelector('#logo-file'); if (i) i.focus(); }, 400);
     }
 
     function goToRequests(type) {

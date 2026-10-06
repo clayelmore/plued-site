@@ -100,6 +100,7 @@
 .next-step.is-done::before { background: var(--action); border-color: var(--action); color: #fff; content: "\2713"; }
 .next-step h3 { margin-bottom: 6px; font-size: 1.2rem; }
 .next-step p { margin-bottom: 10px; color: var(--muted); }
+.next-step .update-note { font-size: 0.9rem; }
 .next-step .state { position: absolute; top: 18px; right: 18px; padding: 3px 9px; border-radius: 999px; background: var(--paper); border: 1px solid var(--border); color: var(--muted); font-size: 0.74rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
 .next-step.is-done .state { background: color-mix(in srgb, var(--success), var(--paper) 80%); border-color: color-mix(in srgb, var(--success), var(--border) 40%); color: var(--action-dark); }
 .next-step .row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
@@ -218,3 +219,35 @@
 .refund-box .refund-done { color: var(--ink); }
 /* An empty status line takes no room (it still exists for aria-live). */
 .refund-box .form-status:empty { min-height: 0; margin: 0; }
+
+/* "Your logo" (automatic store logos, 2026-10-05; store-logo.js). The badge
+   copies the app's StoreLogoImage: cream rounded square in both themes,
+   kraft 1 px border, radius 28% (set inline), the image at 80%. */
+.logo-block .row { margin-top: 12px; }
+.logo-pick { position: relative; min-height: 44px; cursor: pointer; }
+.logo-pick:focus-within { outline: 3px solid color-mix(in srgb, var(--action), transparent 40%); outline-offset: 2px; }
+.logo-ask { display: inline-flex; align-items: center; min-height: 44px; color: var(--action); font-weight: 700; }
+.logo-note { margin: 12px 0 0; }
+.logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid #e5d9c3; background: #faf6ee; overflow: hidden; }
+.logo-badge img { display: block; object-fit: contain; }
+.logo-preview { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 28px; margin: 10px 0 6px; padding: 16px 18px; border: 1px dashed var(--border); border-radius: 14px; background: var(--paper); }
+.logo-preview-item { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; }
+.logo-preview-item small { color: var(--muted); font-size: 0.82rem; }
+.logo-shelf { display: inline-flex; align-items: center; gap: 10px; max-width: 100%; min-width: 0; }
+.logo-shelf b { font-family: "Fraunces", Georgia, serif; font-size: 1.05rem; color: var(--ink); overflow-wrap: anywhere; }
+.logo-current { margin-bottom: 10px; }
+.logo-current-label { margin: 0; font-weight: 700; color: var(--ink); }
+.logo-preview-title { margin: 18px 0 0; font-size: 1.05rem; }
+.logo-modes .button[aria-pressed="true"] { border-color: var(--action); background: color-mix(in srgb, var(--action), var(--card) 85%); color: var(--ink); box-shadow: inset 0 0 0 1px var(--action); }
+.logo-crop { margin-top: 12px; }
+.logo-crop-frame { position: relative; display: inline-block; max-width: min(100%, 520px); line-height: 0; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+  background: repeating-conic-gradient(#e9e2d4 0% 25%, #fbf8f1 0% 50%) 0 0 / 16px 16px; }
+.logo-crop-frame img { display: block; max-width: 100%; height: auto; user-select: none; -webkit-user-drag: none; }
+.logo-crop-sel { position: absolute; box-sizing: border-box; border: 2px solid var(--action); box-shadow: 0 0 0 9999px rgba(30, 59, 47, 0.45); cursor: move; touch-action: none; }
+.logo-crop-sel:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+/* A 44 px touch target around a 16 px visible corner. */
+.logo-crop-handle { position: absolute; right: -22px; bottom: -22px; width: 44px; height: 44px; cursor: nwse-resize; touch-action: none; }
+.logo-crop-handle::after { position: absolute; top: 14px; left: 14px; width: 16px; height: 16px; border: 2px solid #fff; border-radius: 4px; background: var(--action); content: ""; }
+.logo-mono { margin-top: 12px; max-width: 260px; }
+.logo-consent { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: var(--ink); }
+.logo-consent input { width: 22px; height: 22px; flex: none; }

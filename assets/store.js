@@ -14,6 +14,11 @@
      store manager reads on either page comes from STRINGS, so the two
      languages cannot drift apart in logic. Prices, the store code, Stripe
      and support@plued.app never change with the language. */
+  /* Owner, 2026-10-05: the store apps still run 1.1.0, which has no
+     store-code entry; 1.2.0 adds "Did your store give you a code?". Set false
+     once 1.2 is live on all three stores (also SHOW_UPDATE_NOTE in
+     infra/pack-registry-worker/store.js, the welcome email). */
+  var SHOW_UPDATE_NOTE = true;
   var LANG = (document.documentElement.getAttribute('lang') || 'en').slice(0, 2) === 'es' ? 'es' : 'en';
   var PREFIX = LANG === 'es' ? '/es' : '';
   var STRINGS = {
@@ -30,12 +35,13 @@
       posterFoot: 'Every phone you unlock stays unlocked. Questions: support@plued.app',
       stepWordTitle: 'Share your store code',
       stepWordBody: 'Cashiers install PLUed, tap "Did your store give you a code?", and type this store code. Nothing else to set up.',
+      stepUpdateNote: 'Cashiers need the latest PLUed (version 1.2 or newer) to enter the store code. Ask them to update the app first.',
       copyWord: 'Copy the store code', printPoster: 'Print the poster', copyNote: 'Copy the break-room note',
       stepPackTitle: 'Build your pack',
       stepPackBody: 'Your store\'s own codes, in every cashier\'s app. Open the Pack Builder with your store name filled in, or send us your spreadsheet and we build it for you.',
       openBuilder: 'Open the Pack Builder', sendSpreadsheet: 'Send us your spreadsheet',
       stepLogoTitle: 'Add your logo',
-      stepLogoBody: 'Upload a PNG, JPG, or SVG. We prepare the 512 px graphic and put it on your store\'s tile in every cashier\'s app.',
+      stepLogoBody: 'Upload a PNG, JPG, or SVG. We square it up, show you how it looks, and put it on your store\'s tile in every cashier\'s app.',
       uploadLogo: 'Upload your logo',
       stepInviteTitle: 'Invite your cashiers',
       stepInviteBody: 'Forward the welcome email, post the break-room note, or copy the text below. This step checks itself off when the first cashier uses a seat.',
@@ -101,7 +107,37 @@
       refundEnded: 'The 30-day money-back window ended on {date}. You can turn off renewal under Manage billing; your plan runs to the end of the paid year.',
       refundEndedNoBilling: 'The 30-day money-back window ended on {date}. Your plan runs to the end of the paid year.',
       refundUsed: 'Your plan has been used, so the money-back rule doesn\'t apply. You can turn off renewal under Manage billing.',
-      refundUsedNoBilling: 'Your plan has been used, so the money-back rule doesn\'t apply.'
+      refundUsedNoBilling: 'Your plan has been used, so the money-back rule doesn\'t apply.',
+      // "Your logo" (automatic store logos, 2026-10-05). store-logo.js.
+      logoHeading: 'Your logo',
+      logoIntro: 'Your logo goes on your store\'s tile in every cashier\'s app. Pick a PNG, JPG, or SVG. We square it up right here and show you how it looks before anything is saved.',
+      logoChoose: 'Choose a logo file', logoChange: 'Choose a different file',
+      logoFileNote: 'PNG, JPG, or SVG, up to 5 MB. A square logo or a symbol works best.',
+      logoOnly: 'PNG, JPG, or SVG only.',
+      logoTooBigFile: 'That file is {mb} MB. Files up to 5 MB, please.',
+      logoUnreadable: 'We could not open that file. Try a PNG or JPG.',
+      logoWorking: 'Preparing your logo...',
+      logoWide: 'Your logo is wide, and the app shows it in a small square. Pick one:',
+      logoWideCrop: 'Crop to your symbol', logoWideMonogram: 'Use a monogram',
+      logoCropHelp: 'Drag the square over your symbol, and drag its corner to resize it. With a keyboard: the arrow keys move it, + and - resize it.',
+      logoCropRole: 'crop square', logoCropAria: 'Crop square. Arrow keys move it; plus and minus resize it.',
+      logoInitials: 'Initials (1 or 2 letters)',
+      logoBgRemoved: 'We removed the plain background.',
+      logoBgKept: 'We kept the background, so it shows inside the badge.',
+      logoPreview: 'How it looks in the app',
+      logoPreviewShelf: 'On the My Store shelf', logoPreviewWelcome: 'When a cashier adds your pack',
+      logoAlt: '{store} logo',
+      logoConsent: 'I confirm our store may use this mark.',
+      logoUse: 'Use this logo', logoSaving: 'Saving your logo...',
+      logoDone: 'Your logo is set. Cashiers see it the next time their pack updates.',
+      logoPending: 'Your logo is saved. It appears in the app once your pack is published.',
+      logoFlagged: 'We couldn\'t use this image. Please try a different one, or email support@plued.app.',
+      logoFailed: 'Could not save right now. Try again in a minute, or email support@plued.app.',
+      logoClosed: 'Your store code is closed, so the logo cannot be changed right now.',
+      logoTooDetailed: 'That image has too much detail for a small logo. Try a simpler version, or ask us to do it.',
+      logoAskUs: 'Ask us to do it instead',
+      logoCurrent: 'Your logo now',
+      logoCurrentSet: 'In the app: cashiers see it the next time their pack updates.'
     },
     es: {
       done: 'Listo', toDo: 'Pendiente', copied: 'Copiado', selectCopy: 'Selecciónalo y cópialo',
@@ -116,12 +152,13 @@
       posterFoot: 'Cada teléfono que desbloqueas sigue desbloqueado. Preguntas: support@plued.app',
       stepWordTitle: 'Comparte tu código de tienda',
       stepWordBody: 'Los cajeros instalan PLUed, tocan "¿Tu tienda te dio un código?" y escriben este código de tienda. No hay nada más que configurar.',
+      stepUpdateNote: 'Tus cajeros necesitan la versión más reciente de PLUed (1.2 o posterior) para escribir el código de tienda. Pídeles que actualicen la app primero.',
       copyWord: 'Copiar el código de tienda', printPoster: 'Imprimir el cartel', copyNote: 'Copiar la nota para la sala de descanso',
       stepPackTitle: 'Crea tu paquete',
       stepPackBody: 'Los códigos propios de tu tienda, en la app de cada cajero. Abre el Constructor de Paquetes con el nombre de tu tienda ya escrito, o envíanos tu hoja de cálculo y lo armamos por ti.',
       openBuilder: 'Abrir el Constructor de Paquetes', sendSpreadsheet: 'Enviarnos tu hoja de cálculo',
       stepLogoTitle: 'Agrega tu logotipo',
-      stepLogoBody: 'Sube un PNG, JPG o SVG. Preparamos el gráfico de 512 px y lo ponemos en el mosaico de tu tienda en la app de cada cajero.',
+      stepLogoBody: 'Sube un PNG, JPG o SVG. Lo dejamos cuadrado, te mostramos cómo se ve y lo ponemos en el mosaico de tu tienda en la app de cada cajero.',
       uploadLogo: 'Subir tu logotipo',
       stepInviteTitle: 'Invita a tus cajeros',
       stepInviteBody: 'Reenvía el correo de bienvenida, pon la nota en la sala de descanso o copia el texto de abajo. Este paso se marca solo cuando el primer cajero usa un puesto.',
@@ -183,7 +220,36 @@
       refundEnded: 'El plazo de 30 días para devolverte tu dinero terminó el {date}. Puedes desactivar la renovación en Administrar facturación; tu plan sigue hasta el final del año pagado.',
       refundEndedNoBilling: 'El plazo de 30 días para devolverte tu dinero terminó el {date}. Tu plan sigue hasta el final del año pagado.',
       refundUsed: 'Tu plan ya se usó, así que la regla de devolución no aplica. Puedes desactivar la renovación en Administrar facturación.',
-      refundUsedNoBilling: 'Tu plan ya se usó, así que la regla de devolución no aplica.'
+      refundUsedNoBilling: 'Tu plan ya se usó, así que la regla de devolución no aplica.',
+      logoHeading: 'Tu logotipo',
+      logoIntro: 'Tu logotipo aparece en el mosaico de tu tienda en la app de cada cajero. Elige un PNG, JPG o SVG. Aquí mismo lo dejamos cuadrado y te mostramos cómo se ve antes de guardar nada.',
+      logoChoose: 'Elegir un archivo de logotipo', logoChange: 'Elegir otro archivo',
+      logoFileNote: 'PNG, JPG o SVG, de hasta 5 MB. Funciona mejor un logotipo cuadrado o un símbolo.',
+      logoOnly: 'Solo PNG, JPG o SVG.',
+      logoTooBigFile: 'Ese archivo pesa {mb} MB. Usa archivos de hasta 5 MB.',
+      logoUnreadable: 'No pudimos abrir ese archivo. Prueba con un PNG o un JPG.',
+      logoWorking: 'Preparando tu logotipo...',
+      logoWide: 'Tu logotipo es ancho y la app lo muestra en un cuadro pequeño. Elige una opción:',
+      logoWideCrop: 'Recortar a tu símbolo', logoWideMonogram: 'Usar un monograma',
+      logoCropHelp: 'Arrastra el cuadro sobre tu símbolo y arrastra su esquina para cambiar el tamaño. Con el teclado: las flechas lo mueven; + y - cambian el tamaño.',
+      logoCropRole: 'cuadro de recorte', logoCropAria: 'Cuadro de recorte. Las flechas lo mueven; más y menos cambian el tamaño.',
+      logoInitials: 'Iniciales (1 o 2 letras)',
+      logoBgRemoved: 'Quitamos el fondo liso.',
+      logoBgKept: 'Dejamos el fondo, así que se ve dentro del recuadro.',
+      logoPreview: 'Cómo se ve en la app',
+      logoPreviewShelf: 'En el estante de Mi tienda', logoPreviewWelcome: 'Cuando un cajero agrega tu paquete',
+      logoAlt: 'Logotipo de {store}',
+      logoConsent: 'Confirmo que nuestra tienda puede usar esta marca.',
+      logoUse: 'Usar este logotipo', logoSaving: 'Guardando tu logotipo...',
+      logoDone: 'Tu logotipo quedó listo. Los cajeros lo ven la próxima vez que se actualice su paquete.',
+      logoPending: 'Tu logotipo está guardado. Aparece en la app cuando publiques tu paquete.',
+      logoFlagged: 'No pudimos usar esta imagen. Prueba con otra o escribe a support@plued.app.',
+      logoFailed: 'No se pudo guardar en este momento. Inténtalo de nuevo en un minuto o escribe a support@plued.app.',
+      logoClosed: 'Tu código de tienda está cerrado, así que por ahora no se puede cambiar el logotipo.',
+      logoTooDetailed: 'Esa imagen tiene demasiado detalle para un logotipo pequeño. Prueba con una versión más sencilla o pídenos que lo hagamos.',
+      logoAskUs: 'Mejor pídenos que lo hagamos',
+      logoCurrent: 'Tu logotipo actual',
+      logoCurrentSet: 'Ya está en la app: los cajeros lo ven la próxima vez que se actualice su paquete.'
     }
   };
 
@@ -366,6 +432,7 @@
     var html = '';
     html += step('word', t('stepWordTitle'),
       '<p>' + esc(t('stepWordBody')) + '</p>' +
+      (SHOW_UPDATE_NOTE ? '<p class="update-note" id="ns-update-note">' + esc(t('stepUpdateNote')) + '</p>' : '') +
       '<p class="word" id="ns-word">' + esc(s.word) + '</p>' +
       '<div class="row"><button type="button" class="button kraft" id="ns-copy-word">' + esc(t('copyWord')) + '</button>' +
       '<a class="button kraft" id="ns-poster" href="#">' + esc(t('printPoster')) + '</a>' +
@@ -377,7 +444,8 @@
       '<a class="button kraft" href="' + esc(onStatus ? '#requests' : reqUrl('spreadsheet')) + '" data-request="spreadsheet">' + esc(t('sendSpreadsheet')) + '</a></div>');
     html += step('logo', t('stepLogoTitle'),
       '<p>' + esc(t('stepLogoBody')) + '</p>' +
-      '<div class="row"><a class="button kraft" href="' + esc(onStatus ? '#requests' : reqUrl('logo')) + '" data-request="logo">' + esc(t('uploadLogo')) + '</a></div>');
+      // Automatic store logos (2026-10-05): opens the "Your logo" panel.
+      '<div class="row"><a class="button kraft" href="' + esc(onStatus ? '#logo-block' : PREFIX + '/store/s/?to=logo#' + token) + '" data-logo="1">' + esc(t('uploadLogo')) + '</a></div>');
     html += step('invite', t('stepInviteTitle'),
       '<p>' + esc(t('stepInviteBody')) + '</p>' +
       '<div class="row"><button type="button" class="button kraft" id="ns-copy-invite">' + esc(t('copyInvite')) + '</button>' +
@@ -406,6 +474,10 @@
       var b = this;
       copyText(inviteText(s.word), function (ok) { flash(b, ok ? t('copied') : t('selectCopy')); });
     };
+    if (opts.onLogoLink) {
+      var logoLink = list.querySelector('[data-logo]');
+      if (logoLink) logoLink.addEventListener('click', function (ev) { ev.preventDefault(); opts.onLogoLink(); });
+    }
     if (opts.onRequestLink) {
       var links = list.querySelectorAll('[data-request]');
       for (var i = 0; i < links.length; i++) {

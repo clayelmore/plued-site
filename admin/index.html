@@ -61,6 +61,11 @@
   .badge.apple-created { background: #e4efe7; color: var(--leaf); }
   .badge.apple-pending { background: #f8ecd8; color: var(--citrus); }
   .badge.apple-inactive, .badge.closed, .badge.refund { background: #f7e3e0; color: var(--tomato); }
+  .store-logo { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 6px; max-width: 220px; }
+  .store-logo .note { font-size: 12px; }
+  .store-logo .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; width: 36px; height: 36px; border: 1px solid #e5d9c3; border-radius: 10px; background: #faf6ee; }
+  .store-logo .logo-badge img { display: block; object-fit: contain; }
+  #stores .actions button.logo-remove { min-height: 44px; }
   .badge.apple-skipped { background: #ece7db; color: var(--ink-soft); }
   .mint { display: grid; grid-template-columns: 2fr 2fr 1fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 14px; }
   .mint label { display: block; }
@@ -505,6 +510,17 @@
       '; 30 days end ' + fmtDay(t.window_end) + '). Refund in Stripe; any amount closes the store.';
   }
 
+  // The store's uploaded logo, in the app's badge (cream, kraft border,
+  // radius 28%, image at 80%), served from the worker at the app's address.
+  // logo_live (worker): the store's pack exists and carries this logo. The
+  // ref is a hash, never the store code; it is only used in the image URL.
+  function logoCell(s) {
+    if (!s.logo_ref) return '';
+    return '<div class="store-logo"><span class="logo-badge"><img src="/assets/logos/' + encodeURIComponent(s.logo_ref) + '" alt="' + esc(s.store) + ' logo" width="29" height="29"></span>' +
+      '<span class="note">logo added (' + esc(s.logo_source || 'upload') + ')' + (s.logo_at ? ' ' + esc(fmtDay(s.logo_at)) : '') +
+      (s.logo_live ? '' : ', waiting for a pack') + '</span></div>';
+  }
+
   function renderStores(stores) {
     storeRows.innerHTML = '';
     storesTable.hidden = stores.length === 0;
@@ -514,7 +530,7 @@
       var open = openRequests(s);
       tr.innerHTML =
         '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
-          (openRefund(s) ? ' ' + badge('refund', 'REFUND REQUESTED') : '') + '</td>' +
+          (openRefund(s) ? ' ' + badge('refund', 'REFUND REQUESTED') : '') + logoCell(s) + '</td>' +
         '<td><b>' + esc(s.word) + '</b></td>' +
         '<td>' + esc(s.tier) + '</td>' +
         '<td>' + esc(s.used || 0) + ' / ' + esc(s.seats) + '</td>' +
@@ -547,7 +563,21 @@
       };
       actions.appendChild(reqBtn); actions.appendChild(document.createTextNode(' '));
       actions.appendChild(resend); actions.appendChild(document.createTextNode(' '));
-      actions.appendChild(close); actions.appendChild(page);
+      actions.appendChild(close);
+      if (s.logo_ref) {
+        // Automatic store logos (2026-10-05): the manager's upload, removable here.
+        var rmLogo = document.createElement('button'); rmLogo.className = 'danger logo-remove'; rmLogo.textContent = 'Remove logo';
+        rmLogo.onclick = function () {
+          if (!confirm('Remove the logo of "' + s.store + '"?\n\nIt comes off the store\'s pack (cashiers lose it on their next pack update) and the "Add your logo" step reopens. The store can upload again.')) return;
+          setStoresStatus('Removing the logo of ' + s.store + '...');
+          storeApi('/store/' + s.token + '/logo', 'DELETE').then(function (r) {
+            if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
+            setStoresStatus('Logo removed from ' + s.store + '.', 'ok'); loadStores(); load();
+          }).catch(function () { setStoresStatus('Network error.', 'err'); });
+        };
+        actions.appendChild(document.createTextNode(' ')); actions.appendChild(rmLogo);
+      }
+      actions.appendChild(page);
       storeRows.appendChild(tr);
       if (openDrawers[s.token]) storeRows.appendChild(drawerRow(s));
     });
