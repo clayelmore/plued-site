@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "items": [
     {
       "plu": "3012",
@@ -21795,7 +21795,8 @@
       "name": "Tomatillos",
       "category": "vegetable",
       "aliases": [
-        "Tomatillo/Husk Tomato"
+        "Tomatillo/Husk Tomato",
+        "Tomatelo"
       ],
       "image": "tomatillos.png",
       "desc": "showing small green fruit inside papery husk, resembles green tomato with husk",
