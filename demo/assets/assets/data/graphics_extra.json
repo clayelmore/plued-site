@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "note": "Graphics-only catalog entries: produce with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text.",
+  "version": 3,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies.",
   "items": [
     {
       "id": "jocote",
@@ -8,6 +8,7 @@
       "category": "fruit",
       "section": "Tropical & Exotic",
       "image": "jocote.png",
+      "since": 89,
       "aliases": [
         "ciruela",
         "ciruela roja",
@@ -26,6 +27,7 @@
       "category": "fruit",
       "section": "Tropical & Exotic",
       "image": "lulo.png",
+      "since": 89,
       "aliases": [
         "naranjilla",
         "naranjilla de Quito",
@@ -40,6 +42,7 @@
       "category": "vegetable",
       "section": "Squash & Gourds",
       "image": "chilacayota.png",
+      "since": 89,
       "aliases": [
         "chilacayote",
         "cidra",
@@ -60,6 +63,7 @@
       "category": "vegetable",
       "section": "Leafy Greens & Lettuce",
       "image": "huauzontle.png",
+      "since": 89,
       "aliases": [
         "huazontle",
         "huanzontle",
@@ -77,6 +81,7 @@
       "category": "vegetable",
       "section": "Peas & Beans",
       "image": "guajes.png",
+      "since": 89,
       "aliases": [
         "guaje",
         "huaje",
@@ -96,6 +101,7 @@
       "category": "vegetable",
       "section": "Leafy Greens & Lettuce",
       "image": "alache.png",
+      "since": 89,
       "aliases": [
         "alaches",
         "violeta de campo",
@@ -113,6 +119,7 @@
       "category": "vegetable",
       "section": "Fresh Herbs",
       "image": "culantro.png",
+      "since": 89,
       "aliases": [
         "cilantro macho",
         "cilantro ancho",
@@ -130,30 +137,12 @@
       "desc": "Culantro leaves are long, flat, and lance-shaped, about 15 to 25 centimeters long and 3 to 5 centimeters wide, glossy dark green with a pale central midrib and a finely saw-toothed edge along the entire margin, each small tooth ending in a tiny pale spine. The leaves are thick and leathery and grow directly from a short crown with no stalks, fanning out from a single base like a loose rosette. It is sold as a small bunch of roughly eight to twelve whole leaves held together by a band near the base, the leaves spreading upward and outward, sometimes with a short pale taproot still attached."
     },
     {
-      "id": "hierba_mora",
-      "name": "Hierba Mora",
-      "category": "vegetable",
-      "section": "Leafy Greens & Lettuce",
-      "image": "hierba_mora.png",
-      "aliases": [
-        "yerba mora",
-        "hierbamora",
-        "macuy",
-        "quilete",
-        "chichiquelite",
-        "mora",
-        "black nightshade greens",
-        "American black nightshade",
-        "quelite"
-      ],
-      "desc": "Hierba mora is a leafy green herb with soft, slender, branching stems carrying simple ovate, pointed leaves of noticeably different sizes, about 3 to 8 centimeters long, medium to deep green with a smooth to slightly wavy edge and a visible pale midrib. Tiny white star-shaped flowers with a bright yellow center hang in small clusters along the stems, with a few small round green berries beside them. It is sold as a loose bunch of several tender stems banded at the cut ends, roughly 25 to 35 centimeters long, with the leaves spreading outward and the flower clusters visible near the tips."
-    },
-    {
       "id": "chile_de_arbol_fresh",
-      "name": "Chile de Arbol, Fresh",
+      "name": "Chile de Árbol, Fresh",
       "category": "vegetable",
       "section": "Peppers",
       "image": "chile_de_arbol_fresh.png",
+      "since": 89,
       "aliases": [
         "chile de arbol",
         "chile de arbol fresco",
@@ -173,6 +162,7 @@
       "category": "vegetable",
       "section": "Peppers",
       "image": "chile_manzano.png",
+      "since": 89,
       "aliases": [
         "manzano pepper",
         "chile manzana",
@@ -186,6 +176,366 @@
         "apple pepper"
       ],
       "desc": "Chile manzano is a small, round, apple-shaped pepper about 3 to 5 centimeters across, with a smooth, taut, waxy skin in a uniform golden yellow to yellow-orange. The body is plump and gently lobed, with a shallow dimple at the top where a long, slender green stem bends away from a small green calyx, and a smoothly rounded base with no point. The walls are thick and the pod looks solid and heavy for its size. It is sold loose as whole pods, shown as a small pile of several whole pods, one of them halved to reveal the thick flesh around a cavity of small flat black seeds."
+    },
+    {
+      "id": "bolillo",
+      "name": "Bolillo Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "bolillo.png",
+      "since": 93,
+      "aliases": [
+        "bolillo",
+        "bolillos",
+        "bolillo roll",
+        "Mexican roll",
+        "Mexican bread roll",
+        "pan blanco",
+        "pan frances",
+        "pan francés",
+        "crusty roll",
+        "white roll"
+      ],
+      "desc": "A bolillo is a Mexican crusty white bread roll about six inches long, shaped like a short torpedo: plump in the middle and tapering to two blunt points at the ends. One single long score runs lengthwise down the top and bursts open in the oven into a raised ridge that shows a paler cream-colored edge. The crust is thin, crisp, and golden brown with a faint sheen, and the underside is paler and lightly floury. It is much shorter than a baguette and carries only one slash, and it is not a telera, which is flatter and rounder with two parallel grooves across the top. It is sold loose by the each, shown as a single whole roll."
+    },
+    {
+      "id": "donut_glazed",
+      "name": "Glazed Donut",
+      "category": "other",
+      "section": "Bakery",
+      "image": "donut_glazed.png",
+      "since": 93,
+      "aliases": [
+        "donut",
+        "donuts",
+        "doughnut",
+        "doughnuts",
+        "glazed doughnut",
+        "yeast donut",
+        "ring donut",
+        "dona",
+        "donas",
+        "dona glaseada",
+        "donas glaseadas"
+      ],
+      "desc": "A glazed donut is the plain, regular donut of the bakery case: one round yeast-raised ring with a clean hole in the center, soft and puffy, golden brown on top and bottom with a pale cream-colored band around its outer side where it floated in the fryer. The whole top and sides are coated in a thin, translucent, shiny sugar glaze with a faint crackled sheen, with no sprinkles, no colored frosting, and no filling. It is a fried bakery item, not the flat donut peach or saturn peach of the produce aisle. It is sold by the each, shown as a single whole donut from a three-quarter top view with the hole clearly visible."
+    },
+    {
+      "id": "muffin_bakery",
+      "name": "Muffin",
+      "category": "other",
+      "section": "Bakery",
+      "image": "muffin_bakery.png",
+      "since": 93,
+      "aliases": [
+        "muffin",
+        "muffins",
+        "blueberry muffin",
+        "bakery muffin",
+        "mantecada",
+        "mantecadas",
+        "panque",
+        "panqué",
+        "panquecito",
+        "magdalena",
+        "muffin de mora azul",
+        "muffin de arándano"
+      ],
+      "desc": "A bakery muffin is a single tall quick-bread pastry baked in a pleated white paper liner, with a large golden-brown domed top that rises and spills slightly over the edge of the liner. The crust is rough, craggy, and crackled, dotted with dark purple-blue blueberries bursting at the surface and a light scatter of coarse sparkling sugar. It has no frosting, which sets it apart from a cupcake. It is sold by the each from the bakery pastry case, shown as a single whole blueberry muffin from a slight three-quarter side view so both the liner and the dome are visible."
+    },
+    {
+      "id": "concha_pan_dulce",
+      "name": "Concha (Pan Dulce)",
+      "category": "other",
+      "section": "Bakery",
+      "image": "concha_pan_dulce.png",
+      "since": 93,
+      "aliases": [
+        "concha",
+        "conchas",
+        "pan dulce",
+        "concha de vainilla",
+        "concha bread",
+        "Mexican sweet bread",
+        "Mexican sweet bun"
+      ],
+      "desc": "A concha is the best-known Mexican pan dulce: a round, domed, palm-sized soft sweet bun whose top is covered by a thick, crumbly sugar-paste topping scored into a seashell pattern, curved grooves fanning out like a scallop shell. The classic vanilla concha has a pale cream-white topping, with the golden-brown bread showing through the cracks between the topping sections and a golden-brown bun base around the lower edge; pink and chocolate toppings are also common. The shell pattern sets it apart from other pan dulce such as cuernos or orejas. It is sold loose by the each, shown as a single whole vanilla concha from a three-quarter top view."
+    },
+    {
+      "id": "tortillas_flour",
+      "name": "Flour Tortillas",
+      "category": "other",
+      "section": "Bakery",
+      "image": "tortillas_flour.png",
+      "since": 93,
+      "aliases": [
+        "tortilla",
+        "tortillas",
+        "flour tortilla",
+        "tortillas de harina",
+        "tortilla de harina",
+        "tortillas de harina de trigo",
+        "tortilla de trigo",
+        "wheat tortillas",
+        "soft tortillas"
+      ],
+      "desc": "Flour tortillas are thin, round, soft flatbreads made from wheat flour, pale cream to off-white with scattered light golden-brown toasted spots from the griddle, soft and pliable with slightly uneven round edges. They are paler, thinner, and larger than corn tortillas, which are yellow and thicker. They are sold by the stack, often fresh from the store's tortilleria, shown as a neat small pile of about six tortillas lying flat from a three-quarter top view."
+    },
+    {
+      "id": "green_almonds",
+      "name": "Green Almonds",
+      "category": "fruit",
+      "section": "Stone Fruit",
+      "image": "green_almonds.png",
+      "aliases": [
+        "green almond",
+        "fresh green almonds",
+        "fresh almonds",
+        "young almonds",
+        "almonds in the hull",
+        "loz akhdar",
+        "lozeh akhdar",
+        "lawz akhdar",
+        "lozeh",
+        "chaghaleh badoom",
+        "chaghaleh badam",
+        "chagaleh badoom",
+        "cagla",
+        "cagla badem"
+      ],
+      "desc": "Green almonds are small, flattened oval fruits about the size of a large grape, each shaped like a plump almond with one end slightly more pointed than the other and a faint seam along one edge. The hull is pale to mid green and covered all over in soft, velvety fuzz that gives it a matte, faintly silvery sheen, never glossy and never orange or blushed. Some carry a short, thin green-brown stem; there are no leaves and no hard tan shell. They are flatter and more pointed than apricots or green plums and much shorter than bean pods. They are sold loose by the pound in spring, shown as a small pile of about twelve green almonds sitting fully inside the frame with every almond whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "green_pistachios_fresh",
+      "name": "Green Pistachios",
+      "category": "fruit",
+      "section": "Tropical & Exotic",
+      "image": "green_pistachios_fresh.png",
+      "aliases": [
+        "green pistachio",
+        "fresh green pistachios",
+        "fresh pistachios",
+        "raw pistachios",
+        "wet pistachios",
+        "pistachios in the hull",
+        "pesteh tazeh",
+        "pesteh taze",
+        "fustuq",
+        "fistuk",
+        "fustuq halabi",
+        "fustok halabi",
+        "taze fistik"
+      ],
+      "desc": "Fresh pistachios are small teardrop-shaped fruits about the size of a large chickpea to a small olive, each fuller at one end and tapering to a soft point. The soft, smooth, matte hull is pale cream to yellow-green, blushed in patches with rose pink, red and dusky purple-red, often with a few tiny pale speckles or small light-brown bruises, so a heap shows a mix of creamy and rosy fruit rather than one solid color. The hull covers the whole fruit; no beige shell and no green nut show, and the fruit is opaque, not glassy like a grape. A few fruits are still joined on short, thin, branching tan-green stems. They are sold loose by the pound in late summer, shown as a small pile of about fifteen fresh pistachios sitting fully inside the frame with every pistachio whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "green_olives_fresh",
+      "name": "Green Olives",
+      "category": "fruit",
+      "section": "Other Vegetables",
+      "image": "green_olives_fresh.png",
+      "aliases": [
+        "fresh green olives",
+        "fresh olives",
+        "raw olives",
+        "raw green olives",
+        "uncured olives",
+        "curing olives",
+        "pickling olives",
+        "zaytoun",
+        "zaytoun akhdar",
+        "zaitoon",
+        "zeytoon tazeh",
+        "taze zeytin",
+        "Manzanillo olives",
+        "Sevillano olives"
+      ],
+      "desc": "Fresh green olives are firm, smooth, evenly oval fruits about the size of a large grape, symmetrical with gently rounded ends, a tiny stem scar at one end, and no point or beak. The skin is taut and glossy with a light waxy shine, an even bright leaf green to slightly yellowish green, with a few tiny pale dots, and one or two olives in the pile are just turning, blushed violet-purple at one end, never red or orange. They are opaque and solid-looking, never translucent like grapes, never veined like gooseberries, and never wrinkled, cracked, or wet like brined olives. There are no leaves and no stems. They are sold loose by the pound in fall for home curing, shown as a small pile of about twenty olives sitting fully inside the frame with every olive whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "grape_leaves_fresh",
+      "name": "Grape Leaves",
+      "category": "vegetable",
+      "section": "Leafy Greens & Lettuce",
+      "image": "grape_leaves_fresh.png",
+      "aliases": [
+        "fresh grape leaves",
+        "vine leaves",
+        "grapevine leaves",
+        "grape vine leaves",
+        "waraq enab",
+        "warak enab",
+        "warak inab",
+        "waraq inab",
+        "dawali",
+        "barg-e mo",
+        "barg e mo",
+        "uzum yapragi",
+        "asma yapragi",
+        "dolma leaves",
+        "dolmeh leaves",
+        "hojas de parra"
+      ],
+      "desc": "Fresh grape leaves are thin, flat, hand-sized leaves with a broad, roughly heart-shaped outline, three to five shallow pointed lobes, a deep notch where the short leaf stem joins, and finely toothed edges all the way around. The top surface is smooth, slightly satiny, bright to mid green, with fine pale veins fanning out from the stem point; the underside is a paler gray-green. They are broad and lobed, never the narrow smooth-edged oval of a bay leaf, and thinner, smoother and more finely toothed than a fig leaf, with no grapes or tendrils. They are sold by the pound in late spring and early summer, shown as a neat stacked pile of about ten fresh grape leaves lying flat, the top leaf fully visible and the edges of the leaves beneath fanned out slightly, with their short stems together at the bottom, all fully inside the frame.",
+      "since": 94
+    },
+    {
+      "id": "mloukhiye",
+      "name": "Molokhia (Jute Mallow)",
+      "category": "vegetable",
+      "section": "Leafy Greens & Lettuce",
+      "image": "mloukhiye.png",
+      "aliases": [
+        "mloukhiye",
+        "mloukhiyeh",
+        "mlokhiyeh",
+        "molokhiya",
+        "mulukhiyah",
+        "mulukhiya",
+        "melokhia",
+        "molokheya",
+        "mulukhia",
+        "malukhiyah",
+        "jute mallow",
+        "Jew's mallow",
+        "saluyot",
+        "moroheiya",
+        "Corchorus olitorius"
+      ],
+      "desc": "Mloukhiye is sold as a bunch of long, slender, leafy stems, the stems green with a faint reddish-brown tint, each carrying many glossy dark green leaves set one at a time alternately along its length on short thin leaf stalks. The leaves are flat and thin, narrowly oval to lance-shaped, about 5 to 10 centimeters long, tapering to a pointed tip, with a finely saw-toothed edge, a pale midrib, and prominent veins. At the base of each leaf the two lowest teeth stretch into a pair of fine thread-like bristles that curve back toward the stalk, a detail spinach, mint, and basil never show. The leaves are not paired like mint or basil, not broad and smooth-edged like spinach, and carry no flowers. It is a bunch of about ten forearm-length leafy stems tied together at the stem ends, the leaves spreading outward, the whole bunch with every leaf tip and both stem ends sitting fully inside the frame with a small margin all around.",
+      "since": 94
+    },
+    {
+      "id": "kusa_squash",
+      "name": "Kusa Squash",
+      "category": "vegetable",
+      "section": "Squash & Gourds",
+      "image": "kusa_squash.png",
+      "aliases": [
+        "kusa",
+        "kousa",
+        "koosa",
+        "cousa",
+        "coosa",
+        "kousa squash",
+        "cousa squash",
+        "koosa squash",
+        "Lebanese squash",
+        "Middle Eastern squash",
+        "gray squash",
+        "Mexican gray squash"
+      ],
+      "desc": "Kusa is a short summer squash about 12 to 15 centimeters long and about a third as wide, a straight, smooth cylinder that widens slightly toward the blossom end and has bluntly rounded ends. The skin is thin, smooth, and faintly glossy, a soft pale mint to gray-green with fine, faint whitish speckles, much lighter than a dark green zucchini and clearly green, never cream-white. A short, ridged green stem stub sits at the narrow end and a small dry blossom scar at the other. It is about half the length of a regular zucchini and a little stockier than a baby zucchini, with no ribs or furrows. It is sold loose by the pound, shown as a small pile of about five squash lying side by side, sitting fully inside the frame with every squash whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "rashad",
+      "name": "Garden Cress (Rashad)",
+      "category": "vegetable",
+      "section": "Fresh Herbs",
+      "image": "rashad.png",
+      "aliases": [
+        "rashad",
+        "rshad",
+        "rishad",
+        "rachad",
+        "garden cress",
+        "cress",
+        "pepper cress",
+        "peppergrass",
+        "pepperwort",
+        "broadleaf cress",
+        "Persian cress",
+        "Iraqi cress",
+        "shahi",
+        "Lepidium sativum"
+      ],
+      "desc": "Rashad is garden cress sold as a bunch of young, tender plants about 25 centimeters tall, with slender, smooth, pale green stems that branch near the top. The leaves are small, about 4 to 8 centimeters long, thin, flat, and matte, a fresh light-to-medium green, mostly spoon-shaped to oblong with finely toothed or shallowly lobed edges, and a few narrow strap-like leaves near the stem tips. The leaves sit singly along the upper stems rather than in round paired leaflets like watercress, and they are smaller, lighter, and far less deeply lobed than arugula. There are no roots, no flowers, and no tray of sprouts. It is a bunch of about twenty slender stems gathered and tied near the cut base, the leaves loosely spreading at the top.",
+      "since": 94
+    },
+    {
+      "id": "turmeric_root",
+      "name": "Turmeric Root",
+      "category": "vegetable",
+      "section": "Root Vegetables",
+      "image": "turmeric_root.png",
+      "aliases": [
+        "turmeric",
+        "fresh turmeric",
+        "haldi",
+        "kurkum",
+        "zardchoobeh",
+        "zardchubeh",
+        "zerdecal",
+        "curcuma",
+        "Curcuma longa"
+      ],
+      "desc": "Fresh turmeric is sold as small, slender, finger-like rhizomes, each about the length of a thumb or a little longer and much thinner than ginger, slightly curved, with an occasional short knob or side branch. The thin skin is rough, tan-brown with a warm orange cast, and marked with fine, closely spaced rings, with a few spots where bright orange shows through. Beside the whole fingers lies exactly one finger cut crosswise, showing a dense, vivid carrot-orange interior with a slightly lighter orange ring under the skin, which tells it apart from ginger and its pale beige flesh. These are separate small fingers, not one large, plump, branched ginger hand. It is sold loose by the pound, shown as a small pile of about seven fingers plus the one cut finger, sitting fully inside the frame with every piece whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "sour_grapes_hosrom",
+      "name": "Sour Grapes (Hosrom)",
+      "category": "fruit",
+      "section": "Grapes",
+      "image": "sour_grapes_hosrom.png",
+      "aliases": [
+        "hosrom",
+        "husrum",
+        "hosrum",
+        "hosroum",
+        "housrom",
+        "husroum",
+        "hisrim",
+        "hesrem",
+        "sour hosrom",
+        "unripe grapes",
+        "green sour grapes",
+        "sour green grapes",
+        "ghooreh",
+        "ghoureh",
+        "ghureh",
+        "ghoreh",
+        "koruk",
+        "agraz",
+        "verjuice grapes"
+      ],
+      "desc": "Sour hosrom are unripe grapes picked weeks before they sweeten, sold as a small, compact bunch of hard, perfectly round berries on fresh green stems. Each berry is about the size of a large pea to a small marble, clearly smaller and rounder than a ripe green table grape, and the berries sit tightly packed against each other. The skin is smooth and taut, a deep, even grass green to slightly olive green, opaque with only a faint sheen and none of the pale yellow-green, see-through glow of ripe green grapes. The branching stems are pale green and fresh, not brown or woody. They are sold by the pound, shown as a single short bunch of about thirty berries hanging from its stem, sitting fully inside the frame with every berry whole and visible.",
+      "since": 94
+    },
+    {
+      "id": "green_sour_plums",
+      "name": "Sour Plums, Green",
+      "category": "fruit",
+      "section": "Stone Fruit",
+      "image": "green_sour_plums.png",
+      "aliases": [
+        "green sour",
+        "green sour plums",
+        "sour green plums",
+        "Persian sour plums",
+        "Persian green plums",
+        "goje sabz",
+        "gojeh sabz",
+        "gojeh",
+        "goje",
+        "janarek",
+        "janerik",
+        "janarik",
+        "janerek",
+        "jarareng",
+        "canerik",
+        "yesil erik",
+        "alycha",
+        "alcha",
+        "greengage",
+        "greengages"
+      ],
+      "desc": "Green sour plums are small, hard, unripe plums about the size of a cherry tomato or a large grape, round to slightly oval, each with a faint seam running down one side. The skin is thin, taut, smooth, and glossy, an even bright emerald to grass green with no yellow, no blush, and no dusty bloom. They are far smaller, shinier, and greener than a ripe green plum or a green plumcot, and each is a separate loose fruit. A few carry a tiny thin green stalk; most have none. They are sold loose by the pound, shown as a small pile of about twelve plums sitting fully inside the frame with every plum whole and visible.",
+      "since": 94
     }
   ]
 }

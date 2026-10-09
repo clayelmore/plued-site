@@ -52,6 +52,8 @@
   .badge.submitted { background: #e4efe7; color: var(--leaf); }
   .badge.reports { background: #f7e3e0; color: var(--tomato); }
   .badge.request { background: #f8ecd8; color: var(--citrus); }
+  .badge.request-done { background: #e4efe7; color: var(--leaf); }
+  .request-close { margin-top: 6px; min-height: 44px; }
   .note { color: var(--ink-soft); font-size: 13px; }
   pre {
     background: #10241b; color: #e7f0e9; border-radius: 10px; padding: 14px;
@@ -139,7 +141,7 @@
 
   <div class="card" id="requests" hidden>
     <h2 style="margin:0 0 4px;font-size:18px;">Graphic requests</h2>
-    <p class="sub" style="margin:0 0 10px;">Each request parsed from its pack. Copy the Claude prompt, paste it into a Claude Code session in the PLUed repo, and the graphic joins the next build.</p>
+    <p class="sub" style="margin:0 0 10px;">Each open request parsed from its pack. Copy the Claude prompt, paste it into a Claude Code session in the PLUed repo, and the graphic joins the next build. Once the picture is live in the builder, press Mark done on the pack's row below: the request leaves this list and the daily email, and the builder tells the trainer the picture is ready.</p>
     <div class="wrap"><table>
       <thead><tr><th>Stand-in art</th><th>PLU</th><th>Name</th><th>Description</th><th>Store</th><th></th></tr></thead>
       <tbody id="requestRows"></tbody>
@@ -262,8 +264,69 @@
       '5. Run flutter test, then commit.';
   }
 
+  // ---- Closing a graphic request (owner 2026-10-07) ----------------------
+  // The worker keeps graphic_done_at on a pack's entry only while the request
+  // on file is the one that was closed (a publish that asks for something new
+  // drops it), so its presence beside a request means "closed".
+  function requestClosed(entry) {
+    return !!entry.graphic_requests && typeof entry.graphic_done_at === 'number';
+  }
+  // Mark done sends the request text this page displayed (`seen`). If the
+  // trainer has published a different request since the page loaded, the
+  // worker closes nothing and answers 409: the list reloads and this line
+  // stays on screen, so a line the owner never read is never closed.
+  function requestChangedNote(body) {
+    if (body && body.error === 'no_request') {
+      return 'Nothing was marked done: this store no longer has a graphic request. The list is refreshed.';
+    }
+    return 'Nothing was marked done: this request changed since the page loaded. The list is refreshed. Read the request again, then press Mark done.';
+  }
+  // The request block of a pack row: badge, the trainer's text, and Mark done
+  // or Reopen. The text is the trainer's own, so it goes in with textContent.
+  function requestBlock(entry) {
+    var done = requestClosed(entry);
+    var box = document.createElement('div');
+    var badge = document.createElement('span');
+    badge.className = done ? 'badge request-done' : 'badge request';
+    badge.textContent = done ? 'GRAPHIC REQUEST DONE' : 'GRAPHIC REQUEST';
+    box.appendChild(badge);
+    var text = document.createElement('div');
+    text.className = 'note';
+    text.style.whiteSpace = 'pre-line';
+    text.textContent = entry.graphic_requests;
+    box.appendChild(text);
+    if (done) {
+      var when = document.createElement('div');
+      when.className = 'note';
+      when.textContent = 'Marked done ' + new Date(entry.graphic_done_at).toLocaleString() + '. A new request from this store reopens it.';
+      box.appendChild(when);
+    }
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'quiet request-close';
+    btn.textContent = done ? 'Reopen' : 'Mark done';
+    btn.onclick = function () {
+      if (needToken()) return;
+      btn.disabled = true;
+      setStatus(done ? 'Reopening...' : 'Marking done...');
+      fetch(API + '/packs/' + entry.pack_id + '/requests', {
+        method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()),
+        body: JSON.stringify(done ? { graphic_done: false } : { graphic_done: true, seen: entry.graphic_requests }),
+      }).then(function (res) {
+        return res.json().catch(function () { return null; }).then(function (body) {
+          if (res.status === 409) { load(requestChangedNote(body)); return; }
+          if (!res.ok) { btn.disabled = false; setStatus(apiError(res, body), 'err'); return; }
+          load();
+        });
+      }).catch(function () { btn.disabled = false; setStatus('Network error.', 'err'); });
+    };
+    box.appendChild(btn);
+    return box;
+  }
+
   function parseRequests(entry) {
     var out = [];
+    if (requestClosed(entry)) return out; // closed: off the workbench
     String(entry.graphic_requests || '').split('\n').forEach(function (line) {
       var m = line.match(/^(\d{3,5})\s+(.*?):\s*(.+)$/);
       if (m) out.push({ plu: m[1], name: m[2], desc: m[3], store: entry.store_name || '', packId: entry.pack_id });
@@ -371,17 +434,15 @@
       flags += '<div class="note"><b>Logo request:</b> ' + esc(entry.logo_request || '(none)') +
         (entry.logo_ref ? ' &middot; <b>logo:</b> ' + esc(entry.logo_ref) : ' &middot; no logo set') + '</div>';
     }
-    if (entry.graphic_requests) {
-      flags += '<span class="badge request">GRAPHIC REQUEST</span>' +
-        '<div class="note">' + esc(entry.graphic_requests) + '</div>';
-    }
+    var hasRequest = !!entry.graphic_requests;
     tr.innerHTML =
       '<td>' + esc(entry.store_name || '(unnamed)') +
         '<div class="id">' + esc(entry.pack_id) + '</div></td>' +
       '<td>' + (entry.codes_count || 0) + '</td>' +
       '<td>' + new Date(entry.received_at).toLocaleString() + '</td>' +
-      '<td>' + (flags || '<span class="note">none</span>') + '</td>' +
+      '<td class="flags">' + (flags || (hasRequest ? '' : '<span class="note">none</span>')) + '</td>' +
       '<td class="actions"></td>';
+    if (hasRequest) tr.querySelector('.flags').appendChild(requestBlock(entry));
     var actions = tr.querySelector('.actions');
 
     var view = document.createElement('button');
@@ -448,7 +509,8 @@
     return tr;
   }
 
-  function load() {
+  // `note` (optional): a line to leave on screen once the list has reloaded.
+  function load(note) {
     if (needToken()) return;
     setStatus('Loading…');
     fetch(API + '/packs', { headers: auth() }).then(function (res) {
@@ -460,7 +522,8 @@
         renderRequests(entries);
         // Owner: nothing to digest -> no send button.
         digestBtn.hidden = entries.length === 0;
-        setStatus(entries.length + ' hosted pack(s).', 'ok');
+        if (typeof note === 'string' && note) setStatus(note, 'err');
+        else setStatus(entries.length + ' hosted pack(s).', 'ok');
       });
     }).catch(function () { setStatus('Network error.', 'err'); });
   }
@@ -706,6 +769,8 @@
     var label = names[it.field] || it.field || 'Text';
     if (it.plu) label += ' ' + it.plu;
     if (it.set_id) label += ' (' + it.set_id + ')';
+    // F1: an alternate-language name names its language (e.g. "Code name 4011, es").
+    if (it.lang) label += ', ' + it.lang;
     return label;
   }
   function wordsOf(text) {

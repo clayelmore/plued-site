@@ -120,11 +120,6 @@ p, ul, ol { margin-top: 0; }
 .feature-visual img { width: 128px; max-height: 122px; object-fit: contain; filter: drop-shadow(0 10px 10px rgba(44, 36, 26, 0.14)); }
 .feature-icon { width: 94px; height: 94px; color: var(--action); }
 .feature-number { position: absolute; top: 16px; right: 17px; color: color-mix(in srgb, var(--muted), transparent 38%); font-family: "Fraunces", Georgia, serif; font-size: 0.85rem; font-weight: 700; }
-.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; counter-reset: steps; }
-.step { position: relative; padding: 70px 26px 28px; border-top: 2px dashed var(--border); counter-increment: steps; }
-.step::before { position: absolute; top: 13px; left: 25px; display: grid; width: 44px; height: 36px; place-items: center; border: 1px solid var(--border); border-radius: 7px 5px 8px 5px; background: var(--card); box-shadow: var(--shadow-small); content: counter(steps, decimal-leading-zero); font-family: "Fraunces", Georgia, serif; font-weight: 700; transform: rotate(-3deg); }
-.step h3 { margin-bottom: 8px; }
-.step p { color: var(--muted); }
 /* Circled steps (W5, 2026-09-30). The Pack Builder's "How it works" panel is
    the model: a numbered circle, a bold title, one plain line, boxed. Markup:
      <div class="steps-wrap"><ol class="steps-flow" role="list" data-steps="3">
@@ -160,6 +155,7 @@ p, ul, ol { margin-top: 0; }
 .steps-flow.compact .step-title { font-family: "Albert Sans", Arial, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: 0; }
 .steps-flow.compact .step-text { font-size: 0.92rem; }
 .doc-section .step-card .step-title { margin: 0; }
+
 .trainer-band { position: relative; overflow: hidden; padding: 52px; border: 1px solid var(--border); border-radius: 24px; background: var(--card-strong); box-shadow: var(--shadow); }
 .trainer-band::after { position: absolute; right: -34px; bottom: -66px; width: 235px; height: 235px; border: 18px double color-mix(in srgb, var(--border), transparent 30%); border-radius: 50%; content: ""; }
 .trainer-band > * { position: relative; z-index: 1; }
@@ -201,9 +197,6 @@ p, ul, ol { margin-top: 0; }
 .mini-card { padding: 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); }
 .mini-card strong { display: block; margin-bottom: 5px; }
 .mini-card p { margin-bottom: 0; font-size: 0.92rem; }
-.number-list { display: grid; gap: 18px; padding: 0; list-style: none; counter-reset: ordered; }
-.number-list li { position: relative; min-height: 48px; padding-left: 62px; counter-increment: ordered; }
-.number-list li::before { position: absolute; top: 0; left: 0; display: grid; width: 42px; height: 36px; place-items: center; border: 1px solid var(--border); border-radius: 7px 5px; background: var(--card); color: var(--ink); content: counter(ordered); font-family: "Fraunces", Georgia, serif; font-weight: 700; box-shadow: var(--shadow-small); transform: rotate(-2deg); }
 .data-table { width: 100%; margin: 20px 0; border-collapse: collapse; font-size: 0.9rem; }
 .data-table th, .data-table td { padding: 12px 14px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
 .data-table th { background: var(--card-strong); color: var(--ink); }
@@ -245,7 +238,7 @@ code { padding: 0.1em 0.35em; border: 1px solid var(--border); border-radius: 5p
   .p-avocado { --size: 105px; } .p-apple { --size: 88px; } .p-grapes { --size: 64px; } .p-dill { --size: 76px; } .p-cantaloupe { --size: 78px; }
   .p-plantain { --size: 110px; } .p-cabbage { --size: 83px; } .p-squash { --size: 81px; } .p-pepper { --size: 64px; } .p-lemons { --size: 59px; }
   .section { padding: 66px 0; }
-  .stats-grid, .feature-grid, .steps, .footer-grid, .mini-grid { grid-template-columns: 1fr; }
+  .stats-grid, .feature-grid, .footer-grid, .mini-grid { grid-template-columns: 1fr; }
   .feature-card { min-height: auto; }
   .trainer-band { padding: 34px 24px; }
   .page-hero { padding: 55px 0 40px; }

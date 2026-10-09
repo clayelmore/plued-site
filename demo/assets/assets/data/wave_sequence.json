@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "description": "PLUed Memorization Learning Sequence — all codes verified against IFPS registry, with size/region/variety splits",
+  "description": "PLUed Memorization Learning Sequence: all codes verified against IFPS registry, with size/region/variety splits",
   "mastery_threshold": 0.7,
   "expansion_count": 2,
   "verification_sources": [
@@ -12,7 +12,7 @@
     "Multiple retailer training flashcard sets (Quizlet)"
   ],
   "design_notes": [
-    "Items with size-based PLU variants are taught as SIZE SETS — all sizes presented together on one card.",
+    "Items with size-based PLU variants are taught as SIZE SETS: all sizes presented together on one card.",
     "Items with variety/form splits (bunch vs crowns, field vs greenhouse) are taught as VARIANT SETS.",
     "Items with regional splits (East/Central vs West) include case-count context so learners understand the overlap.",
     "Fuzzy logic should flag when a learner enters a valid code for the item but wrong size/region/form.",
@@ -64,12 +64,12 @@
           "codes": [
             {
               "plu": 4665,
-              "desc": "Yellow/Brown — Small",
+              "desc": "Yellow/Brown: Small",
               "size": "Small"
             },
             {
               "plu": 4093,
-              "desc": "Yellow/Brown — Large",
+              "desc": "Yellow/Brown: Large",
               "size": "Large",
               "size_spec": "3 count and larger, min diameter 75mm+"
             }
@@ -87,7 +87,7 @@
           "codes": [
             {
               "plu": 4087,
-              "desc": "Plum/Italian/Saladette/Roma — Red",
+              "desc": "Plum/Italian/Saladette/Roma: Red",
               "size": "All Sizes"
             }
           ],
@@ -100,13 +100,13 @@
           "codes": [
             {
               "plu": 4133,
-              "desc": "Gala — Small",
+              "desc": "Gala: Small",
               "size": "Small",
               "size_spec": "100 count and smaller, avg fruit weight < 205g"
             },
             {
               "plu": 4135,
-              "desc": "Gala — Large",
+              "desc": "Gala: Large",
               "size": "Large",
               "size_spec": "88 count and larger, avg fruit weight 205g+"
             }
@@ -163,20 +163,20 @@
           "codes": [
             {
               "plu": 4065,
-              "desc": "Bell, Field Grown — Green, Large",
+              "desc": "Bell, Field Grown: Green, Large",
               "size": "Large",
               "size_spec": "min diameter 65mm+",
               "grow_method": "field"
             },
             {
               "plu": 4681,
-              "desc": "Bell, Greenhouse — Green, Small",
+              "desc": "Bell, Greenhouse: Green, Small",
               "size": "Small",
               "grow_method": "greenhouse"
             },
             {
               "plu": 3120,
-              "desc": "Bell, Greenhouse — Green, Large",
+              "desc": "Bell, Greenhouse: Green, Large",
               "size": "Large",
               "grow_method": "greenhouse"
             }
@@ -207,13 +207,13 @@
           "codes": [
             {
               "plu": 4070,
-              "desc": "Celery Bunch — Small",
+              "desc": "Celery Bunch: Small",
               "size": "Small",
               "size_spec": "30 count and smaller"
             },
             {
               "plu": 4583,
-              "desc": "Celery Bunch — Large",
+              "desc": "Celery Bunch: Large",
               "size": "Large",
               "size_spec": "24 count and larger"
             }
@@ -231,19 +231,19 @@
           "codes": [
             {
               "plu": 4046,
-              "desc": "Hass — Small/Medium",
+              "desc": "Hass: Small/Medium",
               "size": "Small/Med",
               "size_spec": "60 count and smaller, ~3-5 oz"
             },
             {
               "plu": 4225,
-              "desc": "Hass — Large",
+              "desc": "Hass: Large",
               "size": "Large",
               "size_spec": "40-48 count, ~8-10 oz"
             },
             {
               "plu": 4770,
-              "desc": "Hass — Extra Large",
+              "desc": "Hass: Extra Large",
               "size": "Extra Large",
               "size_spec": "36 count and larger, ~10-15 oz"
             }
@@ -269,17 +269,17 @@
           "codes": [
             {
               "plu": 4033,
-              "desc": "Lemon — Small",
+              "desc": "Lemon: Small",
               "size": "Small"
             },
             {
               "plu": 4958,
-              "desc": "Lemon — Medium",
+              "desc": "Lemon: Medium",
               "size": "Medium"
             },
             {
               "plu": 4053,
-              "desc": "Lemon — Large",
+              "desc": "Lemon: Large",
               "size": "Large"
             }
           ],
@@ -355,35 +355,35 @@
           "codes": [
             {
               "plu": 4013,
-              "desc": "Navel — Small, West",
+              "desc": "Navel: Small, West",
               "size": "Small",
               "region": "West (CA/AZ)",
               "size_spec": "113 count and smaller"
             },
             {
               "plu": 3107,
-              "desc": "Navel — Medium, West",
+              "desc": "Navel: Medium, West",
               "size": "Medium",
               "region": "West (CA/AZ)",
               "size_spec": "72-88 count"
             },
             {
               "plu": 4012,
-              "desc": "Navel — Large, West",
+              "desc": "Navel: Large, West",
               "size": "Large",
               "region": "West (CA/AZ)",
               "size_spec": "56 count and larger"
             },
             {
               "plu": 4384,
-              "desc": "Navel — Small, East/Central",
+              "desc": "Navel: Small, East/Central",
               "size": "Small",
               "region": "East/Central (FL)",
               "size_spec": "125 count and smaller"
             },
             {
               "plu": 4385,
-              "desc": "Navel — Large, East/Central",
+              "desc": "Navel: Large, East/Central",
               "size": "Large",
               "region": "East/Central (FL)",
               "size_spec": "100 count and larger"
@@ -400,7 +400,7 @@
     {
       "wave": 3,
       "label": "Mushroom & Corn",
-      "description": "Common checkout items — mushrooms have size/variety splits",
+      "description": "Common checkout items: mushrooms have size/variety splits",
       "unlock": "wave_2_mastery >= 0.70",
       "items": [
         {
@@ -410,13 +410,13 @@
           "codes": [
             {
               "plu": 4645,
-              "desc": "Regular Button — Small",
+              "desc": "Regular Button: Small",
               "size": "Small",
               "size_spec": "< 40mm diameter"
             },
             {
               "plu": 4085,
-              "desc": "Regular Button — Large",
+              "desc": "Regular Button: Large",
               "size": "Large",
               "size_spec": "40mm diameter and above"
             }
@@ -455,13 +455,13 @@
           "codes": [
             {
               "plu": 4088,
-              "desc": "Bell, Field Grown — Red",
+              "desc": "Bell, Field Grown: Red",
               "size": "All Sizes",
               "grow_method": "field"
             },
             {
               "plu": 4688,
-              "desc": "Bell, Greenhouse — Red",
+              "desc": "Bell, Greenhouse: Red",
               "size": "All Sizes",
               "grow_method": "greenhouse"
             }
@@ -469,7 +469,7 @@
           "card_note": "Field grown (4088) is in the veggie block right after Roma tomato (4087). Greenhouse (4688) is in the 46xx zone. Your store may use one or the other, check what's stocked.",
           "most_common": {
             "plu": 4088,
-            "reason": "Varies by store — field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
+            "reason": "Varies by store: field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
           }
         },
         {
@@ -479,13 +479,13 @@
           "codes": [
             {
               "plu": 4129,
-              "desc": "Fuji — Small",
+              "desc": "Fuji: Small",
               "size": "Small",
               "size_spec": "100 count and smaller, avg fruit weight < 205g"
             },
             {
               "plu": 4131,
-              "desc": "Fuji — Large",
+              "desc": "Fuji: Large",
               "size": "Large",
               "size_spec": "88 count and larger, avg fruit weight 205g+"
             }
@@ -511,12 +511,12 @@
           "codes": [
             {
               "plu": 4805,
-              "desc": "Vine Ripe, Regular — Red, Small",
+              "desc": "Vine Ripe, Regular: Red, Small",
               "size": "Small"
             },
             {
               "plu": 3151,
-              "desc": "Vine Ripe, Regular — Red, Large",
+              "desc": "Vine Ripe, Regular: Red, Large",
               "size": "Large",
               "size_spec": "5x6 and larger, diameter 70mm+"
             }
@@ -545,7 +545,7 @@
     {
       "wave": 6,
       "label": "Squash & Spinach",
-      "description": "Popular cooking vegetables — both are single codes",
+      "description": "Popular cooking vegetables (both are single codes)",
       "unlock": "wave_5_mastery >= 0.70",
       "items": [
         {
@@ -559,7 +559,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "No size split. Yellow zucchini/gold bar=4086. Regular zucchini (4067) is in the veggie block between green pepper (4065) and green onion (4068)."
+          "card_note": "No size split. Yellow zucchini/Gold Bar=4086. Regular zucchini (4067) is in the veggie block between green pepper (4065) and green onion (4068)."
         },
         {
           "name": "Spinach",
@@ -613,12 +613,12 @@
           "codes": [
             {
               "plu": 4049,
-              "desc": "Cantaloupe/Muskmelon — Small",
+              "desc": "Cantaloupe/Muskmelon: Small",
               "size": "Small"
             },
             {
               "plu": 4050,
-              "desc": "Cantaloupe/Muskmelon — Large",
+              "desc": "Cantaloupe/Muskmelon: Large",
               "size": "Large"
             }
           ],
@@ -643,13 +643,13 @@
           "codes": [
             {
               "plu": 4139,
-              "desc": "Granny Smith — Small",
+              "desc": "Granny Smith: Small",
               "size": "Small",
               "size_spec": "100 count and smaller, avg fruit weight < 205g"
             },
             {
               "plu": 4017,
-              "desc": "Granny Smith — Large",
+              "desc": "Granny Smith: Large",
               "size": "Large",
               "size_spec": "88 count and larger, avg fruit weight 205g+"
             }
@@ -701,13 +701,13 @@
           "codes": [
             {
               "plu": 4079,
-              "desc": "Cauliflower — Small",
+              "desc": "Cauliflower: Small",
               "size": "Small",
               "size_spec": "12 count and smaller"
             },
             {
               "plu": 4572,
-              "desc": "Cauliflower — Large",
+              "desc": "Cauliflower: Large",
               "size": "Large",
               "size_spec": "9 count and larger"
             },
@@ -751,13 +751,13 @@
           "codes": [
             {
               "plu": 4680,
-              "desc": "Bell, Field Grown — Golden Yellow",
+              "desc": "Bell, Field Grown: Golden Yellow",
               "size": "All Sizes",
               "grow_method": "field"
             },
             {
               "plu": 4689,
-              "desc": "Bell, Greenhouse — Yellow",
+              "desc": "Bell, Greenhouse: Yellow",
               "size": "All Sizes",
               "grow_method": "greenhouse"
             }
@@ -775,7 +775,7 @@
           "codes": [
             {
               "plu": 4664,
-              "desc": "Regular — Red, On the Vine (Truss)",
+              "desc": "Regular: Red, On the Vine (Truss)",
               "size": "All Sizes"
             }
           ],
@@ -833,7 +833,7 @@
     {
       "wave": 12,
       "label": "Pear Trio",
-      "description": "Three most common pear varieties — all have size splits; Bosc also has a regional split",
+      "description": "Three most common pear varieties: all have size splits; Bosc also has a regional split",
       "unlock": "wave_11_mastery >= 0.70",
       "items": [
         {
@@ -843,12 +843,12 @@
           "codes": [
             {
               "plu": 4024,
-              "desc": "Bartlett/Williams — Small",
+              "desc": "Bartlett/Williams: Small",
               "size": "Small"
             },
             {
               "plu": 4409,
-              "desc": "Bartlett/Williams — Large",
+              "desc": "Bartlett/Williams: Large",
               "size": "Large"
             }
           ],
@@ -865,12 +865,12 @@
           "codes": [
             {
               "plu": 4025,
-              "desc": "D'Anjou — Small",
+              "desc": "D'Anjou: Small",
               "size": "Small"
             },
             {
               "plu": 4416,
-              "desc": "D'Anjou — Large",
+              "desc": "D'Anjou: Large",
               "size": "Large"
             }
           ],
@@ -887,25 +887,25 @@
           "codes": [
             {
               "plu": 4026,
-              "desc": "Bosc — Small/Large, West",
+              "desc": "Bosc: Small/Large, West",
               "size": "Small",
               "region": "West"
             },
             {
               "plu": 4411,
-              "desc": "Bosc — Small, East",
+              "desc": "Bosc: Small, East",
               "size": "Small",
               "region": "East"
             },
             {
               "plu": 4413,
-              "desc": "Bosc — Large, West",
+              "desc": "Bosc: Large, West",
               "size": "Large",
               "region": "West"
             },
             {
               "plu": 4412,
-              "desc": "Bosc — Large, East",
+              "desc": "Bosc: Large, East",
               "size": "Large",
               "region": "East"
             }
@@ -913,7 +913,7 @@
           "card_note": "Bosc is the most complex pear, 4 codes split by size AND region, similar to navel orange. 4026 (West) is in the fruit row. 4411-4413 are in the pear zone.",
           "most_common": {
             "plu": 4413,
-            "reason": "Large West Bosc is most common — majority of US pears come from WA/OR"
+            "reason": "Large West Bosc is most common (majority of US pears come from WA/OR)"
           }
         }
       ]
@@ -921,7 +921,7 @@
     {
       "wave": 13,
       "label": "Hot Peppers",
-      "description": "Jalapeño, serrano, poblano, and habanero — the four most common hot peppers",
+      "description": "Jalapeño, serrano, poblano, and habanero: the four most common hot peppers",
       "unlock": "wave_12_mastery >= 0.70",
       "items": [
         {
@@ -931,12 +931,12 @@
           "codes": [
             {
               "plu": 4693,
-              "desc": "Jalapeño — Green",
+              "desc": "Jalapeño: Green",
               "size": "All Sizes"
             },
             {
               "plu": 4694,
-              "desc": "Jalapeño — Red",
+              "desc": "Jalapeño: Red",
               "size": "All Sizes"
             }
           ],
@@ -990,7 +990,7 @@
     {
       "wave": 14,
       "label": "Pineapple & Mango",
-      "description": "Tropical fruits — pineapple has size split, mango has color/size splits",
+      "description": "Tropical fruits: pineapple has size split, mango has color/size splits",
       "unlock": "wave_13_mastery >= 0.70",
       "items": [
         {
@@ -1000,13 +1000,13 @@
           "codes": [
             {
               "plu": 4029,
-              "desc": "Pineapple — Small",
+              "desc": "Pineapple: Small",
               "size": "Small",
               "size_spec": "12 count and smaller"
             },
             {
               "plu": 4430,
-              "desc": "Pineapple — Large",
+              "desc": "Pineapple: Large",
               "size": "Large",
               "size_spec": "8 count and larger"
             }
@@ -1024,13 +1024,13 @@
           "codes": [
             {
               "plu": 4051,
-              "desc": "Red Mango (Tommy Atkins/Haden/Kent) — Small",
+              "desc": "Red Mango (Tommy Atkins/Haden/Kent): Small",
               "size": "Small",
               "size_spec": "12 count and smaller"
             },
             {
               "plu": 4959,
-              "desc": "Red Mango — Large",
+              "desc": "Red Mango: Large",
               "size": "Large",
               "size_spec": "8-10 count"
             }
@@ -1069,13 +1069,13 @@
           "codes": [
             {
               "plu": 4080,
-              "desc": "Asparagus, Green — Small/Standard",
+              "desc": "Asparagus, Green: Small/Standard",
               "size": "Small",
               "size_spec": "Standard and large size"
             },
             {
               "plu": 4521,
-              "desc": "Asparagus, Green — Large/Jumbo",
+              "desc": "Asparagus, Green: Large/Jumbo",
               "size": "Large",
               "size_spec": "Jumbo and extra large size"
             }
@@ -1114,22 +1114,22 @@
           "codes": [
             {
               "plu": 4074,
-              "desc": "Sweet Potato — Red/Orange Flesh, Small",
+              "desc": "Sweet Potato: Red/Orange Flesh, Small",
               "size": "Small"
             },
             {
               "plu": 4817,
-              "desc": "Sweet Potato — Red/Orange Flesh, Large",
+              "desc": "Sweet Potato: Red/Orange Flesh, Large",
               "size": "Large"
             },
             {
               "plu": 4816,
-              "desc": "Sweet Potato — Golden",
+              "desc": "Sweet Potato: Golden",
               "size": "All Sizes"
             },
             {
               "plu": 4091,
-              "desc": "Sweet Potato — White",
+              "desc": "Sweet Potato: White",
               "size": "All Sizes"
             }
           ],
@@ -1157,7 +1157,7 @@
     {
       "wave": 17,
       "label": "Stone Fruits",
-      "description": "Peaches, nectarines, and plums — seasonal but high volume. All have size splits.",
+      "description": "Peaches, nectarines, and plums: seasonal but high volume. All have size splits.",
       "unlock": "wave_16_mastery >= 0.70",
       "items": [
         {
@@ -1167,13 +1167,13 @@
           "codes": [
             {
               "plu": 4038,
-              "desc": "Yellow Peach — Small",
+              "desc": "Yellow Peach: Small",
               "size": "Small",
               "size_spec": "70 count and smaller"
             },
             {
               "plu": 4044,
-              "desc": "Yellow Peach — Large/Ready-to-Eat",
+              "desc": "Yellow Peach: Large/Ready-to-Eat",
               "size": "Large",
               "size_spec": "Tree ripened, ready-to-eat"
             }
@@ -1191,13 +1191,13 @@
           "codes": [
             {
               "plu": 4035,
-              "desc": "Yellow Nectarine — Small",
+              "desc": "Yellow Nectarine: Small",
               "size": "Small",
               "size_spec": "70 count and smaller"
             },
             {
               "plu": 4036,
-              "desc": "Yellow Nectarine — Large",
+              "desc": "Yellow Nectarine: Large",
               "size": "Large",
               "size_spec": "56 count and larger"
             }
@@ -1220,7 +1220,7 @@
             },
             {
               "plu": 4042,
-              "desc": "Red Plum — Large",
+              "desc": "Red Plum: Large",
               "size": "Large"
             }
           ],
@@ -1235,7 +1235,7 @@
     {
       "wave": 18,
       "label": "Herbs",
-      "description": "Parsley (two types), basil, dill, and mint — the most common fresh herbs after cilantro",
+      "description": "Parsley (two types), basil, dill, and mint: the most common fresh herbs after cilantro",
       "unlock": "wave_17_mastery >= 0.70",
       "items": [
         {
@@ -1275,7 +1275,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "4885. Opal basil=4886, Sweet basil=4887. Herbs are clustered 4885-4908: Basil(4885), Chives(4888), Cilantro(4889), Dill(4891), Mint(4896), Parsley curly(4899), Parsley Italian(4901), Rosemary(4903), Thyme(4907)."
+          "card_note": "4885. Opal basil=4886, Sweet basil=4887. Herbs are clustered 4885-4908: Basil (4885), Chives (4888), Cilantro (4889), Dill (4891), Mint (4896), Parsley curly (4899), Parsley Italian (4901), Rosemary (4903), Thyme (4907)."
         },
         {
           "name": "Fresh Dill",
@@ -1301,7 +1301,7 @@
               "size": "All Sizes"
             }
           ],
-          "card_note": "4896. In the herb cluster between lemon grass (4894) and oregano (4897)."
+          "card_note": "4896. In the herb cluster between lemongrass (4894) and oregano (4897)."
         }
       ]
     },
@@ -1402,7 +1402,7 @@
     {
       "wave": 21,
       "label": "More Apples: Red & Golden Delicious",
-      "description": "Classic apple varieties — both have size AND regional splits like navel orange",
+      "description": "Classic apple varieties: both have size AND regional splits like navel orange",
       "unlock": "wave_20_mastery >= 0.70",
       "items": [
         {
@@ -1412,31 +1412,31 @@
           "codes": [
             {
               "plu": 4015,
-              "desc": "Red Delicious — Small, West",
+              "desc": "Red Delicious: Small, West",
               "size": "Small",
               "region": "West"
             },
             {
               "plu": 4016,
-              "desc": "Red Delicious — Large, West",
+              "desc": "Red Delicious: Large, West",
               "size": "Large",
               "region": "West"
             },
             {
               "plu": 4167,
-              "desc": "Red Delicious — Small, East/Central",
+              "desc": "Red Delicious: Small, East/Central",
               "size": "Small",
               "region": "East/Central"
             },
             {
               "plu": 4168,
-              "desc": "Red Delicious — Large, East/Central",
+              "desc": "Red Delicious: Large, East/Central",
               "size": "Large",
               "region": "East/Central"
             },
             {
               "plu": 3284,
-              "desc": "Red Delicious — Extra Large, West",
+              "desc": "Red Delicious: Extra Large, West",
               "size": "Extra Large",
               "region": "West"
             }
@@ -1454,17 +1454,17 @@
           "codes": [
             {
               "plu": 4021,
-              "desc": "Golden Delicious — Small",
+              "desc": "Golden Delicious: Small",
               "size": "Small"
             },
             {
               "plu": 4020,
-              "desc": "Golden Delicious — Large",
+              "desc": "Golden Delicious: Large",
               "size": "Large"
             },
             {
               "plu": 3285,
-              "desc": "Golden Delicious — Extra Large/Jumbo",
+              "desc": "Golden Delicious: Extra Large/Jumbo",
               "size": "Extra Large"
             }
           ],
@@ -1489,12 +1489,12 @@
           "codes": [
             {
               "plu": 4128,
-              "desc": "Pink Lady/Cripps Pink — Small",
+              "desc": "Pink Lady/Cripps Pink: Small",
               "size": "Small"
             },
             {
               "plu": 4130,
-              "desc": "Pink Lady/Cripps Pink — Large",
+              "desc": "Pink Lady/Cripps Pink: Large",
               "size": "Large"
             }
           ],
@@ -1511,12 +1511,12 @@
           "codes": [
             {
               "plu": 4101,
-              "desc": "Braeburn — Small",
+              "desc": "Braeburn: Small",
               "size": "Small"
             },
             {
               "plu": 4103,
-              "desc": "Braeburn — Large",
+              "desc": "Braeburn: Large",
               "size": "Large"
             }
           ],
@@ -1541,13 +1541,13 @@
           "codes": [
             {
               "plu": 4047,
-              "desc": "Ruby/Red/Pink Grapefruit — Small",
+              "desc": "Ruby/Red/Pink Grapefruit: Small",
               "size": "Small",
               "size_spec": "40 count and smaller"
             },
             {
               "plu": 4281,
-              "desc": "Ruby Red Grapefruit — Large",
+              "desc": "Ruby Red Grapefruit: Large",
               "size": "Large"
             }
           ],
@@ -1564,7 +1564,7 @@
           "codes": [
             {
               "plu": 4796,
-              "desc": "Cherry Tomato — Red",
+              "desc": "Cherry Tomato: Red",
               "size": "All Sizes"
             }
           ],
@@ -1577,7 +1577,7 @@
           "codes": [
             {
               "plu": 4799,
-              "desc": "Greenhouse/Hydroponic Tomato — Regular Red, Large",
+              "desc": "Greenhouse/Hydroponic Tomato: Regular Red, Large",
               "size": "Large"
             }
           ],
@@ -1598,7 +1598,7 @@
           "codes": [
             {
               "plu": 4081,
-              "desc": "Eggplant/Aubergine — Regular/Purple",
+              "desc": "Eggplant/Aubergine: Regular/Purple",
               "size": "All Sizes"
             }
           ],
@@ -1624,7 +1624,7 @@
           "codes": [
             {
               "plu": 4089,
-              "desc": "Radish — Bunched Red",
+              "desc": "Radish: Bunched Red",
               "size": "All Sizes"
             }
           ],
@@ -1645,7 +1645,7 @@
           "codes": [
             {
               "plu": 4539,
-              "desc": "Beets — Red",
+              "desc": "Beets: Red",
               "size": "All Sizes"
             }
           ],
@@ -1658,7 +1658,7 @@
           "codes": [
             {
               "plu": 4629,
-              "desc": "Leek — Regular",
+              "desc": "Leek: Regular",
               "size": "All Sizes"
             }
           ],
@@ -1682,7 +1682,7 @@
     {
       "wave": 26,
       "label": "Winter Squash",
-      "description": "Spaghetti squash and delicata — seasonal but popular",
+      "description": "Spaghetti squash and delicata, seasonal but popular",
       "unlock": "wave_25_mastery >= 0.70",
       "items": [
         {
@@ -1705,7 +1705,7 @@
           "codes": [
             {
               "plu": 4784,
-              "desc": "Yellow Squash — Crookneck",
+              "desc": "Yellow Squash: Crookneck",
               "size": "All Sizes"
             }
           ],
@@ -1718,7 +1718,7 @@
           "codes": [
             {
               "plu": 4782,
-              "desc": "Yellow Squash — Straightneck",
+              "desc": "Yellow Squash: Straightneck",
               "size": "All Sizes"
             }
           ],
@@ -1739,7 +1739,7 @@
           "codes": [
             {
               "plu": 4394,
-              "desc": "Papaya/Pawpaw — Regular, Large",
+              "desc": "Papaya/Pawpaw: Regular, Large",
               "size": "Large",
               "size_spec": "9 count and larger"
             }
@@ -1766,29 +1766,29 @@
           "codes": [
             {
               "plu": 4312,
-              "desc": "Yellow Mango (Ataulfo/Honey Manila) — Small",
+              "desc": "Yellow Mango (Ataulfo/Honey Manila): Small",
               "size": "Small",
               "size_spec": "18 count and smaller"
             },
             {
               "plu": 4961,
-              "desc": "Yellow Mango — Large",
+              "desc": "Yellow Mango: Large",
               "size": "Large",
               "size_spec": "16 count and larger"
             }
           ],
           "most_common": {
             "plu": 4312,
-            "reason": "Small Ataulfo is the standard size — they're naturally smaller than red mangos"
+            "reason": "Small Ataulfo is the standard size. They're naturally smaller than red mangos"
           },
-          "card_note": "Mangos are coded by SKIN COLOR: Red=4051/4959 (wave 14), Yellow/Ataulfo=4312/4961, Green/Keitt=4311. Ataulfo is flatter, creamier, and less fibrous than red varieties."
+          "card_note": "Mangoes are coded by SKIN COLOR: Red=4051/4959 (wave 14), Yellow/Ataulfo=4312/4961, Green/Keitt=4311. Ataulfo is flatter, creamier, and less fibrous than red varieties."
         }
       ]
     },
     {
       "wave": 28,
       "label": "Cherries, Tangerines & Apricots",
-      "description": "Fruits sold loose that actually need PLU entry — not clamshell/scan items",
+      "description": "Fruits sold loose that actually need PLU entry (not clamshell/scan items)",
       "unlock": "wave_27_mastery >= 0.70",
       "items": [
         {
@@ -1798,7 +1798,7 @@
           "codes": [
             {
               "plu": 4045,
-              "desc": "Cherries — Regular/Red/Black",
+              "desc": "Cherries: Regular/Red/Black",
               "size": "All Sizes"
             }
           ],
@@ -1824,7 +1824,7 @@
           "codes": [
             {
               "plu": 4218,
-              "desc": "Apricots — Yellow",
+              "desc": "Apricots: Yellow",
               "size": "All Sizes"
             }
           ],
@@ -1858,13 +1858,13 @@
           "codes": [
             {
               "plu": 4682,
-              "desc": "Bell, Field Grown — Orange",
+              "desc": "Bell, Field Grown: Orange",
               "size": "All Sizes",
               "grow_method": "field"
             },
             {
               "plu": 3121,
-              "desc": "Bell, Greenhouse — Orange",
+              "desc": "Bell, Greenhouse: Orange",
               "size": "All Sizes",
               "grow_method": "greenhouse"
             }
@@ -1893,7 +1893,7 @@
     {
       "wave": 30,
       "label": "Specialty Items",
-      "description": "Jicama, plantain, tomatillo — items that round out a well-stocked produce department",
+      "description": "Jicama, plantain, tomatillo: items that round out a well-stocked produce department",
       "unlock": "wave_29_mastery >= 0.70",
       "items": [
         {
@@ -1942,12 +1942,12 @@
           "codes": [
             {
               "plu": 4329,
-              "desc": "Honeydew/White Honeydew — Small",
+              "desc": "Honeydew/White Honeydew: Small",
               "size": "Small"
             },
             {
               "plu": 4034,
-              "desc": "Honeydew/White Honeydew — Large",
+              "desc": "Honeydew/White Honeydew: Large",
               "size": "Large",
               "size_spec": "5 count and larger"
             }

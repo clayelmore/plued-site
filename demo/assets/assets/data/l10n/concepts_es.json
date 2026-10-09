@@ -1,719 +1,721 @@
 {
-  "version": 2,
+  "version": 5,
   "locale": "es",
-  "status": "machine-drafted-pending-review",
-  "generated_by": "tool/l10n composer (Cycle +58 R4b)",
+  "status": "store-sourced; owner-approved and reviewed 2026-10-08",
+  "generated_by": "tool/l10n/apply_es_names.py from tool/l10n/es_names_2026-10-08/ (do not edit by hand: edit a table and rerun)",
   "review_gate": "docs/l10n/es-approval.md (R4c)",
   "glossary": "docs/l10n/es-glossary.md",
-  "note": "id -> es concept name; card_notes id -> es note (PLU digits preserved).",
+  "note": "names: id -> es concept name. card_notes: id -> es note (PLU digits preserved). aliases: id -> lower-case es search aliases (store words, earlier names, the other number); search only, never shown.",
   "name_count": 876,
   "note_count": 94,
+  "alias_count": 1384,
+  "alias_concept_count": 683,
   "names": {
-    "abate_fetel_pears": "Peras Abate Fetel",
+    "abate_fetel_pears": "Pera Abate Fetel",
     "acorn_squash": "Calabaza Acorn",
-    "adora_seedless_grapes": "Uvas Adora Sin Semilla",
-    "akane_apples": "Manzanas Akane",
-    "alfalfa_sprouts": "Germinado de Alfalfa",
-    "alkmene_apples": "Manzanas Alkmene",
-    "aloe_vera_leaves": "Hojas de Sábila",
+    "adora_seedless_grapes": "Uva Adora sin semilla",
+    "akane_apples": "Manzana Akane",
+    "alfalfa_sprouts": "Germinado de alfalfa",
+    "alkmene_apples": "Manzana Alkmene",
+    "aloe_vera_leaves": "Hojas de sábila",
     "amaranth_leaves_all_sizes": "Hojas de amaranto",
-    "ambrosia_apples": "Manzanas Ambrosia",
+    "ambrosia_apples": "Manzana Ambrosia",
     "anaheim_pepper": "Chile Anaheim",
     "anise": "Anís",
-    "anjou_pears": "Peras Anjou",
-    "anjou_pears_red": "Peras Anjou Rojas",
-    "apple_bananas_manzano": "Plátanos Manzano",
-    "apples_antares": "Manzanas Antares",
-    "apples_baldwin": "Manzanas Baldwin",
-    "apples_cn121": "Manzanas SugarBee (Grande)",
-    "apples_dalinette": "Manzanas Dalinette",
-    "apples_greening_ri": "Manzanas Greening Ri",
-    "apples_haralson": "Manzanas Haralson",
-    "apples_liberty": "Manzanas Liberty",
-    "apples_macoun": "Manzanas Macoun",
-    "apples_melrose": "Manzanas Melrose",
-    "apples_northern_spy": "Manzanas Northern Spy",
-    "apples_orleans": "Manzanas Orléans",
-    "apples_rosinette": "Manzanas Rosinette",
-    "apples_scilate_envy": "Manzanas Scilate Envy",
-    "apples_wurtwinning_bloss": "Manzanas Wurtwinning Bloss",
-    "apricots": "Chabacanos",
-    "apricots_dried": "Chabacanos Secos",
+    "anjou_pears": "Pera Anjou",
+    "anjou_pears_red": "Pera Anjou roja",
+    "apple_bananas_manzano": "Plátano Manzano",
+    "apples_antares": "Manzana Antares",
+    "apples_baldwin": "Manzana Baldwin",
+    "apples_cn121": "Manzana SugarBee (grande)",
+    "apples_dalinette": "Manzana Dalinette",
+    "apples_greening_ri": "Manzana Greening (RI)",
+    "apples_haralson": "Manzana Haralson",
+    "apples_liberty": "Manzana Liberty",
+    "apples_macoun": "Manzana Macoun",
+    "apples_melrose": "Manzana Melrose",
+    "apples_northern_spy": "Manzana Northern Spy",
+    "apples_orleans": "Manzana Orléans",
+    "apples_rosinette": "Manzana Rosinette",
+    "apples_scilate_envy": "Manzana Scilate (ENVY)",
+    "apples_wurtwinning_bloss": "Manzana Wurtwinning Bloss",
+    "apricots": "Chabacano",
+    "apricots_dried": "Orejón de chabacano",
     "apriums": "Apriums",
-    "arra_thirty_grapes": "Uvas Arra Thirty",
-    "arra_thirtytwo_grapes": "Uvas Arra Thirtytwo",
-    "arra_twentyeight_grapes": "Uvas Arra Twentyeight",
-    "arra_twentyseven_grapes": "Uvas Arra Twentyseven",
+    "arra_thirty_grapes": "Uva ARRA THIRTY",
+    "arra_thirtytwo_grapes": "Uva ARRA THIRTYTWO",
+    "arra_twentyeight_grapes": "Uva ARRA TWENTYEIGHT",
+    "arra_twentyseven_grapes": "Uva ARRA TWENTYSEVEN",
     "arracach": "Arracacha",
     "artichoke": "Alcachofa",
-    "artichokes_baby_cocktail": "Alcachofas Baby Cóctel",
-    "artichokes_purple": "Alcachofas Moradas",
-    "artichokes_rouge_salambo": "Alcachofas Rouge Salambo",
+    "artichokes_baby_cocktail": "Alcachofa baby cóctel",
+    "artichokes_purple": "Alcachofa morada",
+    "artichokes_rouge_salambo": "Alcachofa Rouge Salambo",
     "arugula": "Arúgula",
-    "asian_nashi_pears_brown": "Peras Nashi Asiáticas Cafés",
-    "asian_nashi_pears_white": "Peras Nashi Asiáticas Blancas",
-    "asian_pears": "Peras Asiáticas",
-    "asparagus_green": "Espárragos Verdes",
-    "asparagus_green_bunch": "Espárragos Verdes en Manojo",
-    "asparagus_purple": "Espárragos Morados",
-    "asparagus_purple_bunch": "Espárragos Morados en Manojo",
-    "asparagus_tips": "Puntas de Espárrago",
-    "asparagus_white": "Espárragos Blancos",
-    "asparagus_white_bunch": "Espárragos Blancos en Manojo",
-    "atemoyas": "Atemoyas",
-    "aura_apples": "Manzanas Aura",
-    "aurora_apples": "Manzanas Aurora",
-    "aurora_southern_rose_apples": "Manzanas Aurora Southern Rose",
-    "autumncrisp_grapes": "Uvas Autumncrisp",
-    "avocado_green": "Aguacate Verde",
+    "asian_nashi_pears_brown": "Pera asiática café",
+    "asian_nashi_pears_white": "Pera asiática blanca",
+    "asian_pears": "Pera asiática",
+    "asparagus_green": "Espárragos verdes",
+    "asparagus_green_bunch": "Espárragos verdes en manojo",
+    "asparagus_purple": "Espárragos morados",
+    "asparagus_purple_bunch": "Espárragos morados en manojo",
+    "asparagus_tips": "Puntas de espárrago",
+    "asparagus_white": "Espárragos blancos",
+    "asparagus_white_bunch": "Espárragos blancos en manojo",
+    "atemoyas": "Atemoya",
+    "aura_apples": "Manzana Aura",
+    "aurora_apples": "Manzana Aurora",
+    "aurora_southern_rose_apples": "Manzana Aurora Southern Rose",
+    "autumncrisp_grapes": "Uva AutumnCrisp",
+    "avocado_green": "Aguacate verde",
     "avocado_hass": "Aguacate Hass",
-    "avocados_cocktail_seedless": "Aguacates Cóctel Sin Semilla",
-    "avocados_pinkerton": "Aguacates Pinkerton",
+    "avocados_cocktail_seedless": "Aguacate cóctel sin semilla",
+    "avocados_pinkerton": "Aguacate Pinkerton",
     "babaco": "Babaco",
-    "baby_bananas": "Plátanos Baby",
-    "baby_cactus_leaves": "Nopales Baby",
-    "baby_gai_choy": "Gai Choy Baby",
-    "baby_green_zucchini_courgette": "Calabacita Verde Baby",
-    "baby_parsnip": "Chirivía Baby",
-    "baby_scallopini_squash": "Calabaza Scallopini Baby",
-    "baby_spinach": "Espinaca Baby",
-    "baby_summer_green_squash": "Calabaza Summer Baby Verde",
-    "banana_leaves": "Hojas de Plátano",
-    "banana_pepper": "Chile Banana",
+    "baby_bananas": "Plátano baby",
+    "baby_cactus_leaves": "Nopal baby",
+    "baby_gai_choy": "Gai choy baby",
+    "baby_green_zucchini_courgette": "Calabacita verde baby",
+    "baby_parsnip": "Chirivía baby",
+    "baby_scallopini_squash": "Calabaza Scallopini baby",
+    "baby_spinach": "Espinaca baby",
+    "baby_summer_green_squash": "Calabaza de verano verde baby",
+    "banana_leaves": "Hojas de plátano",
+    "banana_pepper": "Chile banana",
     "banana_squash": "Calabaza Banana",
-    "bananas": "Plátanos",
-    "bananas_burro": "Plátanos Burro",
-    "bananas_dominique": "Plátanos Dominique",
-    "bartlett_pears": "Peras Bartlett",
-    "bartlett_pears_red": "Peras Bartlett Rojas",
+    "bananas": "Plátano",
+    "bananas_burro": "Plátano Burro",
+    "bananas_dominique": "Plátano dominico",
+    "bartlett_pears": "Pera Bartlett",
+    "bartlett_pears_red": "Pera Bartlett roja",
     "basil": "Albahaca",
     "basil_opal": "Albahaca Opal",
-    "basil_sweet": "Albahaca Dulce",
-    "bay_leaves": "Hojas de Laurel",
-    "bean_sprouts_mung": "Germinado de Frijol Mung",
+    "basil_sweet": "Albahaca dulce",
+    "bay_leaves": "Hojas de laurel",
+    "bean_sprouts_mung": "Germinado de frijol mung",
     "beans_chinese_long_snake": "Ejotes chinos largos",
     "beans_fava_broad": "Habas",
     "beans_lima": "Habas Lima",
-    "beans_pole_runner_stick": "Ejotes de enrame",
-    "beans_purple_hull": "Frijoles de Vaina Morada",
-    "beans_shell": "Frijoles para Desvainar",
+    "beans_pole_runner_stick": "Ejotes de guía",
+    "beans_purple_hull": "Frijol de vaina morada",
+    "beans_shell": "Frijol para desvainar",
     "beans_wax_yellow": "Ejotes amarillos",
-    "beans_winged": "Frijoles Alados",
-    "beefsteak_tomatoes": "Tomates Bola (Beefsteak)",
-    "beet_greens": "Hojas de Betabel",
-    "beets_baby_golden": "Betabeles Baby Dorados",
-    "beets_baby_red": "Betabeles Baby Rojos",
-    "beets_bunch": "Betabeles en Manojo",
-    "beets_golden": "Betabeles Dorados",
-    "beets_loose": "Betabeles Sueltos",
-    "belchard_chantecler_apples": "Manzanas Belchard Chantecler",
-    "belgian_endive": "Endibia Belga",
-    "belgian_endive_red": "Endibia Belga Roja",
-    "belgica_apples": "Manzanas Belgica",
-    "bell_pepper_brown": "Pimiento Café",
-    "bell_pepper_white": "Pimiento Blanco",
-    "belle_du_jumet_pear": "Pera Belle Du Jumet",
-    "bertanne_golden_russet_apples": "Manzanas Bertanne Golden Russet",
-    "beurre_hardy_pears": "Peras Beurre Hardy",
-    "black_currants": "Grosellas Negras",
+    "beans_winged": "Frijol alado",
+    "beefsteak_tomatoes": "Tomate bola (beefsteak)",
+    "beet_greens": "Hojas de betabel",
+    "beets_baby_golden": "Betabel baby dorado",
+    "beets_baby_red": "Betabel baby rojo",
+    "beets_bunch": "Betabel en manojo",
+    "beets_golden": "Betabel dorado",
+    "beets_loose": "Betabel suelto",
+    "belchard_chantecler_apples": "Manzana Belchard Chantecler",
+    "belgian_endive": "Endibia belga",
+    "belgian_endive_red": "Endibia belga roja",
+    "belgica_apples": "Manzana Belgica",
+    "bell_pepper_brown": "Pimiento café",
+    "bell_pepper_white": "Pimiento blanco",
+    "belle_du_jumet_pear": "Pera Belle du Jumet",
+    "bertanne_golden_russet_apples": "Manzana Bertanne Golden Russet",
+    "beurre_hardy_pears": "Pera Beurre Hardy",
+    "black_currants": "Grosellas negras",
     "black_forest_mushrooms": "Hongos Black Forest",
-    "black_grapes_seeded": "Uvas Negras Con Semilla",
-    "black_grapes_seedless": "Uvas Negras Sin Semilla",
-    "black_plumcot": "Ciruela-Chabacano Negro",
-    "black_raspberries": "Frambuesas Negras",
+    "black_grapes_seeded": "Uva negra con semilla",
+    "black_grapes_seedless": "Uva negra sin semilla",
+    "black_plumcot": "Ciruela Pluot negra",
+    "black_raspberries": "Frambuesas negras",
     "black_velvet_apricot": "Chabacano Black Velvet",
     "blackberries": "Zarzamoras",
-    "blackeyed_peas": "Frijoles de Ojo Negro",
-    "blood_oranges": "Naranjas Sanguinas",
-    "blue_black_seeded_grapes": "Uvas Azules Negras Con Semilla",
+    "blackeyed_peas": "Frijol de ojo negro",
+    "blood_oranges": "Naranja sanguina",
+    "blue_black_seeded_grapes": "Uva azul negra con semilla",
     "blueberries": "Arándanos",
-    "boiling_onions": "Cebollas para Cocer",
-    "bok_choy": "Bok Choy",
-    "bok_choy_small_baby": "Bok Choy Chico Baby",
-    "bon_rouge_pears": "Peras Bon Rouge",
+    "boiling_onions": "Cebolla para cocer",
+    "bok_choy": "Bok choy",
+    "bok_choy_small_baby": "Bok choy chico baby",
+    "bon_rouge_pears": "Pera Bon Rouge",
     "boniato": "Boniato",
     "borage": "Borraja",
-    "bosc_pears": "Peras Bosc",
-    "boskoop_apples": "Manzanas Boskoop",
-    "boston_lettuce_red": "Lechuga Boston Roja",
+    "bosc_pears": "Pera Bosc",
+    "boskoop_apples": "Manzana Boskoop",
+    "boston_lettuce_red": "Lechuga Boston roja",
     "boysenberries": "Zarzamoras Boysen",
-    "braeburn_apples": "Manzanas Braeburn",
-    "breadfruit": "Fruta de Pan",
+    "braeburn_apples": "Manzana Braeburn",
+    "breadfruit": "Fruta de pan",
     "broccoli": "Brócoli",
-    "broccoli_baby": "Brócoli Baby",
-    "broccoli_rabe_chinese_broccoli": "Broccoli Rabe (Brócoli Chino)",
+    "broccoli_baby": "Brocolini",
+    "broccoli_rabe_chinese_broccoli": "Brócoli rabe (brócoli chino)",
     "brussels_sprouts": "Coles de Bruselas",
-    "brussels_sprouts_stalk": "Coles de Bruselas en Tallo",
+    "brussels_sprouts_stalk": "Coles de Bruselas en tallo",
     "buttercup_squash": "Calabaza Buttercup",
     "butterkin_squash": "Calabaza Butterkin",
     "butternut_squash": "Calabaza Butternut",
-    "cabbage_savoy_green": "Repollo Savoy Verde",
-    "cabbage_savoy_red": "Repollo Savoy Rojo",
-    "cabbage_summer_pointed": "Repollo Summer Pointed",
-    "cactus_leaves": "Nopales",
+    "cabbage_savoy_green": "Repollo Savoy verde",
+    "cabbage_savoy_red": "Repollo Savoy rojo",
+    "cabbage_summer_pointed": "Repollo puntiagudo de verano",
+    "cactus_leaves": "Nopal",
     "cactus_pear": "Tuna",
-    "calabaza_squash": "Calabaza",
-    "california_sweet_onion": "Cebolla California Dulce",
+    "calabaza_squash": "Calabaza tropical",
+    "california_sweet_onion": "Cebolla California dulce",
     "calypso_mango_all_sizes": "Mango Calypso",
-    "cameo_apples": "Manzanas Cameo",
+    "cameo_apples": "Manzana Cameo",
     "canary_melon": "Melón Canary",
-    "cantaloupe": "Melón Cantalupo",
-    "cantaloupe_muskmelon": "Melón Cantalupo",
-    "cantared_apples": "Manzanas Cantared",
-    "cape_gooseberry_physalis": "Uchuva (Physalis)",
-    "cape_rose_pears": "Peras Cape Rose",
-    "cara_cara_navel_oranges": "Naranjas Navel Cara Cara",
+    "cantaloupe": "Melón chino",
+    "cantaloupe_muskmelon": "Melón chino (almizcleño)",
+    "cantared_apples": "Manzana Cantared",
+    "cape_gooseberry_physalis": "Uchuva (physalis)",
+    "cape_rose_pears": "Pera Cape Rose",
+    "cara_cara_navel_oranges": "Naranja Navel Cara Cara",
     "cardoon": "Cardo",
     "carnival_squash": "Calabaza Carnival",
-    "carrots_baby": "Zanahorias Baby",
-    "carrots_bunch": "Zanahorias en Manojo",
-    "carrots_french": "Zanahorias Francesas",
-    "carrots_loose": "Zanahorias Sueltas",
-    "carrots_purple_red_beta_sweet": "Zanahorias Moradas (Beta Sweet)",
-    "carrots_sticks": "Zanahorias Bastones",
+    "carrots_baby": "Zanahoria baby",
+    "carrots_bunch": "Zanahoria en manojo",
+    "carrots_french": "Zanahoria francesa",
+    "carrots_loose": "Zanahoria suelta",
+    "carrots_purple_red_beta_sweet": "Zanahoria morada (Beta Sweet)",
+    "carrots_sticks": "Bastones de zanahoria",
     "casaba_melon": "Melón Casaba",
     "cauliflower": "Coliflor",
-    "cauliflower_baby": "Coliflor Baby",
-    "cauliflower_green": "Coliflor Verde",
-    "cauliflower_purple": "Coliflor Morada",
-    "cauliflower_romanesco": "Coliflor Romanesco",
+    "cauliflower_baby": "Coliflor baby",
+    "cauliflower_green": "Coliflor verde",
+    "cauliflower_purple": "Coliflor morada",
+    "cauliflower_romanesco": "Coliflor romanesco",
     "celery": "Apio",
-    "celery_hearts": "Corazones de Apio",
-    "celery_loose_stalk": "Apio en Tallo Suelto",
-    "celery_root_celeriac": "Raíz de Apio (Celeriac)",
-    "celery_root_with_leaves": "Raíz de Apio con Hojas",
-    "champagne_grapes": "Uvas Champagne",
+    "celery_hearts": "Corazones de apio",
+    "celery_loose_stalk": "Palitos de apio",
+    "celery_root_celeriac": "Raíz de apio (apionabo)",
+    "celery_root_with_leaves": "Raíz de apio con hojas",
+    "champagne_grapes": "Uva Champagne",
     "chanterelle_mushrooms": "Hongos Chanterelle",
     "charentais_melon": "Melón Charentais",
-    "charles_ross_apples": "Manzanas Charles Ross",
-    "chasselas_grapes": "Uvas Chasselas",
-    "chayote_squash": "Calabaza Chayote",
+    "charles_ross_apples": "Manzana Charles Ross",
+    "chasselas_grapes": "Uva Chasselas",
+    "chayote_squash": "Chayote",
     "cherimoya": "Chirimoya",
     "cherries_hr87_timberline": "Cerezas Timberline (HR87)",
     "cherries_rl100_audra_rose": "Cerezas Audra Rose (RL 100)",
-    "cherry_tomatoes": "Tomates Cherry",
-    "cherry_tomatoes_yellow": "Tomates Cherry Amarillos",
+    "cherry_tomatoes": "Tomate cherry",
+    "cherry_tomatoes_yellow": "Tomate cherry amarillo",
     "chervil": "Perifollo",
-    "chickpeas_fresh": "Garbanzos Frescos",
-    "chili_pepper_dried": "Chile Seco",
-    "chili_peppers_yellow": "Chiles Amarillos",
-    "chinese_yali_pears": "Peras Yali Chinas",
-    "chipilin_leaf": "Hoja de Chipilín",
+    "chickpeas_fresh": "Garbanzo fresco",
+    "chili_pepper_dried": "Chile seco",
+    "chili_peppers_yellow": "Chile amarillo",
+    "chinese_yali_pears": "Pera Yali china",
+    "chipilin_leaf": "Hoja de chipilín",
     "chives": "Cebollín",
-    "choy_sum": "Choy Sum",
-    "choy_sum_baby": "Choy Sum Baby",
+    "choy_sum": "Choy sum",
+    "choy_sum_baby": "Choy sum baby",
     "cilantro": "Cilantro",
     "cinnabar_melon": "Melón Cinnabar",
-    "civg198_apples": "Manzanas CIVG198",
-    "civni_apples": "Manzanas Civni",
-    "clara_friis_pears": "Peras Clara Friis",
-    "clementine_tangerine": "Mandarina Clementine",
-    "clementine_tangerine_untreated": "Mandarina Clementine sin Tratamiento Poscosecha",
-    "clementine_tangerine_with_leaves": "Mandarina Clementine con Hojas",
-    "clementines": "Clementinas",
-    "cocktail_tomatoes_on_vine": "Tomates Cóctel en Rama",
-    "coconut_husked": "Coco sin Cáscara",
-    "coconut_in_husk": "Coco con Cáscara",
+    "civg198_apples": "Manzana CIVG198",
+    "civni_apples": "Manzana Civni",
+    "clara_friis_pears": "Pera Clara Frijs",
+    "clementine_tangerine": "Mandarina clementina",
+    "clementine_tangerine_untreated": "Mandarina clementina (sin tratar)",
+    "clementine_tangerine_with_leaves": "Mandarina clementina con hojas",
+    "clementines": "Clementina",
+    "cocktail_tomatoes_on_vine": "Tomate cocktail en rama",
+    "coconut_husked": "Coco sin cáscara",
+    "coconut_in_husk": "Coco verde",
     "collard_greens": "Berzas",
-    "comice_pears": "Peras Comice",
-    "concord_grapes": "Uvas Concord",
-    "concorde_pears": "Peras Concorde",
-    "conference_pears": "Peras Conference",
-    "coop_43_apples": "Manzanas Co-op 43",
-    "corn_indian_decorative": "Maíz Indio Decorativo",
-    "corn_indian_decorative_mini": "Maíz Indio Decorativo Mini",
-    "corn_indian_strawberry": "Maíz Indio Strawberry",
-    "corn_sweet_baby": "Elote Dulce Baby",
-    "corn_sweet_bi_color": "Elote Dulce Bicolor",
-    "corn_white_trimmed": "Elote Blanco Recortado",
-    "corn_yellow_trimmed": "Elote Amarillo Recortado",
-    "cortland_apples": "Manzanas Cortland",
-    "cosmic_crisp_apples": "Manzanas Cosmic Crisp",
-    "cox_orange_pippin_apples": "Manzanas Cox Orange Pippin",
-    "crab_apples": "Manzanas Crab",
-    "cranberries": "Arándanos Rojos",
-    "cremini_mushrooms": "Hongos Cremini",
+    "comice_pears": "Pera Comice",
+    "concord_grapes": "Uva Concord",
+    "concorde_pears": "Pera Concorde",
+    "conference_pears": "Pera Conference",
+    "coop_43_apples": "Manzana Co-op 43",
+    "corn_indian_decorative": "Maíz indio decorativo",
+    "corn_indian_decorative_mini": "Maíz indio decorativo mini",
+    "corn_indian_strawberry": "Maíz indio fresa",
+    "corn_sweet_baby": "Elote dulce baby",
+    "corn_sweet_bi_color": "Elote dulce bicolor",
+    "corn_white_trimmed": "Elote blanco",
+    "corn_yellow_trimmed": "Elote amarillo",
+    "cortland_apples": "Manzana Cortland",
+    "cosmic_crisp_apples": "Manzana Cosmic Crisp",
+    "cox_orange_pippin_apples": "Manzana Cox's Orange Pippin",
+    "crab_apples": "Manzana silvestre",
+    "cranberries": "Arándanos rojos",
+    "cremini_mushrooms": "Hongos cremini",
     "crenshaw_melon": "Melón Crenshaw",
-    "crimson_delight_sunrise_magic_apples": "Manzanas Crimson Delight Sunrise Magic",
-    "crimson_grapes": "Uvas Crimson",
-    "cripps_red_apples": "Manzanas Cripps Red",
-    "cripps_red_sundowner_apples": "Manzanas Cripps Red Sundowner",
-    "crispin_mutsu_apples": "Manzanas Crispin Mutsu",
-    "criterion_apples": "Manzanas Criterion",
+    "crimson_delight_sunrise_magic_apples": "Manzana Crimson Delight Sunrise Magic",
+    "crimson_grapes": "Uva Crimson",
+    "cripps_red_apples": "Manzana Cripps Red",
+    "cripps_red_sundowner_apples": "Manzana Cripps Red Sundowner",
+    "crispin_mutsu_apples": "Manzana Crispin Mutsu",
+    "criterion_apples": "Manzana Criterion",
     "crown_prince_squash": "Calabaza Crown Prince",
     "cubanelle_pepper": "Chile Cubanelle",
     "cucumber": "Pepino",
-    "cucumber_armenian": "Pepino Armenio",
-    "cucumber_japanese_white": "Pepino Japonés Blanco",
-    "cucumber_lemon": "Pepino Limón",
-    "currants_red": "Grosellas Rojas",
+    "cucumber_armenian": "Pepino armenio",
+    "cucumber_japanese_white": "Pepino japonés blanco",
+    "cucumber_lemon": "Pepino limón",
+    "currants_red": "Grosellas rojas",
     "daikon": "Daikon",
-    "dancy_tangerines": "Mandarinas Dancy",
-    "dandelion_greens": "Hojas de Diente de León",
-    "dates_fresh": "Dátiles Frescos",
-    "dazzle_apples": "Manzanas Dazzle",
+    "dancy_tangerines": "Mandarina Dancy",
+    "dandelion_greens": "Hojas de diente de león",
+    "dates_fresh": "Dátil fresco",
+    "dazzle_apples": "Manzana Dazzle",
     "dekopon_tangerine": "Mandarina Dekopon",
-    "delblush_tentation_apples": "Manzanas Delblush Tentation",
+    "delblush_tentation_apples": "Manzana Delblush Tentation",
     "delicata_squash": "Calabaza Delicata",
-    "delta_seedless_oranges": "Naranjas Delta Sin Semilla",
-    "dessert_apples": "Manzanas Dessert",
-    "destivale_apples": "Manzanas Destivale",
+    "delta_seedless_oranges": "Naranja Delta sin semilla",
+    "dessert_apples": "Manzana de mesa",
+    "destivale_apples": "Manzana D'Estivale",
     "dill": "Eneldo",
-    "dill_baby": "Eneldo Baby",
-    "dill_pickling": "Eneldo para Encurtir",
-    "discovery_apples": "Manzanas Discovery",
-    "dragon_fruit_red": "Pitahaya Roja",
-    "dried_figs": "Higos Secos",
-    "dried_tomatoes": "Tomates Secos",
-    "durondeau_pears": "Peras Durondeau",
-    "dutch_white_cabbage": "Repollo Blanco Holandés",
-    "early_apples": "Manzanas Early",
+    "dill_baby": "Eneldo baby",
+    "dill_pickling": "Eneldo para encurtir",
+    "discovery_apples": "Manzana Discovery",
+    "dragon_fruit_red": "Pitahaya roja",
+    "dried_figs": "Higos secos",
+    "dried_tomatoes": "Tomate seco",
+    "durondeau_pears": "Pera Durondeau",
+    "dutch_white_cabbage": "Repollo blanco holandés",
+    "early_apples": "Manzana temprana",
     "eggplant": "Berenjena",
-    "eggplant_baby": "Berenjena Baby",
-    "eggplant_baby_white": "Berenjena Baby Blanca",
-    "eggplant_chinese": "Berenjena China",
-    "eggplant_japanese": "Berenjena Japonesa",
-    "eggplant_thai": "Berenjena Tailandesa",
-    "eggplant_white": "Berenjena Blanca",
+    "eggplant_baby": "Berenjena baby",
+    "eggplant_baby_white": "Berenjena baby blanca",
+    "eggplant_chinese": "Berenjena china",
+    "eggplant_japanese": "Berenjena japonesa",
+    "eggplant_thai": "Berenjena tailandesa",
+    "eggplant_white": "Berenjena blanca",
     "ellendale_tangerine": "Mandarina Ellendale",
-    "elongated_green_pepper": "Pimiento Alargado Verde",
-    "elongated_orange_pepper": "Pimiento Alargado Naranja",
-    "elongated_red_pepper": "Pimiento Alargado Rojo",
-    "elongated_white_pepper": "Pimiento Alargado Blanco",
-    "elongated_yellow_pepper": "Pimiento Alargado Amarillo",
-    "elstar_apples": "Manzanas Elstar",
-    "emmons_apples": "Manzanas Emmons",
-    "empire_apples": "Manzanas Empire",
-    "endive_chicory": "Endibia",
-    "english_cucumber": "Pepino Inglés",
-    "enjoya_stripy_bell_peppers_all_sizes": "Pimientos rayados Enjoya",
-    "enoki_mushrooms": "Hongos Enoki",
+    "elongated_green_pepper": "Pimiento alargado verde",
+    "elongated_orange_pepper": "Pimiento alargado naranja",
+    "elongated_red_pepper": "Pimiento alargado rojo",
+    "elongated_white_pepper": "Pimiento alargado blanco",
+    "elongated_yellow_pepper": "Pimiento alargado amarillo",
+    "elstar_apples": "Manzana Elstar",
+    "emmons_apples": "Manzana Emmons",
+    "empire_apples": "Manzana Empire",
+    "endive_chicory": "Achicoria",
+    "english_cucumber": "Pepino inglés",
+    "enjoya_stripy_bell_peppers_all_sizes": "Pimiento rayado Enjoya",
+    "enoki_mushrooms": "Hongos enoki",
     "epazote": "Epazote",
-    "escarole_batavian_chicory_green": "Escarola Batavian Verde",
-    "escarole_red": "Escarola Roja",
-    "evelina_apples": "Manzanas Evelina",
-    "evercrisp_apples": "Manzanas Evercrisp",
+    "escarole_batavian_chicory_green": "Escarola verde",
+    "escarole_red": "Escarola roja",
+    "evelina_apples": "Manzana Evelina",
+    "evercrisp_apples": "Manzana EverCrisp",
     "fairchild_tangerine": "Mandarina Fairchild",
-    "fall_glo_tangerines": "Mandarinas Fall Glo",
+    "fall_glo_tangerines": "Mandarina Fall Glo",
     "feijoa": "Feijoa",
     "fennel_anise": "Hinojo",
-    "fennel_leaves": "Hojas de Hinojo",
-    "fiddlehead_ferns": "Brotes de Helecho",
-    "fiesta_apples_all_sizes": "Manzanas Fiesta",
-    "figs_black": "Higos Negros",
-    "figs_brown": "Higos Cafés",
-    "figs_white_green": "Higos Blancos Verdes",
-    "fine_beans": "Ejotes Finos",
-    "fireside_apples": "Manzanas Fireside",
-    "flamingo_pears": "Peras Flamingo",
-    "flat_peaches_white_saturn_donut": "Duraznos Saturn Donut Planos Blancos",
-    "flat_yellow_nectarine": "Nectarina Plana Amarilla",
-    "foo_qua_bitter_melon": "Melón Amargo (Foo Qua)",
-    "forelle_pears": "Peras Forelle",
-    "fragrant_pears": "Peras Fragrant",
+    "fennel_leaves": "Hojas de hinojo",
+    "fiddlehead_ferns": "Brotes de helecho",
+    "fiesta_apples_all_sizes": "Manzana Fiesta",
+    "figs_black": "Higos negros",
+    "figs_brown": "Higos cafés",
+    "figs_white_green": "Higos blancos verdes",
+    "fine_beans": "Ejotes finos",
+    "fireside_apples": "Manzana Fireside",
+    "flamingo_pears": "Pera Flamingo",
+    "flat_peaches_white_saturn_donut": "Durazno dona blanco",
+    "flat_yellow_nectarine": "Nectarina plana amarilla",
+    "foo_qua_bitter_melon": "Melón amargo (Foo Qua)",
+    "forelle_pears": "Pera Forelle",
+    "fragrant_pears": "Pera fragante",
     "francis_mango": "Mango Francis",
-    "french_afternoon_melon": "Melón Afternoon Francés",
-    "french_breakfast_melon": "Melón Breakfast Francés",
-    "french_pears": "Peras Francesas",
+    "french_afternoon_melon": "Melón French Afternoon",
+    "french_breakfast_melon": "Melón French Breakfast",
+    "french_pears": "Pera francesa",
     "frisee": "Frisée",
-    "fuji_apples": "Manzanas Fuji",
-    "fuji_brak_apples": "Manzanas Fuji Brak",
-    "gai_choy": "Gai Choy",
-    "gai_lan": "Gai Lan",
-    "gala_apples": "Manzanas Gala",
-    "galangal_root": "Raíz de Galangal",
+    "fuji_apples": "Manzana Fuji",
+    "fuji_brak_apples": "Manzana Fuji Brak",
+    "gai_choy": "Gai choy",
+    "gai_lan": "Gai lan",
+    "gala_apples": "Manzana Gala",
+    "galangal_root": "Galanga",
     "galia_melon": "Melón Galia",
     "garlic": "Ajo",
     "garlic_chives_all_sizes": "Cebollín chino",
-    "garlic_elephant": "Ajo Elefante",
-    "garlic_fresh_leaves": "Hojas Frescas de Ajo",
-    "garlic_one_clove_types": "Ajo de Diente Único",
-    "garlic_regular_smoked": "Ajo Regular Ahumado",
-    "garlic_string": "Ajo en Trenza",
-    "gem_avocados": "Aguacates Gem",
+    "garlic_elephant": "Ajo elefante",
+    "garlic_fresh_leaves": "Hojas frescas de ajo",
+    "garlic_one_clove_types": "Ajo macho",
+    "garlic_regular_smoked": "Ajo regular ahumado",
+    "garlic_string": "Ajo en trenza",
+    "gem_avocados": "Aguacate GEM",
     "gem_squash": "Calabaza Gem",
-    "giga_apples": "Manzanas Giga",
-    "ginger_gold_apples": "Manzanas Ginger Gold",
-    "ginger_root": "Raíz de Jengibre",
-    "gloster_apples": "Manzanas Gloster",
-    "gobo_root": "Bardana (Gobo)",
-    "gold_honeydew_melon": "Melón Honeydew Dorado",
-    "golden_delicious_apples": "Manzanas Golden Delicious",
-    "golden_delicious_blush_apples": "Manzanas Golden Delicious Blush",
+    "giga_apples": "Manzana GIGA",
+    "ginger_gold_apples": "Manzana Ginger Gold",
+    "ginger_root": "Jengibre",
+    "gloster_apples": "Manzana Gloster",
+    "gobo_root": "Bardana (gobo)",
+    "gold_honeydew_melon": "Melón Honeydew dorado",
+    "golden_delicious_apples": "Manzana Golden Delicious",
+    "golden_delicious_blush_apples": "Manzana Golden Delicious Blush",
     "golden_delicious_squash": "Calabaza Golden Delicious",
-    "golden_kiwifruit": "Kiwi Dorado",
+    "golden_kiwifruit": "Kiwi dorado",
     "golden_nugget_squash": "Calabaza Golden Nugget",
-    "golden_raspberries": "Frambuesas Doradas",
-    "gooseberries": "Uvas Espina",
-    "gourd_ornamental": "Calabaza Ornamental",
-    "granny_smith_apples": "Manzanas Granny Smith",
-    "granny_smith_red_apples": "Manzanas Granny Smith Red",
-    "grape_teardrop_tomatoes": "Tomates Uva (Teardrop)",
-    "grapefruit_deep_red": "Toronja Roja Intensa",
+    "golden_raspberries": "Frambuesas doradas",
+    "gooseberries": "Uva espina",
+    "gourd_ornamental": "Calabaza ornamental",
+    "granny_smith_apples": "Manzana Granny Smith",
+    "granny_smith_red_apples": "Manzana Granny Smith roja",
+    "grape_teardrop_tomatoes": "Tomate uva (perita)",
+    "grapefruit_deep_red": "Toronja roja intensa",
     "grapefruit_ruby_red": "Toronja Ruby Red",
-    "grapefruit_ruby_red_pink": "Toronja Ruby Red Rosada",
+    "grapefruit_ruby_red_pink": "Toronja Ruby Red rosada",
     "grapefruit_untreated": "Toronja (sin tratar)",
-    "grapefruit_white": "Toronja Blanca",
-    "grapes_ardthirtysix_arra_cherry_crush": "Uvas Ardthirtysix Arra Cherry Crush",
-    "grapes_fantasy_marroo": "Uvas Fantasy Marroo",
-    "grapes_muscat_de_hambourg": "Uvas Muscat De Hambourg",
-    "grapes_red_seeded": "Uvas Rojas Con Semilla",
-    "grapes_red_seedless": "Uvas Rojas Sin Semilla",
-    "grapes_white_green_seeded": "Uvas Blancas Verdes Con Semilla",
-    "grapes_white_green_seedless": "Uvas Blancas Verdes Sin Semilla",
-    "gravenstein_apples": "Manzanas Gravenstein",
-    "gravenstein_red_apples": "Manzanas Gravenstein Red",
-    "green_bananas": "Plátanos Verdes",
+    "grapefruit_white": "Toronja blanca",
+    "grapes_ardthirtysix_arra_cherry_crush": "Uva ARDTHIRTYSIX (ARRA Cherry Crush)",
+    "grapes_fantasy_marroo": "Uva Fantasy Marroo",
+    "grapes_muscat_de_hambourg": "Uva Muscat de Hambourg",
+    "grapes_red_seeded": "Uva roja con semilla",
+    "grapes_red_seedless": "Uva roja sin semilla",
+    "grapes_white_green_seeded": "Uva blanca verde con semilla",
+    "grapes_white_green_seedless": "Uva blanca verde sin semilla",
+    "gravenstein_apples": "Manzana Gravenstein",
+    "gravenstein_red_apples": "Manzana Gravenstein roja",
+    "green_bananas": "Plátano verde",
     "green_beans": "Ejotes",
-    "green_bell_pepper": "Pimiento Verde",
-    "green_cabbage": "Repollo Verde",
-    "green_chili_pepper": "Chile Verde",
+    "green_bell_pepper": "Pimiento verde",
+    "green_cabbage": "Repollo verde",
+    "green_chili_pepper": "Chile verde",
     "green_dragon_apple": "Manzana Green Dragon",
-    "green_grapes_seedless": "Uvas Verdes Sin Semilla",
-    "green_leaf_lettuce": "Lechuga de Hoja Verde",
-    "green_onions_scallions": "Cebollas Verdes (Cebollín)",
-    "green_pears_hw624": "Peras verdes (HW624)",
-    "green_peas": "Chícharos Verdes",
-    "green_plumcot": "Ciruela-Chabacano Verde",
+    "green_grapes_seedless": "Uva verde sin semilla",
+    "green_leaf_lettuce": "Lechuga de hoja verde",
+    "green_onions_scallions": "Cebolla verde (cebollín)",
+    "green_pears_hw624": "Pera verde (HW624)",
+    "green_peas": "Chícharo verde",
+    "green_plumcot": "Ciruela Pluot verde",
     "guava": "Guayaba",
-    "habanero_pepper": "Chile Habanero",
+    "habanero_pepper": "Chile habanero",
     "hami_melon": "Melón Hami",
-    "hawaiian_plantain": "Plátano Macho Hawaiano",
-    "heirloom_tomatoes": "Tomates Heirloom",
-    "helda_flat_beans": "Ejotes Planos Helda",
-    "heritage_reinette_varieties_apples": "Manzanas Heritage Reinette Varieties",
-    "holstein_apples": "Manzanas Holstein",
+    "hawaiian_plantain": "Plátano macho hawaiano",
+    "heirloom_tomatoes": "Tomate heirloom",
+    "helda_flat_beans": "Ejotes planos Helda",
+    "heritage_reinette_varieties_apples": "Manzana reineta tradicional",
+    "holstein_apples": "Manzana Holstein",
     "homli_fruit": "Fruta Homli",
-    "honey_green_melon": "Melón Honey Verde",
-    "honey_tangerines": "Mandarinas Honey",
-    "honeycrisp_apples": "Manzanas Honeycrisp",
+    "honey_green_melon": "Melón Honey verde",
+    "honey_tangerines": "Mandarina Honey",
+    "honeycrisp_apples": "Manzana Honeycrisp",
     "honeydew_melon": "Melón Honeydew",
-    "honeymoon_apples": "Manzanas Honeymoon",
-    "horned_melon_kiwano": "Melón Cornudo (Kiwano)",
-    "horseradish_root": "Raíz de Rábano Picante",
-    "hot_mixed_peppers": "Chiles Picantes Mixtos",
-    "huaguan_autumn_glory_apples": "Manzanas Huaguan Autumn Glory",
+    "honeymoon_apples": "Manzana Honeymoon",
+    "horned_melon_kiwano": "Melón cornudo (Kiwano)",
+    "horseradish_root": "Raíz de rábano picante",
+    "hot_mixed_peppers": "Chiles picantes mixtos",
+    "huaguan_autumn_glory_apples": "Manzana Huaguan Autumn Glory",
     "hubbard_squash": "Calabaza Hubbard",
-    "hungarian_hot_pepper": "Chile Húngaro Picante",
-    "hungarian_wax_pepper": "Chile Húngaro Cera",
-    "hunnyz_apples": "Manzanas Hunnyz",
-    "iceberg_lettuce": "Lechuga Iceberg",
-    "idared_apples": "Manzanas Idared",
-    "ifg_core_black_seedless_grapes": "Uvas Ifg Core Negras Sin Semilla",
-    "ifg_core_green_seedless_grapes": "Uvas Ifg Core Verdes Sin Semilla",
-    "ifg_core_red_seedless_grapes": "Uvas Ifg Core Rojas Sin Semilla",
-    "ifg_novelty_black_seedless_grapes": "Uvas Ifg Novelty Negras Sin Semilla",
-    "ifg_novelty_green_seedless_cotton_candy_grapes": "Uvas Ifg Novelty Cotton Candy Verdes Sin Semilla",
-    "ifg_novelty_red_seedless_grapes": "Uvas Ifg Novelty Rojas Sin Semilla",
-    "ifored_r_series_apples": "Manzanas Ifored R Series",
-    "ifored_y_series_apples": "Manzanas Ifored Y Series",
-    "ingrid_marie_apples": "Manzanas Ingrid Marie",
-    "italia_seeded_grapes": "Uvas Italia Con Semilla",
-    "italian_prune_plums": "Ciruelas Prune Italianas",
+    "hungarian_hot_pepper": "Chile húngaro picante",
+    "hungarian_wax_pepper": "Chile húngaro",
+    "hunnyz_apples": "Manzana Hunnyz",
+    "iceberg_lettuce": "Lechuga iceberg",
+    "idared_apples": "Manzana Idared",
+    "ifg_core_black_seedless_grapes": "Uva IFG Core negra sin semilla",
+    "ifg_core_green_seedless_grapes": "Uva IFG Core verde sin semilla",
+    "ifg_core_red_seedless_grapes": "Uva IFG Core roja sin semilla",
+    "ifg_novelty_black_seedless_grapes": "Uva IFG Novelty negra sin semilla",
+    "ifg_novelty_green_seedless_cotton_candy_grapes": "Uva IFG Novelty Cotton Candy verde sin semilla",
+    "ifg_novelty_red_seedless_grapes": "Uva IFG Novelty roja sin semilla",
+    "ifored_r_series_apples": "Manzana IFORED serie R",
+    "ifored_y_series_apples": "Manzana IFORED serie Y",
+    "ingrid_marie_apples": "Manzana Ingrid Marie",
+    "italia_seeded_grapes": "Uva Italia con semilla",
+    "italian_prune_plums": "Ciruela italiana",
     "jackfruit": "Yaca",
-    "jalapeno_pepper": "Chile Jalapeño",
-    "jamaican_tangor_tangerine": "Mandarina Tangor Jamaicana",
-    "japanese_red_peppers": "Chiles Japoneses Rojos",
-    "jazz_apples": "Manzanas Jazz",
+    "jalapeno_pepper": "Chile jalapeño",
+    "jamaican_tangor_tangerine": "Mandarina tangor jamaicana",
+    "japanese_red_peppers": "Chile japonés rojo",
+    "jazz_apples": "Manzana Jazz",
     "jicama": "Jícama",
-    "jonagold_apples": "Manzanas Jonagold",
-    "jonamac_apples": "Manzanas Jonamac",
-    "jonathan_apples": "Manzanas Jonathan",
-    "juice_oranges": "Naranjas para Jugo",
-    "juici_apples": "Manzanas Juici",
-    "jupiter_grapes": "Uvas Jupiter",
-    "kabocha_squash": "Calabaza Kabocha",
-    "kale_curly": "Col Rizada",
-    "kale_red": "Col Rizada Roja",
-    "kale_sprouts": "Germinado de Col Rizada",
-    "karma_apples": "Manzanas Karma",
-    "key_limes": "Limas Key (limón verde)",
-    "king_royal_pears": "Peras King Royal",
-    "kinnow_mandarins": "Mandarinas Kinnow",
+    "jonagold_apples": "Manzana Jonagold",
+    "jonamac_apples": "Manzana Jonamac",
+    "jonathan_apples": "Manzana Jonathan",
+    "juice_oranges": "Naranja para jugo",
+    "juici_apples": "Manzana Juici",
+    "jupiter_grapes": "Uva Jupiter",
+    "kabocha_squash": "Calabaza kabocha",
+    "kale_curly": "Col rizada",
+    "kale_red": "Col rizada roja",
+    "kale_sprouts": "Brotes de col rizada",
+    "karma_apples": "Manzana Karma",
+    "key_limes": "Limón agrio",
+    "king_royal_pears": "Pera King Royal",
+    "kinnow_mandarins": "Mandarina Kinnow",
     "kiwifruit": "Kiwi",
     "kohlrabi": "Colirábano",
-    "kohlrabi_purple_red": "Colirábano Morado Rojo",
-    "korean_melon": "Melón Coreano",
+    "kohlrabi_purple_red": "Colirábano morado rojo",
+    "korean_melon": "Melón coreano",
     "kumquats": "Kumquats",
-    "lady_apples": "Manzanas Lady",
-    "lady_williams_apples_all_sizes": "Manzanas Lady Williams",
-    "laxtons_fortune_apples": "Manzanas Laxtons Fortune",
-    "leeks": "Poros",
-    "leeks_baby": "Poros Baby",
-    "leeks_baby_bunch": "Poros Baby en Manojo",
-    "leeks_regular_bunch": "Poros Regulares en Manojo",
-    "lemonade_apples": "Manzanas Lemonade",
-    "lemongrass": "Hierba de Limón",
-    "lemons": "Limones Amarillos",
-    "lemons_untreated": "Limones (sin tratar)",
-    "lettuce_bibb_flat_round": "Lechuga Bibb Plana Redonda",
-    "lettuce_boston_butter": "Lechuga Boston Butter",
+    "lady_apples": "Manzana Lady",
+    "lady_williams_apples_all_sizes": "Manzana Lady Williams",
+    "laxtons_fortune_apples": "Manzana Laxton's Fortune",
+    "leeks": "Poro",
+    "leeks_baby": "Poro baby",
+    "leeks_baby_bunch": "Poro baby en manojo",
+    "leeks_regular_bunch": "Poro regular en manojo",
+    "lemonade_apples": "Manzana Lemonade",
+    "lemongrass": "Hierba de limón",
+    "lemons": "Limón amarillo",
+    "lemons_untreated": "Limón (sin tratar)",
+    "lettuce_bibb_flat_round": "Lechuga Bibb plana redonda",
+    "lettuce_boston_butter": "Lechuga Boston (mantequilla)",
     "lettuce_catalogna": "Lechuga Catalogna",
-    "lettuce_hydroponic": "Lechuga Hidropónica",
+    "lettuce_hydroponic": "Lechuga hidropónica",
     "lettuce_lollo_bionda": "Lechuga Lollo Bionda",
     "lettuce_lollo_rossa": "Lechuga Lollo Rossa",
-    "lettuce_mache": "Lechuga Mache",
+    "lettuce_mache": "Lechuga mache",
     "lettuce_mignonette": "Lechuga Mignonette",
-    "lettuce_mixed_small_leaf_salad": "Lechuga Mixta de Hoja Pequeña",
-    "lettuce_oak_leaf_green": "Lechuga de Hoja de Roble Verde",
-    "lima_oranges": "Naranjas Lima",
+    "lettuce_mixed_small_leaf_salad": "Lechuga mixta de hoja pequeña",
+    "lettuce_oak_leaf_green": "Lechuga de hoja de roble verde",
+    "lima_oranges": "Naranja Lima",
     "limequats": "Limequats",
-    "limes": "Limas (limón verde)",
-    "lochbuie_apples": "Manzanas Lochbuie",
+    "limes": "Limón verde",
+    "lochbuie_apples": "Manzana Lochbuie",
     "loganberries": "Zarzamoras Logan",
-    "lolipop_apples": "Manzanas Lolipop",
-    "long_hot_pepper_green": "Chile Largo Picante Verde",
-    "long_hot_red_peppers": "Chiles Largos Picantes Rojos",
+    "lolipop_apples": "Manzana LoliPop",
+    "long_hot_pepper_green": "Chile largo picante verde",
+    "long_hot_red_peppers": "Chile largo picante rojo",
     "longan": "Longan",
-    "loquats": "Nísperos",
-    "lord_lambourne_apples": "Manzanas Lord Lambourne",
-    "lotus_root": "Raíz de Loto",
-    "lucyglo_apples": "Manzanas Lucyglo",
-    "lucyrose_apples": "Manzanas Lucyrose",
-    "ludacrisp_apples": "Manzanas Ludacrisp",
-    "lychees": "Lichis",
+    "loquats": "Níspero",
+    "lord_lambourne_apples": "Manzana Lord Lambourne",
+    "lotus_root": "Raíz de loto",
+    "lucyglo_apples": "Manzana LucyGlo",
+    "lucyrose_apples": "Manzana LucyRose",
+    "ludacrisp_apples": "Manzana Ludacrisp",
+    "lychees": "Lichi",
     "madrona": "Madroño",
-    "magic_star_apples": "Manzanas Magic Star",
+    "magic_star_apples": "Manzana Magic Star",
     "malanga": "Malanga",
     "mamey": "Mamey",
-    "mango_green": "Mango Verde",
+    "mango_green": "Mango verde",
     "mango_kensington_pride": "Mango Kensington Pride",
     "mango_r2e2": "Mango R2E2",
-    "mango_ripe_ready_to_eat": "Mango Maduro Listo para Comer",
-    "mango_yellow": "Mango Amarillo",
-    "mangoes_red": "Mangos Rojos",
+    "mango_ripe_ready_to_eat": "Mango maduro listo para comer",
+    "mango_yellow": "Mango amarillo",
+    "mangoes_red": "Mango rojo",
     "mangosteen": "Mangostán",
-    "mariri_red_apples": "Manzanas Mariri Red",
+    "mariri_red_apples": "Manzana Mariri Red",
     "marjoram": "Mejorana",
     "maui_onion": "Cebolla Maui",
     "mayan_melon": "Melón Mayan",
-    "mcintosh_apples": "Manzanas Mcintosh",
+    "mcintosh_apples": "Manzana McIntosh",
     "melogold_grapefruit": "Toronja Melogold",
-    "melon_glasshouse_netted": "Melón Glasshouse Netted",
+    "melon_glasshouse_netted": "Melón reticulado de invernadero",
     "melon_ogen": "Melón Ogen",
     "meridol_papaya": "Papaya Meridol",
-    "meyer_lemons": "Limones Amarillos Meyer",
-    "michaelmas_red_apples": "Manzanas Michaelmas Red",
+    "meyer_lemons": "Limón amarillo Meyer",
+    "michaelmas_red_apples": "Manzana Michaelmas Red",
     "mickey_lee_watermelon": "Sandía Mickey Lee",
     "midknight_orange": "Naranja Midknight",
-    "midnight_beauty_grapes": "Uvas Midnight Beauty",
-    "migo_pears": "Peras Migo",
-    "milwa_apples": "Manzanas Milwa",
-    "mini_watermelon": "Sandía Mini",
-    "minneola_tangelos": "Tangelos Minneola",
-    "minnewashta_zestar_apples": "Manzanas Minnewashta Zestar",
+    "midnight_beauty_grapes": "Uva Midnight Beauty",
+    "migo_pears": "Pera Migo",
+    "milwa_apples": "Manzana Milwa",
+    "mini_watermelon": "Sandía mini",
+    "minneola_tangelos": "Tangelo Minneola",
+    "minnewashta_zestar_apples": "Manzana Minnewashta Zestar",
     "mint": "Menta",
-    "morel_mushrooms": "Hongos Morel",
-    "morita_chili_peppers": "Chiles Morita",
-    "mushrooms_cep": "Hongos Cep",
-    "mushrooms_fairy_ring_champignon": "Hongos Fairy Ring Champignon",
-    "mushrooms_grey_tricholoma": "Hongos Grey Tricholoma",
+    "morel_mushrooms": "Hongos morilla",
+    "morita_chili_peppers": "Chile morita",
+    "mushrooms_cep": "Hongos porcini",
+    "mushrooms_fairy_ring_champignon": "Hongos senderilla",
+    "mushrooms_grey_tricholoma": "Hongos Tricholoma grises",
     "mushrooms_grisette": "Hongos Grisette",
-    "mushrooms_horn_of_plenty_black_trumpet": "Hongos Horn Of Plenty Black Trumpet",
+    "mushrooms_horn_of_plenty_black_trumpet": "Hongos trompeta negra",
     "mushrooms_pioppino": "Hongos Pioppino",
     "musk_melon": "Melón Musk",
-    "mustard_greens": "Hojas de Mostaza",
+    "mustard_greens": "Hojas de mostaza",
     "napa_cabbage": "Repollo Napa",
-    "navel_oranges": "Naranjas Navel",
-    "nectarine_nectavigne_red_flesh": "Nectarina Nectavigne Roja",
-    "nectarines_white": "Nectarinas Blancas",
-    "nectarines_yellow": "Nectarinas Amarillas",
-    "negro_peppers": "Chiles Negro",
-    "new_mexico_pepper": "Chile New Mexico",
-    "new_zealand_spinach": "Espinaca New Zealand",
-    "nicogreen_apples": "Manzanas Nicogreen",
-    "nicoter_apples": "Manzanas Nicoter",
-    "noble_juicy_crunch_mandarins": "Mandarinas Noble Juicy Crunch",
-    "nyame_white": "Ñame Blanco",
-    "nyame_yellow": "Ñame Amarillo",
-    "oak_leaf_lettuce": "Lechuga de Hoja de Roble",
-    "okra_chinese": "Okra China",
-    "okra_red": "Okra Roja",
-    "okra_regular_green": "Okra Regular Verde",
-    "ong_choy": "Ong Choy",
-    "onions_bulb": "Cebollas de Bulbo",
-    "onions_pickling_white": "Cebollas Blancas para Encurtir",
-    "onions_sweet_red_italian_flat": "Cebollas Dulces Rojas Italianas Planas",
-    "opal_apples": "Manzanas Opal",
-    "orange_bell_pepper": "Pimiento Naranja",
-    "orange_cauliflower": "Coliflor Naranja",
-    "orange_cherry_tomatoes_all_sizes": "Tomates cherry naranjas",
-    "orange_flesh_cantaline_melon": "Melón Cantaline Naranja",
-    "orange_tree_leaf": "Hoja de Naranjo",
-    "oranges_m4_dulce_navels": "Naranjas Dulce Navels (M4)",
-    "oranges_maltaise": "Naranjas Maltaise",
-    "oranges_navelate": "Naranjas Navelate",
-    "oranges_navelina": "Naranjas Navelina",
-    "oranges_pera": "Naranjas Pera",
-    "oranges_salustiana": "Naranjas Salustiana",
-    "oranges_shamouti": "Naranjas Shamouti",
-    "oranges_untreated": "Naranjas sin Tratamiento Poscosecha",
+    "navel_oranges": "Naranja Navel",
+    "nectarine_nectavigne_red_flesh": "Nectarina Nectavigne roja",
+    "nectarines_white": "Nectarinas blancas",
+    "nectarines_yellow": "Nectarina amarilla",
+    "negro_peppers": "Chile negro",
+    "new_mexico_pepper": "Chile Nuevo México",
+    "new_zealand_spinach": "Espinaca de Nueva Zelanda",
+    "nicogreen_apples": "Manzana Nicogreen",
+    "nicoter_apples": "Manzana Nicoter",
+    "noble_juicy_crunch_mandarins": "Mandarina Noble Juicy Crunch",
+    "nyame_white": "Ñame blanco",
+    "nyame_yellow": "Ñame amarillo",
+    "oak_leaf_lettuce": "Lechuga de hoja de roble",
+    "okra_chinese": "Okra china",
+    "okra_red": "Okra roja",
+    "okra_regular_green": "Okra",
+    "ong_choy": "Ong choy",
+    "onions_bulb": "Cebolla cambray",
+    "onions_pickling_white": "Cebolla blanca para encurtir",
+    "onions_sweet_red_italian_flat": "Cebolla dulce morada italiana plana",
+    "opal_apples": "Manzana Opal",
+    "orange_bell_pepper": "Pimiento naranja",
+    "orange_cauliflower": "Coliflor naranja",
+    "orange_cherry_tomatoes_all_sizes": "Tomate cherry naranja",
+    "orange_flesh_cantaline_melon": "Melón Cantaline naranja",
+    "orange_tree_leaf": "Hoja de naranjo",
+    "oranges_m4_dulce_navels": "Naranja Dulce Navels (M4)",
+    "oranges_maltaise": "Naranja Maltaise",
+    "oranges_navelate": "Naranja Navelate",
+    "oranges_navelina": "Naranja Navelina",
+    "oranges_pera": "Naranja Pera",
+    "oranges_salustiana": "Naranja Salustiana",
+    "oranges_shamouti": "Naranja Shamouti",
+    "oranges_untreated": "Naranja sin tratamiento poscosecha",
     "oregano": "Orégano",
-    "oro_blanco_sweetie_grapefruit": "Toronja Oro Blanco Sweetie",
-    "oyster_mushrooms": "Hongos Oyster",
+    "oro_blanco_sweetie_grapefruit": "Toronja Oroblanco Sweetie",
+    "oyster_mushrooms": "Hongos seta",
     "oyster_plant_salsify": "Salsifí",
-    "pacific_rose_apples": "Manzanas Pacific Rose",
-    "packham_pears": "Peras Packham",
-    "papalo": "Papalo",
-    "papaya_cooking_mexican": "Papaya Mexicana para Cocinar",
-    "papaya_regular": "Papaya Regular",
+    "pacific_rose_apples": "Manzana Pacific Rose",
+    "packham_pears": "Pera Packham",
+    "papalo": "Pápalo",
+    "papaya_cooking_mexican": "Papaya mexicana para cocinar",
+    "papaya_regular": "Papaya regular",
     "papaya_solo_sunrise": "Papaya Solo Sunrise",
-    "parsley_curly": "Perejil Rizado",
-    "parsley_italian_flat_leaf": "Perejil Italiano de Hoja Plana",
-    "parsley_root": "Raíz de Perejil",
-    "parsnips": "Chirivías",
-    "pasilla_pepper_green": "Chile Pasilla Verde",
-    "pasilla_pod_peppers": "Chiles Pasilla (Vaina)",
-    "pasilla_red_peppers": "Chiles Pasilla Rojos",
-    "passion_fire_grapes": "Uvas Passion Fire",
-    "passion_fruit_curuba": "Maracuyá Curuba",
-    "passion_fruit_granadilla": "Maracuyá Granadilla",
-    "passion_fruit_granadilla_yellow": "Maracuyá Granadilla Amarillo",
-    "passion_fruit_purple": "Maracuyá Morado",
-    "paulared_apples": "Manzanas Paulared",
-    "pazazz_apples": "Manzanas Pazazz",
-    "peaches_flat_yellow_flesh": "Duraznos Planos Amarillos",
-    "peaches_indian": "Duraznos Indios",
-    "peaches_red_flesh": "Duraznos Rojos",
-    "peaches_white_flesh": "Duraznos Blancos",
-    "peaches_yellow_flesh": "Duraznos Amarillos",
-    "pearl_onions": "Cebollas Perla",
-    "pears_alexander_lucas": "Peras Alexander Lucas",
-    "pears_angelys": "Peras Angelys",
-    "pears_carmen": "Peras Carmen",
-    "pears_general_leclerc": "Peras General Leclerc",
-    "pears_guyot": "Peras Guyot",
-    "pears_harovin_sundown": "Peras Harovin Sundown",
-    "pears_josephine": "Peras Josephine",
-    "pears_louise_bonne": "Peras Louise Bonne",
-    "pears_passe_crassane": "Peras Passe Crassane",
-    "pears_rocha": "Peras Rocha",
-    "pears_rosemarie": "Peras Rosemarie",
-    "pears_santa_maria": "Peras Santa Maria",
-    "pears_starkrimson": "Peras Starkrimson",
-    "pears_taylors_gold": "Peras Taylors Gold",
-    "pears_triumph_de_vienne": "Peras Triumph De Vienne",
-    "pepino_melon": "Melón Pepino",
-    "peppermint_mint": "Menta (Peppermint)",
-    "persian_melon": "Melón Persa",
-    "persimmon": "Caqui",
-    "persimmon_american_regular": "Caqui Americano Regular",
-    "pickling_cucumbers": "Pepinos para Encurtir",
-    "piel_de_sapo_melon": "Melón Piel De Sapo",
-    "pimiento_pepper": "Pimiento Morrón",
+    "parsley_curly": "Perejil rizado",
+    "parsley_italian_flat_leaf": "Perejil liso (italiano)",
+    "parsley_root": "Raíz de perejil",
+    "parsnips": "Chirivía",
+    "pasilla_pepper_green": "Chile pasilla verde",
+    "pasilla_pod_peppers": "Chile pasilla seco",
+    "pasilla_red_peppers": "Chile pasilla rojo",
+    "passion_fire_grapes": "Uva Passion Fire",
+    "passion_fruit_curuba": "Maracuyá curuba",
+    "passion_fruit_granadilla": "Granadilla (granada china)",
+    "passion_fruit_granadilla_yellow": "Maracuyá amarillo",
+    "passion_fruit_purple": "Maracuyá morado",
+    "paulared_apples": "Manzana Paulared",
+    "pazazz_apples": "Manzana Pazazz",
+    "peaches_flat_yellow_flesh": "Durazno dona amarillo",
+    "peaches_indian": "Durazno indio",
+    "peaches_red_flesh": "Durazno de pulpa roja",
+    "peaches_white_flesh": "Durazno blanco",
+    "peaches_yellow_flesh": "Durazno amarillo",
+    "pearl_onions": "Cebolla perla",
+    "pears_alexander_lucas": "Pera Alexander Lucas",
+    "pears_angelys": "Pera Angelys",
+    "pears_carmen": "Pera Carmen",
+    "pears_general_leclerc": "Pera General Leclerc",
+    "pears_guyot": "Pera Guyot",
+    "pears_harovin_sundown": "Pera Harovin Sundown",
+    "pears_josephine": "Pera Josephine",
+    "pears_louise_bonne": "Pera Louise Bonne",
+    "pears_passe_crassane": "Pera Passe Crassane",
+    "pears_rocha": "Pera Rocha",
+    "pears_rosemarie": "Pera Rosemarie",
+    "pears_santa_maria": "Pera Santa Maria",
+    "pears_starkrimson": "Pera Starkrimson",
+    "pears_taylors_gold": "Pera Taylor's Gold",
+    "pears_triumph_de_vienne": "Pera Triumph de Vienne",
+    "pepino_melon": "Melón pepino",
+    "peppermint_mint": "Menta piperita",
+    "persian_melon": "Melón persa",
+    "persimmon": "Persimo",
+    "persimmon_american_regular": "Persimo americano regular",
+    "pickling_cucumbers": "Pepino para encurtir",
+    "piel_de_sapo_melon": "Melón Piel de Sapo",
+    "pimiento_pepper": "Pimiento morrón",
     "pineapple": "Piña",
-    "pineapple_dried": "Piña Seca",
+    "pineapple_dried": "Piña seca",
     "pineapple_jet_fresh": "Piña Jet Fresh",
-    "pineapple_mini": "Piña Mini",
+    "pineapple_mini": "Piña mini",
     "pineapple_perola": "Piña Perola",
-    "pink_lady_apples": "Manzanas Pink Lady",
-    "pink_porcelain_doll_pumpkin": "Calabaza Porcelain Doll Rosada",
-    "pinole_peppers": "Chiles Pinole",
+    "pink_lady_apples": "Manzana Pink Lady",
+    "pink_porcelain_doll_pumpkin": "Calabaza Porcelain Doll rosada",
+    "pinole_peppers": "Chile Pinole",
     "pinova_apple": "Manzana Pinova",
-    "pippin_apples": "Manzanas Pippin",
-    "pitahaya_red_flesh_fire_dragons": "Pitahaya Roja (Fire Dragons)",
-    "pitahaya_yellow": "Pitahaya Amarilla",
-    "plantains": "Plátanos Machos",
-    "plumac_apples": "Manzanas Plumac",
-    "plumcot": "Ciruela-Chabacano",
-    "plums_black": "Ciruelas Negras",
-    "plums_green": "Ciruelas Verdes",
-    "plums_purple": "Ciruelas Moradas",
-    "plums_red": "Ciruelas Rojas",
-    "plums_tree_ripened": "Ciruelas Maduradas en Árbol",
-    "plums_yellow": "Ciruelas Amarillas",
-    "poblano_pepper": "Chile Poblano",
-    "polk_greens": "Hojas de Polk (Pokeweed)",
+    "pippin_apples": "Manzana Pippin",
+    "pitahaya_red_flesh_fire_dragons": "Pitahaya roja (Fire Dragons)",
+    "pitahaya_yellow": "Pitahaya amarilla",
+    "plantains": "Plátano macho",
+    "plumac_apples": "Manzana Plumac",
+    "plumcot": "Ciruela Pluot",
+    "plums_black": "Ciruela negra",
+    "plums_green": "Ciruela verde",
+    "plums_purple": "Ciruela morada",
+    "plums_red": "Ciruela roja",
+    "plums_tree_ripened": "Ciruela madurada en árbol",
+    "plums_yellow": "Ciruela amarilla",
+    "poblano_pepper": "Chile poblano",
+    "polk_greens": "Hojas de polk (pokeweed)",
     "pomegranate": "Granada",
-    "portabella_mushrooms": "Hongos Portabella",
-    "potato_creamer_red": "Papa Creamer Roja",
-    "potato_creamer_white": "Papa Creamer Blanca",
-    "potato_long_white": "Papa Blanca Larga",
-    "potato_purple": "Papa Morada",
-    "prema17_apples": "Manzanas PremA17",
-    "prema280_apples": "Manzanas PremA280",
-    "president_plums_all_sizes": "Ciruelas President",
+    "portabella_mushrooms": "Hongos portabella",
+    "potato_creamer_red": "Papa cambray roja",
+    "potato_creamer_white": "Papa cambray blanca",
+    "potato_long_white": "Papa blanca larga",
+    "potato_purple": "Papa morada",
+    "prema17_apples": "Manzana PremA17",
+    "prema280_apples": "Manzana PremA280",
+    "president_plums_all_sizes": "Ciruela President",
     "prince_melon": "Melón Prince",
-    "pummelo_red": "Pummelo Rojo",
-    "pummelo_white": "Pummelo Blanco",
+    "pummelo_red": "Pummelo rojo",
+    "pummelo_white": "Pummelo blanco",
     "pumpkin": "Calabaza",
-    "pumpkin_decorative_painted": "Calabaza Decorativa Pintada",
-    "pumpkin_jumbo": "Calabaza Jumbo",
-    "pumpkin_mini": "Calabaza Mini",
-    "pumpkin_pie": "Calabaza para Pay",
-    "pumpkin_vine": "Calabaza en Rama",
-    "pumpkin_white": "Calabaza Blanca",
-    "pumpkin_white_mini": "Calabaza Blanca Mini",
-    "purple_bell_pepper": "Pimiento Morado",
-    "purple_herb": "Hierba Morada",
-    "qtee_pears": "Peras Qtee",
+    "pumpkin_decorative_painted": "Calabaza decorativa pintada",
+    "pumpkin_jumbo": "Calabaza jumbo",
+    "pumpkin_mini": "Calabaza mini",
+    "pumpkin_pie": "Calabaza para pay",
+    "pumpkin_vine": "Guías de calabaza",
+    "pumpkin_white": "Calabaza blanca",
+    "pumpkin_white_mini": "Calabaza blanca mini",
+    "purple_bell_pepper": "Pimiento morado",
+    "purple_herb": "Hierba mora",
+    "qtee_pears": "Pera QTee",
     "queen_pineapple": "Piña Queen",
-    "quelites": "Quelites",
+    "quelites": "Quelite",
     "quince": "Membrillo",
-    "rabbit_herb": "Hierba de Conejo",
+    "rabbit_herb": "Hierba de conejo",
     "radicchio": "Radicchio",
     "radicchio_castelfranco": "Radicchio Castelfranco",
     "radicchio_treviso": "Radicchio Treviso",
-    "radish_black": "Rábano Negro",
-    "radish_bunched_white": "Rábano Blanco en Manojo",
-    "radish_italian_red": "Rábano Italiano Rojo",
-    "radish_red": "Rábano Rojo",
-    "radish_white_icicle": "Rábano Blanco (Icicle)",
-    "radishes_red_bunch": "Rábanos Rojos en Manojo",
+    "radish_black": "Rábano negro",
+    "radish_bunched_white": "Rábano blanco en manojo",
+    "radish_italian_red": "Rábano italiano rojo",
+    "radish_red": "Rábano rojo",
+    "radish_white_icicle": "Rábano blanco (Icicle)",
+    "radishes_red_bunch": "Rábano rojo en manojo",
     "rainier_cherries": "Cerezas Rainier",
     "rambutan": "Rambután",
-    "rave_first_kiss_apples": "Manzanas Rave First Kiss",
-    "red_apricots": "Chabacanos Rojos",
-    "red_baking_potato": "Papa Roja para Hornear",
-    "red_bananas": "Plátanos Rojos",
-    "red_bell_pepper": "Pimiento Rojo",
-    "red_black_cherries": "Cerezas Rojas/Negras",
-    "red_cabbage": "Repollo Morado",
-    "red_cheese_peppers": "Chiles Red Cheese",
-    "red_delicious_apples": "Manzanas Red Delicious",
-    "red_finger_peppers": "Chiles Red Finger",
-    "red_globe_grapes": "Uvas Red Globe",
-    "red_jonaprince_apples_all_sizes": "Manzanas Red Jonaprince",
+    "rave_first_kiss_apples": "Manzana Rave First Kiss",
+    "red_apricots": "Chabacano rojo",
+    "red_baking_potato": "Papa roja para hornear",
+    "red_bananas": "Plátano rojo",
+    "red_bell_pepper": "Pimiento rojo",
+    "red_black_cherries": "Cerezas rojas/negras",
+    "red_cabbage": "Repollo morado",
+    "red_cheese_peppers": "Pimiento Cheese rojo",
+    "red_delicious_apples": "Manzana Red Delicious",
+    "red_finger_peppers": "Chile Finger rojo",
+    "red_globe_grapes": "Uva Red Globe",
+    "red_jonaprince_apples_all_sizes": "Manzana Red Jonaprince",
     "red_kuri_squash": "Calabaza Red Kuri",
-    "red_leaf_lettuce": "Lechuga de Hoja Roja",
-    "red_onion": "Cebolla Roja",
-    "red_onions_bunch": "Cebollas Rojas en Manojo",
-    "red_pears": "Peras Rojas",
-    "red_plumcot": "Ciruela-Chabacano Rojo",
-    "red_potatoes": "Papas Rojas",
-    "red_raspberries": "Frambuesas Rojas",
-    "redfield_apples": "Manzanas Redfield",
-    "redpop_apples": "Manzanas Redpop",
-    "regent_apples": "Manzanas Regent",
-    "reine_des_reinettes_apples": "Manzanas Reine Des Reinettes",
-    "rhubarb_bunch": "Ruibarbo en Manojo",
-    "rhubarb_regular": "Ruibarbo Regular",
-    "ripe_avocados": "Aguacates Maduros",
-    "riverbelle_apples": "Manzanas Riverbelle",
-    "roma_tomatoes": "Tomates Roma",
-    "roma_tomatoes_on_the_vine": "Tomates Roma en Rama",
-    "roma_tomatoes_on_vine": "Tomates Roma en Rama",
-    "romaine_lettuce": "Lechuga Romana",
-    "romaine_lettuce_red": "Lechuga Romana Roja",
-    "rome_apples": "Manzanas Rome",
+    "red_leaf_lettuce": "Lechuga de hoja roja",
+    "red_onion": "Cebolla morada",
+    "red_onions_bunch": "Cebolla morada en manojo",
+    "red_pears": "Pera roja",
+    "red_plumcot": "Ciruela Pluot roja",
+    "red_potatoes": "Papa roja",
+    "red_raspberries": "Frambuesas rojas",
+    "redfield_apples": "Manzana Redfield",
+    "redpop_apples": "Manzana RedPop",
+    "regent_apples": "Manzana Regent",
+    "reine_des_reinettes_apples": "Manzana Reine des Reinettes",
+    "rhubarb_bunch": "Ruibarbo en manojo",
+    "rhubarb_regular": "Ruibarbo regular",
+    "ripe_avocados": "Aguacate maduro",
+    "riverbelle_apples": "Manzana Riverbelle",
+    "roma_tomatoes": "Tomate Roma",
+    "roma_tomatoes_on_the_vine": "Tomate Roma en rama",
+    "roma_tomatoes_on_vine": "Tomate Roma cocktail en rama",
+    "romaine_lettuce": "Lechuga romana",
+    "romaine_lettuce_red": "Lechuga romana roja",
+    "rome_apples": "Manzana Rome",
     "rosemary": "Romero",
-    "round_zucchini_squash": "Calabacita Redonda",
-    "royal_gala_apples": "Manzanas Royal Gala",
+    "round_zucchini_squash": "Calabacita redonda",
+    "royal_gala_apples": "Manzana Royal Gala",
     "royal_mandarin": "Mandarina Royal",
-    "rubinette_apples": "Manzanas Rubinette",
-    "rubyfrost_apple": "Manzana Rubyfrost",
-    "russet_apples": "Manzanas Russet",
-    "russet_potatoes": "Papas Russet",
+    "rubinette_apples": "Manzana Rubinette",
+    "rubyfrost_apple": "Manzana RubyFrost",
+    "russet_apples": "Manzana Russet",
+    "russet_potatoes": "Papa Russet",
     "rutabaga": "Rutabaga",
-    "sable_seedless_grapes": "Uvas Sable Sin Semilla",
-    "sacred_pepper_leaf": "Hoja Santa",
-    "saffron_milk_cap_mushroom": "Hongo Saffron Milk Cap",
-    "saffron_sweet_potato": "Camote Azafrán",
+    "sable_seedless_grapes": "Uva Sable sin semilla",
+    "sacred_pepper_leaf": "Hoja santa",
+    "saffron_milk_cap_mushroom": "Hongos níscalo",
+    "saffron_sweet_potato": "Camote azafrán",
     "sage": "Salvia",
     "santa_claus_melon": "Melón Santa Claus",
     "sapodillo": "Chicozapote",
-    "sapote_black": "Zapote Negro",
-    "sapote_white": "Zapote Blanco",
+    "sapote_black": "Zapote negro",
+    "sapote_white": "Zapote blanco",
     "saskatoon_berries": "Bayas Saskatoon",
     "saticoy_melon": "Melón Saticoy",
     "satsuma_mandarins": "Mandarinas Satsuma",
@@ -721,244 +723,244 @@
     "satsuma_tangerine_clauselina": "Mandarina Satsuma Clauselina",
     "savory": "Ajedrea",
     "scallopini_squash": "Calabaza Scallopini",
-    "scarlotta_seedless_grapes": "Uvas Scarlotta Sin Semilla",
-    "sciearly_apples": "Manzanas Sciearly",
-    "scilate_apples": "Manzanas Scilate",
-    "scired_apples": "Manzanas Scired",
-    "seckel_pears": "Peras Seckel",
-    "seedless_lemons": "Limones Amarillos Sin Semilla",
-    "serrano_pepper": "Chile Serrano",
-    "seville_oranges": "Naranjas Seville",
-    "shallots": "Chalotes",
-    "shanghai_bok_choy": "Bok Choy Shanghai",
+    "scarlotta_seedless_grapes": "Uva Scarlotta sin semilla",
+    "sciearly_apples": "Manzana Sciearly",
+    "scilate_apples": "Manzana Scilate",
+    "scired_apples": "Manzana Scired",
+    "seckel_pears": "Pera Seckel",
+    "seedless_lemons": "Limón amarillo sin semilla",
+    "serrano_pepper": "Chile serrano",
+    "seville_oranges": "Naranja agria",
+    "shallots": "Chalote",
+    "shanghai_bok_choy": "Bok choy Shanghai",
     "sharlin_melon": "Melón Sharlin",
-    "sheep_polypore_mushroom": "Hongo Sheep Polypore",
-    "shiitake_mushrooms": "Hongos Shiitake",
-    "shinano_gold_yello_apples": "Manzanas Shinano Gold Yello",
+    "sheep_polypore_mushroom": "Hongos Albatrellus",
+    "shiitake_mushrooms": "Hongos shiitake",
+    "shinano_gold_yello_apples": "Manzana Shinano Gold (yello)",
     "shiny_red_persimmon_all_sizes": "Caqui rojo brillante",
     "skylar_rae_cherries": "Cerezas Skylar Rae",
-    "snapdragon_apple": "Manzana Snapdragon",
-    "snow_peas": "Chícharos Chinos",
-    "sommerfeld_apples": "Manzanas Sommerfeld",
-    "sonya_apples": "Manzanas Sonya",
+    "snapdragon_apple": "Manzana SnapDragon",
+    "snow_peas": "Chícharo chino",
+    "sommerfeld_apples": "Manzana Sommerfeld",
+    "sonya_apples": "Manzana Sonya",
     "sorrel": "Acedera",
     "soursop": "Guanábana",
-    "southern_snap_apples": "Manzanas Southern Snap",
+    "southern_snap_apples": "Manzana Southern Snap",
     "spaghetti_squash": "Calabaza Spaghetti",
-    "spanish_tendral_melon": "Melón Tendral Español",
-    "spartan_apples": "Manzanas Spartan",
-    "spinach_bunch": "Espinaca en Manojo",
-    "spring_cabbage": "Repollo de Primavera",
+    "spanish_tendral_melon": "Melón Tendral español",
+    "spartan_apples": "Manzana Spartan",
+    "spinach_bunch": "Espinaca en manojo",
+    "spring_cabbage": "Repollo de primavera",
     "sprite_melon": "Melón Sprite",
-    "squash_acorn_baby": "Calabaza Acorn Baby",
-    "squash_acorn_golden": "Calabaza Acorn Dorada",
+    "squash_acorn_baby": "Calabaza Acorn baby",
+    "squash_acorn_golden": "Calabaza Acorn dorada",
     "squash_acorn_swan_white_table_queen": "Calabaza Acorn Swan White Table Queen",
     "squash_australian_blue": "Calabaza Australian Blue",
-    "squash_cucuzza": "Calabaza Cucuzza",
-    "squash_opo": "Calabaza Opo",
-    "st_edmunds_pippin_apples": "Manzanas St Edmunds Pippin",
+    "squash_cucuzza": "Calabaza cucuzza",
+    "squash_opo": "Calabaza opo",
+    "st_edmunds_pippin_apples": "Manzana St. Edmund's Pippin",
     "starfruit": "Carambola",
-    "stayman_apples": "Manzanas Stayman",
+    "stayman_apples": "Manzana Stayman",
     "strawberries_250g": "Fresas, 250 g",
     "strawberries_500g": "Fresas, 500 g",
-    "strawberries_bulk": "Fresas a Granel",
+    "strawberries_bulk": "Fresas a granel",
     "strawberries_bulk_3_pack_3_pints": "Fresas, paquete de 3 (3 pintas)",
-    "strawberries_long_stemmed": "Fresas de Tallo Largo",
-    "strawberries_pint": "Fresas Pinta",
-    "strawberries_quart": "Fresas, Cuarto de Galón",
-    "sturmer_pippin_apples": "Manzanas Sturmer Pippin",
+    "strawberries_long_stemmed": "Fresas de tallo largo",
+    "strawberries_pint": "Fresas pinta",
+    "strawberries_quart": "Fresas, cuarto de galón",
+    "sturmer_pippin_apples": "Manzana Sturmer Pippin",
     "sugar_apple": "Anón (saramuyo)",
-    "sugar_cane": "Caña de Azúcar",
-    "sugar_snap_peas": "Chícharos Dulces",
-    "sugarbee_apples": "Manzanas SugarBee (Chica)",
-    "sugrafiftyfour_novelty_seedless_grapes": "Uvas Sugrafiftyfour Novelty Sin Semilla",
-    "sugrafiftysix_green_seedless_grapes": "Uvas Sugrafiftysix Verdes Sin Semilla",
-    "sugrafiftythree_red_seedless_grapes": "Uvas Sugrafiftythree Rojas Sin Semilla",
-    "sugrafortynine_black_seedless_grapes": "Uvas Sugrafortynine Negras Sin Semilla",
-    "sugraone_grapes": "Uvas Sugraone",
-    "summer_squash_patty_pan": "Calabaza Summer Patty Pan",
-    "sunburst_tangerines": "Mandarinas Sunburst",
-    "sunburst_yellow_squash": "Calabaza Sunburst Amarilla",
-    "sunchokes": "Tupinambos",
-    "sunions_tearless_sweet_onions": "Cebollas Dulces Sin Lágrimas (Sunions)",
-    "sunny_gold_yellow_mini_seedless_watermelon": "Sandía Sunny Gold Amarilla Mini Sin Semilla",
+    "sugar_cane": "Caña de azúcar",
+    "sugar_snap_peas": "Chícharo dulce",
+    "sugarbee_apples": "Manzana SugarBee (chica)",
+    "sugrafiftyfour_novelty_seedless_grapes": "Uva Sugrafiftyfour Novelty sin semilla",
+    "sugrafiftysix_green_seedless_grapes": "Uva Sugrafiftysix verde sin semilla",
+    "sugrafiftythree_red_seedless_grapes": "Uva Sugrafiftythree roja sin semilla",
+    "sugrafortynine_black_seedless_grapes": "Uva Sugrafortynine negra sin semilla",
+    "sugraone_grapes": "Uva Sugraone",
+    "summer_squash_patty_pan": "Calabaza estrella (patty pan)",
+    "sunburst_tangerines": "Mandarina Sunburst",
+    "sunburst_yellow_squash": "Calabaza Sunburst amarilla",
+    "sunchokes": "Alcachofa de Jerusalén",
+    "sunions_tearless_sweet_onions": "Cebolla dulce sin lágrimas (Sunions)",
+    "sunny_gold_yellow_mini_seedless_watermelon": "Sandía Sunny Gold amarilla mini sin semilla",
     "sweet_dumpling_squash": "Calabaza Sweet Dumpling",
     "sweet_mama_squash": "Calabaza Sweet Mama",
-    "sweet_onion": "Cebolla Dulce",
+    "sweet_onion": "Cebolla dulce",
     "sweet_onions_all_sizes": "Cebollas dulces",
-    "sweet_pixie_plums": "Ciruelas Sweet Pixie",
+    "sweet_pixie_plums": "Ciruela Sweet Pixie",
     "sweet_potato": "Camote",
-    "sweet_potatoes_golden": "Camotes Dorados",
-    "sweet_potatoes_white": "Camotes Blancos",
-    "sweet_potatoes_yam": "Camotes (etiquetados “yam”)",
-    "sweet_scarlet_grapes": "Uvas Sweet Scarlet",
-    "sweet_sensation_pears": "Peras Sweet Sensation",
-    "sweetango_apples": "Manzanas Sweetango",
-    "sweetheart_tearless_red_onions": "Cebollas Rojas Sin Lágrimas Sweetheart",
-    "sweeties_grapes": "Uvas Sweeties",
-    "swiss_chard_green": "Acelga Verde",
-    "swiss_chard_red": "Acelga Roja",
-    "swiss_gourmet_apples": "Manzanas Swiss Gourmet",
+    "sweet_potatoes_golden": "Camote amarillo",
+    "sweet_potatoes_white": "Camote blanco",
+    "sweet_potatoes_yam": "Camote rojo (yam)",
+    "sweet_scarlet_grapes": "Uva Sweet Scarlet",
+    "sweet_sensation_pears": "Pera Sweet Sensation",
+    "sweetango_apples": "Manzana SweeTango",
+    "sweetheart_tearless_red_onions": "Cebolla morada sin lágrimas Sweetheart",
+    "sweeties_grapes": "Uva Sweeties",
+    "swiss_chard_green": "Acelga verde",
+    "swiss_chard_red": "Acelga roja",
+    "swiss_gourmet_apples": "Manzana Swiss Gourmet",
     "tabasco_pepper": "Chile Tabasco",
-    "tamarillo_golden": "Tamarillo Dorado",
-    "tamarillo_red": "Tamarillo Rojo",
+    "tamarillo_golden": "Tamarillo dorado",
+    "tamarillo_red": "Tamarillo rojo",
     "tamarind": "Tamarindo",
     "tangelo": "Tangelo",
-    "tangelo_jamaican_ugli": "Tangelo Ugli Jamaicano",
-    "tangerines": "Mandarinas",
-    "tangerines_honey_murcott": "Mandarinas Honey Murcott",
-    "tangerines_imperial": "Mandarinas Imperial",
-    "tangerines_mandarins_tango_seedless": "Mandarinas Tango Sin Semilla",
-    "tangerines_nova": "Mandarinas Nova",
+    "tangelo_jamaican_ugli": "Tangelo Ugli jamaicano",
+    "tangerines": "Mandarina",
+    "tangerines_honey_murcott": "Mandarina Honey Murcott",
+    "tangerines_imperial": "Mandarina Imperial",
+    "tangerines_mandarins_tango_seedless": "Mandarina Tango sin semilla",
+    "tangerines_nova": "Mandarina Nova",
     "taro_root": "Taro",
     "tarragon": "Estragón",
-    "tasti_lee_tomatoes": "Tomates Tasti Lee",
-    "teardrop_pear_tomatoes_yellow": "Tomates Teardrop Pear Amarillos",
-    "temple_oranges": "Naranjas Temple",
-    "tessa_apples": "Manzanas Tessa",
-    "texas_mustard_greens": "Hojas de Mostaza Texas",
-    "texas_sweet_onion": "Cebolla Texas Dulce",
-    "thomcord_grapes": "Uvas Thomcord",
+    "tasti_lee_tomatoes": "Tomate Tasti-Lee",
+    "teardrop_pear_tomatoes_yellow": "Tomate perita amarillo",
+    "temple_oranges": "Naranja Temple",
+    "tessa_apples": "Manzana Tessa",
+    "texas_mustard_greens": "Hojas de mostaza Texas",
+    "texas_sweet_onion": "Cebolla Texas dulce",
+    "thomcord_grapes": "Uva Thomcord",
     "thyme": "Tomillo",
-    "tomatillos": "Tomatillos",
-    "tomatoes_cherry_red_on_vine": "Tomates Cherry Rojos en Rama",
-    "tomatoes_cherry_yellow_on_vine": "Tomates Cherry Amarillos en Rama",
-    "tomatoes_cocktail_red": "Tomates Cóctel Rojos",
-    "tomatoes_greenhouse": "Tomates de Invernadero",
-    "tomatoes_native_home_grown": "Tomates de Cultivo Local",
-    "tomatoes_on_the_vine": "Tomates en Rama",
-    "tomatoes_regular": "Tomates Regulares",
-    "tomatoes_regular_orange_on_vine": "Tomates Regulares Naranjas en Rama",
-    "tomatoes_regular_yellow_on_vine": "Tomates Regulares Amarillos en Rama",
-    "tomatoes_roma_yellow": "Tomates Roma Amarillos",
+    "tomatillos": "Tomatillo",
+    "tomatoes_cherry_red_on_vine": "Tomate cherry rojo en rama",
+    "tomatoes_cherry_yellow_on_vine": "Tomate cherry amarillo en rama",
+    "tomatoes_cocktail_red": "Tomate cocktail rojo",
+    "tomatoes_greenhouse": "Tomate de invernadero",
+    "tomatoes_native_home_grown": "Tomate de cultivo local",
+    "tomatoes_on_the_vine": "Tomate en rama",
+    "tomatoes_regular": "Tomate regular",
+    "tomatoes_regular_orange_on_vine": "Tomate regular naranja en rama",
+    "tomatoes_regular_yellow_on_vine": "Tomate regular amarillo en rama",
+    "tomatoes_roma_yellow": "Tomate Roma amarillo",
     "tosca_pear": "Pera Tosca",
-    "tree_ripened_pears": "Peras Maduradas en Árbol",
-    "turban_squash": "Calabaza Turban",
-    "turnip_baby": "Nabo Baby",
-    "turnip_bunch_banded": "Nabos en Manojo Atado",
-    "turnip_greens": "Hojas de Nabo",
-    "turnip_white": "Nabo Blanco",
-    "turnip_yellow": "Nabo Amarillo",
-    "turnips": "Nabos",
-    "tuscan_kale": "Col Rizada Toscana",
-    "valencia_oranges": "Naranjas Valencia",
-    "vanilla_bean": "Vaina de Vainilla",
-    "vegetable_marrow": "Calabaza Alargada (Marrow)",
+    "tree_ripened_pears": "Pera madurada en árbol",
+    "turban_squash": "Calabaza turbante",
+    "turnip_baby": "Nabo baby",
+    "turnip_bunch_banded": "Nabo en manojo atado",
+    "turnip_greens": "Hojas de nabo",
+    "turnip_white": "Nabo blanco",
+    "turnip_yellow": "Nabo amarillo",
+    "turnips": "Nabo",
+    "tuscan_kale": "Col rizada toscana",
+    "valencia_oranges": "Naranja Valencia",
+    "vanilla_bean": "Vaina de vainilla",
+    "vegetable_marrow": "Calabaza italiana grande",
     "vidalia_onion": "Cebolla Vidalia",
-    "vine_ripe_tomatoes": "Tomates Madurados en Rama",
-    "virginia_gold_apples": "Manzanas Virginia Gold",
+    "vine_ripe_tomatoes": "Tomate madurado en rama",
+    "virginia_gold_apples": "Manzana Virginia Gold",
     "walla_walla_onion": "Cebolla Walla Walla",
-    "water_chestnuts": "Castañas de Agua",
+    "water_chestnuts": "Castañas de agua",
     "watercress": "Berro",
-    "watermelon_orange_seedless": "Sandía Naranja Sin Semilla",
-    "watermelon_red": "Sandía Roja",
-    "watermelon_red_small_seeds": "Sandía Roja de Semilla Chica",
-    "white_baking_potato": "Papa Blanca para Hornear",
-    "white_button_mushrooms": "Champiñones Blancos",
-    "white_flesh_flat_nectarine": "Nectarina Blanca Plana",
-    "white_flesh_nectarine": "Nectarina Blanca",
-    "white_onion": "Cebolla Blanca",
-    "white_potatoes": "Papas Blancas",
-    "white_squash": "Calabaza Blanca",
-    "wild_twist_apples": "Manzanas Wild Twist",
-    "winesap_apples": "Manzanas Winesap",
+    "watermelon_orange_seedless": "Sandía naranja sin semilla",
+    "watermelon_red": "Sandía roja",
+    "watermelon_red_small_seeds": "Sandía roja de semilla chica",
+    "white_baking_potato": "Papa blanca para hornear",
+    "white_button_mushrooms": "Champiñón blanco",
+    "white_flesh_flat_nectarine": "Nectarina blanca plana",
+    "white_flesh_nectarine": "Nectarina blanca",
+    "white_onion": "Cebolla blanca",
+    "white_potatoes": "Papa blanca",
+    "white_squash": "Calabacita blanca",
+    "wild_twist_apples": "Manzana Wild Twist",
+    "winesap_apples": "Manzana Winesap",
     "winter_melon_all_sizes": "Melón de invierno",
-    "winter_nelis_pears": "Peras Winter Nelis",
-    "wonderful_seedless_lemons": "Limones Amarillos Wonderful Sin Semilla",
-    "wood_ear_mushrooms": "Hongos Wood Ear",
-    "worcester_apples": "Manzanas Worcester",
-    "xenia_pears": "Peras Xenia",
+    "winter_nelis_pears": "Pera Winter Nelis",
+    "wonderful_seedless_lemons": "Limón amarillo Wonderful sin semilla",
+    "wood_ear_mushrooms": "Hongos oreja de madera",
+    "worcester_apples": "Manzana Worcester",
+    "xenia_pears": "Pera Xenia",
     "xpelon": "Xpelón",
-    "yellow_bell_pepper": "Pimiento Amarillo",
-    "yellow_brown_onions_bunch": "Cebollas Amarillas Cafés en Manojo",
-    "yellow_jackfruit": "Yaca Amarilla",
-    "yellow_onion": "Cebolla Amarilla",
-    "yellow_regular_tomatoes": "Tomates Amarillos Regulares",
-    "yellow_seedless_watermelon": "Sandía Amarilla Sin Semilla",
-    "yellow_squash_crookneck": "Calabaza Crookneck Amarilla",
-    "yellow_squash_straightneck": "Calabaza Straightneck Amarilla",
-    "yellow_watermelon": "Sandía Amarilla",
-    "yellow_zucchini": "Calabacita Amarilla",
-    "york_apples": "Manzanas York",
-    "yu_choy": "Yu Choy",
+    "yellow_bell_pepper": "Pimiento amarillo",
+    "yellow_brown_onions_bunch": "Cebolla amarilla en manojo",
+    "yellow_jackfruit": "Yaca amarilla",
+    "yellow_onion": "Cebolla amarilla",
+    "yellow_regular_tomatoes": "Tomate amarillo regular",
+    "yellow_seedless_watermelon": "Sandía amarilla sin semilla",
+    "yellow_squash_crookneck": "Calabaza amarilla de cuello torcido",
+    "yellow_squash_straightneck": "Calabaza amarilla de cuello recto",
+    "yellow_watermelon": "Sandía amarilla",
+    "yellow_zucchini": "Zucchini amarillo",
+    "york_apples": "Manzana York",
+    "yu_choy": "Yu choy",
     "yuca_root_cassava": "Yuca",
-    "yukon_gold_potatoes": "Papas Yukon Gold",
-    "zingy_apples": "Manzanas Zingy",
-    "zucchini": "Calabacita"
+    "yukon_gold_potatoes": "Papa Yukon Gold",
+    "zingy_apples": "Manzana Zingy",
+    "zucchini": "Calabaza italiana"
   },
   "card_notes": {
     "acorn_squash": "Sin división por tamaño. 4750 abre la zona de calabazas. Calabaza spaghetti=4776.",
-    "anaheim_pepper": "4677. Chile verde largo y suave. Chile New Mexico=4700. Común en la cocina del Suroeste.",
+    "anaheim_pepper": "4677. Chile verde largo y suave. Chile Nuevo México=4700. Común en la cocina del Suroeste.",
     "anjou_pears": "La chica (4025) está en la fila de frutas. La grande (4416) está en la zona de peras. D'Anjou roja=4417.",
     "apricots": "4218=chabacano chico/estándar; 3302=grande. El chabacano rojo es 3614.",
-    "asparagus_green": "El estándar (4080) es el común — justo al borde del bloque de verduras, después de la coliflor (4079). El grande (4521) es menos común. Espárrago blanco=4522, Morado=3079.",
+    "asparagus_green": "El estándar (4080) es el común. Justo al borde del bloque de verduras, después de la coliflor (4079). El grande (4521) es menos común. Espárrago blanco=4522, Morado=3079.",
     "avocado_green": "Aguacate de piel verde: 4222 chico / 4224 grande en todas partes; las tiendas del Este también usan 4221 chico, 4771 mediano y 4223 grande. La mayoría de las tiendas venden Hass (4046 chico, 4225 grande).",
-    "avocado_hass": "¡Tres tamaños! 4046 es el más común (chico/mediano). No aprendas solo uno — los tres aparecen en tienda. Las variedades de piel verde tienen códigos distintos (4222/4224, y 4221/4771/4223 en el Este).",
+    "avocado_hass": "¡Tres tamaños! 4046 es el más común (chico/mediano). No aprendas solo uno: los tres aparecen en tienda. Las variedades de piel verde tienen códigos distintos (4222/4224, y 4221/4771/4223 en el Este).",
     "bananas": "4011 es el código común del plátano; 4186 es el chico. No supongas que todo plátano usa 4011.",
     "bartlett_pears": "La chica (4024) está en la fila de frutas, cerca de las uvas. La grande (4409) está en la zona de peras (4409-4423). Bartlett roja=4410.",
-    "basil": "4885. Albahaca opal=4886, Albahaca dulce=4887. Las hierbas se agrupan en 4885-4908: Albahaca(4885), Cebollín(4888), Cilantro(4889), Eneldo(4891), Menta(4896), Perejil rizado(4899), Perejil italiano(4901), Romero(4903), Tomillo(4907).",
+    "basil": "4885. Albahaca opal=4886, Albahaca dulce=4887. Las hierbas se agrupan en 4885-4908: Albahaca (4885), Cebollín (4888), Cilantro (4889), Eneldo (4891), Menta (4896), Perejil rizado (4899), Perejil liso (4901), Romero (4903), Tomillo (4907).",
     "beets_bunch": "Sin división por tamaño. 4539. Betabel dorado=4540. En la zona de tubérculos 45xx.",
-    "bosc_pears": "La Bosc es la pera más compleja — 4 códigos divididos por tamaño Y región, parecido a la naranja navel. 4026 (Oeste) está en la fila de frutas. 4411-4413 están en la zona de peras.",
+    "bosc_pears": "La Bosc es la pera más compleja: 4 códigos divididos por tamaño Y región, parecido a la naranja navel. 4026 (Oeste) está en la fila de frutas. 4411-4413 están en la zona de peras.",
     "braeburn_apples": "Chica=4101, Grande=4103. En la zona de manzanas 41xx. Con dos de diferencia, como Fuji y Gala.",
     "broccoli": "Las coronas (3082) son las más comunes en la tienda. La cabeza entera es 4060, en el bloque de verduras. Los floretes (4548) son para pre-cortado. No los confundas con los floretes de coliflor (4566).",
     "butternut_squash": "Sin división por tamaño. 4759 está en la zona de calabazas (4750-4770). Acorn=4750, Spaghetti=4776.",
-    "cantaloupe": "Dos tamaños. 4050 (grande) es el más común. No confundas 4032 con el melón — ¡ese es la sandía sin semilla!",
-    "carrots_loose": "Sin división por tamaño. Zanahorias en manojo = 4094, Baby = 4560, Bastones = 4563. La suelta (4562) es el código a granel más común.",
+    "cantaloupe": "Dos tamaños. 4050 (grande) es el más común. No confundas 4032 con el melón: ¡ese es la sandía sin semilla!",
+    "carrots_loose": "Sin división por tamaño. Zanahoria en manojo = 4094, Baby = 4560, Bastones = 4563. La suelta (4562) es el código a granel más común.",
     "cauliflower": "4079 es el código de la coliflor chica/estándar; 4572 es la grande. Floretes=4566; Verde=4567; Morada=4568.",
-    "celery": "4070 (chico) es el común — un número redondo agradable en el bloque de verduras. El grande (4583) está en la zona 45xx. Corazones=4575, Bastones=4576.",
+    "celery": "4070 (chico) es el común: un número redondo agradable en el bloque de verduras. El grande (4583) está en la zona 45xx. Corazones=4575, Bastones=4576.",
     "cherry_tomatoes": "Sin división por tamaño. 4796. Cherry amarillo=4797. La mayoría de los tomates cherry/uva se venden en envases con código UPC, pero los sueltos necesitan el PLU.",
-    "cilantro": "Sin división por tamaño. Cilantro=4889, Eneldo=4891, Menta=4896. Perejil italiano=4901 y perejil rizado=4899.",
+    "cilantro": "Sin división por tamaño. Cilantro=4889, Eneldo=4891, Menta=4896. Perejil liso=4901 y perejil rizado=4899.",
     "coconut_in_husk": "Sin división por tamaño. 4260. El coco joven/verde y el agua de coco suelen venderse con código UPC.",
     "corn_yellow_trimmed": "Sin división por tamaño. Elote blanco=4077. El amarillo (4078) es mucho más común.",
-    "cremini_mushrooms": "Sin división por tamaño. 4648 está en la fila de hongos (4645-4652). Los cremini son en realidad portabellas baby — la misma especie (Agaricus bisporus) que el champiñón blanco y el portabella, solo en distinta etapa de crecimiento.",
+    "cremini_mushrooms": "Sin división por tamaño. 4648 está en la fila de hongos (4645-4652). Los cremini son en realidad portabellas baby: la misma especie (Agaricus bisporus) que el champiñón blanco y el portabella, solo en distinta etapa de crecimiento.",
     "cucumber": "Sin división por tamaño. Inglés/Largo sin semilla=4593. Hot House=4593.",
     "dill": "4891. Eneldo para encurtir=4893 (código distinto). El eneldo regular se usa fresco; el de encurtir incluye la flor.",
     "eggplant": "4081 es la berenjena morada regular. China=3089, Tailandesa=3090, Japonesa=4601.",
-    "fuji_apples": "Chica=4129, Grande=4131. Compárala con la Gala (4133/4135) — los códigos Fuji son 4 menos que los Gala en cada tamaño.",
+    "fuji_apples": "Chica=4129, Grande=4131. Compárala con la Gala (4133/4135): los códigos Fuji son 4 menos que los Gala en cada tamaño.",
     "gala_apples": "Oeste: 4133 chica, 4135 grande. Cultivo del Este/Centro: 4132 chica, 4134 grande.",
     "garlic": "Sin división por tamaño. 4608 está en la zona 46xx con los hongos y los chalotes (4662).",
     "ginger_root": "Sin división por tamaño. 4612. Suele venderse por peso. En la zona 46xx, cerca del ajo (4608) y las berzas (4614).",
-    "golden_delicious_apples": "Oeste: 4020 es Grande y 4021 es Chica — invertido del patrón usual, así que verifica bien. Extra grande=3285. Cultivo del Este/Centro: 4136 chica, 4137 grande.",
+    "golden_delicious_apples": "Oeste: 4020 es Grande y 4021 es Chica, invertido del patrón usual, así que verifica bien. Jumbo=3285. Cultivo del Este/Centro: 4136 chica, 4137 grande.",
     "granny_smith_apples": "⚠️ A diferencia de Gala/Fuji, donde chica y grande están a 2 de distancia, los códigos Granny Smith están muy separados: 4139 vs 4017. ¡La grande (4017) está cerca del plátano (4011) y la naranja (4012)!",
     "grapefruit_ruby_red": "4047 chica (en todas partes); la fruta cultivada en el Este también usa 4027 chica. Grande=4281.",
     "grapes_red_seedless": "Sin división por tamaño. Verde sin semilla=4022, Negra sin semilla=4056. Red Globe (con semilla)=4636.",
-    "green_beans": "Sin división por tamaño. 4066 está en el bloque de verduras, entre el pimiento verde (4065) y la calabacita (4067).",
+    "green_beans": "Sin división por tamaño. 4066 está en el bloque de verduras, entre el pimiento verde (4065) y la calabaza italiana (4067).",
     "green_bell_pepper": "4065 es el pimiento verde grande de campo del día a día; 4681 es el chico de campo. De invernadero chico=3119, grande=3120.",
     "green_cabbage": "Sin división por tamaño. 4069 está en el bloque de verduras, entre la cebolla verde (4068) y el apio (4070). Repollo morado=4554, Napa=4552.",
     "green_grapes_seedless": "Sin división por tamaño. La roja sin semilla (4023) menos 1 = la verde sin semilla (4022).",
     "green_leaf_lettuce": "4076 está entre la lechuga de hoja roja 4075 y el elote blanco 4077. El camote es 4074.",
-    "green_onions_scallions": "Sin división por tamaño. 4068 está en el bloque de verduras, entre la calabacita (4067) y el repollo verde (4069). Distinta de los chalotes (4662) y los poros (4629).",
-    "habanero_pepper": "3125 — el único chile picante común en el rango 3xxx. Muy picante. No lo confundas con el scotch bonnet (aspecto parecido, código distinto).",
+    "green_onions_scallions": "Sin división por tamaño. 4068 está en el bloque de verduras, entre la calabaza italiana (4067) y el repollo verde (4069). Distinta de los chalotes (4662) y los poros (4629).",
+    "habanero_pepper": "3125: el único chile picante común en el rango 3xxx. Muy picante. No lo confundas con el scotch bonnet (aspecto parecido, código distinto).",
     "honeycrisp_apples": "La Honeycrisp tiene división por tamaño: 3283 grande, 3468 chica. Ambas viven en el rango 3xxx.",
     "honeydew_melon": "Chico (4329) y Grande (4034). Honeydew dorado=3100. El honeydew grande (4034) está en la fila de frutas, cerca de los limones y el kiwi.",
     "iceberg_lettuce": "Sin división por tamaño. Romana=4640, Hoja verde=4076, Boston/Mantequilla=4632.",
     "jalapeno_pepper": "El verde (4693) es mucho más común. El rojo (4694) es solo un jalapeño verde maduro. Ambos en la zona de chiles picantes (4690s).",
     "kiwifruit": "Regular=4030. Jumbo/XL=3280. Kiwi dorado=3279.",
-    "leeks": "Sin división por tamaño. 4629. Poro baby=4630. No es lo mismo que la cebolla verde (4068) — los poros son mucho más grandes.",
+    "leeks": "Sin división por tamaño. 4629. Poro baby=4630. No es lo mismo que la cebolla verde (4068). Los poros son mucho más grandes.",
     "lemons": "Tres tamaños. 4053 (grande) es el que más se ve. Sin división por región como las naranjas.",
-    "limes": "Dos variedades. La regular (4048) es la lima común de tienda. La Key Lime (4305) es más chica, más redonda y más aromática — se usa en el pay de Key Lime. Ninguna tiene división por tamaño.",
+    "limes": "Dos variedades. El limón verde (4048) es el común de tienda. El limón agrio (4305) es más chico, más redondo y más aromático. Se usa en el pay de Key Lime. Ninguno tiene división por tamaño.",
     "mango_yellow": "Los mangos se codifican por COLOR DE CÁSCARA: Rojo=4051/4959 (ola 14), Amarillo/Ataulfo=4312/4961, Verde/Keitt=4311. El Ataulfo es más plano, cremoso y menos fibroso que las variedades rojas.",
     "mangoes_red": "Los PLU de mango se organizan por COLOR DE CÁSCARA, no por variedad. El rojo abarca Tommy Atkins, Kent, Haden, etc. El mango amarillo/Ataulfo tiene código aparte: 4312 (chico), 4961 (grande). Verde/Keitt=4311.",
     "mint": "4896. En el grupo de hierbas, entre la hierba de limón (4894) y el orégano (4897).",
-    "navel_oranges": "Oeste: 4013 chica, 3107 mediana, 4012 grande. Cultivo del Este: 4384 chica, 4385 grande. Más frutas por caja = fruta más chica — una \"grande\" del Este puede ser menor que una \"mediana\" del Oeste.",
-    "nectarines_yellow": "4035 (chica) y 4036 (grande) — números consecutivos en la fila de frutas. Nectarina blanca (madurada en árbol)=3035.",
-    "orange_bell_pepper": "De campo (4682) vs de invernadero (3121). El naranja de invernadero está en el rango 3xxx — el único pimiento de invernadero común ahí. Compara: Rojo de invernadero=4688, Amarillo de invernadero=4689.",
+    "navel_oranges": "Oeste: 4013 chica, 3107 mediana, 4012 grande. Cultivo del Este: 4384 chica, 4385 grande. Más frutas por caja = fruta más chica. Una \"grande\" del Este puede ser menor que una \"mediana\" del Oeste.",
+    "nectarines_yellow": "4035 (chica) y 4036 (grande), números consecutivos en la fila de frutas. Nectarina blanca (madurada en árbol)=3035.",
+    "orange_bell_pepper": "De campo (4682) vs de invernadero (3121). El naranja de invernadero está en el rango 3xxx: el único pimiento de invernadero común ahí. Compara: Rojo de invernadero=4688, Amarillo de invernadero=4689.",
     "papaya_regular": "4394 es la papaya grande regular. 4052 es el código de la papaya chica Solo/Hawaiana estándar. Papaya para cocinar/mexicana=4395.",
     "parsley_curly": "4899. A dos del italiano (4901). El rizado se usa más como decoración.",
-    "parsley_italian_flat_leaf": "4901. Se parece mucho al cilantro (4889) — una de las confusiones de producto más comunes. Perejil rizado=4899.",
+    "parsley_italian_flat_leaf": "4901. Se parece mucho al cilantro (4889), una de las confusiones de producto más comunes. Perejil rizado=4899.",
     "peaches_yellow_flesh": "4037 es el durazno amarillo chico; 4038 es el grande. 4044 es el madurado en árbol/listo para comer, no el código regular de grande.",
     "pickling_cucumbers": "4596 es el pepino para encurtir/Kirby: corto, firme y crujiente, ideal para encurtir.",
-    "pineapple": "La chica (4029) está en la fila de frutas. La grande (4430) está en la zona 44xx. La mayoría de las tiendas venden la grande — 4430 es el código más común.",
+    "pineapple": "La chica (4029) está en la fila de frutas. La grande (4430) está en la zona 44xx. La mayoría de las tiendas venden la grande: 4430 es el código más común.",
     "pink_lady_apples": "Chica=4128, Grande=4130. Justo antes de la Fuji (4129/4131) en el Pasillo de Manzanas. Pink Lady es el nombre de marca de la variedad Cripps Pink.",
     "plantains": "4235. Parece un plátano grande pero debe cocinarse. NO es plátano (4011). Común en la cocina latina, caribeña y africana.",
-    "plums_black": "Negra (4040) y Roja (4042) — ambas en la fila de frutas. Los pluots/plumcots tienen sus propios códigos (3278, etc.).",
-    "poblano_pepper": "Sin división por tamaño. 4705. La versión seca se llama Ancho. Picor suave, tamaño grande — a menudo se rellena.",
-    "portabella_mushrooms": "Sin división por tamaño. 4650. La misma especie que el cremini (4648) y el champiñón blanco (4645/4085) — solo que totalmente maduro.",
+    "plums_black": "Negra (4040) y Roja (4042), ambas en la fila de frutas. Los pluots/plumcots tienen sus propios códigos (3278, etc.).",
+    "poblano_pepper": "Sin división por tamaño. 4705. La versión seca se llama Ancho. Picor suave, tamaño grande, a menudo se rellena.",
+    "portabella_mushrooms": "Sin división por tamaño. 4650. La misma especie que el cremini (4648) y el champiñón blanco (4645/4085), solo que totalmente maduro.",
     "radishes_red_bunch": "Sin división por tamaño. 4089 está en el bloque de verduras, justo después del pimiento rojo de campo (4088). Rábano daikon=4598.",
-    "red_bell_pepper": "El de campo (4088) está en el bloque de verduras, justo después del tomate Roma (4087). El de invernadero (4688) está en la zona 46xx. Tu tienda puede usar uno u otro — revisa qué tienen en existencia.",
+    "red_bell_pepper": "El de campo (4088) está en el bloque de verduras, justo después del tomate Roma (4087). El de invernadero (4688) está en la zona 46xx. Tu tienda puede usar uno u otro. Revisa qué tienen en existencia.",
     "red_black_cherries": "4045 es el código para todos los tamaños que verás más seguido; 3357 (chica) y 3358 (grande) son los códigos por tamaño.",
-    "red_delicious_apples": "Oeste: 4015 chica, 4016 grande, 3284 extra grande. Cultivo del Este/Centro: 4167 chica, 4168 grande. Cerca de la Granny Smith grande (4017) en la fila de frutas.",
-    "red_onion": "Sin división por tamaño. 4082 está en el bloque de verduras. A diferencia de la cebolla amarilla, que tiene chica (4665) y grande (4093), la cebolla roja es un solo código para todos los tamaños.",
+    "red_delicious_apples": "Oeste: 4015 chica, 4016 grande, 3284 jumbo. Cultivo del Este/Centro: 4167 chica, 4168 grande. Cerca de la Granny Smith grande (4017) en la fila de frutas.",
+    "red_onion": "Sin división por tamaño. 4082 está en el bloque de verduras. A diferencia de la cebolla amarilla, que tiene chica (4665) y grande (4093), la cebolla morada es un solo código para todos los tamaños.",
     "red_potatoes": "Sin división por tamaño. 4073 está justo al lado de la russet (4072) en el bloque de verduras. Blanca=4083, Amarilla/Yukon=4727.",
     "roma_tomatoes": "Sin división por tamaño. El nombre oficial es Plum/Italiano/Saladette/Roma. NO es 3151 (ese es Madurado en Rama Grande).",
     "romaine_lettuce": "Sin división por tamaño. 4640 está en la zona 46xx, NO en el bloque de verduras con la iceberg (4061). Los corazones de romana suelen venderse en bolsa con código UPC, no con PLU.",
@@ -967,19 +969,2771 @@
     "shallots": "Sin división por tamaño. 4662 está en la zona de cebollas 46xx, cerca de la cebolla blanca (4663) y el tomate en rama (4664).",
     "spaghetti_squash": "Sin división por tamaño. 4776 está en la zona de calabazas (4750-4789). Popular sustituto de la pasta bajo en carbohidratos.",
     "spinach_bunch": "Sin división por tamaño. 4090 está en el bloque de verduras, cerca de la cebolla (4093).",
-    "sweet_potatoes_yam": "Familia compleja. El camote de pulpa naranja que la mayoría compra es 4074 (chico) o 4817 (grande). El dorado (4816) y el blanco (4091) son variedades distintas. 4091 está en el bloque de verduras; 4074 también.",
+    "sweet_potatoes_yam": "Familia compleja. El camote de pulpa naranja que la mayoría compra es 4074 (chico) o 4817 (grande). El amarillo (4816) y el blanco (4091) son variedades distintas. 4091 está en el bloque de verduras; 4074 también.",
     "tangerines": "4055 abarca las mandarinas sueltas. Las Cuties, Halos, etc. en bolsa tienen código UPC, pero las sueltas del contenedor necesitan este PLU. Justo después de las frambuesas (4054) en la fila de frutas.",
     "tomatillos": "4801. Parece un tomate verde chico dentro de una cáscara de papel. Esencial para la salsa verde. NO es un tomate verde.",
     "tomatoes_greenhouse": "4799 es en realidad el tomate regular de invernadero/hidropónico (grande). Los verdaderos tomates uva suelen venderse con códigos asignados por la tienda o en envases con UPC. Revisa el sistema de tu tienda.",
     "tomatoes_on_the_vine": "Son tomates vendidos aún pegados a la rama/racimo. Distintos del Madurado en Rama (3151/4805), que se refiere al método de maduración. 4664 está cerca de la cebolla amarilla chica (4665).",
-    "vine_ripe_tomatoes": "¡El Madurado en Rama tiene división por tamaño! 3151 es el grande — este NO es Roma (Roma=4087). El tomate en rama/racimo (cosechado aún en la rama) = 4664, que es algo distinto.",
+    "vine_ripe_tomatoes": "¡El Madurado en Rama tiene división por tamaño! 3151 es el grande. Este NO es Roma (Roma=4087). El tomate en rama/racimo (cosechado aún en la rama) = 4664, que es algo distinto.",
     "watermelon_red": "Con semilla=4031, Sin semilla=4032. La sin semilla es hoy mucho más común. Mini sin semilla=3421. Amarilla con semilla=4340, amarilla sin semilla=4341.",
     "white_button_mushrooms": "El chico (4645) está en la zona de hongos 46xx. ¡El grande (4085) está en el bloque de verduras! Cremini/Café=4648, Portabella=4650. Son técnicamente la misma especie en distintas etapas de crecimiento.",
-    "white_onion": "Cebolla blanca=4663. Compara: amarilla grande=4093, amarilla chica=4665 y roja=4082.",
+    "white_onion": "Cebolla blanca=4663. Compara: amarilla grande=4093, amarilla chica=4665 y morada=4082.",
     "yellow_bell_pepper": "De campo (4680) vs de invernadero (4689). Compara: Verde de campo=4065, Rojo de campo=4088, Amarillo de campo=4680. ¡No hay un patrón claro entre colores!",
     "yellow_onion": "¡Dos tamaños! La grande (4093) está en el bloque de verduras. La chica (4665) está allá arriba en el rango 46xx, cerca de los hongos.",
-    "yellow_squash_crookneck": "Sin división por tamaño. 4784. La 'calabaza amarilla' común de tienda. Amarilla de cuello recto=4782. Distinta de la calabacita amarilla (4086).",
-    "yellow_squash_straightneck": "4782. Algunas tiendas la usan indistintamente con la de cuello curvo (4784) — la diferencia es la forma del cuello.",
-    "zucchini": "Sin división por tamaño. Calabacita amarilla/barra dorada=4086. La calabacita regular (4067) está en el bloque de verduras, entre el pimiento verde (4065) y la cebolla verde (4068)."
+    "yellow_squash_crookneck": "Sin división por tamaño. 4784. La 'calabaza amarilla' común de tienda. Amarilla de cuello recto=4782. Distinta del zucchini amarillo (4086).",
+    "yellow_squash_straightneck": "4782. Algunas tiendas la usan indistintamente con la de cuello torcido (4784). La diferencia es la forma del cuello.",
+    "zucchini": "Sin división por tamaño. Zucchini amarillo/Gold Bar=4086. La calabaza italiana regular (4067) está en el bloque de verduras, entre el pimiento verde (4065) y la cebolla verde (4068)."
+  },
+  "aliases": {
+    "abate_fetel_pears": [
+      "peras abate fetel"
+    ],
+    "acorn_squash": [
+      "calabaza bellota"
+    ],
+    "adora_seedless_grapes": [
+      "uvas adora sin semilla"
+    ],
+    "akane_apples": [
+      "manzanas akane"
+    ],
+    "alfalfa_sprouts": [
+      "germinados de alfalfa",
+      "germen de alfalfa",
+      "brotes de alfalfa"
+    ],
+    "alkmene_apples": [
+      "manzanas alkmene"
+    ],
+    "aloe_vera_leaves": [
+      "hoja de sábila",
+      "penca de sábila",
+      "sábila",
+      "savila",
+      "aloe vera"
+    ],
+    "amaranth_leaves_all_sizes": [
+      "quintonil",
+      "quelite",
+      "bledo",
+      "espinaca china",
+      "bledos"
+    ],
+    "ambrosia_apples": [
+      "manzanas ambrosia"
+    ],
+    "anaheim_pepper": [
+      "chile california"
+    ],
+    "anise": [
+      "hinojo",
+      "bulbo de hinojo"
+    ],
+    "anjou_pears": [
+      "pera d'anjou",
+      "pera de anjou",
+      "pera danjou",
+      "peras anjou"
+    ],
+    "anjou_pears_red": [
+      "pera red d'anjou",
+      "pera roja",
+      "peras anjou rojas"
+    ],
+    "apple_bananas_manzano": [
+      "plátanos manzano"
+    ],
+    "apples_antares": [
+      "manzanas antares"
+    ],
+    "apples_baldwin": [
+      "manzanas baldwin"
+    ],
+    "apples_cn121": [
+      "manzana sugar bee",
+      "manzanas sugarbee (grandes)"
+    ],
+    "apples_dalinette": [
+      "manzanas dalinette"
+    ],
+    "apples_greening_ri": [
+      "manzanas greening (ri)"
+    ],
+    "apples_haralson": [
+      "manzanas haralson"
+    ],
+    "apples_liberty": [
+      "manzanas liberty"
+    ],
+    "apples_macoun": [
+      "manzanas macoun"
+    ],
+    "apples_melrose": [
+      "manzanas melrose"
+    ],
+    "apples_northern_spy": [
+      "manzanas northern spy"
+    ],
+    "apples_orleans": [
+      "manzanas orléans"
+    ],
+    "apples_rosinette": [
+      "manzanas rosinette"
+    ],
+    "apples_scilate_envy": [
+      "manzanas scilate (envy)"
+    ],
+    "apples_wurtwinning_bloss": [
+      "manzanas wurtwinning bloss"
+    ],
+    "apricots": [
+      "albaricoques",
+      "damascos",
+      "chabacanos"
+    ],
+    "apricots_dried": [
+      "chabacano deshidratado",
+      "chabacanos secos",
+      "orejones de chabacano"
+    ],
+    "arra_thirty_grapes": [
+      "uvas arra thirty"
+    ],
+    "arra_thirtytwo_grapes": [
+      "uvas arra thirtytwo"
+    ],
+    "arra_twentyeight_grapes": [
+      "uvas arra twentyeight"
+    ],
+    "arra_twentyseven_grapes": [
+      "uvas arra twentyseven"
+    ],
+    "arracach": [
+      "apio criollo"
+    ],
+    "artichokes_baby_cocktail": [
+      "alcachofa baby",
+      "alcachofa mini",
+      "alcachofas baby cóctel"
+    ],
+    "artichokes_purple": [
+      "alcachofas moradas"
+    ],
+    "artichokes_rouge_salambo": [
+      "alcachofas rouge salambo"
+    ],
+    "arugula": [
+      "rúcula"
+    ],
+    "asian_nashi_pears_brown": [
+      "pera nashi",
+      "pera asiática",
+      "peras nashi asiáticas cafés",
+      "peras asiáticas cafés"
+    ],
+    "asian_nashi_pears_white": [
+      "pera nashi",
+      "pera asiática",
+      "peras nashi asiáticas blancas",
+      "peras asiáticas blancas"
+    ],
+    "asian_pears": [
+      "pera asiática golden",
+      "pera nashi",
+      "pera china",
+      "peras asiáticas"
+    ],
+    "asparagus_green": [
+      "espárrago verde",
+      "espárrago"
+    ],
+    "asparagus_green_bunch": [
+      "espárrago verde manojo"
+    ],
+    "asparagus_purple": [
+      "espárrago morado"
+    ],
+    "asparagus_white": [
+      "espárrago blanco"
+    ],
+    "asparagus_white_bunch": [
+      "espárrago albino"
+    ],
+    "atemoyas": [
+      "atemoyas"
+    ],
+    "aura_apples": [
+      "manzanas aura"
+    ],
+    "aurora_apples": [
+      "manzanas aurora"
+    ],
+    "aurora_southern_rose_apples": [
+      "manzanas aurora southern rose"
+    ],
+    "autumncrisp_grapes": [
+      "uvas autumncrisp"
+    ],
+    "avocado_green": [
+      "aguacate florida"
+    ],
+    "avocados_cocktail_seedless": [
+      "aguacate cocktail",
+      "aguacate dátil",
+      "aguacates cóctel sin semilla"
+    ],
+    "avocados_pinkerton": [
+      "aguacates pinkerton"
+    ],
+    "baby_bananas": [
+      "plátano dominico",
+      "plátano niño",
+      "dominico",
+      "baby banana",
+      "plátanos baby"
+    ],
+    "baby_cactus_leaves": [
+      "baby nopal",
+      "nopalitos",
+      "nopal cambray",
+      "nopales baby"
+    ],
+    "baby_gai_choy": [
+      "mostaza china baby"
+    ],
+    "baby_green_zucchini_courgette": [
+      "calabaza italiana baby",
+      "mini calabaza italiana",
+      "zucchini baby",
+      "calabacita baby",
+      "calabaza zucchini baby"
+    ],
+    "baby_parsnip": [
+      "pastinaca",
+      "parsnip"
+    ],
+    "baby_scallopini_squash": [
+      "calabaza estrella baby"
+    ],
+    "baby_spinach": [
+      "espinacas baby",
+      "espinaca bebé"
+    ],
+    "baby_summer_green_squash": [
+      "calabacita baby",
+      "mini calabacita",
+      "calabacín baby",
+      "calabaza italiana baby",
+      "calabaza summer baby verde"
+    ],
+    "banana_leaves": [
+      "hoja de plátano"
+    ],
+    "banana_pepper": [
+      "chile güero",
+      "chile banana güero"
+    ],
+    "bananas": [
+      "bananas",
+      "guineos",
+      "plátano chiapas",
+      "plátano tabasco",
+      "plátanos"
+    ],
+    "bananas_burro": [
+      "plátano pera",
+      "plátanos burro"
+    ],
+    "bananas_dominique": [
+      "dominique",
+      "plátanos dominique",
+      "plátanos dominicos"
+    ],
+    "bartlett_pears": [
+      "peras bartlett"
+    ],
+    "bartlett_pears_red": [
+      "pera roja",
+      "peras bartlett rojas"
+    ],
+    "basil_opal": [
+      "albahaca morada",
+      "albahaca ópalo"
+    ],
+    "bay_leaves": [
+      "laurel",
+      "hoja de laurel"
+    ],
+    "bean_sprouts_mung": [
+      "germinado de soya",
+      "bean sprouts"
+    ],
+    "beans_chinese_long_snake": [
+      "ejote chino",
+      "chinese long beans"
+    ],
+    "beans_lima": [
+      "frijol lima",
+      "habas grandes"
+    ],
+    "beans_pole_runner_stick": [
+      "ejotes de enrame",
+      "ejotes de vara",
+      "frijol de guía",
+      "pole beans"
+    ],
+    "beans_purple_hull": [
+      "purple hull peas",
+      "frijoles de vaina morada"
+    ],
+    "beans_shell": [
+      "frijol tierno",
+      "frijol nuevo en vaina",
+      "frijol verde en vaina",
+      "frijoles para desvainar"
+    ],
+    "beans_winged": [
+      "frijoles alados"
+    ],
+    "beefsteak_tomatoes": [
+      "tomate beef",
+      "jitomate beef",
+      "tomate beefsteak",
+      "tomate bola grande",
+      "tomates bola (beefsteak)"
+    ],
+    "beet_greens": [
+      "hoja de betabel",
+      "hojas de remolacha"
+    ],
+    "beets_baby_golden": [
+      "remolacha",
+      "betabel cambray",
+      "betabeles baby dorados"
+    ],
+    "beets_baby_red": [
+      "remolacha",
+      "betabel cambray",
+      "betabeles baby rojos"
+    ],
+    "beets_bunch": [
+      "betabel con rabo",
+      "remolacha",
+      "betabeles en manojo"
+    ],
+    "beets_golden": [
+      "remolacha amarilla",
+      "betabel amarillo",
+      "betabeles dorados"
+    ],
+    "beets_loose": [
+      "remolacha",
+      "betabeles sueltos"
+    ],
+    "belchard_chantecler_apples": [
+      "manzanas belchard chantecler"
+    ],
+    "belgian_endive": [
+      "endivia belga",
+      "endivias"
+    ],
+    "belgian_endive_red": [
+      "endivia belga roja"
+    ],
+    "belgica_apples": [
+      "manzanas belgica"
+    ],
+    "bell_pepper_brown": [
+      "chile campana café",
+      "pimiento morrón café",
+      "chile morrón café",
+      "pimiento campana café"
+    ],
+    "bell_pepper_white": [
+      "chile campana blanco",
+      "pimiento morrón blanco",
+      "chile morrón blanco",
+      "pimiento campana blanco"
+    ],
+    "bertanne_golden_russet_apples": [
+      "manzanas bertanne golden russet"
+    ],
+    "beurre_hardy_pears": [
+      "peras beurre hardy"
+    ],
+    "black_grapes_seeded": [
+      "uvas negras con semilla"
+    ],
+    "black_grapes_seedless": [
+      "uvas negras sin semilla"
+    ],
+    "black_plumcot": [
+      "pluot negro",
+      "plumcot",
+      "ciruela-chabacano",
+      "ciruela-chabacano negro"
+    ],
+    "blackberries": [
+      "moras"
+    ],
+    "blackeyed_peas": [
+      "frijol carita",
+      "guisantes de ojo negro",
+      "frijoles de ojo negro"
+    ],
+    "blood_oranges": [
+      "naranjas blood",
+      "blood orange",
+      "naranja blood",
+      "naranjas sanguinas"
+    ],
+    "blue_black_seeded_grapes": [
+      "uvas negras con semilla",
+      "uvas azules negras con semilla"
+    ],
+    "blueberries": [
+      "moras azules",
+      "arándanos azules",
+      "blueberries",
+      "blueberry"
+    ],
+    "boiling_onions": [
+      "cebolla cambray limpia",
+      "cebollitas",
+      "cebollas para cocer"
+    ],
+    "bok_choy": [
+      "pak choi",
+      "pak choy"
+    ],
+    "bok_choy_small_baby": [
+      "bok choy baby"
+    ],
+    "bon_rouge_pears": [
+      "peras bon rouge"
+    ],
+    "boniato": [
+      "boniato cubano",
+      "camote blanco",
+      "batata"
+    ],
+    "bosc_pears": [
+      "pera bosco",
+      "peras bosc"
+    ],
+    "boskoop_apples": [
+      "manzanas boskoop"
+    ],
+    "boston_lettuce_red": [
+      "lechuga francesa roja",
+      "lechuga mantequilla roja"
+    ],
+    "boysenberries": [
+      "boysenberry"
+    ],
+    "braeburn_apples": [
+      "manzanas braeburn"
+    ],
+    "breadfruit": [
+      "fruta del pan",
+      "pana",
+      "panapén"
+    ],
+    "broccoli": [
+      "brécol",
+      "floretes de brócoli",
+      "brócoli coronas"
+    ],
+    "broccoli_baby": [
+      "broccolini",
+      "brócoli baby"
+    ],
+    "broccoli_rabe_chinese_broccoli": [
+      "brócoli chino",
+      "rapini",
+      "gai lan",
+      "broccoli rabe",
+      "broccoli rabe (brócoli chino)"
+    ],
+    "brussels_sprouts": [
+      "col de bruselas"
+    ],
+    "butternut_squash": [
+      "calabaza mantequilla"
+    ],
+    "cabbage_savoy_green": [
+      "repollo savoy"
+    ],
+    "cabbage_summer_pointed": [
+      "col picuda",
+      "repollo corazón de buey",
+      "col de verano",
+      "repollo summer pointed",
+      "col puntiaguda"
+    ],
+    "cactus_leaves": [
+      "nopal entero",
+      "penca de nopal",
+      "hoja de nopal",
+      "nopalitos",
+      "nopales"
+    ],
+    "cactus_pear": [
+      "tuna verde",
+      "tuna blanca",
+      "tuna roja"
+    ],
+    "calabaza_squash": [
+      "calabaza de castilla",
+      "tropical calabaza"
+    ],
+    "california_sweet_onion": [
+      "cebolla dulce de california"
+    ],
+    "cameo_apples": [
+      "manzanas cameo"
+    ],
+    "canary_melon": [
+      "melón canario",
+      "melón amarillo",
+      "melón juan canario",
+      "melones"
+    ],
+    "cantaloupe": [
+      "melón cantalupo",
+      "cantaloupe",
+      "melones"
+    ],
+    "cantaloupe_muskmelon": [
+      "melón cantaloupe",
+      "melón cantalupo",
+      "cantaloupe",
+      "muskmelon",
+      "melón cantalupo (almizcleño)",
+      "melones"
+    ],
+    "cantared_apples": [
+      "manzanas cantared"
+    ],
+    "cape_gooseberry_physalis": [
+      "golden berry",
+      "uchuva"
+    ],
+    "cape_rose_pears": [
+      "peras cape rose"
+    ],
+    "cara_cara_navel_oranges": [
+      "naranjas navel cara cara"
+    ],
+    "carrots_baby": [
+      "zanahoria cambray",
+      "zanahorias baby"
+    ],
+    "carrots_bunch": [
+      "zanahoria con rabo",
+      "zanahoria con hoja",
+      "zanahorias en manojo"
+    ],
+    "carrots_french": [
+      "zanahorias francesas"
+    ],
+    "carrots_loose": [
+      "zanahoria a granel",
+      "zanahorias sueltas"
+    ],
+    "carrots_purple_red_beta_sweet": [
+      "zanahorias moradas (beta sweet)"
+    ],
+    "carrots_sticks": [
+      "bastón"
+    ],
+    "casaba_melon": [
+      "melones"
+    ],
+    "cauliflower": [
+      "floretes de coliflor",
+      "coliflores"
+    ],
+    "cauliflower_baby": [
+      "mini coliflor",
+      "coliflores"
+    ],
+    "cauliflower_green": [
+      "coliflores"
+    ],
+    "cauliflower_purple": [
+      "coliflores"
+    ],
+    "cauliflower_romanesco": [
+      "romanesco",
+      "brocoflor",
+      "coliflores"
+    ],
+    "celery_hearts": [
+      "corazón de apio"
+    ],
+    "celery_loose_stalk": [
+      "apio en tallo suelto",
+      "apio en tiras",
+      "apio unidad"
+    ],
+    "celery_root_celeriac": [
+      "apio nabo",
+      "apionabo",
+      "raíz de apio",
+      "celeriac",
+      "apio raíz",
+      "raíz de apio (celeriac)",
+      "raíces"
+    ],
+    "celery_root_with_leaves": [
+      "apio nabo con hojas",
+      "apionabo con hojas",
+      "raíces"
+    ],
+    "champagne_grapes": [
+      "uvas champagne"
+    ],
+    "chanterelle_mushrooms": [
+      "rebozuelo",
+      "chantarela"
+    ],
+    "charentais_melon": [
+      "melones"
+    ],
+    "charles_ross_apples": [
+      "manzanas charles ross"
+    ],
+    "chasselas_grapes": [
+      "uvas chasselas"
+    ],
+    "chayote_squash": [
+      "chayote sin espinas",
+      "chayote liso",
+      "calabaza chayote"
+    ],
+    "cherry_tomatoes": [
+      "jitomate cherry",
+      "tomates cherry"
+    ],
+    "cherry_tomatoes_yellow": [
+      "jitomate cherry amarillo",
+      "tomates cherry amarillos"
+    ],
+    "chickpeas_fresh": [
+      "garbanzos frescos"
+    ],
+    "chili_peppers_yellow": [
+      "chile güero",
+      "chile caribe",
+      "chile cristal",
+      "chiles amarillos"
+    ],
+    "chinese_yali_pears": [
+      "pera ya",
+      "pera yali",
+      "peras yali chinas"
+    ],
+    "chipilin_leaf": [
+      "chipilín",
+      "chepil"
+    ],
+    "chives": [
+      "cebollino",
+      "cebollines"
+    ],
+    "choy_sum": [
+      "yu choy"
+    ],
+    "cilantro": [
+      "cilantrillo"
+    ],
+    "cinnabar_melon": [
+      "melones"
+    ],
+    "civg198_apples": [
+      "manzanas civg198"
+    ],
+    "civni_apples": [
+      "manzanas civni"
+    ],
+    "clara_friis_pears": [
+      "peras clara frijs"
+    ],
+    "clementine_tangerine": [
+      "clementina",
+      "mandarina clementine"
+    ],
+    "clementine_tangerine_untreated": [
+      "clementina sin tratar",
+      "mandarina clementine sin tratamiento poscosecha"
+    ],
+    "clementine_tangerine_with_leaves": [
+      "clementina con hojas",
+      "mandarina clementine con hojas"
+    ],
+    "clementines": [
+      "mandarina clementina",
+      "mandarinas",
+      "clementinas"
+    ],
+    "cocktail_tomatoes_on_vine": [
+      "tomate cocktail en vaina",
+      "tomates en racimo",
+      "tomates cóctel",
+      "tomates cóctel en rama",
+      "tomates cocktail en rama"
+    ],
+    "coconut_husked": [
+      "coco pelado",
+      "coco",
+      "coco seco"
+    ],
+    "coconut_in_husk": [
+      "coco con cáscara",
+      "coco de agua",
+      "coco joven",
+      "coco tierno"
+    ],
+    "collard_greens": [
+      "collard greens",
+      "hojas de berza",
+      "col berza"
+    ],
+    "comice_pears": [
+      "peras comice"
+    ],
+    "concord_grapes": [
+      "uvas concord"
+    ],
+    "concorde_pears": [
+      "peras concorde"
+    ],
+    "conference_pears": [
+      "peras conference"
+    ],
+    "coop_43_apples": [
+      "manzanas co-op 43"
+    ],
+    "corn_indian_decorative": [
+      "maíz decorativo",
+      "maíces"
+    ],
+    "corn_indian_decorative_mini": [
+      "maíz decorativo mini",
+      "maíces"
+    ],
+    "corn_indian_strawberry": [
+      "maíz indio strawberry",
+      "maíz palomero fresa",
+      "strawberry popcorn",
+      "maíces"
+    ],
+    "corn_sweet_baby": [
+      "elote baby",
+      "elotitos"
+    ],
+    "corn_white_trimmed": [
+      "elote",
+      "elote blanco recortado"
+    ],
+    "corn_yellow_trimmed": [
+      "elote dulce amarillo",
+      "elote dulce",
+      "elote amarillo recortado"
+    ],
+    "cortland_apples": [
+      "manzanas cortland"
+    ],
+    "cosmic_crisp_apples": [
+      "manzanas cosmic crisp"
+    ],
+    "cox_orange_pippin_apples": [
+      "manzanas cox's orange pippin"
+    ],
+    "crab_apples": [
+      "manzanas silvestres",
+      "manzana crab",
+      "manzanas crab",
+      "crab apple"
+    ],
+    "cranberries": [
+      "arándanos",
+      "cranberries",
+      "arándano agrio"
+    ],
+    "cremini_mushrooms": [
+      "champiñón cremini",
+      "baby bella",
+      "hongos baby bella"
+    ],
+    "crenshaw_melon": [
+      "melones"
+    ],
+    "crimson_delight_sunrise_magic_apples": [
+      "manzanas crimson delight sunrise magic"
+    ],
+    "crimson_grapes": [
+      "uvas crimson"
+    ],
+    "cripps_red_apples": [
+      "manzanas cripps red"
+    ],
+    "cripps_red_sundowner_apples": [
+      "manzanas cripps red sundowner"
+    ],
+    "crispin_mutsu_apples": [
+      "manzanas crispin mutsu"
+    ],
+    "criterion_apples": [
+      "manzanas criterion"
+    ],
+    "cubanelle_pepper": [
+      "ají cubanela",
+      "pimiento cubanela",
+      "pimiento cubanelle",
+      "pimiento de cocinar"
+    ],
+    "cucumber": [
+      "pepino verde"
+    ],
+    "cucumber_japanese_white": [
+      "pepino japonés",
+      "pepino blanco"
+    ],
+    "daikon": [
+      "rábano daikon",
+      "nabo japonés",
+      "rábano blanco"
+    ],
+    "dancy_tangerines": [
+      "mandarinas dancy"
+    ],
+    "dandelion_greens": [
+      "diente de león"
+    ],
+    "dates_fresh": [
+      "dátiles frescos"
+    ],
+    "dazzle_apples": [
+      "manzanas dazzle"
+    ],
+    "delblush_tentation_apples": [
+      "manzanas delblush tentation"
+    ],
+    "delta_seedless_oranges": [
+      "naranjas delta sin semilla"
+    ],
+    "dessert_apples": [
+      "manzana dessert",
+      "manzanas dessert"
+    ],
+    "destivale_apples": [
+      "manzanas d'estivale"
+    ],
+    "discovery_apples": [
+      "manzanas discovery"
+    ],
+    "dragon_fruit_red": [
+      "fruta del dragón",
+      "pitaya"
+    ],
+    "dried_tomatoes": [
+      "tomates deshidratados",
+      "tomate deshidratado",
+      "tomate seco al sol",
+      "sun-dried",
+      "tomates secos"
+    ],
+    "durondeau_pears": [
+      "peras durondeau"
+    ],
+    "dutch_white_cabbage": [
+      "col blanca"
+    ],
+    "early_apples": [
+      "manzanas early",
+      "manzana early"
+    ],
+    "eggplant_thai": [
+      "berenjena thai"
+    ],
+    "elongated_green_pepper": [
+      "pimiento lamuyo",
+      "pimiento italiano",
+      "pimiento lamuyo verde",
+      "pimiento italiano verde"
+    ],
+    "elongated_orange_pepper": [
+      "pimiento lamuyo",
+      "pimiento italiano"
+    ],
+    "elongated_red_pepper": [
+      "pimiento lamuyo",
+      "pimiento italiano",
+      "pimiento lamuyo rojo",
+      "pimiento italiano rojo"
+    ],
+    "elongated_white_pepper": [
+      "pimiento lamuyo",
+      "pimiento italiano"
+    ],
+    "elongated_yellow_pepper": [
+      "pimiento lamuyo",
+      "pimiento italiano",
+      "pimiento lamuyo amarillo"
+    ],
+    "elstar_apples": [
+      "manzanas elstar"
+    ],
+    "emmons_apples": [
+      "manzanas emmons"
+    ],
+    "empire_apples": [
+      "manzanas empire"
+    ],
+    "endive_chicory": [
+      "endivia",
+      "chicory",
+      "endibia"
+    ],
+    "english_cucumber": [
+      "pepino europeo",
+      "pepino sin semilla"
+    ],
+    "enjoya_stripy_bell_peppers_all_sizes": [
+      "pimientos rayados enjoya",
+      "pimiento enjoya"
+    ],
+    "escarole_batavian_chicory_green": [
+      "lechuga escarola",
+      "escarola batavia",
+      "escarola batavian verde"
+    ],
+    "escarole_red": [
+      "lechuga escarola roja"
+    ],
+    "evelina_apples": [
+      "manzanas evelina"
+    ],
+    "evercrisp_apples": [
+      "manzanas evercrisp"
+    ],
+    "fall_glo_tangerines": [
+      "mandarinas fall glo"
+    ],
+    "fennel_anise": [
+      "bulbo de hinojo",
+      "anís"
+    ],
+    "fiesta_apples_all_sizes": [
+      "manzanas fiesta"
+    ],
+    "figs_white_green": [
+      "higos blancos",
+      "higos verdes"
+    ],
+    "fine_beans": [
+      "ejote francés",
+      "french beans"
+    ],
+    "fireside_apples": [
+      "manzanas fireside"
+    ],
+    "flamingo_pears": [
+      "peras flamingo"
+    ],
+    "flat_peaches_white_saturn_donut": [
+      "durazno dona",
+      "durazno plano",
+      "paraguayo",
+      "saturn",
+      "donut",
+      "duraznos saturn donut planos blancos",
+      "duraznos dona blancos"
+    ],
+    "flat_yellow_nectarine": [
+      "platerina"
+    ],
+    "foo_qua_bitter_melon": [
+      "pepino amargo",
+      "karela",
+      "melones"
+    ],
+    "forelle_pears": [
+      "peras forelle"
+    ],
+    "fragrant_pears": [
+      "peras fragantes",
+      "peras fragrant",
+      "pera fragante china",
+      "pera fragrant",
+      "fragrant pear"
+    ],
+    "french_afternoon_melon": [
+      "melón afternoon francés",
+      "melones"
+    ],
+    "french_breakfast_melon": [
+      "melón breakfast francés",
+      "melones"
+    ],
+    "french_pears": [
+      "peras francesas"
+    ],
+    "frisee": [
+      "lechuga frisée",
+      "escarola frisée"
+    ],
+    "fuji_apples": [
+      "manzanas fuji"
+    ],
+    "fuji_brak_apples": [
+      "manzanas fuji brak"
+    ],
+    "gai_choy": [
+      "mostaza china"
+    ],
+    "gala_apples": [
+      "manzanas gala"
+    ],
+    "galangal_root": [
+      "galangal",
+      "raíz de galanga",
+      "raíz de galangal"
+    ],
+    "galia_melon": [
+      "melones"
+    ],
+    "garlic_chives_all_sizes": [
+      "cebollín de ajo",
+      "cebollino chino",
+      "puerro chino"
+    ],
+    "garlic_fresh_leaves": [
+      "ajo tierno",
+      "ajo fresco"
+    ],
+    "garlic_one_clove_types": [
+      "ajo de un diente",
+      "ajo de diente único",
+      "solo garlic"
+    ],
+    "garlic_regular_smoked": [
+      "ajo ahumado"
+    ],
+    "garlic_string": [
+      "trenza de ajo",
+      "ristra de ajo"
+    ],
+    "gem_avocados": [
+      "aguacates gem"
+    ],
+    "giga_apples": [
+      "manzanas giga"
+    ],
+    "ginger_gold_apples": [
+      "manzanas ginger gold"
+    ],
+    "ginger_root": [
+      "raíz de jengibre"
+    ],
+    "gloster_apples": [
+      "manzanas gloster"
+    ],
+    "gobo_root": [
+      "gobo",
+      "raíz de bardana"
+    ],
+    "gold_honeydew_melon": [
+      "melón golden honeydew",
+      "melones"
+    ],
+    "golden_delicious_apples": [
+      "manzana golden",
+      "manzana amarilla",
+      "manzanas golden delicious"
+    ],
+    "golden_delicious_blush_apples": [
+      "manzanas golden delicious blush"
+    ],
+    "golden_kiwifruit": [
+      "kiwi gold",
+      "kiwi amarillo",
+      "sungold"
+    ],
+    "golden_raspberries": [
+      "frambuesa amarilla"
+    ],
+    "gooseberries": [
+      "grosellas espinosas",
+      "gooseberries",
+      "grosella espinosa",
+      "uvas espina"
+    ],
+    "gourd_ornamental": [
+      "calabaza fantasía",
+      "calabaza decorativa"
+    ],
+    "granny_smith_apples": [
+      "manzana granny",
+      "manzana verde",
+      "manzanas granny smith"
+    ],
+    "granny_smith_red_apples": [
+      "granny smith red",
+      "manzana granny smith red",
+      "manzanas granny smith red"
+    ],
+    "grape_teardrop_tomatoes": [
+      "tomate uva",
+      "tomates uva",
+      "tomate grape",
+      "tomates uva (teardrop)"
+    ],
+    "grapes_ardthirtysix_arra_cherry_crush": [
+      "uvas ardthirtysix (arra cherry crush)"
+    ],
+    "grapes_fantasy_marroo": [
+      "uvas fantasy marroo"
+    ],
+    "grapes_muscat_de_hambourg": [
+      "uvas muscat de hambourg"
+    ],
+    "grapes_red_seeded": [
+      "uva roja globo",
+      "uva globo",
+      "uvas rojas con semilla"
+    ],
+    "grapes_red_seedless": [
+      "uvas rojas sin semilla"
+    ],
+    "grapes_white_green_seeded": [
+      "uva verde con semilla",
+      "uva blanca con semilla",
+      "uvas blancas verdes con semilla"
+    ],
+    "grapes_white_green_seedless": [
+      "uvas blancas verdes sin semilla"
+    ],
+    "gravenstein_apples": [
+      "manzanas gravenstein"
+    ],
+    "gravenstein_red_apples": [
+      "gravenstein red",
+      "red gravenstein",
+      "manzana gravenstein red",
+      "manzanas gravenstein red"
+    ],
+    "green_bananas": [
+      "guineos verdes",
+      "banana verde",
+      "plátanos verdes"
+    ],
+    "green_beans": [
+      "habichuelas",
+      "habichuelas verdes",
+      "judías verdes",
+      "ejote verde"
+    ],
+    "green_bell_pepper": [
+      "chile campana verde",
+      "pimiento morrón verde",
+      "chile morrón verde",
+      "pimiento campana verde"
+    ],
+    "green_cabbage": [
+      "col verde",
+      "col blanca",
+      "repollo"
+    ],
+    "green_chili_pepper": [
+      "chile de árbol verde"
+    ],
+    "green_grapes_seedless": [
+      "uvas blancas sin semilla",
+      "uva verde",
+      "uvas verdes sin semilla"
+    ],
+    "green_leaf_lettuce": [
+      "lechuga italiana",
+      "lechuga verde",
+      "lechuga hoja verde"
+    ],
+    "green_onions_scallions": [
+      "cebolla de rabo",
+      "cebollitas",
+      "cebollino",
+      "cebolla rama",
+      "cebolla cambray",
+      "cebollita verde",
+      "cebollitas verdes",
+      "cebollas verdes (cebollín)"
+    ],
+    "green_pears_hw624": [
+      "happi pear",
+      "peras verdes (hw624)"
+    ],
+    "green_peas": [
+      "chícharo",
+      "chícharo en vaina",
+      "guisantes",
+      "arvejas",
+      "chícharos verdes"
+    ],
+    "green_plumcot": [
+      "pluot verde",
+      "pluot green",
+      "plumcot",
+      "ciruela-chabacano",
+      "ciruela-chabacano verde"
+    ],
+    "hami_melon": [
+      "melones"
+    ],
+    "hawaiian_plantain": [
+      "plátano hawaiano"
+    ],
+    "heirloom_tomatoes": [
+      "jitomate heirloom",
+      "tomates heirloom"
+    ],
+    "heritage_reinette_varieties_apples": [
+      "manzana reineta",
+      "manzana heritage reinette varieties",
+      "manzana heritage reinette variety",
+      "manzanas heritage reinette varieties"
+    ],
+    "holstein_apples": [
+      "manzanas holstein"
+    ],
+    "honey_green_melon": [
+      "melones"
+    ],
+    "honey_tangerines": [
+      "mandarina miel",
+      "mandarina murcott",
+      "mandarinas honey"
+    ],
+    "honeycrisp_apples": [
+      "manzana honey crisp",
+      "manzanas honeycrisp"
+    ],
+    "honeydew_melon": [
+      "melón dulce",
+      "melón blanco",
+      "melón valenciano",
+      "melón gota de miel",
+      "melón verde",
+      "melón de miel",
+      "melones"
+    ],
+    "honeymoon_apples": [
+      "manzanas honeymoon"
+    ],
+    "horned_melon_kiwano": [
+      "melones"
+    ],
+    "horseradish_root": [
+      "raíz fuerte",
+      "rábano rusticano",
+      "horseradish",
+      "raíces"
+    ],
+    "hot_mixed_peppers": [
+      "chiles mixtos"
+    ],
+    "huaguan_autumn_glory_apples": [
+      "manzanas huaguan autumn glory"
+    ],
+    "hungarian_hot_pepper": [
+      "chile húngaro"
+    ],
+    "hungarian_wax_pepper": [
+      "chile güero",
+      "chile húngaro cera",
+      "chile cera"
+    ],
+    "hunnyz_apples": [
+      "manzanas hunnyz"
+    ],
+    "iceberg_lettuce": [
+      "lechuga de bola",
+      "lechuga bola",
+      "lechuga americana"
+    ],
+    "idared_apples": [
+      "manzanas idared"
+    ],
+    "ifg_core_black_seedless_grapes": [
+      "uvas ifg core negras sin semilla"
+    ],
+    "ifg_core_green_seedless_grapes": [
+      "uvas ifg core verdes sin semilla"
+    ],
+    "ifg_core_red_seedless_grapes": [
+      "uvas ifg core rojas sin semilla"
+    ],
+    "ifg_novelty_black_seedless_grapes": [
+      "uvas ifg novelty negras sin semilla"
+    ],
+    "ifg_novelty_green_seedless_cotton_candy_grapes": [
+      "uva cotton candy",
+      "uva blanca cotton candy",
+      "uvas ifg novelty cotton candy verdes sin semilla"
+    ],
+    "ifg_novelty_red_seedless_grapes": [
+      "uvas ifg novelty rojas sin semilla"
+    ],
+    "ifored_r_series_apples": [
+      "kissabel",
+      "manzana ifored r series",
+      "ifored r series",
+      "manzanas ifored r series"
+    ],
+    "ifored_y_series_apples": [
+      "ifored y series",
+      "kissabel",
+      "manzana ifored y series",
+      "manzanas ifored y series"
+    ],
+    "ingrid_marie_apples": [
+      "manzanas ingrid marie"
+    ],
+    "italia_seeded_grapes": [
+      "uvas italia con semilla"
+    ],
+    "italian_prune_plums": [
+      "ciruela pasa fresca",
+      "ciruelas prune",
+      "italian plums",
+      "italian prune plums",
+      "ciruela prune italiana",
+      "ciruelas prune italianas"
+    ],
+    "jackfruit": [
+      "jaca",
+      "yaka",
+      "jackfruit"
+    ],
+    "jalapeno_pepper": [
+      "chile cuaresmeño"
+    ],
+    "japanese_red_peppers": [
+      "chile japonés",
+      "chile japonés entero",
+      "chiles japoneses rojos"
+    ],
+    "jazz_apples": [
+      "manzanas jazz"
+    ],
+    "jonagold_apples": [
+      "manzanas jonagold"
+    ],
+    "jonamac_apples": [
+      "manzanas jonamac"
+    ],
+    "jonathan_apples": [
+      "manzanas jonathan"
+    ],
+    "juice_oranges": [
+      "naranja de jugo",
+      "naranjas para jugo"
+    ],
+    "juici_apples": [
+      "manzanas juici"
+    ],
+    "jupiter_grapes": [
+      "uvas jupiter"
+    ],
+    "kale_curly": [
+      "kale",
+      "kale rizado",
+      "coles"
+    ],
+    "kale_red": [
+      "kale rojo",
+      "coles"
+    ],
+    "kale_sprouts": [
+      "germinado de kale",
+      "brotes de kale",
+      "kalettes",
+      "kale sprouts",
+      "germinado de col rizada"
+    ],
+    "karma_apples": [
+      "manzanas karma"
+    ],
+    "key_limes": [
+      "limón mexicano",
+      "limón tequilero",
+      "limas key",
+      "limón key",
+      "key lime",
+      "limas key (limón verde)",
+      "limones agrios"
+    ],
+    "king_royal_pears": [
+      "peras king royal"
+    ],
+    "kinnow_mandarins": [
+      "mandarinas kinnow"
+    ],
+    "kohlrabi": [
+      "colinabo",
+      "col rábano",
+      "kohlrabi"
+    ],
+    "kohlrabi_purple_red": [
+      "colinabo morado",
+      "col rábano morado"
+    ],
+    "korean_melon": [
+      "melones"
+    ],
+    "lady_apples": [
+      "manzanas lady"
+    ],
+    "lady_williams_apples_all_sizes": [
+      "manzanas lady williams"
+    ],
+    "laxtons_fortune_apples": [
+      "manzanas laxton's fortune"
+    ],
+    "leeks": [
+      "puerro",
+      "ajo porro",
+      "poros"
+    ],
+    "leeks_baby": [
+      "puerro",
+      "poros baby"
+    ],
+    "leeks_baby_bunch": [
+      "puerro",
+      "poros baby en manojo"
+    ],
+    "leeks_regular_bunch": [
+      "puerro",
+      "poros regulares en manojo"
+    ],
+    "lemonade_apples": [
+      "manzanas lemonade"
+    ],
+    "lemongrass": [
+      "té de limón",
+      "limoncillo",
+      "zacate limón",
+      "lemongrass"
+    ],
+    "lemons": [
+      "limón eureka",
+      "limones amarillos"
+    ],
+    "lemons_untreated": [
+      "limones amarillos",
+      "limones (sin tratar)"
+    ],
+    "lettuce_bibb_flat_round": [
+      "lechuga bibb",
+      "lechuga francesa",
+      "lechuga mantequilla"
+    ],
+    "lettuce_boston_butter": [
+      "lechuga francesa",
+      "lechuga mantequilla",
+      "lechuga boston",
+      "lechuga boston butter"
+    ],
+    "lettuce_mache": [
+      "canónigos"
+    ],
+    "lettuce_mixed_small_leaf_salad": [
+      "mix de lechugas",
+      "lechugas baby",
+      "spring mix"
+    ],
+    "lettuce_oak_leaf_green": [
+      "lechuga hoja de roble",
+      "lechuga hoja de roble verde"
+    ],
+    "lima_oranges": [
+      "naranjas lima"
+    ],
+    "limes": [
+      "limón sin semilla",
+      "limón persa",
+      "lima verde",
+      "limas",
+      "limas (limón verde)",
+      "limones verdes"
+    ],
+    "lochbuie_apples": [
+      "manzanas lochbuie"
+    ],
+    "loganberries": [
+      "loganberry"
+    ],
+    "lolipop_apples": [
+      "manzanas lolipop"
+    ],
+    "long_hot_pepper_green": [
+      "green long hot pepper"
+    ],
+    "long_hot_red_peppers": [
+      "red long hot pepper",
+      "chiles largos picantes rojos"
+    ],
+    "loquats": [
+      "nísperos"
+    ],
+    "lord_lambourne_apples": [
+      "manzanas lord lambourne"
+    ],
+    "lotus_root": [
+      "raíces"
+    ],
+    "lucyglo_apples": [
+      "manzanas lucyglo"
+    ],
+    "lucyrose_apples": [
+      "manzanas lucyrose"
+    ],
+    "ludacrisp_apples": [
+      "manzanas ludacrisp"
+    ],
+    "lychees": [
+      "litchi",
+      "lichis"
+    ],
+    "magic_star_apples": [
+      "manzanas magic star"
+    ],
+    "malanga": [
+      "yautía",
+      "malanga blanca",
+      "malanga coco"
+    ],
+    "mango_green": [
+      "mango tierno"
+    ],
+    "mango_yellow": [
+      "mango ataulfo",
+      "mango manila",
+      "mango niño"
+    ],
+    "mangoes_red": [
+      "mango tommy",
+      "mango kent",
+      "mango haden",
+      "mango petacón",
+      "mango paraíso",
+      "mangos rojos"
+    ],
+    "mangosteen": [
+      "mangostino",
+      "mangostanes"
+    ],
+    "mariri_red_apples": [
+      "manzanas mariri red"
+    ],
+    "mayan_melon": [
+      "melón maya",
+      "melones"
+    ],
+    "mcintosh_apples": [
+      "manzanas mcintosh"
+    ],
+    "melon_glasshouse_netted": [
+      "melón de invernadero",
+      "melón glasshouse netted",
+      "melón glasshouse netted varieties",
+      "melones"
+    ],
+    "melon_ogen": [
+      "melones"
+    ],
+    "meridol_papaya": [
+      "papaya maradol"
+    ],
+    "meyer_lemons": [
+      "limones amarillos meyer"
+    ],
+    "michaelmas_red_apples": [
+      "manzanas michaelmas red"
+    ],
+    "midnight_beauty_grapes": [
+      "uvas midnight beauty"
+    ],
+    "migo_pears": [
+      "peras migo"
+    ],
+    "milwa_apples": [
+      "manzanas milwa"
+    ],
+    "mini_watermelon": [
+      "sandía personal",
+      "mini sandía"
+    ],
+    "minneola_tangelos": [
+      "mandarina mineola",
+      "tangelo",
+      "tangelos minneola"
+    ],
+    "minnewashta_zestar_apples": [
+      "manzanas minnewashta zestar"
+    ],
+    "mint": [
+      "hierbabuena",
+      "yerbabuena"
+    ],
+    "morel_mushrooms": [
+      "colmenilla",
+      "morel",
+      "hongos morel"
+    ],
+    "morita_chili_peppers": [
+      "chile morita entero",
+      "chiles morita"
+    ],
+    "mushrooms_cep": [
+      "boletus",
+      "boletus edulis",
+      "cep",
+      "hongos cep"
+    ],
+    "mushrooms_fairy_ring_champignon": [
+      "senderilla",
+      "senderuela",
+      "hongos fairy ring champignon",
+      "fairy ring champignon",
+      "marasmius oreades"
+    ],
+    "mushrooms_grey_tricholoma": [
+      "tricholoma terreum",
+      "ratón",
+      "hongos gray tricholoma"
+    ],
+    "mushrooms_horn_of_plenty_black_trumpet": [
+      "trompeta negra",
+      "black trumpet",
+      "horn of plenty",
+      "hongos horn of plenty black trumpet"
+    ],
+    "mushrooms_pioppino": [
+      "seta de chopo"
+    ],
+    "musk_melon": [
+      "melón almizcleño",
+      "melón chino",
+      "melones"
+    ],
+    "mustard_greens": [
+      "mostaza",
+      "hoja de mostaza",
+      "mostaza verde"
+    ],
+    "napa_cabbage": [
+      "col china",
+      "col napa",
+      "lechuga napa"
+    ],
+    "navel_oranges": [
+      "naranja sin semilla",
+      "naranjas navel"
+    ],
+    "nectarines_yellow": [
+      "nectarinas",
+      "nectarinas amarillas"
+    ],
+    "negro_peppers": [
+      "chile negro entero",
+      "chile pasilla negro",
+      "chiles negros"
+    ],
+    "new_mexico_pepper": [
+      "chile new mexico",
+      "chile nuevo méxico seco"
+    ],
+    "new_zealand_spinach": [
+      "espinaca de mar",
+      "espinaca new zealand"
+    ],
+    "nicogreen_apples": [
+      "manzanas nicogreen"
+    ],
+    "nicoter_apples": [
+      "manzanas nicoter"
+    ],
+    "noble_juicy_crunch_mandarins": [
+      "mandarinas noble juicy crunch"
+    ],
+    "oak_leaf_lettuce": [
+      "lechuga hoja de roble"
+    ],
+    "okra_chinese": [
+      "luffa",
+      "estropajo",
+      "pepino estropajo"
+    ],
+    "okra_regular_green": [
+      "okra verde",
+      "ocra",
+      "quimbombó",
+      "okra regular verde"
+    ],
+    "ong_choy": [
+      "espinaca de agua"
+    ],
+    "onions_bulb": [
+      "cebollitas",
+      "cebolla de rabo",
+      "cebollita mexicana",
+      "bulb onions",
+      "cebollas de bulbo",
+      "cebollas cambray"
+    ],
+    "onions_pickling_white": [
+      "cebollas blancas para encurtir"
+    ],
+    "onions_sweet_red_italian_flat": [
+      "cebollas rojas italianas",
+      "cebolla tropea",
+      "cebollas dulces rojas italianas planas",
+      "cebollas dulces moradas italianas planas"
+    ],
+    "opal_apples": [
+      "manzanas opal"
+    ],
+    "orange_bell_pepper": [
+      "chile campana naranja",
+      "pimiento morrón naranja",
+      "chile morrón naranja",
+      "pimiento campana naranja"
+    ],
+    "orange_cauliflower": [
+      "coliflores"
+    ],
+    "orange_cherry_tomatoes_all_sizes": [
+      "jitomate cherry naranja",
+      "tomates cherry naranjas"
+    ],
+    "orange_flesh_cantaline_melon": [
+      "melones"
+    ],
+    "orange_tree_leaf": [
+      "hojas de naranjo",
+      "hoja de naranja"
+    ],
+    "oranges_m4_dulce_navels": [
+      "naranjas dulce navels (m4)"
+    ],
+    "oranges_maltaise": [
+      "naranjas maltaise"
+    ],
+    "oranges_navelate": [
+      "naranjas navelate"
+    ],
+    "oranges_navelina": [
+      "naranjas navelina"
+    ],
+    "oranges_pera": [
+      "naranjas pera"
+    ],
+    "oranges_salustiana": [
+      "naranjas salustiana"
+    ],
+    "oranges_shamouti": [
+      "naranjas shamouti"
+    ],
+    "oranges_untreated": [
+      "naranjas sin tratamiento poscosecha"
+    ],
+    "oyster_mushrooms": [
+      "setas",
+      "oyster",
+      "hongo ostra",
+      "hongos oyster"
+    ],
+    "pacific_rose_apples": [
+      "manzanas pacific rose"
+    ],
+    "packham_pears": [
+      "peras packham"
+    ],
+    "papaya_cooking_mexican": [
+      "papaya maradol",
+      "papaya mexicana",
+      "mexican papaya"
+    ],
+    "papaya_regular": [
+      "papaya",
+      "papaya amarilla",
+      "papaya mexicana"
+    ],
+    "parsley_curly": [
+      "perejil chino"
+    ],
+    "parsley_italian_flat_leaf": [
+      "perejil liso",
+      "perejil italiano",
+      "perejil italiano de hoja plana"
+    ],
+    "parsley_root": [
+      "perejil tuberoso",
+      "raíces"
+    ],
+    "parsnips": [
+      "pastinaca",
+      "parsnip",
+      "chirivías"
+    ],
+    "pasilla_pepper_green": [
+      "chile pasilla",
+      "chile poblano",
+      "chile chilaca"
+    ],
+    "pasilla_pod_peppers": [
+      "chile pasilla entero",
+      "chiles pasilla (vaina)",
+      "chiles pasilla secos"
+    ],
+    "pasilla_red_peppers": [
+      "chile poblano rojo",
+      "chiles pasilla rojos"
+    ],
+    "passion_fire_grapes": [
+      "uvas passion fire"
+    ],
+    "passion_fruit_curuba": [
+      "curuba"
+    ],
+    "passion_fruit_granadilla": [
+      "granada china",
+      "granadilla",
+      "maracuyá granadilla"
+    ],
+    "passion_fruit_granadilla_yellow": [
+      "maracuyá",
+      "maracuja",
+      "fruta de la pasión",
+      "maracuyá granadilla amarillo"
+    ],
+    "paulared_apples": [
+      "manzanas paulared"
+    ],
+    "pazazz_apples": [
+      "manzanas pazazz"
+    ],
+    "peaches_flat_yellow_flesh": [
+      "durazno dona",
+      "durazno plano",
+      "paraguayo",
+      "durazno saturno",
+      "duraznos planos amarillos",
+      "duraznos dona amarillos"
+    ],
+    "peaches_indian": [
+      "duraznos indios"
+    ],
+    "peaches_red_flesh": [
+      "duraznos rojos",
+      "durazno rojo"
+    ],
+    "peaches_white_flesh": [
+      "duraznos blancos"
+    ],
+    "peaches_yellow_flesh": [
+      "melocotones",
+      "duraznos priscos",
+      "duraznos amarillos"
+    ],
+    "pearl_onions": [
+      "cebollitas perla",
+      "cebollas perla"
+    ],
+    "pears_alexander_lucas": [
+      "peras alexander lucas"
+    ],
+    "pears_angelys": [
+      "peras angelys"
+    ],
+    "pears_carmen": [
+      "peras carmen"
+    ],
+    "pears_general_leclerc": [
+      "peras general leclerc"
+    ],
+    "pears_guyot": [
+      "peras guyot"
+    ],
+    "pears_harovin_sundown": [
+      "peras harovin sundown"
+    ],
+    "pears_josephine": [
+      "peras josephine"
+    ],
+    "pears_louise_bonne": [
+      "peras louise bonne"
+    ],
+    "pears_passe_crassane": [
+      "peras passe crassane"
+    ],
+    "pears_rocha": [
+      "peras rocha"
+    ],
+    "pears_rosemarie": [
+      "peras rosemarie"
+    ],
+    "pears_santa_maria": [
+      "peras santa maria"
+    ],
+    "pears_starkrimson": [
+      "peras starkrimson"
+    ],
+    "pears_taylors_gold": [
+      "peras taylor's gold"
+    ],
+    "pears_triumph_de_vienne": [
+      "peras triumph de vienne"
+    ],
+    "pepino_melon": [
+      "pepino dulce",
+      "pepino melón",
+      "melones"
+    ],
+    "peppermint_mint": [
+      "hierbabuena",
+      "yerbabuena",
+      "menta",
+      "peppermint",
+      "menta (peppermint)"
+    ],
+    "persian_melon": [
+      "persian melon",
+      "melones"
+    ],
+    "persimmon": [
+      "pérsimo",
+      "caqui",
+      "persimmon"
+    ],
+    "persimmon_american_regular": [
+      "caqui americano",
+      "persimmon",
+      "caqui americano regular"
+    ],
+    "pickling_cucumbers": [
+      "pepino kirby",
+      "pepinos kirby",
+      "pepinillo kirby",
+      "pepinillo",
+      "pepinos para encurtir"
+    ],
+    "piel_de_sapo_melon": [
+      "melones"
+    ],
+    "pimiento_pepper": [
+      "pimento",
+      "pimientos"
+    ],
+    "pineapple": [
+      "piña miel",
+      "piña golden"
+    ],
+    "pineapple_dried": [
+      "piña deshidratada"
+    ],
+    "pineapple_mini": [
+      "piña baby",
+      "mini piña"
+    ],
+    "pink_lady_apples": [
+      "manzana cripps pink",
+      "manzana pink",
+      "manzanas pink lady"
+    ],
+    "pinole_peppers": [
+      "chiles pinole"
+    ],
+    "pippin_apples": [
+      "manzanas pippin"
+    ],
+    "plantains": [
+      "plátano verde",
+      "plátano maduro",
+      "plátanos machos"
+    ],
+    "plumac_apples": [
+      "manzanas plumac"
+    ],
+    "plumcot": [
+      "pluot",
+      "plumcot",
+      "ciruela-chabacano"
+    ],
+    "plums_black": [
+      "ciruelas negras"
+    ],
+    "plums_green": [
+      "ciruela claudia",
+      "ciruelas verdes"
+    ],
+    "plums_purple": [
+      "ciruelas moradas"
+    ],
+    "plums_red": [
+      "ciruelas rojas"
+    ],
+    "plums_tree_ripened": [
+      "ciruelas maduradas en árbol"
+    ],
+    "plums_yellow": [
+      "ciruelas amarillas"
+    ],
+    "poblano_pepper": [
+      "chile pasilla"
+    ],
+    "polk_greens": [
+      "polk greens"
+    ],
+    "pomegranate": [
+      "granada roja"
+    ],
+    "portabella_mushrooms": [
+      "portobello",
+      "hongo portobello"
+    ],
+    "potato_creamer_red": [
+      "papa cambray rosada",
+      "papa baby roja",
+      "papa roja creamer",
+      "papa creamer roja"
+    ],
+    "potato_creamer_white": [
+      "papa cambray",
+      "papa baby",
+      "papa creamer blanca"
+    ],
+    "prema17_apples": [
+      "manzanas prema17"
+    ],
+    "prema280_apples": [
+      "manzanas prema280"
+    ],
+    "president_plums_all_sizes": [
+      "ciruelas president"
+    ],
+    "prince_melon": [
+      "melones"
+    ],
+    "pummelo_red": [
+      "pomelo rojo",
+      "pomelo"
+    ],
+    "pummelo_white": [
+      "pomelo",
+      "pomelo blanco"
+    ],
+    "pumpkin": [
+      "calabaza de halloween",
+      "calabaza halloween",
+      "calabaza naranja"
+    ],
+    "pumpkin_pie": [
+      "calabaza pay",
+      "calabaza para pie"
+    ],
+    "pumpkin_vine": [
+      "guía de calabaza",
+      "quelites de calabaza",
+      "hojas de calabaza",
+      "calabaza en rama"
+    ],
+    "purple_bell_pepper": [
+      "pimiento morrón morado",
+      "chile morrón morado",
+      "pimiento campana morado"
+    ],
+    "purple_herb": [
+      "hierba morada",
+      "macuy",
+      "yerba mora",
+      "hierbamora",
+      "quilete",
+      "chichiquelite",
+      "mora",
+      "quelite"
+    ],
+    "qtee_pears": [
+      "peras qtee"
+    ],
+    "quelites": [
+      "quelites"
+    ],
+    "radicchio": [
+      "achicoria roja"
+    ],
+    "radish_bunched_white": [
+      "rábano largo"
+    ],
+    "radish_red": [
+      "rabanitos"
+    ],
+    "radish_white_icicle": [
+      "rábano largo"
+    ],
+    "radishes_red_bunch": [
+      "rabanitos en manojo",
+      "rábano cambray",
+      "rábanos rojos en manojo"
+    ],
+    "rambutan": [
+      "rambutanes"
+    ],
+    "rave_first_kiss_apples": [
+      "manzanas rave first kiss"
+    ],
+    "red_apricots": [
+      "albaricoques rojos",
+      "chabacanos rojos"
+    ],
+    "red_bananas": [
+      "plátano morado",
+      "red banana",
+      "plátanos rojos"
+    ],
+    "red_bell_pepper": [
+      "chile campana rojo",
+      "pimiento morrón rojo",
+      "chile morrón rojo",
+      "pimiento campana rojo"
+    ],
+    "red_black_cherries": [
+      "cerezas",
+      "cerezas rojas"
+    ],
+    "red_cabbage": [
+      "col morada",
+      "repollo rojo",
+      "col roja"
+    ],
+    "red_cheese_peppers": [
+      "pimiento rojo tipo queso",
+      "chile red cheese",
+      "chiles red cheese",
+      "pimiento red cheese",
+      "cheese pepper"
+    ],
+    "red_delicious_apples": [
+      "manzana roja",
+      "manzana red",
+      "manzanas red delicious"
+    ],
+    "red_finger_peppers": [
+      "chile dedo rojo",
+      "finger hot pepper",
+      "chile red finger",
+      "chiles red finger",
+      "red finger pepper"
+    ],
+    "red_globe_grapes": [
+      "uva globo",
+      "uva roja globo",
+      "uva globo rojo",
+      "uvas red globe"
+    ],
+    "red_jonaprince_apples_all_sizes": [
+      "manzanas red jonaprince"
+    ],
+    "red_leaf_lettuce": [
+      "lechuga sangría",
+      "lechuga morada"
+    ],
+    "red_onion": [
+      "cebolla roja"
+    ],
+    "red_onions_bunch": [
+      "cebolla cambray morada",
+      "cebollas rojas en manojo",
+      "cebollas moradas en manojo"
+    ],
+    "red_pears": [
+      "peras rojas"
+    ],
+    "red_plumcot": [
+      "pluot rojo",
+      "plumcot",
+      "ciruela-chabacano",
+      "ciruela-chabacano rojo"
+    ],
+    "red_potatoes": [
+      "papa rosada",
+      "papas rojas"
+    ],
+    "red_raspberries": [
+      "frambuesas"
+    ],
+    "redfield_apples": [
+      "manzanas redfield"
+    ],
+    "redpop_apples": [
+      "manzanas redpop"
+    ],
+    "regent_apples": [
+      "manzanas regent"
+    ],
+    "reine_des_reinettes_apples": [
+      "manzanas reine des reinettes"
+    ],
+    "rhubarb_regular": [
+      "ruibarbo"
+    ],
+    "ripe_avocados": [
+      "aguacates maduros"
+    ],
+    "riverbelle_apples": [
+      "manzanas riverbelle"
+    ],
+    "roma_tomatoes": [
+      "tomate saladet",
+      "jitomate saladet",
+      "tomate saladette",
+      "tomate huaje",
+      "tomate guaje",
+      "tomates roma"
+    ],
+    "roma_tomatoes_on_the_vine": [
+      "tomates roma en racimo",
+      "tomates roma en rama"
+    ],
+    "roma_tomatoes_on_vine": [
+      "tomates roma cóctel",
+      "tomate cocktail en vaina",
+      "tomates roma en racimo",
+      "tomates roma cóctel en rama",
+      "tomates roma cocktail en rama"
+    ],
+    "romaine_lettuce": [
+      "lechuga orejona",
+      "lechuga larga"
+    ],
+    "rome_apples": [
+      "manzanas rome"
+    ],
+    "round_zucchini_squash": [
+      "calabaza redonda",
+      "calabaza criolla",
+      "calabacita bola",
+      "tatuma",
+      "calabacita tatume"
+    ],
+    "royal_gala_apples": [
+      "manzanas royal gala"
+    ],
+    "rubinette_apples": [
+      "manzanas rubinette"
+    ],
+    "russet_apples": [
+      "manzanas russet"
+    ],
+    "russet_potatoes": [
+      "papa idaho",
+      "papa para hornear",
+      "papas russet"
+    ],
+    "rutabaga": [
+      "colinabo",
+      "nabo sueco"
+    ],
+    "sable_seedless_grapes": [
+      "uvas sable sin semilla"
+    ],
+    "saffron_milk_cap_mushroom": [
+      "níscalo",
+      "robellón",
+      "saffron milk cap",
+      "hongo saffron milk-cap",
+      "hongos saffron milk-cap",
+      "rovellón",
+      "hongo enchilado",
+      "mízcalo"
+    ],
+    "santa_claus_melon": [
+      "melón piel de sapo",
+      "melones"
+    ],
+    "saticoy_melon": [
+      "melones"
+    ],
+    "scallopini_squash": [
+      "calabaza estrella"
+    ],
+    "scarlotta_seedless_grapes": [
+      "uvas scarlotta sin semilla"
+    ],
+    "sciearly_apples": [
+      "manzanas sciearly"
+    ],
+    "scilate_apples": [
+      "manzanas scilate"
+    ],
+    "scired_apples": [
+      "manzanas scired"
+    ],
+    "seckel_pears": [
+      "peras seckel"
+    ],
+    "seedless_lemons": [
+      "limones amarillos sin semilla"
+    ],
+    "seville_oranges": [
+      "naranja de sevilla",
+      "naranjas seville",
+      "sour orange",
+      "naranjas agrias"
+    ],
+    "shallots": [
+      "chalot",
+      "echalote",
+      "shallot",
+      "chalotes"
+    ],
+    "sharlin_melon": [
+      "melones"
+    ],
+    "sheep_polypore_mushroom": [
+      "albatrellus",
+      "hongo sheep polypore",
+      "hongos sheep polypore",
+      "sheep polypore"
+    ],
+    "shinano_gold_yello_apples": [
+      "manzanas shinano gold (yello)"
+    ],
+    "shiny_red_persimmon_all_sizes": [
+      "pérsimo"
+    ],
+    "snow_peas": [
+      "chícharo japonés",
+      "chícharos chinos"
+    ],
+    "sommerfeld_apples": [
+      "manzanas sommerfeld"
+    ],
+    "sonya_apples": [
+      "manzanas sonya"
+    ],
+    "sorrel": [
+      "lengua de vaca"
+    ],
+    "southern_snap_apples": [
+      "manzanas southern snap"
+    ],
+    "spaghetti_squash": [
+      "calabaza espagueti",
+      "calabaza spagueti"
+    ],
+    "spanish_tendral_melon": [
+      "melones"
+    ],
+    "spartan_apples": [
+      "manzanas spartan"
+    ],
+    "spinach_bunch": [
+      "espinacas"
+    ],
+    "sprite_melon": [
+      "melones"
+    ],
+    "st_edmunds_pippin_apples": [
+      "manzanas st. edmund's pippin"
+    ],
+    "starfruit": [
+      "carambolo",
+      "fruta estrella"
+    ],
+    "stayman_apples": [
+      "manzanas stayman"
+    ],
+    "strawberries_long_stemmed": [
+      "fresas con tallo"
+    ],
+    "strawberries_pint": [
+      "fresas charola",
+      "fresas caja",
+      "fresas 1 lb",
+      "fresas 16 oz",
+      "fresa domo"
+    ],
+    "strawberries_quart": [
+      "fresas 2 lb"
+    ],
+    "sturmer_pippin_apples": [
+      "manzanas sturmer pippin"
+    ],
+    "sugar_apple": [
+      "anona"
+    ],
+    "sugar_cane": [
+      "caña"
+    ],
+    "sugar_snap_peas": [
+      "sugar snap",
+      "guisante dulce",
+      "chícharos dulces"
+    ],
+    "sugarbee_apples": [
+      "manzana sugar bee",
+      "manzanas sugarbee (chicas)"
+    ],
+    "sugrafiftyfour_novelty_seedless_grapes": [
+      "uvas sugrafiftyfour novelty sin semilla"
+    ],
+    "sugrafiftysix_green_seedless_grapes": [
+      "uvas sugrafiftysix verdes sin semilla"
+    ],
+    "sugrafiftythree_red_seedless_grapes": [
+      "uvas sugrafiftythree rojas sin semilla"
+    ],
+    "sugrafortynine_black_seedless_grapes": [
+      "uvas sugrafortynine negras sin semilla"
+    ],
+    "sugraone_grapes": [
+      "uvas sugraone"
+    ],
+    "summer_squash_patty_pan": [
+      "calabaza patty pan",
+      "pattypan",
+      "calabacita estrella",
+      "calabaza summer patty pan"
+    ],
+    "sunburst_tangerines": [
+      "mandarinas sunburst"
+    ],
+    "sunburst_yellow_squash": [
+      "calabaza estrella amarilla"
+    ],
+    "sunchokes": [
+      "tupinambo",
+      "topinambur",
+      "sunchoke",
+      "tupinambos"
+    ],
+    "sunions_tearless_sweet_onions": [
+      "cebollas dulces sin lágrimas (sunions)"
+    ],
+    "sunny_gold_yellow_mini_seedless_watermelon": [
+      "mini sandía amarilla",
+      "sandía personal amarilla"
+    ],
+    "sweet_pixie_plums": [
+      "ciruelas sweet pixie"
+    ],
+    "sweet_potato": [
+      "batata",
+      "papa dulce"
+    ],
+    "sweet_potatoes_golden": [
+      "camote dorado",
+      "camotes dorados",
+      "camotes amarillos"
+    ],
+    "sweet_potatoes_white": [
+      "boniato",
+      "camotes blancos"
+    ],
+    "sweet_potatoes_yam": [
+      "camote rojo",
+      "yam",
+      "camotes (etiquetados “yam”)",
+      "camotes rojos (yam)"
+    ],
+    "sweet_scarlet_grapes": [
+      "uvas sweet scarlet"
+    ],
+    "sweet_sensation_pears": [
+      "peras sweet sensation"
+    ],
+    "sweetango_apples": [
+      "manzanas sweetango"
+    ],
+    "sweetheart_tearless_red_onions": [
+      "cebollas rojas sin lágrimas",
+      "cebollas rojas sin lágrimas sweetheart",
+      "cebollas moradas sin lágrimas sweetheart"
+    ],
+    "sweeties_grapes": [
+      "uvas sweeties"
+    ],
+    "swiss_chard_green": [
+      "acelga",
+      "acelgas"
+    ],
+    "swiss_gourmet_apples": [
+      "manzanas swiss gourmet"
+    ],
+    "tabasco_pepper": [
+      "ají tabasco"
+    ],
+    "tamarillo_golden": [
+      "tomate de árbol"
+    ],
+    "tamarillo_red": [
+      "tomate de árbol"
+    ],
+    "tangerines": [
+      "tangerina",
+      "mandarina tangerina",
+      "mandarinas"
+    ],
+    "tangerines_honey_murcott": [
+      "mandarina murcott",
+      "mandarina miel",
+      "mandarinas honey murcott"
+    ],
+    "tangerines_imperial": [
+      "mandarinas imperial"
+    ],
+    "tangerines_mandarins_tango_seedless": [
+      "mandarinas tango sin semilla"
+    ],
+    "tangerines_nova": [
+      "mandarinas nova"
+    ],
+    "taro_root": [
+      "malanga",
+      "malanga coco",
+      "malanga eddo",
+      "papa china"
+    ],
+    "tasti_lee_tomatoes": [
+      "tomates tasti-lee"
+    ],
+    "teardrop_pear_tomatoes_yellow": [
+      "tomate pera amarillo",
+      "tomate teardrop pear amarillo",
+      "tomates teardrop pear amarillos",
+      "tomate cherry pera amarillo"
+    ],
+    "temple_oranges": [
+      "naranjas temple"
+    ],
+    "tessa_apples": [
+      "manzanas tessa"
+    ],
+    "texas_mustard_greens": [
+      "mostaza texana",
+      "mostaza"
+    ],
+    "texas_sweet_onion": [
+      "cebolla dulce de texas"
+    ],
+    "thomcord_grapes": [
+      "uvas thomcord"
+    ],
+    "tomatillos": [
+      "tomate verde",
+      "tomatillo verde",
+      "tomate fresadilla",
+      "tomate de cáscara",
+      "tomatillos"
+    ],
+    "tomatoes_cherry_red_on_vine": [
+      "tomates cherry en racimo",
+      "tomates cherry rojos en rama"
+    ],
+    "tomatoes_cherry_yellow_on_vine": [
+      "tomates cherry amarillos en racimo",
+      "tomates cherry amarillos en rama"
+    ],
+    "tomatoes_cocktail_red": [
+      "tomates cóctel rojos",
+      "tomate coctel",
+      "tomates cocktail rojos"
+    ],
+    "tomatoes_greenhouse": [
+      "jitomate de invernadero",
+      "tomate beef",
+      "jitomate beef",
+      "tomates de invernadero"
+    ],
+    "tomatoes_native_home_grown": [
+      "tomate local",
+      "tomate criollo",
+      "tomates de cultivo local"
+    ],
+    "tomatoes_on_the_vine": [
+      "tomates en racimo",
+      "tomate en racimo",
+      "tomates en la rama",
+      "tomates en rama"
+    ],
+    "tomatoes_regular": [
+      "tomate bola",
+      "jitomate bola",
+      "tomate rojo",
+      "tomates regulares"
+    ],
+    "tomatoes_regular_orange_on_vine": [
+      "tomates naranjas en racimo",
+      "tomates regulares naranjas en rama"
+    ],
+    "tomatoes_regular_yellow_on_vine": [
+      "tomates amarillos en racimo",
+      "tomates regulares amarillos en rama"
+    ],
+    "tomatoes_roma_yellow": [
+      "tomate saladet amarillo",
+      "tomates roma amarillos"
+    ],
+    "tree_ripened_pears": [
+      "peras maduradas en árbol"
+    ],
+    "turban_squash": [
+      "calabaza turbante turco",
+      "calabaza turban"
+    ],
+    "turnip_bunch_banded": [
+      "nabo en manojo",
+      "nabos en manojo atado"
+    ],
+    "turnips": [
+      "nabos"
+    ],
+    "tuscan_kale": [
+      "kale toscano",
+      "lacinato",
+      "kale dinosaurio",
+      "coles"
+    ],
+    "valencia_oranges": [
+      "naranja valenciana",
+      "naranja de jugo",
+      "naranjas valencia"
+    ],
+    "vegetable_marrow": [
+      "calabacín grande",
+      "calabaza alargada",
+      "marrow",
+      "calabaza alargada (marrow)"
+    ],
+    "vine_ripe_tomatoes": [
+      "tomate rojo",
+      "jitomate bola",
+      "tomates madurados en rama"
+    ],
+    "virginia_gold_apples": [
+      "manzanas virginia gold"
+    ],
+    "watercress": [
+      "berros"
+    ],
+    "watermelon_red": [
+      "melón de agua"
+    ],
+    "white_button_mushrooms": [
+      "champiñón",
+      "hongos blancos",
+      "champiñones blancos"
+    ],
+    "white_flesh_flat_nectarine": [
+      "platerina"
+    ],
+    "white_potatoes": [
+      "papas blancas"
+    ],
+    "white_squash": [
+      "calabaza blanca"
+    ],
+    "wild_twist_apples": [
+      "manzanas wild twist"
+    ],
+    "winesap_apples": [
+      "manzanas winesap"
+    ],
+    "winter_melon_all_sizes": [
+      "winter melon",
+      "melones"
+    ],
+    "winter_nelis_pears": [
+      "peras winter nelis"
+    ],
+    "wonderful_seedless_lemons": [
+      "limones amarillos wonderful sin semilla"
+    ],
+    "wood_ear_mushrooms": [
+      "wood ear",
+      "hongo negro",
+      "oreja de palo",
+      "hongos wood ear"
+    ],
+    "worcester_apples": [
+      "manzanas worcester"
+    ],
+    "xenia_pears": [
+      "peras xenia"
+    ],
+    "xpelon": [
+      "espelón"
+    ],
+    "yellow_bell_pepper": [
+      "chile campana amarillo",
+      "pimiento morrón amarillo",
+      "chile morrón amarillo",
+      "pimiento campana amarillo"
+    ],
+    "yellow_brown_onions_bunch": [
+      "cebolla amarilla",
+      "cebolla café",
+      "cebollas amarillas cafés en manojo",
+      "cebollas amarillas en manojo"
+    ],
+    "yellow_onion": [
+      "cebolla café"
+    ],
+    "yellow_regular_tomatoes": [
+      "tomate bola amarillo",
+      "tomates amarillos regulares"
+    ],
+    "yellow_squash_crookneck": [
+      "calabaza amarilla",
+      "calabacín amarillo",
+      "calabaza crookneck amarilla",
+      "calabaza amarilla de cuello curvo",
+      "crookneck"
+    ],
+    "yellow_squash_straightneck": [
+      "calabaza amarilla",
+      "calabacín amarillo",
+      "calabaza straightneck amarilla",
+      "straightneck"
+    ],
+    "yellow_zucchini": [
+      "calabacita amarilla",
+      "calabacín amarillo",
+      "calabaza zucchini amarilla"
+    ],
+    "york_apples": [
+      "manzanas york"
+    ],
+    "yu_choy": [
+      "choy sum"
+    ],
+    "yukon_gold_potatoes": [
+      "papa amarilla",
+      "papas yukon gold"
+    ],
+    "zingy_apples": [
+      "manzanas zingy"
+    ],
+    "zucchini": [
+      "calabacita",
+      "calabacita italiana",
+      "zucchini",
+      "calabacín",
+      "calabaza zucchini"
+    ]
   }
 }

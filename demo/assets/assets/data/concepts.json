@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 13,
   "generated_by": "tool/build_concepts.dart",
   "concept_count": 876,
   "concepts": [
@@ -419,7 +419,7 @@
     },
     {
       "id": "anjou_pears_red",
-      "name": "Anjou Pears Red",
+      "name": "Red Anjou Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -450,7 +450,7 @@
     },
     {
       "id": "apple_bananas_manzano",
-      "name": "Apple Bananas Manzano",
+      "name": "Apple Bananas (Manzano)",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -481,7 +481,7 @@
     },
     {
       "id": "apples_antares",
-      "name": "Apples Antares",
+      "name": "Antares Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -512,7 +512,7 @@
     },
     {
       "id": "apples_baldwin",
-      "name": "Apples Baldwin",
+      "name": "Baldwin Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -574,7 +574,7 @@
     },
     {
       "id": "apples_dalinette",
-      "name": "Apples Dalinette",
+      "name": "Dalinette Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -605,7 +605,7 @@
     },
     {
       "id": "apples_greening_ri",
-      "name": "Apples Greening Ri",
+      "name": "Greening (RI) Apples",
       "category": "fruit",
       "family": "green_apples",
       "codes": [
@@ -636,7 +636,7 @@
     },
     {
       "id": "apples_haralson",
-      "name": "Apples Haralson",
+      "name": "Haralson Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -681,7 +681,7 @@
     },
     {
       "id": "apples_liberty",
-      "name": "Apples Liberty",
+      "name": "Liberty Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -712,7 +712,7 @@
     },
     {
       "id": "apples_macoun",
-      "name": "Apples Macoun",
+      "name": "Macoun Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -743,7 +743,7 @@
     },
     {
       "id": "apples_melrose",
-      "name": "Apples Melrose",
+      "name": "Melrose Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -774,7 +774,7 @@
     },
     {
       "id": "apples_northern_spy",
-      "name": "Apples Northern Spy",
+      "name": "Northern Spy Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -836,7 +836,7 @@
     },
     {
       "id": "apples_rosinette",
-      "name": "Apples Rosinette",
+      "name": "Rosinette Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -867,7 +867,7 @@
     },
     {
       "id": "apples_scilate_envy",
-      "name": "Apples Scilate Envy",
+      "name": "Scilate (ENVY) Apples (Small)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -898,7 +898,7 @@
     },
     {
       "id": "apples_wurtwinning_bloss",
-      "name": "Apples Wurtwinning Bloss",
+      "name": "Wurtwinning (Bloss) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -973,7 +973,7 @@
     },
     {
       "id": "apricots_dried",
-      "name": "Apricots Dried",
+      "name": "Dried Apricots",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -1035,7 +1035,7 @@
     },
     {
       "id": "arra_thirty_grapes",
-      "name": "Arra Thirty Grapes",
+      "name": "ARRA THIRTY (Sugardrop) Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "arra_thirtytwo_grapes",
-      "name": "Arra Thirtytwo Grapes",
+      "name": "ARRA THIRTYTWO (Mystic Dream) Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -1097,7 +1097,7 @@
     },
     {
       "id": "arra_twentyeight_grapes",
-      "name": "Arra Twentyeight Grapes",
+      "name": "ARRA TWENTYEIGHT (Passion Punch) Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -1128,7 +1128,7 @@
     },
     {
       "id": "arra_twentyseven_grapes",
-      "name": "Arra Twentyseven Grapes",
+      "name": "ARRA TWENTYSEVEN Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -1159,7 +1159,7 @@
     },
     {
       "id": "arracach",
-      "name": "Arracach",
+      "name": "Arracacha",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "artichokes_baby_cocktail",
-      "name": "Artichokes Baby Cocktail",
+      "name": "Baby/Cocktail Artichokes",
       "category": "vegetable",
       "family": "artichokes",
       "codes": [
@@ -1280,7 +1280,7 @@
     },
     {
       "id": "artichokes_purple",
-      "name": "Artichokes Purple",
+      "name": "Purple Artichokes",
       "category": "vegetable",
       "family": "artichokes",
       "codes": [
@@ -1325,7 +1325,7 @@
     },
     {
       "id": "artichokes_rouge_salambo",
-      "name": "Artichokes Rouge Salambo",
+      "name": "Rouge Salambo Artichokes",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -1387,7 +1387,7 @@
     },
     {
       "id": "asian_nashi_pears_brown",
-      "name": "Asian Nashi Pears Brown",
+      "name": "Brown Asian/Nashi Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "asian_nashi_pears_white",
-      "name": "Asian Nashi Pears White",
+      "name": "White Asian/Nashi Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -1480,7 +1480,7 @@
     },
     {
       "id": "asparagus_green",
-      "name": "Asparagus Green",
+      "name": "Green Asparagus",
       "category": "vegetable",
       "family": "asparagus",
       "codes": [
@@ -1527,7 +1527,7 @@
     },
     {
       "id": "asparagus_green_bunch",
-      "name": "Asparagus Green Bunch",
+      "name": "Green Asparagus (Bunch)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -1558,7 +1558,7 @@
     },
     {
       "id": "asparagus_purple",
-      "name": "Asparagus Purple",
+      "name": "Purple Asparagus",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "asparagus_purple_bunch",
-      "name": "Asparagus Purple Bunch",
+      "name": "Purple Asparagus (Bunch)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -1651,7 +1651,7 @@
     },
     {
       "id": "asparagus_white",
-      "name": "Asparagus White",
+      "name": "White Asparagus",
       "category": "vegetable",
       "family": "asparagus",
       "codes": [
@@ -1696,7 +1696,7 @@
     },
     {
       "id": "asparagus_white_bunch",
-      "name": "Asparagus White Bunch",
+      "name": "White Asparagus (Bunch)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -1789,7 +1789,7 @@
     },
     {
       "id": "aurora_apples",
-      "name": "Aurora Apples",
+      "name": "Aurora/Southern Rose Apples (Large)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -1820,7 +1820,7 @@
     },
     {
       "id": "aurora_southern_rose_apples",
-      "name": "Aurora Southern Rose Apples",
+      "name": "Aurora/Southern Rose Apples (Small)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -1851,7 +1851,7 @@
     },
     {
       "id": "autumncrisp_grapes",
-      "name": "Autumncrisp Grapes",
+      "name": "AutumnCrisp Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -1882,7 +1882,7 @@
     },
     {
       "id": "avocado_green",
-      "name": "Avocado Green",
+      "name": "Green Avocado",
       "category": "fruit",
       "family": "avocados",
       "codes": [
@@ -1977,7 +1977,7 @@
     },
     {
       "id": "avocado_hass",
-      "name": "Avocado Hass",
+      "name": "Hass Avocado",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -2038,7 +2038,7 @@
     },
     {
       "id": "avocados_cocktail_seedless",
-      "name": "Avocados Cocktail Seedless",
+      "name": "Cocktail/Seedless Avocados",
       "category": "fruit",
       "family": "avocados",
       "codes": [
@@ -2069,7 +2069,7 @@
     },
     {
       "id": "avocados_pinkerton",
-      "name": "Avocados Pinkerton",
+      "name": "Pinkerton Avocados",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -2162,7 +2162,7 @@
     },
     {
       "id": "baby_cactus_leaves",
-      "name": "Baby Cactus Leaves",
+      "name": "Baby Cactus Leaves (Nopales)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -2193,7 +2193,7 @@
     },
     {
       "id": "baby_gai_choy",
-      "name": "Baby Gai Choy",
+      "name": "Baby Gai Choy (Chinese/Indian Mustard)",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -2224,7 +2224,7 @@
     },
     {
       "id": "baby_green_zucchini_courgette",
-      "name": "Baby Green Zucchini Courgette",
+      "name": "Baby Green Zucchini/Courgette",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -2516,7 +2516,7 @@
     },
     {
       "id": "bananas_burro",
-      "name": "Bananas Burro",
+      "name": "Burro Bananas",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -2547,7 +2547,7 @@
     },
     {
       "id": "bananas_dominique",
-      "name": "Bananas Dominique",
+      "name": "Dominique Bananas",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -2625,7 +2625,7 @@
     },
     {
       "id": "bartlett_pears_red",
-      "name": "Bartlett Pears Red",
+      "name": "Red Bartlett Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -2679,14 +2679,14 @@
         "tier": "EXACT",
         "household_pct": 18
       },
-      "card_note": "4885. Opal basil=4886, Sweet basil=4887. Herbs are clustered 4885-4908: Basil(4885), Chives(4888), Cilantro(4889), Dill(4891), Mint(4896), Parsley curly(4899), Parsley Italian(4901), Rosemary(4903), Thyme(4907).",
+      "card_note": "4885. Opal basil=4886, Sweet basil=4887. Herbs are clustered 4885-4908: Basil (4885), Chives (4888), Cilantro (4889), Dill (4891), Mint (4896), Parsley curly (4899), Parsley Italian (4901), Rosemary (4903), Thyme (4907).",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
     },
     {
       "id": "basil_opal",
-      "name": "Basil Opal",
+      "name": "Opal Basil",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -2717,7 +2717,7 @@
     },
     {
       "id": "basil_sweet",
-      "name": "Basil Sweet",
+      "name": "Sweet Basil",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -2779,7 +2779,7 @@
     },
     {
       "id": "bean_sprouts_mung",
-      "name": "Bean Sprouts Mung",
+      "name": "Mung Bean Sprouts",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -2872,7 +2872,7 @@
     },
     {
       "id": "beans_lima",
-      "name": "Beans Lima",
+      "name": "Lima Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -2934,7 +2934,7 @@
     },
     {
       "id": "beans_purple_hull",
-      "name": "Beans Purple Hull",
+      "name": "Purple Hull Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -2965,7 +2965,7 @@
     },
     {
       "id": "beans_shell",
-      "name": "Beans Shell",
+      "name": "Shell Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -3027,7 +3027,7 @@
     },
     {
       "id": "beans_winged",
-      "name": "Beans Winged",
+      "name": "Winged Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -3120,7 +3120,7 @@
     },
     {
       "id": "beets_baby_golden",
-      "name": "Beets Baby Golden",
+      "name": "Baby Golden Beets",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -3151,7 +3151,7 @@
     },
     {
       "id": "beets_baby_red",
-      "name": "Beets Baby Red",
+      "name": "Baby Red Beets",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -3182,7 +3182,7 @@
     },
     {
       "id": "beets_bunch",
-      "name": "Beets Bunch",
+      "name": "Beets (Bunch)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -3212,7 +3212,7 @@
     },
     {
       "id": "beets_golden",
-      "name": "Beets Golden",
+      "name": "Golden Beets",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -3243,7 +3243,7 @@
     },
     {
       "id": "beets_loose",
-      "name": "Beets Loose",
+      "name": "Beets (Loose)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -3336,7 +3336,7 @@
     },
     {
       "id": "belgian_endive_red",
-      "name": "Belgian Endive Red",
+      "name": "Red Belgian Endive",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -3398,7 +3398,7 @@
     },
     {
       "id": "bell_pepper_brown",
-      "name": "Bell Pepper Brown",
+      "name": "Brown Bell Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -3443,7 +3443,7 @@
     },
     {
       "id": "bell_pepper_white",
-      "name": "Bell Pepper White",
+      "name": "White Bell Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -3488,7 +3488,7 @@
     },
     {
       "id": "belle_du_jumet_pear",
-      "name": "Belle Du Jumet Pear",
+      "name": "Belle du Jumet Pear (Honey Belle)",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -3519,7 +3519,7 @@
     },
     {
       "id": "bertanne_golden_russet_apples",
-      "name": "Bertanne Golden Russet Apples",
+      "name": "Bertanne/Golden Russet Apples",
       "category": "fruit",
       "family": "russet_apples",
       "codes": [
@@ -3643,7 +3643,7 @@
     },
     {
       "id": "black_grapes_seeded",
-      "name": "Black Grapes Seeded",
+      "name": "Seeded Black Grapes",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -3674,7 +3674,7 @@
     },
     {
       "id": "black_grapes_seedless",
-      "name": "Black Grapes Seedless",
+      "name": "Seedless Black Grapes",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -3829,7 +3829,7 @@
     },
     {
       "id": "blackeyed_peas",
-      "name": "Blackeyed Peas",
+      "name": "Black-Eyed Peas",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -3891,7 +3891,7 @@
     },
     {
       "id": "blue_black_seeded_grapes",
-      "name": "Blue Black Seeded Grapes",
+      "name": "Blue/Black Seeded Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -4015,7 +4015,7 @@
     },
     {
       "id": "bok_choy_small_baby",
-      "name": "Bok Choy Small Baby",
+      "name": "Small/Baby Bok Choy",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -4215,14 +4215,14 @@
       "card_note": "Bosc is the most complex pear, 4 codes split by size AND region, similar to navel orange. 4026 (West) is in the fruit row. 4411-4413 are in the pear zone.",
       "most_common": {
         "plu": 4413,
-        "reason": "Large West Bosc is most common — majority of US pears come from WA/OR"
+        "reason": "Large West Bosc is most common (majority of US pears come from WA/OR)"
       },
       "matrix_gaps": [],
       "is_most_common": true
     },
     {
       "id": "boskoop_apples",
-      "name": "Boskoop Apples",
+      "name": "Boskoop/Belle de Boskoop Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -4267,7 +4267,7 @@
     },
     {
       "id": "boston_lettuce_red",
-      "name": "Boston Lettuce Red",
+      "name": "Red Boston Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -4468,7 +4468,7 @@
     },
     {
       "id": "broccoli_baby",
-      "name": "Broccoli Baby",
+      "name": "Baby Broccoli",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -4499,7 +4499,7 @@
     },
     {
       "id": "broccoli_rabe_chinese_broccoli",
-      "name": "Broccoli Rabe Chinese Broccoli",
+      "name": "Broccoli Rabe / Chinese Broccoli",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -4684,7 +4684,7 @@
     },
     {
       "id": "cabbage_savoy_green",
-      "name": "Cabbage Savoy Green",
+      "name": "Green Savoy Cabbage",
       "category": "vegetable",
       "family": "cabbage",
       "codes": [
@@ -4715,7 +4715,7 @@
     },
     {
       "id": "cabbage_savoy_red",
-      "name": "Cabbage Savoy Red",
+      "name": "Red Savoy Cabbage",
       "category": "vegetable",
       "family": "cabbage",
       "codes": [
@@ -4746,7 +4746,7 @@
     },
     {
       "id": "cabbage_summer_pointed",
-      "name": "Cabbage Summer Pointed",
+      "name": "Pointed Summer Cabbage",
       "category": "vegetable",
       "family": "cabbage",
       "codes": [
@@ -4777,7 +4777,7 @@
     },
     {
       "id": "cactus_leaves",
-      "name": "Cactus Leaves",
+      "name": "Cactus Leaves (Nopales)",
       "category": "vegetable",
       "family": "cooking_greens",
       "codes": [
@@ -4808,7 +4808,7 @@
     },
     {
       "id": "cactus_pear",
-      "name": "Cactus Pear",
+      "name": "Cactus Pear (Prickly Pear)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -5055,7 +5055,7 @@
     },
     {
       "id": "cantaloupe_muskmelon",
-      "name": "Cantaloupe Muskmelon",
+      "name": "Cantaloupe/Muskmelon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -5131,7 +5131,7 @@
     },
     {
       "id": "cape_gooseberry_physalis",
-      "name": "Cape Gooseberry Physalis",
+      "name": "Cape Gooseberry (Physalis)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -5162,7 +5162,7 @@
     },
     {
       "id": "cape_rose_pears",
-      "name": "Cape Rose Pears",
+      "name": "Cape Rose Pears (Cheeky)",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -5286,7 +5286,7 @@
     },
     {
       "id": "carrots_baby",
-      "name": "Carrots Baby",
+      "name": "Baby Carrots",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5317,7 +5317,7 @@
     },
     {
       "id": "carrots_bunch",
-      "name": "Carrots Bunch",
+      "name": "Carrots (Bunch)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5348,7 +5348,7 @@
     },
     {
       "id": "carrots_french",
-      "name": "Carrots French",
+      "name": "French Carrots",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5379,7 +5379,7 @@
     },
     {
       "id": "carrots_loose",
-      "name": "Carrots Loose",
+      "name": "Carrots (Loose)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5409,7 +5409,7 @@
     },
     {
       "id": "carrots_purple_red_beta_sweet",
-      "name": "Carrots Purple Red Beta Sweet",
+      "name": "Beta Sweet Purple/Red Carrots",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5440,7 +5440,7 @@
     },
     {
       "id": "carrots_sticks",
-      "name": "Carrots Sticks",
+      "name": "Carrot Sticks",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5563,7 +5563,7 @@
     },
     {
       "id": "cauliflower_baby",
-      "name": "Cauliflower Baby",
+      "name": "Baby Cauliflower",
       "category": "vegetable",
       "family": "cruciferous_vegetables",
       "codes": [
@@ -5594,7 +5594,7 @@
     },
     {
       "id": "cauliflower_green",
-      "name": "Cauliflower Green",
+      "name": "Green Cauliflower",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -5625,7 +5625,7 @@
     },
     {
       "id": "cauliflower_purple",
-      "name": "Cauliflower Purple",
+      "name": "Purple Cauliflower",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -5656,7 +5656,7 @@
     },
     {
       "id": "cauliflower_romanesco",
-      "name": "Cauliflower Romanesco",
+      "name": "Romanesco Cauliflower",
       "category": "vegetable",
       "family": "brassicas",
       "codes": [
@@ -5797,7 +5797,7 @@
     },
     {
       "id": "celery_loose_stalk",
-      "name": "Celery Loose Stalk",
+      "name": "Celery Sticks",
       "category": "vegetable",
       "family": "stalk_vegetables",
       "codes": [
@@ -5807,7 +5807,7 @@
           "size": "All Sizes",
           "region": null,
           "grow_method": null,
-          "form": "loose_stalk",
+          "form": "sticks",
           "origin": "standard",
           "pack_id": null,
           "interchangeable_with": [],
@@ -5828,7 +5828,7 @@
     },
     {
       "id": "celery_root_celeriac",
-      "name": "Celery Root Celeriac",
+      "name": "Celery Root (Celeriac)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -5859,7 +5859,7 @@
     },
     {
       "id": "celery_root_with_leaves",
-      "name": "Celery Root With Leaves",
+      "name": "Celery Root with Leaves Attached",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -6241,7 +6241,7 @@
     },
     {
       "id": "cherry_tomatoes_yellow",
-      "name": "Cherry Tomatoes Yellow",
+      "name": "Yellow Cherry Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -6303,7 +6303,7 @@
     },
     {
       "id": "chickpeas_fresh",
-      "name": "Chickpeas Fresh",
+      "name": "Fresh Chickpeas",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -6334,7 +6334,7 @@
     },
     {
       "id": "chili_pepper_dried",
-      "name": "Chili Pepper Dried",
+      "name": "Dried Chili Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -6365,7 +6365,7 @@
     },
     {
       "id": "chili_peppers_yellow",
-      "name": "Chili Peppers Yellow",
+      "name": "Yellow Chili Peppers",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -6520,7 +6520,7 @@
     },
     {
       "id": "choy_sum_baby",
-      "name": "Choy Sum Baby",
+      "name": "Baby Choy Sum",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -6674,7 +6674,7 @@
     },
     {
       "id": "clara_friis_pears",
-      "name": "Clara Friis Pears",
+      "name": "Clara Frijs Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -6764,7 +6764,7 @@
     },
     {
       "id": "clementine_tangerine_untreated",
-      "name": "Clementine Tangerine Untreated",
+      "name": "Clementine Tangerine (Untreated)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -6795,7 +6795,7 @@
     },
     {
       "id": "clementine_tangerine_with_leaves",
-      "name": "Clementine Tangerine With Leaves",
+      "name": "Clementine Tangerine with Leaves",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -6857,7 +6857,7 @@
     },
     {
       "id": "cocktail_tomatoes_on_vine",
-      "name": "Cocktail Tomatoes On Vine",
+      "name": "Cocktail Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -6888,7 +6888,7 @@
     },
     {
       "id": "coconut_husked",
-      "name": "Coconut Husked",
+      "name": "Husked Coconut",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -6919,7 +6919,7 @@
     },
     {
       "id": "coconut_in_husk",
-      "name": "Coconut In Husk",
+      "name": "Coconut in Husk",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -7135,7 +7135,7 @@
     },
     {
       "id": "corn_indian_decorative",
-      "name": "Corn Indian Decorative",
+      "name": "Indian Decorative Corn",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -7166,7 +7166,7 @@
     },
     {
       "id": "corn_indian_decorative_mini",
-      "name": "Corn Indian Decorative Mini",
+      "name": "Mini Indian Decorative Corn",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -7197,7 +7197,7 @@
     },
     {
       "id": "corn_indian_strawberry",
-      "name": "Corn Indian Strawberry",
+      "name": "Strawberry Indian Corn",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -7228,7 +7228,7 @@
     },
     {
       "id": "corn_sweet_baby",
-      "name": "Corn Sweet Baby",
+      "name": "Baby Sweet Corn",
       "category": "vegetable",
       "family": "corn",
       "codes": [
@@ -7259,7 +7259,7 @@
     },
     {
       "id": "corn_sweet_bi_color",
-      "name": "Corn Sweet Bi Color",
+      "name": "Bi-Color Sweet Corn",
       "category": "vegetable",
       "family": "corn",
       "codes": [
@@ -7290,7 +7290,7 @@
     },
     {
       "id": "corn_white_trimmed",
-      "name": "Corn White Trimmed",
+      "name": "Trimmed White Corn",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -7321,7 +7321,7 @@
     },
     {
       "id": "corn_yellow_trimmed",
-      "name": "Corn Yellow Trimmed",
+      "name": "Trimmed Yellow Corn",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -7427,7 +7427,7 @@
     },
     {
       "id": "cox_orange_pippin_apples",
-      "name": "Cox Orange Pippin Apples",
+      "name": "Cox's Orange Pippin Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -7581,7 +7581,7 @@
     },
     {
       "id": "crimson_delight_sunrise_magic_apples",
-      "name": "Crimson Delight Sunrise Magic Apples",
+      "name": "Crimson Delight/Sunrise Magic Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -7674,7 +7674,7 @@
     },
     {
       "id": "cripps_red_sundowner_apples",
-      "name": "Cripps Red Sundowner Apples",
+      "name": "Cripps Red (Sundowner) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -7705,7 +7705,7 @@
     },
     {
       "id": "crispin_mutsu_apples",
-      "name": "Crispin Mutsu Apples",
+      "name": "Crispin/Mutsu Apples",
       "category": "fruit",
       "family": "green_apples",
       "codes": [
@@ -7923,7 +7923,7 @@
     },
     {
       "id": "cucumber_armenian",
-      "name": "Cucumber Armenian",
+      "name": "Armenian Cucumber",
       "category": "vegetable",
       "family": "cucumbers",
       "codes": [
@@ -7954,7 +7954,7 @@
     },
     {
       "id": "cucumber_japanese_white",
-      "name": "Cucumber Japanese White",
+      "name": "Japanese White Cucumber",
       "category": "vegetable",
       "family": "cucumbers",
       "codes": [
@@ -7985,7 +7985,7 @@
     },
     {
       "id": "cucumber_lemon",
-      "name": "Cucumber Lemon",
+      "name": "Lemon Cucumber",
       "category": "vegetable",
       "family": "cucumbers",
       "codes": [
@@ -8016,7 +8016,7 @@
     },
     {
       "id": "currants_red",
-      "name": "Currants Red",
+      "name": "Red Currants",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -8140,7 +8140,7 @@
     },
     {
       "id": "dates_fresh",
-      "name": "Dates Fresh",
+      "name": "Fresh Dates",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -8202,7 +8202,7 @@
     },
     {
       "id": "dekopon_tangerine",
-      "name": "Dekopon Tangerine",
+      "name": "Dekopon Tangerine/Mandarin",
       "category": "fruit",
       "family": "specialty_citrus",
       "codes": [
@@ -8233,7 +8233,7 @@
     },
     {
       "id": "delblush_tentation_apples",
-      "name": "Delblush Tentation Apples",
+      "name": "Delblush (Tentation) Apples",
       "category": "fruit",
       "family": "green_apples",
       "codes": [
@@ -8385,7 +8385,7 @@
     },
     {
       "id": "destivale_apples",
-      "name": "Destivale Apples",
+      "name": "D'Estivale Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -8446,7 +8446,7 @@
     },
     {
       "id": "dill_baby",
-      "name": "Dill Baby",
+      "name": "Baby Dill",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -8477,7 +8477,7 @@
     },
     {
       "id": "dill_pickling",
-      "name": "Dill Pickling",
+      "name": "Pickling Dill",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -8539,7 +8539,7 @@
     },
     {
       "id": "dragon_fruit_red",
-      "name": "Dragon Fruit Red",
+      "name": "Red Dragon Fruit",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -8805,7 +8805,7 @@
     },
     {
       "id": "eggplant_baby",
-      "name": "Eggplant Baby",
+      "name": "Baby Eggplant",
       "category": "vegetable",
       "family": "eggplants",
       "codes": [
@@ -8836,7 +8836,7 @@
     },
     {
       "id": "eggplant_baby_white",
-      "name": "Eggplant Baby White",
+      "name": "Baby White Eggplant",
       "category": "vegetable",
       "family": "eggplants",
       "codes": [
@@ -8867,7 +8867,7 @@
     },
     {
       "id": "eggplant_chinese",
-      "name": "Eggplant Chinese",
+      "name": "Chinese Eggplant",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -8898,7 +8898,7 @@
     },
     {
       "id": "eggplant_japanese",
-      "name": "Eggplant Japanese",
+      "name": "Japanese Eggplant",
       "category": "vegetable",
       "family": "eggplants",
       "codes": [
@@ -8929,7 +8929,7 @@
     },
     {
       "id": "eggplant_thai",
-      "name": "Eggplant Thai",
+      "name": "Thai Eggplant",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -8960,7 +8960,7 @@
     },
     {
       "id": "eggplant_white",
-      "name": "Eggplant White",
+      "name": "White Eggplant",
       "category": "vegetable",
       "family": "eggplants",
       "codes": [
@@ -9376,7 +9376,7 @@
     },
     {
       "id": "endive_chicory",
-      "name": "Endive Chicory",
+      "name": "Endive/Chicory",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -9531,7 +9531,7 @@
     },
     {
       "id": "escarole_batavian_chicory_green",
-      "name": "Escarole Batavian Chicory Green",
+      "name": "Green Escarole/Batavian Chicory",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -9562,7 +9562,7 @@
     },
     {
       "id": "escarole_red",
-      "name": "Escarole Red",
+      "name": "Red Escarole",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -9624,7 +9624,7 @@
     },
     {
       "id": "evercrisp_apples",
-      "name": "Evercrisp Apples",
+      "name": "EverCrisp Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -9655,7 +9655,7 @@
     },
     {
       "id": "fairchild_tangerine",
-      "name": "Fairchild Tangerine",
+      "name": "Fairchild Tangerine/Mandarin",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -9748,7 +9748,7 @@
     },
     {
       "id": "fennel_anise",
-      "name": "Fennel Anise",
+      "name": "Fennel (Anise)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -9872,7 +9872,7 @@
     },
     {
       "id": "figs_black",
-      "name": "Figs Black",
+      "name": "Black Figs",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -9903,7 +9903,7 @@
     },
     {
       "id": "figs_brown",
-      "name": "Figs Brown",
+      "name": "Brown Figs",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -9934,7 +9934,7 @@
     },
     {
       "id": "figs_white_green",
-      "name": "Figs White Green",
+      "name": "White/Green Figs",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -10072,7 +10072,7 @@
     },
     {
       "id": "flat_peaches_white_saturn_donut",
-      "name": "Flat Peaches White Saturn Donut",
+      "name": "White Flat Peaches (Saturn/Donut)",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -10351,7 +10351,7 @@
     },
     {
       "id": "frisee",
-      "name": "Frisee",
+      "name": "Frisée",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -10460,7 +10460,7 @@
     },
     {
       "id": "gai_choy",
-      "name": "Gai Choy",
+      "name": "Gai Choy (Chinese Mustard)",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -10491,7 +10491,7 @@
     },
     {
       "id": "gai_lan",
-      "name": "Gai Lan",
+      "name": "Gai Lan (Chinese Broccoli)",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -10728,7 +10728,7 @@
     },
     {
       "id": "garlic_elephant",
-      "name": "Garlic Elephant",
+      "name": "Elephant Garlic",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -10759,7 +10759,7 @@
     },
     {
       "id": "garlic_fresh_leaves",
-      "name": "Garlic Fresh Leaves",
+      "name": "Fresh Garlic with Leaves",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -10790,7 +10790,7 @@
     },
     {
       "id": "garlic_one_clove_types",
-      "name": "Garlic One Clove Types",
+      "name": "One-Clove Garlic",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -10821,7 +10821,7 @@
     },
     {
       "id": "garlic_regular_smoked",
-      "name": "Garlic Regular Smoked",
+      "name": "Smoked Garlic",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -10852,7 +10852,7 @@
     },
     {
       "id": "garlic_string",
-      "name": "Garlic String",
+      "name": "Garlic (String)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -10883,7 +10883,7 @@
     },
     {
       "id": "gem_avocados",
-      "name": "Gem Avocados",
+      "name": "GEM Avocados",
       "category": "fruit",
       "family": "avocados",
       "codes": [
@@ -10945,7 +10945,7 @@
     },
     {
       "id": "giga_apples",
-      "name": "Giga Apples",
+      "name": "GIGA Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -11441,7 +11441,7 @@
     },
     {
       "id": "gourd_ornamental",
-      "name": "Gourd Ornamental",
+      "name": "Ornamental Gourd",
       "category": "vegetable",
       "family": "gourds",
       "codes": [
@@ -11586,7 +11586,7 @@
     },
     {
       "id": "grape_teardrop_tomatoes",
-      "name": "Grape Teardrop Tomatoes",
+      "name": "Grape/Teardrop Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -11617,7 +11617,7 @@
     },
     {
       "id": "grapefruit_deep_red",
-      "name": "Grapefruit Deep Red",
+      "name": "Deep Red Grapefruit",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -11787,7 +11787,7 @@
     },
     {
       "id": "grapefruit_ruby_red",
-      "name": "Grapefruit Ruby Red",
+      "name": "Ruby Red Grapefruit",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -11852,7 +11852,7 @@
     },
     {
       "id": "grapefruit_ruby_red_pink",
-      "name": "Grapefruit Ruby Red Pink",
+      "name": "Ruby/Red/Pink Grapefruit",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -12006,7 +12006,7 @@
     },
     {
       "id": "grapefruit_white",
-      "name": "Grapefruit White",
+      "name": "White Grapefruit",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -12176,7 +12176,7 @@
     },
     {
       "id": "grapes_ardthirtysix_arra_cherry_crush",
-      "name": "Grapes Ardthirtysix Arra Cherry Crush",
+      "name": "ARDTHIRTYSIX (ARRA Cherry Crush) Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12207,7 +12207,7 @@
     },
     {
       "id": "grapes_fantasy_marroo",
-      "name": "Grapes Fantasy Marroo",
+      "name": "Fantasy/Marroo Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12238,7 +12238,7 @@
     },
     {
       "id": "grapes_muscat_de_hambourg",
-      "name": "Grapes Muscat De Hambourg",
+      "name": "Muscat de Hambourg Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12269,7 +12269,7 @@
     },
     {
       "id": "grapes_red_seeded",
-      "name": "Grapes Red Seeded",
+      "name": "Red Seeded Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12314,7 +12314,7 @@
     },
     {
       "id": "grapes_red_seedless",
-      "name": "Grapes Red Seedless",
+      "name": "Red Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12358,7 +12358,7 @@
     },
     {
       "id": "grapes_white_green_seeded",
-      "name": "Grapes White Green Seeded",
+      "name": "White/Green Seeded Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12389,7 +12389,7 @@
     },
     {
       "id": "grapes_white_green_seedless",
-      "name": "Grapes White Green Seedless",
+      "name": "White/Green Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -12738,7 +12738,7 @@
     },
     {
       "id": "green_grapes_seedless",
-      "name": "Green Grapes Seedless",
+      "name": "Seedless Green Grapes",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -12798,7 +12798,7 @@
     },
     {
       "id": "green_onions_scallions",
-      "name": "Green Onions Scallions",
+      "name": "Green Onions (Scallions)",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -13075,7 +13075,7 @@
     },
     {
       "id": "helda_flat_beans",
-      "name": "Helda Flat Beans",
+      "name": "Helda/Flat Beans",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -13106,7 +13106,7 @@
     },
     {
       "id": "heritage_reinette_varieties_apples",
-      "name": "Heritage Reinette Varieties Apples",
+      "name": "Heritage Reinette Variety Apples",
       "category": "fruit",
       "family": "heritage_apples",
       "codes": [
@@ -13383,7 +13383,7 @@
     },
     {
       "id": "horned_melon_kiwano",
-      "name": "Horned Melon Kiwano",
+      "name": "Horned Melon (Kiwano)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -13476,7 +13476,7 @@
     },
     {
       "id": "huaguan_autumn_glory_apples",
-      "name": "Huaguan Autumn Glory Apples",
+      "name": "Huaguan (Autumn Glory) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -13724,7 +13724,7 @@
     },
     {
       "id": "ifg_core_black_seedless_grapes",
-      "name": "Ifg Core Black Seedless Grapes",
+      "name": "IFG Core Black Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13755,7 +13755,7 @@
     },
     {
       "id": "ifg_core_green_seedless_grapes",
-      "name": "Ifg Core Green Seedless Grapes",
+      "name": "IFG Core Green Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13786,7 +13786,7 @@
     },
     {
       "id": "ifg_core_red_seedless_grapes",
-      "name": "Ifg Core Red Seedless Grapes",
+      "name": "IFG Core Red Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13817,7 +13817,7 @@
     },
     {
       "id": "ifg_novelty_black_seedless_grapes",
-      "name": "Ifg Novelty Black Seedless Grapes",
+      "name": "IFG Novelty Black Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13848,7 +13848,7 @@
     },
     {
       "id": "ifg_novelty_green_seedless_cotton_candy_grapes",
-      "name": "Ifg Novelty Green Seedless Cotton Candy Grapes",
+      "name": "IFG Novelty Green Seedless Grapes (Cotton Candy)",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13879,7 +13879,7 @@
     },
     {
       "id": "ifg_novelty_red_seedless_grapes",
-      "name": "Ifg Novelty Red Seedless Grapes",
+      "name": "IFG Novelty Red Seedless Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -13910,7 +13910,7 @@
     },
     {
       "id": "ifored_r_series_apples",
-      "name": "Ifored R Series Apples",
+      "name": "IFORED R Series Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -13941,7 +13941,7 @@
     },
     {
       "id": "ifored_y_series_apples",
-      "name": "Ifored Y Series Apples",
+      "name": "IFORED Y Series Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -14003,7 +14003,7 @@
     },
     {
       "id": "italia_seeded_grapes",
-      "name": "Italia Seeded Grapes",
+      "name": "Seeded Italia Grapes",
       "category": "fruit",
       "family": "grapes",
       "codes": [
@@ -14096,7 +14096,7 @@
     },
     {
       "id": "jalapeno_pepper",
-      "name": "Jalapeno Pepper",
+      "name": "Jalapeño Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -14612,7 +14612,7 @@
     },
     {
       "id": "kale_curly",
-      "name": "Kale Curly",
+      "name": "Curly Kale",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -14643,7 +14643,7 @@
     },
     {
       "id": "kale_red",
-      "name": "Kale Red",
+      "name": "Red/Multicolor Kale",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -14903,7 +14903,7 @@
     },
     {
       "id": "kohlrabi_purple_red",
-      "name": "Kohlrabi Purple Red",
+      "name": "Purple/Red Kohlrabi",
       "category": "vegetable",
       "family": "cabbage",
       "codes": [
@@ -15058,7 +15058,7 @@
     },
     {
       "id": "laxtons_fortune_apples",
-      "name": "Laxtons Fortune Apples",
+      "name": "Laxton's Fortune Apples",
       "category": "fruit",
       "family": "green_apples",
       "codes": [
@@ -15119,7 +15119,7 @@
     },
     {
       "id": "leeks_baby",
-      "name": "Leeks Baby",
+      "name": "Baby Leeks",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -15150,7 +15150,7 @@
     },
     {
       "id": "leeks_baby_bunch",
-      "name": "Leeks Baby Bunch",
+      "name": "Baby Leeks (Bunch)",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -15181,7 +15181,7 @@
     },
     {
       "id": "leeks_regular_bunch",
-      "name": "Leeks Regular Bunch",
+      "name": "Regular Leeks (Bunch)",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -15380,7 +15380,7 @@
     },
     {
       "id": "lettuce_bibb_flat_round",
-      "name": "Lettuce Bibb Flat Round",
+      "name": "Bibb/Flat/Round Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15411,7 +15411,7 @@
     },
     {
       "id": "lettuce_boston_butter",
-      "name": "Lettuce Boston Butter",
+      "name": "Boston/Butter Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15442,7 +15442,7 @@
     },
     {
       "id": "lettuce_catalogna",
-      "name": "Lettuce Catalogna",
+      "name": "Catalogna Lettuce",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -15473,7 +15473,7 @@
     },
     {
       "id": "lettuce_hydroponic",
-      "name": "Lettuce Hydroponic",
+      "name": "Hydroponic Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15504,7 +15504,7 @@
     },
     {
       "id": "lettuce_lollo_bionda",
-      "name": "Lettuce Lollo Bionda",
+      "name": "Lollo Bionda Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15535,7 +15535,7 @@
     },
     {
       "id": "lettuce_lollo_rossa",
-      "name": "Lettuce Lollo Rossa",
+      "name": "Lollo Rossa Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15566,7 +15566,7 @@
     },
     {
       "id": "lettuce_mache",
-      "name": "Lettuce Mache",
+      "name": "Mache Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15597,7 +15597,7 @@
     },
     {
       "id": "lettuce_mignonette",
-      "name": "Lettuce Mignonette",
+      "name": "Mignonette Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15628,7 +15628,7 @@
     },
     {
       "id": "lettuce_mixed_small_leaf_salad",
-      "name": "Lettuce Mixed Small Leaf Salad",
+      "name": "Mixed Small-Leaf Salad Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15659,7 +15659,7 @@
     },
     {
       "id": "lettuce_oak_leaf_green",
-      "name": "Lettuce Oak Leaf Green",
+      "name": "Green Oak Leaf Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -15847,7 +15847,7 @@
     },
     {
       "id": "lolipop_apples",
-      "name": "Lolipop Apples",
+      "name": "LoliPop Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -15878,7 +15878,7 @@
     },
     {
       "id": "long_hot_pepper_green",
-      "name": "Long Hot Pepper Green",
+      "name": "Green Long Hot Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -16064,7 +16064,7 @@
     },
     {
       "id": "lucyglo_apples",
-      "name": "Lucyglo Apples",
+      "name": "LucyGlo Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -16095,7 +16095,7 @@
     },
     {
       "id": "lucyrose_apples",
-      "name": "Lucyrose Apples",
+      "name": "LucyRose Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -16312,7 +16312,7 @@
     },
     {
       "id": "mango_green",
-      "name": "Mango Green",
+      "name": "Green Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -16371,7 +16371,7 @@
     },
     {
       "id": "mango_kensington_pride",
-      "name": "Mango Kensington Pride",
+      "name": "Kensington Pride (Bowen) Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -16433,7 +16433,7 @@
     },
     {
       "id": "mango_ripe_ready_to_eat",
-      "name": "Mango Ripe Ready To Eat",
+      "name": "Ripe/Ready-to-Eat Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -16464,7 +16464,7 @@
     },
     {
       "id": "mango_yellow",
-      "name": "Mango Yellow",
+      "name": "Yellow Mango",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -16501,17 +16501,17 @@
         "tier": "EXACT",
         "household_pct": 20
       },
-      "card_note": "Mangos are coded by SKIN COLOR: Red=4051/4959 (wave 14), Yellow/Ataulfo=4312/4961, Green/Keitt=4311. Ataulfo is flatter, creamier, and less fibrous than red varieties.",
+      "card_note": "Mangoes are coded by SKIN COLOR: Red=4051/4959 (wave 14), Yellow/Ataulfo=4312/4961, Green/Keitt=4311. Ataulfo is flatter, creamier, and less fibrous than red varieties.",
       "most_common": {
         "plu": 4312,
-        "reason": "Small Ataulfo is the standard size — they're naturally smaller than red mangos"
+        "reason": "Small Ataulfo is the standard size. They're naturally smaller than red mangos"
       },
       "matrix_gaps": [],
       "is_most_common": true
     },
     {
       "id": "mangoes_red",
-      "name": "Mangoes Red",
+      "name": "Red Mangoes",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -16727,7 +16727,7 @@
     },
     {
       "id": "mcintosh_apples",
-      "name": "Mcintosh Apples",
+      "name": "McIntosh Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -16839,7 +16839,7 @@
     },
     {
       "id": "melon_glasshouse_netted",
-      "name": "Melon Glasshouse Netted",
+      "name": "Netted Glasshouse Melon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -16870,7 +16870,7 @@
     },
     {
       "id": "melon_ogen",
-      "name": "Melon Ogen",
+      "name": "Ogen Melon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -17239,7 +17239,7 @@
     },
     {
       "id": "minnewashta_zestar_apples",
-      "name": "Minnewashta Zestar Apples",
+      "name": "Minnewashta (Zestar) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -17293,7 +17293,7 @@
         "tier": "EXACT",
         "household_pct": 15
       },
-      "card_note": "4896. In the herb cluster between lemon grass (4894) and oregano (4897).",
+      "card_note": "4896. In the herb cluster between lemongrass (4894) and oregano (4897).",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
@@ -17362,7 +17362,7 @@
     },
     {
       "id": "mushrooms_cep",
-      "name": "Mushrooms Cep",
+      "name": "Cep Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17393,7 +17393,7 @@
     },
     {
       "id": "mushrooms_fairy_ring_champignon",
-      "name": "Mushrooms Fairy Ring Champignon",
+      "name": "Fairy Ring Champignon Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17424,7 +17424,7 @@
     },
     {
       "id": "mushrooms_grey_tricholoma",
-      "name": "Mushrooms Grey Tricholoma",
+      "name": "Gray Tricholoma Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17455,7 +17455,7 @@
     },
     {
       "id": "mushrooms_grisette",
-      "name": "Mushrooms Grisette",
+      "name": "Grisette Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17486,7 +17486,7 @@
     },
     {
       "id": "mushrooms_horn_of_plenty_black_trumpet",
-      "name": "Mushrooms Horn Of Plenty Black Trumpet",
+      "name": "Horn of Plenty (Black Trumpet) Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17517,7 +17517,7 @@
     },
     {
       "id": "mushrooms_pioppino",
-      "name": "Mushrooms Pioppino",
+      "name": "Pioppino Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -17738,7 +17738,7 @@
     },
     {
       "id": "nectarine_nectavigne_red_flesh",
-      "name": "Nectarine Nectavigne Red Flesh",
+      "name": "Nectavigne (Red Flesh) Nectarine",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -17769,7 +17769,7 @@
     },
     {
       "id": "nectarines_white",
-      "name": "Nectarines White",
+      "name": "White Nectarines",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -17800,7 +17800,7 @@
     },
     {
       "id": "nectarines_yellow",
-      "name": "Nectarines Yellow",
+      "name": "Yellow Nectarines",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -18061,7 +18061,7 @@
     },
     {
       "id": "nyame_white",
-      "name": "Nyame White",
+      "name": "White Ñame",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -18092,7 +18092,7 @@
     },
     {
       "id": "nyame_yellow",
-      "name": "Nyame Yellow",
+      "name": "Yellow Ñame",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -18154,7 +18154,7 @@
     },
     {
       "id": "okra_chinese",
-      "name": "Okra Chinese",
+      "name": "Chinese Okra",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -18185,7 +18185,7 @@
     },
     {
       "id": "okra_red",
-      "name": "Okra Red",
+      "name": "Red Okra",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -18216,7 +18216,7 @@
     },
     {
       "id": "okra_regular_green",
-      "name": "Okra Regular Green",
+      "name": "Regular Green Okra",
       "category": "vegetable",
       "family": "peas_beans",
       "codes": [
@@ -18247,7 +18247,7 @@
     },
     {
       "id": "ong_choy",
-      "name": "Ong Choy",
+      "name": "Ong Choy (Water Spinach)",
       "category": "vegetable",
       "family": "asian_vegetables",
       "codes": [
@@ -18278,7 +18278,7 @@
     },
     {
       "id": "onions_bulb",
-      "name": "Onions Bulb",
+      "name": "Bulb Onions",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -18309,7 +18309,7 @@
     },
     {
       "id": "onions_pickling_white",
-      "name": "Onions Pickling White",
+      "name": "White Pickling Onions",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -18340,7 +18340,7 @@
     },
     {
       "id": "onions_sweet_red_italian_flat",
-      "name": "Onions Sweet Red Italian Flat",
+      "name": "Flat Sweet Red Italian Onions",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -18604,7 +18604,7 @@
     },
     {
       "id": "oranges_maltaise",
-      "name": "Oranges Maltaise",
+      "name": "Maltaise Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18635,7 +18635,7 @@
     },
     {
       "id": "oranges_navelate",
-      "name": "Oranges Navelate",
+      "name": "Navelate Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18666,7 +18666,7 @@
     },
     {
       "id": "oranges_navelina",
-      "name": "Oranges Navelina",
+      "name": "Navelina Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18697,7 +18697,7 @@
     },
     {
       "id": "oranges_pera",
-      "name": "Oranges Pera",
+      "name": "Pera Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18728,7 +18728,7 @@
     },
     {
       "id": "oranges_salustiana",
-      "name": "Oranges Salustiana",
+      "name": "Salustiana Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18759,7 +18759,7 @@
     },
     {
       "id": "oranges_shamouti",
-      "name": "Oranges Shamouti",
+      "name": "Shamouti Oranges",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18790,7 +18790,7 @@
     },
     {
       "id": "oranges_untreated",
-      "name": "Oranges Untreated",
+      "name": "Oranges (Untreated)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18852,7 +18852,7 @@
     },
     {
       "id": "oro_blanco_sweetie_grapefruit",
-      "name": "Oro Blanco Sweetie Grapefruit",
+      "name": "Oroblanco/Sweetie Grapefruit",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -18914,7 +18914,7 @@
     },
     {
       "id": "oyster_plant_salsify",
-      "name": "Oyster Plant Salsify",
+      "name": "Oyster Plant/Salsify",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -19052,7 +19052,7 @@
     },
     {
       "id": "papaya_cooking_mexican",
-      "name": "Papaya Cooking Mexican",
+      "name": "Cooking/Mexican Papaya",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19083,7 +19083,7 @@
     },
     {
       "id": "papaya_regular",
-      "name": "Papaya Regular",
+      "name": "Regular Papaya",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19127,7 +19127,7 @@
     },
     {
       "id": "papaya_solo_sunrise",
-      "name": "Papaya Solo Sunrise",
+      "name": "Solo Sunrise Papaya",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19158,7 +19158,7 @@
     },
     {
       "id": "parsley_curly",
-      "name": "Parsley Curly",
+      "name": "Curly Parsley",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -19188,7 +19188,7 @@
     },
     {
       "id": "parsley_italian_flat_leaf",
-      "name": "Parsley Italian Flat Leaf",
+      "name": "Italian Flat Leaf Parsley",
       "category": "vegetable",
       "family": "herbs",
       "codes": [
@@ -19280,7 +19280,7 @@
     },
     {
       "id": "pasilla_pepper_green",
-      "name": "Pasilla Pepper Green",
+      "name": "Green Pasilla Pepper",
       "category": "vegetable",
       "family": "peppers",
       "codes": [
@@ -19404,7 +19404,7 @@
     },
     {
       "id": "passion_fruit_curuba",
-      "name": "Passion Fruit Curuba",
+      "name": "Curuba/Banana Passion Fruit",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19435,7 +19435,7 @@
     },
     {
       "id": "passion_fruit_granadilla",
-      "name": "Passion Fruit Granadilla",
+      "name": "Passion Fruit (Granadilla)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19466,7 +19466,7 @@
     },
     {
       "id": "passion_fruit_granadilla_yellow",
-      "name": "Passion Fruit Granadilla Yellow",
+      "name": "Yellow Granadilla Passion Fruit (Maracuja)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19497,7 +19497,7 @@
     },
     {
       "id": "passion_fruit_purple",
-      "name": "Passion Fruit Purple",
+      "name": "Purple Passion Fruit",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -19604,7 +19604,7 @@
     },
     {
       "id": "peaches_flat_yellow_flesh",
-      "name": "Peaches Flat Yellow Flesh",
+      "name": "Flat Yellow Flesh Peaches",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -19635,7 +19635,7 @@
     },
     {
       "id": "peaches_indian",
-      "name": "Peaches Indian",
+      "name": "Indian Peaches",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -19666,7 +19666,7 @@
     },
     {
       "id": "peaches_red_flesh",
-      "name": "Peaches Red Flesh",
+      "name": "Red Flesh Peaches",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -19697,7 +19697,7 @@
     },
     {
       "id": "peaches_white_flesh",
-      "name": "Peaches White Flesh",
+      "name": "White Flesh Peaches",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -19770,7 +19770,7 @@
     },
     {
       "id": "peaches_yellow_flesh",
-      "name": "Peaches Yellow Flesh",
+      "name": "Yellow Flesh Peaches",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -19948,7 +19948,7 @@
     },
     {
       "id": "pears_alexander_lucas",
-      "name": "Pears Alexander Lucas",
+      "name": "Alexander Lucas Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -19979,7 +19979,7 @@
     },
     {
       "id": "pears_angelys",
-      "name": "Pears Angelys",
+      "name": "Angelys Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20010,7 +20010,7 @@
     },
     {
       "id": "pears_carmen",
-      "name": "Pears Carmen",
+      "name": "Carmen Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20041,7 +20041,7 @@
     },
     {
       "id": "pears_general_leclerc",
-      "name": "Pears General Leclerc",
+      "name": "General Leclerc Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20072,7 +20072,7 @@
     },
     {
       "id": "pears_guyot",
-      "name": "Pears Guyot",
+      "name": "Guyot Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20103,7 +20103,7 @@
     },
     {
       "id": "pears_harovin_sundown",
-      "name": "Pears Harovin Sundown",
+      "name": "Harovin Sundown Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20134,7 +20134,7 @@
     },
     {
       "id": "pears_josephine",
-      "name": "Pears Josephine",
+      "name": "Josephine Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20165,7 +20165,7 @@
     },
     {
       "id": "pears_louise_bonne",
-      "name": "Pears Louise Bonne",
+      "name": "Louise Bonne Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20196,7 +20196,7 @@
     },
     {
       "id": "pears_passe_crassane",
-      "name": "Pears Passe Crassane",
+      "name": "Passe Crassane Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20241,7 +20241,7 @@
     },
     {
       "id": "pears_rocha",
-      "name": "Pears Rocha",
+      "name": "Rocha Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20272,7 +20272,7 @@
     },
     {
       "id": "pears_rosemarie",
-      "name": "Pears Rosemarie",
+      "name": "Rosemarie Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20303,7 +20303,7 @@
     },
     {
       "id": "pears_santa_maria",
-      "name": "Pears Santa Maria",
+      "name": "Santa Maria Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20334,7 +20334,7 @@
     },
     {
       "id": "pears_starkrimson",
-      "name": "Pears Starkrimson",
+      "name": "Starkrimson Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20365,7 +20365,7 @@
     },
     {
       "id": "pears_taylors_gold",
-      "name": "Pears Taylors Gold",
+      "name": "Taylor's Gold Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20396,7 +20396,7 @@
     },
     {
       "id": "pears_triumph_de_vienne",
-      "name": "Pears Triumph De Vienne",
+      "name": "Triumph de Vienne Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -20551,7 +20551,7 @@
     },
     {
       "id": "persimmon_american_regular",
-      "name": "Persimmon American Regular",
+      "name": "Regular American Persimmon",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -20612,7 +20612,7 @@
     },
     {
       "id": "piel_de_sapo_melon",
-      "name": "Piel De Sapo Melon",
+      "name": "Piel de Sapo Melon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -20735,7 +20735,7 @@
     },
     {
       "id": "pineapple_dried",
-      "name": "Pineapple Dried",
+      "name": "Dried Pineapple",
       "category": "fruit",
       "family": "more_fruit",
       "codes": [
@@ -20766,7 +20766,7 @@
     },
     {
       "id": "pineapple_jet_fresh",
-      "name": "Pineapple Jet Fresh",
+      "name": "Jet Fresh Pineapple",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -20797,7 +20797,7 @@
     },
     {
       "id": "pineapple_mini",
-      "name": "Pineapple Mini",
+      "name": "Mini Pineapple",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -20828,7 +20828,7 @@
     },
     {
       "id": "pineapple_perola",
-      "name": "Pineapple Perola",
+      "name": "Perola Pineapple",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -20906,7 +20906,7 @@
     },
     {
       "id": "pink_porcelain_doll_pumpkin",
-      "name": "Pink Porcelain Doll Pumpkin",
+      "name": "Pink (Porcelain Doll) Pumpkin",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -21044,7 +21044,7 @@
     },
     {
       "id": "pitahaya_red_flesh_fire_dragons",
-      "name": "Pitahaya Red Flesh Fire Dragons",
+      "name": "Red Flesh Pitahaya (Fire Dragons)",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -21075,7 +21075,7 @@
     },
     {
       "id": "pitahaya_yellow",
-      "name": "Pitahaya Yellow",
+      "name": "Yellow Pitahaya",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -21167,7 +21167,7 @@
     },
     {
       "id": "plumcot",
-      "name": "Plumcot",
+      "name": "Plumcot (Pluot)",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21198,7 +21198,7 @@
     },
     {
       "id": "plums_black",
-      "name": "Plums Black",
+      "name": "Black Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21245,7 +21245,7 @@
     },
     {
       "id": "plums_green",
-      "name": "Plums Green",
+      "name": "Green Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21290,7 +21290,7 @@
     },
     {
       "id": "plums_purple",
-      "name": "Plums Purple",
+      "name": "Purple Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21335,7 +21335,7 @@
     },
     {
       "id": "plums_red",
-      "name": "Plums Red",
+      "name": "Red Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21379,7 +21379,7 @@
     },
     {
       "id": "plums_tree_ripened",
-      "name": "Plums Tree Ripened",
+      "name": "Tree Ripened Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21424,7 +21424,7 @@
     },
     {
       "id": "plums_yellow",
-      "name": "Plums Yellow",
+      "name": "Yellow Plums",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -21619,7 +21619,7 @@
     },
     {
       "id": "potato_creamer_red",
-      "name": "Potato Creamer Red",
+      "name": "Red Creamer Potato",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -21650,7 +21650,7 @@
     },
     {
       "id": "potato_creamer_white",
-      "name": "Potato Creamer White",
+      "name": "White Creamer Potato",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -21681,7 +21681,7 @@
     },
     {
       "id": "potato_long_white",
-      "name": "Potato Long White",
+      "name": "Long White Potato",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -21712,7 +21712,7 @@
     },
     {
       "id": "potato_purple",
-      "name": "Potato Purple",
+      "name": "Purple Potato",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -21867,7 +21867,7 @@
     },
     {
       "id": "pummelo_red",
-      "name": "Pummelo Red",
+      "name": "Red Pummelo",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -21898,7 +21898,7 @@
     },
     {
       "id": "pummelo_white",
-      "name": "Pummelo White",
+      "name": "White Pummelo",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -21960,7 +21960,7 @@
     },
     {
       "id": "pumpkin_decorative_painted",
-      "name": "Pumpkin Decorative Painted",
+      "name": "Decorative Painted Pumpkin",
       "category": "vegetable",
       "family": "pumpkins",
       "codes": [
@@ -21991,7 +21991,7 @@
     },
     {
       "id": "pumpkin_jumbo",
-      "name": "Pumpkin Jumbo",
+      "name": "Jumbo Pumpkin",
       "category": "vegetable",
       "family": "pumpkins",
       "codes": [
@@ -22022,7 +22022,7 @@
     },
     {
       "id": "pumpkin_mini",
-      "name": "Pumpkin Mini",
+      "name": "Mini Pumpkin",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -22053,7 +22053,7 @@
     },
     {
       "id": "pumpkin_pie",
-      "name": "Pumpkin Pie",
+      "name": "Pie Pumpkin",
       "category": "vegetable",
       "family": "pumpkins",
       "codes": [
@@ -22115,7 +22115,7 @@
     },
     {
       "id": "pumpkin_white",
-      "name": "Pumpkin White",
+      "name": "White Pumpkin",
       "category": "vegetable",
       "family": "pumpkins",
       "codes": [
@@ -22146,7 +22146,7 @@
     },
     {
       "id": "pumpkin_white_mini",
-      "name": "Pumpkin White Mini",
+      "name": "Mini White Pumpkin",
       "category": "vegetable",
       "family": "pumpkins",
       "codes": [
@@ -22253,7 +22253,7 @@
     },
     {
       "id": "qtee_pears",
-      "name": "Qtee Pears",
+      "name": "QTee Pears",
       "category": "fruit",
       "family": "pears",
       "codes": [
@@ -22439,7 +22439,7 @@
     },
     {
       "id": "radicchio_castelfranco",
-      "name": "Radicchio Castelfranco",
+      "name": "Castelfranco Radicchio",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -22470,7 +22470,7 @@
     },
     {
       "id": "radicchio_treviso",
-      "name": "Radicchio Treviso",
+      "name": "Treviso Radicchio",
       "category": "vegetable",
       "family": "greens",
       "codes": [
@@ -22501,7 +22501,7 @@
     },
     {
       "id": "radish_black",
-      "name": "Radish Black",
+      "name": "Black Radish",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22532,7 +22532,7 @@
     },
     {
       "id": "radish_bunched_white",
-      "name": "Radish Bunched White",
+      "name": "Bunched White Radish",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22563,7 +22563,7 @@
     },
     {
       "id": "radish_italian_red",
-      "name": "Radish Italian Red",
+      "name": "Italian Red Radish",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22594,7 +22594,7 @@
     },
     {
       "id": "radish_red",
-      "name": "Radish Red",
+      "name": "Red Radish",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22625,7 +22625,7 @@
     },
     {
       "id": "radish_white_icicle",
-      "name": "Radish White Icicle",
+      "name": "White/Icicle Radish",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22656,7 +22656,7 @@
     },
     {
       "id": "radishes_red_bunch",
-      "name": "Radishes Red Bunch",
+      "name": "Red Radishes (Bunch)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -22748,7 +22748,7 @@
     },
     {
       "id": "rave_first_kiss_apples",
-      "name": "Rave First Kiss Apples",
+      "name": "Rave/First Kiss Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -22912,14 +22912,14 @@
       "card_note": "Field grown (4088) is in the veggie block right after Roma tomato (4087). Greenhouse (4688) is in the 46xx zone. Your store may use one or the other, check what's stocked.",
       "most_common": {
         "plu": 4088,
-        "reason": "Varies by store — field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
+        "reason": "Varies by store: field grown (4088) is traditional, greenhouse (4688) growing. Check your store's source."
       },
       "matrix_gaps": [],
       "is_most_common": true
     },
     {
       "id": "red_black_cherries",
-      "name": "Red Black Cherries",
+      "name": "Red/Black Cherries",
       "category": "fruit",
       "family": "stone_fruit",
       "codes": [
@@ -23321,7 +23321,7 @@
     },
     {
       "id": "red_onions_bunch",
-      "name": "Red Onions Bunch",
+      "name": "Red Onions (Bunch)",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -23475,7 +23475,7 @@
     },
     {
       "id": "redfield_apples",
-      "name": "Redfield Apples",
+      "name": "Redfield (Mahana Red) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -23506,7 +23506,7 @@
     },
     {
       "id": "redpop_apples",
-      "name": "Redpop Apples",
+      "name": "RedPop Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -23582,7 +23582,7 @@
     },
     {
       "id": "reine_des_reinettes_apples",
-      "name": "Reine Des Reinettes Apples",
+      "name": "Reine des Reinettes Apples",
       "category": "fruit",
       "family": "heritage_apples",
       "codes": [
@@ -23627,7 +23627,7 @@
     },
     {
       "id": "rhubarb_bunch",
-      "name": "Rhubarb Bunch",
+      "name": "Rhubarb (Bunch)",
       "category": "vegetable",
       "family": "more_vegetables",
       "codes": [
@@ -23658,7 +23658,7 @@
     },
     {
       "id": "rhubarb_regular",
-      "name": "Rhubarb Regular",
+      "name": "Regular Rhubarb",
       "category": "vegetable",
       "family": "stalk_vegetables",
       "codes": [
@@ -23781,7 +23781,7 @@
     },
     {
       "id": "roma_tomatoes_on_the_vine",
-      "name": "Roma Tomatoes On The Vine",
+      "name": "Roma Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -23812,7 +23812,7 @@
     },
     {
       "id": "roma_tomatoes_on_vine",
-      "name": "Roma Tomatoes On Vine",
+      "name": "Cocktail Roma Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -23873,7 +23873,7 @@
     },
     {
       "id": "romaine_lettuce_red",
-      "name": "Romaine Lettuce Red",
+      "name": "Red Romaine Lettuce",
       "category": "vegetable",
       "family": "lettuce",
       "codes": [
@@ -24016,7 +24016,7 @@
     },
     {
       "id": "round_zucchini_squash",
-      "name": "Round Zucchini Squash",
+      "name": "Round Zucchini/Courgette Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -24154,7 +24154,7 @@
     },
     {
       "id": "rubyfrost_apple",
-      "name": "Rubyfrost Apple",
+      "name": "RubyFrost Apple",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -24357,7 +24357,7 @@
     },
     {
       "id": "saffron_milk_cap_mushroom",
-      "name": "Saffron Milk Cap Mushroom",
+      "name": "Saffron Milk-Cap Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -24481,7 +24481,7 @@
     },
     {
       "id": "sapodillo",
-      "name": "Sapodillo",
+      "name": "Sapodilla",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -24512,7 +24512,7 @@
     },
     {
       "id": "sapote_black",
-      "name": "Sapote Black",
+      "name": "Black Sapote",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -24543,7 +24543,7 @@
     },
     {
       "id": "sapote_white",
-      "name": "Sapote White",
+      "name": "White Sapote",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -24698,7 +24698,7 @@
     },
     {
       "id": "satsuma_tangerine_clauselina",
-      "name": "Satsuma Tangerine Clauselina",
+      "name": "Clauselina Satsuma Tangerine",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -24822,7 +24822,7 @@
     },
     {
       "id": "sciearly_apples",
-      "name": "Sciearly Apples",
+      "name": "Sciearly (Pacific Beauty) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -24867,7 +24867,7 @@
     },
     {
       "id": "scilate_apples",
-      "name": "Scilate Apples",
+      "name": "Scilate (ENVY) Apples (Large)",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -24898,7 +24898,7 @@
     },
     {
       "id": "scired_apples",
-      "name": "Scired Apples",
+      "name": "Scired (Pacific Queen) Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -25144,7 +25144,7 @@
     },
     {
       "id": "sheep_polypore_mushroom",
-      "name": "Sheep Polypore Mushroom",
+      "name": "Sheep Polypore Mushrooms",
       "category": "vegetable",
       "family": "mushrooms",
       "codes": [
@@ -25206,7 +25206,7 @@
     },
     {
       "id": "shinano_gold_yello_apples",
-      "name": "Shinano Gold Yello Apples",
+      "name": "Shinano Gold (yello) Apples",
       "category": "fruit",
       "family": "green_apples",
       "codes": [
@@ -25299,7 +25299,7 @@
     },
     {
       "id": "snapdragon_apple",
-      "name": "Snapdragon Apple",
+      "name": "SnapDragon Apple",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -25672,7 +25672,7 @@
     },
     {
       "id": "spinach_bunch",
-      "name": "Spinach Bunch",
+      "name": "Spinach (Bunch)",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -25764,7 +25764,7 @@
     },
     {
       "id": "squash_acorn_baby",
-      "name": "Squash Acorn Baby",
+      "name": "Baby Acorn Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25795,7 +25795,7 @@
     },
     {
       "id": "squash_acorn_golden",
-      "name": "Squash Acorn Golden",
+      "name": "Golden Acorn Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25826,7 +25826,7 @@
     },
     {
       "id": "squash_acorn_swan_white_table_queen",
-      "name": "Squash Acorn Swan White Table Queen",
+      "name": "Swan White Table Queen Acorn Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25857,7 +25857,7 @@
     },
     {
       "id": "squash_australian_blue",
-      "name": "Squash Australian Blue",
+      "name": "Australian Blue Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25888,7 +25888,7 @@
     },
     {
       "id": "squash_cucuzza",
-      "name": "Squash Cucuzza",
+      "name": "Cucuzza Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25919,7 +25919,7 @@
     },
     {
       "id": "squash_opo",
-      "name": "Squash Opo",
+      "name": "Opo Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -25950,7 +25950,7 @@
     },
     {
       "id": "st_edmunds_pippin_apples",
-      "name": "St Edmunds Pippin Apples",
+      "name": "St. Edmund's Pippin Apples",
       "category": "fruit",
       "family": "heritage_apples",
       "codes": [
@@ -26119,7 +26119,7 @@
     },
     {
       "id": "strawberries_bulk",
-      "name": "Strawberries Bulk",
+      "name": "Strawberries (Bulk)",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26199,7 +26199,7 @@
     },
     {
       "id": "strawberries_long_stemmed",
-      "name": "Strawberries Long Stemmed",
+      "name": "Long-Stemmed Strawberries",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26230,7 +26230,7 @@
     },
     {
       "id": "strawberries_pint",
-      "name": "Strawberries Pint",
+      "name": "Strawberries (Pint)",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26279,7 +26279,7 @@
     },
     {
       "id": "strawberries_quart",
-      "name": "Strawberries Quart",
+      "name": "Strawberries (Quart)",
       "category": "fruit",
       "family": "berries",
       "codes": [
@@ -26638,7 +26638,7 @@
     },
     {
       "id": "summer_squash_patty_pan",
-      "name": "Summer Squash Patty Pan",
+      "name": "Summer Squash (Patty Pan)",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -26731,7 +26731,7 @@
     },
     {
       "id": "sunchokes",
-      "name": "Sunchokes",
+      "name": "Sunchokes (Jerusalem Artichokes)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -27024,7 +27024,7 @@
     },
     {
       "id": "sweet_potatoes_golden",
-      "name": "Sweet Potatoes Golden",
+      "name": "Golden Sweet Potatoes",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -27054,7 +27054,7 @@
     },
     {
       "id": "sweet_potatoes_white",
-      "name": "Sweet Potatoes White",
+      "name": "White Sweet Potatoes",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -27084,7 +27084,7 @@
     },
     {
       "id": "sweet_potatoes_yam",
-      "name": "Sweet Potatoes Yam",
+      "name": "Sweet Potatoes (Yam)",
       "category": "vegetable",
       "family": "potatoes",
       "codes": [
@@ -27193,7 +27193,7 @@
     },
     {
       "id": "sweetango_apples",
-      "name": "Sweetango Apples",
+      "name": "SweeTango Apples",
       "category": "fruit",
       "family": "red_apples",
       "codes": [
@@ -27286,7 +27286,7 @@
     },
     {
       "id": "swiss_chard_green",
-      "name": "Swiss Chard Green",
+      "name": "Green Swiss Chard",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -27317,7 +27317,7 @@
     },
     {
       "id": "swiss_chard_red",
-      "name": "Swiss Chard Red",
+      "name": "Red Swiss Chard",
       "category": "vegetable",
       "family": "leafy_greens",
       "codes": [
@@ -27424,7 +27424,7 @@
     },
     {
       "id": "tamarillo_golden",
-      "name": "Tamarillo Golden",
+      "name": "Golden Tamarillo",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -27455,7 +27455,7 @@
     },
     {
       "id": "tamarillo_red",
-      "name": "Tamarillo Red",
+      "name": "Red Tamarillo",
       "category": "fruit",
       "family": "tropical",
       "codes": [
@@ -27548,7 +27548,7 @@
     },
     {
       "id": "tangelo_jamaican_ugli",
-      "name": "Tangelo Jamaican Ugli",
+      "name": "Jamaican Tangelo (Ugli)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -27609,7 +27609,7 @@
     },
     {
       "id": "tangerines_honey_murcott",
-      "name": "Tangerines Honey Murcott",
+      "name": "Honey/Murcott Tangerines",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -27668,7 +27668,7 @@
     },
     {
       "id": "tangerines_imperial",
-      "name": "Tangerines Imperial",
+      "name": "Imperial Tangerines",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -27727,7 +27727,7 @@
     },
     {
       "id": "tangerines_mandarins_tango_seedless",
-      "name": "Tangerines Mandarins Tango Seedless",
+      "name": "Tango Seedless Tangerines (Tangold)",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -27758,7 +27758,7 @@
     },
     {
       "id": "tangerines_nova",
-      "name": "Tangerines Nova",
+      "name": "Nova Tangerines",
       "category": "fruit",
       "family": "citrus",
       "codes": [
@@ -27865,7 +27865,7 @@
     },
     {
       "id": "tasti_lee_tomatoes",
-      "name": "Tasti Lee Tomatoes",
+      "name": "Tasti-Lee Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -27896,7 +27896,7 @@
     },
     {
       "id": "teardrop_pear_tomatoes_yellow",
-      "name": "Teardrop Pear Tomatoes Yellow",
+      "name": "Yellow Teardrop/Pear Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28157,7 +28157,7 @@
     },
     {
       "id": "tomatoes_cherry_red_on_vine",
-      "name": "Tomatoes Cherry Red On Vine",
+      "name": "Red Cherry Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28188,7 +28188,7 @@
     },
     {
       "id": "tomatoes_cherry_yellow_on_vine",
-      "name": "Tomatoes Cherry Yellow On Vine",
+      "name": "Yellow Cherry Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28219,7 +28219,7 @@
     },
     {
       "id": "tomatoes_cocktail_red",
-      "name": "Tomatoes Cocktail Red",
+      "name": "Red Cocktail Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28250,7 +28250,7 @@
     },
     {
       "id": "tomatoes_greenhouse",
-      "name": "Tomatoes Greenhouse",
+      "name": "Greenhouse Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28294,7 +28294,7 @@
     },
     {
       "id": "tomatoes_native_home_grown",
-      "name": "Tomatoes Native Home Grown",
+      "name": "Native/Home Grown Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28325,7 +28325,7 @@
     },
     {
       "id": "tomatoes_on_the_vine",
-      "name": "Tomatoes On The Vine",
+      "name": "Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28355,7 +28355,7 @@
     },
     {
       "id": "tomatoes_regular",
-      "name": "Tomatoes Regular",
+      "name": "Regular Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28400,7 +28400,7 @@
     },
     {
       "id": "tomatoes_regular_orange_on_vine",
-      "name": "Tomatoes Regular Orange On Vine",
+      "name": "Orange Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28431,7 +28431,7 @@
     },
     {
       "id": "tomatoes_regular_yellow_on_vine",
-      "name": "Tomatoes Regular Yellow On Vine",
+      "name": "Yellow Tomatoes on the Vine",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28462,7 +28462,7 @@
     },
     {
       "id": "tomatoes_roma_yellow",
-      "name": "Tomatoes Roma Yellow",
+      "name": "Yellow Roma Tomatoes",
       "category": "vegetable",
       "family": "tomatoes",
       "codes": [
@@ -28586,7 +28586,7 @@
     },
     {
       "id": "turnip_baby",
-      "name": "Turnip Baby",
+      "name": "Baby Turnip",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -28617,7 +28617,7 @@
     },
     {
       "id": "turnip_bunch_banded",
-      "name": "Turnip Bunch Banded",
+      "name": "Turnip (Bunch/Banded)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -28679,7 +28679,7 @@
     },
     {
       "id": "turnip_white",
-      "name": "Turnip White",
+      "name": "White Turnip",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -28710,7 +28710,7 @@
     },
     {
       "id": "turnip_yellow",
-      "name": "Turnip Yellow",
+      "name": "Yellow Turnip",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -28772,7 +28772,7 @@
     },
     {
       "id": "tuscan_kale",
-      "name": "Tuscan Kale",
+      "name": "Tuscan Kale (Lacinato Kale)",
       "category": "vegetable",
       "family": "cooking_greens",
       "codes": [
@@ -29126,7 +29126,7 @@
     },
     {
       "id": "watermelon_orange_seedless",
-      "name": "Watermelon Orange Seedless",
+      "name": "Orange Seedless Watermelon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -29171,7 +29171,7 @@
     },
     {
       "id": "watermelon_red",
-      "name": "Watermelon Red",
+      "name": "Red Watermelon",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -29218,7 +29218,7 @@
     },
     {
       "id": "watermelon_red_small_seeds",
-      "name": "Watermelon Red Small Seeds",
+      "name": "Red Watermelon (Small Seeds)",
       "category": "fruit",
       "family": "melons",
       "codes": [
@@ -29885,7 +29885,7 @@
     },
     {
       "id": "yellow_brown_onions_bunch",
-      "name": "Yellow Brown Onions Bunch",
+      "name": "Yellow/Brown Onions (Bunch)",
       "category": "vegetable",
       "family": "onions",
       "codes": [
@@ -30056,7 +30056,7 @@
     },
     {
       "id": "yellow_squash_crookneck",
-      "name": "Yellow Squash Crookneck",
+      "name": "Crookneck Yellow Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -30086,7 +30086,7 @@
     },
     {
       "id": "yellow_squash_straightneck",
-      "name": "Yellow Squash Straightneck",
+      "name": "Straightneck Yellow Squash",
       "category": "vegetable",
       "family": "squash",
       "codes": [
@@ -30254,7 +30254,7 @@
     },
     {
       "id": "yuca_root_cassava",
-      "name": "Yuca Root Cassava",
+      "name": "Yuca Root (Cassava)",
       "category": "vegetable",
       "family": "root_vegetables",
       "codes": [
@@ -30370,7 +30370,7 @@
         "tier": "EXACT",
         "household_pct": 46
       },
-      "card_note": "No size split. Yellow zucchini/gold bar=4086. Regular zucchini (4067) is in the veggie block between green pepper (4065) and green onion (4068).",
+      "card_note": "No size split. Yellow zucchini/Gold Bar=4086. Regular zucchini (4067) is in the veggie block between green pepper (4065) and green onion (4068).",
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true

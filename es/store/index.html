@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan de Tienda de PLUed - un código de tienda desbloquea a cada cajero</title>
+  <meta name="description" content="Compra un año de PLUed para tu tienda. Dale a tus cajeros un solo código de tienda y PLUed queda desbloqueado en cada teléfono. Los códigos propios de tu tienda, tu logotipo, una página privada de estado.">
+  <link rel="canonical" href="https://plued.app/es/store/">
+  <link rel="alternate" hreflang="en" href="https://plued.app/store/">
+  <link rel="alternate" hreflang="es" href="https://plued.app/es/store/">
+  <link rel="alternate" hreflang="x-default" href="https://plued.app/store/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PLUed">
+  <meta property="og:locale" content="es_US">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:title" content="Plan de Tienda de PLUed">
+  <meta property="og:description" content="Un código de tienda desbloquea PLUed para cada cajero de tu tienda. Tus códigos, tu logotipo, mantenidos por nosotros.">
+  <meta property="og:url" content="https://plued.app/es/store/">
+  <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=595e2380">
+  <link rel="stylesheet" href="/assets/store.css?v=722d866e">
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="/assets/lang.js?v=818046fa"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header"><div class="shell nav-wrap">
+    <a class="wordmark" href="/es/" aria-label="Inicio de PLUed"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
+    <nav class="main-nav" aria-label="Navegación principal"><a href="/es/guide/">Guía</a><a href="/es/trainers/">Para capacitadores</a><a aria-current="page" href="/es/store/">Para tiendas</a><a href="/demo/">Prueba la demo</a><a href="/es/get/">Descarga la app</a><a href="/es/support/">Soporte</a><span class="lang-pill" role="group" aria-label="Idioma"><a href="/store/" lang="en" hreflang="en" aria-label="English" data-lang-switch="en">EN</a><a href="/es/store/" lang="es" hreflang="es" aria-label="Español" aria-current="true" data-lang-switch="es">ES</a></span></nav>
+  </div></header>
+
+  <main id="main" class="shell store-page">
+
+    <!-- 1. Compra: portada, planes, formulario. Se oculta cuando se abre el pago. -->
+    <div id="buy">
+      <section class="store-hero">
+        <div>
+          <span class="eyebrow">Plan de Tienda</span>
+          <h1>Todos tus cajeros con tus códigos de frutas y verduras. Un código de tienda.</h1>
+          <p class="lede">Compra un año para tu tienda, dale a tus cajeros un solo código de tienda y PLUed queda desbloqueado en cada teléfono. Los códigos de tu tienda siempre están al día porque nosotros los mantenemos.</p>
+          <p class="safe" id="upgrade-note" hidden></p>
+        </div>
+        <div class="tile-mock" aria-hidden="true">
+          <div class="tile-mock-head"><div class="tile-mock-logo">H</div><div><strong>Hometown Foods</strong><span>Mi Tienda, en la app de cada cajero</span></div></div>
+          <div class="tile-mock-word"><b>HOMETOWN7KM4QX9P</b><span>tu código de tienda</span></div>
+          <p class="tile-mock-foot">Tus códigos, tu logotipo, tus puestos. Un solo mosaico.</p>
+        </div>
+      </section>
+
+      <section class="store-how" aria-labelledby="how-heading">
+        <h2 id="how-heading">Cómo funciona un Plan de Tienda</h2>
+        <div class="steps-wrap">
+          <ol class="steps-flow" role="list" data-steps="3">
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">1</span><h3 class="step-title"><a class="step-link" href="#tiers">Compra un año</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Elige tus puestos y paga con tarjeta. Tu código de tienda aparece en pantalla y llega por correo.</p></li>
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">2</span><h3 class="step-title"><a class="step-link" href="#after-pay">Comparte el código de tienda</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Imprime el cartel o pon la nota en la sala de descanso. Un solo código para toda la tienda.</p></li>
+            <li class="step-card is-link"><span class="step-num" aria-hidden="true">3</span><h3 class="step-title"><a class="step-link" href="#after-pay">Los cajeros desbloquean</a><span class="step-go" aria-hidden="true">&rarr;</span></h3><p class="step-text">Cada cajero instala PLUed, toca "¿Tu tienda te dio un código?" y lo escribe.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section aria-labelledby="pick-heading">
+        <h2 id="pick-heading" class="visually-hidden">Elige un plan</h2>
+        <div class="tiers" role="radiogroup" aria-label="Elige un plan" id="tiers">
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="10">
+            <span class="tier-seats">Hasta 10 puestos</span>
+            <span class="tier-price">$49<small>/año</small></span>
+            <ul>
+              <li>Los códigos de tu tienda, revisados y mantenidos por nosotros</li>
+              <li>Tu logotipo en la app de cada cajero</li>
+              <li>Gráficos nuevos de frutas y verduras cuando los pidas</li>
+              <li>Una página privada de estado</li>
+              <li>Puestos para el año del plan</li>
+            </ul>
+            <span class="tier-pick">Elegir 10 puestos</span>
+          </button>
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="25">
+            <span class="tier-seats">Hasta 25 puestos</span>
+            <span class="tier-price">$99<small>/año</small></span>
+            <ul>
+              <li>Los códigos de tu tienda, revisados y mantenidos por nosotros</li>
+              <li>Tu logotipo en la app de cada cajero</li>
+              <li>Gráficos nuevos de frutas y verduras cuando los pidas</li>
+              <li>Una página privada de estado</li>
+              <li>Puestos para el año del plan</li>
+            </ul>
+            <span class="tier-pick">Elegir 25 puestos</span>
+          </button>
+          <button type="button" class="tier" role="radio" aria-checked="true" data-tier="50">
+            <span class="tier-flag">La mayoría de las tiendas</span>
+            <span class="tier-seats">Hasta 50 puestos</span>
+            <span class="tier-price">$179<small>/año</small></span>
+            <ul>
+              <li>Los códigos de tu tienda, revisados y mantenidos por nosotros</li>
+              <li>Tu logotipo en la app de cada cajero</li>
+              <li>Gráficos nuevos de frutas y verduras cuando los pidas</li>
+              <li>Una página privada de estado</li>
+              <li>Puestos para el año del plan</li>
+            </ul>
+            <span class="tier-pick">Elegir 50 puestos</span>
+          </button>
+          <button type="button" class="tier" role="radio" aria-checked="false" data-tier="100">
+            <span class="tier-seats">Hasta 100 puestos</span>
+            <span class="tier-price">$299<small>/año</small></span>
+            <ul>
+              <li>Los códigos de tu tienda, revisados y mantenidos por nosotros</li>
+              <li>Tu logotipo en la app de cada cajero</li>
+              <li>Gráficos nuevos de frutas y verduras cuando los pidas</li>
+              <li>Una página privada de estado</li>
+              <li>Puestos para el año del plan</li>
+            </ul>
+            <span class="tier-pick">Elegir 100 puestos</span>
+          </button>
+        </div>
+        <p class="tier-note">Un puesto es el teléfono de un cajero. Cada teléfono que desbloqueas sigue desbloqueado, aunque no renueves.</p>
+      </section>
+
+      <section class="order-wrap" aria-labelledby="order-heading">
+        <form id="order" class="order" novalidate>
+          <h2 id="order-heading">Tu tienda</h2>
+          <label class="field" for="store">
+            <span>Nombre de la tienda</span>
+            <input id="store" name="store" type="text" required maxlength="80" autocomplete="organization" placeholder="Como se lo dirías a un cajero">
+            <span class="hint">Tu código de tienda empieza con este nombre, más 8 caracteres al azar, como HOMETOWN7KM4QX9P.</span>
+            <span class="field-error" id="store-error">Escribe el nombre de tu tienda.</span>
+          </label>
+          <label class="field" for="email">
+            <span>Correo para el recibo y la página de tu tienda</span>
+            <input id="email" name="email" type="email" required maxlength="200" autocomplete="email" inputmode="email" placeholder="tu@tutienda.com">
+            <span class="field-error" id="email-error">Escribe un correo que funcione. Ahí llegan tu código de tienda y el enlace de la página de tu tienda.</span>
+          </label>
+          <button type="submit" class="button cta" id="pay">Continuar al pago seguro</button>
+          <p class="form-status" id="order-status" aria-live="polite"></p>
+          <p class="safe">El pago lo procesa Stripe. Nunca vemos tu tarjeta. Tu código de tienda aparece en pantalla y llega por correo en cuanto se confirma el pago.</p>
+          <p class="safe">Cada teléfono que desbloqueas sigue desbloqueado, aunque no renueves. ¿No es para tu tienda? Escribe a <a href="mailto:support@plued.app">support@plued.app</a> dentro de 30 días. Te devolvemos el dinero del plan, menos $4.90 por cada teléfono que ya se desbloqueó, y cerramos tu código de tienda.</p>
+        </form>
+        <aside class="order-side">
+          <h3 id="after-pay">Qué pasa después de pagar</h3>
+          <ol>
+            <li>Tu código de tienda aparece en esta página y en tu correo. Funciona de inmediato.</li>
+            <li>Los cajeros instalan PLUed, tocan "¿Tu tienda te dio un código?" y escriben el código de tienda.</li>
+            <li>Crea tu paquete o mándanos tu hoja de cálculo. Mantenemos tus códigos al día todo el año.</li>
+            <li>La página privada de tu tienda muestra los puestos usados, tu paquete y tu plan. Sin cuenta, sin contraseña.</li>
+          </ol>
+          <p class="muted">Se renueva cada año. Cancela cuando quieras desde la página de tu tienda; el plan sigue hasta el final del año pagado.</p>
+        </aside>
+      </section>
+
+      <p class="lead-link"><a href="#lead" id="lead-toggle">¿Compras para varias tiendas o necesitas una factura?</a></p>
+      <form id="lead" class="lead" hidden novalidate>
+        <h2>Varias tiendas o una factura</h2>
+        <p class="muted">Cuéntanos un poco y te mandamos una sola factura para todas tus tiendas. Cada tienda sigue recibiendo su propio código de tienda y su propia página.</p>
+        <div class="two">
+          <label class="field" for="lead-chain"><span>Cadena o empresa</span><input id="lead-chain" name="chain" type="text" required maxlength="120"></label>
+          <label class="field" for="lead-stores"><span>Cuántas tiendas</span><input id="lead-stores" name="stores" type="number" min="1" max="100000" inputmode="numeric" required></label>
+        </div>
+        <div class="two">
+          <label class="field" for="lead-contact"><span>Tu nombre</span><input id="lead-contact" name="contact" type="text" required maxlength="120" autocomplete="name"></label>
+          <label class="field" for="lead-email"><span>Correo</span><input id="lead-email" name="email" type="email" required maxlength="200" autocomplete="email"></label>
+        </div>
+        <label class="field" for="lead-phone"><span>Teléfono <span class="muted">(opcional)</span></span><input id="lead-phone" name="phone" type="tel" maxlength="40" autocomplete="tel"></label>
+        <label class="field" for="lead-note"><span>Algo que debamos saber</span><textarea id="lead-note" name="note" maxlength="1000" placeholder="Nombres de las tiendas, fechas, a quién facturar"></textarea></label>
+        <button type="submit" class="button cta small" id="lead-send">Enviar esto a PLUed</button>
+        <p class="form-status" id="lead-status" aria-live="polite"></p>
+        <p class="safe">Respondemos desde support@plued.app, normalmente el mismo día hábil. No se cobra nada hasta que apruebes la factura.</p>
+      </form>
+
+      <p class="relink"><a href="#relink" id="relink-toggle">¿Perdiste el enlace de la página de tu tienda?</a></p>
+      <div class="relink-box" id="relink" hidden>
+        <label class="visually-hidden" for="relink-email">El correo con el que compraste</label>
+        <input id="relink-email" type="email" placeholder="tu@tutienda.com" autocomplete="email">
+        <button type="button" class="button kraft">Enviarme el enlace otra vez</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <!-- 2. Pago: el resumen junto al panel de Stripe. -->
+    <section id="checkout-panel" hidden aria-labelledby="checkout-heading">
+      <p class="checkout-back"><a href="#" id="checkout-back">&larr; Cambiar el plan o el nombre de la tienda</a></p>
+      <div class="checkout-grid">
+        <div class="order-summary">
+          <h2 id="checkout-heading">Tu pedido</h2>
+          <dl>
+            <dt>Tienda</dt><dd id="sum-store"></dd>
+            <dt>Plan</dt><dd id="sum-tier"></dd>
+            <dt>Precio</dt><dd id="sum-price"></dd>
+            <dt>Se renueva</dt><dd id="sum-renews"></dd>
+          </dl>
+          <p class="safe">El pago lo procesa Stripe. Nunca vemos tu tarjeta.</p>
+          <p class="safe">Cada teléfono que desbloqueas sigue desbloqueado, aunque no renueves.</p>
+        </div>
+        <div class="stripe-frame">
+          <div class="stripe-mark">Pago seguro con <b>Stripe</b></div>
+          <div id="checkout"><p class="loading" id="checkout-loading">Abriendo el pago seguro...</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Bienvenida: los cuatro siguientes pasos. -->
+    <section id="welcome" class="welcome" hidden aria-labelledby="welcome-heading">
+      <span class="eyebrow">Pago recibido</span>
+      <h2 id="welcome-heading">Gracias, <span id="w-store"></span>. Esto es lo que sigue.</h2>
+      <p class="lede">Tu código de tienda ya funciona. Cuatro pasos y toda tu tienda está en PLUed.</p>
+      <ol class="next-steps" id="w-steps"></ol>
+      <p class="safe">La página privada de tu tienda: <a id="w-link" href="#"></a><br>Te mandamos todo esto por correo. Guarda ese enlace; es tu forma de entrar. ¿Lo perdiste? Esta página tiene "enviarme el enlace otra vez".</p>
+    </section>
+
+    <section id="waiting" hidden aria-live="polite">
+      <span class="eyebrow">Pago recibido</span>
+      <h2>Preparando tu tienda...</h2>
+      <p class="lede" id="waiting-text">Esto tarda unos segundos. Tu código de tienda y el enlace de la página de tu tienda también van en camino a tu correo.</p>
+    </section>
+
+    <p class="fine">PLUed es de Arbolinea. Preguntas antes de comprar: <a href="mailto:support@plued.app">support@plued.app</a>. Precios en dólares estadounidenses; se agrega el impuesto sobre las ventas donde aplique. El correo de bienvenida y la página de pago de Stripe pueden aparecer en inglés. <a href="/es/privacy/">Privacidad</a>.</p>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-grid">
+    <div><a class="wordmark" href="/es/"><span class="wordmark-tag">PLU</span>ed</a><p>Códigos de frutas y verduras, practicados como en la caja de verdad.</p></div>
+    <div><h3>Aprende</h3><div class="footer-links"><a href="/es/guide/">Guía para cajeros</a><a href="/es/trainers/">Guía para capacitadores</a><a href="/pack/">Constructor de Paquetes</a><a href="/es/store/">Plan de Tienda</a></div></div>
+    <div><h3>Ayuda</h3><div class="footer-links"><a href="/es/support/">Soporte y preguntas frecuentes</a><a href="mailto:support@plued.app">support@plued.app</a><a href="/es/privacy/">Privacidad</a></div></div>
+  </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Hecho para cajeros.</span></div></div></footer>
+
+  <script src="/assets/qr.js?v=4b2af7be"></script>
+  <script src="/assets/store.js?v=920e953e"></script>
+  <script src="/assets/store-buy.js?v=c295a3d0"></script>
+</body>
+</html>

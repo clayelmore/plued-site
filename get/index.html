@@ -6,8 +6,13 @@
   <title>Get PLUed - App Store, Google Play, Amazon</title>
   <meta name="description" content="Download PLUed for iPhone, iPad, Android, or Fire tablet. Learn produce PLU codes with flashcards, quizzes, and the checkout belt game.">
   <link rel="canonical" href="https://plued.app/get/">
+  <link rel="alternate" hreflang="en" href="https://plued.app/get/">
+  <link rel="alternate" hreflang="es" href="https://plued.app/es/get/">
+  <link rel="alternate" hreflang="x-default" href="https://plued.app/get/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PLUed">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_US">
   <meta property="og:title" content="Get PLUed">
   <meta property="og:description" content="Learn produce codes, ring like a pro. iPhone, Android, and Fire tablet.">
   <meta property="og:url" content="https://plued.app/get/">
@@ -16,7 +21,8 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/site.css?v=bd59db03">
+  <link rel="stylesheet" href="/assets/site.css?v=595e2380">
+  <script src="/assets/lang.js?v=818046fa"></script>
   <style>
     .store-buttons { display: flex; flex-direction: column; gap: 14px; max-width: 420px; margin: 28px auto 0; }
     .store-button { display: flex; align-items: center; gap: 14px; padding: 16px 22px; border-radius: 14px; text-decoration: none; border: 2px solid var(--kraft, #d9c9a3); background: var(--paper, #faf6ee); transition: transform .12s ease; }
@@ -28,16 +34,16 @@
     .badge-play-inline { height: 65px; margin: -10.5px; }
     .get-hero { text-align: center; padding-top: 12px; }
     .get-hero .app-badge { width: 96px; height: 96px; border-radius: 22px; margin: 0 auto 18px; display: block; box-shadow: 0 6px 24px rgba(30,59,47,.18); }
-    .store-word { max-width: 520px; margin: 0 auto; padding: 14px 18px; border: 1px dashed var(--border); border-radius: 14px; background: var(--card); }
-    .store-word b { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.9rem; letter-spacing: .08em; line-height: 1.2; overflow-wrap: anywhere; }
-    .store-word span { color: var(--muted); font-size: .92rem; }
+    .store-word { max-width: 520px; margin: 0 auto; padding: 14px 18px; border: 1px dashed var(--border); border-radius: 14px; background: var(--card); text-align: left; }
+    .store-word-code { margin: 0 0 12px; text-align: center; }
+    .store-word-code b { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.9rem; letter-spacing: .08em; line-height: 1.2; overflow-wrap: anywhere; }
   </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><div class="shell nav-wrap">
     <a class="wordmark" href="/" aria-label="PLUed home"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
-    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a href="/store/">For Stores</a><a href="/demo/">Try the Demo</a><a aria-current="page" href="/get/">Get the app</a><a href="/support/">Support</a></nav>
+    <nav class="main-nav" aria-label="Main navigation"><a href="/guide/">Guide</a><a href="/trainers/">For Trainers</a><a href="/store/">For Stores</a><a href="/demo/">Try the Demo</a><a aria-current="page" href="/get/">Get the app</a><a href="/support/">Support</a><span class="lang-pill" role="group" aria-label="Language"><a href="/get/" lang="en" hreflang="en" aria-label="English" aria-current="true" data-lang-switch="en">EN</a><a href="/es/get/" lang="es" hreflang="es" aria-label="Espa&ntilde;ol" data-lang-switch="es">ES</a></span></nav>
   </div></header>
 
   <main id="main">
@@ -46,7 +52,16 @@
       <span class="eyebrow">Get the app</span>
       <h1>Learn produce codes. Ring like a pro.</h1>
       <p>1,087 produce items with photorealistic graphics, flashcards, quizzes, and the checkout belt game. In English and Spanish, and it works offline.</p>
-      <p class="store-word" id="store-word" hidden>Your store code: <b id="store-word-value"></b><br><span>Install the app, tap "Did your store give you a code?", and enter it.</span></p>
+      <div class="store-word" id="store-word" hidden>
+        <p class="store-word-code">Your store code: <b id="store-word-value"></b></p>
+        <div class="steps-wrap">
+          <ol class="steps-flow compact" role="list" data-steps="3">
+            <li class="step-card"><span class="step-num" aria-hidden="true">1</span><div><h2 class="step-title">Install the app</h2><p class="step-text">Pick your phone's store below.</p></div></li>
+            <li class="step-card"><span class="step-num" aria-hidden="true">2</span><div><h2 class="step-title">Tap the code question</h2><p class="step-text">"Did your store give you a code?"</p></div></li>
+            <li class="step-card"><span class="step-num" aria-hidden="true">3</span><div><h2 class="step-title">Enter it</h2><p class="step-text">Type your store code and the app unlocks.</p></div></li>
+          </ol>
+        </div>
+      </div>
       <div class="store-buttons">
         <a class="store-button" href="https://apps.apple.com/app/id6759439888">
           <img class="store-badge-img" src="/assets/img/badge-app-store.svg" alt="Download on the App Store">

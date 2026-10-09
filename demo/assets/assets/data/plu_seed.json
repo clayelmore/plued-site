@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 17,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -2425,7 +2425,7 @@
     },
     {
       "id": "jalapeno_pepper_green",
-      "name": "Jalapeno Pepper, Green",
+      "name": "Jalapeño Pepper, Green",
       "category": "vegetable",
       "plu": "4693",
       "size_class": "S",
@@ -2438,7 +2438,7 @@
     },
     {
       "id": "jalapeno_pepper_red",
-      "name": "Jalapeno Pepper, Red",
+      "name": "Jalapeño Pepper, Red",
       "category": "vegetable",
       "plu": "4694",
       "size_class": "S",
@@ -3187,14 +3187,15 @@
     },
     {
       "id": "celery_loose_stalk",
-      "name": "Celery, Loose Stalk",
+      "name": "Celery Sticks",
       "category": "vegetable",
       "plu": "4576",
       "size_class": "M",
       "rarity": "uncommon",
       "confusion_group": "stalk_vegetables",
       "aliases": [
-        "Loose Stalk"
+        "Loose Stalk",
+        "Celery Loose Stalk"
       ],
       "image_filename": "celery_loose_stalk.png"
     },
@@ -4337,14 +4338,15 @@
     },
     {
       "id": "oro_blanco_sweetie_grapefruit",
-      "name": "Oro Blanco/Sweetie Grapefruit",
+      "name": "Oroblanco/Sweetie Grapefruit",
       "category": "fruit",
       "plu": "3092",
       "size_class": "L",
       "rarity": "rare",
       "confusion_group": "citrus",
       "aliases": [
-        "OroBlanco/Sweetie"
+        "OroBlanco/Sweetie",
+        "Oro Blanco"
       ],
       "image_filename": "oro_blanco_sweetie_grapefruit.png"
     },
@@ -4725,13 +4727,15 @@
     },
     {
       "id": "clara_friis_pears",
-      "name": "Clara Friis Pears",
+      "name": "Clara Frijs Pears",
       "category": "fruit",
       "plu": "3015",
       "size_class": "S",
       "rarity": "rare",
       "confusion_group": "pears",
-      "aliases": [],
+      "aliases": [
+        "Clara Friis"
+      ],
       "image_filename": "clara_friis_pears.png"
     },
     {
@@ -4882,7 +4886,7 @@
     },
     {
       "id": "tangerines_nova",
-      "name": "Tangerines/mandarins - Nova",
+      "name": "Tangerines/Mandarins - Nova",
       "category": "fruit",
       "plu": "3030",
       "size_class": "S",
@@ -5869,7 +5873,7 @@
     },
     {
       "id": "sapodillo",
-      "name": "Sapodillo",
+      "name": "Sapodilla",
       "category": "fruit",
       "plu": "3136",
       "size_class": "S",
@@ -5877,7 +5881,8 @@
       "confusion_group": "tropical",
       "aliases": [
         "Nispero",
-        "Chicozapote"
+        "Chicozapote",
+        "Sapodillo"
       ],
       "image_filename": "sapodillo.png"
     },
@@ -6242,14 +6247,15 @@
     },
     {
       "id": "frisee",
-      "name": "Frisee",
+      "name": "Frisée",
       "category": "vegetable",
       "plu": "3167",
       "size_class": "M",
       "rarity": "uncommon",
       "confusion_group": "greens",
       "aliases": [
-        "Curly Endive"
+        "Curly Endive",
+        "Frisee"
       ],
       "image_filename": "frisee.png"
     },
@@ -6322,7 +6328,8 @@
       "rarity": "uncommon",
       "confusion_group": "root_vegetables",
       "aliases": [
-        "Yellow Yam"
+        "Yellow Yam",
+        "Nyame"
       ],
       "image_filename": "nyame_yellow.png"
     },
@@ -6335,7 +6342,8 @@
       "rarity": "uncommon",
       "confusion_group": "root_vegetables",
       "aliases": [
-        "White Yam"
+        "White Yam",
+        "Nyame"
       ],
       "image_filename": "nyame_white.png"
     },
@@ -7016,7 +7024,7 @@
     },
     {
       "id": "roma_tomatoes_on_vine",
-      "name": "Roma Tomatoes - On the Vine",
+      "name": "Cocktail Roma Tomatoes on the Vine",
       "category": "vegetable",
       "plu": "3336",
       "size_class": "M",
@@ -7025,7 +7033,9 @@
       "aliases": [
         "plum tomatoes - on the vine",
         "italian tomatoes - on the vine",
-        "saladette tomatoes - on the vine"
+        "saladette tomatoes - on the vine",
+        "cocktail tomatoes - on the vine (truss)",
+        "intermediate roma tomatoes - on the vine"
       ],
       "image_filename": "roma_tomatoes_on_vine.png"
     },
@@ -7151,7 +7161,7 @@
     },
     {
       "id": "laxtons_fortune_apples",
-      "name": "Laxtons Fortune Apples",
+      "name": "Laxton's Fortune Apples",
       "category": "fruit",
       "plu": "3347",
       "size_class": "M",
@@ -7229,7 +7239,7 @@
     },
     {
       "id": "st_edmunds_pippin_apples",
-      "name": "St Edmunds Pippin Apples",
+      "name": "St. Edmund's Pippin Apples",
       "category": "fruit",
       "plu": "3353",
       "size_class": "M",
@@ -7729,14 +7739,14 @@
     },
     {
       "id": "arracach",
-      "name": "Arracach",
+      "name": "Arracacha",
       "category": "vegetable",
       "plu": "3390",
       "size_class": "M",
       "rarity": "uncommon",
       "confusion_group": "root_vegetables",
       "aliases": [
-        "Arracacha",
+        "Arracach",
         "Peruvian Carrot",
         "White Carrot",
         "Apio Criollo"
@@ -7943,14 +7953,15 @@
     },
     {
       "id": "mushrooms_grey_tricholoma",
-      "name": "Mushrooms - Grey - Tricholoma",
+      "name": "Mushrooms - Gray - Tricholoma",
       "category": "vegetable",
       "plu": "3406",
       "size_class": "M",
       "rarity": "exotic",
       "confusion_group": "mushrooms",
       "aliases": [
-        "Tricholoma portentosum"
+        "Tricholoma portentosum",
+        "Grey Tricholoma"
       ],
       "image_filename": "mushrooms_grey_tricholoma.png"
     },
@@ -8803,7 +8814,8 @@
       "confusion_group": "herbs",
       "aliases": [
         "Summer cilantro",
-        "Bolivian coriander"
+        "Bolivian coriander",
+        "Papalo"
       ],
       "image_filename": "papalo.png"
     },
@@ -8877,9 +8889,17 @@
       "rarity": "exotic",
       "confusion_group": "herbs",
       "aliases": [
-        "Purple grass"
+        "Purple grass",
+        "Hierba mora",
+        "Yerba mora",
+        "Macuy",
+        "Quilete",
+        "Chichiquelite",
+        "Black nightshade greens",
+        "American black nightshade"
       ],
-      "image_filename": "purple_herb.png"
+      "image_filename": "hierba_mora.png",
+      "since": 89
     },
     {
       "id": "apples_dalinette",
@@ -9004,7 +9024,7 @@
     },
     {
       "id": "sunny_gold_yellow_mini_seedless_watermelon",
-      "name": "Sunny Gold™ Yellow Mini Seedless Watermelon - 3-7 LBS",
+      "name": "Sunny Gold™ Yellow Mini Seedless Watermelon - 3–7 lb",
       "category": "fruit",
       "plu": "3494",
       "size_class": "S",
@@ -9505,7 +9525,7 @@
     },
     {
       "id": "sugrafiftysix_green_seedless_grapes",
-      "name": "SugraFiftySix Green Seedless Grapes",
+      "name": "Sugrafiftysix Green Seedless Grapes",
       "category": "fruit",
       "plu": "3532",
       "size_class": "M",
@@ -9518,7 +9538,7 @@
     },
     {
       "id": "sugrafiftyfour_novelty_seedless_grapes",
-      "name": "SugraFiftyFour Novelty Seedless Grapes",
+      "name": "Sugrafiftyfour Novelty Seedless Grapes",
       "category": "fruit",
       "plu": "3533",
       "size_class": "M",
@@ -9531,7 +9551,7 @@
     },
     {
       "id": "sugrafiftythree_red_seedless_grapes",
-      "name": "SugraFiftyThree Red Seedless Grapes",
+      "name": "Sugrafiftythree Red Seedless Grapes",
       "category": "fruit",
       "plu": "3534",
       "size_class": "M",
@@ -9721,7 +9741,7 @@
     },
     {
       "id": "lolipop_apples",
-      "name": "Lolipop® Apples",
+      "name": "LoliPop® Apples",
       "category": "fruit",
       "plu": "3548",
       "size_class": "M",
@@ -9760,7 +9780,7 @@
     },
     {
       "id": "pitahaya_red_flesh_fire_dragons",
-      "name": "Pitahaya - Red flesh (Fire Dragons)",
+      "name": "Pitahaya - Red Flesh (Fire Dragons)",
       "category": "fruit",
       "plu": "3551",
       "size_class": "M",
@@ -9788,7 +9808,7 @@
     },
     {
       "id": "oranges_m4_dulce_navels",
-      "name": "Oranges - M4 (Dulce Navels ™)",
+      "name": "Oranges - M4 (Dulce Navels™)",
       "category": "fruit",
       "plu": "3553",
       "size_class": "L",
@@ -9823,7 +9843,7 @@
     },
     {
       "id": "tangerines_mandarins_tango_seedless",
-      "name": "Tangerines/mandarins - Tango Seedless (Tangold)",
+      "name": "Tangerines/Mandarins - Tango Seedless (Tangold)",
       "category": "fruit",
       "plu": "3556",
       "size_class": "S",
@@ -10403,7 +10423,7 @@
     },
     {
       "id": "cox_orange_pippin_apples",
-      "name": "Cox Orange Pippin Apples",
+      "name": "Cox's Orange Pippin Apples",
       "category": "fruit",
       "plu": "4105",
       "size_class": "M",
@@ -11250,7 +11270,7 @@
     },
     {
       "id": "grapefruit_deep_red_large_4287",
-      "name": "Grapefruit, Deep Red Large",
+      "name": "Grapefruit, Deep Red, Large",
       "category": "fruit",
       "plu": "4287",
       "size_class": "L",
@@ -11266,7 +11286,7 @@
     },
     {
       "id": "grapefruit_deep_red_large_4288",
-      "name": "Grapefruit, Deep Red Large",
+      "name": "Grapefruit, Deep Red, Large",
       "category": "fruit",
       "plu": "4288",
       "size_class": "L",
@@ -11281,7 +11301,7 @@
     },
     {
       "id": "grapefruit_deep_red_large_4289",
-      "name": "Grapefruit, Deep Red Large",
+      "name": "Grapefruit, Deep Red, Large",
       "category": "fruit",
       "plu": "4289",
       "size_class": "L",
@@ -12496,7 +12516,7 @@
     },
     {
       "id": "pears_taylors_gold",
-      "name": "Taylors Gold Pears",
+      "name": "Taylor's Gold Pears",
       "category": "fruit",
       "plu": "4553",
       "size_class": "M",
@@ -13180,14 +13200,15 @@
     },
     {
       "id": "blackeyed_peas",
-      "name": "Blackeyed Peas",
+      "name": "Black-Eyed Peas",
       "category": "vegetable",
       "plu": "4673",
       "size_class": "M",
       "rarity": "common",
       "confusion_group": "peas_beans",
       "aliases": [
-        "cowpea"
+        "cowpea",
+        "Blackeyed Peas"
       ],
       "image_filename": "blackeyed_peas.png"
     },

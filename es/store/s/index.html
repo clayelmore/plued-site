@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>La página de tu tienda en PLUed</title>
+  <meta name="description" content="La página privada de tu tienda en PLUed: puestos usados, tu código de tienda, tu paquete y tu plan.">
+  <link rel="canonical" href="https://plued.app/es/store/s/">
+  <link rel="alternate" hreflang="en" href="https://plued.app/store/s/">
+  <link rel="alternate" hreflang="es" href="https://plued.app/es/store/s/">
+  <link rel="alternate" hreflang="x-default" href="https://plued.app/store/s/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css?v=595e2380">
+  <link rel="stylesheet" href="/assets/store.css?v=722d866e">
+  <script src="/assets/lang.js?v=818046fa"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header"><div class="shell nav-wrap">
+    <a class="wordmark" href="/es/" aria-label="Inicio de PLUed"><img class="wordmark-icon" src="/assets/img/app-icon.png" alt=""><span class="wordmark-tag">PLU</span>ed</a>
+    <nav class="main-nav" aria-label="Navegación principal"><a href="/es/guide/">Guía</a><a href="/es/trainers/">Para capacitadores</a><a aria-current="page" href="/es/store/">Para tiendas</a><a href="/demo/">Prueba la demo</a><a href="/es/get/">Descarga la app</a><a href="/es/support/">Soporte</a><span class="lang-pill" role="group" aria-label="Idioma"><a href="/store/s/" lang="en" hreflang="en" aria-label="English" data-lang-switch="en">EN</a><a href="/es/store/s/" lang="es" hreflang="es" aria-label="Español" aria-current="true" data-lang-switch="es">ES</a></span></nav>
+  </div></header>
+
+  <main id="main" class="shell store-page">
+
+    <!-- Sin token, token equivocado o el servidor no responde. -->
+    <section id="no-token" class="no-token" hidden>
+      <span class="eyebrow">La página de tu tienda</span>
+      <h2 id="no-token-title">Abre esta página desde el enlace de tu correo de bienvenida.</h2>
+      <p class="muted" id="no-token-text">El enlace es tu forma de entrar. No hay contraseña que recordar.</p>
+      <p class="relink">¿Perdiste el enlace?</p>
+      <div class="relink-box" id="relink-a">
+        <label class="visually-hidden" for="relink-email-a">El correo con el que compraste</label>
+        <input id="relink-email-a" type="email" placeholder="tu@tutienda.com" autocomplete="email">
+        <button type="button" class="button kraft">Enviarme el enlace otra vez</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="loading" aria-live="polite">
+      <p class="muted">Cargando la página de tu tienda...</p>
+    </section>
+
+    <div id="page" hidden>
+      <section class="status-head">
+        <span class="eyebrow">La página de tu tienda</span>
+        <h1 id="h-store"></h1>
+        <p class="lede">Los puestos, tu código de tienda, tu paquete y tu plan. Este enlace es tu forma de entrar; guárdalo.</p>
+      </section>
+
+      <!-- Siguientes pasos: las mismas cuatro tarjetas de la bienvenida, una línea cuando están listas. -->
+      <section id="next" class="welcome" aria-labelledby="next-heading">
+        <h2 id="next-heading">Siguientes pasos</h2>
+        <ol class="next-steps" id="steps"></ol>
+        <div class="all-set" id="all-set" hidden><b>Todo listo.</b> <span>Tu código de tienda ya se compartió, tu paquete está publicado, tu logotipo está puesto y los cajeros ya entraron.</span> <button type="button" class="text-button" id="show-steps">Mostrar los pasos</button></div>
+      </section>
+
+      <div class="status-blocks">
+        <!-- Puestos -->
+        <section class="status-block" id="seats" aria-labelledby="seats-heading">
+          <h2 id="seats-heading">Puestos <small id="seats-plan"></small></h2>
+          <p class="seats-line"><span id="seats-used">0</span> de <span id="seats-total">0</span> puestos usados <small id="seats-reserved"></small></p>
+          <div class="bar" id="seats-bar"><span></span></div>
+          <p>Un teléfono que entra dos veces sigue usando un solo puesto. Cada teléfono que desbloqueas sigue desbloqueado, aunque no renueves.</p>
+          <a class="add-seats" id="add-seats" href="#" hidden>Agregar puestos &rarr;</a>
+        </section>
+
+        <!-- Tu código de tienda -->
+        <section class="status-block" id="word-block" aria-labelledby="word-heading">
+          <h2 id="word-heading">Tu código de tienda</h2>
+          <p class="word" id="word"></p>
+          <p>Los cajeros instalan PLUed, tocan "¿Tu tienda te dio un código?" y escriben este código de tienda.</p>
+          <pre class="breakroom" id="note"></pre>
+          <div class="row">
+            <button type="button" class="button kraft" id="copy-word">Copiar el código de tienda</button>
+            <a class="button kraft" id="poster" href="#">Imprimir el cartel</a>
+            <button type="button" class="button kraft" id="copy-note">Copiar la nota para la sala de descanso</button>
+            <button type="button" class="button kraft" id="resend">Reenviar el correo de bienvenida</button>
+          </div>
+          <p class="form-status" id="word-status" aria-live="polite"></p>
+        </section>
+
+        <!-- Tu paquete -->
+        <section class="status-block" id="pack" aria-labelledby="pack-heading">
+          <h2 id="pack-heading">Tu paquete</h2>
+          <div id="pack-none" hidden>
+            <p>Todavía no hay paquete. Abre el Constructor de Paquetes con el nombre de tu tienda ya escrito, o mándanos tu hoja de cálculo y lo armamos.</p>
+            <div class="row"><a class="button" id="pack-build" href="#">Abrir el Constructor de Paquetes</a><a class="button kraft" href="#requests" data-request="spreadsheet">Enviarnos tu hoja de cálculo</a></div>
+          </div>
+          <div id="pack-some" hidden>
+            <dl class="kv">
+              <dt>Paquete</dt><dd id="pack-name"></dd>
+              <dt>Códigos</dt><dd id="pack-codes"></dd>
+              <dt>Nuestra última actualización</dt><dd id="pack-updated"></dd>
+            </dl>
+            <div class="row"><a class="button kraft" id="pack-open" href="#">Abrir en el constructor</a></div>
+          </div>
+
+          <h3 id="requests" style="margin-top:22px;">Pídenos algo</h3>
+          <p>Manda una hoja de cálculo para revisar y organizar, un logotipo para preparar, un gráfico de frutas y verduras para hacer o cualquier otra cosa. Respondemos por correo y la solicitud muestra aquí su estado.</p>
+          <form id="request-form" novalidate>
+            <label class="field" for="req-type"><span>Qué necesitas</span>
+              <select id="req-type" name="type">
+                <option value="spreadsheet">Convertir mi hoja de cálculo en un paquete (CSV o XLSX)</option>
+                <option value="logo">Preparar mi logotipo (PNG, JPG o SVG)</option>
+                <option value="graphic">Hacer un gráfico de una fruta o verdura</option>
+                <option value="other">Otra cosa</option>
+              </select>
+            </label>
+            <label class="field" for="req-text"><span>Detalles</span><textarea id="req-text" name="text" maxlength="1000" placeholder="Cualquier cosa que nos ayude a hacerlo bien"></textarea></label>
+            <label class="field" for="req-file"><span>Archivo <span class="muted">(opcional, hasta 2 MB)</span></span><input id="req-file" name="file" type="file"><span class="file-note" id="file-note">CSV o XLSX para una hoja de cálculo; PNG, JPG o SVG para un logotipo o un gráfico.</span></label>
+            <p class="safe" id="logo-consent-wrap" hidden><label><input type="checkbox" id="logo-consent"> Confirmo que nuestra tienda puede usar esta marca.</label></p>
+            <button type="submit" class="button cta small" id="req-send">Enviar la solicitud</button>
+            <p class="form-status" id="req-status" aria-live="polite"></p>
+          </form>
+          <ul class="request-list" id="request-list"></ul>
+        </section>
+
+        <!-- Plan -->
+        <section class="status-block" id="plan" aria-labelledby="plan-heading">
+          <h2 id="plan-heading">Plan</h2>
+          <dl class="kv">
+            <dt>Plan de Tienda</dt><dd id="plan-tier"></dd>
+            <dt>Empezó</dt><dd id="plan-start"></dd>
+            <dt id="plan-end-label">Se renueva</dt><dd id="plan-end"></dd>
+            <dt id="plan-apple-label" hidden>Estado</dt><dd id="plan-apple" hidden></dd>
+          </dl>
+          <div class="closed-note" id="closed" hidden></div>
+          <div class="row"><button type="button" class="button kraft" id="portal">Administrar facturación</button></div>
+          <p class="form-status" id="plan-status" aria-live="polite"></p>
+          <p>Si cancelas, tu plan sigue hasta el final del año pagado; cada teléfono ya desbloqueado sigue desbloqueado, y después de eso el código de tienda deja de aceptar cajeros nuevos. El pago lo procesa Stripe. Nunca vemos tu tarjeta.</p>
+        </section>
+      </div>
+
+      <p class="relink">Guarda esta página en tus favoritos o conserva el correo de bienvenida. ¿Perdiste los dos? Escribe el correo con el que compraste y te mandamos el enlace otra vez.</p>
+      <div class="relink-box" id="relink-b">
+        <label class="visually-hidden" for="relink-email-b">El correo con el que compraste</label>
+        <input id="relink-email-b" type="email" placeholder="tu@tutienda.com" autocomplete="email">
+        <button type="button" class="button kraft">Enviarme el enlace otra vez</button>
+        <p class="form-status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <p class="fine">Preguntas cuando quieras: <a href="mailto:support@plued.app">support@plued.app</a>. PLUed es de Arbolinea.</p>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-grid">
+    <div><a class="wordmark" href="/es/"><span class="wordmark-tag">PLU</span>ed</a><p>Códigos de frutas y verduras, practicados como en la caja de verdad.</p></div>
+    <div><h3>Aprende</h3><div class="footer-links"><a href="/es/guide/">Guía para cajeros</a><a href="/es/trainers/">Guía para capacitadores</a><a href="/pack/">Constructor de Paquetes</a><a href="/es/store/">Plan de Tienda</a></div></div>
+    <div><h3>Ayuda</h3><div class="footer-links"><a href="/es/support/">Soporte y preguntas frecuentes</a><a href="mailto:support@plued.app">support@plued.app</a><a href="/es/privacy/">Privacidad</a></div></div>
+  </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Hecho para cajeros.</span></div></div></footer>
+
+  <script src="/assets/qr.js?v=4b2af7be"></script>
+  <script src="/assets/store.js?v=920e953e"></script>
+  <script src="/assets/store-status.js?v=64c3d547"></script>
+</body>
+</html>
