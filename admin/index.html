@@ -68,6 +68,77 @@
   .store-logo .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; width: 36px; height: 36px; border: 1px solid #e5d9c3; border-radius: 10px; background: #faf6ee; }
   .store-logo .logo-badge img { display: block; object-fit: contain; }
   #stores .actions button.logo-remove { min-height: 44px; }
+  /* The wide logo (2026-10-08): its thumbnail on the app's cream band, 3:1. */
+  .store-logo .logo-band { display: inline-flex; flex: none; box-sizing: border-box; width: 96px; height: 32px; border: 1px solid #e5d9c3; border-radius: 6px; background: #faf6ee; overflow: hidden; }
+  .store-logo .logo-band img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  /* Set logo: one field per picture, each with its own Clear. Wraps at 390 px. */
+  .logo-editor { margin-top: 8px; padding: 10px 12px; border: 1px solid var(--kraft); border-radius: 8px; background: #fff; max-width: 460px; }
+  .logo-editor-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 6px 8px; margin-bottom: 8px; }
+  .logo-editor-row label { display: flex; flex-direction: column; gap: 4px; flex: 1 1 220px; min-width: 0; }
+  .logo-editor input[type=text] { min-height: 44px; box-sizing: border-box; width: 100%; padding: 8px 10px; border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit; }
+  .logo-editor button { min-height: 44px; }
+  .logo-editor .logo-now { flex: 1 1 100%; overflow-wrap: anywhere; }
+  /* The wide logo's tick box (2026-10-09): a 44 px row, the words wrap. */
+  .logo-editor-names { margin-bottom: 8px; }
+  .logo-editor-names label { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; }
+  .logo-editor-names input[type=checkbox] { width: 22px; height: 22px; flex: none; }
+  .logo-editor-names .logo-now { display: block; }
+  /* Make logo (2026-10-09): the owner's quick check, in a card of its own
+     so it has the page's full width at 390 px. 44 px targets throughout. */
+  .make-logo-open { min-height: 44px; margin-top: 6px; }
+  #makeLogo button, #makeLogo input[type=text], #makeLogo input[type=file], #makeLogo a.open-site { min-height: 44px; }
+  #makeLogo button { min-width: 44px; }
+  #makeLogo input[type=text], #makeLogo textarea { box-sizing: border-box; width: 100%; padding: 8px 10px; border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit; }
+  #makeLogo textarea { min-height: 88px; resize: vertical; }
+  .ml-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+  .ml-head h2 { margin: 0; font-size: 18px; overflow-wrap: anywhere; min-width: 0; }
+  .ml-part { border-top: 1px solid var(--kraft); padding: 12px 0; margin-top: 12px; }
+  .ml-part h3 { margin: 0 0 6px; font-size: 15px; }
+  .ml-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px; margin: 8px 0; }
+  .ml-row label { display: flex; flex-direction: column; gap: 4px; flex: 1 1 240px; min-width: 0; }
+  .ml-line { overflow-wrap: anywhere; margin: 2px 0; }
+  .ml-status { min-height: 20px; margin-top: 8px; }
+  a.open-site { display: inline-flex; align-items: center; font-weight: 600; color: var(--leaf); }
+  .ml-tiles { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0; }
+  button.ml-tile { display: flex; flex-direction: column; align-items: center; gap: 6px; width: 168px; max-width: 100%; padding: 10px; background: #fff; color: var(--ink); border-color: var(--kraft); font-weight: 500; text-align: center; }
+  button.ml-tile[aria-pressed="true"] { border-color: var(--leaf); box-shadow: inset 0 0 0 1.5px var(--leaf); }
+  .ml-thumb { display: flex; align-items: center; justify-content: center; width: 144px; max-width: 100%; height: 72px; background: #faf6ee; border: 1px solid #e5d9c3; border-radius: 8px; overflow: hidden; }
+  .ml-thumb img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+  .ml-kind { font-weight: 700; font-size: 13px; }
+  .ml-addr { font-size: 11px; color: var(--ink-soft); overflow-wrap: anywhere; max-width: 100%; }
+  .ml-addr.err { color: var(--tomato); }
+  /* The logo tool itself (site/assets/store-logo.js, bare mode): the status
+     page's editor and previews, in this page's colors. */
+  #mlTool .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  #mlTool .form-status { min-height: 20px; margin: 8px 0 0; font-size: 14px; }
+  #mlTool .form-status.err { color: var(--tomato); }
+  #mlTool .form-status.ok { color: var(--leaf); }
+  #mlTool .logo-note, #mlTool .file-note { margin: 8px 0 0; font-size: 13px; color: var(--ink-soft); }
+  #mlTool .safe { margin: 8px 0 0; }
+  #mlTool .logo-consent { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; }
+  #mlTool .logo-consent input { width: 22px; height: 22px; flex: none; }
+  #mlTool .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid #e5d9c3; background: #faf6ee; overflow: hidden; }
+  #mlTool .logo-badge img { display: block; object-fit: contain; }
+  #mlTool .logo-preview { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 28px; margin: 10px 0 6px; padding: 14px; border: 1px dashed var(--kraft); border-radius: 12px; background: var(--paper); }
+  #mlTool .logo-preview-item { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; }
+  #mlTool .logo-preview-item small { color: var(--ink-soft); font-size: 12px; }
+  #mlTool .logo-preview-wide { flex: 1 1 100%; }
+  #mlTool .logo-band { display: block; box-sizing: border-box; width: 320px; max-width: 100%; aspect-ratio: 3 / 1; border: 1px solid #e5d9c3; border-radius: 14px; background: #faf6ee; overflow: hidden; }
+  #mlTool .logo-band img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  #mlTool .logo-shelf { display: inline-flex; align-items: center; gap: 10px; max-width: 100%; min-width: 0; }
+  #mlTool .logo-shelf b { overflow-wrap: anywhere; }
+  #mlTool .logo-preview-title { margin: 14px 0 0; font-size: 15px; }
+  #mlTool .logo-modes button { background: #fff; color: var(--ink); border-color: var(--kraft); }
+  #mlTool .logo-modes button[aria-pressed="true"] { border-color: var(--leaf); box-shadow: inset 0 0 0 1.5px var(--leaf); }
+  #mlTool .logo-crop { margin-top: 10px; }
+  #mlTool .logo-crop-frame { position: relative; display: inline-block; max-width: min(100%, 520px); line-height: 0; border: 1px solid var(--kraft); border-radius: 8px; overflow: hidden; background: #faf6ee; }
+  #mlTool .logo-crop-frame img { display: block; max-width: 100%; height: auto; user-select: none; -webkit-user-drag: none; }
+  #mlTool .logo-crop-sel { position: absolute; box-sizing: border-box; border: 2px solid var(--leaf); box-shadow: 0 0 0 9999px rgba(30, 59, 47, 0.45); cursor: move; touch-action: none; }
+  #mlTool .logo-crop-sel:focus-visible { outline: 3px solid var(--citrus); outline-offset: 2px; }
+  #mlTool .logo-crop-handle { position: absolute; right: -22px; bottom: -22px; width: 44px; height: 44px; cursor: nwse-resize; touch-action: none; }
+  #mlTool .logo-crop-handle::after { position: absolute; top: 14px; left: 14px; width: 16px; height: 16px; border: 2px solid #fff; border-radius: 4px; background: var(--leaf); content: ""; }
+  #mlTool .logo-mono { margin-top: 10px; max-width: 260px; }
+  #mlTool .logo-mono label { display: flex; flex-direction: column; gap: 4px; }
   .badge.apple-skipped { background: #ece7db; color: var(--ink-soft); }
   .mint { display: grid; grid-template-columns: 2fr 2fr 1fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 14px; }
   .mint label { display: block; }
@@ -120,6 +191,8 @@
       <tbody></tbody>
     </table></div>
   </div>
+
+  <div class="card" id="makeLogo" hidden></div>
 
   <div class="card" id="review">
     <h2 style="margin:0 0 4px;font-size:18px;">Names to review</h2>
@@ -218,7 +291,7 @@
   function apiError(res, body) {
     if (res.status === 401) return 'Token rejected (401). Check it, or rotate the ADMIN_TOKEN secret on the worker.';
     var msg = 'Request failed: HTTP ' + res.status;
-    if (body && body.detail) msg += ' — ' + body.detail;
+    if (body && body.detail) msg += ': ' + body.detail;
     else if (body && body.error) msg += ' (' + body.error + ')';
     return msg;
   }
@@ -419,6 +492,683 @@
     });
   }
 
+  // ---- Store logos: the square and the wide ref (2026-10-08) ----------
+  // A pack's brand carries logo_ref (512 x 512) and logo_wide_ref
+  // (1200 x 400), each a file name in site/assets/logos/. PATCH
+  // /api/packs/<id>/brand takes either key on its own ('' clears it), so
+  // only the key that changed is sent and setting one never touches the other.
+  // The wide logo may also say that it shows the store's name (2026-10-09,
+  // logo_wide_names_store: the app then leaves out the name in text beside
+  // it). That key rides with every logo_wide_ref the page sends, and goes on
+  // its own when only the tick box changed.
+  // Every PATCH also carries logo_ref as a string (lead, 2026-10-09): the new
+  // value when the square changed, else the square ref the page holds for the
+  // pack ('' when it has none). The worker of 2026-10-09 leaves the square
+  // alone either way; a worker from before it reads a body WITHOUT a string
+  // logo_ref as "clear the square logo", so the page never sends one.
+  var LOGO_FIELDS = [
+    { key: 'logo_ref', label: 'Square logo (512 x 512)', example: 'hometown-foods.png', clear: 'Clear square' },
+    { key: 'logo_wide_ref', label: 'Wide logo (1200 x 400)', example: 'hometown-foods-wide.png', clear: 'Clear wide' },
+  ];
+  /** True when the pack (or store record) has a wide logo that is marked as
+      showing the store's name. The flag means nothing without a wide logo. */
+  function wideNamesStore(entry) {
+    return !!(entry && entry.logo_wide_names_store === true && entry.logo_wide_ref);
+  }
+  /** The PATCH body: only the keys whose value changed; null when none did.
+      next.logo_wide_names_store (boolean) is the tick box. Three rules:
+      whenever logo_wide_ref is sent, logo_wide_names_store is sent with it
+      (true or false); a tick box that changed on its own is sent on its own;
+      a changed square logo rides in the same body as logo_ref (a string).
+      With no wide logo after the save the flag is always false. */
+  function brandPatch(current, next) {
+    var body = {}, changed = false;
+    LOGO_FIELDS.forEach(function (f) {
+      var was = String((current && current[f.key]) || '').trim();
+      var now = next && typeof next[f.key] === 'string' ? next[f.key].trim() : was;
+      if (now !== was) { body[f.key] = now; changed = true; }
+    });
+    var wideSent = Object.prototype.hasOwnProperty.call(body, 'logo_wide_ref');
+    var wideNow = wideSent ? body.logo_wide_ref : String((current && current.logo_wide_ref) || '').trim();
+    var namedWas = wideNamesStore(current);
+    // Not stated (no tick box): keep it for the same picture, drop it for a new one.
+    var named = !!wideNow && (next && typeof next.logo_wide_names_store === 'boolean' ? next.logo_wide_names_store : namedWas && !wideSent);
+    if (wideSent || named !== namedWas) { body.logo_wide_names_store = named; changed = true; }
+    return changed ? body : null;
+  }
+  /** What the Set logo button reads: both current refs, or "Set logo". */
+  function logoButtonLabel(current) {
+    var parts = [];
+    if (current && current.logo_ref) parts.push('Logo: ' + current.logo_ref);
+    if (current && current.logo_wide_ref) parts.push('Wide logo: ' + current.logo_wide_ref);
+    return parts.length ? parts.join(' | ') : 'Set logo';
+  }
+  /** The pack row's logo line: the trainer's request and both refs. */
+  function logoNote(entry) {
+    var note = document.createElement('div'); note.className = 'note logo-note';
+    function part(label, value) {
+      if (note.childNodes.length) note.appendChild(document.createTextNode(' \u00b7 '));
+      var b = document.createElement('b'); b.textContent = label;
+      note.appendChild(b);
+      note.appendChild(document.createTextNode(' ' + value));
+    }
+    part('Logo request:', entry.logo_request || '(none)');
+    part('logo:', entry.logo_ref || 'none set');
+    part('wide logo:', (entry.logo_wide_ref || 'none set') + (wideNamesStore(entry) ? ' (shows the store\'s name)' : ''));
+    // Make logo (2026-10-09): when the request was handled, and the owner's
+    // note to the store, each only when there is one.
+    if (typeof entry.logo_done_at === 'number') {
+      part('made:', new Date(entry.logo_done_at).toLocaleDateString() + (entry.logo_source ? ' from ' + entry.logo_source : ''));
+    }
+    if (entry.owner_note) part('note to the store:', entry.owner_note);
+    return note;
+  }
+  /** The Set logo editor: a field for each picture, showing what is set now,
+      each with its own Clear. opts = {packId, current, say(msg, cls), done(),
+      onMake()}. Built with DOM calls and textContent only. One request at a
+      time: a second click while one is on its way sends nothing. */
+  function logoEditor(opts) {
+    var box = document.createElement('div'); box.className = 'logo-editor';
+    var inputs = {};
+    var busy = false;
+    /** The body as it goes out: `body` with logo_ref always there as a
+        string. When `body` does not change the square logo, it carries the
+        pack's own square ref as the page holds it ('' for none): nothing
+        changes on today's worker, and an older worker (which clears the
+        square when the key is missing) is told to keep it. This is the one
+        place every PATCH /brand of this page goes through. */
+    function withSquare(body) {
+      var out = { logo_ref: typeof body.logo_ref === 'string' ? body.logo_ref : String((opts.current && opts.current.logo_ref) || '') };
+      Object.keys(body).forEach(function (k) { out[k] = body[k]; });
+      return out;
+    }
+    function send(body, saved) {
+      if (busy) return;
+      if (needToken()) return;
+      busy = true;
+      opts.say('Saving...');
+      fetch(API + '/packs/' + opts.packId + '/brand', {
+        method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()),
+        body: JSON.stringify(withSquare(body)),
+      }).then(function (res) { return res.json().catch(function () { return null; }).then(function (b) { return { res: res, b: b }; }); })
+        .then(function (r) {
+          busy = false;
+          if (!r.res.ok) { opts.say('Logo not saved. ' + apiError(r.res, r.b), 'err'); return; }
+          opts.say(saved, 'ok'); opts.done();
+        }).catch(function () { busy = false; opts.say('Network error.', 'err'); });
+    }
+    LOGO_FIELDS.forEach(function (f) {
+      var was = (opts.current && opts.current[f.key]) || '';
+      var line = document.createElement('div'); line.className = 'logo-editor-row';
+      var label = document.createElement('label');
+      var name = document.createElement('span'); name.textContent = f.label;
+      var input = document.createElement('input'); input.type = 'text'; input.value = was;
+      input.placeholder = f.example; input.autocomplete = 'off'; input.spellcheck = false;
+      label.appendChild(name); label.appendChild(input);
+      var clear = document.createElement('button'); clear.type = 'button'; clear.className = 'quiet';
+      clear.textContent = f.clear; clear.disabled = !was;
+      clear.onclick = function () {
+        var body = {}; body[f.key] = '';
+        // The flag goes with the wide logo: said in the same body.
+        if (f.key === 'logo_wide_ref') body.logo_wide_names_store = false;
+        send(body, f.label + ' cleared on pack ' + opts.packId + '.');
+      };
+      var now = document.createElement('span'); now.className = 'note logo-now';
+      now.textContent = was ? 'Now: ' + was : 'Now: none set';
+      line.appendChild(label); line.appendChild(clear); line.appendChild(now);
+      box.appendChild(line); inputs[f.key] = input;
+    });
+    // The wide logo's tick box: what the pack says now. Off, and not
+    // tickable, while the pack has no wide logo and none is typed.
+    var namesWas = wideNamesStore(opts.current);
+    var namesWanted = namesWas; // the owner's choice, kept while the field is empty
+    var namesRow = document.createElement('div'); namesRow.className = 'logo-editor-names';
+    var namesLabel = document.createElement('label');
+    var names = document.createElement('input'); names.type = 'checkbox';
+    var namesText = document.createElement('span'); namesText.textContent = 'This logo shows the store\'s name';
+    namesLabel.appendChild(names); namesLabel.appendChild(namesText);
+    var namesNow = document.createElement('span'); namesNow.className = 'note logo-now';
+    namesNow.textContent = namesWas
+      ? 'Now: ticked. On the wide card the app leaves out the store\'s name in text.'
+      : 'Now: not ticked. The app shows the store\'s name in text beside the wide logo.';
+    namesRow.appendChild(namesLabel); namesRow.appendChild(namesNow);
+    function wideTyped() { return String(inputs.logo_wide_ref.value || '').trim() !== ''; }
+    function showNames() { names.disabled = !wideTyped(); names.checked = !names.disabled && namesWanted; }
+    names.onchange = function () { namesWanted = !!names.checked; };
+    inputs.logo_wide_ref.oninput = showNames;
+    showNames();
+    box.appendChild(namesRow);
+    var save = document.createElement('button'); save.type = 'button'; save.textContent = 'Save logos';
+    save.onclick = function () {
+      var next = {};
+      LOGO_FIELDS.forEach(function (f) { next[f.key] = inputs[f.key].value; });
+      next.logo_wide_names_store = wideTyped() && !!names.checked;
+      var body = brandPatch(opts.current, next);
+      if (!body) { opts.say('Nothing changed.'); return; }
+      send(body, 'Logo saved on pack ' + opts.packId + '.');
+    };
+    box.appendChild(save);
+    var help = document.createElement('div'); help.className = 'note';
+    help.textContent = 'File names in site/assets/logos/, for example hometown-foods.png and hometown-foods-wide.png. ' +
+      'Only the logo you change is changed (the square logo\'s name rides with every save, as it is, so nothing can clear it by accident). An empty field clears that logo. ' +
+      'The tick box is about the wide logo named in the field when you save: tick it when that picture shows the store\'s name, ' +
+      'so the app does not print the name a second time beside it.';
+    box.appendChild(help);
+    if (opts.onMake) {
+      // The quick way: the picture from the store's website, or a file.
+      var make = document.createElement('button'); make.type = 'button'; make.className = 'quiet';
+      make.textContent = 'Make logo';
+      make.onclick = function () { opts.onMake(); };
+      box.appendChild(make);
+    }
+    return box;
+  }
+
+  // ---- Make logo (owner, 2026-10-09) -------------------------------------
+  // "We could verify it's an actual website, verify the photo looks good and
+  // logo-oriented, and then create one for them. Be a quick check on our
+  // end." A store types its website in the builder's logo field. Here the
+  // owner sees the website the worker found, picks the picture that is the
+  // store's logo, and one click puts it on the pack. Stores never upload.
+  // Every call carries the token in the Authorization header, never in a
+  // URL. A remote picture comes through the worker and is drawn from a blob
+  // URL. Every server and remote value goes in with textContent.
+  var MAKE_LOGO_ERRORS = {
+    no_token: 'Paste your admin token first.',
+    no_website: 'No website could be read from this request. Type the store\'s website below and press Look again.',
+    bad_url: 'That address cannot be opened by this tool. Use a public web address, like www.store.com.',
+    site_unreachable: 'The website could not be read.',
+    pack_not_found: 'This pack is no longer on the registry. Press Refresh list.',
+    managed_by_store_plan: 'This pack belongs to a Store Plan store. That store sets its own logo on its Store Plan status page, so there is nothing to make here.',
+    not_an_image: 'That address is not a picture this tool can use.',
+    image_too_large: 'That picture is over 3 MB. Use a smaller one.',
+    fetch_failed: 'The picture could not be fetched.',
+    bad_png: 'The server could not read the square picture as a PNG. Pick the picture again.',
+    bad_size: 'The square picture was not 512 x 512. Pick the picture again.',
+    logo_too_large: 'The square picture is too big for the server. Try a simpler picture.',
+    logo_flagged: 'The safety screen refused the square picture. Nothing was saved. Pick a different picture.',
+    bad_wide_png: 'The server could not read the wide picture as a PNG. Pick the picture again.',
+    bad_wide_size: 'The wide picture was not 1200 x 400. Pick the picture again.',
+    wide_logo_too_large: 'The wide picture is too big for the server. Try a simpler picture.',
+    wide_logo_flagged: 'The safety screen refused the wide picture. Nothing was saved. Pick a different picture.',
+    moderation_unavailable: 'The safety screen did not answer, so nothing was saved. Try again in a minute.',
+    // A storage write failed part way (500). The POST is safe to send again.
+    storage_failed: 'Could not save the logo. Try again.',
+    bad_note: 'The note must be plain text of at most 300 characters.',
+  };
+  // Why a website could not be read (the worker's `detail` on a 502
+  // site_unreachable), each in plain words with what to do next.
+  var SITE_UNREACHABLE = {
+    timeout: 'That website took too long to answer. Press Look again in a minute, or use a picture address or a file.',
+    network: 'That website could not be reached. Check the address is spelled right, then press Look again.',
+    unsafe_redirect: 'That website sends visitors on to an address this tool will not open. Open the site yourself, then use a picture address or a file.',
+    too_many_redirects: 'That website kept sending us on to other addresses. Open the site yourself, then use a picture address or a file.',
+    http_error: 'That website refused our request{status}. Open the site yourself, then use a picture address or a file.',
+    not_html: 'That address did not answer with a web page{status}. Type the store\'s home page and press Look again.',
+  };
+  /** One plain sentence for a refused call. r = {ok, status, body}. */
+  function makeLogoError(r) {
+    if (!r || r.status === 0) return 'Network error. Nothing was changed.';
+    if (r.status === 401) return 'Token rejected (401). Check your admin token.';
+    var body = r.body || {};
+    var text = MAKE_LOGO_ERRORS[body.error];
+    if (!text) return 'Request failed: HTTP ' + r.status + (body.error ? ' (' + body.error + ')' : '') + '.';
+    if (body.error === 'site_unreachable' && SITE_UNREACHABLE[body.detail]) {
+      return SITE_UNREACHABLE[body.detail].replace('{status}', body.status ? ' (' + body.status + ')' : '');
+    }
+    if (body.error === 'site_unreachable' || body.error === 'fetch_failed') {
+      if (body.status) text += ' The answer was status ' + body.status + '.';
+      if (body.detail) text += ' (' + body.detail + ')';
+    }
+    if (body.error === 'not_an_image' && body.type) text += ' It is ' + body.type + '.';
+    return text;
+  }
+  // What each kind of picture is, in plain words (the worker's `kind`).
+  var CANDIDATE_KINDS = {
+    'svg-logo': 'Logo on the page (SVG)',
+    'img-logo': 'Logo on the page',
+    'apple-touch-icon': 'Phone home screen icon',
+    'manifest-icon': 'App icon of the site',
+    'og-image': 'Sharing picture',
+    'icon': 'Browser tab icon',
+    'favicon': 'Browser tab icon (favicon.ico)',
+  };
+  /** `v` when it is an http(s) address, else '': a remote value is never
+      trusted as a link target. */
+  function safeWebUrl(v) { return typeof v === 'string' && /^https?:\/\//i.test(v) ? v : ''; }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+  /** A button that cannot fire twice: from the click until its request ends
+      it is off, and a second click sends nothing. run() returns the
+      request's promise, or null when it sent nothing. off() (optional)
+      says whether the button stays off afterwards. */
+  function guarded(btn, run, off) {
+    var busy = false;
+    btn.onclick = function () {
+      if (busy) return;
+      var p = run();
+      if (!p || typeof p.then !== 'function') return;
+      busy = true; btn.disabled = true;
+      var free = function () { busy = false; btn.disabled = off ? !!off() : false; };
+      p.then(free, free);
+    };
+  }
+  /** A call to the admin API: the token in the header, never in the URL.
+      Always resolves {ok, status, body}; status 0 = the network failed. */
+  function adminCall(method, path, body) {
+    var init = { method: method, headers: auth() };
+    if (body !== undefined) { init.headers['Content-Type'] = 'application/json'; init.body = JSON.stringify(body); }
+    return fetch(API + path, init).then(function (res) {
+      return res.text().then(function (t) {
+        var b = null; try { b = t ? JSON.parse(t) : null; } catch (e) {}
+        return { ok: res.ok, status: res.status, body: b };
+      });
+    }).catch(function () { return { ok: false, status: 0, body: null }; });
+  }
+  /** A remote picture through the worker (GET /api/logo/fetch), as a Blob of
+      the type the worker answered with. Resolves {ok: true, blob} or
+      {ok: false, status, body}. The picture's address is the only thing in
+      the URL; the token rides in the header. */
+  function fetchPicture(url) {
+    return fetch(API + '/logo/fetch?url=' + encodeURIComponent(url), { headers: auth() }).then(function (res) {
+      if (!res.ok) {
+        return res.text().then(function (t) {
+          var b = null; try { b = t ? JSON.parse(t) : null; } catch (e) {}
+          return { ok: false, status: res.status, body: b };
+        });
+      }
+      var type = String(res.headers.get('Content-Type') || '').split(';')[0].trim().toLowerCase();
+      return res.blob().then(function (blob) {
+        if (!/^image\//.test(type)) return { ok: false, status: 415, body: { error: 'not_an_image', type: type } };
+        // An SVG is only ever a Blob of type image/svg+xml shown through an
+        // <img>: it cannot run script there, and it is never put in the page.
+        return { ok: true, blob: new Blob([blob], { type: type }) };
+      });
+    }).catch(function () { return { ok: false, status: 0, body: null }; });
+  }
+  // The logo tool (site/assets/store-logo.js: the editor the Store Plan
+  // status page uses) reads its sentences from window.PluedStore. The status
+  // page's store.js is not loaded here, so this page supplies them, in the
+  // owner's words. Loaded on first use.
+  var LOGO_TOOL_TEXT = {
+    logoOnly: 'This tool takes a picture: PNG, JPG, SVG, WebP, GIF or ICO.',
+    logoTooBigFile: 'That picture is {mb} MB. The limit is 5 MB.',
+    logoWorking: 'Preparing the logo...',
+    logoUnreadable: 'This picture could not be opened. Pick another one.',
+    logoBgRemoved: 'The solid background was removed.',
+    logoBgKept: 'The background was kept: it is not one solid color. Look at the previews before you use it.',
+    logoWide: 'This mark is wide, so it goes across the store\'s card as it is. Beside the store\'s name the app shows a small square. For that square, pick one:',
+    logoWideCrop: 'Crop to the symbol',
+    logoWideMonogram: 'Use a monogram',
+    logoCropHelp: 'Drag the square over the symbol. Drag its corner to resize. Arrow keys move it; + and - resize it.',
+    logoCropRole: 'crop square',
+    logoCropAria: 'The part of the picture used for the small square logo',
+    logoInitials: 'Initials (1 or 2)',
+    logoPreview: 'How it looks in the app',
+    logoPreviewWide: 'Across the store\'s card on Home',
+    logoPreviewShelf: 'Beside the store\'s name (36 px badge)',
+    logoPreviewWelcome: 'On the import welcome (72 px badge)',
+    logoAlt: '{store} logo',
+    logoWideAlt: '{store} logo, wide',
+    logoWideSkipped: 'This picture has too much detail for the wide picture, so only the small square logo will be sent.',
+    logoTooDetailed: 'This picture has too much detail to make a logo small enough. Pick a simpler picture.',
+    logoUse: 'Use this logo',
+    logoSaving: 'Sending the logo...',
+    logoDone: 'Logo set.',
+    logoPending: 'Logo set.',
+    logoWideNotKept: 'The wide picture was not kept.',
+    logoWideNamesStore: 'This logo shows the store\'s name',
+  };
+  function logoToolText(key, vars) {
+    var text = LOGO_TOOL_TEXT[key] || '';
+    return text.replace(/\{(\w+)\}/g, function (m, name) { return vars && vars[name] != null ? String(vars[name]) : ''; });
+  }
+  var logoToolLoading = null;
+  function loadLogoTool() {
+    if (window.PluedStoreLogo) return Promise.resolve();
+    if (logoToolLoading) return logoToolLoading;
+    window.PluedStore = { t: logoToolText, esc: esc };
+    logoToolLoading = new Promise(function (resolve, reject) {
+      var tag = document.createElement('script');
+      tag.src = '/assets/store-logo.js';
+      tag.onload = function () { resolve(); };
+      tag.onerror = function () { logoToolLoading = null; reject(new Error('load')); };
+      document.head.appendChild(tag);
+    });
+    return logoToolLoading;
+  }
+
+  /** The Make logo panel for one pack, in the order of the owner's check:
+      the website, the pictures on it, the previews, Use this logo; then
+      Remove logo and the note to the store.
+      opts = {entry, managed, refresh(), close()}. Built with DOM calls and
+      textContent only; no remote value is ever parsed as HTML. */
+  function makeLogoPanel(opts) {
+    var entry = opts.entry;
+    var packId = entry.pack_id;
+    var store = entry.store_name || '(unnamed)';
+    var box = el('div', 'make-logo');
+    var urls = [];
+    function blobUrl(blob) { var u = URL.createObjectURL(blob); urls.push(u); return u; }
+    box.cleanup = function () { urls.forEach(function (u) { URL.revokeObjectURL(u); }); urls = []; };
+
+    var head = el('div', 'ml-head');
+    head.appendChild(el('h2', '', 'Make logo: ' + store));
+    var close = el('button', 'quiet', 'Close'); close.type = 'button';
+    close.onclick = function () { opts.close(); };
+    head.appendChild(close);
+    box.appendChild(head);
+    box.appendChild(el('div', 'note ml-line', 'Pack ' + packId));
+    box.appendChild(el('div', 'ml-line', 'The store wrote: ' + (entry.logo_request || '(no logo request on this pack)')));
+    var nowLine = el('div', 'note ml-line');
+    function showNow() {
+      nowLine.textContent = 'On the pack now: square logo ' + (entry.logo_ref || 'none') + ', wide logo ' + (entry.logo_wide_ref || 'none') +
+        (wideNamesStore(entry) ? ' (shows the store\'s name)' : '') +
+        (typeof entry.logo_done_at === 'number' ? '. Made here ' + new Date(entry.logo_done_at).toLocaleString() + (entry.logo_source ? ' from ' + entry.logo_source : '') : '') + '.';
+    }
+    showNow();
+    box.appendChild(nowLine);
+
+    var logoParts = el('div');
+    box.appendChild(logoParts);
+    function showManaged() {
+      logoParts.textContent = '';
+      logoParts.appendChild(el('p', 'ml-line ml-managed', MAKE_LOGO_ERRORS.managed_by_store_plan));
+    }
+    var status = el('div', 'note ml-status'); status.setAttribute('role', 'status');
+    function say(msg, cls) { status.textContent = msg || ''; status.className = 'note ml-status' + (cls ? ' ' + cls : ''); }
+
+    // 1. The website: is it the store's own site?
+    var site = el('div', 'ml-part');
+    site.appendChild(el('h3', '', '1. The website'));
+    var siteInfo = el('div');
+    site.appendChild(siteInfo);
+    var siteRow = el('div', 'ml-row');
+    var siteLabel = el('label'); siteLabel.appendChild(el('span', '', 'A different website'));
+    var siteInput = el('input'); siteInput.type = 'text'; siteInput.placeholder = 'www.store.com';
+    siteInput.autocomplete = 'off'; siteInput.spellcheck = false;
+    siteLabel.appendChild(siteInput);
+    var again = el('button', 'quiet', 'Look again'); again.type = 'button';
+    siteRow.appendChild(siteLabel); siteRow.appendChild(again);
+    site.appendChild(siteRow);
+
+    // 2. The pictures found there, most logo-like first, and two other ways in.
+    var pics = el('div', 'ml-part');
+    pics.appendChild(el('h3', '', '2. Pick the picture that is the store\'s logo'));
+    var tilesNote = el('div', 'note ml-line');
+    var tiles = el('div', 'ml-tiles');
+    pics.appendChild(tilesNote); pics.appendChild(tiles);
+
+    var picked = null; // {source}: the picture's address, or 'file'
+    var pressed = null;
+    var sentWide = false;
+    var sentNames = false; // the tick box "This logo shows the store's name", as sent
+    var tool = null;
+    var toolHost = el('div'); toolHost.id = 'mlTool';
+    var pickedLine = el('div', 'note ml-line');
+
+    function sendLogo(b) {
+      if (needToken()) return Promise.resolve({ ok: false, status: 400, body: { error: 'no_token' } });
+      var body = { png: b.png, source: picked ? picked.source : 'file' };
+      sentWide = !!b.wide_png;
+      if (b.wide_png) body.wide_png = b.wide_png;
+      // The tool's tick box (drawn only with a wide picture, not ticked to
+      // begin with): true only when ticked AND a wide picture is in this
+      // body; the key is left out otherwise.
+      sentNames = sentWide && b.wide_names_store === true;
+      if (sentNames) body.wide_names_store = true;
+      return adminCall('POST', '/packs/' + packId + '/logo', body).then(function (r) {
+        if (!r.ok && r.body && r.body.error === 'managed_by_store_plan') showManaged();
+        return r;
+      });
+    }
+    function saved(answer) {
+      entry = Object.assign({}, entry, {
+        logo_ref: answer.logo_ref || '', logo_wide_ref: answer.logo_wide_ref || '',
+        logo_done_at: Date.now(), logo_source: picked ? picked.source : 'file',
+      });
+      // No write echoes the flag: it is what this page sent, and only while
+      // the answer names a wide logo.
+      if (sentNames && answer.logo_wide_ref) entry.logo_wide_names_store = true; else delete entry.logo_wide_names_store;
+      showNow();
+      remove.disabled = false;
+      say('Logo set on ' + store + ': square ' + (answer.logo_ref || '(no name)') +
+        (answer.logo_wide_ref ? ', wide ' + answer.logo_wide_ref + (sentNames ? ', marked as showing the store\'s name.' : '.')
+          : sentWide ? '. The wide picture was sent but the server did not keep it, so only the square is set.'
+            : '. No wide picture could be made from this one, so only the square is set.') +
+        ' Cashiers get it the next time their pack updates.', 'ok');
+      opts.refresh();
+    }
+    /** The picture the owner chose: a Blob from the worker or his own file. */
+    function pick(blob, source, button) {
+      if (pressed) pressed.setAttribute('aria-pressed', 'false');
+      pressed = button || null;
+      if (pressed) pressed.setAttribute('aria-pressed', 'true');
+      picked = { source: source };
+      pickedLine.textContent = 'Picked: ' + (source === 'file' ? 'a file from this computer' : source);
+      say('');
+      loadLogoTool().then(function () {
+        // The SAME tool the status page uses: background knockout, the
+        // square choices for a wide mark, the wide picture, three previews.
+        if (!tool) {
+          tool = window.PluedStoreLogo.mount(toolHost, {
+            bare: true, anyImage: true, consent: false, s: { store: store },
+            send: sendLogo, errorText: makeLogoError, onSaved: saved,
+          });
+        }
+        tool.take(blob);
+      }, function () { say('The logo tool did not load. Reload the page and try again.', 'err'); });
+    }
+    function tile(c) {
+      var address = String(c && c.url || '');
+      var b = el('button', 'ml-tile'); b.type = 'button'; b.disabled = true;
+      b.setAttribute('aria-pressed', 'false');
+      var thumb = el('span', 'ml-thumb');
+      thumb.appendChild(el('span', 'note', 'Loading...'));
+      b.appendChild(thumb);
+      b.appendChild(el('span', 'ml-kind', CANDIDATE_KINDS[c && c.kind] || 'Picture'));
+      b.appendChild(el('span', 'ml-addr', address));
+      fetchPicture(address).then(function (r) {
+        thumb.textContent = '';
+        if (!r.ok) {
+          thumb.appendChild(el('span', 'note', 'No picture'));
+          b.appendChild(el('span', 'ml-addr err', makeLogoError(r)));
+          return;
+        }
+        var img = el('img'); img.alt = '';
+        img.src = blobUrl(r.blob);
+        thumb.appendChild(img);
+        b.disabled = false;
+        b.onclick = function () { pick(r.blob, address, b); };
+      });
+      return b;
+    }
+    var looks = 0;
+    function look(url) {
+      if (needToken()) return null;
+      var mine = ++looks;
+      siteInfo.textContent = ''; tiles.textContent = ''; tilesNote.textContent = '';
+      siteInfo.appendChild(el('div', 'note ml-line', 'Looking at the website...'));
+      return adminCall('GET', '/packs/' + packId + '/logo/candidates' + (url ? '?url=' + encodeURIComponent(url) : '')).then(function (r) {
+        if (mine !== looks) return;
+        siteInfo.textContent = '';
+        if (!r.ok) { siteInfo.appendChild(el('div', 'note err ml-line', makeLogoError(r))); return; }
+        var found = (r.body && r.body.site) || {};
+        var address = safeWebUrl(found.final_url) || safeWebUrl(found.url);
+        siteInfo.appendChild(el('div', 'ml-line', 'Title: ' + (found.title || '(no title)')));
+        siteInfo.appendChild(el('div', 'ml-line', 'Address: ' + (found.final_url || found.url || '(unknown)')));
+        siteInfo.appendChild(el('div', 'note ml-line', 'The site answered with status ' + (found.status || '?') +
+          '. Open it and check it is this store\'s own site before you pick a picture.'));
+        if (address) {
+          var open = el('a', 'open-site', 'Open site');
+          open.href = address; open.target = '_blank'; open.rel = 'noopener';
+          siteInfo.appendChild(open);
+        }
+        var list = r.body && Array.isArray(r.body.candidates) ? r.body.candidates : [];
+        // The worker always ends the list with a guess at /favicon.ico (not
+        // checked to exist), so "only a favicon" means no logo was found.
+        var real = list.filter(function (c) { return c && c.kind !== 'favicon'; });
+        tilesNote.textContent = real.length
+          ? list.length + (list.length === 1 ? ' picture' : ' pictures') + ' found on the home page, the most logo-like first.'
+          : 'The site answered, but no logo picture was found on its home page. Use a picture address or a file below.' +
+            (list.length ? ' The one picture here is a guess at the site\'s browser tab icon: it may not exist, and it is rarely good enough for a logo.' : '');
+        list.forEach(function (c) { tiles.appendChild(tile(c)); });
+      });
+    }
+    guarded(again, function () {
+      var v = siteInput.value.trim();
+      if (!v) { siteInfo.textContent = ''; siteInfo.appendChild(el('div', 'note err ml-line', 'Type a website first.')); return null; }
+      return look(v);
+    });
+
+    // A picture address: for a logo that is on another page of the site.
+    var addrRow = el('div', 'ml-row');
+    var addrLabel = el('label'); addrLabel.appendChild(el('span', '', 'Use a picture address'));
+    var addrInput = el('input'); addrInput.type = 'text'; addrInput.placeholder = 'https://www.store.com/logo.png';
+    addrInput.autocomplete = 'off'; addrInput.spellcheck = false;
+    addrLabel.appendChild(addrInput);
+    var addrBtn = el('button', 'quiet', 'Get picture'); addrBtn.type = 'button';
+    var addrNote = el('div', 'note ml-line');
+    addrRow.appendChild(addrLabel); addrRow.appendChild(addrBtn);
+    guarded(addrBtn, function () {
+      var v = addrInput.value.trim();
+      if (!v) { addrNote.textContent = 'Type the picture\'s address first.'; addrNote.className = 'note err ml-line'; return null; }
+      if (needToken()) return null;
+      addrNote.textContent = 'Getting the picture...'; addrNote.className = 'note ml-line';
+      return fetchPicture(v).then(function (r) {
+        if (!r.ok) { addrNote.textContent = makeLogoError(r); addrNote.className = 'note err ml-line'; return; }
+        addrNote.textContent = '';
+        pick(r.blob, v, null);
+      });
+    });
+    // A file: for a logo the store sent some other way, or one you cleaned up.
+    var fileRow = el('div', 'ml-row');
+    var fileLabel = el('label'); fileLabel.appendChild(el('span', '', 'Use a file from this computer'));
+    var fileInput = el('input'); fileInput.type = 'file'; fileInput.accept = 'image/*,.svg';
+    fileLabel.appendChild(fileInput);
+    fileInput.onchange = function () { var f = fileInput.files && fileInput.files[0]; if (f) pick(f, 'file', null); };
+    fileRow.appendChild(fileLabel);
+    pics.appendChild(addrRow); pics.appendChild(addrNote); pics.appendChild(fileRow);
+    pics.appendChild(el('div', 'note ml-line', 'A file stays in this browser. Only the finished logo is sent, when you press Use this logo.'));
+
+    // 3. The previews (wide band, 36 px badge, 72 px badge, on cream) and Use this logo.
+    var make = el('div', 'ml-part');
+    make.appendChild(el('h3', '', '3. Check the previews, then use it'));
+    make.appendChild(el('div', 'note ml-line', 'Is it the store\'s logo, and does it read well in the small badge? Then press Use this logo.'));
+    make.appendChild(pickedLine);
+    make.appendChild(toolHost);
+    make.appendChild(status);
+    var remove = el('button', 'danger', 'Remove logo'); remove.type = 'button';
+    function noLogo() { return !(entry.logo_ref || entry.logo_wide_ref); }
+    remove.disabled = noLogo();
+    guarded(remove, function () {
+      if (needToken()) return null;
+      if (!confirm('Remove the logo from "' + store + '"?\n\nBoth pictures, the square and the wide one, come off the pack. Cashiers lose them the next time their pack updates.')) return null;
+      say('Removing the logo...');
+      return adminCall('DELETE', '/packs/' + packId + '/logo').then(function (r) {
+        if (!r.ok) {
+          if (r.body && r.body.error === 'managed_by_store_plan') showManaged();
+          say(makeLogoError(r), 'err');
+          return;
+        }
+        entry = Object.assign({}, entry, { logo_ref: '', logo_wide_ref: '' });
+        delete entry.logo_done_at; delete entry.logo_source; delete entry.logo_wide_names_store;
+        showNow();
+        say('Logo removed from ' + store + '.', 'ok');
+        opts.refresh();
+      });
+    }, noLogo);
+    var removeRow = el('div', 'ml-row'); removeRow.appendChild(remove);
+    make.appendChild(removeRow);
+
+    if (opts.managed) showManaged();
+    else { logoParts.appendChild(site); logoParts.appendChild(pics); logoParts.appendChild(make); }
+
+    // The note back to the store: no email is collected, so the builder
+    // shows this when the store opens its pack.
+    var notePart = el('div', 'ml-part');
+    notePart.appendChild(el('h3', '', 'Note to the store'));
+    var noteNow = el('div', 'ml-line');
+    function showNote() {
+      noteNow.textContent = entry.owner_note
+        ? 'Set now: ' + entry.owner_note + (typeof entry.owner_note_at === 'number' ? ' (' + new Date(entry.owner_note_at).toLocaleString() + ')' : '')
+        : 'Set now: no note.';
+    }
+    var noteInput = el('textarea'); noteInput.maxLength = 300; noteInput.rows = 3;
+    noteInput.value = entry.owner_note || '';
+    noteInput.setAttribute('aria-label', 'Note to the store, plain text, up to 300 characters');
+    var noteCount = el('div', 'note ml-line');
+    function showCount() { noteCount.textContent = noteInput.value.length + ' of 300 characters'; }
+    noteInput.oninput = showCount;
+    var noteSave = el('button', '', 'Save note'); noteSave.type = 'button';
+    var noteClear = el('button', 'quiet', 'Clear'); noteClear.type = 'button';
+    var noteStatus = el('div', 'note ml-line'); noteStatus.setAttribute('role', 'status');
+    function noteSay(msg, cls) { noteStatus.textContent = msg || ''; noteStatus.className = 'note ml-line' + (cls ? ' ' + cls : ''); }
+    function noNote() { return !entry.owner_note; }
+    function sendNote(text, done) {
+      if (needToken()) return null;
+      if (text.length > 300) { noteSay(MAKE_LOGO_ERRORS.bad_note, 'err'); return null; }
+      noteSay('Saving the note...');
+      return adminCall('PATCH', '/packs/' + packId + '/note', { note: text }).then(function (r) {
+        if (!r.ok) { noteSay(makeLogoError(r), 'err'); return; }
+        var note = r.body && typeof r.body.note === 'string' ? r.body.note : text;
+        entry = Object.assign({}, entry, { owner_note: note, owner_note_at: r.body && r.body.note_at });
+        if (!note) { delete entry.owner_note; delete entry.owner_note_at; }
+        noteInput.value = note; showCount(); showNote();
+        noteClear.disabled = noNote();
+        noteSay(done, 'ok');
+        opts.refresh();
+      });
+    }
+    guarded(noteSave, function () {
+      var text = noteInput.value.trim();
+      if (!text) { noteSay('Type a note first. To take the note away, press Clear.', 'err'); return null; }
+      return sendNote(text, 'Note saved. The store sees it the next time it opens its pack in the builder.');
+    });
+    noteClear.disabled = noNote();
+    guarded(noteClear, function () { return sendNote('', 'Note cleared.'); }, noNote);
+    showNote(); showCount();
+    var noteRow = el('div', 'ml-row'); noteRow.appendChild(noteSave); noteRow.appendChild(noteClear);
+    notePart.appendChild(noteNow); notePart.appendChild(noteInput); notePart.appendChild(noteCount);
+    notePart.appendChild(noteRow); notePart.appendChild(noteStatus);
+    notePart.appendChild(el('div', 'note ml-line', 'The store sees this note in the builder the next time it opens its pack. Plain text, up to 300 characters.'));
+    box.appendChild(notePart);
+
+    if (!opts.managed) look('');
+    return box;
+  }
+
+  var makeLogoCard = document.getElementById('makeLogo');
+  var makeLogoBox = null; // the open panel
+  var makeLogoPack = ''; // the pack it is for
+  var storeByPack = {}; // pack id -> its Store Plan store (filled by the Stores tab)
+  function closeMakeLogo() {
+    if (makeLogoBox && makeLogoBox.cleanup) makeLogoBox.cleanup();
+    makeLogoBox = null; makeLogoPack = '';
+    makeLogoCard.textContent = '';
+    makeLogoCard.hidden = true;
+  }
+  /** Opens Make logo for a pack (one panel at a time), below the packs. */
+  function openMakeLogo(entry) {
+    closeMakeLogo();
+    makeLogoPack = entry.pack_id;
+    makeLogoBox = makeLogoPanel({
+      entry: entry, managed: !!storeByPack[entry.pack_id],
+      refresh: function () { load(); }, close: closeMakeLogo,
+    });
+    makeLogoCard.appendChild(makeLogoBox);
+    makeLogoCard.hidden = false;
+    if (makeLogoCard.scrollIntoView) makeLogoCard.scrollIntoView({ behavior: 'smooth' });
+  }
+  /** An open logo request: asked for, not handled yet, no logo on the pack. */
+  function logoRequestOpen(entry) {
+    return !!entry.logo_request && typeof entry.logo_done_at !== 'number' && !entry.logo_ref && !entry.logo_wide_ref;
+  }
+
   function row(entry) {
     var tr = document.createElement('tr');
     var flags = '';
@@ -429,19 +1179,31 @@
     if ((entry.reports || 0) > 0) {
       flags += '<span class="badge reports">REPORTS: ' + entry.reports + '</span>';
     }
-    if (entry.logo_request || entry.logo_ref) {
-      // Store branding: the trainer's logo request + the owner-set ref.
-      flags += '<div class="note"><b>Logo request:</b> ' + esc(entry.logo_request || '(none)') +
-        (entry.logo_ref ? ' &middot; <b>logo:</b> ' + esc(entry.logo_ref) : ' &middot; no logo set') + '</div>';
-    }
+    // Store branding: the trainer's logo request and both refs on the pack
+    // (logoNote, textContent only), appended below.
+    var hasLogo = !!(entry.logo_request || entry.logo_ref || entry.logo_wide_ref);
     var hasRequest = !!entry.graphic_requests;
     tr.innerHTML =
       '<td>' + esc(entry.store_name || '(unnamed)') +
         '<div class="id">' + esc(entry.pack_id) + '</div></td>' +
       '<td>' + (entry.codes_count || 0) + '</td>' +
       '<td>' + new Date(entry.received_at).toLocaleString() + '</td>' +
-      '<td class="flags">' + (flags || (hasRequest ? '' : '<span class="note">none</span>')) + '</td>' +
+      '<td class="flags">' + (flags || (hasRequest || hasLogo ? '' : '<span class="note">none</span>')) + '</td>' +
       '<td class="actions"></td>';
+    if (entry.logo_request) {
+      // The logo request's state at a glance, then Make logo right there.
+      var lb = document.createElement('span');
+      lb.className = logoRequestOpen(entry) ? 'badge request' : 'badge request-done';
+      lb.textContent = logoRequestOpen(entry) ? 'LOGO REQUEST' : 'LOGO REQUEST DONE';
+      tr.querySelector('.flags').appendChild(lb);
+    }
+    if (hasLogo) tr.querySelector('.flags').appendChild(logoNote(entry));
+    if (entry.logo_request) {
+      var mk = document.createElement('button'); mk.type = 'button'; mk.className = 'make-logo-open';
+      mk.textContent = 'Make logo';
+      mk.onclick = function () { openMakeLogo(entry); };
+      tr.querySelector('.flags').appendChild(mk);
+    }
     if (hasRequest) tr.querySelector('.flags').appendChild(requestBlock(entry));
     var actions = tr.querySelector('.actions');
 
@@ -467,19 +1229,17 @@
       }).catch(function () { setStatus('Network error.', 'err'); });
     };
 
-    // Store branding: set / clear the curated logo ref (PATCH, Bearer).
+    // Store branding: set / clear the curated logo refs, the square and the
+    // wide one, each on its own (PATCH, Bearer). The button opens the editor
+    // in the flags cell and closes it again.
     var logo = document.createElement('button');
-    logo.textContent = entry.logo_ref ? 'Logo: ' + entry.logo_ref : 'Set logo';
+    logo.textContent = logoButtonLabel(entry);
     logo.className = 'secondary';
     logo.addEventListener('click', function () {
-      var ref = prompt('Logo file name in site/assets/logos/ (e.g. smiths-topeka.png). Leave empty to clear.', entry.logo_ref || '');
-      if (ref === null) return;
-      fetch(API + '/packs/' + entry.pack_id + '/brand', {
-        method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()),
-        body: JSON.stringify({ logo_ref: ref.trim() }),
-      }).then(function (res) { return res.json().then(function (b) { return { ok: res.ok, b: b }; }); })
-        .then(function (r) { if (!r.ok) { alert('Not saved: ' + (r.b.error || 'request failed')); return; } load(); })
-        .catch(function (e) { alert('Not saved: ' + e); });
+      var cell = tr.querySelector('.flags');
+      var open = cell.querySelector('.logo-editor');
+      if (open) { open.remove(); return; }
+      cell.appendChild(logoEditor({ packId: entry.pack_id, current: entry, say: setStatus, done: function () { load(); }, onMake: function () { openMakeLogo(entry); } }));
     });
     actions.appendChild(logo);
     var del = document.createElement('button');
@@ -499,6 +1259,7 @@
           viewer.hidden = true;
           delete viewer.dataset.packId;
         }
+        if (makeLogoPack === entry.pack_id) closeMakeLogo();
         load();
       }).catch(function () { setStatus('Network error.', 'err'); });
     };
@@ -510,6 +1271,7 @@
   }
 
   // `note` (optional): a line to leave on screen once the list has reloaded.
+  var packById = {}; // the packs as last loaded (the Stores tab reads a pack's logos from it)
   function load(note) {
     if (needToken()) return;
     setStatus('Loading…');
@@ -517,7 +1279,8 @@
       if (!res.ok) { setStatus(apiError(res), 'err'); table.hidden = true; return; }
       res.json().then(function (entries) {
         tbody.innerHTML = '';
-        entries.forEach(function (e) { tbody.appendChild(row(e)); });
+        packById = {};
+        entries.forEach(function (e) { packById[e.pack_id] = e; tbody.appendChild(row(e)); });
         table.hidden = false;
         renderRequests(entries);
         // Owner: nothing to digest -> no send button.
@@ -580,12 +1343,17 @@
   function logoCell(s) {
     if (!s.logo_ref) return '';
     return '<div class="store-logo"><span class="logo-badge"><img src="/assets/logos/' + encodeURIComponent(s.logo_ref) + '" alt="' + esc(s.store) + ' logo" width="29" height="29"></span>' +
+      // The wide picture (2026-10-08), when the upload made one.
+      (s.logo_wide_ref ? '<span class="logo-band"><img src="/assets/logos/' + encodeURIComponent(s.logo_wide_ref) + '" alt="' + esc(s.store) + ' wide logo" width="96" height="32"></span>' : '') +
       '<span class="note">logo added (' + esc(s.logo_source || 'upload') + ')' + (s.logo_at ? ' ' + esc(fmtDay(s.logo_at)) : '') +
+      (s.logo_wide_ref ? ', with a wide logo' + (wideNamesStore(s) ? ' that shows the store\'s name' : '') : ', no wide logo') +
       (s.logo_live ? '' : ', waiting for a pack') + '</span></div>';
   }
 
   function renderStores(stores) {
     storeRows.innerHTML = '';
+    storeByPack = {};
+    stores.forEach(function (s) { if (s.pack_id) storeByPack[s.pack_id] = s; });
     storesTable.hidden = stores.length === 0;
     document.getElementById('storesEmpty').hidden = stores.length > 0;
     stores.forEach(function (s) {
@@ -631,7 +1399,7 @@
         // Automatic store logos (2026-10-05): the manager's upload, removable here.
         var rmLogo = document.createElement('button'); rmLogo.className = 'danger logo-remove'; rmLogo.textContent = 'Remove logo';
         rmLogo.onclick = function () {
-          if (!confirm('Remove the logo of "' + s.store + '"?\n\nIt comes off the store\'s pack (cashiers lose it on their next pack update) and the "Add your logo" step reopens. The store can upload again.')) return;
+          if (!confirm('Remove the logo of "' + s.store + '"?\n\nBoth pictures, the square and the wide one, come off the store\'s pack (cashiers lose them on their next pack update) and the "Add your logo" step reopens. The store can upload again.')) return;
           setStoresStatus('Removing the logo of ' + s.store + '...');
           storeApi('/store/' + s.token + '/logo', 'DELETE').then(function (r) {
             if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
@@ -699,12 +1467,22 @@
           logo.textContent = s.pack_id ? 'Set logo' : 'Set logo (no pack yet)';
           logo.disabled = !s.pack_id;
           logo.onclick = function () {
-            var ref = prompt('Logo file name in site/assets/logos/ (e.g. hometown-foods.png). Leave empty to clear.', '');
-            if (ref === null) return;
-            fetch(API + '/packs/' + s.pack_id + '/brand', { method: 'PATCH', headers: Object.assign({ 'Content-Type': 'application/json' }, auth()), body: JSON.stringify({ logo_ref: ref.trim() }) })
-              .then(function (res) { return res.json().then(function (b) { return { ok: res.ok, b: b }; }); })
-              .then(function (x) { if (!x.ok) { setStoresStatus('Logo not saved: ' + (x.b.error || 'request failed'), 'err'); return; } setStoresStatus('Logo set on pack ' + s.pack_id + '.', 'ok'); loadStores(); load(); })
-              .catch(function () { setStoresStatus('Network error.', 'err'); });
+            // Only the pack's OWN refs, from the packs list (a hand-set logo
+            // lives on the pack, not on the store record). The store
+            // record's refs are never shown as the pack's: when the packs
+            // list does not have this pack yet, the editor does not open.
+            var cell = row.children[5];
+            var open = cell.querySelector('.logo-editor');
+            if (open) { open.remove(); return; }
+            var pack = packById[s.pack_id];
+            if (!pack) {
+              setStoresStatus('This pack\'s logos are not loaded yet. Press Refresh list, then Set logo again.', 'err');
+              return;
+            }
+            cell.appendChild(logoEditor({
+              packId: s.pack_id, current: pack,
+              say: setStoresStatus, done: function () { loadStores(); load(); },
+            }));
           };
           row.children[5].appendChild(logo);
         }

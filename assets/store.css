@@ -233,6 +233,11 @@
 .logo-preview { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 28px; margin: 10px 0 6px; padding: 16px 18px; border: 1px dashed var(--border); border-radius: 14px; background: var(--paper); }
 .logo-preview-item { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; }
 .logo-preview-item small { color: var(--muted); font-size: 0.82rem; }
+/* The wide logo (2026-10-08) on the app's cream card band: a phone card's
+   width (320 px, 3:1), narrower when the page is. Its own full row. */
+.logo-preview-wide { flex: 1 1 100%; }
+.logo-band { display: block; box-sizing: border-box; width: 320px; max-width: 100%; aspect-ratio: 3 / 1; border: 1px solid #e5d9c3; border-radius: 14px; background: #faf6ee; overflow: hidden; }
+.logo-band img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .logo-shelf { display: inline-flex; align-items: center; gap: 10px; max-width: 100%; min-width: 0; }
 .logo-shelf b { font-family: "Fraunces", Georgia, serif; font-size: 1.05rem; color: var(--ink); overflow-wrap: anywhere; }
 .logo-current { margin-bottom: 10px; }

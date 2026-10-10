@@ -16,8 +16,13 @@
   <meta property="og:title" content="PLUzzle - the daily produce puzzle">
   <meta property="og:description" content="One produce item a day. Six tries to get the code. Free forever, no account. Play it in your browser.">
   <meta property="og:url" content="https://plued.app/play/">
-  <meta property="og:image" content="https://plued.app/assets/img/og_card.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- A shared result carries this link inside its text. Where an app still
+       draws a preview for it, the preview is the compact one: the small square
+       app icon and a summary card, never the large picture card. -->
+  <meta property="og:image" content="https://plued.app/assets/img/app-icon.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
   <link rel="stylesheet" href="/assets/site.css?v=595e2380">
