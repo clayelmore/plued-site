@@ -31,6 +31,21 @@
         "sha256": "4cddc30adc8e5a2962d3953fc8603434798829aec5bc1027ac4f2246be06ccb2"
       }
     },
+    "cacao_pod.png": {
+      "full": {
+        "bytes": 28079,
+        "path": "assets/travel/cacao_pod.png",
+        "px": 256,
+        "sha256": "a07fe647e0d8621d85214a8549e9b2ae75d66927557ec2e2cea0b426a2ea4da6"
+      },
+      "since": 96,
+      "small": {
+        "bytes": 12093,
+        "path": "assets/travel/small/cacao_pod.png",
+        "px": 160,
+        "sha256": "51ecb605832be9d8dff4b2ed83d4cf5b606dadb3e64e70f80e1745ff03d691f1"
+      }
+    },
     "chilacayota.png": {
       "full": {
         "bytes": 21907,

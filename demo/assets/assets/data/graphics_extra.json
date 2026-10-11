@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies.",
+  "version": 4,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa).",
   "items": [
     {
       "id": "jocote",
@@ -536,6 +536,32 @@
       ],
       "desc": "Green sour plums are small, hard, unripe plums about the size of a cherry tomato or a large grape, round to slightly oval, each with a faint seam running down one side. The skin is thin, taut, smooth, and glossy, an even bright emerald to grass green with no yellow, no blush, and no dusty bloom. They are far smaller, shinier, and greener than a ripe green plum or a green plumcot, and each is a separate loose fruit. A few carry a tiny thin green stalk; most have none. They are sold loose by the pound, shown as a small pile of about twelve plums sitting fully inside the frame with every plum whole and visible.",
       "since": 94
+    },
+    {
+      "id": "cacao_pod",
+      "name": "Cacao Pod",
+      "category": "fruit",
+      "section": "Tropical & Exotic",
+      "image": "cacao_pod.png",
+      "aliases": [
+        "cacao",
+        "cacao pods",
+        "cocoa pod",
+        "cocoa pods",
+        "cacao beans",
+        "cocoa beans",
+        "cacao fruit",
+        "cocoa fruit",
+        "fresh cacao",
+        "Theobroma cacao",
+        "cacao fresco",
+        "fruta de cacao",
+        "cacao en fruta",
+        "fruto de cacao",
+        "vaina de cacao"
+      ],
+      "desc": "A cacao pod is a large, heavy fruit about 20 to 25 cm long and 9 cm wide, shaped like an elongated football: widest just below the middle, tapering to a blunt point at the tip, with a short, thick, woody stem stub at the other end. Ten deep furrows run lengthwise from the stem to the tip, with rounded ridges between them. The husk is thick, hard, leathery and matte, rough and bumpy with small warts along the ridges, never smooth or glossy. The color is a ripe deep red-maroon to red-brown, with orange-red patches on the ridges and orange-yellow showing in the furrows, and a few small dark brown scuffs. It is sold whole by the each, shown as one whole, closed pod, never cut or opened, with no leaves, lying at a slight diagonal and sitting fully inside the frame with both ends visible.",
+      "since": 96
     }
   ]
 }

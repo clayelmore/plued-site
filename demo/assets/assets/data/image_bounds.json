@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1109,
+  "image_count": 1110,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -1053,6 +1053,12 @@
       "top": 0.03125,
       "right": 0.78515625,
       "bottom": 0.96484375
+    },
+    "cacao_pod.png": {
+      "left": 0.0234375,
+      "top": 0.18359375,
+      "right": 0.990234375,
+      "bottom": 0.81640625
     },
     "cactus_leaves.png": {
       "left": 0.220703125,

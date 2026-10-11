@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -4513,6 +4513,39 @@
         "es": "Repollo puntiagudo de verano"
       },
       "concept": "cabbage_summer_pointed"
+    },
+    {
+      "id": "cacao_pod",
+      "plu": "",
+      "name": "Cacao Pod",
+      "category": "fruit",
+      "aliases": [
+        "cacao",
+        "cacao pods",
+        "cocoa pod",
+        "cocoa pods",
+        "cacao beans",
+        "cocoa beans",
+        "cacao fruit",
+        "cocoa fruit",
+        "fresh cacao",
+        "Theobroma cacao",
+        "cacao fresco",
+        "fruta de cacao",
+        "cacao en fruta",
+        "fruto de cacao",
+        "vaina de cacao"
+      ],
+      "image": "cacao_pod.png",
+      "desc": "a cacao pod is a large, heavy fruit about 20 to 25 cm long and 9 cm wide, shaped like an elongated football: widest just below the middle, tapering to a blunt point at the tip, with a short, thick, woody stem stub at the other end. ten deep furrows run lengthwise from the stem to the tip, with rounded ridges between them. the husk is thick, hard, leathery and matte, rough and bumpy with small warts along the ridges, never smooth or glossy. the color is a ripe deep red-maroon to red-brown, with orange-red patches on the ridges and orange-yellow showing in the furrows, and a few small dark brown scuffs. it is sold whole by the each, shown as one whole, closed pod, never cut or opened, with no leaves, lying at a slight diagonal and sitting fully inside the frame with both ends visible.",
+      "section": "Tropical & Exotic",
+      "size": "",
+      "since": 96,
+      "search": {
+        "names": "Kakaofrucht|Kakaofrüchte|Kakao|cabosse|cabosses|cabosse de cacao|cacao|cacau|cacaus|cabossa|owoc kakaowca|owoce kakaowca|kakaowiec|kakaowiec właściwy",
+        "family": "",
+        "words": ""
+      }
     },
     {
       "id": "cactus_leaves",
