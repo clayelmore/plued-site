@@ -33,20 +33,20 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Published methodology</span><h1>How the Density Score works.</h1><p>Every produce item in PLUed carries a score from 0 to 99 that says how nutrient-rich it is, compared with other produce. This page is the whole recipe: the data, the math, and the published research we tested it against.</p><div class="legal-meta"><span class="tag-chip">Methodology version 1 &middot; August 2026</span></div></div>
+      <div><span class="eyebrow">Published methodology</span><h1>How the Density Score works.</h1><p>Nearly every produce item in PLUed carries a score from 0 to 99 that says how nutrient-rich it is, compared with other produce. This page is the whole recipe: the data, the math, and the published research we tested it against.</p><div class="legal-meta"><span class="tag-chip">Methodology version 2 &middot; September 2026</span></div></div>
       <img class="page-produce" src="/assets/img/green_cabbage.png" alt="Green cabbage">
     </div></section>
     <div class="chalk-divider"></div>
 
     <div class="shell docs-layout">
-      <aside class="toc" aria-label="Methodology contents"><strong>On this page</strong><nav><a href="#scale">Read this first</a><a href="#score">The score</a><a href="#data">The data</a><a href="#bands">The bands</a><a href="#evidence">The evidence</a><a href="#limits">Honest limits</a></nav></aside>
+      <aside class="toc" aria-label="Methodology contents"><strong>On this page</strong><nav><a href="#scale">Read this first</a><a href="#score">The score</a><a href="#data">The data</a><a href="#bands">The bands</a><a href="#inapp">In the app</a><a href="#evidence">The evidence</a><a href="#limits">Honest limits</a></nav></aside>
       <article class="doc-content">
-        <details class="mobile-toc"><summary>Methodology contents</summary><nav><a href="#scale">Read this first</a><a href="#score">The score</a><a href="#data">The data</a><a href="#bands">The bands</a><a href="#evidence">The evidence</a><a href="#limits">Honest limits</a></nav></details>
+        <details class="mobile-toc"><summary>Methodology contents</summary><nav><a href="#scale">Read this first</a><a href="#score">The score</a><a href="#data">The data</a><a href="#bands">The bands</a><a href="#inapp">In the app</a><a href="#evidence">The evidence</a><a href="#limits">Honest limits</a></nav></details>
 
         <section class="doc-section reveal" id="scale">
           <h2>Read this first: this scale starts at healthy</h2>
           <p><strong>The Density Score compares produce with produce.</strong> Every item on this scale is a whole food from the fresh aisle. A 30 here is a fresh fruit or vegetable with water, fiber, and vitamins in it. It is a stronger everyday choice than nearly anything sold in a wrapper.</p>
-          <p>Apps that score packaged food, such as Yuka or Nutri-Score, rate a different universe. Their low scores flag additives, added sugar, and heavy processing. Produce has none of those, which is exactly why those systems give almost all fresh produce the same top grade and stop being useful in the produce aisle. Our score picks up where theirs run out of resolution: it ranks the aisle itself, so you can see that a bowl of raspberries carries more nutrition than a bowl of iceberg.</p>
+          <p>Apps and labels that score packaged food rate a different universe. Their low scores flag additives, added sugar, and heavy processing. Produce has none of those, which is exactly why those systems give almost all fresh produce the same top grade and stop being useful in the produce aisle. Our score picks up where theirs run out of resolution: it ranks the aisle itself, so you can see that a bowl of raspberries carries more nutrition than a bowl of iceberg.</p>
           <p>So a PLUed 40 and a packaged-food 40 are different animals. Ours means "a solid everyday fruit or vegetable, with denser picks available on the same shelf." It never means "avoid this." There is no red on this scale.</p>
         </section>
 
@@ -59,25 +59,36 @@
             <li><strong>Low calories, 10% of the score.</strong> Fewer calories per bite means a higher score, water included. A small tiebreaker that honors "eat freely" foods without letting water alone win.</li>
             <li><strong>Plant compounds, 10% of the score.</strong> The natural compounds beyond vitamins: the pigments in berries, tomatoes, and carrots, the broccoli-family compounds, the garlic-family compounds. We measure six families from USDA content databases (flavonoids, proanthocyanidins, carotenoids, glucosinolates, isoflavones, and sulfur compounds) and credit each food for its strongest one. No Daily Value exists for these compounds, so this axis is scaled against the produce aisle itself and capped at a tenth of the score.</li>
           </ul>
-          <p>Water is deliberately counted on both sides: removed from Nutrient concentration so filler cannot flatter a food's makeup, and included in Low calories because dilution is precisely what makes a food light. Tap any score in the app to see that item's own four sub-scores, its water share, its sugar share, and the full nutrient panel behind them.</p>
+          <p>Water is deliberately counted on both sides: removed from Nutrient concentration so filler cannot flatter a food's makeup, and included in Low calories because dilution is precisely what makes a food light. Tap any score in the app to see that item's own four sub-scores, its water share, its sugar share, and the full nutrient panel behind them. In the app the four bars are labeled Nutrients, Per serving, Low calories, and Plant power.</p>
         </section>
 
         <section class="doc-section reveal" id="data">
           <h2>The data: USDA, item by item</h2>
-          <p>Nutrient values come from the USDA's laboratory food-composition database (SR Legacy, public domain). Each of PLUed's 876 produce items is matched to its USDA food, and the whole mapping was verified four separate ways: an independent recomputation of every score, a row-by-row review of all 872 mappings by five independent reviewers, external checks of every stand-in against published nutrition data, and a comparison against the FDA's own retail produce nutrition program values for the 40 most common fruits and vegetables.</p>
-          <p>A small number of specialty items have no USDA entry of their own. Those are scored as their closest USDA relative and labeled that way in the app ("scored as: Grapes"), so nothing is presented as more precise than it is. A handful of items that are not food in practice, such as ornamental gourds and decorative corn, carry no score at all.</p>
+          <p>Nutrient values come from the USDA's laboratory food-composition database (SR Legacy, public domain). Each of PLUed's 876 kinds of produce is matched to its USDA food, and the whole mapping was verified four separate ways: an independent recomputation of every score, a row-by-row review of every mapping by five independent reviewers, external checks of every stand-in against published nutrition data, and a comparison against the FDA's own retail produce nutrition program values for the 40 most common fruits and vegetables.</p>
+          <p>A small number of specialty items have no USDA entry of their own. Those are scored as their closest USDA relative and labeled that way in the app ("scored as: Grapes"), so nothing is presented as more precise than it is. Eight items carry no score at all, and the app says why on each one instead of showing a zero: decorations such as ornamental gourds and decorative corn, banana leaves (a cooking wrapper), and three with no reliable nutrition data (aloe vera leaves, sugar cane, and vanilla beans).</p>
           <p>Serving sizes use the FDA's reference amounts customarily consumed (RACC), the same standard behind Nutrition Facts labels, rather than whatever cup measure happens to appear in a database.</p>
         </section>
 
         <section class="doc-section reveal" id="bands">
           <h2>The bands</h2>
           <ul>
-            <li><strong>75 to 99: Powerhouse.</strong> The leafy greens and their neighbors. Watercress, spinach, kale, chard.</li>
-            <li><strong>50 to 74: Strong.</strong> Broccoli, berries, peppers, sweet potato.</li>
-            <li><strong>25 to 49: Everyday.</strong> Apples, bananas, grapes, potatoes. Solid daily food.</li>
-            <li><strong>Under 25: Treat.</strong> The fruit-stand candy, like fresh dates. Still fruit. Still fine.</li>
+            <li><strong>75 to 99: Powerhouse.</strong> The leafy greens and their neighbors. Watercress, spinach, kale, chard, and also broccoli, carrots, and bell peppers.</li>
+            <li><strong>50 to 74: Strong.</strong> Berries, citrus, tomatoes, potatoes, sweet potatoes.</li>
+            <li><strong>25 to 49: Everyday.</strong> Apples, bananas, grapes, pears. Solid daily food.</li>
+            <li><strong>Under 25: Treat.</strong> Today a single item lands here: dried pineapple, the fruit-stand candy. Even fresh dates sit just above the line. Still fruit. Still fine.</li>
           </ul>
           <p>Notice the floor: the lowest band is called a treat, because that is what it is. Nothing in the produce aisle earns a warning label from us.</p>
+        </section>
+
+        <section class="doc-section reveal" id="inapp">
+          <h2>The score in the app</h2>
+          <p>The score is free in every version of PLUed, and it shows up in four places.</p>
+          <ul>
+            <li><strong>On every item.</strong> An item's page shows its score and band. Tap the score for the four bars, the eighteen nutrients per 100 g and per serving, and the plant compounds. Scan a PLU sticker and you land on that page.</li>
+            <li><strong>Rankings.</strong> The Nutrition explorer ranks everything, fruit only, vegetables only, one store section, one recipe set, or your own store's list. Codes that share one USDA nutrition row are shown as one line, so every size of the same apple does not fill the screen. Items with no nutrition data are counted and left out. They are never ranked as a zero.</li>
+            <li><strong>Compare.</strong> Two to four items side by side: each score, and each nutrient as a share of its Daily Value in one serving. Where USDA never measured a nutrient, the cell says "no data".</li>
+            <li><strong>Build a plate.</strong> A plate's score is the average of its items' scores, weighted by how many grams of each are on the plate, so bigger portions count more. The app shows the plain average beside it, so the weighting is visible. The rings add up each nutrient across the plate. A ring marked "partial" means USDA never measured that nutrient for one of the items, and the ring counts only what was measured. Calories are shown for the plate and never enter the score. Produce that is usually eaten cooked is marked as such.</li>
+          </ul>
         </section>
 
         <section class="doc-section reveal" id="evidence">
