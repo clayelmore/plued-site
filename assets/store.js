@@ -14,11 +14,13 @@
      store manager reads on either page comes from STRINGS, so the two
      languages cannot drift apart in logic. Prices, the store code, Stripe
      and support@plued.app never change with the language. */
-  /* Owner, 2026-10-05: the store apps still run 1.1.0, which has no
+  /* Owner, 2026-10-05: the store apps still ran 1.1.0, which has no
      store-code entry; 1.2.0 adds "Did your store give you a code?". Set false
      once 1.2 is live on all three stores (also SHOW_UPDATE_NOTE in
-     infra/pack-registry-worker/store.js, the welcome email). */
-  var SHOW_UPDATE_NOTE = true;
+     infra/pack-registry-worker/store.js, the welcome email).
+     Off since 2026-10-13: all three stores serve 1.2 since 2026-10-12. The
+     welcome email's own switch is in the worker and is still on. */
+  var SHOW_UPDATE_NOTE = false;
   var LANG = (document.documentElement.getAttribute('lang') || 'en').slice(0, 2) === 'es' ? 'es' : 'en';
   var PREFIX = LANG === 'es' ? '/es' : '';
   var STRINGS = {
@@ -37,6 +39,7 @@
       stepWordBody: 'Cashiers install PLUed, tap "Did your store give you a code?", and type this store code. Nothing else to set up.',
       stepUpdateNote: 'Cashiers need the latest PLUed (version 1.2 or newer) to enter the store code. Ask them to update the app first.',
       copyWord: 'Copy the store code', printPoster: 'Print the poster', copyNote: 'Copy the break-room note',
+      posterHint: 'Print the poster saves a picture of your poster. Open the picture and print it.',
       stepPackTitle: 'Build your pack',
       stepPackBody: 'Your store\'s own codes, in every cashier\'s app. Open the Pack Builder with your store name filled in, or send us your spreadsheet and we build it for you.',
       openBuilder: 'Open the Pack Builder', sendSpreadsheet: 'Send us your spreadsheet',
@@ -44,13 +47,17 @@
       stepLogoBody: 'Upload one PNG, JPG, or SVG. We prepare it, show you how it looks, and put it on your store\'s card in every cashier\'s app.',
       uploadLogo: 'Upload your logo',
       stepInviteTitle: 'Invite your cashiers',
-      stepInviteBody: 'Forward the welcome email, post the break-room note, or copy the text below. This step checks itself off when the first cashier uses a seat.',
+      stepInviteBody: 'Post the break-room note, print the poster, or copy the invite text below and send it. Do not forward your welcome email: it holds the private link to your store page. This step checks itself off when the first cashier uses a seat.',
       copyInvite: 'Copy the invite text', openGet: 'Open plued.app/get',
       relinkBadEmail: 'Enter the email you bought with.', sending: 'Sending...',
       relinkOffline: 'Could not reach PLUed. Try again in a moment.',
       relinkSent: 'If that email bought a Store Plan, the link is on its way. Check spam too.',
       // Buying page (/store/)
-      upgradeNote: 'Adding seats for {store}: your current {seats}-seat plan closes when the new one starts. Phones already unlocked stay unlocked and do not count against the new seats.',
+      // Owner to confirm (2026-10-13). The seat counter keeps the phone list
+      // through an Add seats move (10 used of 25 after a 10-to-25 move; the
+      // worker's test "add seats moves a 10-seat store to 25 in place"), so
+      // the note says so. It used to say those phones "do not count".
+      upgradeNote: 'Adding seats for {store}: you keep your store code, and your current {seats}-seat plan ends when the new one starts. Phones already unlocked stay unlocked and keep their seats; the new plan adds room for more.',
       openingCheckout: 'Opening secure checkout...', continueCheckout: 'Continue to secure checkout',
       checkoutUnavailable: 'Checkout is not available right now. Nothing was charged. Try again in a minute, or email support@plued.app.',
       badEmail: 'That email address did not go through. Check it and try again.',
@@ -160,6 +167,7 @@
       stepWordBody: 'Los cajeros instalan PLUed, tocan "¿Tu tienda te dio un código?" y escriben este código de tienda. No hay nada más que configurar.',
       stepUpdateNote: 'Tus cajeros necesitan la versión más reciente de PLUed (1.2 o posterior) para escribir el código de tienda. Pídeles que actualicen la app primero.',
       copyWord: 'Copiar el código de tienda', printPoster: 'Imprimir el cartel', copyNote: 'Copiar la nota para la sala de descanso',
+      posterHint: 'Imprimir el cartel guarda una imagen de tu cartel. Abre la imagen e imprímela.',
       stepPackTitle: 'Crea tu paquete',
       stepPackBody: 'Los códigos propios de tu tienda, en la app de cada cajero. Abre el Constructor de Paquetes con el nombre de tu tienda ya escrito, o envíanos tu hoja de cálculo y lo armamos por ti.',
       openBuilder: 'Abrir el Constructor de Paquetes', sendSpreadsheet: 'Enviarnos tu hoja de cálculo',
@@ -167,12 +175,12 @@
       stepLogoBody: 'Sube un PNG, JPG o SVG. Lo preparamos, te mostramos cómo se ve y lo ponemos en la tarjeta de tu tienda en la app de cada cajero.',
       uploadLogo: 'Subir tu logotipo',
       stepInviteTitle: 'Invita a tus cajeros',
-      stepInviteBody: 'Reenvía el correo de bienvenida, pon la nota en la sala de descanso o copia el texto de abajo. Este paso se marca solo cuando el primer cajero usa un puesto.',
+      stepInviteBody: 'Pon la nota en la sala de descanso, imprime el cartel o copia el texto de invitación de abajo y envíalo. No reenvíes tu correo de bienvenida: trae el enlace privado a la página de tu tienda. Este paso se marca solo cuando el primer cajero usa un puesto.',
       copyInvite: 'Copiar el texto de invitación', openGet: 'Abrir plued.app/get',
       relinkBadEmail: 'Escribe el correo con el que compraste.', sending: 'Enviando...',
       relinkOffline: 'No pudimos conectar con PLUed. Inténtalo de nuevo en un momento.',
       relinkSent: 'Si ese correo compró un Plan de Tienda, el enlace va en camino. Revisa también la carpeta de spam.',
-      upgradeNote: 'Agregando puestos para {store}: tu plan actual de {seats} puestos se cierra cuando empiece el nuevo. Los teléfonos ya desbloqueados siguen desbloqueados y no cuentan para los puestos nuevos.',
+      upgradeNote: 'Agregando puestos para {store}: conservas tu código de tienda, y tu plan actual de {seats} puestos termina cuando empiece el nuevo. Los teléfonos ya desbloqueados siguen desbloqueados y conservan su puesto; el plan nuevo agrega lugar para más.',
       openingCheckout: 'Abriendo el pago seguro...', continueCheckout: 'Continuar al pago seguro',
       checkoutUnavailable: 'El pago no está disponible en este momento. No se cobró nada. Inténtalo de nuevo en un minuto o escribe a support@plued.app.',
       badEmail: 'Ese correo no funcionó. Revísalo e inténtalo de nuevo.',
@@ -313,7 +321,14 @@
   }
 
   function statusUrl(token) { return 'https://plued.app' + PREFIX + '/store/s/#' + token; }
-  function codeUrl(word) { return GET_URL + '/?code=' + encodeURIComponent(word); }
+  /* The poster's QR (2026-10-13): plued.app/code/<store code>. A phone with
+     PLUed opens the app on the store-code sheet with the code filled in (an
+     app link since build 89); a phone without it gets the worker's page
+     with the code and the three app stores. Posters printed before this
+     open plued.app/get/?code=<store code>, which still shows the code, and
+     the app's "Scan the poster" reads both. */
+  var CODE_URL = 'https://plued.app/code/';
+  function codeUrl(word) { return CODE_URL + encodeURIComponent(word); }
 
   /* The three-line break-room note. Same wording as the welcome email. */
   function breakroomNote(word) {
@@ -343,7 +358,7 @@
   }
 
   /* Poster: 1200x1600 PNG. Cream ground, the store code, a QR that opens
-     plued.app/get with the store code prefilled, the three-line note. */
+     plued.app/code/<store code> (see codeUrl), the three-line note. */
   function drawPoster(store, word) {
     var W = 1200, H = 1600;
     var c = document.createElement('canvas');
@@ -449,6 +464,7 @@
       '<div class="row"><button type="button" class="button kraft" id="ns-copy-word">' + esc(t('copyWord')) + '</button>' +
       '<a class="button kraft" id="ns-poster" href="#">' + esc(t('printPoster')) + '</a>' +
       '<button type="button" class="button kraft" id="ns-copy-note">' + esc(t('copyNote')) + '</button></div>' +
+      '<p class="muted" id="ns-poster-hint">' + esc(t('posterHint')) + '</p>' +
       '<pre class="breakroom" id="ns-note">' + esc(breakroomNote(s.word)) + '</pre>');
     html += step('pack', t('stepPackTitle'),
       '<p>' + esc(t('stepPackBody')) + '</p>' +
