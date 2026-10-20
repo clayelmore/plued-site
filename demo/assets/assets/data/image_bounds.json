@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1110,
+  "image_count": 1113,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -531,6 +531,12 @@
       "top": 0.0703125,
       "right": 0.603515625,
       "bottom": 0.9296875
+    },
+    "baladi_cucumber.png": {
+      "left": 0.013671875,
+      "top": 0.1796875,
+      "right": 0.986328125,
+      "bottom": 0.8046875
     },
     "banana_leaves.png": {
       "left": 0.2578125,
@@ -3826,6 +3832,12 @@
       "right": 0.994140625,
       "bottom": 0.947265625
     },
+    "montreal_bagels.png": {
+      "left": 0.013671875,
+      "top": 0.13671875,
+      "right": 0.98828125,
+      "bottom": 0.859375
+    },
     "morel_mushrooms.png": {
       "left": 0.27734375,
       "top": 0.0625,
@@ -6363,6 +6375,12 @@
       "top": 0.1015625,
       "right": 0.8125,
       "bottom": 0.8828125
+    },
+    "walnuts_in_shell.png": {
+      "left": 0.001953125,
+      "top": 0.052734375,
+      "right": 0.99609375,
+      "bottom": 0.9453125
     },
     "water_chestnuts.png": {
       "left": 0.20703125,

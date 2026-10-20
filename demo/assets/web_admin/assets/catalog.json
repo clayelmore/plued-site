@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -2366,6 +2366,35 @@
         "es": "Elote dulce baby"
       },
       "concept": "corn_sweet_baby"
+    },
+    {
+      "id": "baladi_cucumber",
+      "plu": "",
+      "name": "Baladi Cucumber",
+      "category": "vegetable",
+      "aliases": [
+        "Baladi",
+        "Baladi cucumbers",
+        "Cucumbers Baladi",
+        "Cucumber baladi",
+        "Khiyar baladi",
+        "Khyar baladi",
+        "Khiar baladi",
+        "Pepino baladi",
+        "Pepinos baladi"
+      ],
+      "image": "baladi_cucumber.png",
+      "desc": "baladi cucumbers are short, plump local slicing cucumbers about 12 to 15 cm long and 3 to 4 cm wide, straight to very slightly curved, with blunt rounded ends, a small dry stem scar at one end and a tiny pale blossom spot at the other. the skin is thin and tender with a soft satin sheen, not waxy, a clear leaf green with faint paler green streaks running lengthwise from the blossom end, very shallow lengthwise ridges, and a few tiny pale bumps; no deep furrows, no spines, and no fuzz. they are much shorter and plumper than a long slicing cucumber, and lighter green and less uniform than slim, dark, glossy snacking cucumbers. they are sold loose by the pound, shown as a small group of three whole cucumbers lying side by side at a slight diagonal, fully inside the frame with both ends of each one visible.",
+      "section": "Other Vegetables",
+      "size": "",
+      "since": 101,
+      "search": {
+        "names": "",
+        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "words": "",
+        "phrases": "baladi",
+        "needs": "cucumber|khiyar|khyar|khiar|pepino"
+      }
     },
     {
       "id": "banana_leaves",
@@ -17395,6 +17424,35 @@
       }
     },
     {
+      "id": "montreal_bagels",
+      "plu": "",
+      "name": "Montreal Bagels",
+      "category": "other",
+      "aliases": [
+        "Montreal bagel",
+        "Montreal-style bagels",
+        "Montreal style bagels",
+        "Montreal-style bagel",
+        "Sesame bagels",
+        "Sesame bagel",
+        "Bagels de Montreal",
+        "Bagel de Montreal",
+        "Bagels estilo Montreal"
+      ],
+      "image": "montreal_bagels.png",
+      "desc": "montreal bagels are hand-rolled, wood-fired bagels about 9 cm across, smaller, flatter, and denser than a puffy new york bagel, with a noticeably large center hole about a third of the bagel's width and a slightly uneven hand-rolled ring. the crust is thin, crisp, and glossy, a deep golden to amber brown with a few darker toasted spots from the wood fire, and the top and sides are thickly coated in toasted sesame seeds, cream to golden in color. they are sold loose by the each from the bakery, shown as a group of three whole bagels, two lying flat side by side and one leaning against them, fully inside the frame with every hole clearly visible, uncut, with no spread and no plate.",
+      "section": "Bakery",
+      "size": "",
+      "since": 101,
+      "search": {
+        "names": "Bagel|Bagels|bajgiel|bajgle",
+        "family": "",
+        "words": "",
+        "phrases": "sesame bagels|sesame bagel",
+        "needs": "montreal"
+      }
+    },
+    {
       "id": "morel_mushrooms",
       "plu": "3102",
       "name": "Morel Mushrooms",
@@ -28677,6 +28735,36 @@
         "es": "Cebolla Walla Walla"
       },
       "concept": "walla_walla_onion"
+    },
+    {
+      "id": "walnuts_in_shell",
+      "plu": "",
+      "name": "Walnuts, In Shell",
+      "category": "other",
+      "aliases": [
+        "Walnuts",
+        "Walnut",
+        "Walnuts in shell",
+        "In-shell walnuts",
+        "Whole walnuts",
+        "Jowz",
+        "Joz",
+        "Nueces",
+        "Nuez",
+        "Nuez con cáscara",
+        "Nueces con cáscara",
+        "Nuez de Castilla"
+      ],
+      "image": "walnuts_in_shell.png",
+      "desc": "walnuts in shell are whole dried english walnuts, each about 3 to 4 cm across, round to slightly oval with a small pointed tip at one end and a flatter base at the other. a raised seam runs all the way around each nut where the two shell halves meet. the shell is hard, woody, and matte, a light tan to golden brown, covered all over in shallow irregular wrinkles and pits, never smooth, glossy, or dark, and with no green outer hull. they are sold loose by the pound, shown as a small pile of about nine whole walnuts with one walnut cracked in half at the front showing the wrinkled, golden, brain-like kernel inside its shell, every nut fully inside the frame.",
+      "section": "Other Vegetables",
+      "size": "",
+      "since": 101,
+      "search": {
+        "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
+        "family": "",
+        "words": ""
+      }
     },
     {
       "id": "water_chestnuts",

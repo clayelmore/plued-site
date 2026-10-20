@@ -16,6 +16,21 @@
         "sha256": "aaf180024694f7df41eae194595fc27a324ff22067e7125b0299e0c2958a30bd"
       }
     },
+    "baladi_cucumber.png": {
+      "full": {
+        "bytes": 27782,
+        "path": "assets/travel/baladi_cucumber.png",
+        "px": 256,
+        "sha256": "a72ded1d20942307a6a2e3a5da66af2be557eb7dff188cdb12ca06603dfe829a"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12224,
+        "path": "assets/travel/small/baladi_cucumber.png",
+        "px": 160,
+        "sha256": "3f53b7b45171d1352531779d30e6172ddc2606b6d8cf8f2246739f546b593f13"
+      }
+    },
     "bolillo.png": {
       "full": {
         "bytes": 23483,
@@ -316,6 +331,21 @@
         "sha256": "89572566515c44e64599ce1d3b660239ca0c386e49fab9a349e140aaf822d3bd"
       }
     },
+    "montreal_bagels.png": {
+      "full": {
+        "bytes": 31129,
+        "path": "assets/travel/montreal_bagels.png",
+        "px": 256,
+        "sha256": "6bdbc521840a2b793b45435e965666fdc0c457bf5d53c592500a0b476126a799"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 13392,
+        "path": "assets/travel/small/montreal_bagels.png",
+        "px": 160,
+        "sha256": "b8fee63f821567ae152da2847f1190b27d4fa7d03649c1c51f43f04727956cf7"
+      }
+    },
     "muffin_bakery.png": {
       "full": {
         "bytes": 43593,
@@ -389,6 +419,21 @@
         "path": "assets/travel/small/turmeric_root.png",
         "px": 160,
         "sha256": "1551a2126a3b7c098382a29e755ac67b6ca1669ff199fc486008b8412865ab5a"
+      }
+    },
+    "walnuts_in_shell.png": {
+      "full": {
+        "bytes": 39984,
+        "path": "assets/travel/walnuts_in_shell.png",
+        "px": 256,
+        "sha256": "96ad945da17106ed10f88a03ae31bc4b02cc9531f81fcd03d7e9d238ae40b7d3"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 16988,
+        "path": "assets/travel/small/walnuts_in_shell.png",
+        "px": 160,
+        "sha256": "5b81075baceca0bed891fd094e5e046739f139d4e0eaaf4c0d77a61f48512e0d"
       }
     }
   },

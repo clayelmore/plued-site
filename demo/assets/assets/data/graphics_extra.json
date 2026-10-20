@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa).",
+  "version": 5,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery).",
   "items": [
     {
       "id": "jocote",
@@ -562,6 +562,69 @@
       ],
       "desc": "A cacao pod is a large, heavy fruit about 20 to 25 cm long and 9 cm wide, shaped like an elongated football: widest just below the middle, tapering to a blunt point at the tip, with a short, thick, woody stem stub at the other end. Ten deep furrows run lengthwise from the stem to the tip, with rounded ridges between them. The husk is thick, hard, leathery and matte, rough and bumpy with small warts along the ridges, never smooth or glossy. The color is a ripe deep red-maroon to red-brown, with orange-red patches on the ridges and orange-yellow showing in the furrows, and a few small dark brown scuffs. It is sold whole by the each, shown as one whole, closed pod, never cut or opened, with no leaves, lying at a slight diagonal and sitting fully inside the frame with both ends visible.",
       "since": 96
+    },
+    {
+      "id": "baladi_cucumber",
+      "name": "Baladi Cucumber",
+      "category": "vegetable",
+      "section": "Other Vegetables",
+      "image": "baladi_cucumber.png",
+      "aliases": [
+        "Baladi",
+        "Baladi cucumbers",
+        "Cucumbers Baladi",
+        "Cucumber baladi",
+        "Khiyar baladi",
+        "Khyar baladi",
+        "Khiar baladi",
+        "Pepino baladi",
+        "Pepinos baladi"
+      ],
+      "desc": "Baladi cucumbers are short, plump local slicing cucumbers about 12 to 15 cm long and 3 to 4 cm wide, straight to very slightly curved, with blunt rounded ends, a small dry stem scar at one end and a tiny pale blossom spot at the other. The skin is thin and tender with a soft satin sheen, not waxy, a clear leaf green with faint paler green streaks running lengthwise from the blossom end, very shallow lengthwise ridges, and a few tiny pale bumps; no deep furrows, no spines, and no fuzz. They are much shorter and plumper than a long slicing cucumber, and lighter green and less uniform than slim, dark, glossy snacking cucumbers. They are sold loose by the pound, shown as a small group of three whole cucumbers lying side by side at a slight diagonal, fully inside the frame with both ends of each one visible.",
+      "since": 101
+    },
+    {
+      "id": "walnuts_in_shell",
+      "name": "Walnuts, In Shell",
+      "category": "other",
+      "section": "Other Vegetables",
+      "image": "walnuts_in_shell.png",
+      "aliases": [
+        "Walnuts",
+        "Walnut",
+        "Walnuts in shell",
+        "In-shell walnuts",
+        "Whole walnuts",
+        "Jowz",
+        "Joz",
+        "Nueces",
+        "Nuez",
+        "Nuez con cáscara",
+        "Nueces con cáscara",
+        "Nuez de Castilla"
+      ],
+      "desc": "Walnuts in shell are whole dried English walnuts, each about 3 to 4 cm across, round to slightly oval with a small pointed tip at one end and a flatter base at the other. A raised seam runs all the way around each nut where the two shell halves meet. The shell is hard, woody, and matte, a light tan to golden brown, covered all over in shallow irregular wrinkles and pits, never smooth, glossy, or dark, and with no green outer hull. They are sold loose by the pound, shown as a small pile of about nine whole walnuts with one walnut cracked in half at the front showing the wrinkled, golden, brain-like kernel inside its shell, every nut fully inside the frame.",
+      "since": 101
+    },
+    {
+      "id": "montreal_bagels",
+      "name": "Montreal Bagels",
+      "category": "other",
+      "section": "Bakery",
+      "image": "montreal_bagels.png",
+      "aliases": [
+        "Montreal bagel",
+        "Montreal-style bagels",
+        "Montreal style bagels",
+        "Montreal-style bagel",
+        "Sesame bagels",
+        "Sesame bagel",
+        "Bagels de Montreal",
+        "Bagel de Montreal",
+        "Bagels estilo Montreal"
+      ],
+      "desc": "Montreal bagels are hand-rolled, wood-fired bagels about 9 cm across, smaller, flatter, and denser than a puffy New York bagel, with a noticeably large center hole about a third of the bagel's width and a slightly uneven hand-rolled ring. The crust is thin, crisp, and glossy, a deep golden to amber brown with a few darker toasted spots from the wood fire, and the top and sides are thickly coated in toasted sesame seeds, cream to golden in color. They are sold loose by the each from the bakery, shown as a group of three whole bagels, two lying flat side by side and one leaning against them, fully inside the frame with every hole clearly visible, uncut, with no spread and no plate.",
+      "since": 101
     }
   ]
 }
