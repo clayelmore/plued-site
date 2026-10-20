@@ -33,7 +33,7 @@
 
   <main id="main">
     <section class="page-hero"><div class="shell page-hero-inner">
-      <div><span class="eyebrow">Política en palabras sencillas</span><h1>Tu práctica es tuya.</h1><p>PLUed no pide una cuenta, no pone código de publicidad ni de rastreo en la app y no sube tu historial de aprendizaje.</p><div class="legal-meta"><!-- TODO(release day): set to the day this goes live (same date as the English page, /privacy/). --><span class="tag-chip">Vigente desde el 9 de octubre de 2026</span></div></div>
+      <div><span class="eyebrow">Política en palabras sencillas</span><h1>Tu práctica es tuya.</h1><p>PLUed no pide una cuenta, no pone código de publicidad ni de rastreo en la app y no sube tu historial de aprendizaje.</p><div class="legal-meta"><!-- TODO(release day): set to the day this goes live (same date as the English page, /privacy/). --><span class="tag-chip">Vigente desde el 20 de octubre de 2026</span></div></div>
       <img class="page-produce" src="/assets/img/dill.png" alt="Eneldo">
     </div></section>
     <div class="chalk-divider"></div>
@@ -101,7 +101,7 @@
 
         <section class="doc-section reveal" id="scanner">
           <h2>Escáner de etiquetas</h2>
-          <p><strong>Escanea una etiqueta</strong> lee el PLU de la etiqueta de un producto en tu teléfono. La foto no se manda a ningún lado y no se guarda en tu galería de fotos.</p>
+          <p><strong>Escanea una etiqueta</strong> lee el PLU de la etiqueta de un producto en tu teléfono. La imagen no se manda a ningún lado y no se guarda en tu galería de fotos.</p>
           <p>El lector de etiquetas y, en teléfonos Android y tabletas Fire, el lector de códigos QR vienen de ML Kit de Google, que funciona en tu dispositivo. ML Kit le manda a Google datos técnicos de diagnóstico sobre cómo funcionó el lector (como el modelo del dispositivo, la versión del sistema operativo y de la app, la velocidad y los códigos de error) junto con un identificador de esa instalación de la app que no está pensado para identificarte a ti ni a tu dispositivo. PLUed no recibe estos datos. Google los describe en su <a href="https://developers.google.com/ml-kit/android-data-disclosure" hreflang="en" lang="en">página de divulgación de datos de ML Kit</a> (en inglés).</p>
         </section>
 
@@ -112,8 +112,8 @@
 
         <section class="doc-section reveal" id="storeplans">
           <h2>Planes de Tienda</h2>
-          <p>Un gerente que compra un Plan de Tienda en <a href="/es/store/">plued.app/store</a> le da a PLUed el nombre de la tienda y un correo electrónico. El pago lo maneja Stripe en un formulario de pago en esa página, según la política de privacidad de Stripe; PLUed nunca ve los datos de la tarjeta. PLUed usa el correo para mandar el código de tienda y el enlace a la página privada de estado de la tienda, y manda estos correos desde su cuenta de correo de Google. El código de tienda también se configura con Apple como un código de oferta para que los iPhone puedan canjearlo.</p>
-          <p>PLUed guarda el registro de la tienda (nombre de la tienda, correo, plan y fechas, código de tienda, número de puestos y los números de referencia de Stripe del cliente y de la suscripción) para administrar el plan. El registro se guarda después de que termina un plan como registro del negocio; no se borra automáticamente.</p>
+          <p>Un gerente que compra un Plan de Tienda en <a href="/es/store/">plued.app/store</a> le da a PLUed el nombre de la tienda y un correo electrónico. El pago lo maneja Stripe en un formulario de pago en esa página, según la política de privacidad de Stripe; PLUed nunca ve los datos de la tarjeta. PLUed usa el correo para mandar el código de tienda y el enlace a la página privada de estado de la tienda, y para avisarle a la tienda cuando casi todos sus puestos están en uso o cuando un cajero no pudo entrar porque no quedaba ninguno. Manda estos correos desde su cuenta de correo de Google. El código de tienda también se configura con Apple como un código de oferta para que los iPhone puedan canjearlo.</p>
+          <p>PLUed guarda el registro de la tienda (nombre de la tienda, correo, plan y fechas, código de tienda, número de puestos y los números de referencia de Stripe del cliente y de la suscripción) para administrar el plan. Cuando un teléfono no puede entrar porque no queda ningún puesto, PLUed guarda un conteo y la hora para ese código de tienda, y nada sobre el teléfono. El registro se guarda después de que termina un plan como registro del negocio; no se borra automáticamente.</p>
           <p>Lo que una tienda manda desde su página privada de estado (como una solicitud, una hoja de cálculo o un archivo de logotipo) se guarda con el registro de la tienda para que podamos atenderlo. El formulario para comprar para varias tiendas pide el nombre de la empresa, el nombre de un contacto, un correo electrónico, un número de teléfono, la cantidad de tiendas y una nota opcional; se guarda para que podamos responder. Antes de guardarse, el texto de una solicitud y los nombres, el número de teléfono y la nota del formulario para varias tiendas se revisan con la API de moderación de OpenAI. Ninguno de los dos se borra automáticamente; escríbenos para pedir que los quitemos.</p>
         </section>
 
