@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -10104,6 +10104,10 @@
       "name": "Garlic - String",
       "category": "vegetable",
       "aliases": [
+        "Garlic Bunch",
+        "Bunch Garlic",
+        "Ajo en manojo",
+        "Manojo de ajo",
         "Ajo en trenza",
         "trenza de ajo",
         "ristra de ajo"
@@ -10119,7 +10123,8 @@
         "names": "Knoblauch|ail|alho|alhos|alho seco|aglio|czosnek",
         "family": "",
         "words": "",
-        "es": "Ajo en trenza"
+        "es": "Ajo en trenza",
+        "phrases": "Garlic Bunch|Bunch Garlic|Ajo en manojo|Manojo de ajo"
       },
       "concept": "garlic_string"
     },
