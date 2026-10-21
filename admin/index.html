@@ -450,7 +450,9 @@
         res.json().then(function (body) {
           var byPlu = {};
           (body.codes || []).forEach(function (c) {
-            byPlu[c.code || c.plu || ''] = c.image_ref || '';
+            // A carried picture (catalog_image + thumbnail, 2026-10) is one of
+            // OUR pictures travelling with the pack, not a store upload.
+            byPlu[c.code || c.plu || ''] = c.image_ref || c.catalog_image || '';
           });
           requestRows.querySelectorAll('td.standin[data-pack="' + id + '"]').forEach(function (td) {
             td.innerHTML = artCell(byPlu[td.getAttribute('data-plu')] || '');
@@ -464,7 +466,11 @@
     codesTbody.innerHTML = '';
     var codes = Array.isArray(body.codes) ? body.codes : [];
     codes.forEach(function (c) {
-      var ref = c.image_ref || '';
+      // image_ref = our picture by name; catalog_image (+ thumbnail) = our
+      // picture carried in the pack for older apps; a thumbnail alone = an
+      // uploaded photo (the old lane).
+      var carried = !c.image_ref && !!c.catalog_image;
+      var ref = c.image_ref || c.catalog_image || '';
       var cell;
       if (ref) {
         cell = '<img src="' + IMG_BASE + esc(ref) + '" alt="" width="40" height="40" ' +
@@ -481,7 +487,7 @@
         '<td>' + esc(c.name || '') + '</td>' +
         '<td>' + esc(c.category || '') + '</td>' +
         '<td>' + esc(c.size || '') + '</td>' +
-        '<td class="note">' + esc(ref || (c.thumbnail ? '(uploaded photo)' : '')) + '</td>';
+        '<td class="note">' + esc(ref ? (carried ? ref + ' (carried copy)' : ref) : (c.thumbnail ? '(uploaded photo)' : '')) + '</td>';
       codesTbody.appendChild(tr);
     });
   }
