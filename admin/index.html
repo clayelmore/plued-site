@@ -64,6 +64,7 @@
   .badge.apple-pending { background: #f8ecd8; color: var(--citrus); }
   .badge.apple-inactive, .badge.closed, .badge.refund { background: #f7e3e0; color: var(--tomato); }
   .badge.trial { background: #e3ecf4; color: #2c5a7a; }
+  .badge.card { background: #f6ead0; color: #7a5310; }
   .store-logo { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 6px; max-width: 220px; }
   .store-logo .note { font-size: 12px; }
   .store-logo .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; width: 36px; height: 36px; border: 1px solid #e5d9c3; border-radius: 10px; background: #faf6ee; }
@@ -229,7 +230,7 @@
     <h2 style="margin:0 0 4px;font-size:18px;">Stores</h2>
     <p class="sub" style="margin:0 0 10px;">Store Plans: one store code per store, made by Stripe or by hand here. A store made here is a FREE TRIAL unless you pick "Paid outside Stripe" (an invoice order): a trial's private page says "Free trial" and shows no price, billing, or refund. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
     <form class="mint" id="mintForm" novalidate>
-      <label>KIND<select id="mintKind"><option value="trial" selected>Free trial</option><option value="paid">Paid outside Stripe</option></select></label>
+      <label>KIND<select id="mintKind"><option value="trial" selected>Free trial</option><option value="paid">Paid outside Stripe</option><option value="card">Cashier card</option></select></label>
       <label>STORE<input id="mintStore" maxlength="80" placeholder="Hometown Foods"></label>
       <label>EMAIL<input id="mintEmail" type="email" maxlength="200" placeholder="manager@store.com"></label>
       <label>TIER<select id="mintTier"><option value="10" selected>10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label>
@@ -237,6 +238,7 @@
       <button type="submit" id="mintBtn">Create free trial</button>
     </form>
     <p class="note" style="margin:0 0 14px;">EMAIL: the welcome email (store code and private page link) goes here. Put support@plued.app to get it yourself and forward it.</p>
+    <p class="note" id="mintCardNote" style="margin:-8px 0 14px;" hidden>CASHIER CARD: the code unlocks the full app for any phone, up to TIER phones, and is not tied to a store. The name you type in STORE shows on each phone as "Licensed to &lt;name&gt;" (for example PLUed). It reads as a free trial everywhere. Print the card with <code>python3 tool/store_kit/make_card.py --code &lt;CODE&gt; --out &lt;dir&gt;</code>.</p>
     <div id="storesStatus" class="note"></div>
     <div class="wrap"><table id="storesTable" hidden>
       <thead><tr><th>Store</th><th>Store code</th><th>Tier</th><th>Seats</th><th>Plan end</th><th>Apple</th><th>Requests</th><th>Actions</th></tr></thead>
@@ -1368,6 +1370,8 @@
     if (s.stripe_customer || s.stripe_subscription) return false;
     return s.trial !== false;
   }
+  // A cashier card (2026-10-22, kind 'card'): shown as CARD, not TRIAL.
+  function isCard(s) { return s.card === true; }
 
   function renderStores(stores) {
     storeRows.innerHTML = '';
@@ -1379,7 +1383,7 @@
       var tr = document.createElement('tr');
       var open = openRequests(s);
       tr.innerHTML =
-        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (isTrial(s) ? badge('trial', 'TRIAL') + ' ' : '') + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
+        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (isCard(s) ? badge('card', 'CARD') + ' ' : isTrial(s) ? badge('trial', 'TRIAL') + ' ' : '') + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
           (openRefund(s) ? ' ' + badge('refund', 'REFUND REQUESTED') : '') + logoCell(s) + '</td>' +
         '<td><b>' + esc(s.word) + '</b></td>' +
         '<td>' + esc(s.tier) + '</td>' +
@@ -1530,23 +1534,33 @@
   // or a plan paid outside Stripe; the worker stores trial true|false. An
   // older worker ignores `kind`, and a store with no Stripe ids reads as a
   // trial there anyway once the new worker is live.
+  // Cashier card (2026-10-22): a free code for any phone, not tied to a
+  // store; TIER defaults to 25. An older worker answers 400 bad_order.
   var mintKind = document.getElementById('mintKind');
-  function mintLabel() { document.getElementById('mintBtn').textContent = mintKind.value === 'trial' ? 'Create free trial' : 'Create'; }
+  function mintLabel() {
+    var k = mintKind.value;
+    document.getElementById('mintBtn').textContent = k === 'trial' ? 'Create free trial' : k === 'card' ? 'Create cashier card' : 'Create';
+    document.getElementById('mintCardNote').hidden = k !== 'card';
+  }
   mintKind.addEventListener('change', function () {
     if (mintKind.value === 'trial') document.getElementById('mintTier').value = '10';
+    if (mintKind.value === 'card') document.getElementById('mintTier').value = '25';
+    if (mintKind.value === 'paid') document.getElementById('mintTier').value = '50';
     mintLabel();
   });
   document.getElementById('mintForm').addEventListener('submit', function (ev) {
     ev.preventDefault();
     if (needToken()) return;
-    var kind = mintKind.value === 'paid' ? 'paid' : 'trial';
+    var kind = mintKind.value === 'paid' ? 'paid' : mintKind.value === 'card' ? 'card' : 'trial';
     var store = document.getElementById('mintStore').value.trim();
     var email = document.getElementById('mintEmail').value.trim();
     var tier = Number(document.getElementById('mintTier').value);
     var end = document.getElementById('mintEnd').value;
     if (store.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStoresStatus('Store name and a valid email are required.', 'err'); return; }
     var until = end ? ' through ' + end : ' for one year';
-    var what = kind === 'trial'
+    var what = kind === 'card'
+      ? 'Create a CASHIER CARD code named "' + store + '": up to ' + tier + ' phones' + until + '?\n\nIt unlocks the full app for any phone and is not tied to a store; phones show "Licensed to ' + store + '". No payment and no refund. '
+      : kind === 'trial'
       ? 'Create a FREE TRIAL for "' + store + '": up to ' + tier + ' seats' + until + '?\n\nNo payment and no refund: the store\'s page says "Free trial". '
       : 'Create a ' + tier + '-seat Store Plan PAID OUTSIDE STRIPE for "' + store + '"' + until + '?\n\nUse it for invoice orders. ';
     if (!confirm(what + 'This creates the store code, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '.')) return;
@@ -1557,7 +1571,7 @@
     storeApi('/store/mint', 'POST', body).then(function (r) {
       btn.disabled = false;
       if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
-      setStoresStatus('Created ' + (kind === 'trial' ? 'free trial ' : '') + (r.body && r.body.word) + ' for "' + store + '". Welcome sent to ' + email + '.', 'ok');
+      setStoresStatus('Created ' + (kind === 'trial' ? 'free trial ' : kind === 'card' ? 'cashier card ' : '') + (r.body && r.body.word) + ' for "' + store + '". Welcome sent to ' + email + '.', 'ok');
       document.getElementById('mintForm').reset();
       mintLabel();
       loadStores();
