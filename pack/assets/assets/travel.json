@@ -16,6 +16,36 @@
         "sha256": "aaf180024694f7df41eae194595fc27a324ff22067e7125b0299e0c2958a30bd"
       }
     },
+    "almonds_in_shell.png": {
+      "full": {
+        "bytes": 28724,
+        "path": "assets/travel/almonds_in_shell.png",
+        "px": 256,
+        "sha256": "494193d28933f201bcf5f4a236c3cc4290a9adaa12db2ef363a1237234748952"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12464,
+        "path": "assets/travel/small/almonds_in_shell.png",
+        "px": 160,
+        "sha256": "4ffdd12ad421788e061af0b1a21d5c64171b3453b15d10719c78ee2d16a1df70"
+      }
+    },
+    "apple_rings_dried.png": {
+      "full": {
+        "bytes": 40329,
+        "path": "assets/travel/apple_rings_dried.png",
+        "px": 256,
+        "sha256": "39ecd060a4de46d99b06c0eed73553d066517990c5bb68ffd7afd36ccfa4f15e"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 17692,
+        "path": "assets/travel/small/apple_rings_dried.png",
+        "px": 160,
+        "sha256": "df65efa4fd562332fdc1e8536b6865f84b9cf3fc6610a4df9b0d4e078666ef8f"
+      }
+    },
     "baladi_cucumber.png": {
       "full": {
         "bytes": 27782,
@@ -29,6 +59,21 @@
         "path": "assets/travel/small/baladi_cucumber.png",
         "px": 160,
         "sha256": "3f53b7b45171d1352531779d30e6172ddc2606b6d8cf8f2246739f546b593f13"
+      }
+    },
+    "black_walnuts_in_shell.png": {
+      "full": {
+        "bytes": 43561,
+        "path": "assets/travel/black_walnuts_in_shell.png",
+        "px": 256,
+        "sha256": "27f296d4dee79b00f4d53395b44b308e463f682add487883f9f194c2c1998d5a"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 18250,
+        "path": "assets/travel/small/black_walnuts_in_shell.png",
+        "px": 160,
+        "sha256": "6122443be40124bc75123ec771b059ac9808fcd7f90f6e4c3f1cf19e2490ac1b"
       }
     },
     "bolillo.png": {
@@ -46,6 +91,21 @@
         "sha256": "4cddc30adc8e5a2962d3953fc8603434798829aec5bc1027ac4f2246be06ccb2"
       }
     },
+    "brazil_nuts_in_shell.png": {
+      "full": {
+        "bytes": 30110,
+        "path": "assets/travel/brazil_nuts_in_shell.png",
+        "px": 256,
+        "sha256": "21398adcfe75fc0d3d8872d1bf558ec6f395184feb72a0ff4deb51272a73102d"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 13051,
+        "path": "assets/travel/small/brazil_nuts_in_shell.png",
+        "px": 160,
+        "sha256": "eef33f75086d9b542d7da6c05061dbea0ec8590bf72b1f57f81d3596e309b557"
+      }
+    },
     "cacao_pod.png": {
       "full": {
         "bytes": 28079,
@@ -59,6 +119,36 @@
         "path": "assets/travel/small/cacao_pod.png",
         "px": 160,
         "sha256": "51ecb605832be9d8dff4b2ed83d4cf5b606dadb3e64e70f80e1745ff03d691f1"
+      }
+    },
+    "cashews.png": {
+      "full": {
+        "bytes": 31899,
+        "path": "assets/travel/cashews.png",
+        "px": 256,
+        "sha256": "65d58461c4e9f2ce22887e61a4df8968c326a6a507dbaec67ab51968e9e017e5"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 14111,
+        "path": "assets/travel/small/cashews.png",
+        "px": 160,
+        "sha256": "abb02c2dc04bc069411e87b3f5776b03b337357aed154f0cd236a0c05c792cdc"
+      }
+    },
+    "chestnuts.png": {
+      "full": {
+        "bytes": 28831,
+        "path": "assets/travel/chestnuts.png",
+        "px": 256,
+        "sha256": "ab4363370b21d15eeab9dd02df926663f1a07f6d4836b51b784582e14f8ddf8b"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12905,
+        "path": "assets/travel/small/chestnuts.png",
+        "px": 160,
+        "sha256": "859440aa8f13e9c1c4792763c440e8718047bd2095d87eb5ec10696e0d719572"
       }
     },
     "chilacayota.png": {
@@ -136,6 +226,66 @@
         "sha256": "f6089c2a4b332070632d3ada81bf5f5bac2a6ec9ecabac465fe14ebb062fbf8b"
       }
     },
+    "dates_dried.png": {
+      "full": {
+        "bytes": 37800,
+        "path": "assets/travel/dates_dried.png",
+        "px": 256,
+        "sha256": "1e8ab419d5726ae2de2c31318b084d5174ff3d0d38ac222381f8b933013710e2"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 16422,
+        "path": "assets/travel/small/dates_dried.png",
+        "px": 160,
+        "sha256": "17d2f053ef8833d72aa69dc3c13e6eb5bca3430d199fee5ecce2f127234134c8"
+      }
+    },
+    "dates_frozen.png": {
+      "full": {
+        "bytes": 45476,
+        "path": "assets/travel/dates_frozen.png",
+        "px": 256,
+        "sha256": "753a2cf6515eae9fe7d7eb7ca5747611a8260fff6c560dcfda01f716bcf69d2d"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 19369,
+        "path": "assets/travel/small/dates_frozen.png",
+        "px": 160,
+        "sha256": "e41172e5b149f7e6624c23635d21be7721b65b0772e2381a3b5afece3f6a56f0"
+      }
+    },
+    "dates_medjool.png": {
+      "full": {
+        "bytes": 26975,
+        "path": "assets/travel/dates_medjool.png",
+        "px": 256,
+        "sha256": "0725763a7008612af5d7bf2207a7dd68ec5e83191acce6af7362f098b20843b9"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 11767,
+        "path": "assets/travel/small/dates_medjool.png",
+        "px": 160,
+        "sha256": "d28a8e34c92b00e26b6cb7d4e58bf2c0f09c9a7dd23e2f34c4d8563a45e309a2"
+      }
+    },
+    "dates_on_branch.png": {
+      "full": {
+        "bytes": 19851,
+        "path": "assets/travel/dates_on_branch.png",
+        "px": 256,
+        "sha256": "513c39e85356c1c69373fa526faf4fffa1bbc77f88ef9a882260ff719ba67705"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 9462,
+        "path": "assets/travel/small/dates_on_branch.png",
+        "px": 160,
+        "sha256": "e444edb88baba2feb0bb9befae177bcb136cd2cfdab6c10d591897032aa16599"
+      }
+    },
     "donut_glazed.png": {
       "full": {
         "bytes": 34458,
@@ -149,6 +299,21 @@
         "path": "assets/travel/small/donut_glazed.png",
         "px": 160,
         "sha256": "197059d097c6f53ede2d0e52cfb75d25d572ae608619a88977fe3ad7e8ccb960"
+      }
+    },
+    "filberts_in_shell.png": {
+      "full": {
+        "bytes": 28641,
+        "path": "assets/travel/filberts_in_shell.png",
+        "px": 256,
+        "sha256": "5819d886b3593117eb3005bf0cc644d7d05ad908db0667a580223851315acd21"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12698,
+        "path": "assets/travel/small/filberts_in_shell.png",
+        "px": 160,
+        "sha256": "7de9d768ce61690cdbc94b08a7920860292dba3983231d4c0414ce85e8683e61"
       }
     },
     "grape_leaves_fresh.png": {
@@ -316,6 +481,36 @@
         "sha256": "7c180d42e3b2e92979291c0716a89e370ba55481f3e7157287c9da172bcaf88f"
       }
     },
+    "macadamia_nuts.png": {
+      "full": {
+        "bytes": 31168,
+        "path": "assets/travel/macadamia_nuts.png",
+        "px": 256,
+        "sha256": "cbb87aba86c5f7ada87cade8e0feb07b22f8a5caa84d4b15001f9f7483221cbb"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 14572,
+        "path": "assets/travel/small/macadamia_nuts.png",
+        "px": 160,
+        "sha256": "7b4cf7df0dc3394981df91f75635ce1c65229482d6bb9cd72eb7ee63a2dd51f3"
+      }
+    },
+    "mixed_nuts_in_shell.png": {
+      "full": {
+        "bytes": 43134,
+        "path": "assets/travel/mixed_nuts_in_shell.png",
+        "px": 256,
+        "sha256": "f0a9a9bb50fa1e069641cbc8326aeb27f6f67f289bdff6c9e84cea7a55d5e74b"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 18599,
+        "path": "assets/travel/small/mixed_nuts_in_shell.png",
+        "px": 160,
+        "sha256": "d358501bff313a5be92b83a1d657d53fc8916f997f93d32645169f8fba99db1a"
+      }
+    },
     "mloukhiye.png": {
       "full": {
         "bytes": 34153,
@@ -361,6 +556,156 @@
         "sha256": "1d51d85696bc65f1413f244d266e262179525c028546d4aac3e0179fcc7334e1"
       }
     },
+    "peanuts_raw_in_shell.png": {
+      "full": {
+        "bytes": 44975,
+        "path": "assets/travel/peanuts_raw_in_shell.png",
+        "px": 256,
+        "sha256": "1ad5313671bb4f49c9fbfab24b5faa4aaf40a57b7b02ea717ee79b78fa0060e5"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 18924,
+        "path": "assets/travel/small/peanuts_raw_in_shell.png",
+        "px": 160,
+        "sha256": "e959af8f0cdeefc30896396089eb387aa55e457b9b4c598ad4f38a19bf9e581b"
+      }
+    },
+    "peanuts_roasted_in_shell.png": {
+      "full": {
+        "bytes": 28390,
+        "path": "assets/travel/peanuts_roasted_in_shell.png",
+        "px": 256,
+        "sha256": "0236128ef3e5a87480709ff5dcd5594650e0e955324c45917f1f93a82ec87127"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12382,
+        "path": "assets/travel/small/peanuts_roasted_in_shell.png",
+        "px": 160,
+        "sha256": "4cec3b3171b25c5646f2968c4127c38c781a78e5e4fc56a31771f706043a413f"
+      }
+    },
+    "pecans_in_shell.png": {
+      "full": {
+        "bytes": 30483,
+        "path": "assets/travel/pecans_in_shell.png",
+        "px": 256,
+        "sha256": "7f47f9fe346f02006f23b981e81bdab77cf2e416ba1092646f225db2ea7c6200"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 13251,
+        "path": "assets/travel/small/pecans_in_shell.png",
+        "px": 160,
+        "sha256": "950487c9f1a4ebbc9dc9cd935c89654e61aae40cc00cb9e9f04492989b3bddf4"
+      }
+    },
+    "pine_nuts.png": {
+      "full": {
+        "bytes": 38788,
+        "path": "assets/travel/pine_nuts.png",
+        "px": 256,
+        "sha256": "d3ecb396cc6d7ba028ffa90432e7001ca13f52ab8ef9bdd6deeb2ef1b9a812c9"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 17784,
+        "path": "assets/travel/small/pine_nuts.png",
+        "px": 160,
+        "sha256": "e25b0bca3fcd3510097d80dfdd0b0e0532d2c20b9da8734cb46d2ec1f918d4ad"
+      }
+    },
+    "pistachios_natural.png": {
+      "full": {
+        "bytes": 27608,
+        "path": "assets/travel/pistachios_natural.png",
+        "px": 256,
+        "sha256": "27f2225f9b86c8e033d765820109ba0d441346b9f289b97ce10e64b6448edb2e"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12475,
+        "path": "assets/travel/small/pistachios_natural.png",
+        "px": 160,
+        "sha256": "80f828011f1e6b9c74602b04eb9a73065fa61e029dba2ccf6f621ecf582154d4"
+      }
+    },
+    "pistachios_red.png": {
+      "full": {
+        "bytes": 29384,
+        "path": "assets/travel/pistachios_red.png",
+        "px": 256,
+        "sha256": "60a58243c19aeeef12e9929465653852c25e0323de487e163b874f04301104a6"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12979,
+        "path": "assets/travel/small/pistachios_red.png",
+        "px": 160,
+        "sha256": "874ce2067a7c8d2e956add69b16849f2b79b67ef979fdef1d53ee7294baf44fb"
+      }
+    },
+    "prunes_dried.png": {
+      "full": {
+        "bytes": 40482,
+        "path": "assets/travel/prunes_dried.png",
+        "px": 256,
+        "sha256": "f8a9a8eea134ee70cdd6af35629e85cb47e6d6a80370609c2fbc4317c0c58e88"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 18579,
+        "path": "assets/travel/small/prunes_dried.png",
+        "px": 160,
+        "sha256": "324dda4ea243a4d8d480999e802fc8cfb864b9115363f3b32d2c6c64d028ff4c"
+      }
+    },
+    "prunes_pitted.png": {
+      "full": {
+        "bytes": 40393,
+        "path": "assets/travel/prunes_pitted.png",
+        "px": 256,
+        "sha256": "5863fc040be436c3f9f861674b269dca4f23b75d67fe065dc092844137b768a6"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 17421,
+        "path": "assets/travel/small/prunes_pitted.png",
+        "px": 160,
+        "sha256": "61e6c30ecf8b628a0f2879dca2839543e27d9a3fb386e0a4c6a6cd67838aa633"
+      }
+    },
+    "raisins_black.png": {
+      "full": {
+        "bytes": 26668,
+        "path": "assets/travel/raisins_black.png",
+        "px": 256,
+        "sha256": "9bd93ceefa81cb1b029199faeef49e048bf5af122df72c55d5cb973013bc3e52"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12299,
+        "path": "assets/travel/small/raisins_black.png",
+        "px": 160,
+        "sha256": "76410ede1781067877a6619411aaa44d97da00226a5db67145bfafd0fec00019"
+      }
+    },
+    "raisins_golden.png": {
+      "full": {
+        "bytes": 26915,
+        "path": "assets/travel/raisins_golden.png",
+        "px": 256,
+        "sha256": "34c092dce1421f8f757c36f2c1220695c8d53e36c0ad63ceaffc8da7272ce652"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 12014,
+        "path": "assets/travel/small/raisins_golden.png",
+        "px": 160,
+        "sha256": "cc78c473fe0f74401a53b3e919c994683a157ca427adf02d84b535ec573a80de"
+      }
+    },
     "rashad.png": {
       "full": {
         "bytes": 27122,
@@ -389,6 +734,21 @@
         "path": "assets/travel/small/sour_grapes_hosrom.png",
         "px": 160,
         "sha256": "e6b90f8ebfbf65245ef48545a0c3f95b7e69332005d9be0cc276243ab4526d01"
+      }
+    },
+    "sunflower_seeds.png": {
+      "full": {
+        "bytes": 31141,
+        "path": "assets/travel/sunflower_seeds.png",
+        "px": 256,
+        "sha256": "5b10325af284ce25d3b631d456ec5d5308787c90bb3c215d4818483ed0caaec5"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 13472,
+        "path": "assets/travel/small/sunflower_seeds.png",
+        "px": 160,
+        "sha256": "7df36c1e1db77e38dc9a14b4ab9c0e451c5f072b905725901ee309665153786e"
       }
     },
     "tortillas_flour.png": {
@@ -434,6 +794,21 @@
         "path": "assets/travel/small/walnuts_in_shell.png",
         "px": 160,
         "sha256": "5b81075baceca0bed891fd094e5e046739f139d4e0eaaf4c0d77a61f48512e0d"
+      }
+    },
+    "white_walnuts_in_shell.png": {
+      "full": {
+        "bytes": 35137,
+        "path": "assets/travel/white_walnuts_in_shell.png",
+        "px": 256,
+        "sha256": "d03411584f73edcfa9f61d1b44e9b8c35b692ceebdada6ba97f33a610b4b2afc"
+      },
+      "since": 101,
+      "small": {
+        "bytes": 15089,
+        "path": "assets/travel/small/white_walnuts_in_shell.png",
+        "px": 160,
+        "sha256": "6c9132bee3acf36a6ba8541acb37918d56099136debad2a09a06d9cab079915b"
       }
     }
   },

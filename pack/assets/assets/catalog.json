@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -204,6 +204,35 @@
         "es": "Manzana Alkmene"
       },
       "concept": "alkmene_apples"
+    },
+    {
+      "id": "almonds",
+      "plu": "4924",
+      "name": "Almonds",
+      "category": "fruit",
+      "aliases": [
+        "Almonds in Shell",
+        "In-Shell Almonds",
+        "Almendra",
+        "almendra natural",
+        "almendra entera",
+        "almendras"
+      ],
+      "image": "almonds_in_shell.png",
+      "desc": "almonds in shell are whole dried almonds still in their light, woody stone shell, each about 3 to 3.5 cm long, flattened, broad at one end and tapering to a blunt point at the other like a teardrop pressed flat. a thin seam runs along one edge. the shell is matte pale tan to light golden beige, covered all over in small pits and pores like a sponge, and often a little papery and chipped at the edges; no green hull and no fuzz. they are sold loose by the pound, shown as a small pile of about ten almonds in shell with one shell cracked open at the front showing the smooth, teardrop, cinnamon-brown almond kernel inside, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Almendra"
+      },
+      "search": {
+        "names": "Mandel|Mandeln|amande|amandes|amêndoa|amêndoas|mandorla|mandorle|migdał|migdały",
+        "family": "",
+        "words": "",
+        "es": "Almendra"
+      },
+      "concept": "almonds"
     },
     {
       "id": "aloe_vera_leaves",
@@ -962,7 +991,7 @@
       ],
       "image": "apricots_dried.png",
       "desc": "dried apricots are typically small, irregularly wrinkled pieces, ranging in color from bright orange to a deeper brownish-orange. they have a chewy, somewhat leathery texture and are often flattened or shriveled. their shape is vaguely heart-like or oval, distinct from plump, fresh apricots.",
-      "section": "Tropical & Exotic",
+      "section": "Nuts & Dried Fruit",
       "size": "S",
       "display": {
         "es": "Orejón de chabacano"
@@ -3517,6 +3546,38 @@
       "concept": "black_plumcot"
     },
     {
+      "id": "raisins_black",
+      "plu": "4868",
+      "name": "Black Raisins",
+      "category": "fruit",
+      "aliases": [
+        "Raisins",
+        "Dark Raisins",
+        "Natural Raisins",
+        "Uva pasa negra",
+        "uva pasa",
+        "pasa",
+        "pasa negra",
+        "pasa morena"
+      ],
+      "image": "raisins_black.png",
+      "desc": "black raisins are natural sun-dried seedless raisins, each small, about 1 to 1.5 cm long, an irregular wrinkled oval, soft and slightly sticky. their color is a deep purplish black to very dark brown with faint reddish-brown highlights where the light hits the wrinkles, and a soft matte-to-satin sheen. no stems, no sugar. they are sold loose by the pound, shown as a small mounded pile of about forty raisins with a few loose at the front so their shape reads, every raisin fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Uva pasa negra"
+      },
+      "search": {
+        "names": "Rosine|Rosinen|Sultanine|Sultaninen|raisin sec|raisins secs|passa|passas|uva-passa|uvas-passas|uva passa|uvetta|uvette|uva sultanina|rodzynka|rodzynki|rodzynek",
+        "family": "",
+        "words": "schwarz schwarze schwarzer schwarzes noir noire noirs noires preto preta pretos pretas negro negra nero nera neri nere czarny czarna czarne ciemny ciemna ciemne",
+        "es": "Uva pasa negra",
+        "phrases": "pasa|pasas"
+      },
+      "concept": "raisins_black"
+    },
+    {
       "id": "black_raspberries",
       "plu": "4244",
       "name": "Black Raspberries",
@@ -3586,6 +3647,35 @@
         "es": "Chabacano Black Velvet"
       },
       "concept": "black_velvet_apricot"
+    },
+    {
+      "id": "black_walnuts",
+      "plu": "4944",
+      "name": "Black Walnuts",
+      "category": "fruit",
+      "aliases": [
+        "Black Walnuts in Shell",
+        "Walnuts - Black",
+        "Nuez negra",
+        "nogal negro",
+        "nuez de nogal negro",
+        "nogal americano"
+      ],
+      "image": "black_walnuts_in_shell.png",
+      "desc": "black walnuts in shell are whole hulled black walnuts, each about 3 to 4 cm across, nearly round with a blunt point at one end. the shell is very thick and hard, a dark chocolate brown to almost black, with a rough surface cut by deep, sharp, irregular furrows and ridges all over, far deeper and darker than an english walnut; no green or black husk remains. they are sold loose by the pound, shown as a small pile of about eight black walnuts with one cracked in half at the front showing its very thick shell walls and small, dark tan, oily kernel pieces lodged in the deep inner chambers, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez negra"
+      },
+      "search": {
+        "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
+        "family": "",
+        "words": "schwarz schwarze schwarzer schwarzes noir noire noirs noires preto preta pretos pretas negro negra nero nera neri nere czarny czarna czarne ciemny ciemna ciemne",
+        "es": "Nuez negra"
+      },
+      "concept": "black_walnuts"
     },
     {
       "id": "blackeyed_peas",
@@ -4170,6 +4260,35 @@
       "dims": {
         "size": "S"
       }
+    },
+    {
+      "id": "brazil_nuts",
+      "plu": "4926",
+      "name": "Brazil Nuts",
+      "category": "fruit",
+      "aliases": [
+        "Brazilnuts",
+        "Brazil Nuts in Shell",
+        "Nuez de Brasil",
+        "castaña de brasil",
+        "castaña de pará",
+        "coquito de brasil"
+      ],
+      "image": "brazil_nuts_in_shell.png",
+      "desc": "brazil nuts in shell are large, hard, three-sided wedge-shaped nuts about 4 to 5 cm long, curved slightly along their length like an orange segment, with three flat-to-rounded faces meeting in sharp ridges and a blunt end at each tip. the shell is thick, dark chocolate to reddish brown, with a rough, finely wrinkled and pebbled surface that has been brushed to a dull sheen. they are sold loose by the pound, shown as a small pile of about eight brazil nuts in shell with one shell cracked open at the front showing the long, creamy white kernel wrapped in a thin brown skin, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez de Brasil"
+      },
+      "search": {
+        "names": "Paranuss|Paranüsse|noix du Brésil|castanha-do-pará|castanhas-do-pará|castanha-do-brasil|castanhas-do-brasil|noce del Brasile|noci del Brasile|orzech brazylijski|orzechy brazylijskie",
+        "family": "",
+        "words": "",
+        "es": "Nuez de Brasil"
+      },
+      "concept": "brazil_nuts"
     },
     {
       "id": "breadfruit",
@@ -5244,6 +5363,36 @@
       "concept": "casaba_melon"
     },
     {
+      "id": "cashews",
+      "plu": "3105",
+      "name": "Cashews",
+      "category": "fruit",
+      "aliases": [
+        "Cashew",
+        "Cashew Nuts",
+        "Nuez de la India",
+        "marañón",
+        "anacardo",
+        "castaña de cajú",
+        "nuez de cajú"
+      ],
+      "image": "cashews.png",
+      "desc": "cashews are shelled cashew nuts, each a smooth, curved, kidney- or comma-shaped kernel about 2.5 to 3 cm long, plump at one end and tapering to a rounded tip that curls inward. the surface is smooth and matte, pale ivory to light cream with a faint warm yellow tint, sometimes with a slightly darker tan line along the inner curve where the two halves of the kernel meet. there is no shell, no skin, no salt crystals and no oil shine. they are sold loose by the pound from a bulk bin, shown as a small pile of about fourteen whole cashews, every one whole and fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez de la India"
+      },
+      "search": {
+        "names": "Cashewkern|Cashewkerne|Cashewnuss|Cashewnüsse|Cashew|Cashews|noix de cajou|cajou|cajous|castanha de caju|castanhas de caju|caju|anacardo|anacardi|orzech nerkowca|orzechy nerkowca|nerkowiec|nerkowce",
+        "family": "",
+        "words": "",
+        "es": "Nuez de la India"
+      },
+      "concept": "cashews"
+    },
+    {
       "id": "cauliflower",
       "plu": "4079",
       "name": "Cauliflower",
@@ -6060,6 +6209,35 @@
         "es": "Perifollo"
       },
       "concept": "chervil"
+    },
+    {
+      "id": "chestnuts",
+      "plu": "4927",
+      "name": "Chestnuts",
+      "category": "fruit",
+      "aliases": [
+        "Roasting Chestnuts",
+        "European Chestnuts",
+        "Castaña",
+        "castaña fresca",
+        "castañas",
+        "marrón"
+      ],
+      "image": "chestnuts.png",
+      "desc": "chestnuts are fresh, raw chestnuts in their shell, each about 3 to 4 cm across, plump and rounded on one side and flat on the other, rising to a short pointed tip topped with a small tuft of pale fibers. the thin, leathery shell is smooth and glossy, a rich mahogany to deep chestnut brown with faint darker lengthwise streaks, and the broad base carries a large, rough, pale grayish-tan scar where the nut sat in its burr. no spiny burr, no cut cross and no roasting char. they are sold loose by the pound, shown as a small pile of about nine chestnuts with the glossy rounded sides and a few flat faces showing, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Castaña"
+      },
+      "search": {
+        "names": "Esskastanie|Esskastanien|Marone|Maronen|Kastanie|Kastanien|châtaigne|châtaignes|marron|marrons|castanha|castanhas|castagna|castagne|marrone|marroni|kasztan jadalny|kasztany jadalne|kasztan|kasztany",
+        "family": "",
+        "words": "",
+        "es": "Castaña"
+      },
+      "concept": "chestnuts"
     },
     {
       "id": "chickpeas_fresh",
@@ -7712,6 +7890,45 @@
       "concept": "dandelion_greens"
     },
     {
+      "id": "dates_on_branch",
+      "plu": "3045",
+      "name": "Dates on the Branch",
+      "category": "fruit",
+      "aliases": [
+        "Dates - Fresh, On Branch",
+        "Barhi Dates",
+        "Fresh Dates on the Branch",
+        "Dátil en rama",
+        "dátiles frescos",
+        "dátil fresco congelado",
+        "dátil fresco en rama",
+        "dátiles en rama",
+        "racimo de dátil",
+        "dátil barhi",
+        "dátil congelado",
+        "dátiles congelados",
+        "dátil hayani"
+      ],
+      "image": "dates_on_branch.png",
+      "desc": "dates on the branch are fresh yellow barhi dates still attached to their strand, a cluster of firm, glossy-to-satin, bright golden yellow fruits each about 2.5 to 3.5 cm long, round to short oval with blunt ends, hanging on short, thin, flat yellow-orange stalks that branch from one stiff, flattened golden strand. a few dates are just beginning to turn, translucent amber-brown at the tip. the skin is taut and smooth, not wrinkled, with a small pale cap where each date joins its stalk. they are sold by the pound on the branch, shown as one small branched strand carrying about twenty yellow dates, the whole cluster fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Dátil en rama"
+      },
+      "search": {
+        "names": "Dattel|Datteln|datte|dattes|tâmara|tâmaras|dattero|datteri|daktyl|daktyle",
+        "family": "",
+        "words": "",
+        "es": "Dátil en rama"
+      },
+      "concept": "dates_fresh",
+      "dims": {
+        "form": "on_the_branch"
+      }
+    },
+    {
       "id": "dates_fresh",
       "plu": "4263",
       "name": "Dates, Fresh",
@@ -7719,11 +7936,20 @@
       "aliases": [
         "Fresh, Regular",
         "Dátil fresco",
-        "dátiles frescos"
+        "dátiles frescos",
+        "dátil en rama",
+        "dátil fresco congelado",
+        "dátil fresco en rama",
+        "dátiles en rama",
+        "racimo de dátil",
+        "dátil barhi",
+        "dátil congelado",
+        "dátiles congelados",
+        "dátil hayani"
       ],
       "image": "dates_fresh.png",
       "desc": "showing small elongated oval golden-brown to dark brown, wrinkled sticky",
-      "section": "Tropical & Exotic",
+      "section": "Nuts & Dried Fruit",
       "size": "S",
       "display": {
         "es": "Dátil fresco"
@@ -8091,6 +8317,67 @@
         "es": "Pitahaya roja"
       },
       "concept": "dragon_fruit_red"
+    },
+    {
+      "id": "apple_rings_dried",
+      "plu": "4860",
+      "name": "Dried Apple Slices",
+      "category": "fruit",
+      "aliases": [
+        "Dried Apple Rings",
+        "Dried Apples",
+        "Apple Slices - Dried",
+        "Manzana deshidratada",
+        "manzana seca",
+        "rodajas de manzana deshidratada",
+        "aros de manzana",
+        "chips de manzana"
+      ],
+      "image": "apple_rings_dried.png",
+      "desc": "dried apple slices are dried apple rings, each a flat, slightly wavy disk about 5 to 7 cm across and a few millimeters thick with a round hole about 2 cm wide punched through the center where the core was removed. they are soft and leathery, pale cream to light beige with faint golden tan edges and a slightly puckered, matte surface; most rings are peeled, a few keep a thin rim of red or golden skin. no sugar coating. they are sold loose by the pound, shown as a small, loosely overlapping pile of about six rings with the center holes clearly visible, every ring fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Manzana deshidratada"
+      },
+      "search": {
+        "names": "Apfel|Äpfel|pomme|pommes|maçã|maçãs|mela|mele|pomo|pomi|jabłko|jabłka",
+        "family": "",
+        "words": "getrocknet getrocknete trocken séché séchée séchés séchées sec sèche secs sèches seco seca secos secas desidratado desidratados desidratada desidratadas passa passas secco secca secchi secche essiccato essiccata essiccati essiccate disidratato disidratata disidratati disidratate suszony suszona suszone",
+        "es": "Manzana deshidratada"
+      },
+      "concept": "apple_rings_dried"
+    },
+    {
+      "id": "dates_dried",
+      "plu": "4862",
+      "name": "Dried Dates",
+      "category": "fruit",
+      "aliases": [
+        "Deglet Noor Dates",
+        "Dates - Dried",
+        "Dátil deshidratado",
+        "dátil seco",
+        "dátil deglet",
+        "dátiles",
+        "dátil deglet noor"
+      ],
+      "image": "dates_dried.png",
+      "desc": "dried dates are whole dried deglet noor dates, each about 3 to 4 cm long and 1.5 cm thick, slim and cylindrical with rounded ends. the skin is a translucent golden amber to light honey brown, deeper brown toward one end, firm and semi-dry with fine, shallow wrinkles and a soft satin sheen, and a tiny pale cap at the stem end. no sugar, no pits showing. they are sold loose by the pound, shown as a small pile of about ten dried dates with a few lying across the top, every date whole and fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Dátil deshidratado"
+      },
+      "search": {
+        "names": "Dattel|Datteln|datte|dattes|tâmara|tâmaras|dattero|datteri|daktyl|daktyle",
+        "family": "",
+        "words": "getrocknet getrocknete trocken séché séchée séchés séchées sec sèche secs sèches seco seca secos secas desidratado desidratados desidratada desidratadas passa passas secco secca secchi secche essiccato essiccata essiccati essiccate disidratato disidratata disidratati disidratate suszony suszona suszone",
+        "es": "Dátil deshidratado"
+      },
+      "concept": "dates_dried"
     },
     {
       "id": "dried_tomatoes",
@@ -9175,7 +9462,7 @@
       ],
       "image": "dried_figs.png",
       "desc": "dried figs are shriveled and flattened, typically brown to purplish-black in color, with a tough, wrinkled outer skin. they have a chewy texture and a sweet, concentrated flavor, often with visible small, crunchy seeds inside. the shape vaguely resembles a flattened teardrop or bulb.",
-      "section": "Tropical & Exotic",
+      "section": "Nuts & Dried Fruit",
       "size": "M",
       "display": {
         "es": "Higos secos"
@@ -9262,6 +9549,37 @@
         "es": "Higos blancos verdes"
       },
       "concept": "figs_white_green"
+    },
+    {
+      "id": "filberts",
+      "plu": "4928",
+      "name": "Filberts (Hazelnuts)",
+      "category": "fruit",
+      "aliases": [
+        "Hazelnuts",
+        "Filberts",
+        "Cobnuts",
+        "Cobnut/Hazelnut",
+        "Avellana",
+        "avellanas",
+        "avellana natural",
+        "filbert"
+      ],
+      "image": "filberts_in_shell.png",
+      "desc": "filberts, also called hazelnuts, are whole dried hazelnuts in their shell, each about 2 to 2.5 cm long, round to slightly oval and tapering to a short blunt point. the thin, hard shell is smooth and glossy, a warm coppery to medium brown with faint fine darker lengthwise stripes, and the broad base carries a rough, matte, pale cream-to-tan patch where the nut sat in its leafy husk. no husk and no leaves. they are sold loose by the pound, shown as a small pile of about twelve filberts in shell with one cracked open at the front showing the round kernel in its thin, papery brown skin, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Avellana"
+      },
+      "search": {
+        "names": "Haselnuss|Haselnüsse|noisette|noisettes|avelã|avelãs|nocciola|nocciole|orzech laskowy|orzechy laskowe",
+        "family": "",
+        "words": "",
+        "es": "Avellana"
+      },
+      "concept": "filberts"
     },
     {
       "id": "fine_beans",
@@ -9607,6 +9925,36 @@
       "concept": "french_pears"
     },
     {
+      "id": "prunes_fresh",
+      "plu": "3274",
+      "name": "Fresh Prunes",
+      "category": "fruit",
+      "aliases": [
+        "Fresh Prune Plums",
+        "Prunes - Fresh",
+        "Ciruela para pasa",
+        "ciruela stanley",
+        "ciruela d'agen",
+        "ciruela europea",
+        "ciruela prune"
+      ],
+      "image": "italian_prune_plums.png",
+      "desc": "fresh prunes are fresh prune plums, small oval european plums about 4 to 5 cm long, egg-shaped and slightly flattened along a faint seam, with deep blue-purple skin under a dusty, pale blue-gray bloom and a short stem. shown as a single whole plum.",
+      "section": "Stone Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Ciruela para pasa"
+      },
+      "search": {
+        "names": "Zwetschge|Zwetschgen|Zwetsche|Zwetschke|Zwetschken|Zwetschen|quetsche|quetsches|pruneau|pruneaux|Stanley|susine Stanley|prugne Stanley|susina europea|susine europee|węgierka|węgierki",
+        "family": "Pflaume|Pflaumen|prune|prunes|ameixa|ameixas|susina|susine|prugna|prugne|śliwka|śliwki",
+        "words": "frisch frische frischer frisches frais fraîche fraîches fresco fresca frescos frescas freschi fresche świeży świeża świeże",
+        "es": "Ciruela para pasa"
+      },
+      "concept": "prunes_fresh"
+    },
+    {
       "id": "frisee",
       "plu": "3167",
       "name": "Frisée",
@@ -9630,6 +9978,44 @@
         "words": ""
       },
       "concept": "frisee"
+    },
+    {
+      "id": "dates_frozen",
+      "plu": "3046",
+      "name": "Frozen Dates",
+      "category": "fruit",
+      "aliases": [
+        "Dates - Fresh, Frozen",
+        "Frozen Barhi Dates",
+        "Dátil fresco congelado",
+        "dátiles frescos",
+        "dátil en rama",
+        "dátil fresco en rama",
+        "dátiles en rama",
+        "racimo de dátil",
+        "dátil barhi",
+        "dátil congelado",
+        "dátiles congelados",
+        "dátil hayani"
+      ],
+      "image": "dates_frozen.png",
+      "desc": "frozen fresh dates are soft, ripe barhi dates frozen whole, each about 2.5 to 3.5 cm long, round to plump oval. each date is part way through ripening: some half golden yellow and half glossy translucent amber-brown, others fully soft and honey-brown with thin, loose, slightly wrinkled skin. a fine, sparkling white frost of tiny ice crystals dusts every date. no branch, no packaging. they are sold by the pound from the freezer, shown as a small pile of about ten frosted dates, every date fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Dátil fresco congelado"
+      },
+      "search": {
+        "names": "Dattel|Datteln|datte|dattes|tâmara|tâmaras|dattero|datteri|daktyl|daktyle",
+        "family": "",
+        "words": "gefroren gefrorene tiefgekühlt tiefgekühlte surgelé surgelée surgelés surgelées congelé congelés congelado congelada congelados congeladas surgelato surgelata surgelati surgelate congelato congelati mrożony mrożona mrożone",
+        "es": "Dátil fresco congelado"
+      },
+      "concept": "dates_fresh",
+      "dims": {
+        "form": "frozen"
+      }
     },
     {
       "id": "fuji_apples_large",
@@ -10686,6 +11072,36 @@
         "es": "Calabaza Golden Nugget"
       },
       "concept": "golden_nugget_squash"
+    },
+    {
+      "id": "raisins_golden",
+      "plu": "4869",
+      "name": "Golden Raisins",
+      "category": "fruit",
+      "aliases": [
+        "Yellow Raisins",
+        "Sultanas",
+        "Pasa rubia",
+        "pasa güera",
+        "uva pasa rubia",
+        "uva pasa dorada",
+        "pasa dorada"
+      ],
+      "image": "raisins_golden.png",
+      "desc": "golden raisins are seedless raisins dried to a bright color, each small, about 1 to 1.5 cm long, an irregular wrinkled oval, plumper and softer than dark raisins. their color is a translucent golden yellow to warm honey amber, some a little greenish gold, glowing slightly where the light passes through, with a moist satin sheen. no stems, no sugar. they are sold loose by the pound, shown as a small mounded pile of about forty golden raisins with a few loose at the front, every raisin fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Pasa rubia"
+      },
+      "search": {
+        "names": "Rosine|Rosinen|Sultanine|Sultaninen|raisin sec|raisins secs|passa|passas|uva-passa|uvas-passas|uva passa|uvetta|uvette|uva sultanina|rodzynka|rodzynki|rodzynek",
+        "family": "",
+        "words": "golden goldene goldener goldenes goldgelb doré dorée dorés dorées dourado dourada dourados douradas dorato dorata dorati dorate złoty złota złote",
+        "es": "Pasa rubia"
+      },
+      "concept": "raisins_golden"
     },
     {
       "id": "golden_raspberries",
@@ -13907,7 +14323,6 @@
       "aliases": [
         "Italian Prune/Sugar",
         "Ciruela italiana",
-        "ciruela pasa fresca",
         "ciruelas prune",
         "italian plums",
         "ciruela prune italiana",
@@ -16228,6 +16643,33 @@
       "concept": "lychees"
     },
     {
+      "id": "macadamia_nuts",
+      "plu": "3106",
+      "name": "Macadamia Nuts",
+      "category": "fruit",
+      "aliases": [
+        "Macadamia",
+        "Macadamias",
+        "Nuez de macadamia",
+        "nuez macadamia"
+      ],
+      "image": "macadamia_nuts.png",
+      "desc": "macadamia nuts are shelled macadamia kernels, each a nearly perfect round ball about 1.8 to 2.2 cm across, smooth and creamy white to pale ivory, with a faint satin sheen from their natural oil and a tiny darker dimple at one end where the kernel was attached. a few kernels are split into two neat hemispheres showing a flat, slightly paler face. no shell, no brown skin and no salt. they are sold loose by the pound from a bulk bin, shown as a small pile of about twelve whole kernels and two halves, every piece fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez de macadamia"
+      },
+      "search": {
+        "names": "Macadamianuss|Macadamianüsse|Macadamia|noix de macadamia|macadâmia|noz de macadâmia|nozes de macadâmia|noce di macadamia|noci di macadamia|orzech makadamia|orzechy makadamia|makadamia",
+        "family": "",
+        "words": "",
+        "es": "Nuez de macadamia"
+      },
+      "concept": "macadamia_nuts"
+    },
+    {
       "id": "madrona",
       "plu": "3366",
       "name": "Madroña",
@@ -16902,6 +17344,34 @@
       }
     },
     {
+      "id": "dates_medjool",
+      "plu": "3047",
+      "name": "Medjool Dates",
+      "category": "fruit",
+      "aliases": [
+        "Medjool",
+        "Dates - Medjool",
+        "Dátil Medjool",
+        "dátiles medjool",
+        "dátil medjol"
+      ],
+      "image": "dates_medjool.png",
+      "desc": "medjool dates are large, plump, soft whole dates, each about 4.5 to 5.5 cm long and 2.5 cm thick, a fat oval with blunt ends. the skin is deep reddish brown to dark mahogany, almost black in the creases, loose and papery over the soft flesh, with large, irregular wrinkles and a soft sheen, and a small pale tan dried cap at the stem end; a few dates show amber-brown at their thinnest wrinkles. no sugar, no glaze. they are sold loose by the pound, shown as a small pile of about six medjool dates, every date whole and fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Dátil Medjool"
+      },
+      "search": {
+        "names": "Dattel|Datteln|datte|dattes|tâmara|tâmaras|dattero|datteri|daktyl|daktyle",
+        "family": "",
+        "words": "",
+        "es": "Dátil Medjool"
+      },
+      "concept": "dates_medjool"
+    },
+    {
       "id": "melogold_grapefruit",
       "plu": "3152",
       "name": "Melogold Grapefruit",
@@ -17391,6 +17861,37 @@
       "concept": "mint"
     },
     {
+      "id": "mixed_nuts",
+      "plu": "4929",
+      "name": "Mixed Nuts",
+      "category": "fruit",
+      "aliases": [
+        "Mixed Nuts in Shell",
+        "Nut Mix",
+        "Nuez mixta",
+        "nueces mixtas",
+        "mezcla de nueces",
+        "mix de nueces",
+        "nueces surtidas"
+      ],
+      "image": "mixed_nuts_in_shell.png",
+      "desc": "mixed nuts are a loose holiday blend of five kinds of whole nuts still in their shells: round, wrinkled, light tan english walnuts with a raised seam; smooth, glossy, oblong reddish-brown pecans with dark streaks; flat, teardrop-shaped, pitted pale tan almonds; small round glossy coppery filberts with a pale base; and large dark brown three-sided brazil nuts. each kind is clearly different in shape and color, all dry and matte to softly glossy, with no husks and no salt. they are sold loose by the pound, shown as a small mixed pile of about twelve nuts with at least two of each kind clearly visible and every nut whole and fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez mixta"
+      },
+      "search": {
+        "names": "Nussmischung|gemischte Nüsse|noix mélangées|mélange de noix|nozes mistas|mix de nozes|frutta secca mista|noci miste|mieszanka orzechów|orzechy mieszane",
+        "family": "",
+        "words": "",
+        "es": "Nuez mixta",
+        "phrases": "nuts|nut"
+      },
+      "concept": "mixed_nuts"
+    },
+    {
       "id": "mloukhiye",
       "plu": "",
       "name": "Molokhia (Jute Mallow)",
@@ -17779,6 +18280,43 @@
         "es": "Repollo Napa"
       },
       "concept": "napa_cabbage"
+    },
+    {
+      "id": "pistachios_natural",
+      "plu": "4939",
+      "name": "Natural Pistachios",
+      "category": "fruit",
+      "aliases": [
+        "Pistachios",
+        "Pistachio Nuts",
+        "Pistachios - Natural",
+        "Pistache natural",
+        "pistache rojo",
+        "pistacho",
+        "pistache con cáscara",
+        "pistacho natural",
+        "pistacho rojo",
+        "pistache pintado",
+        "pistache colorado"
+      ],
+      "image": "pistachios_natural.png",
+      "desc": "natural pistachios are whole roasted pistachios in their shells, each about 2 to 2.5 cm long, a smooth oval pointed at one end. the thin, hard shell is a pale, creamy ivory to light beige, sometimes with faint light tan blush, and is naturally split open along a seam at the rounded end, showing a bright green-and-purple kernel peeking out. they are undyed, with no red color, no salt crust and no outer hull. they are sold loose by the pound, shown as a small pile of about fifteen pistachios with most of the split shells turned so the green kernel shows, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Pistache natural"
+      },
+      "search": {
+        "names": "Pistazie|Pistazien|pistache|pistaches|pistácio|pistácios|pistacchio|pistacchi|pistacja|pistacje",
+        "family": "",
+        "words": "",
+        "es": "Pistache natural"
+      },
+      "concept": "pistachios",
+      "dims": {
+        "form": "natural"
+      }
     },
     {
       "id": "navel_oranges_large_v2",
@@ -20288,6 +20826,40 @@
       }
     },
     {
+      "id": "peanuts",
+      "plu": "4930",
+      "name": "Peanuts",
+      "category": "fruit",
+      "aliases": [
+        "Peanuts in Shell",
+        "In-Shell Peanuts",
+        "Cacahuate",
+        "cacahuate crudo",
+        "maní",
+        "cacahuate con cáscara",
+        "cacahuete",
+        "cacahuates",
+        "maní crudo",
+        "cacahuate natural",
+        "cacahuate sin tostar"
+      ],
+      "image": "peanuts_raw_in_shell.png",
+      "desc": "raw peanuts are whole dried peanuts still in their shells, each pod about 3.5 to 5 cm long, a lumpy two-chambered tube pinched in at the middle like a figure eight, with rounded ends, one of them often with a small beak. the thin, brittle shell is pale, a dull creamy straw to light beige like unfinished pine, covered in a raised net of fine lengthwise ribs and cross veins. no dirt, no salt crust and no toasted color. they are sold loose by the pound, shown as a small pile of about twelve peanuts in shell with one pod cracked open at the front showing two peanuts in their thin, papery pinkish-red skins, every pod fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Cacahuate"
+      },
+      "search": {
+        "names": "Erdnuss|Erdnüsse|arachide|arachides|cacahuète|cacahuètes|cacahouète|cacahouètes|amendoim|amendoins|arachidi|nocciolina americana|noccioline americane|nocciolina|noccioline|orzeszek ziemny|orzeszki ziemne|fistaszek|fistaszki",
+        "family": "",
+        "words": "",
+        "es": "Cacahuate"
+      },
+      "concept": "peanuts"
+    },
+    {
       "id": "pearl_onions",
       "plu": "4660",
       "name": "Pearl Onions",
@@ -20715,6 +21287,37 @@
       "concept": "pears_triumph_de_vienne"
     },
     {
+      "id": "pecans",
+      "plu": "4936",
+      "name": "Pecans",
+      "category": "fruit",
+      "aliases": [
+        "Pecans in Shell",
+        "In-Shell Pecans",
+        "Nuez pecana",
+        "nuez",
+        "nuez encarcelada",
+        "pacana",
+        "nuez western"
+      ],
+      "image": "pecans_in_shell.png",
+      "desc": "pecans in shell are whole dried pecans, each about 3.5 to 4.5 cm long, an elongated smooth oval pointed at both ends like a small olive or a stretched egg. the thin shell is hard, smooth and softly glossy, a warm reddish to medium brown, marked with irregular dark brown to black streaks and blotches that run lengthwise, with a faint seam down each side. no green husk. they are sold loose by the pound, shown as a small pile of about ten pecans in shell with one cracked open at the front showing the long, ridged, golden-brown pecan kernel halves inside, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez pecana"
+      },
+      "search": {
+        "names": "Pekannuss|Pekannüsse|noix de pécan|noix de pecan|pacane|pacanes|noz-pecã|nozes-pecã|pecã|noce pecan|noci pecan|pecan|orzech pekan|orzechy pekan|pekan",
+        "family": "",
+        "words": "",
+        "es": "Nuez pecana",
+        "phrases": "nuez"
+      },
+      "concept": "pecans"
+    },
+    {
       "id": "pepino_melon",
       "plu": "4333",
       "name": "Pepino Melon",
@@ -20906,6 +21509,36 @@
       "concept": "pimiento_pepper"
     },
     {
+      "id": "pine_nuts",
+      "plu": "4938",
+      "name": "Pine Nuts",
+      "category": "fruit",
+      "aliases": [
+        "Pignoli",
+        "Pignolia",
+        "Pine Kernels",
+        "Piñón",
+        "piñón blanco",
+        "piñón rosa",
+        "piñones"
+      ],
+      "image": "pine_nuts.png",
+      "desc": "pine nuts, or pignoli, are shelled pine kernels, each tiny, about 1 to 1.5 cm long, a smooth, slim teardrop or elongated kernel rounded at one end and narrowing to a soft point at the other, some a little stubbier with a faint darker tan tip. they are pale ivory to soft cream with a satin, slightly oily sheen. no shells, no pine cone and no toasting. they are sold loose by the pound from a bulk bin, shown as a small mounded pile of about forty pine nuts with a few scattered at the edge so their shape reads clearly, every kernel fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Piñón"
+      },
+      "search": {
+        "names": "Pinienkern|Pinienkerne|pignon de pin|pignons de pin|pignon|pignons|pinhão|pinhões|pinoli|pinolo|orzeszek piniowy|orzeszki piniowe",
+        "family": "",
+        "words": "",
+        "es": "Piñón"
+      },
+      "concept": "pine_nuts"
+    },
+    {
       "id": "pineapple_dried",
       "plu": "4864",
       "name": "Pineapple - Dried",
@@ -20918,7 +21551,7 @@
       ],
       "image": "pineapple_dried.png",
       "desc": "pale to golden yellow, translucent, irregularly shaped pieces or rings, often slightly sticky or chewy in texture. they are typically flat or slightly curled, with a concentrically patterned surface from the original pineapple flesh. much smaller and firmer than fresh pineapple.",
-      "section": "Tropical & Exotic",
+      "section": "Nuts & Dried Fruit",
       "size": "M",
       "display": {
         "es": "Piña seca"
@@ -21338,6 +21971,40 @@
         "es": "Pitahaya amarilla"
       },
       "concept": "pitahaya_yellow"
+    },
+    {
+      "id": "prunes_pitted",
+      "plu": "4866",
+      "name": "Pitted Prunes",
+      "category": "fruit",
+      "aliases": [
+        "Pitted Dried Plums",
+        "Prunes - Pitted",
+        "Ciruela pasa sin hueso",
+        "ciruela pasa con hueso",
+        "ciruela seca",
+        "ciruelas pasas",
+        "ciruela pasa deshuesada",
+        "ciruela seca sin hueso"
+      ],
+      "image": "prunes_pitted.png",
+      "desc": "pitted prunes are dried plums with the pit punched out, each about 3 cm across, a soft, slightly flattened round button rather than an oval, with a small puckered, sunken slit or hole at one end where the pit was removed. the skin is glossy blue-black to very dark purple-brown with soft irregular wrinkles, and the moist, dark amber-brown flesh shows faintly at the puckered opening. no sugar coating. they are sold loose by the pound, shown as a small pile of about eight pitted prunes with two or three turned so the pitting hole faces forward, every prune fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Ciruela pasa sin hueso"
+      },
+      "search": {
+        "names": "Backpflaume|Backpflaumen|Trockenpflaume|Trockenpflaumen|Dörrpflaume|Dörrpflaumen|pruneau|pruneaux|ameixa seca|ameixas secas|ameixa-preta|ameixas-pretas|prugna secca|prugne secche|suszona śliwka|suszone śliwki",
+        "family": "",
+        "words": "entsteint entsteinte ohne Stein dénoyauté dénoyautée dénoyautés dénoyautées sem caroço descaroçado descaroçada descaroçados descaroçadas denocciolato denocciolata denocciolati denocciolate bez pestki bez pestek",
+        "es": "Ciruela pasa sin hueso"
+      },
+      "concept": "prunes",
+      "dims": {
+        "form": "pitted"
+      }
     },
     {
       "id": "plantains",
@@ -22168,6 +22835,38 @@
       "concept": "prince_melon"
     },
     {
+      "id": "prunes",
+      "plu": "4865",
+      "name": "Prunes",
+      "category": "fruit",
+      "aliases": [
+        "Dried Plums",
+        "Prunes - Regular",
+        "Prunes with Pits",
+        "Ciruela pasa con hueso",
+        "ciruela pasa sin hueso",
+        "ciruela seca",
+        "ciruelas pasas",
+        "ciruela pasa deshuesada",
+        "ciruela seca sin hueso"
+      ],
+      "image": "prunes_dried.png",
+      "desc": "prunes are whole dried plums with the pit still inside, each about 3 to 4 cm long, plump and oval, firm and rounded on all sides. the skin is glossy blue-black to very dark purple-brown, covered in soft, shallow, irregular wrinkles that catch the light, with a small dimple at the stem end. no sugar and no cut marks. they are sold loose by the pound, shown as a small pile of about eight whole prunes, every prune fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Ciruela pasa con hueso"
+      },
+      "search": {
+        "names": "Backpflaume|Backpflaumen|Trockenpflaume|Trockenpflaumen|Dörrpflaume|Dörrpflaumen|pruneau|pruneaux|ameixa seca|ameixas secas|ameixa-preta|ameixas-pretas|prugna secca|prugne secche|suszona śliwka|suszone śliwki",
+        "family": "",
+        "words": "",
+        "es": "Ciruela pasa con hueso"
+      },
+      "concept": "prunes"
+    },
+    {
       "id": "pummelo_red",
       "plu": "3129",
       "name": "Pummelo, Red",
@@ -22838,6 +23537,42 @@
         "es": "Manzana Rave™ First Kiss™"
       },
       "concept": "rave_first_kiss_apples"
+    },
+    {
+      "id": "peanuts_raw",
+      "plu": "4931",
+      "name": "Raw Peanuts",
+      "category": "fruit",
+      "aliases": [
+        "Peanuts - Raw",
+        "Raw Peanuts in Shell",
+        "Cacahuate crudo",
+        "maní",
+        "cacahuate con cáscara",
+        "cacahuete",
+        "cacahuates",
+        "maní crudo",
+        "cacahuate natural",
+        "cacahuate sin tostar"
+      ],
+      "image": "peanuts_raw_in_shell.png",
+      "desc": "raw peanuts are whole dried peanuts still in their shells, each pod about 3.5 to 5 cm long, a lumpy two-chambered tube pinched in at the middle like a figure eight, with rounded ends, one of them often with a small beak. the thin, brittle shell is pale, a dull creamy straw to light beige like unfinished pine, covered in a raised net of fine lengthwise ribs and cross veins. no dirt, no salt crust and no toasted color. they are sold loose by the pound, shown as a small pile of about twelve peanuts in shell with one pod cracked open at the front showing two peanuts in their thin, papery pinkish-red skins, every pod fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Cacahuate crudo"
+      },
+      "search": {
+        "names": "Erdnuss|Erdnüsse|arachide|arachides|cacahuète|cacahuètes|cacahouète|cacahouètes|amendoim|amendoins|arachidi|nocciolina americana|noccioline americane|nocciolina|noccioline|orzeszek ziemny|orzeszki ziemne|fistaszek|fistaszki",
+        "family": "",
+        "words": "roh rohe roher rohes cru crue crus crues crua cruas crudo cruda crudi crude surowy surowa surowe",
+        "es": "Cacahuate crudo"
+      },
+      "concept": "peanuts",
+      "dims": {
+        "form": "raw"
+      }
     },
     {
       "id": "red_apricots",
@@ -23521,6 +24256,42 @@
       "concept": "red_pears"
     },
     {
+      "id": "pistachios_red",
+      "plu": "4940",
+      "name": "Red Pistachios",
+      "category": "fruit",
+      "aliases": [
+        "Red Dyed Pistachios",
+        "Pistachios - Red",
+        "Pistache rojo",
+        "pistache natural",
+        "pistacho",
+        "pistache con cáscara",
+        "pistacho natural",
+        "pistacho rojo",
+        "pistache pintado",
+        "pistache colorado"
+      ],
+      "image": "pistachios_red.png",
+      "desc": "red pistachios are whole roasted pistachios in their shells that have been dyed a vivid, even cherry red to deep pinkish red all over, each about 2 to 2.5 cm long, a smooth hard oval pointed at one end and split open along a seam at the rounded end. inside the opening the kernel shows green and purple, sometimes tinged pink by the dye at its edge. the dye coats the whole shell with a slightly chalky matte finish. they are sold loose by the pound, shown as a small pile of about fifteen red pistachios with several splits facing forward, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Pistache rojo"
+      },
+      "search": {
+        "names": "Pistazie|Pistazien|pistache|pistaches|pistácio|pistácios|pistacchio|pistacchi|pistacja|pistacje",
+        "family": "",
+        "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
+        "es": "Pistache rojo"
+      },
+      "concept": "pistachios",
+      "dims": {
+        "form": "red"
+      }
+    },
+    {
       "id": "red_plumcot",
       "plu": "3609",
       "name": "Red Plumcot",
@@ -23921,6 +24692,80 @@
         "es": "Manzana Riverbelle"
       },
       "concept": "riverbelle_apples"
+    },
+    {
+      "id": "peanuts_roasted_salted",
+      "plu": "4932",
+      "name": "Roasted Salted Peanuts",
+      "category": "fruit",
+      "aliases": [
+        "Salted Peanuts",
+        "Peanuts - Roasted, Salted",
+        "Cacahuate tostado y salado",
+        "cacahuate tostado sin sal",
+        "cacahuate salado",
+        "cacahuate tostado con sal",
+        "maní salado",
+        "maní tostado con sal",
+        "maní tostado sin sal",
+        "cacahuate horneado natural",
+        "maní tostado"
+      ],
+      "image": "peanuts_roasted_in_shell.png",
+      "desc": "roasted peanuts are whole peanuts roasted in their shells, each pod about 3.5 to 5 cm long, a lumpy two-chambered tube pinched in at the middle with rounded ends. the brittle shell is a warm toasted golden tan to light brown, a little darker than raw peanuts, with a dry matte surface and a raised net of fine lengthwise ribs and cross veins; no visible salt crust and no oil shine. they are sold loose by the pound, shown as a small pile of about twelve roasted peanuts in shell with one pod cracked open at the front showing two golden peanuts in their thin, papery, reddish-brown skins, every pod fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Cacahuate tostado y salado"
+      },
+      "search": {
+        "names": "Erdnuss|Erdnüsse|arachide|arachides|cacahuète|cacahuètes|cacahouète|cacahouètes|amendoim|amendoins|arachidi|nocciolina americana|noccioline americane|nocciolina|noccioline|orzeszek ziemny|orzeszki ziemne|fistaszek|fistaszki",
+        "family": "",
+        "words": "geröstet geröstete gerösteter geröstetes gesalzen gesalzene gesalzener gesalzenes grillé grillée grillés grillées torréfié torréfiés salé salée salés salées torrado torrada torrados torradas salgado salgada salgados salgadas tostato tostata tostati tostate salato salata salati salate prażony prażona prażone solony solona solone",
+        "es": "Cacahuate tostado y salado"
+      },
+      "concept": "roasted_peanuts",
+      "dims": {
+        "form": "roasted_salted"
+      }
+    },
+    {
+      "id": "peanuts_roasted_unsalted",
+      "plu": "4933",
+      "name": "Roasted Unsalted Peanuts",
+      "category": "fruit",
+      "aliases": [
+        "Unsalted Peanuts",
+        "Peanuts - Roasted, Unsalted",
+        "Cacahuate tostado sin sal",
+        "cacahuate tostado y salado",
+        "cacahuate salado",
+        "cacahuate tostado con sal",
+        "maní salado",
+        "maní tostado con sal",
+        "maní tostado sin sal",
+        "cacahuate horneado natural",
+        "maní tostado"
+      ],
+      "image": "peanuts_roasted_in_shell.png",
+      "desc": "roasted peanuts are whole peanuts roasted in their shells, each pod about 3.5 to 5 cm long, a lumpy two-chambered tube pinched in at the middle with rounded ends. the brittle shell is a warm toasted golden tan to light brown, a little darker than raw peanuts, with a dry matte surface and a raised net of fine lengthwise ribs and cross veins; no visible salt crust and no oil shine. they are sold loose by the pound, shown as a small pile of about twelve roasted peanuts in shell with one pod cracked open at the front showing two golden peanuts in their thin, papery, reddish-brown skins, every pod fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Cacahuate tostado sin sal"
+      },
+      "search": {
+        "names": "Erdnuss|Erdnüsse|arachide|arachides|cacahuète|cacahuètes|cacahouète|cacahouètes|amendoim|amendoins|arachidi|nocciolina americana|noccioline americane|nocciolina|noccioline|orzeszek ziemny|orzeszki ziemne|fistaszek|fistaszki",
+        "family": "",
+        "words": "geröstet geröstete gerösteter geröstetes ungesalzen ungesalzene ungesalzener ungesalzenes grillé grillée grillés grillées torréfié torréfiés non salé non salés sans sel torrado torrada torrados torradas sem sal tostato tostata tostati tostate non salato non salati senza sale prażony prażona prażone niesolony niesolona niesolone",
+        "es": "Cacahuate tostado sin sal"
+      },
+      "concept": "roasted_peanuts",
+      "dims": {
+        "form": "roasted_unsalted"
+      }
     },
     {
       "id": "roma_tomatoes",
@@ -26561,6 +27406,36 @@
       "concept": "sunchokes"
     },
     {
+      "id": "sunflower_seeds",
+      "plu": "4942",
+      "name": "Sunflower Seeds",
+      "category": "fruit",
+      "aliases": [
+        "Sunflower Seeds in Shell",
+        "In-Shell Sunflower Seeds",
+        "Semilla de girasol",
+        "girasol",
+        "pipa",
+        "pipas",
+        "semillas de girasol"
+      ],
+      "image": "sunflower_seeds.png",
+      "desc": "sunflower seeds are whole striped sunflower seeds in their hulls, each about 1.5 to 2 cm long, a flattened teardrop that is broad and blunt at one end and pointed at the other, with a faint ridge along each edge. the thin, crisp hull is dark charcoal gray to black with bold creamy white to light gray stripes running lengthwise, and a matte finish with no salt crust. they are sold loose by the pound, shown as a small pile of about thirty striped seeds with three hulled kernels at the front, each a slim, smooth, pale gray-ivory teardrop, every seed fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Semilla de girasol"
+      },
+      "search": {
+        "names": "Sonnenblumenkern|Sonnenblumenkerne|graine de tournesol|graines de tournesol|semente de girassol|sementes de girassol|seme di girasole|semi di girasole|ziarno słonecznika|ziarna słonecznika|pestki słonecznika",
+        "family": "",
+        "words": "",
+        "es": "Semilla de girasol"
+      },
+      "concept": "sunflower_seeds"
+    },
+    {
       "id": "sunions_tearless_sweet_onions",
       "plu": "3493",
       "name": "Sunions® Tearless Sweet Onions",
@@ -28737,34 +29612,43 @@
       "concept": "walla_walla_onion"
     },
     {
-      "id": "walnuts_in_shell",
-      "plu": "",
-      "name": "Walnuts, In Shell",
-      "category": "other",
+      "id": "walnuts",
+      "plu": "4943",
+      "name": "Walnuts",
+      "category": "fruit",
       "aliases": [
-        "Walnuts",
         "Walnut",
-        "Walnuts in shell",
-        "In-shell walnuts",
-        "Whole walnuts",
+        "Walnuts in Shell",
+        "In-Shell Walnuts",
+        "In Shell Walnuts",
+        "Whole Walnuts",
+        "English Walnuts",
+        "Walnuts - Regular",
         "Jowz",
         "Joz",
-        "Nueces",
-        "Nuez",
-        "Nuez con cáscara",
-        "Nueces con cáscara",
-        "Nuez de Castilla"
+        "Nuez de Castilla",
+        "nuez de nogal",
+        "nuez inglesa",
+        "nogal",
+        "nuez común",
+        "nuez con cáscara",
+        "nueces con cáscara"
       ],
       "image": "walnuts_in_shell.png",
       "desc": "walnuts in shell are whole dried english walnuts, each about 3 to 4 cm across, round to slightly oval with a small pointed tip at one end and a flatter base at the other. a raised seam runs all the way around each nut where the two shell halves meet. the shell is hard, woody, and matte, a light tan to golden brown, covered all over in shallow irregular wrinkles and pits, never smooth, glossy, or dark, and with no green outer hull. they are sold loose by the pound, shown as a small pile of about nine whole walnuts with one walnut cracked in half at the front showing the wrinkled, golden, brain-like kernel inside its shell, every nut fully inside the frame.",
-      "section": "Other Vegetables",
-      "size": "",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
       "since": 101,
+      "display": {
+        "es": "Nuez de Castilla"
+      },
       "search": {
         "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
         "family": "",
-        "words": ""
-      }
+        "words": "",
+        "es": "Nuez de Castilla"
+      },
+      "concept": "walnuts"
     },
     {
       "id": "water_chestnuts",
@@ -29273,6 +30157,35 @@
         "es": "Calabacita blanca"
       },
       "concept": "white_squash"
+    },
+    {
+      "id": "white_walnuts",
+      "plu": "4945",
+      "name": "White Walnuts",
+      "category": "fruit",
+      "aliases": [
+        "Bleached Walnuts",
+        "Walnuts - White",
+        "Nuez blanca",
+        "nogal blanco",
+        "nuez de nogal blanco",
+        "nuez mantequilla"
+      ],
+      "image": "white_walnuts_in_shell.png",
+      "desc": "white walnuts are whole english walnuts in shell with a bright, bleached finish, each about 3 to 4 cm across, round to slightly oval with a small point at one end and a raised seam all the way around. the shell is hard and covered in shallow irregular wrinkles and pits like any walnut, but its color is a very pale cream to light straw, much lighter than a natural walnut, with a faint dry, chalky white bloom in the creases. no hull. they are sold loose by the pound, shown as a small pile of about nine pale walnuts with one cracked in half at the front showing the light golden, brain-like kernel inside, every nut fully inside the frame.",
+      "section": "Nuts & Dried Fruit",
+      "size": "M",
+      "since": 101,
+      "display": {
+        "es": "Nuez blanca"
+      },
+      "search": {
+        "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
+        "family": "",
+        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "es": "Nuez blanca"
+      },
+      "concept": "white_walnuts"
     },
     {
       "id": "nyame_white",
@@ -30501,6 +31414,13 @@
       "name": "Fresh Herbs",
       "display": {
         "es": "Hierbas frescas"
+      }
+    },
+    {
+      "id": "section_nuts_dried_fruit",
+      "name": "Nuts & Dried Fruit",
+      "display": {
+        "es": "Nueces y frutas secas"
       }
     },
     {

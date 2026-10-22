@@ -6,10 +6,10 @@
   "review_gate": "docs/l10n/es-approval.md (R4c)",
   "glossary": "docs/l10n/es-glossary.md",
   "note": "names: id -> es concept name. card_notes: id -> es note (PLU digits preserved). aliases: id -> lower-case es search aliases (store words, earlier names, the other number); search only, never shown.",
-  "name_count": 876,
+  "name_count": 899,
   "note_count": 94,
-  "alias_count": 1384,
-  "alias_concept_count": 683,
+  "alias_count": 1492,
+  "alias_concept_count": 706,
   "names": {
     "abate_fetel_pears": "Pera Abate Fetel",
     "acorn_squash": "Calabaza Acorn",
@@ -17,6 +17,7 @@
     "akane_apples": "Manzana Akane",
     "alfalfa_sprouts": "Germinado de alfalfa",
     "alkmene_apples": "Manzana Alkmene",
+    "almonds": "Almendra",
     "aloe_vera_leaves": "Hojas de sábila",
     "amaranth_leaves_all_sizes": "Hojas de amaranto",
     "ambrosia_apples": "Manzana Ambrosia",
@@ -25,6 +26,7 @@
     "anjou_pears": "Pera Anjou",
     "anjou_pears_red": "Pera Anjou roja",
     "apple_bananas_manzano": "Plátano Manzano",
+    "apple_rings_dried": "Manzana deshidratada",
     "apples_antares": "Manzana Antares",
     "apples_baldwin": "Manzana Baldwin",
     "apples_cn121": "Manzana SugarBee (grande)",
@@ -124,6 +126,7 @@
     "black_plumcot": "Ciruela Pluot negra",
     "black_raspberries": "Frambuesas negras",
     "black_velvet_apricot": "Chabacano Black Velvet",
+    "black_walnuts": "Nuez negra",
     "blackberries": "Zarzamoras",
     "blackeyed_peas": "Frijol de ojo negro",
     "blood_oranges": "Naranja sanguina",
@@ -140,6 +143,7 @@
     "boston_lettuce_red": "Lechuga Boston roja",
     "boysenberries": "Zarzamoras Boysen",
     "braeburn_apples": "Manzana Braeburn",
+    "brazil_nuts": "Nuez de Brasil",
     "breadfruit": "Fruta de pan",
     "broccoli": "Brócoli",
     "broccoli_baby": "Brocolini",
@@ -174,6 +178,7 @@
     "carrots_purple_red_beta_sweet": "Zanahoria morada (Beta Sweet)",
     "carrots_sticks": "Bastones de zanahoria",
     "casaba_melon": "Melón Casaba",
+    "cashews": "Nuez de la India",
     "cauliflower": "Coliflor",
     "cauliflower_baby": "Coliflor baby",
     "cauliflower_green": "Coliflor verde",
@@ -196,6 +201,7 @@
     "cherry_tomatoes": "Tomate cherry",
     "cherry_tomatoes_yellow": "Tomate cherry amarillo",
     "chervil": "Perifollo",
+    "chestnuts": "Castaña",
     "chickpeas_fresh": "Garbanzo fresco",
     "chili_pepper_dried": "Chile seco",
     "chili_peppers_yellow": "Chile amarillo",
@@ -252,7 +258,9 @@
     "daikon": "Daikon",
     "dancy_tangerines": "Mandarina Dancy",
     "dandelion_greens": "Hojas de diente de león",
+    "dates_dried": "Dátil deshidratado",
     "dates_fresh": "Dátil fresco",
+    "dates_medjool": "Dátil Medjool",
     "dazzle_apples": "Manzana Dazzle",
     "dekopon_tangerine": "Mandarina Dekopon",
     "delblush_tentation_apples": "Manzana Delblush Tentation",
@@ -305,6 +313,7 @@
     "figs_black": "Higos negros",
     "figs_brown": "Higos cafés",
     "figs_white_green": "Higos blancos verdes",
+    "filberts": "Avellana",
     "fine_beans": "Ejotes finos",
     "fireside_apples": "Manzana Fireside",
     "flamingo_pears": "Pera Flamingo",
@@ -474,6 +483,7 @@
     "lucyrose_apples": "Manzana LucyRose",
     "ludacrisp_apples": "Manzana Ludacrisp",
     "lychees": "Lichi",
+    "macadamia_nuts": "Nuez de macadamia",
     "madrona": "Madroño",
     "magic_star_apples": "Manzana Magic Star",
     "malanga": "Malanga",
@@ -505,6 +515,7 @@
     "minneola_tangelos": "Tangelo Minneola",
     "minnewashta_zestar_apples": "Manzana Minnewashta Zestar",
     "mint": "Menta",
+    "mixed_nuts": "Nuez mixta",
     "morel_mushrooms": "Hongos morilla",
     "morita_chili_peppers": "Chile morita",
     "mushrooms_cep": "Hongos porcini",
@@ -579,6 +590,8 @@
     "peaches_red_flesh": "Durazno de pulpa roja",
     "peaches_white_flesh": "Durazno blanco",
     "peaches_yellow_flesh": "Durazno amarillo",
+    "peanuts": "Cacahuate",
+    "roasted_peanuts": "Cacahuate tostado",
     "pearl_onions": "Cebolla perla",
     "pears_alexander_lucas": "Pera Alexander Lucas",
     "pears_angelys": "Pera Angelys",
@@ -595,6 +608,7 @@
     "pears_starkrimson": "Pera Starkrimson",
     "pears_taylors_gold": "Pera Taylor's Gold",
     "pears_triumph_de_vienne": "Pera Triumph de Vienne",
+    "pecans": "Nuez pecana",
     "pepino_melon": "Melón pepino",
     "peppermint_mint": "Menta piperita",
     "persian_melon": "Melón persa",
@@ -603,6 +617,7 @@
     "pickling_cucumbers": "Pepino para encurtir",
     "piel_de_sapo_melon": "Melón Piel de Sapo",
     "pimiento_pepper": "Pimiento morrón",
+    "pine_nuts": "Piñón",
     "pineapple": "Piña",
     "pineapple_dried": "Piña seca",
     "pineapple_jet_fresh": "Piña Jet Fresh",
@@ -613,6 +628,7 @@
     "pinole_peppers": "Chile Pinole",
     "pinova_apple": "Manzana Pinova",
     "pippin_apples": "Manzana Pippin",
+    "pistachios": "Pistache",
     "pitahaya_red_flesh_fire_dragons": "Pitahaya roja (Fire Dragons)",
     "pitahaya_yellow": "Pitahaya amarilla",
     "plantains": "Plátano macho",
@@ -636,6 +652,8 @@
     "prema280_apples": "Manzana PremA280",
     "president_plums_all_sizes": "Ciruela President",
     "prince_melon": "Melón Prince",
+    "prunes": "Ciruela pasa",
+    "prunes_fresh": "Ciruela para pasa",
     "pummelo_red": "Pummelo rojo",
     "pummelo_white": "Pummelo blanco",
     "pumpkin": "Calabaza",
@@ -663,6 +681,8 @@
     "radish_white_icicle": "Rábano blanco (Icicle)",
     "radishes_red_bunch": "Rábano rojo en manojo",
     "rainier_cherries": "Cerezas Rainier",
+    "raisins_black": "Uva pasa negra",
+    "raisins_golden": "Pasa rubia",
     "rambutan": "Rambután",
     "rave_first_kiss_apples": "Manzana Rave First Kiss",
     "red_apricots": "Chabacano rojo",
@@ -782,6 +802,7 @@
     "sunburst_tangerines": "Mandarina Sunburst",
     "sunburst_yellow_squash": "Calabaza Sunburst amarilla",
     "sunchokes": "Alcachofa de Jerusalén",
+    "sunflower_seeds": "Semilla de girasol",
     "sunions_tearless_sweet_onions": "Cebolla dulce sin lágrimas (Sunions)",
     "sunny_gold_yellow_mini_seedless_watermelon": "Sandía Sunny Gold amarilla mini sin semilla",
     "sweet_dumpling_squash": "Calabaza Sweet Dumpling",
@@ -850,6 +871,7 @@
     "vine_ripe_tomatoes": "Tomate madurado en rama",
     "virginia_gold_apples": "Manzana Virginia Gold",
     "walla_walla_onion": "Cebolla Walla Walla",
+    "walnuts": "Nuez de Castilla",
     "water_chestnuts": "Castañas de agua",
     "watercress": "Berro",
     "watermelon_orange_seedless": "Sandía naranja sin semilla",
@@ -862,6 +884,7 @@
     "white_onion": "Cebolla blanca",
     "white_potatoes": "Papa blanca",
     "white_squash": "Calabacita blanca",
+    "white_walnuts": "Nuez blanca",
     "wild_twist_apples": "Manzana Wild Twist",
     "winesap_apples": "Manzana Winesap",
     "winter_melon_all_sizes": "Melón de invierno",
@@ -1005,6 +1028,11 @@
     "alkmene_apples": [
       "manzanas alkmene"
     ],
+    "almonds": [
+      "almendra natural",
+      "almendra entera",
+      "almendras"
+    ],
     "aloe_vera_leaves": [
       "hoja de sábila",
       "penca de sábila",
@@ -1042,6 +1070,12 @@
     ],
     "apple_bananas_manzano": [
       "plátanos manzano"
+    ],
+    "apple_rings_dried": [
+      "manzana seca",
+      "rodajas de manzana deshidratada",
+      "aros de manzana",
+      "chips de manzana"
     ],
     "apples_antares": [
       "manzanas antares"
@@ -1373,6 +1407,11 @@
       "ciruela-chabacano",
       "ciruela-chabacano negro"
     ],
+    "black_walnuts": [
+      "nogal negro",
+      "nuez de nogal negro",
+      "nogal americano"
+    ],
     "blackberries": [
       "moras"
     ],
@@ -1433,6 +1472,11 @@
     ],
     "braeburn_apples": [
       "manzanas braeburn"
+    ],
+    "brazil_nuts": [
+      "castaña de brasil",
+      "castaña de pará",
+      "coquito de brasil"
     ],
     "breadfruit": [
       "fruta del pan",
@@ -1550,6 +1594,12 @@
     "casaba_melon": [
       "melones"
     ],
+    "cashews": [
+      "marañón",
+      "anacardo",
+      "castaña de cajú",
+      "nuez de cajú"
+    ],
     "cauliflower": [
       "floretes de coliflor",
       "coliflores"
@@ -1619,6 +1669,11 @@
     "cherry_tomatoes_yellow": [
       "jitomate cherry amarillo",
       "tomates cherry amarillos"
+    ],
+    "chestnuts": [
+      "castaña fresca",
+      "castañas",
+      "marrón"
     ],
     "chickpeas_fresh": [
       "garbanzos frescos"
@@ -1812,8 +1867,28 @@
     "dandelion_greens": [
       "diente de león"
     ],
+    "dates_dried": [
+      "dátil seco",
+      "dátil deglet",
+      "dátiles",
+      "dátil deglet noor"
+    ],
     "dates_fresh": [
-      "dátiles frescos"
+      "dátiles frescos",
+      "dátil en rama",
+      "dátil fresco congelado",
+      "dátil fresco en rama",
+      "dátiles en rama",
+      "racimo de dátil",
+      "dátil barhi",
+      "dátil congelado",
+      "dátiles congelados",
+      "dátil hayani"
+    ],
+    "dates_medjool": [
+      "dátiles medjool",
+      "dátil medjol",
+      "medjool"
     ],
     "dazzle_apples": [
       "manzanas dazzle"
@@ -1932,6 +2007,11 @@
     "figs_white_green": [
       "higos blancos",
       "higos verdes"
+    ],
+    "filberts": [
+      "avellanas",
+      "avellana natural",
+      "filbert"
     ],
     "fine_beans": [
       "ejote francés",
@@ -2304,7 +2384,6 @@
       "uvas italia con semilla"
     ],
     "italian_prune_plums": [
-      "ciruela pasa fresca",
       "ciruelas prune",
       "italian plums",
       "italian prune plums",
@@ -2507,6 +2586,10 @@
       "litchi",
       "lichis"
     ],
+    "macadamia_nuts": [
+      "macadamia",
+      "nuez macadamia"
+    ],
     "magic_star_apples": [
       "manzanas magic star"
     ],
@@ -2587,6 +2670,12 @@
     "mint": [
       "hierbabuena",
       "yerbabuena"
+    ],
+    "mixed_nuts": [
+      "nueces mixtas",
+      "mezcla de nueces",
+      "mix de nueces",
+      "nueces surtidas"
     ],
     "morel_mushrooms": [
       "colmenilla",
@@ -2849,6 +2938,27 @@
       "duraznos priscos",
       "duraznos amarillos"
     ],
+    "peanuts": [
+      "cacahuate crudo",
+      "maní",
+      "cacahuate con cáscara",
+      "cacahuete",
+      "cacahuates",
+      "maní crudo",
+      "cacahuate natural",
+      "cacahuate sin tostar"
+    ],
+    "roasted_peanuts": [
+      "cacahuate tostado y salado",
+      "cacahuate tostado sin sal",
+      "cacahuate salado",
+      "cacahuate tostado con sal",
+      "maní salado",
+      "maní tostado con sal",
+      "maní tostado sin sal",
+      "cacahuate horneado natural",
+      "maní tostado"
+    ],
     "pearl_onions": [
       "cebollitas perla",
       "cebollas perla"
@@ -2898,6 +3008,12 @@
     "pears_triumph_de_vienne": [
       "peras triumph de vienne"
     ],
+    "pecans": [
+      "nuez",
+      "nuez encarcelada",
+      "pacana",
+      "nuez western"
+    ],
     "pepino_melon": [
       "pepino dulce",
       "pepino melón",
@@ -2938,6 +3054,12 @@
       "pimento",
       "pimientos"
     ],
+    "pine_nuts": [
+      "piñón blanco",
+      "piñón rosa",
+      "piñones",
+      "pignoli"
+    ],
     "pineapple": [
       "piña miel",
       "piña golden"
@@ -2959,6 +3081,16 @@
     ],
     "pippin_apples": [
       "manzanas pippin"
+    ],
+    "pistachios": [
+      "pistache natural",
+      "pistache rojo",
+      "pistacho",
+      "pistache con cáscara",
+      "pistacho natural",
+      "pistacho rojo",
+      "pistache pintado",
+      "pistache colorado"
     ],
     "plantains": [
       "plátano verde",
@@ -3028,6 +3160,20 @@
     "prince_melon": [
       "melones"
     ],
+    "prunes": [
+      "ciruela pasa con hueso",
+      "ciruela pasa sin hueso",
+      "ciruela seca",
+      "ciruelas pasas",
+      "ciruela pasa deshuesada",
+      "ciruela seca sin hueso"
+    ],
+    "prunes_fresh": [
+      "ciruela stanley",
+      "ciruela d'agen",
+      "ciruela europea",
+      "ciruela prune"
+    ],
     "pummelo_red": [
       "pomelo rojo",
       "pomelo"
@@ -3088,6 +3234,18 @@
       "rabanitos en manojo",
       "rábano cambray",
       "rábanos rojos en manojo"
+    ],
+    "raisins_black": [
+      "uva pasa",
+      "pasa",
+      "pasa negra",
+      "pasa morena"
+    ],
+    "raisins_golden": [
+      "pasa güera",
+      "uva pasa rubia",
+      "uva pasa dorada",
+      "pasa dorada"
     ],
     "rambutan": [
       "rambutanes"
@@ -3421,6 +3579,12 @@
       "sunchoke",
       "tupinambos"
     ],
+    "sunflower_seeds": [
+      "girasol",
+      "pipa",
+      "pipas",
+      "semillas de girasol"
+    ],
     "sunions_tearless_sweet_onions": [
       "cebollas dulces sin lágrimas (sunions)"
     ],
@@ -3627,6 +3791,14 @@
     "virginia_gold_apples": [
       "manzanas virginia gold"
     ],
+    "walnuts": [
+      "nuez de nogal",
+      "nuez inglesa",
+      "nogal",
+      "nuez común",
+      "nuez con cáscara",
+      "nueces con cáscara"
+    ],
     "watercress": [
       "berros"
     ],
@@ -3646,6 +3818,11 @@
     ],
     "white_squash": [
       "calabaza blanca"
+    ],
+    "white_walnuts": [
+      "nogal blanco",
+      "nuez de nogal blanco",
+      "nuez mantequilla"
     ],
     "wild_twist_apples": [
       "manzanas wild twist"

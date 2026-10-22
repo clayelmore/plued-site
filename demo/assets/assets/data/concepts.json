@@ -1,7 +1,7 @@
 {
-  "version": 13,
+  "version": 14,
   "generated_by": "tool/build_concepts.dart",
-  "concept_count": 876,
+  "concept_count": 899,
   "concepts": [
     {
       "id": "abate_fetel_pears",
@@ -180,6 +180,37 @@
         {
           "plu": "3000",
           "item_id": "alkmene_apples",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4924",
+          "item_id": "almonds",
           "size": "All Sizes",
           "region": null,
           "grow_method": null,
@@ -473,6 +504,37 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "apple_rings_dried",
+      "name": "Dried Apple Slices",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "4860",
+          "item_id": "apple_rings_dried",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -3797,6 +3859,37 @@
       "is_most_common": false
     },
     {
+      "id": "black_walnuts",
+      "name": "Black Walnuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4944",
+          "item_id": "black_walnuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "blackberries",
       "name": "Blackberries",
       "category": "fruit",
@@ -4373,6 +4466,37 @@
       },
       "matrix_gaps": [],
       "is_most_common": true
+    },
+    {
+      "id": "brazil_nuts",
+      "name": "Brazil Nuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4926",
+          "item_id": "brazil_nuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
     },
     {
       "id": "breadfruit",
@@ -5501,6 +5625,37 @@
       "is_most_common": false
     },
     {
+      "id": "cashews",
+      "name": "Cashews",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "3105",
+          "item_id": "cashews",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "cauliflower",
       "name": "Cauliflower",
       "category": "vegetable",
@@ -6279,6 +6434,37 @@
         {
           "plu": "3084",
           "item_id": "chervil",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "chestnuts",
+      "name": "Chestnuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4927",
+          "item_id": "chestnuts",
           "size": "All Sizes",
           "region": null,
           "grow_method": null,
@@ -8139,14 +8325,104 @@
       "is_most_common": false
     },
     {
+      "id": "dates_dried",
+      "name": "Dried Dates",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "4862",
+          "item_id": "dates_dried",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "dates_fresh",
       "name": "Fresh Dates",
       "category": "fruit",
-      "family": "more_fruit",
+      "family": "dried_fruit",
       "codes": [
+        {
+          "plu": "3045",
+          "item_id": "dates_on_branch",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "on_the_branch",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
+        {
+          "plu": "3046",
+          "item_id": "dates_frozen",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "frozen",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
         {
           "plu": "4263",
           "item_id": "dates_fresh",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "dates_medjool",
+      "name": "Medjool Dates",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "3047",
+          "item_id": "dates_medjool",
           "size": "All Sizes",
           "region": null,
           "grow_method": null,
@@ -9957,6 +10233,37 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "filberts",
+      "name": "Filberts (Hazelnuts)",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4928",
+          "item_id": "filberts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -16187,6 +16494,37 @@
       "is_most_common": false
     },
     {
+      "id": "macadamia_nuts",
+      "name": "Macadamia Nuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "3106",
+          "item_id": "macadamia_nuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "madrona",
       "name": "Madroña",
       "category": "fruit",
@@ -17297,6 +17635,37 @@
       "most_common": null,
       "matrix_gaps": [],
       "is_most_common": true
+    },
+    {
+      "id": "mixed_nuts",
+      "name": "Mixed Nuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4929",
+          "item_id": "mixed_nuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
     },
     {
       "id": "morel_mushrooms",
@@ -19916,6 +20285,51 @@
       "is_most_common": true
     },
     {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4930",
+          "item_id": "peanuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
+        {
+          "plu": "4931",
+          "item_id": "peanuts_raw",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "raw",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "pearl_onions",
       "name": "Pearl Onions",
       "category": "vegetable",
@@ -20426,6 +20840,37 @@
       "is_most_common": false
     },
     {
+      "id": "pecans",
+      "name": "Pecans",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4936",
+          "item_id": "pecans",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "pepino_melon",
       "name": "Pepino Melon",
       "category": "fruit",
@@ -20666,6 +21111,37 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "pine_nuts",
+      "name": "Pine Nuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4938",
+          "item_id": "pine_nuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -21036,6 +21512,51 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "pistachios",
+      "name": "Pistachios",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4939",
+          "item_id": "pistachios_natural",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "natural",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
+        {
+          "plu": "4940",
+          "item_id": "pistachios_red",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "red",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -21859,6 +22380,82 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "prunes",
+      "name": "Prunes",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "4865",
+          "item_id": "prunes",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
+        {
+          "plu": "4866",
+          "item_id": "prunes_pitted",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "pitted",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "prunes_fresh",
+      "name": "Fresh Prunes",
+      "category": "fruit",
+      "family": "stone_fruit",
+      "codes": [
+        {
+          "plu": "3274",
+          "item_id": "prunes_fresh",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -22693,6 +23290,68 @@
         {
           "plu": "4258",
           "item_id": "rainier_cherries",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "raisins_black",
+      "name": "Black Raisins",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "4868",
+          "item_id": "raisins_black",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "raisins_golden",
+      "name": "Golden Raisins",
+      "category": "fruit",
+      "family": "dried_fruit",
+      "codes": [
+        {
+          "plu": "4869",
+          "item_id": "raisins_golden",
           "size": "All Sizes",
           "region": null,
           "grow_method": null,
@@ -23743,6 +24402,51 @@
         "tier": "PROXY",
         "rank_basis": "rarity+category",
         "proxy_tier": "rare"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "roasted_peanuts",
+      "name": "Roasted Peanuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4932",
+          "item_id": "peanuts_roasted_salted",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "roasted_salted",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        },
+        {
+          "plu": "4933",
+          "item_id": "peanuts_roasted_unsalted",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": "roasted_unsalted",
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
       },
       "card_note": null,
       "most_common": null,
@@ -26761,6 +27465,37 @@
       "is_most_common": false
     },
     {
+      "id": "sunflower_seeds",
+      "name": "Sunflower Seeds",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4942",
+          "item_id": "sunflower_seeds",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "sunions_tearless_sweet_onions",
       "name": "Sunions Tearless Sweet Onions",
       "category": "vegetable",
@@ -29063,6 +29798,37 @@
       "is_most_common": false
     },
     {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4943",
+          "item_id": "walnuts",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
       "id": "water_chestnuts",
       "name": "Water Chestnuts",
       "category": "vegetable",
@@ -29457,6 +30223,37 @@
         {
           "plu": "4781",
           "item_id": "white_squash",
+          "size": "All Sizes",
+          "region": null,
+          "grow_method": null,
+          "form": null,
+          "origin": "standard",
+          "pack_id": null,
+          "interchangeable_with": [],
+          "is_scannable": false,
+          "legacy": false,
+          "usage_class": null
+        }
+      ],
+      "frequency": {
+        "tier": "PROXY",
+        "rank_basis": "rarity+category",
+        "proxy_tier": "uncommon"
+      },
+      "card_note": null,
+      "most_common": null,
+      "matrix_gaps": [],
+      "is_most_common": false
+    },
+    {
+      "id": "white_walnuts",
+      "name": "White Walnuts",
+      "category": "fruit",
+      "family": "nuts",
+      "codes": [
+        {
+          "plu": "4945",
+          "item_id": "white_walnuts",
           "size": "All Sizes",
           "region": null,
           "grow_method": null,

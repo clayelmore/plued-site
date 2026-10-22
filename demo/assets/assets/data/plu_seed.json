@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "free_tier_item_ids": [
     "bananas",
     "gala_apples_large",
@@ -14,7 +14,7 @@
     "yellow_onion_large",
     "watermelon_red_seedless"
   ],
-  "total_items": 1089,
+  "total_items": 1116,
   "items": [
     {
       "id": "bananas",
@@ -14364,6 +14364,456 @@
         "Oro Mango - Small"
       ],
       "image_filename": "mango_yellow_small.png"
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "category": "fruit",
+      "plu": "3105",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Cashew",
+        "Cashew Nuts"
+      ],
+      "image_filename": "cashews.png",
+      "since": 101
+    },
+    {
+      "id": "macadamia_nuts",
+      "name": "Macadamia Nuts",
+      "category": "fruit",
+      "plu": "3106",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Macadamia",
+        "Macadamias"
+      ],
+      "image_filename": "macadamia_nuts.png",
+      "since": 101
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "fruit",
+      "plu": "4924",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Almonds in Shell",
+        "In-Shell Almonds"
+      ],
+      "image_filename": "almonds_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "brazil_nuts",
+      "name": "Brazil Nuts",
+      "category": "fruit",
+      "plu": "4926",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Brazilnuts",
+        "Brazil Nuts in Shell"
+      ],
+      "image_filename": "brazil_nuts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "chestnuts",
+      "name": "Chestnuts",
+      "category": "fruit",
+      "plu": "4927",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Roasting Chestnuts",
+        "European Chestnuts"
+      ],
+      "image_filename": "chestnuts.png",
+      "since": 101
+    },
+    {
+      "id": "filberts",
+      "name": "Filberts (Hazelnuts)",
+      "category": "fruit",
+      "plu": "4928",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Hazelnuts",
+        "Filberts",
+        "Cobnuts",
+        "Cobnut/Hazelnut"
+      ],
+      "image_filename": "filberts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "mixed_nuts",
+      "name": "Mixed Nuts",
+      "category": "fruit",
+      "plu": "4929",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Mixed Nuts in Shell",
+        "Nut Mix"
+      ],
+      "image_filename": "mixed_nuts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "category": "fruit",
+      "plu": "4930",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Peanuts in Shell",
+        "In-Shell Peanuts"
+      ],
+      "image_filename": "peanuts_raw_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "peanuts_raw",
+      "name": "Raw Peanuts",
+      "category": "fruit",
+      "plu": "4931",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Peanuts - Raw",
+        "Raw Peanuts in Shell"
+      ],
+      "image_filename": "peanuts_raw_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "peanuts_roasted_salted",
+      "name": "Roasted Salted Peanuts",
+      "category": "fruit",
+      "plu": "4932",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Salted Peanuts",
+        "Peanuts - Roasted, Salted"
+      ],
+      "image_filename": "peanuts_roasted_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "peanuts_roasted_unsalted",
+      "name": "Roasted Unsalted Peanuts",
+      "category": "fruit",
+      "plu": "4933",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Unsalted Peanuts",
+        "Peanuts - Roasted, Unsalted"
+      ],
+      "image_filename": "peanuts_roasted_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "pecans",
+      "name": "Pecans",
+      "category": "fruit",
+      "plu": "4936",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Pecans in Shell",
+        "In-Shell Pecans"
+      ],
+      "image_filename": "pecans_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "pine_nuts",
+      "name": "Pine Nuts",
+      "category": "fruit",
+      "plu": "4938",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Pignoli",
+        "Pignolia",
+        "Pine Kernels"
+      ],
+      "image_filename": "pine_nuts.png",
+      "since": 101
+    },
+    {
+      "id": "pistachios_natural",
+      "name": "Natural Pistachios",
+      "category": "fruit",
+      "plu": "4939",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Pistachios",
+        "Pistachio Nuts",
+        "Pistachios - Natural"
+      ],
+      "image_filename": "pistachios_natural.png",
+      "since": 101
+    },
+    {
+      "id": "pistachios_red",
+      "name": "Red Pistachios",
+      "category": "fruit",
+      "plu": "4940",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Red Dyed Pistachios",
+        "Pistachios - Red"
+      ],
+      "image_filename": "pistachios_red.png",
+      "since": 101
+    },
+    {
+      "id": "sunflower_seeds",
+      "name": "Sunflower Seeds",
+      "category": "fruit",
+      "plu": "4942",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Sunflower Seeds in Shell",
+        "In-Shell Sunflower Seeds"
+      ],
+      "image_filename": "sunflower_seeds.png",
+      "since": 101
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "category": "fruit",
+      "plu": "4943",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Walnut",
+        "Walnuts in Shell",
+        "In-Shell Walnuts",
+        "In Shell Walnuts",
+        "Whole Walnuts",
+        "English Walnuts",
+        "Walnuts - Regular",
+        "Jowz",
+        "Joz"
+      ],
+      "image_filename": "walnuts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "black_walnuts",
+      "name": "Black Walnuts",
+      "category": "fruit",
+      "plu": "4944",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Black Walnuts in Shell",
+        "Walnuts - Black"
+      ],
+      "image_filename": "black_walnuts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "white_walnuts",
+      "name": "White Walnuts",
+      "category": "fruit",
+      "plu": "4945",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "nuts",
+      "aliases": [
+        "Bleached Walnuts",
+        "Walnuts - White"
+      ],
+      "image_filename": "white_walnuts_in_shell.png",
+      "since": 101
+    },
+    {
+      "id": "dates_on_branch",
+      "name": "Dates on the Branch",
+      "category": "fruit",
+      "plu": "3045",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Dates - Fresh, On Branch",
+        "Barhi Dates",
+        "Fresh Dates on the Branch"
+      ],
+      "image_filename": "dates_on_branch.png",
+      "since": 101
+    },
+    {
+      "id": "dates_frozen",
+      "name": "Frozen Dates",
+      "category": "fruit",
+      "plu": "3046",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Dates - Fresh, Frozen",
+        "Frozen Barhi Dates"
+      ],
+      "image_filename": "dates_frozen.png",
+      "since": 101
+    },
+    {
+      "id": "dates_medjool",
+      "name": "Medjool Dates",
+      "category": "fruit",
+      "plu": "3047",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Medjool",
+        "Dates - Medjool"
+      ],
+      "image_filename": "dates_medjool.png",
+      "since": 101
+    },
+    {
+      "id": "prunes_fresh",
+      "name": "Fresh Prunes",
+      "category": "fruit",
+      "plu": "3274",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "stone_fruit",
+      "aliases": [
+        "Fresh Prune Plums",
+        "Prunes - Fresh"
+      ],
+      "image_filename": "italian_prune_plums.png",
+      "since": 101
+    },
+    {
+      "id": "apple_rings_dried",
+      "name": "Dried Apple Slices",
+      "category": "fruit",
+      "plu": "4860",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Dried Apple Rings",
+        "Dried Apples",
+        "Apple Slices - Dried"
+      ],
+      "image_filename": "apple_rings_dried.png",
+      "since": 101
+    },
+    {
+      "id": "dates_dried",
+      "name": "Dried Dates",
+      "category": "fruit",
+      "plu": "4862",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Deglet Noor Dates",
+        "Dates - Dried"
+      ],
+      "image_filename": "dates_dried.png",
+      "since": 101
+    },
+    {
+      "id": "prunes",
+      "name": "Prunes",
+      "category": "fruit",
+      "plu": "4865",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Dried Plums",
+        "Prunes - Regular",
+        "Prunes with Pits"
+      ],
+      "image_filename": "prunes_dried.png",
+      "since": 101
+    },
+    {
+      "id": "prunes_pitted",
+      "name": "Pitted Prunes",
+      "category": "fruit",
+      "plu": "4866",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Pitted Dried Plums",
+        "Prunes - Pitted"
+      ],
+      "image_filename": "prunes_pitted.png",
+      "since": 101
+    },
+    {
+      "id": "raisins_black",
+      "name": "Black Raisins",
+      "category": "fruit",
+      "plu": "4868",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Raisins",
+        "Dark Raisins",
+        "Natural Raisins"
+      ],
+      "image_filename": "raisins_black.png",
+      "since": 101
+    },
+    {
+      "id": "raisins_golden",
+      "name": "Golden Raisins",
+      "category": "fruit",
+      "plu": "4869",
+      "size_class": "M",
+      "rarity": "uncommon",
+      "confusion_group": "dried_fruit",
+      "aliases": [
+        "Yellow Raisins",
+        "Sultanas"
+      ],
+      "image_filename": "raisins_golden.png",
+      "since": 101
     }
   ]
 }

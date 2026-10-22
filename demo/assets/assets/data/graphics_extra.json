@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery).",
+  "version": 6,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies.",
   "items": [
     {
       "id": "jocote",
@@ -581,29 +581,6 @@
         "Pepinos baladi"
       ],
       "desc": "Baladi cucumbers are short, plump local slicing cucumbers about 12 to 15 cm long and 3 to 4 cm wide, straight to very slightly curved, with blunt rounded ends, a small dry stem scar at one end and a tiny pale blossom spot at the other. The skin is thin and tender with a soft satin sheen, not waxy, a clear leaf green with faint paler green streaks running lengthwise from the blossom end, very shallow lengthwise ridges, and a few tiny pale bumps; no deep furrows, no spines, and no fuzz. They are much shorter and plumper than a long slicing cucumber, and lighter green and less uniform than slim, dark, glossy snacking cucumbers. They are sold loose by the pound, shown as a small group of three whole cucumbers lying side by side at a slight diagonal, fully inside the frame with both ends of each one visible.",
-      "since": 101
-    },
-    {
-      "id": "walnuts_in_shell",
-      "name": "Walnuts, In Shell",
-      "category": "other",
-      "section": "Other Vegetables",
-      "image": "walnuts_in_shell.png",
-      "aliases": [
-        "Walnuts",
-        "Walnut",
-        "Walnuts in shell",
-        "In-shell walnuts",
-        "Whole walnuts",
-        "Jowz",
-        "Joz",
-        "Nueces",
-        "Nuez",
-        "Nuez con cáscara",
-        "Nueces con cáscara",
-        "Nuez de Castilla"
-      ],
-      "desc": "Walnuts in shell are whole dried English walnuts, each about 3 to 4 cm across, round to slightly oval with a small pointed tip at one end and a flatter base at the other. A raised seam runs all the way around each nut where the two shell halves meet. The shell is hard, woody, and matte, a light tan to golden brown, covered all over in shallow irregular wrinkles and pits, never smooth, glossy, or dark, and with no green outer hull. They are sold loose by the pound, shown as a small pile of about nine whole walnuts with one walnut cracked in half at the front showing the wrinkled, golden, brain-like kernel inside its shell, every nut fully inside the frame.",
       "since": 101
     },
     {

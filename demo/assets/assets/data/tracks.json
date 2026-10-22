@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generated_by": "tool/build_tracks.dart",
-  "track_count": 35,
+  "track_count": 36,
   "tracks": [
     {
       "id": "most_common",
@@ -725,6 +725,7 @@
             "black_plumcot",
             "peaches_flat_yellow_flesh",
             "flat_yellow_nectarine",
+            "prunes_fresh",
             "green_plumcot",
             "plums_green",
             "italian_prune_plums",
@@ -847,16 +848,15 @@
             "plantains",
             "papaya_regular",
             "coconut_in_husk",
-            "apricots_dried",
             "avocado_green",
-            "mango_green"
+            "mango_green",
+            "pineapple_jet_fresh"
           ]
         },
         {
           "index": 1,
           "name": "Tropical & Exotic · Part 2",
           "concept_ids": [
-            "pineapple_jet_fresh",
             "pomegranate",
             "ripe_avocados",
             "mango_ripe_ready_to_eat",
@@ -867,17 +867,14 @@
             "cactus_pear",
             "calypso_mango_all_sizes",
             "papaya_cooking_mexican",
-            "passion_fruit_curuba"
+            "passion_fruit_curuba",
+            "francis_mango"
           ]
         },
         {
           "index": 2,
           "name": "Tropical & Exotic · Part 3",
           "concept_ids": [
-            "dried_figs",
-            "pineapple_dried",
-            "francis_mango",
-            "dates_fresh",
             "gem_avocados",
             "golden_kiwifruit",
             "green_bananas",
@@ -885,16 +882,16 @@
             "coconut_husked",
             "mango_kensington_pride",
             "meridol_papaya",
-            "pineapple_mini"
+            "pineapple_mini",
+            "pineapple_perola",
+            "persimmon",
+            "avocados_pinkerton"
           ]
         },
         {
           "index": 3,
           "name": "Tropical & Exotic · Part 4",
           "concept_ids": [
-            "pineapple_perola",
-            "persimmon",
-            "avocados_pinkerton",
             "passion_fruit_purple",
             "queen_pineapple",
             "mango_r2e2",
@@ -903,15 +900,15 @@
             "shiny_red_persimmon_all_sizes",
             "papaya_solo_sunrise",
             "passion_fruit_granadilla_yellow",
-            "apple_bananas_manzano"
+            "apple_bananas_manzano",
+            "atemoyas",
+            "babaco"
           ]
         },
         {
           "index": 4,
           "name": "Tropical & Exotic · Part 5",
           "concept_ids": [
-            "atemoyas",
-            "babaco",
             "breadfruit",
             "cherimoya",
             "avocados_cocktail_seedless",
@@ -921,14 +918,14 @@
             "guava",
             "loquats",
             "lychees",
-            "passion_fruit_granadilla"
+            "passion_fruit_granadilla",
+            "red_bananas"
           ]
         },
         {
           "index": 5,
           "name": "Tropical & Exotic · Part 6",
           "concept_ids": [
-            "red_bananas",
             "dragon_fruit_red",
             "tamarillo_red",
             "soursop",
@@ -1611,6 +1608,52 @@
             "purple_herb",
             "rabbit_herb",
             "sacred_pepper_leaf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_nuts_dried_fruit",
+      "name": "Nuts & Dried Fruit",
+      "kind": "family",
+      "family": "section_nuts_dried_fruit",
+      "chapters": [
+        {
+          "index": 0,
+          "name": "Nuts & Dried Fruit · Part 1",
+          "concept_ids": [
+            "apricots_dried",
+            "almonds",
+            "raisins_black",
+            "black_walnuts",
+            "brazil_nuts",
+            "cashews",
+            "chestnuts",
+            "apple_rings_dried",
+            "dates_dried",
+            "dried_figs",
+            "pineapple_dried",
+            "filberts",
+            "dates_fresh"
+          ]
+        },
+        {
+          "index": 1,
+          "name": "Nuts & Dried Fruit · Part 2",
+          "concept_ids": [
+            "raisins_golden",
+            "macadamia_nuts",
+            "dates_medjool",
+            "mixed_nuts",
+            "peanuts",
+            "pecans",
+            "pine_nuts",
+            "pistachios",
+            "prunes",
+            "roasted_peanuts",
+            "sunflower_seeds",
+            "walnuts",
+            "white_walnuts"
           ]
         }
       ]

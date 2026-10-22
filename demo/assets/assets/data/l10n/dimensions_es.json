@@ -5,8 +5,8 @@
   "generated_by": "tool/l10n composer (Cycle +58 R4b)",
   "review_gate": "docs/l10n/es-approval.md (R4c)",
   "glossary": "docs/l10n/es-glossary.md",
-  "note": "raw dimension string (size/region/grow_method/form) -> es label for code chips. Families added 2026-08-17: the concept-card and Library family chips rendered the raw English token under Español. Terms follow docs/l10n/es-glossary.md where it covers them (Greens=Hojas Verdes, Cabbage=Repollo, Bell pepper=Pimiento, Chili=Chile). 2026-10-08: XL reads Jumbo, the size word stores print and the produce names use (tool/l10n/es_names_2026-10-08).",
-  "count": 32,
+  "note": "raw dimension string (size/region/grow_method/form) -> es label for code chips. Families added 2026-08-17: the concept-card and Library family chips rendered the raw English token under Español. Terms follow docs/l10n/es-glossary.md where it covers them (Greens=Hojas Verdes, Cabbage=Repollo, Bell pepper=Pimiento, Chili=Chile). 2026-10-08: XL reads Jumbo, the size word stores print and the produce names use (tool/l10n/es_names_2026-10-08). 2026-10-21 (nuts-release): forms raw, roasted_salted, roasted_unsalted (peanuts), natural (pistachios), pitted (prunes), on_the_branch, frozen (fresh dates), store words from the nuts-release Spanish names; families nuts and dried_fruit.",
+  "count": 39,
   "dimensions": {
     "All Sizes": "Todos los tamaños",
     "East/Central": "Este/Central",
@@ -39,7 +39,14 @@
     "tree_ripened": "Madurado en árbol",
     "jet_fresh": "Jet Fresh",
     "seeded_other": "Con semilla (otras)",
-    "seedless_other": "Sin semilla (otras)"
+    "seedless_other": "Sin semilla (otras)",
+    "raw": "Crudo",
+    "roasted_salted": "Tostado y salado",
+    "roasted_unsalted": "Tostado sin sal",
+    "natural": "Natural",
+    "pitted": "Sin hueso",
+    "on_the_branch": "En rama",
+    "frozen": "Congelado"
   },
   "families": {
     "artichokes": "Alcachofas",
@@ -54,6 +61,7 @@
     "corn": "Maíz",
     "cruciferous_vegetables": "Crucíferas",
     "cucumbers": "Pepinos",
+    "dried_fruit": "Frutas secas",
     "eggplants": "Berenjenas",
     "gourds": "Güiras",
     "grapes": "Uvas",
@@ -67,6 +75,7 @@
     "more_fruit": "Más frutas",
     "more_vegetables": "Más verduras",
     "mushrooms": "Hongos",
+    "nuts": "Nueces",
     "onions": "Cebollas",
     "pears": "Peras",
     "peas_beans": "Chícharos y frijoles",
@@ -85,5 +94,5 @@
     "tropical": "Tropicales",
     "yellow_apples": "Manzanas amarillas"
   },
-  "family_count": 42
+  "family_count": 44
 }
