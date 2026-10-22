@@ -33,7 +33,7 @@
       <p class="muted" id="no-token-text">The link is your login. There is no password to remember.</p>
       <p class="relink">Lost the link?</p>
       <div class="relink-box" id="relink-a">
-        <label class="visually-hidden" for="relink-email-a">The email you bought with</label>
+        <label class="visually-hidden" for="relink-email-a">Your store's email</label>
         <input id="relink-email-a" type="email" placeholder="you@yourstore.com" autocomplete="email">
         <button type="button" class="button kraft">Send my link again</button>
         <p class="form-status" aria-live="polite"></p>
@@ -124,21 +124,24 @@
         <section class="status-block" id="plan" aria-labelledby="plan-heading">
           <h2 id="plan-heading">Plan</h2>
           <dl class="kv">
-            <dt>Store Plan</dt><dd id="plan-tier"></dd>
+            <dt id="plan-tier-label">Store Plan</dt><dd id="plan-tier"></dd>
             <dt>Started</dt><dd id="plan-start"></dd>
             <dt id="plan-end-label">Renews</dt><dd id="plan-end"></dd>
             <dt id="plan-apple-label" hidden>Status</dt><dd id="plan-apple" hidden></dd>
           </dl>
+          <!-- A free trial from PLUed (2026-10-21): store-status.js fills these and hides the price, renewal, billing and refund. -->
+          <p id="plan-trial" hidden></p>
+          <p id="plan-trial-keep" hidden></p>
           <div class="closed-note" id="closed" hidden></div>
           <div class="row"><button type="button" class="button kraft" id="portal">Manage billing</button></div>
           <p class="form-status" id="plan-status" aria-live="polite"></p>
-          <p>If you cancel, your plan runs to the end of the paid year; every phone already unlocked stays unlocked, and the store code stops taking new cashiers after that. Payment handled by Stripe. We never see your card.</p>
+          <p id="plan-cancel">If you cancel, your plan runs to the end of the paid year; every phone already unlocked stays unlocked, and the store code stops taking new cashiers after that. Payment handled by Stripe. We never see your card.</p>
         </section>
       </div>
 
-      <p class="relink">Bookmark this page, or keep the welcome email. Lost both? Enter the email you bought with and we send the link again.</p>
+      <p class="relink">Bookmark this page, or keep the welcome email. Lost both? Enter your store's email and we send the link again.</p>
       <div class="relink-box" id="relink-b">
-        <label class="visually-hidden" for="relink-email-b">The email you bought with</label>
+        <label class="visually-hidden" for="relink-email-b">Your store's email</label>
         <input id="relink-email-b" type="email" placeholder="you@yourstore.com" autocomplete="email">
         <button type="button" class="button kraft">Send my link again</button>
         <p class="form-status" aria-live="polite"></p>
@@ -155,7 +158,7 @@
   </div><div class="footer-bottom"><span>&copy; 2026 Arbolinea.</span><span>Built for cashiers.</span></div></div></footer>
 
   <script src="/assets/qr.js?v=4b2af7be"></script>
-  <script src="/assets/store.js?v=1ea97dc0"></script>
-  <script src="/assets/store-status.js?v=64c3d547"></script>
+  <script src="/assets/store.js?v=3170d690"></script>
+  <script src="/assets/store-status.js?v=c184d210"></script>
 </body>
 </html>

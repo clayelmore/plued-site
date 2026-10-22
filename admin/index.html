@@ -63,11 +63,15 @@
   .badge.apple-created { background: #e4efe7; color: var(--leaf); }
   .badge.apple-pending { background: #f8ecd8; color: var(--citrus); }
   .badge.apple-inactive, .badge.closed, .badge.refund { background: #f7e3e0; color: var(--tomato); }
+  .badge.trial { background: #e3ecf4; color: #2c5a7a; }
   .store-logo { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 6px; max-width: 220px; }
   .store-logo .note { font-size: 12px; }
   .store-logo .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; width: 36px; height: 36px; border: 1px solid #e5d9c3; border-radius: 10px; background: #faf6ee; }
   .store-logo .logo-badge img { display: block; object-fit: contain; }
   #stores .actions button.logo-remove { min-height: 44px; }
+  /* The store row's actions wrap onto more lines instead of running past the panel (owner, 2026-10-21: "Close store code" was cut off); each label stays whole. */
+  #stores td.actions { white-space: normal; min-width: 160px; }
+  #stores td.actions > button, #stores td.actions > a { white-space: nowrap; display: inline-block; margin: 2px 6px 4px 0; }
   /* The wide logo (2026-10-08): its thumbnail on the app's cream band, 3:1. */
   .store-logo .logo-band { display: inline-flex; flex: none; box-sizing: border-box; width: 96px; height: 32px; border: 1px solid #e5d9c3; border-radius: 6px; background: #faf6ee; overflow: hidden; }
   .store-logo .logo-band img { display: block; width: 100%; height: 100%; object-fit: contain; }
@@ -140,7 +144,7 @@
   #mlTool .logo-mono { margin-top: 10px; max-width: 260px; }
   #mlTool .logo-mono label { display: flex; flex-direction: column; gap: 4px; }
   .badge.apple-skipped { background: #ece7db; color: var(--ink-soft); }
-  .mint { display: grid; grid-template-columns: 2fr 2fr 1fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 14px; }
+  .mint { display: grid; grid-template-columns: 1.5fr 2fr 2fr 0.8fr 1.4fr auto; gap: 8px; align-items: end; margin: 10px 0 6px; }
   .mint label { display: block; }
   .mint input, .mint select { width: 100%; padding: 9px 10px; margin-top: 4px; border: 1.5px solid var(--kraft); border-radius: 8px; background: #fff; font: inherit; }
   tr.drawer td { background: #fbf7ec; }
@@ -223,14 +227,16 @@
 
   <div class="card" id="stores">
     <h2 style="margin:0 0 4px;font-size:18px;">Stores</h2>
-    <p class="sub" style="margin:0 0 10px;">Store Plans: one store code per store, minted by Stripe or by hand here. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
+    <p class="sub" style="margin:0 0 10px;">Store Plans: one store code per store, made by Stripe or by hand here. A store made here is a FREE TRIAL unless you pick "Paid outside Stripe" (an invoice order): a trial's private page says "Free trial" and shows no price, billing, or refund. Requests come from each store's private page; flip their state and the store sees it. Files download through this browser with the token.</p>
     <form class="mint" id="mintForm" novalidate>
+      <label>KIND<select id="mintKind"><option value="trial" selected>Free trial</option><option value="paid">Paid outside Stripe</option></select></label>
       <label>STORE<input id="mintStore" maxlength="80" placeholder="Hometown Foods"></label>
       <label>EMAIL<input id="mintEmail" type="email" maxlength="200" placeholder="manager@store.com"></label>
-      <label>TIER<select id="mintTier"><option value="10">10</option><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option></select></label>
-      <label>PLAN END <span class="note">(optional)</span><input id="mintEnd" type="date"></label>
-      <button type="submit" id="mintBtn">Mint</button>
+      <label>TIER<select id="mintTier"><option value="10" selected>10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label>
+      <label>PLAN END <span class="note">(optional; one year)</span><input id="mintEnd" type="date"></label>
+      <button type="submit" id="mintBtn">Create free trial</button>
     </form>
+    <p class="note" style="margin:0 0 14px;">EMAIL: the welcome email (store code and private page link) goes here. Put support@plued.app to get it yourself and forward it.</p>
     <div id="storesStatus" class="note"></div>
     <div class="wrap"><table id="storesTable" hidden>
       <thead><tr><th>Store</th><th>Store code</th><th>Tier</th><th>Seats</th><th>Plan end</th><th>Apple</th><th>Requests</th><th>Actions</th></tr></thead>
@@ -1356,6 +1362,13 @@
       (s.logo_live ? '' : ', waiting for a pack') + '</span></div>';
   }
 
+  // Mirrors isTrialStore in infra/pack-registry-worker/store.js: any Stripe
+  // customer or subscription = paid; else trial unless trial === false.
+  function isTrial(s) {
+    if (s.stripe_customer || s.stripe_subscription) return false;
+    return s.trial !== false;
+  }
+
   function renderStores(stores) {
     storeRows.innerHTML = '';
     storeByPack = {};
@@ -1366,7 +1379,7 @@
       var tr = document.createElement('tr');
       var open = openRequests(s);
       tr.innerHTML =
-        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
+        '<td>' + esc(s.store) + '<div class="id">' + esc(s.email || '') + '</div>' + (isTrial(s) ? badge('trial', 'TRIAL') + ' ' : '') + (s.closed_at ? badge('closed', 'CLOSED ' + fmtDay(s.closed_at)) : '') +
           (openRefund(s) ? ' ' + badge('refund', 'REFUND REQUESTED') : '') + logoCell(s) + '</td>' +
         '<td><b>' + esc(s.word) + '</b></td>' +
         '<td>' + esc(s.tier) + '</td>' +
@@ -1513,24 +1526,40 @@
     });
   }
 
+  // Create (free trials, 2026-10-21): KIND picks a free trial (the default)
+  // or a plan paid outside Stripe; the worker stores trial true|false. An
+  // older worker ignores `kind`, and a store with no Stripe ids reads as a
+  // trial there anyway once the new worker is live.
+  var mintKind = document.getElementById('mintKind');
+  function mintLabel() { document.getElementById('mintBtn').textContent = mintKind.value === 'trial' ? 'Create free trial' : 'Create'; }
+  mintKind.addEventListener('change', function () {
+    if (mintKind.value === 'trial') document.getElementById('mintTier').value = '10';
+    mintLabel();
+  });
   document.getElementById('mintForm').addEventListener('submit', function (ev) {
     ev.preventDefault();
     if (needToken()) return;
+    var kind = mintKind.value === 'paid' ? 'paid' : 'trial';
     var store = document.getElementById('mintStore').value.trim();
     var email = document.getElementById('mintEmail').value.trim();
     var tier = Number(document.getElementById('mintTier').value);
     var end = document.getElementById('mintEnd').value;
-    if (store.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStoresStatus('Store name and a valid email are required to mint.', 'err'); return; }
-    if (!confirm('Mint a ' + tier + '-seat Store Plan for "' + store + '"?\n\nThis creates the store code, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '. Use it for invoice orders or anything Stripe did not mint.')) return;
-    var body = { store: store, email: email, tier: tier };
+    if (store.length < 2 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStoresStatus('Store name and a valid email are required.', 'err'); return; }
+    var until = end ? ' through ' + end : ' for one year';
+    var what = kind === 'trial'
+      ? 'Create a FREE TRIAL for "' + store + '": up to ' + tier + ' seats' + until + '?\n\nNo payment and no refund: the store\'s page says "Free trial". '
+      : 'Create a ' + tier + '-seat Store Plan PAID OUTSIDE STRIPE for "' + store + '"' + until + '?\n\nUse it for invoice orders. ';
+    if (!confirm(what + 'This creates the store code, the license, the Apple custom code (if configured), and emails the welcome to ' + email + '.')) return;
+    var body = { store: store, email: email, tier: tier, kind: kind };
     if (end) body.plan_end = new Date(end + 'T00:00:00Z').toISOString();
     var btn = document.getElementById('mintBtn'); btn.disabled = true;
-    setStoresStatus('Minting...');
+    setStoresStatus('Creating...');
     storeApi('/store/mint', 'POST', body).then(function (r) {
       btn.disabled = false;
       if (!r.ok) { setStoresStatus(apiError(r.res, r.body), 'err'); return; }
-      setStoresStatus('Minted ' + (r.body && r.body.word) + ' for "' + store + '". Welcome sent to ' + email + '.', 'ok');
+      setStoresStatus('Created ' + (kind === 'trial' ? 'free trial ' : '') + (r.body && r.body.word) + ' for "' + store + '". Welcome sent to ' + email + '.', 'ok');
       document.getElementById('mintForm').reset();
+      mintLabel();
       loadStores();
     }).catch(function () { btn.disabled = false; setStoresStatus('Network error.', 'err'); });
   });

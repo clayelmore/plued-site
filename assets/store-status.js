@@ -67,7 +67,8 @@
       bar.setAttribute('aria-label', S.t('seatsAria', { used: used, seats: seats }));
       var next = S.nextTier(s.tier);
       var add = $('add-seats');
-      if (pct >= 80 && next && !s.closed_at) {
+      // A free trial has no Add seats: it needs Stripe (support@plued.app instead).
+      if (pct >= 80 && next && !s.closed_at && !isTrial()) {
         add.textContent = S.t('addSeats', { next: next });
         add.href = S.PREFIX + '/store/?upgrade=' + next + '#' + token;
         add.hidden = false;
@@ -98,7 +99,19 @@
       renderRequests();
       renderLogo();
 
-      // Plan
+      // Plan. A free trial from PLUed (trial:true, 2026-10-21) says so and
+      // shows no price, renewal, billing, cancel note, or refund. An older
+      // worker sends no `trial`: the card is exactly as before.
+      var trial = isTrial();
+      if (planHeading === null) planHeading = $('plan-heading').textContent;
+      $('plan-heading').textContent = trial ? S.t('trialHeading') : planHeading;
+      $('plan-tier-label').hidden = trial; $('plan-tier').hidden = trial;
+      $('plan-end-label').hidden = trial; $('plan-end').hidden = trial;
+      $('plan-cancel').hidden = trial;
+      $('plan-trial').textContent = trial ? S.t('trialLine', { seats: s.seats, date: S.fmtDate(s.plan_end) }) : '';
+      $('plan-trial').hidden = !trial;
+      $('plan-trial-keep').textContent = trial ? S.t('trialKeep') : '';
+      $('plan-trial-keep').hidden = !trial;
       $('plan-tier').textContent = S.t('planTier', { seats: s.seats, price: S.money(s.tier) });
       $('plan-start').textContent = S.fmtDate(s.plan_start);
       $('plan-end').textContent = S.fmtDate(s.plan_end);
@@ -107,10 +120,10 @@
       (function (t) { $('plan-apple').textContent = t; $('plan-apple').hidden = !t; $('plan-apple-label').hidden = !t; })(apple[s.apple] || '');
       var closed = $('closed');
       if (s.closed_at) {
-        closed.textContent = S.t('closedSince', { date: S.fmtDate(s.closed_at) });
+        closed.textContent = S.t(trial ? 'trialClosed' : 'closedSince', { date: S.fmtDate(s.closed_at) });
         closed.hidden = false;
       } else { closed.hidden = true; }
-      $('portal').hidden = !s.stripe_portal;
+      $('portal').hidden = trial || !s.stripe_portal;
       renderRefund();
 
       // Deep entry from Welcome: ?to=logo#<token> (the "Add your logo"
@@ -124,6 +137,8 @@
       }
     }
     var deepEntryDone = false;
+    var planHeading = null; // the page's own "Plan" heading, kept for a re-render
+    function isTrial() { return !!(s && s.trial === true); }
 
     // ---- Your logo (automatic store logos, 2026-10-05) ---------------------
     // Its own block after "Your pack", built here so the English and Spanish
@@ -311,7 +326,7 @@
     function renderRefund(message) {
       var box = refundBox();
       var rf = s.refund;
-      if (!rf || s.closed_at) { box.hidden = true; box.innerHTML = ''; return; }
+      if (!rf || s.closed_at || isTrial()) { box.hidden = true; box.innerHTML = ''; return; }
       var html = '<h3 id="refund-heading">' + S.esc(S.t('refundHeading')) + '</h3>';
       if (rf.request) {
         html += '<p class="refund-done" role="status">' + S.esc(s.email
