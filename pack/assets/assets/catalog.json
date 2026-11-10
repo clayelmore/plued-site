@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -551,6 +551,33 @@
         "es": "Plátano Manzano"
       },
       "concept": "apple_bananas_manzano"
+    },
+    {
+      "id": "pastry_apple_streusel_danish",
+      "plu": "",
+      "name": "Apple Streusel Danish",
+      "category": "other",
+      "aliases": [
+        "Apple danish",
+        "Apple crumb pastry",
+        "Round apple danish",
+        "Apple crumble danish",
+        "Apple pastry",
+        "Danés de manzana",
+        "Pan danés de manzana"
+      ],
+      "image": "pastry_apple_streusel_danish.png",
+      "desc": "an apple streusel danish (apfelplunder) is a round danish pastry about 12 cm across with a tall, puffed, flaky golden ring around the edge and a center heaped with soft pale apple pieces under golden butter-crumb streusel, dusted with white powdered sugar. the puffed ring and powdered sugar are its mark; it is not the folded triangular apple turnover, not the fruit danish with red fruit and icing, and not the flat streusel snail. shown as one whole pastry from above at a slight angle; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Apfelplunder|Apfel Streusel Plunder|Apfel-Streusel-Plunder|Apfelstreuselplunder|Apfelstückchen",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "apple streusel danish|apple streusel danishes|apple danishes|apple crumb pastry|apple crumb pastries|round apple danish|round apple danishes|apple crumble danish|apple crumble danishes|apple pastries|danes de manzana|pan danes de manzana|apfel streusel plunder",
+        "needs": "apfelplunder|apfelstreuselplunder|apfelstuckchen|apfelstueckchen|plunder"
+      }
     },
     {
       "id": "apple_turnover",
@@ -2866,6 +2893,33 @@
       "concept": "beans_winged"
     },
     {
+      "id": "pastry_bee_sting_danish",
+      "plu": "",
+      "name": "Bee Sting Danish",
+      "category": "other",
+      "aliases": [
+        "Bienenstich pastry",
+        "Almond custard danish",
+        "Caramel almond danish",
+        "Bee sting pastry",
+        "Almond vanilla pastry",
+        "Danés de almendras",
+        "Pastel picadura de abeja"
+      ],
+      "image": "pastry_bee_sting_danish.png",
+      "desc": "a bee sting danish (bienenstichplunder) is an oblong danish pastry about 14 cm long, folded over a vanilla custard filling that shows as a pale yellow band at the open ends. its top is covered with a crunchy, glossy layer of sliced almonds baked into golden caramel. it is not a round danish, not a croissant and not a sheet-cake slice. shown as one whole pastry with a second one cut open beside it to show the custard; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Bienenstichplunder|Bienenstich Plunder|Bienenstich-Plunder|Bienenstich",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "bee sting danish|bee sting danishes|bienenstich pastry|bienenstich pastries|almond custard danish|almond custard danishes|caramel almond danish|caramel almond danishes|bee sting pastry|bee sting pastries|almond vanilla pastry|almond vanilla pastries|danes de almendras|pastel picadura de abeja|bienenstich plunder",
+        "needs": "bienenstich|bienenstichplunder"
+      }
+    },
+    {
       "id": "beefsteak_tomatoes",
       "plu": "3061",
       "name": "Beefsteak Tomatoes",
@@ -4659,14 +4713,11 @@
       "category": "other",
       "aliases": [
         "Butter pretzel croissant triangles",
-        "Pretzel croissant",
         "Butter pretzel corner",
         "Butter pretzel pastry",
         "Pretzel triangle",
         "Lye croissant triangle",
         "Pretzel croissant triangle",
-        "Cruasán de pretzel",
-        "Croissant de pretzel",
         "Triángulo de pretzel",
         "Pretzel de mantequilla"
       ],
@@ -5339,6 +5390,31 @@
         "es": "Calabaza Carnival"
       },
       "concept": "carnival_squash"
+    },
+    {
+      "id": "loaf_carrot",
+      "plu": "",
+      "name": "Carrot Loaf",
+      "category": "other",
+      "aliases": [
+        "Carrot multigrain bread",
+        "Ruebli bread",
+        "Carrot rye bread",
+        "Carrot seed bread",
+        "Pan de zanahoria"
+      ],
+      "image": "loaf_carrot.png",
+      "desc": "a carrot loaf (rüblibrot) is a rectangular tin loaf about 22 cm long with a dark brown, slightly rough top and straight sides. its dark brown, moist crumb is dotted all through with small bright orange flecks of grated carrot and a few sunflower kernels, which is the one feature that tells it apart, so the cut face must show. it has no seed crust on top, no sesame and no green pumpkin seeds. shown whole with two slices cut and lying in front to show the orange flecks; it must not show whole carrots and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Rüblibrot|Rueblibrot|Karottenbrot|Möhrenbrot|Moehrenbrot|Rübli Brot",
+        "family": "",
+        "words": "",
+        "phrases": "carrot loaf|carrot loaves|carrot multigrain bread|carrot multigrain breads|ruebli bread|ruebli breads|carrot rye bread|carrot rye breads|carrot seed bread|carrot seed breads|pan de zanahoria",
+        "needs": "karottenbrot|moehrenbrot|mohrenbrot|rubli|rublibrot|ruebli|rueblibrot"
+      }
     },
     {
       "id": "carrots_baby",
@@ -6440,6 +6516,33 @@
       "concept": "chestnuts"
     },
     {
+      "id": "pastry_chicken_doner_pocket",
+      "plu": "",
+      "name": "Chicken Döner Pocket",
+      "category": "other",
+      "aliases": [
+        "Chicken doner pocket",
+        "Doner pastry",
+        "Chicken kebab pocket",
+        "Doner turnover",
+        "Chicken pastry pocket",
+        "Kebab pocket",
+        "Empanada de döner"
+      ],
+      "image": "pastry_chicken_doner_pocket.png",
+      "desc": "a chicken döner pocket (dönertasche) is a folded, half-moon pastry pocket about 16 cm long and 110 g, made of soft wheat dough baked pale golden, with a sealed curved edge and a top sprinkled with seeds and dried herbs. one cut half shows seasoned chicken and sauce inside. it is not a sausage roll (no sausage), not a croissant and not a flat pizza. shown whole with a second one cut open beside it.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Dönertasche|Doenertasche|Hähnchen Dönertasche|Haehnchen Doenertasche|Chicken-Döner Tasche",
+        "family": "",
+        "words": "",
+        "phrases": "chicken doner pocket|chicken doner pockets|doner pastry|doner pastries|chicken kebab pocket|chicken kebab pockets|doner turnover|doner turnovers|chicken pastry pocket|chicken pastry pockets|kebab pocket|kebab pockets|empanada de doner|haehnchen doenertasche|hahnchen donertasche|chicken doner tasche|chicken doener tasche",
+        "needs": "doener|doenertasche|doner|donertasche"
+      }
+    },
+    {
       "id": "chickpeas_fresh",
       "plu": "3398",
       "name": "Chickpeas - Fresh",
@@ -6702,6 +6805,31 @@
       "concept": "chives"
     },
     {
+      "id": "muffin_chocolate",
+      "plu": "",
+      "name": "Chocolate Muffin",
+      "category": "other",
+      "aliases": [
+        "Chocolate muffins",
+        "Double chocolate muffin",
+        "Choc muffin",
+        "Muffin de chocolate",
+        "Mantecada de chocolate"
+      ],
+      "image": "muffin_chocolate.png",
+      "desc": "a chocolate muffin is a single tall muffin baked in a plain, unprinted brown pleated paper cup, with a high, dark cocoa-brown domed top that spills slightly over the cup's edge. the top is rough and cracked and studded with melted dark chocolate chunks. it is dark brown all through, with no blueberries, no pale golden crust and no white liner, which sets it apart from the blueberry bakery muffin. shown from a slight three-quarter side view; it must show no frosting, no cookie pieces, no logo, no wrapper print and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Schokomuffin|Schoko Muffin|Schoko-Muffin|Schokoladenmuffin|Muffin Schoko|Milka Muffin|Oreo Muffin|Nutella Muffin",
+        "family": "Muffin|Muffins|queque|queques|muffinka|muffinki",
+        "words": "",
+        "phrases": "chocolate muffin|chocolate muffins|double chocolate muffin|double chocolate muffins|choc muffin|choc muffins|muffin de chocolate|mantecada de chocolate|milka muffin|oreo muffin|nutella muffin|schoko muffin|muffin schoko",
+        "needs": "muffin|schokoladenmuffin|schokomuffin"
+      }
+    },
+    {
       "id": "choy_sum",
       "plu": "3322",
       "name": "Choy Sum",
@@ -6821,6 +6949,32 @@
         "es": "Melón Cinnabar"
       },
       "concept": "cinnabar_melon"
+    },
+    {
+      "id": "pastry_franzbroetchen",
+      "plu": "",
+      "name": "Cinnamon Franzbrötchen",
+      "category": "other",
+      "aliases": [
+        "Franzbroetchen",
+        "Hamburg cinnamon roll",
+        "Pressed cinnamon pastry",
+        "Cinnamon butter pastry",
+        "Franzbrötchen pastry",
+        "Rollo de canela"
+      ],
+      "image": "pastry_franzbroetchen.png",
+      "desc": "a franzbrötchen is a hamburg pastry about 11 cm wide: a slice of rolled, buttery laminated dough pressed flat across the middle, so it splays into a butterfly shape with the spiral layers showing on both sides. dark brown cinnamon-sugar swirls run through the spirals, and the sugar has caramelized into a shiny, sticky golden-brown surface. it has no icing, no fruit and no nuts. shown as one whole pastry; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Franzbrötchen|Franzbroetchen|Franzbrötchen Stück",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "cinnamon franzbrotchen|franzbroetchen|hamburg cinnamon roll|hamburg cinnamon rolls|pressed cinnamon pastry|pressed cinnamon pastries|cinnamon butter pastry|cinnamon butter pastries|franzbrotchen pastry|franzbrotchen pastries|rollo de canela|franzbrotchen stuck|franzbroetchen stueck",
+        "needs": "franzbroetchen|franzbrotchen"
+      }
     },
     {
       "id": "civni_apples",
@@ -7906,6 +8060,35 @@
       "concept": "crown_prince_squash"
     },
     {
+      "id": "loaf_wheat_crust",
+      "plu": "",
+      "name": "Crusty Round Loaf",
+      "category": "other",
+      "aliases": [
+        "Wheat Crust Loaf",
+        "Wheat crust bread",
+        "Round wheat loaf",
+        "Crusty wheat loaf",
+        "Small wheat-rye loaf",
+        "Rustic wheat boule",
+        "Country wheat loaf",
+        "Hogaza de trigo",
+        "Pan redondo de trigo"
+      ],
+      "image": "loaf_wheat_crust.png",
+      "desc": "a wheat crust loaf (weizenkruste) is a round, domed boule about 20 cm across with a thick, crackly crust in deep golden brown, lightly dusted with white flour. one cross-shaped cut on top has burst open into four raised, paler lobes. the crumb is light and open. it is round, not the oval three-slash wheat-rye loaf and not a straight-sided tin loaf, and it has no seeds. shown whole with one thick slice cut away and lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weizenkruste|Weizenkrüstchen",
+        "family": "",
+        "words": "rund runde runder rundes rond ronde ronds rondes redondo redonda redondos redondas rotondo rotonda tondo tonda tondi rotondi rotonde tonde globoso globosa globose okrągły okrągła okrągłe",
+        "phrases": "crusty round loaf|crusty round loaves|wheat crust loaf|wheat crust loaves|wheat crust bread|wheat crust breads|round wheat loaf|round wheat loaves|crusty wheat loaf|crusty wheat loaves|small wheat rye loaf|small wheat rye loaves|rustic wheat boule|rustic wheat boules|country wheat loaf|country wheat loaves|hogaza de trigo|pan redondo de trigo",
+        "needs": "weizenkrustchen|weizenkruste"
+      }
+    },
+    {
       "id": "cubanelle_pepper",
       "plu": "4687",
       "name": "Cubanelle Pepper",
@@ -8014,6 +8197,30 @@
         "names": "Langer Koriander|Mexikanischer Koriander|coriandre longue|panicaut fétide|chardon béni|coriandre mexicaine|coentro-bravo|chicória-do-pará|coentrão|culantro|coriandolo messicano|coriandolo lungo|kolendra ciernista|kolendra meksykańska",
         "family": "",
         "words": ""
+      }
+    },
+    {
+      "id": "pastry_curry_sausage",
+      "plu": "",
+      "name": "Curry Sausage Pastry",
+      "category": "other",
+      "aliases": [
+        "Currywurst snack",
+        "Currywurst pastry",
+        "Curry sausage roll",
+        "Sausage curry pastry"
+      ],
+      "image": "pastry_curry_sausage.png",
+      "desc": "a curry sausage pastry (currywurst-snack) is a long, flat puff-pastry log about 16 cm long, golden brown and dusted with reddish curry powder, with three diagonal cuts across the top that show a filling of sliced sausage in red-orange curry ketchup. it is straight and slashed, not the folded half-moon chicken döner pocket and not the sausage roll with a whole sausage peeking out of the ends. shown as one whole pastry lying diagonally; it must show no fries, no ketchup bottle and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Currywurst-Snack|Currywurst Snack|Currywurstsnack|Currywurst-Rolle|Currywurst Rolle",
+        "family": "",
+        "words": "",
+        "phrases": "curry sausage pastry|curry sausage pastries|currywurst snack|currywurst snacks|currywurst pastry|currywurst pastries|curry sausage roll|curry sausage rolls|sausage curry pastry|sausage curry pastries|currywurst rolle",
+        "needs": "currywurstsnack"
       }
     },
     {
@@ -8517,6 +8724,31 @@
         "es": "Plátano dominico"
       },
       "concept": "bananas_dominique"
+    },
+    {
+      "id": "roll_double_split",
+      "plu": "",
+      "name": "Double Roll",
+      "category": "other",
+      "aliases": [
+        "Double rolls",
+        "Double split roll",
+        "Twin roll",
+        "Berlin double roll",
+        "Double Schrippe"
+      ],
+      "image": "roll_double_split.png",
+      "desc": "a double roll (doppelschrippe) is one wheat roll about 14 cm long made of two round halves joined at a pinched waist, like a peanut. each half carries one short lengthwise cut that has burst open into a pale cream ridge, and the crust is thin, crisp and evenly golden brown with a dull finish and no flour. it has no seeds, no salt and no pinwheel pattern, which sets it apart from the kaiser roll and the single oval split-top roll. shown as one whole roll with both halves joined; it must show no text and no packaging.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Doppelschrippe|Doppelschrippen|Doppelbrötchen|Doppelbroetchen|Doppelweck",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "double roll|double rolls|double split roll|double split rolls|twin roll|twin rolls|berlin double roll|berlin double rolls|double schrippe",
+        "needs": "doppelbroetchen|doppelbrotchen|doppelschrippe|doppelschrippen|doppelweck"
+      }
     },
     {
       "id": "dragon_fruit_red",
@@ -9567,6 +9799,35 @@
       "concept": "fall_glo_tangerines"
     },
     {
+      "id": "loaf_farmhouse",
+      "plu": "",
+      "name": "Farmhouse Loaf",
+      "category": "other",
+      "aliases": [
+        "Farmhouse bread",
+        "Peasant bread",
+        "Country loaf",
+        "Rustic rye loaf",
+        "Bauernbrot",
+        "Farmer's bread",
+        "Pan campesino",
+        "Pan de campo",
+        "Hogaza campesina"
+      ],
+      "image": "loaf_farmhouse.png",
+      "desc": "a farmhouse loaf (bauernbrot) is a free-form oval loaf about 26 cm long with a matte, pale golden-tan, honey-colored crust under a soft even haze of flour; it is not shiny, not glazed and not red. two deep crosswise cuts have burst wide open into big raised ridges with rough, darker brown torn insides, the clearest mark of this loaf. the crumb is light brown and fairly open. it is paler and more golden than the reddish siegerland loaf, its flour is an even haze with no flakes and no crackle, and its two wide torn bursts are far deeper than the three thin slashes of the wheat-rye loaf. it has no seeds. shown whole with two slices cut and lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Bauernbrot|Bauernlaib|Bauernglück",
+        "family": "",
+        "words": "",
+        "phrases": "farmhouse loaf|farmhouse loaves|farmhouse bread|farmhouse breads|peasant bread|peasant breads|bauernbrot|farmer s bread|farmer s breads|pan campesino|hogaza campesina",
+        "needs": "bauernbrot|bauerngluck|bauernglueck|bauernlaib"
+      }
+    },
+    {
       "id": "beans_fava_broad",
       "plu": "4528",
       "name": "Fava Beans",
@@ -10002,6 +10263,34 @@
       "concept": "flat_yellow_nectarine"
     },
     {
+      "id": "loaf_flensburg_dark",
+      "plu": "",
+      "name": "Flensburg Dark Rye Loaf",
+      "category": "other",
+      "aliases": [
+        "Flensburg black bread",
+        "Dark rye bread",
+        "Schwarzbrot",
+        "Black bread",
+        "North German dark rye",
+        "Dark rye loaf",
+        "Pan negro",
+        "Pan de centeno oscuro"
+      ],
+      "image": "loaf_flensburg_dark.png",
+      "desc": "a flensburg dark rye loaf is a free-form oval loaf about 26 cm long with a matte, medium-dark brown crust whose top is finely rough, as if sprinkled with coarse rye meal, with a faint dusting of flour and no cuts. the crumb is brown, dense and moist. it is a plain oval with no seeds, no white crackle network, no reddish split and no glossy bursts. shown whole with the end cut off and one slice lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Flensburger Schwarzbrot|Flensburger-Schwarzbrot|Flensburgerschwarzbrot|Flensburger|Roggenmischbrot nach Flensburger Art",
+        "family": "",
+        "words": "",
+        "phrases": "flensburg dark rye loaf|flensburg dark rye loaves|flensburg black bread|flensburg black breads|dark rye bread|dark rye breads|schwarzbrot|black bread|black breads|north german dark rye|dark rye loaf|dark rye loaves|pan negro|pan de centeno oscuro|flensburger schwarzbrot|roggenmischbrot nach flensburger art",
+        "needs": "flensburger|flensburgerschwarzbrot|schwarzbrot"
+      }
+    },
+    {
       "id": "tortillas_flour",
       "plu": "",
       "name": "Flour Tortillas",
@@ -10272,6 +10561,33 @@
       "concept": "dates_fresh",
       "dims": {
         "form": "frozen"
+      }
+    },
+    {
+      "id": "pastry_fruit_streusel_snail",
+      "plu": "",
+      "name": "Fruit Streusel Danish",
+      "category": "other",
+      "aliases": [
+        "Fruit danish",
+        "Cherry streusel danish",
+        "Fruit snail",
+        "Fruit crumb pastry",
+        "Berry danish",
+        "Danés de frutas",
+        "Pan danés de frutas"
+      ],
+      "image": "pastry_fruit_streusel_snail.png",
+      "desc": "a fruit streusel danish (fruchtschnecke) is a round, flat yeast pastry about 11 cm across with a low golden rim. its top is covered with swirls of bright red fruit filling under scattered pale butter streusel crumbs and thin zigzag lines of white icing. red fruit plus white icing zigzags is its mark; it is not the apple danish (puffed ring, powdered sugar) and not the plain streusel snail (no fruit, no icing). shown as one whole pastry from above at a slight angle; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Fruchtschnecke|Fruchtstreuselschnecke|Frucht Streuselschnecke|Fruchtstreusel",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "fruit streusel danish|fruit streusel danishes|fruit danish|fruit danishes|cherry streusel danish|cherry streusel danishes|fruit snail|fruit snails|fruit crumb pastry|fruit crumb pastries|berry danish|berry danishes|danes de frutas|pan danes de frutas|frucht streuselschnecke",
+        "needs": "fruchtschnecke|fruchtstreusel|fruchtstreuselschnecke|streuselschnecke"
       }
     },
     {
@@ -10850,6 +11166,33 @@
         "es": "Calabaza Gem"
       },
       "concept": "gem_squash"
+    },
+    {
+      "id": "cake_cheesecake_slice",
+      "plu": "",
+      "name": "German Cheesecake",
+      "category": "other",
+      "aliases": [
+        "Cheesecake",
+        "Quark cheesecake",
+        "Cheesecake slice",
+        "Cream cheese cake",
+        "Pastel de queso",
+        "Tarta de queso",
+        "Pay de queso"
+      ],
+      "image": "cake_cheesecake_slice.png",
+      "desc": "a german cheesecake slice (käsekuchen) is one tall triangular wedge cut from a round cake, with a thin golden shortcrust base and a thick, smooth, pale yellow quark filling under a browned, slightly cracked top. the cut sides are flat and creamy. it has no fruit, no streusel, no glaze and no chocolate, so it is not a sheet-cake piece and not a tray cake. shown as one wedge standing by itself, with no plate, no fork and no paper under it; it must show no cheese package, no brand name and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Käsekuchen mit Exquisa|Käsekuchen|Kaesekuchen|Käse-Kuchen|Käsekuchen Stück|Kaesekuchen mit Exquisa",
+        "family": "",
+        "words": "",
+        "phrases": "german cheesecake|german cheesecakes|cheesecake|cheesecakes|quark cheesecake|quark cheesecakes|cheesecake slice|cheesecake slices|cream cheese cake|cream cheese cakes|pastel de queso|tarta de queso|pay de queso|cream cheesecake|cream cheesecakes|kasekuchen mit exquisa|kaesekuchen mit exquisa|kaese kuchen|kase kuchen|kaesekuchen stueck|kasekuchen stuck",
+        "needs": "kaesekuchen|kasekuchen"
+      }
     },
     {
       "id": "ginger_gold_apples_large",
@@ -13746,6 +14089,34 @@
       }
     },
     {
+      "id": "pastry_nut_snail",
+      "plu": "",
+      "name": "Hazelnut Swirl",
+      "category": "other",
+      "aliases": [
+        "Nut snail",
+        "Hazelnut snail",
+        "Nut swirl",
+        "Nut danish",
+        "Hazelnut swirl pastry",
+        "Nut roll",
+        "Caracola de nuez",
+        "Espiral de avellana"
+      ],
+      "image": "pastry_nut_snail.png",
+      "desc": "a hazelnut swirl (nussschnecke) is a round spiral yeast pastry about 12 cm across, rolled like a snail shell, with a dark brown hazelnut filling showing clearly as a tight spiral between golden dough layers. the whole top is densely sprinkled with small chopped hazelnut pieces and pale sugar granules. it has no icing lines, no sliced almonds, no red fruit, no streusel crumbs and no apple, and it is not the flat pressed franzbrötchen. shown as one whole pastry from above at a slight angle; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Nussschnecke|Nußschnecke|Nuss-Schnecke|Nusskarussell|Nussschnecken",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "hazelnut swirl|hazelnut swirls|nut snail|nut snails|hazelnut snail|hazelnut snails|nut swirl|nut swirls|nut danish|nut danishes|hazelnut swirl pastry|hazelnut swirl pastries|caracola de nuez|espiral de avellana|nuss schnecke",
+        "needs": "nusskarussell|nussschnecke|nussschnecken"
+      }
+    },
+    {
       "id": "heirloom_tomatoes",
       "plu": "3423",
       "name": "Heirloom Tomatoes",
@@ -15836,6 +16207,61 @@
       "concept": "lady_williams_apples_all_sizes"
     },
     {
+      "id": "pastry_lattice_heart",
+      "plu": "",
+      "name": "Lattice Danish with Strawberry Filling",
+      "category": "other",
+      "aliases": [
+        "Heart Lattice Danish",
+        "Strawberry heart",
+        "Strawberry lattice pastry",
+        "Lattice heart danish",
+        "Heart danish",
+        "Strawberry danish",
+        "Danés de fresa",
+        "Corazón de fresa"
+      ],
+      "image": "pastry_lattice_heart.png",
+      "desc": "a heart lattice danish (erdbeerromanze) is a heart-shaped yeast pastry about 12 cm across with a smooth golden rim and a center of bright red strawberry filling covered by a crisscross lattice of glossy golden dough strips, so red diamonds show between the strips. it has no streusel, no icing and no fruit pieces on top, which sets it apart from the round fruit streusel danish and the apple danish. shown as one whole pastry from above at a slight angle; it must show no whole strawberries and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Erdbeerromanze|Erdbeer-Romanze|Erdbeer Romanze|Erdbeerherz|Erdbeer-Herz|Erdbeerherzen",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "lattice danish with strawberry filling|heart lattice danish|heart lattice danishes|strawberry heart|strawberry hearts|strawberry lattice pastry|strawberry lattice pastries|lattice heart danish|lattice heart danishes|heart danish|heart danishes|strawberry danish|strawberry danishes|danes de fresa|corazon de fresa|erdbeer romanze|erdbeer herz",
+        "needs": "erdbeerherz|erdbeerherzen|erdbeerromanze|romanze"
+      }
+    },
+    {
+      "id": "croissant_pretzel",
+      "plu": "",
+      "name": "Laugencroissant (Pretzel Croissant)",
+      "category": "other",
+      "aliases": [
+        "Pretzel Croissant",
+        "Lye croissant",
+        "Butter pretzel croissant",
+        "Laugen croissant",
+        "Pretzel crescent",
+        "Cruasán de pretzel",
+        "Croissant de pretzel"
+      ],
+      "image": "croissant_pretzel.png",
+      "desc": "a pretzel croissant (laugencroissant) is a plump crescent croissant about 15 cm long, rolled in segments that taper to curved ends, whose whole outside is a glossy, deep reddish-brown pretzel skin from lye. pale golden flaky layers show in the cracks between the segments. it is crescent-shaped, so it is not the triangular butter pretzel corner and not the oval pretzel roll with a white split, and its lye-brown skin sets it apart from the amber butter croissant. shown as one whole croissant; it must show no salt crystals, no filling and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugencroissant|Laugen-Croissant|Laugen Croissant|Butter-Laugencroissant|Butter Laugencroissant|Butterlaugencroissant",
+        "family": "Croissant|Croissants|Hörnchen|cornetto|cornetti|croissanty|kruasant",
+        "words": "",
+        "phrases": "laugencroissant pretzel croissant|pretzel croissant|pretzel croissants|lye croissant|lye croissants|butter pretzel croissant|butter pretzel croissants|laugen croissant|laugen croissants|pretzel crescent|pretzel crescents|cruasan de pretzel|croissant de pretzel|butter laugencroissant",
+        "needs": "butterlaugencroissant|laugencroissant"
+      }
+    },
+    {
       "id": "laxtons_fortune_apples",
       "plu": "3347",
       "name": "Laxton's Fortune Apples",
@@ -17502,6 +17928,31 @@
       "concept": "mangosteen"
     },
     {
+      "id": "cake_cherry_marble_tray",
+      "plu": "",
+      "name": "Marble Cake with Cherries",
+      "category": "other",
+      "aliases": [
+        "Cherry marble cake",
+        "Cherry marble loaf",
+        "Marble cake",
+        "Small cherry cake",
+        "Panqué marmoleado con cerezas"
+      ],
+      "image": "cake_cherry_marble_tray.png",
+      "desc": "a marble cake with cherries (kirsch marmor kuchen im schälchen) is a small rectangular cake baked in its own plain, unprinted brown paper baking tray with straight sides. the domed top shows swirls of dark chocolate cake and pale yellow cake, studded with sunken dark red cherries. it is rectangular in a brown tray with a marbled top, unlike the round apple tray cake in its pleated tray. shown whole in the tray at a slight angle; it must show no glaze, no print on the tray and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kirsch Marmor Kuchen im Schälchen|Kirsch-Marmorkuchen|Kirschmarmorkuchen|Kirsch Marmor Kuchen|Marmorkuchen mit Kirschen",
+        "family": "",
+        "words": "",
+        "phrases": "marble cake with cherries|cherry marble cake|cherry marble cakes|cherry marble loaf|cherry marble loaves|marble cake|marble cakes|small cherry cake|small cherry cakes|panque marmoleado con cerezas|kirsch marmor kuchen im schalchen|kirsch marmor kuchen im schaelchen|kirsch marmor kuchen|kirsch marmorkuchen|marmorkuchen mit kirschen",
+        "needs": "kirschmarmorkuchen|marmor|marmorkuchen"
+      }
+    },
+    {
       "id": "mariri_red_apples",
       "plu": "3607",
       "name": "Mariri Red Apples",
@@ -17714,6 +18165,33 @@
       "dims": {
         "size": "S",
         "region": "West"
+      }
+    },
+    {
+      "id": "loaf_mecklenburg",
+      "plu": "",
+      "name": "Mecklenburg Country Loaf",
+      "category": "other",
+      "aliases": [
+        "Mecklenburg bread",
+        "Mecklenburg country bread",
+        "Crackled rye loaf",
+        "Floury country loaf",
+        "North German rye loaf",
+        "Country rye bread",
+        "Pan de campo de centeno"
+      ],
+      "image": "loaf_mecklenburg.png",
+      "desc": "a mecklenburg country loaf is a long free-form oval rye-wheat loaf about 32 cm long whose whole top is thickly coated in white flour that has crazed into a dense network of fine cracks, like dry mud, showing dark brown crust in every crack. it has no cuts and no seeds, and the crumb is gray-brown. its bright white crackle network over the entire top is its mark; it is not the smooth evenly floured rye-wheat loaf and not the reddish split siegerland loaf. shown whole with two slices cut and lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Landbrot nach Mecklenburger Art|Mecklenburger Landbrot|Mecklenburgerlandbrot|Landbrot Mecklenburg|Landbrot nach Mecklenburgischer Art",
+        "family": "",
+        "words": "",
+        "phrases": "mecklenburg country loaf|mecklenburg country loaves|mecklenburg bread|mecklenburg breads|mecklenburg country bread|mecklenburg country breads|crackled rye loaf|crackled rye loaves|floury country loaf|floury country loaves|north german rye loaf|north german rye loaves|country rye bread|country rye breads|pan de campo de centeno|landbrot nach mecklenburger art|mecklenburger landbrot",
+        "needs": "mecklenburg|mecklenburger|mecklenburgerlandbrot|mecklenburgischer"
       }
     },
     {
@@ -18469,6 +18947,33 @@
       }
     },
     {
+      "id": "loaf_munich_small",
+      "plu": "",
+      "name": "Munich Small Loaf",
+      "category": "other",
+      "aliases": [
+        "Munich loaf",
+        "Small round loaf",
+        "Caraway wheat-rye loaf",
+        "Mini country loaf",
+        "Munich laibchen",
+        "Small floury loaf",
+        "Pan redondo pequeño"
+      ],
+      "image": "loaf_munich_small.png",
+      "desc": "a munich small loaf (münchner laibchen) is a small round wheat-rye loaf, domed and about 13 cm across, whose whole top is thickly coated in white flour that has burst into wide, irregular cracks showing dark brown crust beneath, like a leopard pattern. it has no cut and no seeds. its thick white coat split by big dark cracks is its mark; it is not the cross-cut wheat boule, not the curved-slash spelt boule and not the slashed potato roll. shown as one whole loaf; it must not show slices and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Münchner Laibchen|Muenchner Laibchen|Münchner Labchen|Weizenmischbrot mit Kümmel",
+        "family": "",
+        "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
+        "phrases": "munich small loaf|munich small loaves|munich loaf|munich loaves|small round loaf|small round loaves|caraway wheat rye loaf|caraway wheat rye loaves|mini country loaf|mini country loaves|munich laibchen|small floury loaf|small floury loaves|pan redondo pequeno|weizenmischbrot mit kummel|weizenmischbrot mit kuemmel|munchner laibchen|muenchner laibchen|munchner labchen|muenchner labchen",
+        "needs": "labchen|laibchen"
+      }
+    },
+    {
       "id": "mushrooms_cep",
       "plu": "3404",
       "name": "Mushrooms - Cep",
@@ -18658,6 +19163,31 @@
         "es": "Melón Musk"
       },
       "concept": "musk_melon"
+    },
+    {
+      "id": "loaf_mustard_sunflower",
+      "plu": "",
+      "name": "Mustard Crust Loaf",
+      "category": "other",
+      "aliases": [
+        "Mustard crust bread",
+        "Mustard sunflower loaf",
+        "Sunflower crust loaf",
+        "Mustard rye loaf",
+        "Senfkruste"
+      ],
+      "image": "loaf_mustard_sunflower.png",
+      "desc": "a mustard crust loaf (senfkruste mit sonnenblumenkernen) is a round boule about 18 cm across with a dark brown, deeply crackled crust whose crown alone is capped with a thick layer of toasted sunflower kernels; the sides are bare. the crumb is gray-brown and moist. its round shape with a sunflower cap sets it apart from the oval sunflower seed loaf, the green-seeded pumpkin tin loaf and the sesame-poppy world champion loaf. shown whole with half of it cut away and two slices lying in front; it must show no mustard jar and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Senfkruste mit Sonnenblumenkernen|Senfkruste|Senf-Kruste|Senfkruste Sonnenblume|Senfkruste mit Sonnenblumenkerne",
+        "family": "",
+        "words": "",
+        "phrases": "mustard crust loaf|mustard crust loaves|mustard crust bread|mustard crust breads|mustard sunflower loaf|mustard sunflower loaves|sunflower crust loaf|sunflower crust loaves|mustard rye loaf|mustard rye loaves|senfkruste|senfkruste mit sonnenblumenkernen|senf kruste|senfkruste sonnenblume|senfkruste mit sonnenblumenkerne",
+        "needs": "senfkruste"
+      }
     },
     {
       "id": "mustard_greens",
@@ -20239,6 +20769,33 @@
         "es": "Pera Packham"
       },
       "concept": "packham_pears"
+    },
+    {
+      "id": "loaf_paderborn",
+      "plu": "",
+      "name": "Paderborn Country Loaf",
+      "category": "other",
+      "aliases": [
+        "Paderborn bread",
+        "Paderborner",
+        "Paderborn rye loaf",
+        "Rectangular rye loaf",
+        "Large rye loaf",
+        "Country rye block",
+        "Pan de centeno grande"
+      ],
+      "image": "loaf_paderborn.png",
+      "desc": "a paderborn country loaf is a large rectangular rye-wheat loaf of about 1 kg, baked packed side by side so it has pale, soft, flat sides and a dome of floury gray-brown crust on top. the crumb is light gray-brown and even. it is block-shaped like a tin loaf but much larger, darker and duller than the white tin loaf, and it has no seed crust. shown whole with two slices cut from one end.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Paderborner Landbrot|Paderborner-Landbrot|Paderbornerlandbrot|Paderborner",
+        "family": "",
+        "words": "",
+        "phrases": "paderborn country loaf|paderborn country loaves|paderborn bread|paderborn breads|paderborner|paderborn rye loaf|paderborn rye loaves|rectangular rye loaf|rectangular rye loaves|large rye loaf|large rye loaves|country rye block|country rye blocks|pan de centeno grande|paderborner landbrot",
+        "needs": "paderborner|paderbornerlandbrot"
+      }
     },
     {
       "id": "papalo",
@@ -23031,6 +23588,32 @@
       }
     },
     {
+      "id": "pastry_poppy_butterfly",
+      "plu": "",
+      "name": "Poppy Seed Butterfly Pastry",
+      "category": "other",
+      "aliases": [
+        "Poppy seed butterfly",
+        "Poppy seed pastry",
+        "Poppy seed danish",
+        "Poppy butterfly",
+        "Poppy seed swirl pastry",
+        "Danés de amapola"
+      ],
+      "image": "pastry_poppy_butterfly.png",
+      "desc": "a poppy seed butterfly pastry (mohnschmetterling) is a wide, flat, bow-tie-shaped yeast pastry about 13 cm across, made from a filled roll slice cut through the middle and opened flat into two wings. each wing is a fan of five straight parallel bands running outward from the pinched middle to a scalloped outer edge: wide pale golden dough bands alternating with narrower blue-black poppy seed bands, so golden dough dominates. many thin white icing threads cross the bands. it has no spirals, no curls and no four separate lobes, and it is not shaped like a drawn butterfly. shown as one whole pastry from above at a slight angle; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Mohnschmetterling|Mohn-Schmetterling|Mohn Schmetterling|Mohnschmetterlinge|Mohnwölkchen|Mohnwoelkchen",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "poppy seed butterfly pastry|poppy seed butterfly pastries|poppy seed butterfly|poppy seed butterflies|poppy seed pastry|poppy seed pastries|poppy seed danish|poppy seed danishes|poppy butterfly|poppy butterflies|poppy seed swirl pastry|poppy seed swirl pastries|danes de amapola|mohn schmetterling",
+        "needs": "mohnschmetterling|mohnschmetterlinge|mohnwoelkchen|mohnwolkchen|schmetterling"
+      }
+    },
+    {
       "id": "roll_poppy_seed",
       "plu": "",
       "name": "Poppy Seed Roll",
@@ -23199,6 +23782,35 @@
       }
     },
     {
+      "id": "roll_potato",
+      "plu": "",
+      "name": "Potatobrötchen (Potato Roll)",
+      "category": "other",
+      "aliases": [
+        "Potato Roll",
+        "Potato rolls",
+        "Potato bun",
+        "Potato bread roll",
+        "Rustic potato roll",
+        "Floury potato roll",
+        "Potato flake roll",
+        "Pan de papa",
+        "Panecillo de papa"
+      ],
+      "image": "roll_potato.png",
+      "desc": "a potato roll (kartoffelbrötchen) is a round rustic roll about 9 cm across, made with potato flakes, with one short straight slash across the top that has opened into a darker ridge. the golden brown crust is dusted with white flour in light patches. it is shown as one whole roll beside a second roll cut in half to show a soft, pale yellow-cream crumb. it has no seeds, no pinwheel pattern and no big white crackle coat, so it is not the kaiser roll and not the munich loaf. it must show no text and no packaging.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kartoffelbrötchen|Kartoffelbroetchen|Potatobrötchen|Potatobroetchen|Potato Brötchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "potatobrotchen potato roll|potato roll|potato rolls|potato bun|potato buns|potato bread roll|potato bread rolls|rustic potato roll|rustic potato rolls|floury potato roll|floury potato rolls|potato flake roll|potato flake rolls|panecillo de papa|potato brotchen|potato broetchen",
+        "needs": "kartoffelbroetchen|kartoffelbrotchen|potatobroetchen|potatobrotchen"
+      }
+    },
+    {
       "id": "prema17_apples_large",
       "plu": "3627",
       "name": "PremA17 Apples - Large",
@@ -23272,6 +23884,33 @@
         "es": "Ciruela President"
       },
       "concept": "president_plums_all_sizes"
+    },
+    {
+      "id": "roll_lye",
+      "plu": "",
+      "name": "Pretzel Roll",
+      "category": "other",
+      "aliases": [
+        "Lye rolls",
+        "Pretzel bun",
+        "Laugen roll",
+        "Soft pretzel roll",
+        "Salted pretzel roll",
+        "Pan de pretzel",
+        "Panecillo de pretzel"
+      ],
+      "image": "roll_lye.png",
+      "desc": "a pretzel roll (laugenbrötchen) is an oval roll about 10 cm long with the glossy, deep mahogany-brown skin of a pretzel. one deep cut down the middle has burst open into a wide, pale cream-white band that contrasts sharply with the dark crust, and a few coarse white salt crystals sit on top. it is not knotted like a pretzel, not long like a pretzel stick and not a triangular corner pastry. shown as one whole roll; it must show no seeds, no cheese and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugenbrötchen|Laugenbroetchen|Laugensemmel|Laugenweckle|Laugenweck",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "pretzel roll|pretzel rolls|lye rolls|lye roll|pretzel bun|pretzel buns|laugen roll|laugen rolls|soft pretzel roll|soft pretzel rolls|salted pretzel roll|salted pretzel rolls|pan de pretzel|panecillo de pretzel",
+        "needs": "laugenbroetchen|laugenbrotchen|laugensemmel|laugenweck|laugenweckle"
+      }
     },
     {
       "id": "pretzel_stick",
@@ -23461,6 +24100,34 @@
         "es": "Calabaza mini"
       },
       "concept": "pumpkin_mini"
+    },
+    {
+      "id": "loaf_pumpkin_seed",
+      "plu": "",
+      "name": "Pumpkin Seed Loaf",
+      "category": "other",
+      "aliases": [
+        "Pumpkin seed bread",
+        "Pumpkinseed loaf",
+        "Pepita bread",
+        "Seeded tin loaf",
+        "Pumpkin seed tin loaf",
+        "Kuerbiskern bread",
+        "Pan de pepitas de calabaza",
+        "Pan de pepitas"
+      ],
+      "image": "loaf_pumpkin_seed.png",
+      "desc": "a pumpkin seed loaf (kürbiskernbrot) is a rectangular tin loaf about 25 cm long whose whole top is thickly covered with flat, olive-green to toasted-brown pumpkin seeds. the sides are smooth and medium brown, and the crumb is brown, moist and dotted with more pumpkin seeds. it is a tin loaf like the white loaf but dark and seed-crusted, and it has no sesame and no poppy speckle. shown whole with two slices cut and lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kürbiskernbrot|Kuerbiskernbrot|Kürbiskern-Brot",
+        "family": "",
+        "words": "",
+        "phrases": "pumpkin seed loaf|pumpkin seed loaves|pumpkin seed bread|pumpkin seed breads|pumpkinseed loaf|pumpkinseed loaves|pepita bread|pepita breads|seeded tin loaf|seeded tin loaves|pumpkin seed tin loaf|pumpkin seed tin loaves|kuerbiskern bread|kuerbiskern breads|pan de pepitas de calabaza|pan de pepitas|kurbiskern brot|kuerbiskern brot",
+        "needs": "kuerbiskernbrot|kurbiskernbrot"
+      }
     },
     {
       "id": "roll_pumpkin_seed",
@@ -24832,6 +25499,34 @@
       "concept": "red_pears"
     },
     {
+      "id": "baguette_pepper",
+      "plu": "",
+      "name": "Red Pepper Baguette",
+      "category": "other",
+      "aliases": [
+        "Pepper baguettes",
+        "Peperoni baguette",
+        "Bell pepper baguette",
+        "Paprika baguette",
+        "Red pepper bread",
+        "Spicy pepper baguette",
+        "Baguette de pimiento",
+        "Baguette de pimientos"
+      ],
+      "image": "baguette_pepper.png",
+      "desc": "a red pepper baguette (peperonibaguette) is a short baguette about 35 cm long and 7 cm wide with blunt rounded ends. small diced pieces of sweet red bell pepper are mixed through the dough and show as bright red flecks in the deep golden crust, which carries three shallow diagonal cuts and a light flour dusting. it is shorter and redder than the plain baguette and the stone-oven baguette and has no onion pieces. shown as one whole loaf lying diagonally; it must not show chili peppers, flames and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Peperonibaguette|Peperoni Baguette|Paprikabaguette|Peperoni-Baguette",
+        "family": "Baguette|Baguettes|Weizenbaguette|Stangenweißbrot|Pariser Weißbrot|baguete|baguetes|baghetta|bagietka|bagietki",
+        "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
+        "phrases": "red pepper baguette|red pepper baguettes|pepper baguettes|pepper baguette|peperoni baguette|peperoni baguettes|bell pepper baguette|bell pepper baguettes|paprika baguette|paprika baguettes|red pepper bread|red pepper breads|spicy pepper baguette|spicy pepper baguettes|baguette de pimiento|baguette de pimientos",
+        "needs": "baguette|paprikabaguette|peperonibaguette"
+      }
+    },
+    {
       "id": "pistachios_red",
       "plu": "4940",
       "name": "Red Pistachios",
@@ -25554,6 +26249,31 @@
       }
     },
     {
+      "id": "roll_rose",
+      "plu": "",
+      "name": "Rose Roll",
+      "category": "other",
+      "aliases": [
+        "Rose bun",
+        "Rosette roll",
+        "Rosen roll",
+        "Crusty rose roll",
+        "Panecillo de rosa"
+      ],
+      "image": "roll_rose.png",
+      "desc": "a rose roll (rosenbrötchen) is a round rustic wheat roll about 9 cm across, baked seam side up so its top has burst open into four uneven, overlapping torn flaps, like a loosely opened rose. the crust is matte, stone-baked golden brown with a light flour dusting, darker and rougher along the torn edges. it has no center button, no stamped pattern and no symmetric arms, which sets it apart from the kaiser roll's neat five-arm pinwheel, and it has no seeds. shown as one whole roll from above at a slight angle; it must show no bag, no label and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Rosenbrötchen|Rosenbroetchen|Rosen-Brötchen|Rosen Brötchen|Rosensemmel|Rosenweckerl",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "rose roll|rose rolls|rose bun|rose buns|rosette roll|rosette rolls|rosen roll|rosen rolls|crusty rose roll|crusty rose rolls|panecillo de rosa|rosen broetchen|rosen brotchen",
+        "needs": "rosenbroetchen|rosenbrotchen|rosensemmel|rosenweckerl"
+      }
+    },
+    {
       "id": "rosemary",
       "plu": "4903",
       "name": "Rosemary",
@@ -25787,6 +26507,31 @@
       "concept": "russet_potatoes"
     },
     {
+      "id": "roll_walnut_rustic",
+      "plu": "",
+      "name": "Rustic Walnut Roll",
+      "category": "other",
+      "aliases": [
+        "Walnut rolls",
+        "Walnut bread roll",
+        "Nut roll",
+        "Walnut bun",
+        "Panecillo de nuez"
+      ],
+      "image": "roll_walnut_rustic.png",
+      "desc": "a rustic walnut roll (walnussbrötchen) is an oblong, squarish roll about 13 cm long with a dark chestnut-brown, crackly crust lightly dusted with white flour. one long lengthwise burst splits the top open, and pieces of brown walnut show inside the burst and in the crust. it has no seed coat on top, so it is not the sunflower, pumpkin, multi-seed and seeded spelt rolls, and it is darker than the stone-oven roll. shown as one whole roll; it must show no whole walnuts in shells and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Walnussbrötchen|Walnussbroetchen|Walnuss Brötchen|Walnuss-Brötchen|Walnussbrot Brötchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "rustic walnut roll|rustic walnut rolls|walnut rolls|walnut roll|walnut bread roll|walnut bread rolls|walnut bun|walnut buns|panecillo de nuez|walnuss brotchen|walnuss broetchen|walnussbrot broetchen|walnussbrot brotchen",
+        "needs": "walnussbroetchen|walnussbrotchen"
+      }
+    },
+    {
       "id": "rutabaga",
       "plu": "4747",
       "name": "Rutabaga",
@@ -25810,6 +26555,60 @@
         "secondary": "navet|navets"
       },
       "concept": "rutabaga"
+    },
+    {
+      "id": "loaf_rye_mixed",
+      "plu": "",
+      "name": "Rye Mixed Loaf",
+      "category": "other",
+      "aliases": [
+        "Rye-Wheat Loaf",
+        "Rye bread",
+        "Mixed rye bread",
+        "Rye crust loaf",
+        "German rye loaf",
+        "Light rye bread",
+        "Country rye loaf",
+        "Pan de centeno",
+        "Pan mixto de centeno"
+      ],
+      "image": "loaf_rye_mixed.png",
+      "desc": "a rye-wheat loaf (roggenmischbrot, roggenkruste) is a free-form oval loaf about 28 cm long with a smooth, dull gray-brown dome evenly dusted with a thin veil of white flour, with no cracks, no cuts and no bursts. the crumb is dense, moist and gray-beige. it has no white crackle network like the mecklenburg loaf, no reddish split like the siegerland loaf, and no seeds. shown whole with the end cut off and one slice lying in front; it must not show butter, a board and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Roggenmischbrot|Roggenkruste|Roggen-Mischbrot",
+        "family": "",
+        "words": "",
+        "phrases": "rye mixed loaf|rye mixed loaves|rye wheat loaf|rye wheat loaves|rye bread|rye breads|mixed rye bread|mixed rye breads|rye crust loaf|rye crust loaves|german rye loaf|german rye loaves|light rye bread|light rye breads|country rye loaf|country rye loaves|pan mixto de centeno|roggen mischbrot",
+        "needs": "roggenkruste|roggenmischbrot"
+      }
+    },
+    {
+      "id": "loaf_potato_flake",
+      "plu": "",
+      "name": "Rye Potato Loaf",
+      "category": "other",
+      "aliases": [
+        "Potato bread",
+        "Potato rye bread",
+        "Potato flake loaf",
+        "German potato bread",
+        "Pan de papa"
+      ],
+      "image": "loaf_potato_flake.png",
+      "desc": "a rye potato loaf (kartoffelbrot) is a free-form oval rye-wheat loaf about 28 cm long whose whole crust is coated in a rough layer of pale tan toasted potato flakes, with one long lengthwise slash across the top. the crumb is light gray-beige and soft. the flake coat is its mark: it is not the potato roll, not a white-floured loaf like the mecklenburg and munich loaves, and not a seeded loaf. shown whole with two slices cut and leaning against the end; it must show no potatoes and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kartoffelbrot|Kartoffel-Brot|Kartoffel Brot|Kartoffelheld|Roggenmischbrot mit Kartoffelflocken",
+        "family": "",
+        "words": "",
+        "phrases": "rye potato loaf|rye potato loaves|potato bread|potato breads|potato rye bread|potato rye breads|potato flake loaf|potato flake loaves|german potato bread|german potato breads|kartoffel brot|roggenmischbrot mit kartoffelflocken",
+        "needs": "kartoffelbrot|kartoffelheld"
+      }
     },
     {
       "id": "roll_rye",
@@ -26411,6 +27210,32 @@
       "concept": "seckel_pears"
     },
     {
+      "id": "roll_grain_mix",
+      "plu": "",
+      "name": "Seeded Country Roll",
+      "category": "other",
+      "aliases": [
+        "Seeded roll",
+        "Country grain roll",
+        "Mixed seed roll",
+        "Grain roll",
+        "Rustic seeded roll",
+        "Panecillo de semillas"
+      ],
+      "image": "roll_grain_mix.png",
+      "desc": "a seeded country roll (körnerglück) is a round rustic roll about 10 cm across with a golden brown crust scattered with a mix of pale sunflower kernels, green pumpkin seed pieces and golden linseeds, lightly dusted with flour. one deep curved cut runs across the top, and a band of black poppy seeds lines that cut. it is round with a poppy-lined cut, so it is not the oblong sesame-poppy multi-seed roll, not the all-sunflower roll and not the all-pumpkin roll. shown as one whole roll; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Körnerglück|Koernerglueck|Körner-Glück|Körner Glück|Körnerglueck",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "seeded country roll|seeded country rolls|seeded rolls|country grain roll|country grain rolls|mixed seed rolls|grain roll|grain rolls|rustic seeded roll|rustic seeded rolls|koerner glueck|korner gluck",
+        "needs": "koernerglueck|kornergluck|kornerglueck"
+      }
+    },
+    {
       "id": "pretzel_stick_seeded",
       "plu": "",
       "name": "Seeded Pretzel Stick",
@@ -26435,6 +27260,34 @@
         "family": "Laugenstange|Laugenstangen|Brezelstange|Brezelstangen|Brezel|Brezeln|Breze|Brezen|Brezn|Laugenbrezel|Laugenbrezeln|Laugenbreze|bâtonnet bretzel|bâtonnets bretzel|baguette bretzel|bretzel|bretzels|pretzel|pretzels|precel|precle",
         "words": "",
         "needs": "baguette|bretzel|bretzels|breze|brezel|brezeln|brezelstange|brezelstangen|brezen|brezn|koernerlaugenstange|kornerlaugenstange|laugenbreze|laugenbrezel|laugenbrezeln|laugenstange|laugenstangen|precel|precle|pretzel|pretzels|saatenlaugenstange"
+      }
+    },
+    {
+      "id": "roll_quark_seed_stick",
+      "plu": "",
+      "name": "Seeded Quark Stick",
+      "category": "other",
+      "aliases": [
+        "Seeded quark sticks",
+        "Quark seed stick",
+        "Multigrain quark roll",
+        "Seeded bread stick roll",
+        "Grain stick roll",
+        "Quark roll",
+        "Barrita de semillas",
+        "Pan alargado de semillas"
+      ],
+      "image": "roll_quark_seed_stick.png",
+      "desc": "a seeded quark stick (korn-quark-stange) is a short, thick wheat roll about 19 cm long and 7 cm wide, made with quark and wound from one twisted strand of dough, so three diagonal spiral seams run around it and its two ends taper to blunt points. the raised bands between the seams are crusted with linseed, sunflower kernels, sesame and poppy seeds, and bare matte golden-brown dough shows inside each seam. it has no lye gloss, no salt and no white cut stripes, unlike the dark pretzel sticks, and it is not round like the seeded rolls. shown as one whole stick lying diagonally; it must not show cheese and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Korn-Quark-Stange|Kornquarkstange|Korn Quark Stange|Dinkel-Quark-Raute|Quarkstange",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "seeded quark stick|seeded quark sticks|quark seed stick|quark seed sticks|multigrain quark roll|multigrain quark rolls|seeded bread stick roll|seeded bread stick rolls|grain stick roll|grain stick rolls|quark roll|quark rolls|barrita de semillas|pan alargado de semillas|korn quark stange|dinkel quark raute",
+        "needs": "kornquarkstange|quarkstange"
       }
     },
     {
@@ -26623,6 +27476,58 @@
       "concept": "sheep_polypore_mushroom"
     },
     {
+      "id": "cake_plum_sheet",
+      "plu": "",
+      "name": "Sheet Cake with Plums",
+      "category": "other",
+      "aliases": [
+        "Plum cake",
+        "Plum sheet cake",
+        "Damson plum cake",
+        "German plum cake",
+        "Zwetschgenkuchen",
+        "Pastel de ciruela",
+        "Tarta de ciruelas"
+      ],
+      "image": "cake_plum_sheet.png",
+      "desc": "a sheet cake with plums (zwetschgenkuchen) is one rectangular piece cut from a sheet cake, about 10 by 8 cm, with straight cut sides showing a pale golden yeast-dough base. the top is covered with rows of halved, purple-skinned plums standing on edge, their yellow-green flesh glistening with juice. it has no streusel, no custard and no glaze, which sets it apart from the apple streusel and rhubarb strawberry pieces. shown as one piece by itself, with no plate, no fork and no paper under it; it must show no whole plums and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Zwetschgenkuchen|Zwetschgen-Kuchen|Zwetschgenkuchen Stück|Pflaumenkuchen|Zwetschendatschi",
+        "family": "",
+        "words": "",
+        "phrases": "sheet cake with plums|plum cake|plum cakes|plum sheet cake|plum sheet cakes|damson plum cake|damson plum cakes|german plum cake|german plum cakes|zwetschgenkuchen|pastel de ciruela|tarta de ciruelas|zwetschgen kuchen|zwetschgenkuchen stueck|zwetschgenkuchen stuck",
+        "needs": "pflaumenkuchen|zwetschendatschi|zwetschgenkuchen"
+      }
+    },
+    {
+      "id": "cake_rhubarb_strawberry_sheet",
+      "plu": "",
+      "name": "Sheet Cake with Rhubarb and Strawberry",
+      "category": "other",
+      "aliases": [
+        "Rhubarb strawberry cake",
+        "Strawberry rhubarb cake",
+        "Rhubarb cake",
+        "Strawberry rhubarb sheet cake",
+        "Pastel de ruibarbo y fresa"
+      ],
+      "image": "cake_rhubarb_strawberry_sheet.png",
+      "desc": "a sheet cake with rhubarb and strawberry (rhabarber-erdbeer-kuchen) is one rectangular piece cut from a sheet cake, about 10 by 8 cm, with straight cut sides showing a pale golden base and a layer of creamy vanilla custard. the top is covered with chunks of pink-green rhubarb and halved bright red strawberries under a thin clear glaze. it has no streusel and no purple plums. shown as one piece by itself, with no plate, no fork and no paper under it; it must show no whole rhubarb stalks and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Rhabarber-Erdbeer-Kuchen|Rhabarber Erdbeer Kuchen|Rhabarber-Erdbeerkuchen|Erdbeer-Rhabarber-Kuchen|Rhabarberkuchen",
+        "family": "",
+        "words": "",
+        "phrases": "sheet cake with rhubarb and strawberry|rhubarb strawberry cake|rhubarb strawberry cakes|strawberry rhubarb cake|strawberry rhubarb cakes|rhubarb cake|rhubarb cakes|strawberry rhubarb sheet cake|strawberry rhubarb sheet cakes|pastel de ruibarbo y fresa|rhabarber erdbeer kuchen|rhabarber erdbeerkuchen|erdbeer rhabarber kuchen",
+        "needs": "erdbeerkuchen|rhabarberkuchen"
+      }
+    },
+    {
       "id": "beans_shell",
       "plu": "4532",
       "name": "Shell Beans",
@@ -26727,6 +27632,62 @@
       "concept": "shiny_red_persimmon_all_sizes"
     },
     {
+      "id": "loaf_siegerland",
+      "plu": "",
+      "name": "Siegerland Country Loaf",
+      "category": "other",
+      "aliases": [
+        "Siegerland bread",
+        "Siegerland country bread",
+        "Rustic rye loaf",
+        "Country loaf",
+        "Dark crust rye loaf",
+        "Reddish rye loaf",
+        "Pan de campo"
+      ],
+      "image": "loaf_siegerland.png",
+      "desc": "a siegerland country loaf is a free-form oval rye-wheat loaf about 30 cm long with a reddish chestnut-brown crust. flour lies on top in scattered patches that have crackled into small pale flakes, and one long ragged crack runs along one side of the loaf. the crumb is gray-beige, dense and moist. its reddish crust with patchy flour and one side split is its mark; it is not the dense all-over white crackle of the mecklenburg loaf and not the smooth gray rye-wheat loaf. shown whole with the end cut off and one slice lying in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Siegerländer Landbrot|Siegerländer-Landbrot|Siegländerlandbrot|Siegerlander Landbrot|Siegerländer Brot",
+        "family": "",
+        "words": "",
+        "phrases": "siegerland country loaf|siegerland country loaves|siegerland bread|siegerland breads|siegerland country bread|siegerland country breads|dark crust rye loaf|dark crust rye loaves|reddish rye loaf|reddish rye loaves|siegerlander landbrot|siegerlaender landbrot|siegerlaender brot|siegerlander brot",
+        "needs": "siegerlaender|siegerlander|sieglaenderlandbrot|sieglanderlandbrot"
+      }
+    },
+    {
+      "id": "simit_sesame_ring",
+      "plu": "",
+      "name": "Simit (Sesame Ring)",
+      "category": "other",
+      "aliases": [
+        "Sesame Ring (Simit)",
+        "Simit",
+        "Simits",
+        "Sesame ring",
+        "Turkish bagel",
+        "Sesame bread ring",
+        "Gevrek",
+        "Rosca de sésamo",
+        "Rosca de ajonjolí"
+      ],
+      "image": "simit_sesame_ring.png",
+      "desc": "a simit is a ring-shaped bread about 15 cm across with a hole about 6 cm wide, made from a rope of dough twisted on itself so the ring shows a faint spiral. it is dipped in grape molasses and rolled in sesame, so the whole surface is a dense coat of toasted sesame seeds over a deep reddish golden-brown, crisp crust. it is not a glossy pretzel, not a plain bagel and not a donut. shown as one whole ring lying flat.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Simit|Simitring|Sesamkringel|Sesamring",
+        "family": "",
+        "words": "",
+        "phrases": "simit sesame ring|sesame ring simit|simit|simits|sesame ring|sesame rings|turkish bagel|turkish bagels|sesame bread ring|sesame bread rings|gevrek|rosca de sesamo|rosca de ajonjoli",
+        "needs": "sesamkringel|sesamring|simit|simitring"
+      }
+    },
+    {
       "id": "skylar_rae_cherries",
       "plu": "3448",
       "name": "Skylar Rae Cherries",
@@ -26749,6 +27710,30 @@
         "es": "Cerezas Skylar Rae"
       },
       "concept": "skylar_rae_cherries"
+    },
+    {
+      "id": "cake_apple_tray",
+      "plu": "",
+      "name": "Small Cake with Apple Slices",
+      "category": "other",
+      "aliases": [
+        "Apple cake",
+        "Small apple cake",
+        "Apple tart cake",
+        "Glazed apple cake"
+      ],
+      "image": "cake_apple_tray.png",
+      "desc": "a mini apple cake (apfelkuchen im schälchen) is a small round cake baked in its own plain, unprinted, pleated paper tray of natural light-brown baking paper, whose fluted rim stands a little higher than the cake all the way around. the top is covered with fanned thin apple slices arranged in a ring, golden at the edges and shining under a clear apricot glaze, over a pale golden sponge. it is round in a pleated tray with a fan of apple slices, unlike the rectangular marbled cherry cake in its straight-sided tray, and it has no streusel. shown whole in the tray at a slight angle, the tray filling the frame; it must show no whole apples, no print on the tray and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Apfelkuchen im Schälchen|Apfelkuchen|Apfel-Kuchen|Apfelkuchen Schälchen|Apfelkuchen im Schaelchen",
+        "family": "",
+        "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
+        "phrases": "small cake with apple slices|apple cake|apple cakes|small apple cake|small apple cakes|apple tart cake|apple tart cakes|glazed apple cake|glazed apple cakes|apfelkuchen im schalchen|apfelkuchen im schaelchen|apfel kuchen|apfelkuchen schaelchen|apfelkuchen schalchen",
+        "needs": "apfelkuchen"
+      }
     },
     {
       "id": "pizza_snack",
@@ -27232,6 +28217,86 @@
       "dims": {
         "size": "S",
         "region": "West"
+      }
+    },
+    {
+      "id": "bread_ring_spelt",
+      "plu": "",
+      "name": "Spelt Bread Wreath",
+      "category": "other",
+      "aliases": [
+        "Spelt Bread Ring",
+        "Bread wreath",
+        "Spelt corn ring",
+        "Ring loaf",
+        "Spelt wreath"
+      ],
+      "image": "bread_ring_spelt.png",
+      "desc": "a spelt bread ring (dinkelmais-kranz) is a round loaf about 20 cm across shaped as a thick wreath with a large hole in the middle. the crust is pale golden brown, heavily dusted with white flour that has crackled into rough patches, with no cuts and no seeds. it is a floury ring, not the sesame-coated simit and not any round loaf without a hole. shown as one whole ring lying flat at a slight angle; it must show no corn cobs, no paper tag and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Dinkelmais-Kranz|Dinkelmais Kranz|Dinkelmaiskranz|Dinkel-Mais-Kranz|Dinkelkranz",
+        "family": "",
+        "words": "",
+        "phrases": "spelt bread wreath|spelt bread wreaths|spelt bread ring|spelt bread rings|bread wreath|bread wreaths|spelt corn ring|spelt corn rings|ring loaf|ring loaves|spelt wreath|spelt wreaths|dinkelmais kranz|dinkel mais kranz",
+        "needs": "dinkelkranz|dinkelmais|dinkelmaiskranz"
+      }
+    },
+    {
+      "id": "loaf_spelt_round",
+      "plu": "",
+      "name": "Spelt Round Loaf",
+      "category": "other",
+      "aliases": [
+        "Spelt bread",
+        "Organic spelt bread",
+        "Round spelt loaf",
+        "Spelt boule",
+        "Bio spelt bread",
+        "Spelt country loaf",
+        "Pan de espelta",
+        "Hogaza de espelta"
+      ],
+      "image": "loaf_spelt_round.png",
+      "desc": "a spelt round loaf (dinkelbrot) is a round boule about 18 cm across with a golden brown crust lightly floured and finely crackled. one long curved slash across the top has opened into a single raised ear with a sharp edge. the crumb is light, open and creamy. it is not the cross-cut wheat boule, not the unscored lumpy odenwald loaf and not the white-coated munich loaf, and it has no seeds. shown whole with two slices cut and lying in front; it must show no stamp, logo, lettering and label.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Dinkelbrot|Bio-Dinkelbrot|BioBio Dinkelbrot|Bio Dinkelbrot|Dinkelglück|Bio Dinkelglück",
+        "family": "",
+        "words": "rund runde runder rundes rond ronde ronds rondes redondo redonda redondos redondas rotondo rotonda tondo tonda tondi rotondi rotonde tonde globoso globosa globose okrągły okrągła okrągłe",
+        "phrases": "spelt round loaf|spelt round loaves|spelt bread|spelt breads|organic spelt bread|organic spelt breads|round spelt loaf|round spelt loaves|spelt boule|spelt boules|bio spelt bread|bio spelt breads|spelt country loaf|spelt country loaves|hogaza de espelta|bio dinkelbrot|biobio dinkelbrot|bio dinkelgluck|bio dinkelglueck",
+        "needs": "dinkelbrot|dinkelgluck|dinkelglueck"
+      }
+    },
+    {
+      "id": "loaf_spelt_emmer",
+      "plu": "",
+      "name": "Spelt and Emmer Loaf",
+      "category": "other",
+      "aliases": [
+        "Spelt emmer bread",
+        "Ancient grain loaf",
+        "Spelt loaf",
+        "Emmer bread",
+        "Heritage grain bread",
+        "Pan de espelta",
+        "Pan de espelta y escanda"
+      ],
+      "image": "loaf_spelt_emmer.png",
+      "desc": "a spelt and emmer loaf (dinkelbrot mit emmer) is an oval loaf about 24 cm long and 500 g with a light golden brown crust sprinkled with pale rolled spelt flakes and marked by several shallow diagonal cuts. the crumb is light beige and fairly open. it is lighter than the rye loaves, has no sesame-poppy coat, no pumpkin seeds and no orange carrot flecks. shown whole with two slices cut from the end.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Dinkelbrot mit Emmer|Dinkelbrot m. Emmer|Urgetreidebrot|Dinkel-Emmer-Brot",
+        "family": "",
+        "words": "",
+        "phrases": "spelt and emmer loaf|spelt and emmer loaves|spelt emmer bread|spelt emmer breads|ancient grain loaf|ancient grain loaves|spelt loaf|spelt loaves|emmer bread|emmer breads|heritage grain bread|heritage grain breads|pan de espelta y escanda|dinkelbrot mit emmer|dinkelbrot m emmer|dinkel emmer brot",
+        "needs": "urgetreidebrot"
       }
     },
     {
@@ -27862,6 +28927,59 @@
       "concept": "corn_indian_strawberry"
     },
     {
+      "id": "cake_apple_streusel_sheet",
+      "plu": "",
+      "name": "Streusel Cake with Apples",
+      "category": "other",
+      "aliases": [
+        "Apple crumb cake",
+        "Apple streusel cake",
+        "Apple crumble cake",
+        "Streusel cake",
+        "German apple cake",
+        "Pastel de manzana con streusel"
+      ],
+      "image": "cake_apple_streusel_sheet.png",
+      "desc": "a streusel cake with apples (apfel-streusel-kuchen) is one square piece cut from a sheet cake, about 9 cm on each side, with straight cut sides showing three layers: a golden base, a layer of soft pale apple pieces and a thick crown of golden butter-crumb streusel. its square shape with straight cut layers sets it apart from the round apple danish with its puffed ring and powdered sugar. shown as one piece by itself, with no plate, no fork and no paper under it, turned so a cut side shows; it must show no whole apples and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Apfel-Streusel-Kuchen|Apfel-Streuselkuchen|Apfelstreuselkuchen|Apfel Streusel Kuchen|Apfelstreusel",
+        "family": "",
+        "words": "",
+        "phrases": "streusel cake with apples|apple crumb cake|apple crumb cakes|apple streusel cake|apple streusel cakes|apple crumble cake|apple crumble cakes|streusel cake|streusel cakes|german apple cake|german apple cakes|pastel de manzana con streusel|apfel streusel kuchen|apfel streuselkuchen",
+        "needs": "apfelstreusel|apfelstreuselkuchen|streuselkuchen"
+      }
+    },
+    {
+      "id": "pastry_streusel_snail",
+      "plu": "",
+      "name": "Streusel Snail",
+      "category": "other",
+      "aliases": [
+        "Streusel bun",
+        "Crumb bun",
+        "Streusel danish",
+        "Crumb snail",
+        "Butter crumb pastry",
+        "Caracola de streusel",
+        "Bollo con migas"
+      ],
+      "image": "pastry_streusel_snail.png",
+      "desc": "a streusel snail (streuselschnecke) is a round, flat yeast pastry about 12 cm across whose rolled spiral of soft golden dough shows clearly at the edges, with the top covered in pale golden butter-crumb streusel. it has no fruit, no icing, no custard and no powdered sugar. the visible dough spiral under plain streusel is its mark; it is not the fruit danish (red fruit, icing zigzags) and not the apple danish (puffed ring, powdered sugar). shown as one whole pastry from above at a slight angle; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Streuselschnecke|Streuselschnecken|Streusel-Schnecke|Puddingstreusel",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "streusel snail|streusel snails|streusel bun|streusel buns|crumb bun|crumb buns|streusel danish|streusel danishes|crumb snail|crumb snails|butter crumb pastry|butter crumb pastries|caracola de streusel|bollo con migas|streusel schnecke",
+        "needs": "puddingstreusel|streuselschnecke|streuselschnecken"
+      }
+    },
+    {
       "id": "enjoya_stripy_bell_peppers_all_sizes",
       "plu": "3465",
       "name": "Stripy Bell Peppers (Enjoya™)",
@@ -28263,6 +29381,34 @@
       "concept": "sunchokes"
     },
     {
+      "id": "loaf_sunflower_seed",
+      "plu": "",
+      "name": "Sunflower Seed Loaf",
+      "category": "other",
+      "aliases": [
+        "Sunflower seed bread",
+        "Sunflower bread",
+        "Sunflower whole grain loaf",
+        "Vital bread",
+        "Seeded rye loaf",
+        "Sunflower linseed loaf",
+        "Pan de pipas de girasol",
+        "Pan de semillas de girasol"
+      ],
+      "image": "loaf_sunflower_seed.png",
+      "desc": "a sunflower seed loaf (sonnenblumenkernbrot) is an oval, dark brown whole-grain loaf about 25 cm long and 500 g whose crust is scattered with pale sunflower kernels and small brown linseeds, slightly crackled and lightly floured. the crumb is dark brown, moist and full of sunflower kernels. it has no green pumpkin seeds, no sesame-poppy coat and no boxy shape. shown whole with two slices cut from the end.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Sonnenblumenkernbrot|Vollkornbrot mit Sonnenblumenkernen|Bio-Vitalbrot|BioBio Vitalbrot|Sonnenblumenbrot",
+        "family": "",
+        "words": "",
+        "phrases": "sunflower seed loaf|sunflower seed loaves|sunflower seed bread|sunflower seed breads|sunflower bread|sunflower breads|sunflower whole grain loaf|sunflower whole grain loaves|vital bread|vital breads|seeded rye loaf|seeded rye loaves|sunflower linseed loaf|sunflower linseed loaves|pan de pipas de girasol|pan de semillas de girasol|vollkornbrot mit sonnenblumenkernen|bio vitalbrot|biobio vitalbrot",
+        "needs": "sonnenblumenbrot|sonnenblumenkernbrot|vitalbrot"
+      }
+    },
+    {
       "id": "roll_sunflower_seed",
       "plu": "",
       "name": "Sunflower Seed Roll",
@@ -28372,6 +29518,32 @@
       "concept": "sunny_gold_yellow_mini_seedless_watermelon",
       "dims": {
         "form": "seedless"
+      }
+    },
+    {
+      "id": "seele_stick",
+      "plu": "",
+      "name": "Swabian Seele",
+      "category": "other",
+      "aliases": [
+        "Seelen",
+        "Swabian bread stick",
+        "Caraway salt stick",
+        "Spelt stick",
+        "Seele bread",
+        "Salted caraway roll"
+      ],
+      "image": "seele_stick.png",
+      "desc": "a seele is a long, thin, hand-pulled swabian stick about 25 cm long and 5 cm wide, irregular and slightly flattened with uneven ends because the very soft dough spreads in the oven. the crust is thin, crisp and golden brown, and the top is scattered with coarse white salt crystals and brown caraway seeds. it is not glossy dark like a lye stick, has no seed crust like the quark stick, and is flatter and more uneven than a baguette. shown as one whole stick lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Seele|Seelen|Schwäbische Seele|Dinkelseele|Seelchen",
+        "family": "",
+        "words": "",
+        "phrases": "swabian seele|seelen|swabian bread stick|swabian bread sticks|caraway salt stick|caraway salt sticks|spelt stick|spelt sticks|seele bread|seele breads|salted caraway roll|salted caraway rolls|schwabische seele|schwaebische seele",
+        "needs": "dinkelseele|seelchen|seele|seelen"
       }
     },
     {
@@ -30118,6 +31290,34 @@
       "concept": "turban_squash"
     },
     {
+      "id": "flatbread_turkish",
+      "plu": "",
+      "name": "Turkish Flatbread",
+      "category": "other",
+      "aliases": [
+        "Flatbread",
+        "Turkish bread",
+        "Pide",
+        "Oriental flatbread",
+        "Sesame flatbread",
+        "Ramadan pide",
+        "Pan plano",
+        "Pan pita turco"
+      ],
+      "image": "flatbread_turkish.png",
+      "desc": "a turkish flatbread (fladenbrot) is a round, puffy bread about 20 cm across and only a few centimeters thick, with a soft golden crust whose whole top is scattered with white sesame seeds and some black nigella seeds. the edge is rounded and the inside is white, airy and soft. it is flat and round, unlike every loaf and roll here, and it is not a pizza. shown whole with one torn piece lying beside it; it must not show fillings and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Fladenbrot|Türkisches Fladenbrot|Tuerkisches Fladenbrot|Pide",
+        "family": "",
+        "words": "",
+        "phrases": "turkish flatbread|turkish flatbreads|flatbread|flatbreads|turkish bread|turkish breads|pide|pides|oriental flatbread|oriental flatbreads|sesame flatbread|sesame flatbreads|ramadan pide|ramadan pides|pan plano|pan pita turco|turkisches fladenbrot|tuerkisches fladenbrot",
+        "needs": "fladenbrot|pide"
+      }
+    },
+    {
       "id": "turmeric_root",
       "plu": "",
       "name": "Turmeric Root",
@@ -30383,6 +31583,32 @@
         "es": "Vaina de vainilla"
       },
       "concept": "vanilla_bean"
+    },
+    {
+      "id": "pastry_vanilla_twist",
+      "plu": "",
+      "name": "Vanilla Custard Twist",
+      "category": "other",
+      "aliases": [
+        "Custard twist pastry",
+        "Vanilla danish stick",
+        "Custard stick",
+        "Spiral custard pastry",
+        "Barrita de vainilla",
+        "Danés de vainilla"
+      ],
+      "image": "pastry_vanilla_twist.png",
+      "desc": "a vanilla custard twist (vanillestange) is a long danish pastry about 18 cm long and 90 g: a log of yellow vanilla custard wrapped in a spiral of flaky dough strips, so the outside looks like a twisted rope of golden ridges, sprinkled with fine sugar. pale custard shows at the open ends. it is straight and spiral-wrapped, unlike the folded bee sting danish and the flat pressed franzbrötchen, and has no almonds. shown as one whole pastry with a second cut to show the custard.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Vanillestange|Vanille-Stange|Vanilletraum|Vanillestangen",
+        "family": "Plunder|Plundergebäck|Plunderteilchen",
+        "words": "",
+        "phrases": "vanilla custard twist|vanilla custard twists|custard twist pastry|custard twist pastries|vanilla danish stick|vanilla danish sticks|custard stick|custard sticks|spiral custard pastry|spiral custard pastries|barrita de vainilla|danes de vainilla|vanille stange",
+        "needs": "vanillestange|vanillestangen|vanilletraum"
+      }
     },
     {
       "id": "vegetable_marrow",
@@ -30724,6 +31950,34 @@
       },
       "common": true,
       "concept": "beans_wax_yellow"
+    },
+    {
+      "id": "loaf_wheat_mixed",
+      "plu": "",
+      "name": "Wheat-Rye Loaf",
+      "category": "other",
+      "aliases": [
+        "Wheat rye bread",
+        "Mixed wheat bread",
+        "Light rye loaf",
+        "German wheat loaf",
+        "Farmhouse wheat loaf",
+        "Large wheat loaf",
+        "Pan mixto de trigo",
+        "Pan de trigo y centeno"
+      ],
+      "image": "loaf_wheat_mixed.png",
+      "desc": "a wheat-rye loaf (weizenmischbrot) is a free-form oval loaf about 30 cm long, smooth and evenly golden brown, with three shallow diagonal slashes across the top that open into lighter stripes. the crust is thin and slightly shiny with no flour and no crackle; the crumb is fine, soft and light beige. it is an oval, not a round boule with a cross cut and not a straight-sided tin loaf, and it has no seeds. shown whole with two slices cut and leaning against the end to show the crumb; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weizenmischbrot|Weizen-Mischbrot",
+        "family": "",
+        "words": "",
+        "phrases": "wheat rye loaf|wheat rye loaves|wheat rye bread|wheat rye breads|mixed wheat bread|mixed wheat breads|light rye loaf|light rye loaves|german wheat loaf|german wheat loaves|farmhouse wheat loaf|farmhouse wheat loaves|large wheat loaf|large wheat loaves|pan mixto de trigo|pan de trigo y centeno|weizen mischbrot",
+        "needs": "weizenmischbrot"
+      }
     },
     {
       "id": "white_baking_potato",
@@ -31073,6 +32327,35 @@
         "es": "Calabacita blanca"
       },
       "concept": "white_squash"
+    },
+    {
+      "id": "loaf_white_tin",
+      "plu": "",
+      "name": "White Tin Loaf",
+      "category": "other",
+      "aliases": [
+        "White bread",
+        "White loaf",
+        "Tin loaf",
+        "Pan loaf",
+        "Sandwich loaf",
+        "Split-top white loaf",
+        "Pan blanco",
+        "Pan de molde",
+        "Pan de caja"
+      ],
+      "image": "loaf_white_tin.png",
+      "desc": "a white tin loaf (weißbrot) is a rectangular loaf baked in a pan, about 22 cm long and 10 cm wide, with straight, pale, flat sides and a rounded golden top split open lengthwise into one rough, lighter ridge. the crumb is very white, soft and fine. it is the only straight-sided pan loaf of the plain breads, not a free-form oval and not a round boule, and it has no seeds and no flour dusting. shown whole with two slices cut and lying in front; it must not show a bag and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weißbrot|Weissbrot|Kastenweißbrot",
+        "family": "",
+        "words": "",
+        "phrases": "white tin loaf|white tin loaves|white bread|white breads|white loaf|tin loaf|tin loaves|pan loaf|pan loaves|sandwich loaf|sandwich loaves|split top white loaf|split top white loaves|pan de molde|pan de caja",
+        "needs": "kastenweissbrot|weissbrot"
+      }
     },
     {
       "id": "white_walnuts",
@@ -31462,6 +32745,34 @@
         "es": "Manzana Worcester"
       },
       "concept": "worcester_apples"
+    },
+    {
+      "id": "loaf_world_champion",
+      "plu": "",
+      "name": "World Champion Loaf",
+      "category": "other",
+      "aliases": [
+        "World champion bread",
+        "Weltmeister bread",
+        "Sesame poppy loaf",
+        "Seeded wheat-rye loaf",
+        "Multi-seed loaf",
+        "Champion seeded loaf",
+        "Pan de semillas",
+        "Pan multisemillas"
+      ],
+      "image": "loaf_world_champion.png",
+      "desc": "a world champion loaf (weltmeisterbrot) is an oval wheat-rye loaf about 25 cm long whose whole top is densely coated with a speckled mix of white sesame and blue-black poppy seeds over a golden brown crust, with three shallow diagonal cuts. the crumb is light brown and moist. it is not covered in green pumpkin seeds and not a tin loaf. shown whole with three slices cut and fanned out in front; it must not show text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weltmeisterbrot|Weltmeister-Brot|Brot Weltmeister",
+        "family": "",
+        "words": "",
+        "phrases": "world champion loaf|world champion loaves|world champion bread|world champion breads|weltmeister bread|weltmeister breads|sesame poppy loaf|sesame poppy loaves|seeded wheat rye loaf|seeded wheat rye loaves|multi seed loaf|multi seed loaves|champion seeded loaf|champion seeded loaves|pan multisemillas|weltmeister brot|brot weltmeister",
+        "needs": "weltmeisterbrot"
+      }
     },
     {
       "id": "xenia_pears",
@@ -32196,6 +33507,35 @@
       },
       "common": true,
       "concept": "zucchini"
+    },
+    {
+      "id": "baguette_onion",
+      "plu": "",
+      "name": "Zwiebelbaguette (Onion Baguette)",
+      "category": "other",
+      "aliases": [
+        "Onion Baguette",
+        "Onion baguettes",
+        "Onion bread",
+        "Onion stick",
+        "Mini onion baguette",
+        "Fried onion baguette",
+        "Onion French bread",
+        "Baguette de cebolla",
+        "Pan de cebolla"
+      ],
+      "image": "baguette_onion.png",
+      "desc": "an onion baguette (zwiebelbaguette) is a short, plump baguette about 22 cm long, pale golden with darker toasted spots, with roasted onion pieces mixed into the dough that show as brown flecks and small crisp bits on the crust. two diagonal cuts open along the top and the ends are rounded. it has no red pepper flecks, no seeds and no flour dusting. shown as one whole loaf lying diagonally; it must not show raw onions and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Zwiebelbaguette|Zwiebel-Baguette|Zwiebelbaguette Mini|Zwiebelstange",
+        "family": "Baguette|Baguettes|Weizenbaguette|Stangenweißbrot|Pariser Weißbrot|baguete|baguetes|baghetta|bagietka|bagietki",
+        "words": "",
+        "phrases": "zwiebelbaguette onion baguette|onion baguette|onion baguettes|onion bread|onion breads|onion stick|onion sticks|mini onion baguette|mini onion baguettes|fried onion baguette|fried onion baguettes|onion french bread|onion french breads|baguette de cebolla|pan de cebolla|zwiebel baguette|zwiebelbaguette mini",
+        "needs": "baguette|zwiebelbaguette|zwiebelstange"
+      }
     }
   ],
   "sections": [

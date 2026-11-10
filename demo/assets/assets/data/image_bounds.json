@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1170,
+  "image_count": 1220,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -556,6 +556,18 @@
       "right": 1.0,
       "bottom": 0.734375
     },
+    "baguette_onion.png": {
+      "left": 0.009765625,
+      "top": 0.263671875,
+      "right": 0.9921875,
+      "bottom": 0.73828125
+    },
+    "baguette_pepper.png": {
+      "left": 0.0078125,
+      "top": 0.283203125,
+      "right": 0.9921875,
+      "bottom": 0.716796875
+    },
     "baguette_stone_oven.png": {
       "left": 0.005859375,
       "top": 0.271484375,
@@ -1024,6 +1036,12 @@
       "right": 0.984375,
       "bottom": 0.80078125
     },
+    "bread_ring_spelt.png": {
+      "left": 0.00390625,
+      "top": 0.00390625,
+      "right": 0.994140625,
+      "bottom": 0.994140625
+    },
     "breadfruit.png": {
       "left": 0.169921875,
       "top": 0.041015625,
@@ -1137,6 +1155,42 @@
       "top": 0.1328125,
       "right": 0.76171875,
       "bottom": 0.88671875
+    },
+    "cake_apple_streusel_sheet.png": {
+      "left": 0.08203125,
+      "top": 0.1796875,
+      "right": 0.904296875,
+      "bottom": 0.822265625
+    },
+    "cake_apple_tray.png": {
+      "left": 0.033203125,
+      "top": 0.07421875,
+      "right": 0.966796875,
+      "bottom": 0.923828125
+    },
+    "cake_cheesecake_slice.png": {
+      "left": 0.064453125,
+      "top": 0.171875,
+      "right": 0.935546875,
+      "bottom": 0.822265625
+    },
+    "cake_cherry_marble_tray.png": {
+      "left": 0.0078125,
+      "top": 0.197265625,
+      "right": 0.994140625,
+      "bottom": 0.794921875
+    },
+    "cake_plum_sheet.png": {
+      "left": 0.01171875,
+      "top": 0.109375,
+      "right": 0.990234375,
+      "bottom": 0.880859375
+    },
+    "cake_rhubarb_strawberry_sheet.png": {
+      "left": 0.013671875,
+      "top": 0.115234375,
+      "right": 0.986328125,
+      "bottom": 0.884765625
     },
     "calabaza_squash.png": {
       "left": 0.08984375,
@@ -1840,6 +1894,12 @@
       "right": 0.990234375,
       "bottom": 0.734375
     },
+    "croissant_pretzel.png": {
+      "left": 0.025390625,
+      "top": 0.173828125,
+      "right": 0.96875,
+      "bottom": 0.828125
+    },
     "crown_prince_squash.png": {
       "left": 0.09375,
       "top": 0.134765625,
@@ -2349,6 +2409,12 @@
       "top": 0.1796875,
       "right": 0.865234375,
       "bottom": 0.845703125
+    },
+    "flatbread_turkish.png": {
+      "left": 0.0078125,
+      "top": 0.17578125,
+      "right": 0.978515625,
+      "bottom": 0.822265625
     },
     "foo_qua_bitter_melon.png": {
       "left": 0.361328125,
@@ -3634,6 +3700,114 @@
       "right": 0.78125,
       "bottom": 0.857421875
     },
+    "loaf_carrot.png": {
+      "left": 0.0234375,
+      "top": 0.17578125,
+      "right": 0.97265625,
+      "bottom": 0.828125
+    },
+    "loaf_farmhouse.png": {
+      "left": 0.013671875,
+      "top": 0.17578125,
+      "right": 0.95703125,
+      "bottom": 0.833984375
+    },
+    "loaf_flensburg_dark.png": {
+      "left": 0.03125,
+      "top": 0.26171875,
+      "right": 0.966796875,
+      "bottom": 0.740234375
+    },
+    "loaf_mecklenburg.png": {
+      "left": 0.00390625,
+      "top": 0.251953125,
+      "right": 0.99609375,
+      "bottom": 0.75
+    },
+    "loaf_munich_small.png": {
+      "left": 0.091796875,
+      "top": 0.171875,
+      "right": 0.90234375,
+      "bottom": 0.830078125
+    },
+    "loaf_mustard_sunflower.png": {
+      "left": 0.048828125,
+      "top": 0.16796875,
+      "right": 0.955078125,
+      "bottom": 0.83203125
+    },
+    "loaf_paderborn.png": {
+      "left": 0.00390625,
+      "top": 0.24609375,
+      "right": 0.99609375,
+      "bottom": 0.75390625
+    },
+    "loaf_potato_flake.png": {
+      "left": 0.0078125,
+      "top": 0.279296875,
+      "right": 0.986328125,
+      "bottom": 0.720703125
+    },
+    "loaf_pumpkin_seed.png": {
+      "left": 0.001953125,
+      "top": 0.169921875,
+      "right": 0.998046875,
+      "bottom": 0.837890625
+    },
+    "loaf_rye_mixed.png": {
+      "left": 0.00390625,
+      "top": 0.169921875,
+      "right": 0.98828125,
+      "bottom": 0.83203125
+    },
+    "loaf_siegerland.png": {
+      "left": 0.015625,
+      "top": 0.169921875,
+      "right": 0.982421875,
+      "bottom": 0.826171875
+    },
+    "loaf_spelt_emmer.png": {
+      "left": 0.00390625,
+      "top": 0.25,
+      "right": 0.99609375,
+      "bottom": 0.75390625
+    },
+    "loaf_spelt_round.png": {
+      "left": 0.0078125,
+      "top": 0.0546875,
+      "right": 0.98828125,
+      "bottom": 0.947265625
+    },
+    "loaf_sunflower_seed.png": {
+      "left": 0.001953125,
+      "top": 0.24609375,
+      "right": 0.998046875,
+      "bottom": 0.75390625
+    },
+    "loaf_wheat_crust.png": {
+      "left": 0.017578125,
+      "top": 0.005859375,
+      "right": 0.96875,
+      "bottom": 0.99609375
+    },
+    "loaf_wheat_mixed.png": {
+      "left": 0.005859375,
+      "top": 0.328125,
+      "right": 0.990234375,
+      "bottom": 0.705078125
+    },
+    "loaf_white_tin.png": {
+      "left": 0.001953125,
+      "top": 0.1640625,
+      "right": 0.99609375,
+      "bottom": 0.8359375
+    },
+    "loaf_world_champion.png": {
+      "left": 0.00390625,
+      "top": 0.248046875,
+      "right": 0.99609375,
+      "bottom": 0.751953125
+    },
     "lochbuie_apples.png": {
       "left": 0.138671875,
       "top": 0.125,
@@ -4011,6 +4185,12 @@
       "top": 0.0078125,
       "right": 0.990234375,
       "bottom": 0.994140625
+    },
+    "muffin_chocolate.png": {
+      "left": 0.03125,
+      "top": 0.04296875,
+      "right": 0.96484375,
+      "bottom": 0.953125
     },
     "mushrooms_cep.png": {
       "left": 0.166015625,
@@ -4474,11 +4654,77 @@
       "right": 0.86328125,
       "bottom": 0.875
     },
+    "pastry_apple_streusel_danish.png": {
+      "left": 0.0078125,
+      "top": 0.037109375,
+      "right": 0.9921875,
+      "bottom": 0.96875
+    },
+    "pastry_bee_sting_danish.png": {
+      "left": 0.001953125,
+      "top": 0.251953125,
+      "right": 0.998046875,
+      "bottom": 0.748046875
+    },
+    "pastry_chicken_doner_pocket.png": {
+      "left": 0.0234375,
+      "top": 0.259765625,
+      "right": 0.9765625,
+      "bottom": 0.744140625
+    },
+    "pastry_curry_sausage.png": {
+      "left": 0.001953125,
+      "top": 0.25,
+      "right": 0.998046875,
+      "bottom": 0.748046875
+    },
+    "pastry_franzbroetchen.png": {
+      "left": 0.01953125,
+      "top": 0.173828125,
+      "right": 0.982421875,
+      "bottom": 0.826171875
+    },
+    "pastry_fruit_streusel_snail.png": {
+      "left": 0.001953125,
+      "top": 0.005859375,
+      "right": 0.994140625,
+      "bottom": 0.994140625
+    },
+    "pastry_lattice_heart.png": {
+      "left": 0.03125,
+      "top": 0.04296875,
+      "right": 0.966796875,
+      "bottom": 0.9609375
+    },
+    "pastry_nut_snail.png": {
+      "left": 0.005859375,
+      "top": 0.017578125,
+      "right": 0.9921875,
+      "bottom": 0.994140625
+    },
+    "pastry_poppy_butterfly.png": {
+      "left": 0.00390625,
+      "top": 0.068359375,
+      "right": 0.99609375,
+      "bottom": 0.9140625
+    },
     "pastry_quark_pocket.png": {
       "left": 0.013671875,
       "top": 0.01953125,
       "right": 0.984375,
       "bottom": 0.974609375
+    },
+    "pastry_streusel_snail.png": {
+      "left": 0.03125,
+      "top": 0.03515625,
+      "right": 0.96875,
+      "bottom": 0.96484375
+    },
+    "pastry_vanilla_twist.png": {
+      "left": 0.001953125,
+      "top": 0.3359375,
+      "right": 0.994140625,
+      "bottom": 0.6640625
     },
     "paulared_apples_large.png": {
       "left": 0.16796875,
@@ -5494,6 +5740,24 @@
       "right": 0.8046875,
       "bottom": 0.8359375
     },
+    "roll_double_split.png": {
+      "left": 0.013671875,
+      "top": 0.26953125,
+      "right": 0.986328125,
+      "bottom": 0.734375
+    },
+    "roll_grain_mix.png": {
+      "left": 0.017578125,
+      "top": 0.013671875,
+      "right": 0.9765625,
+      "bottom": 0.984375
+    },
+    "roll_lye.png": {
+      "left": 0.046875,
+      "top": 0.265625,
+      "right": 0.94921875,
+      "bottom": 0.73828125
+    },
     "roll_multi_seed.png": {
       "left": 0.01171875,
       "top": 0.2109375,
@@ -5506,11 +5770,29 @@
       "right": 0.990234375,
       "bottom": 0.77734375
     },
+    "roll_potato.png": {
+      "left": 0.005859375,
+      "top": 0.2265625,
+      "right": 0.984375,
+      "bottom": 0.78515625
+    },
     "roll_pumpkin_seed.png": {
       "left": 0.001953125,
       "top": 0.046875,
       "right": 0.99609375,
       "bottom": 0.953125
+    },
+    "roll_quark_seed_stick.png": {
+      "left": 0.0078125,
+      "top": 0.26171875,
+      "right": 0.994140625,
+      "bottom": 0.736328125
+    },
+    "roll_rose.png": {
+      "left": 0.03515625,
+      "top": 0.048828125,
+      "right": 0.96484375,
+      "bottom": 0.9453125
     },
     "roll_rye.png": {
       "left": 0.087890625,
@@ -5547,6 +5829,12 @@
       "top": 0.05078125,
       "right": 0.982421875,
       "bottom": 0.94921875
+    },
+    "roll_walnut_rustic.png": {
+      "left": 0.01953125,
+      "top": 0.19140625,
+      "right": 0.982421875,
+      "bottom": 0.810546875
     },
     "roma_tomatoes.png": {
       "left": 0.255859375,
@@ -5806,6 +6094,12 @@
       "right": 0.7734375,
       "bottom": 0.892578125
     },
+    "seele_stick.png": {
+      "left": 0.00390625,
+      "top": 0.26171875,
+      "right": 0.994140625,
+      "bottom": 0.728515625
+    },
     "serrano_pepper.png": {
       "left": 0.328125,
       "top": 0.115234375,
@@ -5859,6 +6153,12 @@
       "top": 0.142578125,
       "right": 0.884765625,
       "bottom": 0.873046875
+    },
+    "simit_sesame_ring.png": {
+      "left": 0.001953125,
+      "top": 0.005859375,
+      "right": 0.994140625,
+      "bottom": 0.9921875
     },
     "skylar_rae_cherries.png": {
       "left": 0.2421875,
