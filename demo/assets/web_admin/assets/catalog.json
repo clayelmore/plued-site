@@ -1,5 +1,5 @@
 {
-  "version": 32,
+  "version": 33,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -551,6 +551,33 @@
         "es": "Plátano Manzano"
       },
       "concept": "apple_bananas_manzano"
+    },
+    {
+      "id": "apple_turnover",
+      "plu": "",
+      "name": "Apple Turnover",
+      "category": "other",
+      "aliases": [
+        "Apple turnovers",
+        "Apple pastry",
+        "Apple puff pastry",
+        "Apple pocket",
+        "Apple danish",
+        "Empanada de manzana",
+        "Empanadas de manzana",
+        "Hojaldre de manzana"
+      ],
+      "image": "apple_turnover.png",
+      "desc": "an apple turnover is the bake-off counter's closed triangular puff-pastry pocket filled with apple, about 12 cm on its long side: flaky and golden brown with thin pastry layers showing along its two sealed edges, and a crust of coarse sparkling sugar crystals over the whole top. the top is closed, with no slits or cut-outs, no white icing or glaze stripes, and no powdered sugar; at most a hint of pale apple filling shows at one sealed corner. it differs from the quark danish, which is a square envelope with white quark showing in the middle. it is sold loose by the each, shown as a single whole turnover.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Apfeltasche|Apfeltaschen|chausson aux pommes|chaussons aux pommes|folhado de maçã|folhados de maçã|fagottino alle mele|fagottini alle mele|rożek z jabłkiem|rożki z jabłkiem",
+        "family": "",
+        "words": "",
+        "needs": "apfeltasche|apfeltaschen|chausson|chaussons|danish|empanada|empanadas|fagottini|fagottino|folhado|folhados|hojaldre|pastry|turnover|turnovers"
+      }
     },
     {
       "id": "apples_antares",
@@ -2395,6 +2422,33 @@
         "es": "Elote dulce baby"
       },
       "concept": "corn_sweet_baby"
+    },
+    {
+      "id": "baguette",
+      "plu": "",
+      "name": "Baguette",
+      "category": "other",
+      "aliases": [
+        "Baguettes",
+        "French bread",
+        "French baguette",
+        "White baguette",
+        "Wheat baguette",
+        "French stick",
+        "Barra de pan",
+        "Pan baguette"
+      ],
+      "image": "baguette.png",
+      "desc": "a baguette (weizenbaguette) is the long thin french-style wheat loaf, about 55 cm long and 6 cm wide with rounded ends. the crust is thin, crisp and smooth, an even shiny golden brown, with five or six neat diagonal slashes along the top that open into lighter cream-gold ridges. it has no flour dusting, no seeds and no twist, unlike the floury stone-oven baguette. it is sold by the each, shown as a single whole loaf lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Baguette|Baguettes|Weizenbaguette|Stangenweißbrot|Pariser Weißbrot|baguete|baguetes|baghetta|bagietka|bagietki",
+        "family": "",
+        "words": "",
+        "needs": "bagietka|bagietki|baguete|baguetes|baguette|baguettes|pan|stangenweissbrot|weissbrot|weizenbaguette"
+      }
     },
     {
       "id": "baladi_cucumber",
@@ -4317,6 +4371,33 @@
       "concept": "breadfruit"
     },
     {
+      "id": "brioche_knot",
+      "plu": "",
+      "name": "Brioche Knot",
+      "category": "other",
+      "aliases": [
+        "Brioche knots",
+        "Brioche bun",
+        "Knotted brioche",
+        "Brioche roll",
+        "Sweet knot bun",
+        "Brioche anudado",
+        "Nudo de brioche",
+        "Bollo de brioche"
+      ],
+      "image": "brioche_knot.png",
+      "desc": "a brioche knot is a soft sweet yeast bun about 10 cm across and 6 cm tall, made from a rope of rich brioche dough tied into a round knot, with two or three smooth plump strands looping over each other and the end tucked in on top. the surface is very glossy from egg wash, a deep shiny amber to golden brown, darker on the high points, with pale soft creases between the strands. it has no seeds, no salt and no icing. it is sold loose by the each, shown as a single whole knot.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Brioche Knoten|Briocheknoten|Brioche-Knoten",
+        "family": "Brioche|Brioches|pan brioche|brioszka|brioszki",
+        "words": "",
+        "needs": "bollo|brioche|briocheknoten|brioches|bun|pan|roll"
+      }
+    },
+    {
       "id": "broccoli",
       "plu": "4060",
       "name": "Broccoli",
@@ -4540,6 +4621,66 @@
         "es": "Plátano Burro"
       },
       "concept": "bananas_burro"
+    },
+    {
+      "id": "croissant_butter",
+      "plu": "",
+      "name": "Butter Croissant",
+      "category": "other",
+      "aliases": [
+        "Butter croissants",
+        "Croissant",
+        "Croissants",
+        "Plain croissant",
+        "All-butter croissant",
+        "Cruasán",
+        "Cruasanes",
+        "Cuernito",
+        "Cuernitos",
+        "Cruasán de mantequilla",
+        "Croissant de mantequilla"
+      ],
+      "image": "croissant_butter.png",
+      "desc": "a butter croissant (buttercroissant) is the plain croissant of the bakery case: one plump crescent about 15 cm long, rolled into about seven segments that taper toward the curved ends. the flaky layers are glossy golden amber, a little darker on the ridges, with thin crisp layers showing along the sides. it has no filling, no cheese, no nuts and no topping. it is sold loose by the each, shown as a single whole croissant.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Buttercroissant|Buttercroissants|Butter-Croissant|Butterhörnchen|croissant au beurre|croissants au beurre|croissant pur beurre|croissant de manteiga|croissants de manteiga|cornetto vuoto|cornetti vuoti|croissant al burro|croissant maślany|rogalik maślany",
+        "family": "Croissant|Croissants|Hörnchen|cornetto|cornetti|croissanty|kruasant",
+        "words": "",
+        "needs": "buttercroissant|buttercroissants|butterhornchen|cornetti|cornetto|croissant|croissants|croissanty|hornchen|rogalik"
+      }
+    },
+    {
+      "id": "pretzel_butter_corner",
+      "plu": "",
+      "name": "Butter Pretzel Croissant Triangle",
+      "category": "other",
+      "aliases": [
+        "Butter pretzel croissant triangles",
+        "Pretzel croissant",
+        "Butter pretzel corner",
+        "Butter pretzel pastry",
+        "Pretzel triangle",
+        "Lye croissant triangle",
+        "Pretzel croissant triangle",
+        "Cruasán de pretzel",
+        "Croissant de pretzel",
+        "Triángulo de pretzel",
+        "Pretzel de mantequilla"
+      ],
+      "image": "pretzel_butter_corner.png",
+      "desc": "a butter pretzel croissant triangle is the german laugen-butter-ecke: one flat triangular pastry about 12 cm on each side and 5 cm tall, made of flaky butter croissant dough brushed with pretzel lye. the top is a smooth, glossy, deep reddish-brown pretzel crust, and the cut sides show many thin golden puffed layers like a croissant. it carries at most a few coarse salt crystals, with no seeds and no cheese, and it is the only flaky triangle with a lye-brown top. it is sold loose by the each, shown as a single whole pastry.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugen-Butter-Ecke|Laugenecke|Laugenecken|Laugencroissant|Laugencroissants|croissant bretzel|croissant-bretzel",
+        "family": "Croissant|Croissants|Hörnchen|cornetto|cornetti|croissanty|kruasant",
+        "words": "",
+        "needs": "bretzel|cornetti|cornetto|croissant|croissants|croissanty|hornchen|laugen|laugencroissant|laugencroissants|laugenecke|laugenecken|pastry|pretzel"
+      }
     },
     {
       "id": "buttercup_squash",
@@ -6094,6 +6235,33 @@
       "concept": "chayote_squash"
     },
     {
+      "id": "pretzel_stick_cheese",
+      "plu": "",
+      "name": "Cheese Pretzel Stick",
+      "category": "other",
+      "aliases": [
+        "Cheese pretzel sticks",
+        "Pretzel stick with cheese",
+        "Cheese lye stick",
+        "Cheesy pretzel stick",
+        "Cheese pretzel baguette",
+        "Palito de pretzel con queso",
+        "Pretzel con queso",
+        "Barra de pretzel con queso"
+      ],
+      "image": "pretzel_stick_cheese.png",
+      "desc": "a cheese pretzel stick is the german lye stick topped with baked cheese (laugenstange mit käse): one straight stick about 22 cm long and 4.5 cm thick with a glossy dark chestnut-brown lye crust and three diagonal slashes showing pale crumb. a thick strip of grated gouda is melted and baked along the whole top, golden yellow with toasted light-brown edges and lacy bits running down the sides. it has only a few salt crystals and no seeds. it is sold loose by the each, shown as a single whole stick lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugenstange mit Käse|Käselaugenstange|Käselaugenstangen|Käse-Laugenstange|bâtonnet bretzel au fromage|bâtonnets bretzel au fromage",
+        "family": "Laugenstange|Laugenstangen|Brezelstange|Brezelstangen|Brezel|Brezeln|Breze|Brezen|Brezn|Laugenbrezel|Laugenbrezeln|Laugenbreze|bâtonnet bretzel|bâtonnets bretzel|baguette bretzel|bretzel|bretzels|pretzel|pretzels|precel|precle",
+        "words": "",
+        "needs": "baguette|bretzel|bretzels|breze|brezel|brezeln|brezelstange|brezelstangen|brezen|brezn|kaeselaugenstange|kaeselaugenstangen|kaselaugenstange|kaselaugenstangen|laugenbreze|laugenbrezel|laugenbrezeln|laugenstange|laugenstangen|precel|precle|pretzel|pretzels"
+      }
+    },
+    {
       "id": "cherimoya",
       "plu": "4257",
       "name": "Cherimoya",
@@ -6579,6 +6747,32 @@
         "es": "Choy sum baby"
       },
       "concept": "choy_sum_baby"
+    },
+    {
+      "id": "ciabatta",
+      "plu": "",
+      "name": "Ciabatta",
+      "category": "other",
+      "aliases": [
+        "Ciabattas",
+        "Ciabatta bread",
+        "Ciabatta loaf",
+        "Italian slipper bread",
+        "Chapata",
+        "Chapatas",
+        "Pan chapata"
+      ],
+      "image": "ciabatta.png",
+      "desc": "a ciabatta is the italian-style white loaf of the bake-off counter: one flat, wide, rectangular slipper-shaped loaf about 25 cm long, 12 cm wide and only 5 cm tall, with rounded corners and slightly uneven edges. the crust is thin, pale golden and matte with a heavy dusting of white flour and gentle irregular dimples. it has no slashes, no seeds and no shine, unlike the long thin baguettes. it is sold by the each, shown as a single whole loaf.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Ciabatta|Ciabattas|ciabatte|ciabatty",
+        "family": "",
+        "words": "",
+        "needs": "ciabatta|ciabattas|pan"
+      }
     },
     {
       "id": "cilantro",
@@ -13362,6 +13556,33 @@
       "concept": "habanero_pepper"
     },
     {
+      "id": "croissant_ham_cheese",
+      "plu": "",
+      "name": "Ham and Cheese Croissant",
+      "category": "other",
+      "aliases": [
+        "Ham and cheese croissants",
+        "Ham cheese croissant",
+        "Ham & cheese croissant",
+        "Cheese croissant",
+        "Croissant with ham",
+        "Cruasán de jamón y queso",
+        "Croissant de jamón y queso",
+        "Cuernito de jamón y queso"
+      ],
+      "image": "croissant_ham_cheese.png",
+      "desc": "a ham and cheese croissant (käse-schinken-croissant) is one curved crescent croissant about 16 cm long with a flaky, layered, golden brown body whose top is covered with grated cheese baked into a lacy, bubbly crust of golden yellow and toasted brown spots running over the ridges. a little pink cooked ham peeks out of the rolled ends. it has no chopped nuts, no chocolate and no sugar. it is sold loose by the each, shown as a single whole croissant.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Käse-Schinken-Croissant|Schinken-Käse-Croissant|Schinkencroissant|croissant jambon fromage|croissant au jambon|croissant misto|croissant de fiambre e queijo|cornetto prosciutto e formaggio|croissant z szynką i serem",
+        "family": "Croissant|Croissants|Hörnchen|cornetto|cornetti|croissanty|kruasant",
+        "words": "",
+        "needs": "cornetti|cornetto|croissant|croissants|croissanty|hornchen|schinkencroissant"
+      }
+    },
+    {
       "id": "hami_melon",
       "plu": "3623",
       "name": "Hami Melon",
@@ -13465,6 +13686,33 @@
         "es": "Plátano macho hawaiano"
       },
       "concept": "hawaiian_plantain"
+    },
+    {
+      "id": "croissant_nut_nougat",
+      "plu": "",
+      "name": "Hazelnut Chocolate Croissant",
+      "category": "other",
+      "aliases": [
+        "Hazelnut chocolate croissants",
+        "Chocolate hazelnut croissant",
+        "Nut nougat croissant",
+        "Nougat croissant",
+        "Hazelnut croissant",
+        "Cruasán de chocolate y avellana",
+        "Croissant de chocolate y avellana",
+        "Cruasán de avellana"
+      ],
+      "image": "croissant_nut_nougat.png",
+      "desc": "a hazelnut chocolate croissant (nuss-nougat-croissant) is one plump curved croissant about 16 cm long, flaky, layered and shiny golden brown, filled with chocolate hazelnut cream that shows as a dark brown streak at the rolled ends. the top ridge is sprinkled with chopped roasted hazelnut pieces, light brown and craggy. it has no cheese, no ham and no powdered sugar. it is sold loose by the each, shown as a single whole croissant.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Nuss-Nougat-Croissant|Nuss-Nougat-Croissants|Nussnougatcroissant|Nougatcroissant|Nougat-Croissant|cornetto alla nocciola|cornetto alla crema di nocciole",
+        "family": "Croissant|Croissants|Hörnchen|cornetto|cornetti|croissanty|kruasant",
+        "words": "",
+        "needs": "cornetti|cornetto|croissant|croissants|croissanty|hornchen|nougatcroissant|nussnougatcroissant"
+      }
     },
     {
       "id": "heirloom_tomatoes",
@@ -14604,6 +14852,37 @@
       }
     },
     {
+      "id": "berliner",
+      "plu": "",
+      "name": "Jelly Donut",
+      "category": "other",
+      "aliases": [
+        "Jelly donuts",
+        "Jelly doughnut",
+        "Jelly doughnuts",
+        "Berliner",
+        "Berliner doughnut",
+        "Filled donut",
+        "Jam donut",
+        "Jam doughnut",
+        "Berlinesa",
+        "Bola de Berlín",
+        "Dona rellena",
+        "Donas rellenas"
+      ],
+      "image": "berliner.png",
+      "desc": "a jelly donut is the german berliner (berliner pfannkuchen, krapfen): a round filled yeast doughnut with no hole, about 9 cm across and 5 cm tall, its domed top and bottom fried golden brown and the top evenly dusted with fine white sugar. a pale cream-white band runs around its middle where it floated in the fat, and the jam filling stays inside, out of sight. it has no glaze, no chocolate and no hole. it is sold loose by the each, shown as a single whole doughnut from the side and slightly above.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Berliner|Berliner Pfannkuchen|Pfannkuchen|Krapfen|Kreppel|Berliner Ballen|boule de Berlin|boules de Berlin|bola de Berlim|bolas de Berlim|sonho|sonhos|bombolone|bomboloni|pączek|pączki",
+        "family": "Donut|Donuts|Doughnut|Doughnuts|beigne|beignes|rosquinha|rosquinhas|dónute|dónutes|ciambella|ciambelle|donuty",
+        "words": "",
+        "needs": "berliner|dona|donas|donut|donute|donutes|donuts|donuty|doughnut|doughnuts|krapfen"
+      }
+    },
+    {
       "id": "jicama",
       "plu": "4626",
       "name": "Jicama",
@@ -15069,6 +15348,32 @@
         "es": "Calabaza kabocha"
       },
       "concept": "kabocha_squash"
+    },
+    {
+      "id": "kaiser_roll",
+      "plu": "",
+      "name": "Kaiser Roll",
+      "category": "other",
+      "aliases": [
+        "Kaiser rolls",
+        "Kaiser bun",
+        "Hard roll",
+        "Vienna roll",
+        "Pan kaiser",
+        "Panecillo kaiser",
+        "Bollo kaiser"
+      ],
+      "image": "kaiser_roll.png",
+      "desc": "a kaiser roll is the round crusty white roll about 9 cm across stamped on top with five curved segments that swirl out from the center in a pinwheel. the crust is thin, crisp and matte golden brown, a little darker on the ridges of the stamp, with a faint dusting of flour. it has no seeds, no shine and no single lengthwise cut, which sets it apart from the oval split-top roll. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kaiserbrötchen|Kaisersemmel|Kaisersemmeln|Kaiserweck|Sternsemmel|vianinha|vianinhas|kaiser|kajzerka|kajzerki|bułka kajzerka",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|kaiserbroetchen|kaiserbrotchen|kaisersemmel|kaisersemmeln|kaiserweck|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|sternsemmel|weck|wecken|weckle"
+      }
     },
     {
       "id": "kale_sprouts",
@@ -18102,6 +18407,34 @@
         "names": "Muffin|Muffins|queque|queques|muffinka|muffinki",
         "family": "",
         "words": ""
+      }
+    },
+    {
+      "id": "roll_multi_seed",
+      "plu": "",
+      "name": "Multi-Seed Roll",
+      "category": "other",
+      "aliases": [
+        "Multi-seed rolls",
+        "Multi seed roll",
+        "Multigrain roll",
+        "Seeded roll",
+        "Mixed seed roll",
+        "World champion roll",
+        "Panecillo multicereal",
+        "Panecillo de semillas",
+        "Pan de semillas"
+      ],
+      "image": "roll_multi_seed.png",
+      "desc": "a multi-seed roll is the german weltmeister roll (weltmeisterbrötchen): an oblong rectangular multigrain roll with rounded corners, about 12 cm long, 8 cm wide and 5 cm tall. the whole top is densely coated in a mix of tiny blue-black poppy seeds and pale cream sesame seeds, a salt-and-pepper speckle over a deep golden-brown crust, and sunflower kernels and oat flakes show in the sides. it has no pumpkin seeds and no flour dusting. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weltmeisterbrötchen|Weltmeister-Brötchen|Mehrkornbrötchen|Körnerbrötchen|petit pain multigrain|petit pain aux céréales|pãozinho multicereais|pãozinho multigrãos|panino ai cereali|panino multicereali|bułka wieloziarnista|bułki wieloziarniste",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "broetchen|brotchen|bulka|bulki|koernerbroetchen|kornerbrotchen|mehrkornbroetchen|mehrkornbrotchen|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|weck|wecken|weckle|weltmeisterbroetchen|weltmeisterbrotchen"
       }
     },
     {
@@ -22667,6 +23000,32 @@
       }
     },
     {
+      "id": "roll_poppy_seed",
+      "plu": "",
+      "name": "Poppy Seed Roll",
+      "category": "other",
+      "aliases": [
+        "Poppy seed rolls",
+        "Poppyseed roll",
+        "Poppy seed bun",
+        "Poppy roll",
+        "Panecillo de amapola",
+        "Pan con semillas de amapola",
+        "Bollo de amapola"
+      ],
+      "image": "roll_poppy_seed.png",
+      "desc": "a poppy seed roll (mohnbrötchen) is an oval crusty white wheat roll about 11 cm long whose whole top is densely coated in tiny blue-black poppy seeds, so it looks almost charcoal gray-black, with one lengthwise cut down the middle that opens into a paler golden ridge free of seeds. the bottom and sides show a thin golden brown crust. it carries only poppy seeds, with no sesame and no sunflower seeds. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Mohnbrötchen|Mohnsemmel|Mohnsemmeln|petit pain au pavot|petits pains au pavot|panino ai semi di papavero|bułka z makiem|bułki z makiem",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|mohnbroetchen|mohnbrotchen|mohnsemmel|mohnsemmeln|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|weck|wecken|weckle"
+      }
+    },
+    {
       "id": "portabella_mushrooms",
       "plu": "4650",
       "name": "Portabella Mushrooms",
@@ -22884,6 +23243,33 @@
       "concept": "president_plums_all_sizes"
     },
     {
+      "id": "pretzel_stick",
+      "plu": "",
+      "name": "Pretzel Stick",
+      "category": "other",
+      "aliases": [
+        "Pretzel sticks",
+        "Lye stick",
+        "Pretzel baguette",
+        "Soft pretzel stick",
+        "Salted pretzel stick",
+        "Palito de pretzel",
+        "Barra de pretzel",
+        "Pretzel alargado"
+      ],
+      "image": "pretzel_stick.png",
+      "desc": "a pretzel stick is the german lye stick (laugenstange): one straight bread stick about 22 cm long and 4 cm thick with rounded ends. the crust is a glossy deep chestnut brown from the lye bath, three or four short diagonal slashes on top open into pale cream-white crumb, and coarse white pretzel salt crystals are scattered across the top. it has no cheese and no seeds, and it is straight, not a knotted pretzel or a triangle. it is sold loose by the each, shown as a single whole stick lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugenstange|Laugenstangen|Brezelstange|Brezelstangen|bâtonnet bretzel|bâtonnets bretzel|baguette bretzel",
+        "family": "Brezel|Brezeln|Breze|Brezen|Brezn|Laugenbrezel|Laugenbrezeln|Laugenbreze|bretzel|bretzels|pretzel|pretzels|precel|precle",
+        "words": "",
+        "needs": "baguette|bretzel|bretzels|breze|brezel|brezeln|brezelstange|brezelstangen|brezen|brezn|laugenbreze|laugenbrezel|laugenbrezeln|laugenstange|laugenstangen|precel|precle|pretzel|pretzels"
+      }
+    },
+    {
       "id": "prince_melon",
       "plu": "4335",
       "name": "Prince Melon",
@@ -23044,6 +23430,32 @@
         "es": "Calabaza mini"
       },
       "concept": "pumpkin_mini"
+    },
+    {
+      "id": "roll_pumpkin_seed",
+      "plu": "",
+      "name": "Pumpkin Seed Roll",
+      "category": "other",
+      "aliases": [
+        "Pumpkin seed rolls",
+        "Pepita roll",
+        "Pumpkin seed bun",
+        "Pumpkinseed roll",
+        "Panecillo de pepitas de calabaza",
+        "Pan con pepitas",
+        "Bollo de semillas de calabaza"
+      ],
+      "image": "roll_pumpkin_seed.png",
+      "desc": "a pumpkin seed roll (kürbiskernbrötchen) is a squarish domed wheat roll about 9 cm across and 6 cm tall whose top is covered with large flat oval pumpkin seeds, dark olive green to toasted brown, overlapping like scales. more green seed pieces show in the light brown, slightly grainy crust on the sides, with a light flour dusting at the base. it carries only pumpkin seeds, with no sunflower kernels, no sesame and no poppy. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Kürbiskernbrötchen|Kürbiskernsemmel|Kürbisbrötchen|petit pain aux graines de courge|panino ai semi di zucca|bułka z dynią|bułka z pestkami dyni",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|kuerbisbroetchen|kuerbiskernbroetchen|kuerbiskernsemmel|kurbisbrotchen|kurbiskernbrotchen|kurbiskernsemmel|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|weck|wecken|weckle"
+      }
     },
     {
       "id": "pumpkin_vine",
@@ -23212,6 +23624,64 @@
         "es": "Pera QTee®"
       },
       "concept": "qtee_pears"
+    },
+    {
+      "id": "pastry_quark_pocket",
+      "plu": "",
+      "name": "Quark Danish",
+      "category": "other",
+      "aliases": [
+        "Quark danishes",
+        "Cheese danish",
+        "Sweet cheese pastry",
+        "Quark pastry",
+        "Curd cheese danish",
+        "Danés de queso",
+        "Pan danés de queso",
+        "Hojaldre de queso"
+      ],
+      "image": "pastry_quark_pocket.png",
+      "desc": "a quark danish (quarktasche) is a square danish-style pastry about 11 cm across made of flaky golden butter pastry, its four corners folded in toward the center like an envelope, leaving a small opening where the white-cream sweet quark filling bulges out. the top is shiny with a thin apricot glaze, golden brown with paler layered edges. it has no apple, no icing stripes and no nuts. it is sold loose by the each, shown as a single whole pastry.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Quarktasche|Quarktaschen|Quarkplunder|Topfentasche|Topfengolatsche",
+        "family": "",
+        "words": "",
+        "needs": "danish|danishes|hojaldre|pan|pastry|quarkplunder|quarktasche|quarktaschen|topfentasche"
+      }
+    },
+    {
+      "id": "quark_balls",
+      "plu": "",
+      "name": "Quark Donut Ball",
+      "category": "other",
+      "aliases": [
+        "Quark donut balls",
+        "Quark ball",
+        "Quark balls",
+        "Donut hole",
+        "Donut holes",
+        "Sugar donut ball",
+        "Cheese donut ball",
+        "German donut hole",
+        "Bolita de quark",
+        "Bolita de dona",
+        "Buñuelo de requesón",
+        "Buñuelos de requesón"
+      ],
+      "image": "quark_balls.png",
+      "desc": "a quark donut ball (quarkbällchen) is a small round fried doughnut ball about 4.5 cm across, an almost perfect sphere with a slightly uneven medium golden-brown surface, completely rolled in coarse sparkling white granulated sugar that clings all over. it has no visible filling, no hole, no glaze and no pale middle band, and it is about half the size of a berliner. it is sold loose by the each, shown as a single whole ball.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Quarkbällchen|Quarkballen",
+        "family": "Donut|Donuts|Doughnut|Doughnuts|beigne|beignes|rosquinha|rosquinhas|dónute|dónutes|ciambella|ciambelle|donuty",
+        "words": "",
+        "needs": "dona|donut|donute|donutes|donuts|donuty|doughnut|doughnuts|quarkbaellchen|quarkballchen"
+      }
     },
     {
       "id": "queen_pineapple",
@@ -25311,6 +25781,33 @@
       "concept": "rutabaga"
     },
     {
+      "id": "roll_rye",
+      "plu": "",
+      "name": "Rye Roll",
+      "category": "other",
+      "aliases": [
+        "Rye rolls",
+        "Rye bun",
+        "Rye bread roll",
+        "Dark rye roll",
+        "Sourdough rye roll",
+        "Panecillo de centeno",
+        "Pan de centeno",
+        "Bollo de centeno"
+      ],
+      "image": "roll_rye.png",
+      "desc": "a rye roll (roggenbrötchen) is a squarish, slightly flattened roll about 9 cm across and 5 cm tall, the darkest of the bakery rolls. the crust is a dark reddish brown, matte and dull, under a thin layer of white rye flour that has cracked into an irregular network of fine fissures across the top. it has no cuts, no seeds and no shine. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Roggenbrötchen|Roggensemmel|Roggenweckle|petit pain de seigle|petit pain au seigle|pãozinho de centeio|panino di segale|bułka żytnia|bułki żytnie",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roggenbroetchen|roggenbrotchen|roggensemmel|roggenweckle|roll|rolls|rundstuck|rundstucke|semmel|semmeln|weck|wecken|weckle"
+      }
+    },
+    {
       "id": "sable_seedless_grapes",
       "plu": "3469",
       "name": "Sable Seedless® Grapes",
@@ -25614,6 +26111,35 @@
       "concept": "satsuma_tangerine_clauselina"
     },
     {
+      "id": "sausage_roll",
+      "plu": "",
+      "name": "Sausage Roll",
+      "category": "other",
+      "aliases": [
+        "Sausage rolls",
+        "Pigs in a blanket",
+        "Pig in a blanket",
+        "Hot dog pastry",
+        "Sausage in pastry",
+        "Sausage croissant",
+        "Salchicha envuelta",
+        "Salchichas envueltas",
+        "Salchicha en hojaldre",
+        "Perrito en hojaldre"
+      ],
+      "image": "sausage_roll.png",
+      "desc": "a sausage roll is the german würstchendog: a whole pink-brown frankfurter wrapped in a spiral of flaky golden laminated pastry, a log about 12 cm long and 4 cm thick, the strip winding around it in overlapping diagonal bands with paler layered edges. one end of the sausage peeks out, reddish brown and glossy, and a little ketchup stays inside, out of sight. it has no seeds, no cheese and no lye crust. it is sold loose by the each, shown as a single whole roll lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Würstchendog|Würstchen im Schlafrock|Würstchen im Teigmantel|feuilleté de saucisse|feuilleté saucisse|enroladinho de salsicha|enroladinhos de salsicha|folhado de salsicha|würstel in crosta|wurstel in crosta|parówka w cieście|parówki w cieście",
+        "family": "",
+        "words": "",
+        "needs": "croissant|folhado|hojaldre|pastry|roll|rolls|wuerstchen|wuerstchendog|wurstchen|wurstchendog|wurstel"
+      }
+    },
+    {
       "id": "savory",
       "plu": "3139",
       "name": "Savory",
@@ -25854,6 +26380,60 @@
       "concept": "seckel_pears"
     },
     {
+      "id": "pretzel_stick_seeded",
+      "plu": "",
+      "name": "Seeded Pretzel Stick",
+      "category": "other",
+      "aliases": [
+        "Seeded pretzel sticks",
+        "Multigrain pretzel stick",
+        "Pretzel stick with seeds",
+        "Seed pretzel stick",
+        "Grain pretzel stick",
+        "Palito de pretzel con semillas",
+        "Pretzel con semillas",
+        "Barra de pretzel multigrano"
+      ],
+      "image": "pretzel_stick_seeded.png",
+      "desc": "a seeded pretzel stick is the german lye stick with a seed crust (laugenstange mit saaten): one straight stick about 22 cm long and 4.5 cm thick with a glossy dark chestnut-brown lye crust and short diagonal slashes showing pale crumb. the whole top is densely covered in a toasted seed mix of flat green-gray pumpkin seeds, pale gray sunflower kernels, cream sesame and small dark brown flaxseeds. it has no cheese and no coarse salt. it is sold loose by the each, shown as a single whole stick lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Laugenstange mit Saaten|Saatenlaugenstange|Körnerlaugenstange",
+        "family": "Laugenstange|Laugenstangen|Brezelstange|Brezelstangen|Brezel|Brezeln|Breze|Brezen|Brezn|Laugenbrezel|Laugenbrezeln|Laugenbreze|bâtonnet bretzel|bâtonnets bretzel|baguette bretzel|bretzel|bretzels|pretzel|pretzels|precel|precle",
+        "words": "",
+        "needs": "baguette|bretzel|bretzels|breze|brezel|brezeln|brezelstange|brezelstangen|brezen|brezn|koernerlaugenstange|kornerlaugenstange|laugenbreze|laugenbrezel|laugenbrezeln|laugenstange|laugenstangen|precel|precle|pretzel|pretzels|saatenlaugenstange"
+      }
+    },
+    {
+      "id": "roll_spelt_seeded",
+      "plu": "",
+      "name": "Seeded Spelt Roll",
+      "category": "other",
+      "aliases": [
+        "Seeded spelt rolls",
+        "Spelt roll",
+        "Spelt bun",
+        "Spelt seed roll",
+        "Ancient grain roll",
+        "Panecillo de espelta",
+        "Pan de espelta con semillas",
+        "Bollo de espelta"
+      ],
+      "image": "roll_spelt_seeded.png",
+      "desc": "a seeded spelt roll (dinkelbrötchen mit saaten) is an oval roll about 13 cm long and 7 cm wide, tapering slightly at the ends, with a rustic, matte, medium brown crust lightly dusted with white flour that has cracked into fine lines, and one long shallow cut along the top. seeds are scattered sparsely in and on the crust rather than coating it: green pumpkin seed pieces, golden-brown flaxseeds and a few sunflower kernels. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Dinkelbrötchen|Dinkelbrötchen mit Saaten|Dinkelsemmel|petit pain à l'épeautre|petits pains à l'épeautre|pãozinho de espelta|panino al farro|panini al farro|bułka orkiszowa|bułki orkiszowe",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|dinkelbroetchen|dinkelbrotchen|dinkelsemmel|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|weck|wecken|weckle"
+      }
+    },
+    {
       "id": "seedless_lemons",
       "plu": "3617",
       "name": "Seedless Lemons",
@@ -25904,6 +26484,33 @@
       },
       "common": true,
       "concept": "serrano_pepper"
+    },
+    {
+      "id": "roll_sesame",
+      "plu": "",
+      "name": "Sesame Roll",
+      "category": "other",
+      "aliases": [
+        "Sesame rolls",
+        "Sesame seed roll",
+        "Sesame bun",
+        "Sesame bread roll",
+        "Seeded white roll",
+        "Panecillo de sésamo",
+        "Panecillo de ajonjolí",
+        "Bollo de sésamo"
+      ],
+      "image": "roll_sesame.png",
+      "desc": "a sesame roll (sesambrötchen) is a round-to-oval crusty white wheat roll about 10 cm across whose whole top is evenly and thickly coated in hulled cream-white sesame seeds, lightly toasted to a pale gold, so it looks speckled cream and tan. where the crust shows at the sides it is thin, crisp and golden brown. it carries only sesame, with no black poppy seeds and no sunflower or pumpkin seeds. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Sesambrötchen|Sesamsemmel|Sesamsemmeln|petit pain au sésame|petits pains au sésame|pãozinho com sésamo|pãozinho com gergelim|panino al sesamo|panini al sesamo|bułka z sezamem|bułki z sezamem",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|paezinhos|pain|pains|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|sesambroetchen|sesambrotchen|sesamsemmel|sesamsemmeln|weck|wecken|weckle"
+      }
     },
     {
       "id": "shallots",
@@ -26113,6 +26720,34 @@
       "concept": "skylar_rae_cherries"
     },
     {
+      "id": "pizza_snack",
+      "plu": "",
+      "name": "Snack Pizza",
+      "category": "other",
+      "aliases": [
+        "Snack pizzas",
+        "Mini pizza",
+        "Personal pizza",
+        "Pizza Napoli",
+        "Small pizza",
+        "Bakery pizza",
+        "Pizza individual",
+        "Pizza napolitana",
+        "Minipizza"
+      ],
+      "image": "pizza_snack.png",
+      "desc": "a snack pizza is the small round single-serving pizza of the bake-off counter, about 13 cm across and flat, with a thin base and a narrow, low golden rim. the top is covered almost to the rim in melted pale mozzarella with golden-brown baked spots, small red pieces of diced tomato scattered across it, and small green flecks of basil. it carries no olives, capers, salami, ham or mushrooms. it is much smaller than a family pizza and is sold whole and uncut, loose by the each, shown as a single pizza seen from above.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Pizzasnack|Pizza-Snack|Minipizza|Pizza Napoli|mini pizza|mini pizzas|pizzetta|pizzette|pizzerka|pizzerki",
+        "family": "Pizza|Pizzas|pizze",
+        "words": "",
+        "needs": "minipizza|pizza|pizzas|pizzasnack|pizzerka|pizzerki|pizzetta|pizzette"
+      }
+    },
+    {
       "id": "snapdragon_apple",
       "plu": "3442",
       "name": "SnapDragon Apple",
@@ -26162,6 +26797,35 @@
         "es": "Chícharo chino"
       },
       "concept": "snow_peas"
+    },
+    {
+      "id": "pretzel_soft",
+      "plu": "",
+      "name": "Soft Pretzel",
+      "category": "other",
+      "aliases": [
+        "Soft pretzels",
+        "Pretzel",
+        "Pretzels",
+        "Bavarian pretzel",
+        "German pretzel",
+        "Lye pretzel",
+        "Salted pretzel",
+        "Pretzel suave",
+        "Pretzel alemán",
+        "Pretzel bávaro"
+      ],
+      "image": "pretzel_soft.png",
+      "desc": "a soft pretzel is the german lye pretzel (laugenbrezel): one knotted pretzel about 13 cm wide with a thick, plump belly along the bottom and thin arms that cross over each other and loop back to it. the crust is a glossy deep mahogany brown from the lye bath, a pale cream split opens along the thick belly, and coarse white pretzel salt is scattered over the top. it has no cheese, no seeds and no butter filling. it is sold loose by the each, shown as a single whole pretzel.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Brezel|Brezeln|Breze|Brezen|Brezn|Laugenbrezel|Laugenbrezeln|Laugenbreze|bretzel|bretzels|pretzel|pretzels|precel|precle",
+        "family": "",
+        "words": "",
+        "needs": "bretzel|bretzels|breze|brezel|brezeln|brezen|brezn|laugenbreze|laugenbrezel|laugenbrezeln|precel|precle|pretzel|pretzels"
+      }
     },
     {
       "id": "sonya_apples_large",
@@ -26569,6 +27233,35 @@
       }
     },
     {
+      "id": "roll_split_top",
+      "plu": "",
+      "name": "Split-Top Roll",
+      "category": "other",
+      "aliases": [
+        "Split top roll",
+        "Split-top rolls",
+        "White bread roll",
+        "Wheat roll",
+        "German roll",
+        "German bread roll",
+        "Crusty white roll",
+        "Panecillo",
+        "Panecillo de trigo",
+        "Bollo de pan"
+      ],
+      "image": "roll_split_top.png",
+      "desc": "a split-top roll is the german wheat roll (schnittbrötchen, schrippe): one oval crusty white roll about 11 cm long and 7 cm wide with one deep cut down the middle that has burst open into a raised, rough-edged ridge, paler golden-cream than the rest. the crust is thin, crisp and slightly shiny, an even golden brown with fine blistering. it has no flour dusting, no seeds and no star stamp. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Schnittbrötchen|Schrippe|Schrippen|Weizenbrötchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|schnittbroetchen|schnittbrotchen|schrippe|schrippen|semmel|semmeln|weck|wecken|weckle|weizenbroetchen|weizenbrotchen"
+      }
+    },
+    {
       "id": "spring_cabbage",
       "plu": "3051",
       "name": "Spring Cabbage",
@@ -26792,6 +27485,63 @@
       "concept": "stayman_apples",
       "dims": {
         "size": "S"
+      }
+    },
+    {
+      "id": "baguette_stone_oven",
+      "plu": "",
+      "name": "Stone-Oven Baguette",
+      "category": "other",
+      "aliases": [
+        "Stone oven baguette",
+        "Stone-oven baguettes",
+        "Stone baked baguette",
+        "Rustic baguette",
+        "Artisan baguette",
+        "Country baguette",
+        "Baguette rústica",
+        "Baguette de horno de piedra",
+        "Barra rústica"
+      ],
+      "image": "baguette_stone_oven.png",
+      "desc": "a stone-oven baguette (steinofenbaguette) is a long rustic loaf about 50 cm long and 7 cm wide, irregular and slightly twisted with pointed, uneven ends. the crust is thick, matte and darker, deep golden to chestnut brown with blistered dark spots, heavily dusted with white flour, and one long ragged burst seam runs along the top showing open airy crumb. it has no neat row of cuts and no seeds. it is sold by the each, shown as a single whole loaf lying diagonally.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Steinofenbaguette|Steinofenbaguettes|Steinofen-Baguette",
+        "family": "Baguette|Baguettes|Weizenbaguette|Stangenweißbrot|Pariser Weißbrot|baguete|baguetes|baghetta|bagietka|bagietki",
+        "words": "",
+        "needs": "bagietka|bagietki|baguete|baguetes|baguette|baguettes|stangenweissbrot|steinofenbaguette|steinofenbaguettes|weissbrot|weizenbaguette"
+      }
+    },
+    {
+      "id": "roll_stone_oven",
+      "plu": "",
+      "name": "Stone-Oven Roll",
+      "category": "other",
+      "aliases": [
+        "Stone oven roll",
+        "Stone-oven rolls",
+        "Stone-baked roll",
+        "Stone baked roll",
+        "Rustic roll",
+        "Artisan roll",
+        "Crusty rustic roll",
+        "Panecillo de horno de piedra",
+        "Panecillo rústico",
+        "Pan rústico"
+      ],
+      "image": "roll_stone_oven.png",
+      "desc": "a stone-oven roll (steinofenbrötchen) is a rustic squarish wheat roll about 10 cm long, 8 cm wide and 6 cm tall, irregular and slightly flattened like a small ciabatta. the crust is thick and matte, golden to medium brown, heavily dusted with white flour that has cracked into a fine crackle pattern, and an uneven open seam runs along the top where the dough folded and burst, showing coarse airy crumb. it has no seeds and no shine. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Steinofenbrötchen|Steinofensemmel",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "broetchen|brotchen|bulka|bulki|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|steinofenbroetchen|steinofenbrotchen|steinofensemmel|weck|wecken|weckle"
       }
     },
     {
@@ -27480,6 +28230,32 @@
         "es": "Alcachofa de Jerusalén"
       },
       "concept": "sunchokes"
+    },
+    {
+      "id": "roll_sunflower_seed",
+      "plu": "",
+      "name": "Sunflower Seed Roll",
+      "category": "other",
+      "aliases": [
+        "Sunflower seed rolls",
+        "Sunflower roll",
+        "Sunflower bun",
+        "Sunflower kernel roll",
+        "Panecillo de pipas de girasol",
+        "Pan con semillas de girasol",
+        "Bollo de girasol"
+      ],
+      "image": "roll_sunflower_seed.png",
+      "desc": "a sunflower seed roll (sonnenblumenkernbrötchen) is a round domed wheat roll about 10 cm across whose whole top is thickly crusted with small pale gray-tan sunflower kernels, toasted golden at the tips. the crust beneath is a medium brown, slightly grainy multigrain crust with kernels pressed into the sides. it carries only sunflower kernels, with no green pumpkin seeds, no black poppy and no sesame. it is sold loose by the each, shown as a single whole roll.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Sonnenblumenkernbrötchen|Sonnenblumenbrötchen|Sonnenblumensemmel|petit pain aux graines de tournesol|petit pain au tournesol|panino ai semi di girasole|bułka ze słonecznikiem|bułki ze słonecznikiem",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "needs": "bollo|broetchen|brotchen|bulka|bulki|bun|paezinhos|pain|pains|pan|panecillo|panini|panino|paozinho|roll|rolls|rundstuck|rundstucke|semmel|semmeln|sonnenblumenbroetchen|sonnenblumenbrotchen|sonnenblumenkernbroetchen|sonnenblumenkernbrotchen|sonnenblumensemmel|weck|wecken|weckle"
+      }
     },
     {
       "id": "sunflower_seeds",

@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1141,
+  "image_count": 1169,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -123,6 +123,12 @@
       "top": 0.033203125,
       "right": 0.98046875,
       "bottom": 0.962890625
+    },
+    "apple_turnover.png": {
+      "left": 0.0234375,
+      "top": 0.224609375,
+      "right": 0.978515625,
+      "bottom": 0.76171875
     },
     "apples_antares.png": {
       "left": 0.154296875,
@@ -544,6 +550,18 @@
       "right": 0.603515625,
       "bottom": 0.9296875
     },
+    "baguette.png": {
+      "left": 0.001953125,
+      "top": 0.263671875,
+      "right": 1.0,
+      "bottom": 0.734375
+    },
+    "baguette_stone_oven.png": {
+      "left": 0.005859375,
+      "top": 0.271484375,
+      "right": 0.994140625,
+      "bottom": 0.728515625
+    },
     "baladi_cucumber.png": {
       "left": 0.013671875,
       "top": 0.1796875,
@@ -802,6 +820,12 @@
       "right": 0.78515625,
       "bottom": 0.908203125
     },
+    "berliner.png": {
+      "left": 0.056640625,
+      "top": 0.17578125,
+      "right": 0.9375,
+      "bottom": 0.8203125
+    },
     "bertanne_golden_russet_apples.png": {
       "left": 0.2109375,
       "top": 0.119140625,
@@ -1005,6 +1029,12 @@
       "top": 0.041015625,
       "right": 0.830078125,
       "bottom": 0.923828125
+    },
+    "brioche_knot.png": {
+      "left": 0.01171875,
+      "top": 0.052734375,
+      "right": 0.98828125,
+      "bottom": 0.947265625
     },
     "broccoli.png": {
       "left": 0.142578125,
@@ -1510,6 +1540,12 @@
       "right": 0.71484375,
       "bottom": 0.892578125
     },
+    "ciabatta.png": {
+      "left": 0.005859375,
+      "top": 0.32421875,
+      "right": 0.9921875,
+      "bottom": 0.677734375
+    },
     "cilantro.png": {
       "left": 0.224609375,
       "top": 0.060546875,
@@ -1785,6 +1821,24 @@
       "top": 0.15625,
       "right": 0.8125,
       "bottom": 0.8359375
+    },
+    "croissant_butter.png": {
+      "left": 0.005859375,
+      "top": 0.26171875,
+      "right": 0.994140625,
+      "bottom": 0.720703125
+    },
+    "croissant_ham_cheese.png": {
+      "left": 0.00390625,
+      "top": 0.248046875,
+      "right": 0.99609375,
+      "bottom": 0.751953125
+    },
+    "croissant_nut_nougat.png": {
+      "left": 0.005859375,
+      "top": 0.2578125,
+      "right": 0.990234375,
+      "bottom": 0.734375
     },
     "crown_prince_squash.png": {
       "left": 0.09375,
@@ -3316,6 +3370,12 @@
       "right": 0.87890625,
       "bottom": 0.828125
     },
+    "kaiser_roll.png": {
+      "left": 0.021484375,
+      "top": 0.0546875,
+      "right": 0.96875,
+      "bottom": 0.966796875
+    },
     "kale_curly.png": {
       "left": 0.20703125,
       "top": 0.0,
@@ -4408,6 +4468,12 @@
       "right": 0.86328125,
       "bottom": 0.875
     },
+    "pastry_quark_pocket.png": {
+      "left": 0.013671875,
+      "top": 0.01953125,
+      "right": 0.984375,
+      "bottom": 0.974609375
+    },
     "paulared_apples_large.png": {
       "left": 0.16796875,
       "top": 0.15625,
@@ -4798,6 +4864,12 @@
       "right": 0.76953125,
       "bottom": 0.89453125
     },
+    "pizza_snack.png": {
+      "left": 0.0234375,
+      "top": 0.029296875,
+      "right": 0.966796875,
+      "bottom": 0.97265625
+    },
     "plantains.png": {
       "left": 0.044921875,
       "top": 0.2265625,
@@ -4972,6 +5044,36 @@
       "right": 0.787109375,
       "bottom": 0.865234375
     },
+    "pretzel_butter_corner.png": {
+      "left": 0.017578125,
+      "top": 0.17578125,
+      "right": 0.984375,
+      "bottom": 0.82421875
+    },
+    "pretzel_soft.png": {
+      "left": 0.015625,
+      "top": 0.078125,
+      "right": 0.982421875,
+      "bottom": 0.94140625
+    },
+    "pretzel_stick.png": {
+      "left": 0.009765625,
+      "top": 0.283203125,
+      "right": 0.990234375,
+      "bottom": 0.724609375
+    },
+    "pretzel_stick_cheese.png": {
+      "left": 0.005859375,
+      "top": 0.2578125,
+      "right": 0.994140625,
+      "bottom": 0.740234375
+    },
+    "pretzel_stick_seeded.png": {
+      "left": 0.005859375,
+      "top": 0.263671875,
+      "right": 0.994140625,
+      "bottom": 0.734375
+    },
     "prince_melon.png": {
       "left": 0.16796875,
       "top": 0.13671875,
@@ -5067,6 +5169,12 @@
       "top": 0.099609375,
       "right": 0.7578125,
       "bottom": 0.875
+    },
+    "quark_balls.png": {
+      "left": 0.0234375,
+      "top": 0.013671875,
+      "right": 0.9765625,
+      "bottom": 0.986328125
     },
     "queen_pineapple.png": {
       "left": 0.294921875,
@@ -5380,6 +5488,60 @@
       "right": 0.8046875,
       "bottom": 0.8359375
     },
+    "roll_multi_seed.png": {
+      "left": 0.01171875,
+      "top": 0.2109375,
+      "right": 0.9921875,
+      "bottom": 0.796875
+    },
+    "roll_poppy_seed.png": {
+      "left": 0.0078125,
+      "top": 0.220703125,
+      "right": 0.990234375,
+      "bottom": 0.77734375
+    },
+    "roll_pumpkin_seed.png": {
+      "left": 0.001953125,
+      "top": 0.046875,
+      "right": 0.99609375,
+      "bottom": 0.953125
+    },
+    "roll_rye.png": {
+      "left": 0.087890625,
+      "top": 0.171875,
+      "right": 0.912109375,
+      "bottom": 0.830078125
+    },
+    "roll_sesame.png": {
+      "left": 0.087890625,
+      "top": 0.16796875,
+      "right": 0.912109375,
+      "bottom": 0.833984375
+    },
+    "roll_spelt_seeded.png": {
+      "left": 0.04296875,
+      "top": 0.275390625,
+      "right": 0.95703125,
+      "bottom": 0.724609375
+    },
+    "roll_split_top.png": {
+      "left": 0.021484375,
+      "top": 0.177734375,
+      "right": 0.970703125,
+      "bottom": 0.822265625
+    },
+    "roll_stone_oven.png": {
+      "left": 0.017578125,
+      "top": 0.103515625,
+      "right": 0.98046875,
+      "bottom": 0.8984375
+    },
+    "roll_sunflower_seed.png": {
+      "left": 0.0078125,
+      "top": 0.05078125,
+      "right": 0.982421875,
+      "bottom": 0.94921875
+    },
     "roma_tomatoes.png": {
       "left": 0.255859375,
       "top": 0.056640625,
@@ -5577,6 +5739,12 @@
       "top": 0.197265625,
       "right": 0.861328125,
       "bottom": 0.833984375
+    },
+    "sausage_roll.png": {
+      "left": 0.0078125,
+      "top": 0.255859375,
+      "right": 0.9921875,
+      "bottom": 0.7421875
     },
     "savory.png": {
       "left": 0.228515625,
