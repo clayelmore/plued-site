@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies.",
+  "version": 7,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807).",
   "items": [
     {
       "id": "jocote",
@@ -602,6 +602,77 @@
       ],
       "desc": "Montreal bagels are hand-rolled, wood-fired bagels about 9 cm across, smaller, flatter, and denser than a puffy New York bagel, with a noticeably large center hole about a third of the bagel's width and a slightly uneven hand-rolled ring. The crust is thin, crisp, and glossy, a deep golden to amber brown with a few darker toasted spots from the wood fire, and the top and sides are thickly coated in toasted sesame seeds, cream to golden in color. They are sold loose by the each from the bakery, shown as a group of three whole bagels, two lying flat side by side and one leaning against them, fully inside the frame with every hole clearly visible, uncut, with no spread and no plate.",
       "since": 101
+    },
+    {
+      "id": "mini_cucumbers",
+      "name": "Mini Cucumbers",
+      "category": "vegetable",
+      "section": "Other Vegetables",
+      "image": "mini_cucumbers.png",
+      "aliases": [
+        "Mini cucumber",
+        "Snack cucumbers",
+        "Snack cucumber",
+        "Snacking cucumbers",
+        "Mini snack cucumbers",
+        "Mini seedless cucumbers",
+        "Baby cucumbers",
+        "Cocktail cucumbers",
+        "Pepinos mini",
+        "Pepino mini",
+        "Mini pepinos",
+        "Pepinos baby"
+      ],
+      "desc": "Mini cucumbers are small seedless snack cucumbers about 12 to 15 cm long and 3 cm wide, slim and straight with a gentle taper to blunt rounded ends and a small dried stem scar at one end. The skin is thin, smooth and glossy, a dark green with faint lighter green lengthwise stripes, almost no bumps and no spines. They are much shorter and slimmer than a long English cucumber and darker and glossier than a plump Baladi cucumber. They are sold in small bags or trays or loose by the each, shown as three whole cucumbers lying loosely side by side at a slight diagonal, with no packaging, no tray and no leaves or flowers, fully inside the frame with both ends of each one visible.",
+      "since": 108
+    },
+    {
+      "id": "water_gallon_jug",
+      "name": "Water Gallon Jug",
+      "category": "other",
+      "section": "Store Items",
+      "image": "water_gallon_jug.png",
+      "aliases": [
+        "Water gallon",
+        "Gallon of water",
+        "Water jug",
+        "Water refill",
+        "Water gallon refill",
+        "Gallon water refill",
+        "Drinking water refill",
+        "Refill water",
+        "Galon de agua",
+        "Galón de agua",
+        "Garrafón de agua",
+        "Agua de garrafón",
+        "Recarga de agua",
+        "Agua purificada"
+      ],
+      "desc": "A water gallon jug is the plain one-gallon clear plastic jug a store fills with drinking water at its refill station: a squarish clear jug with a built-in carry handle on the shoulder and a white screw cap, slightly translucent, filled with clear water, standing upright. It is shown as one jug, completely blank, with no label, no sticker, no printing, no logo and no brand.",
+      "since": 108
+    },
+    {
+      "id": "bulk_candy",
+      "name": "Bulk Candy",
+      "category": "other",
+      "section": "Store Items",
+      "image": "bulk_candy.png",
+      "aliases": [
+        "Bulk candies",
+        "Loose candy",
+        "Pick and mix candy",
+        "Self-serve candy",
+        "Bulk bin candy",
+        "Mixed candy",
+        "Gummy candy",
+        "Jelly beans",
+        "Dulces a granel",
+        "Dulce a granel",
+        "Dulces surtidos",
+        "Golosinas a granel"
+      ],
+      "desc": "Bulk candy is the loose mixed candy a store sells by weight from self-serve bulk bins: a small loose pile of round jelly beans, sugar-coated orange and lemon fruit slices, small round gumdrops and sugared gummy rings in red, orange, yellow, green and purple, heaped on the surface. It is shown with no fish, bear, worm, animal or character shapes, and with no bag, no bin, no scoop, no wrappers, no brand, no text and no labels.",
+      "since": 108
     }
   ]
 }

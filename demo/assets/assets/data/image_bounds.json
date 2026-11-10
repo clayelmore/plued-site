@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1138,
+  "image_count": 1141,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -1047,6 +1047,12 @@
       "top": 0.033203125,
       "right": 0.65625,
       "bottom": 0.962890625
+    },
+    "bulk_candy.png": {
+      "left": 0.0078125,
+      "top": 0.16796875,
+      "right": 0.9921875,
+      "bottom": 0.83203125
     },
     "buttercup_squash.png": {
       "left": 0.150390625,
@@ -3874,6 +3880,12 @@
       "right": 0.833984375,
       "bottom": 0.8515625
     },
+    "mini_cucumbers.png": {
+      "left": 0.03515625,
+      "top": 0.171875,
+      "right": 0.978515625,
+      "bottom": 0.830078125
+    },
     "mini_watermelon.png": {
       "left": 0.140625,
       "top": 0.142578125,
@@ -6531,6 +6543,12 @@
       "top": 0.228515625,
       "right": 0.787109375,
       "bottom": 0.77734375
+    },
+    "water_gallon_jug.png": {
+      "left": 0.2265625,
+      "top": 0.009765625,
+      "right": 0.763671875,
+      "bottom": 0.994140625
     },
     "watercress.png": {
       "left": 0.150390625,

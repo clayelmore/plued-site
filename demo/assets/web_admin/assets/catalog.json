@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 32,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -486,7 +486,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Pera Anjou grande",
-        "defaults": "pear|pears"
+        "defaults": "pear|pears|Birne|Birnen"
       },
       "common": true,
       "concept": "anjou_pears",
@@ -519,7 +519,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Pera Anjou chica",
-        "defaults": "pear|pears"
+        "defaults": "pear|pears|Birne|Birnen"
       },
       "common": true,
       "concept": "anjou_pears",
@@ -1075,7 +1075,7 @@
         "es": "Pepino armenio"
       },
       "search": {
-        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "family": "",
         "words": "",
         "es": "Pepino armenio"
@@ -1406,7 +1406,7 @@
       "search": {
         "names": "Nashi|Nashibirne|Nashibirnen|Asiatische Birne|Nashis|poire nashi|poires nashi|poire asiatique|poires asiatiques|pera-nashi|pera asiática|pera hosui|pera-mela|pera nashi|pere nashi|pera asiatica|grusza chińska|grusza japońska|gruszka nashi|gruszka chińska|gruszka japońska|gruszka azjatycka",
         "family": "Birne|Birnen|poire|poires|pera|peras|pêra|pêras|pere|gruszka|gruszki",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Pera asiática blanca"
       },
       "concept": "asian_nashi_pears_white"
@@ -1433,7 +1433,7 @@
         "family": "",
         "words": "grün grüne grüner grünes groß große großer großes vert verte verts vertes gros grosse grand grande grands grandes grosses verde verdes graúdo graúda grado verdi grandi zielony zielona zielone duży duża duże",
         "es": "Espárragos verdes (grandes)",
-        "defaults": "asparagus"
+        "defaults": "asparagus|Spargel"
       },
       "common": true,
       "concept": "asparagus_green",
@@ -1562,7 +1562,7 @@
       "search": {
         "names": "Spargel|Spargeln|asperge|asperges|aspargo|aspargos|espargo|espargos|asparago|asparagi|szparag|szparagi",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Espárragos blancos (grandes)"
       },
       "concept": "asparagus_white",
@@ -1589,7 +1589,7 @@
       "search": {
         "names": "Spargel|Spargeln|asperge|asperges|aspargo|aspargos|espargo|espargos|asparago|asparagi|szparag|szparagi",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Espárragos blancos (chicos)"
       },
       "concept": "asparagus_white",
@@ -1616,7 +1616,7 @@
       "search": {
         "names": "Spargel|Spargeln|asperge|asperges|aspargo|aspargos|espargo|espargos|asparago|asparagi|szparag|szparagi",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Bund Bündel blanc blanche blancs blanches botte bottes bouquet bouquets en botte branco branca brancos brancas maço maços molho molhos bianco bianca bianchi bianche mazzo mazzi mazzetto mazzetti biały biała białe jasny jasna jasne pęczek pęczki kiść",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Bund Bündel blanc blanche blancs blanches botte bottes bouquet bouquets en botte branco branca brancos brancas maço maços molho molhos bianco bianca bianchi bianche mazzo mazzi mazzetto mazzetti biały biała białe jasny jasna jasne pęczek pęczki kiść",
         "es": "Espárragos blancos en manojo"
       },
       "concept": "asparagus_white_bunch",
@@ -1647,7 +1647,7 @@
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
         "es": "Espárragos verdes",
-        "defaults": "asparagus"
+        "defaults": "asparagus|Spargel"
       },
       "common": true,
       "concept": "asparagus_green",
@@ -2419,7 +2419,7 @@
       "since": 101,
       "search": {
         "names": "",
-        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "words": "",
         "phrases": "baladi",
         "needs": "cucumber|khiyar|khyar|khiar|pepino"
@@ -3278,7 +3278,7 @@
       "search": {
         "names": "Paprika|Paprikas|Gemüsepaprika|Paprikaschote|Paprikaschoten|Peperoni|poivron|poivrons|poivron carré|pimentão|pimentões|pimento|pimentos|peperone|papryka|papryki",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Freiland aus Freilandanbau blanc blanche blancs blanches plein champ de plein champ branco branca brancos brancas de campo ar livre de ar livre ao ar livre bianco bianca bianchi bianche pieno campo di pieno campo biały biała białe jasny jasna jasne gruntowy gruntowa gruntowe polny polne z gruntu",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Freiland aus Freilandanbau blanc blanche blancs blanches plein champ de plein champ branco branca brancos brancas de campo ar livre de ar livre ao ar livre bianco bianca bianchi bianche pieno campo di pieno campo biały biała białe jasny jasna jasne gruntowy gruntowa gruntowe polny polne z gruntu",
         "es": "Pimiento blanco (de campo)"
       },
       "concept": "bell_pepper_white",
@@ -3309,7 +3309,7 @@
       "search": {
         "names": "Paprika|Paprikas|Gemüsepaprika|Paprikaschote|Paprikaschoten|Peperoni|poivron|poivrons|poivron carré|pimentão|pimentões|pimento|pimentos|peperone|papryka|papryki",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Gewächshaus Treibhaus blanc blanche blancs blanches serre de serre branco branca brancos brancas estufa de estufa bianco bianca bianchi bianche serra di serra biały biała białe jasny jasna jasne szklarniowy szklarniowa szklarniowe szklarnia",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Gewächshaus Treibhaus blanc blanche blancs blanches serre de serre branco branca brancos brancas estufa de estufa bianco bianca bianchi bianche serra di serra biały biała białe jasny jasna jasne szklarniowy szklarniowa szklarniowe szklarnia",
         "es": "Pimiento blanco"
       },
       "concept": "bell_pepper_white",
@@ -4484,6 +4484,37 @@
       "concept": "brussels_sprouts_stalk"
     },
     {
+      "id": "bulk_candy",
+      "plu": "",
+      "name": "Bulk Candy",
+      "category": "other",
+      "aliases": [
+        "Bulk candies",
+        "Loose candy",
+        "Pick and mix candy",
+        "Self-serve candy",
+        "Bulk bin candy",
+        "Mixed candy",
+        "Gummy candy",
+        "Jelly beans",
+        "Dulces a granel",
+        "Dulce a granel",
+        "Dulces surtidos",
+        "Golosinas a granel"
+      ],
+      "image": "bulk_candy.png",
+      "desc": "bulk candy is the loose mixed candy a store sells by weight from self-serve bulk bins: a small loose pile of round jelly beans, sugar-coated orange and lemon fruit slices, small round gumdrops and sugared gummy rings in red, orange, yellow, green and purple, heaped on the surface. it is shown with no fish, bear, worm, animal or character shapes, and with no bag, no bin, no scoop, no wrappers, no brand, no text and no labels.",
+      "section": "Store Items",
+      "size": "",
+      "since": 108,
+      "search": {
+        "names": "Süßigkeiten|Bonbons|Fruchtgummi|bonbon|confiserie|bonbons en vrac|doce|doces|bala|balas|guloseimas|caramella|caramelle|dolciumi|caramelle sfuse|cukierek|cukierki|słodycze|cukierki na wagę",
+        "family": "",
+        "words": "",
+        "needs": "bulk|loose|mix|mixed|gummy|gummies|jelly|granel|surtidos|vrac|sfuse|wagę"
+      }
+    },
+    {
       "id": "bananas_burro",
       "plu": "4229",
       "name": "Burro Bananas",
@@ -4578,7 +4609,8 @@
         "names": "Kürbis|Kürbisse|Winterkürbis|Speisekürbis|Speisekürbisse|courge|courges|abóbora|abóboras|moranga|jerimum|zucca|zucche|dynia|dynie",
         "family": "",
         "words": "",
-        "es": "Calabaza Butternut"
+        "es": "Calabaza Butternut",
+        "needs": "butternut|butternuss|butternusskurbis|butternutkurbis|squash|kurbis|kuerbis|calabaza|courge|abobora|zucca|dynia"
       },
       "common": true,
       "concept": "butternut_squash"
@@ -5329,7 +5361,7 @@
         "family": "",
         "words": "lose en vrac vrac a granel avulso sfuso sfusa sfusi sfuse rinfusa alla rinfusa luzem na wagę luz",
         "es": "Zanahoria suelta",
-        "defaults": "carrot|carrots"
+        "defaults": "carrot|carrots|Karotte|Karotten|Möhre|Möhren|Moehre|Moehren"
       },
       "common": true,
       "concept": "carrots_loose",
@@ -7128,7 +7160,7 @@
       "search": {
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Elote blanco"
       },
       "concept": "corn_white_trimmed"
@@ -7726,7 +7758,7 @@
         "es": "Pepino"
       },
       "search": {
-        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "family": "",
         "words": "",
         "es": "Pepino"
@@ -8453,7 +8485,7 @@
       "search": {
         "names": "Kohl|Weißkohl|Kopfkohl|Weißkraut|Kabis|Spitzkohl|Spitzkraut|Spitzkabis|chou|choux|chou cabus|chou pommé|chou blanc|chou vert|chou pointu|repolho|repolhos|couve branca|couve coração|cavolo|cavoli|cavolo cappuccio|cavolo bianco|kapusta|kapusta biała|kapusta głowiasta",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Repollo blanco holandés"
       },
       "concept": "dutch_white_cabbage"
@@ -8642,7 +8674,7 @@
       "search": {
         "names": "Aubergine|Auberginen|Melanzani|Eierfrucht|aubergines|berinjela|berinjelas|beringela|beringelas|melanzana|melanzane|bakłażan|bakłażany|oberżyna|oberżyny",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Baby blanc blanche blancs blanches mini minis miniature miniatures bébé bébés branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Baby blanc blanche blancs blanches mini minis miniature miniatures bébé bébés branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Berenjena baby blanca"
       },
       "concept": "eggplant_baby_white"
@@ -8690,7 +8722,7 @@
       "search": {
         "names": "Aubergine|Auberginen|Melanzani|Eierfrucht|aubergines|berinjela|berinjelas|beringela|beringelas|melanzana|melanzane|bakłażan|bakłażany|oberżyna|oberżyny",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Berenjena blanca"
       },
       "concept": "eggplant_white"
@@ -8848,7 +8880,7 @@
       "search": {
         "names": "Spitzpaprika|Spitzpaprikas|poivron corne de bœuf|poivrons corne de bœuf|corne de bœuf|corne de taureau|poivron long|poivrons longs|sweet palermo|corno di bue|peperone corno di bue|peperoni corno di bue|papryka szpiczasta|papryka ramiro|ramiro",
         "family": "Paprika|Paprikas|Gemüsepaprika|Paprikaschote|Paprikaschoten|Peperoni|poivron doux|poivrons doux|piment doux|piments doux|poivron|poivrons|poivron carré|pimenta americana|pimento doce|pimento italiano|pimentão|pimentões|pimento|pimentos|peperone dolce|peperoni dolci|friggitello|friggitelli|peperone|papryka słodka|papryczka słodka|papryka|papryki",
-        "words": "weiß weiße weißer weißes weißfleischig lang lange langer langes länglich blanc blanche blancs blanches long longue longs longues allongé allongée allongés allongées branco branca brancos brancas longo longa longos longas comprido comprida alongado alongada bianco bianca bianchi bianche lungo lunga lunghi lunghe allungato biały biała białe jasny jasna jasne długi długa długie podłużny podłużna podłużne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles lang lange langer langes länglich blanc blanche blancs blanches long longue longs longues allongé allongée allongés allongées branco branca brancos brancas longo longa longos longas comprido comprida alongado alongada bianco bianca bianchi bianche lungo lunga lunghi lunghe allungato biały biała białe jasny jasna jasne długi długa długie podłużny podłużna podłużne",
         "es": "Pimiento alargado blanco"
       },
       "concept": "elongated_white_pepper"
@@ -9128,7 +9160,7 @@
         "es": "Pepino inglés"
       },
       "search": {
-        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "family": "",
         "words": "",
         "es": "Pepino inglés",
@@ -9496,7 +9528,7 @@
         "family": "",
         "words": "schwarz schwarze schwarzer schwarzes noir noire noirs noires preto preta pretos pretas negro negra nero nera neri nere czarny czarna czarne ciemny ciemna ciemne",
         "es": "Higos negros",
-        "defaults": "fig|figs"
+        "defaults": "fig|figs|Feige|Feigen"
       },
       "concept": "figs_black"
     },
@@ -9545,7 +9577,7 @@
       "search": {
         "names": "Feige|Feigen|figue|figues|figo|figos|fico|fichi|figa|figi",
         "family": "",
-        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig vert verte verts vertes blanc blanche blancs blanches verde verdes branco branca brancos brancas verdi bianco bianca bianchi bianche zielony zielona zielone biały biała białe jasny jasna jasne",
+        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig hell helle heller helles vert verte verts vertes blanc blanche blancs blanches verde verdes branco branca brancos brancas verdi bianco bianca bianchi bianche zielony zielona zielone biały biała białe jasny jasna jasne",
         "es": "Higos blancos verdes"
       },
       "concept": "figs_white_green"
@@ -9712,7 +9744,7 @@
       "search": {
         "names": "Plattpfirsich|Plattpfirsiche|Tellerpfirsich|Weinbergpfirsich|Paraguayo|Paraguayos|pêche plate|pêches plates|pêssego paraguaio|paraguaio|pêssego achatado|pêssegos achatados|pêssego donut|pesca tabacchiera|pesca piatta|pesca saturnina|pesca platicarpa|pesche tabacchiere|tabacchiera|tabacchiere|pesche piatte|platicarpa|brzoskwinia paraguayo|brzoskwinie paraguayo|brzoskwinie płaskie|ufo",
         "family": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
-        "words": "weiß weiße weißer weißes weißfleischig flach flache platt blanc blanche blancs blanches plat plate plats plates branco branca brancos brancas achatado achatada chato chata bianco bianca bianchi bianche piatto piatta piatti piatte biały biała białe jasny jasna jasne płaski płaska płaskie",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles flach flache platt blanc blanche blancs blanches plat plate plats plates branco branca brancos brancas achatado achatada chato chata bianco bianca bianchi bianche piatto piatta piatti piatte biały biała białe jasny jasna jasne płaski płaska płaskie",
         "es": "Durazno dona blanco"
       },
       "concept": "flat_peaches_white_saturn_donut"
@@ -10220,7 +10252,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Manzana Gala grande (Este/Central)",
-        "defaults": "apple|apples"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
       },
       "common": true,
       "concept": "gala_apples",
@@ -10252,7 +10284,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Manzana Gala grande (Oeste)",
-        "defaults": "apple|apples"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
       },
       "common": true,
       "concept": "gala_apples",
@@ -10284,7 +10316,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Manzana Gala chica (Este/Central)",
-        "defaults": "apple|apples"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
       },
       "common": true,
       "concept": "gala_apples",
@@ -10315,7 +10347,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Manzana Gala chica (Oeste)",
-        "defaults": "apple|apples"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
       },
       "common": true,
       "concept": "gala_apples",
@@ -11212,7 +11244,8 @@
         "names": "Apfel|Äpfel|pomme|pommes|maçã|maçãs|mela|mele|pomo|pomi|jabłko|jabłka",
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
-        "es": "Manzana Granny Smith grande (Oeste)"
+        "es": "Manzana Granny Smith grande (Oeste)",
+        "phrases": "green apple|green apples|apple green|apples green|Apfel grün|Äpfel grün|Apfel gruen|grüner Apfel|grüne Äpfel|gruener Apfel|gruene Aepfel"
       },
       "common": true,
       "concept": "granny_smith_apples",
@@ -11957,7 +11990,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Toronja blanca grande"
       },
       "concept": "grapefruit_white",
@@ -11984,7 +12017,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Toronja blanca grande"
       },
       "concept": "grapefruit_white",
@@ -12013,7 +12046,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Toronja blanca chica"
       },
       "concept": "grapefruit_white",
@@ -12040,7 +12073,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Toronja blanca chica"
       },
       "concept": "grapefruit_white",
@@ -12069,7 +12102,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Toronja blanca grande"
       },
       "concept": "grapefruit_white",
@@ -12098,7 +12131,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Toronja blanca chica"
       },
       "concept": "grapefruit_white",
@@ -12590,7 +12623,7 @@
       "search": {
         "names": "Weintraube|Weintrauben|Traube|Trauben|Weinbeere|Tafeltraube|Tafeltrauben|raisin|raisins|uva|uvas|winogrono|winogrona",
         "family": "",
-        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig mit Kernen kernhaltig vert verte verts vertes blanc blanche blancs blanches avec pépins verde verdes branco branca brancos brancas com sementes com caroço com semente com grainha verdi bianco bianca bianchi bianche con semi zielony zielona zielone biały biała białe jasny jasna jasne z pestkami z pestką",
+        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig hell helle heller helles mit Kernen kernhaltig vert verte verts vertes blanc blanche blancs blanches avec pépins verde verdes branco branca brancos brancas com sementes com caroço com semente com grainha verdi bianco bianca bianchi bianche con semi zielony zielona zielone biały biała białe jasny jasna jasne z pestkami z pestką",
         "es": "Uva blanca verde con semilla"
       },
       "concept": "grapes_white_green_seeded",
@@ -12620,7 +12653,7 @@
       "search": {
         "names": "Weintraube|Weintrauben|Traube|Trauben|Weinbeere|Tafeltraube|Tafeltrauben|raisin|raisins|uva|uvas|winogrono|winogrona",
         "family": "",
-        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig kernlos kernlose kernloser ohne Kerne kernarm vert verte verts vertes blanc blanche blancs blanches sans pépins sans pépin verde verdes branco branca brancos brancas sem sementes sem semente sem caroço sem grainha pouca semente poucas sementes verdi bianco bianca bianchi bianche senza semi apirena apirene apireno apireni zielony zielona zielone biały biała białe jasny jasna jasne bezpestkowy bezpestkowa bezpestkowe bez pestek",
+        "words": "grün grüne grüner grünes weiß weiße weißer weißes weißfleischig hell helle heller helles kernlos kernlose kernloser ohne Kerne kernarm vert verte verts vertes blanc blanche blancs blanches sans pépins sans pépin verde verdes branco branca brancos brancas sem sementes sem semente sem caroço sem grainha pouca semente poucas sementes verdi bianco bianca bianchi bianche senza semi apirena apirene apireno apireni zielony zielona zielone biały biała białe jasny jasna jasne bezpestkowy bezpestkowa bezpestkowe bez pestek",
         "es": "Uva blanca verde sin semilla"
       },
       "concept": "grapes_white_green_seedless",
@@ -13700,10 +13733,11 @@
         "es": "Melón Honeydew"
       },
       "search": {
-        "names": "Honigmelone|Honigmelonen|melon miel|melon de miel|melons miel|melão branco|melão orange|melone verde|melone bianco|melon miodowy|melony miodowe",
-        "family": "Melone|Melonen|Zuckermelone|Zuckermelonen|melon|melons|melão|melões|meloni|popone|melony",
+        "names": "Honigmelone|Honigmelonen|melon miel|melon de miel|melons miel|melão branco|melão orange|melone verde|melone bianco|melon miodowy|melony miodowe|Melone|Melonen",
+        "family": "Zuckermelone|Zuckermelonen|melon|melons|melão|melões|meloni|popone|melony",
         "words": "",
-        "es": "Melón Honeydew"
+        "es": "Melón Honeydew",
+        "defaults": "Melone|Melonen"
       },
       "common": true,
       "concept": "honeydew_melon",
@@ -13735,10 +13769,11 @@
         "es": "Melón Honeydew chico"
       },
       "search": {
-        "names": "Honigmelone|Honigmelonen|melon miel|melon de miel|melons miel|melão branco|melão orange|melone verde|melone bianco|melon miodowy|melony miodowe",
-        "family": "Melone|Melonen|Zuckermelone|Zuckermelonen|melon|melons|melão|melões|meloni|popone|melony",
+        "names": "Honigmelone|Honigmelonen|melon miel|melon de miel|melons miel|melão branco|melão orange|melone verde|melone bianco|melon miodowy|melony miodowe|Melone|Melonen",
+        "family": "Zuckermelone|Zuckermelonen|melon|melons|melão|melões|meloni|popone|melony",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
-        "es": "Melón Honeydew chico"
+        "es": "Melón Honeydew chico",
+        "defaults": "Melone|Melonen"
       },
       "common": true,
       "concept": "honeydew_melon",
@@ -14505,9 +14540,9 @@
         "es": "Pepino japonés blanco"
       },
       "search": {
-        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig japanisch japanische japanischer blanc blanche blancs blanches japonais japonaise japonaises du Japon branco branca brancos brancas japonês japonesa japoneses japonesas bianco bianca bianchi bianche giapponese giapponesi biały biała białe jasny jasna jasne japoński japońska japońskie",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles japanisch japanische japanischer blanc blanche blancs blanches japonais japonaise japonaises du Japon branco branca brancos brancas japonês japonesa japoneses japonesas bianco bianca bianchi bianche giapponese giapponesi biały biała białe jasny jasna jasne japoński japońska japońskie",
         "es": "Pepino japonés blanco"
       },
       "concept": "cucumber_japanese_white"
@@ -15615,7 +15650,7 @@
         "es": "Pepino limón"
       },
       "search": {
-        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "names": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "family": "",
         "words": "",
         "es": "Pepino limón"
@@ -15902,7 +15937,8 @@
         "names": "Kopfsalat|Kopfsalate|Häuptelsalat|Buttersalat|laitue beurre|laitue au beurre|laitue Boston|laitues Boston|alface lisa|alface manteiga|lattuga cappuccina|lattuga cappuccio|insalata cappuccina|cappuccina|lattuga trocadero|trocadero|sałata masłowa",
         "family": "Salat|Gartensalat|Lattich|laitue|laitues|salade|salades|laitue pommée|batavia|laitue feuille verte|laitue frisée|alface|alfaces|alface crespa|alface frisada|lattuga|lattughe|sałata|sałaty",
         "words": "",
-        "es": "Lechuga Boston (mantequilla)"
+        "es": "Lechuga Boston (mantequilla)",
+        "defaults": "Kopfsalat|Kopfsalate"
       },
       "concept": "lettuce_boston_butter"
     },
@@ -16036,7 +16072,8 @@
         "names": "Salat|Gartensalat|Lattich|laitue|laitues|salade|salades|laitue pommée|batavia|laitue feuille verte|laitue frisée|alface|alfaces|alface crespa|alface frisada|lattuga|lattughe|sałata|sałaty",
         "family": "",
         "words": "",
-        "es": "Lechuga Lollo Rossa"
+        "es": "Lechuga Lollo Rossa",
+        "phrases": "lollo rosso"
       },
       "concept": "lettuce_lollo_rossa"
     },
@@ -17728,6 +17765,37 @@
       "concept": "milwa_apples"
     },
     {
+      "id": "mini_cucumbers",
+      "plu": "",
+      "name": "Mini Cucumbers",
+      "category": "vegetable",
+      "aliases": [
+        "Mini cucumber",
+        "Snack cucumbers",
+        "Snack cucumber",
+        "Snacking cucumbers",
+        "Mini snack cucumbers",
+        "Mini seedless cucumbers",
+        "Baby cucumbers",
+        "Cocktail cucumbers",
+        "Pepinos mini",
+        "Pepino mini",
+        "Mini pepinos",
+        "Pepinos baby"
+      ],
+      "image": "mini_cucumbers.png",
+      "desc": "mini cucumbers are small seedless snack cucumbers about 12 to 15 cm long and 3 cm wide, slim and straight with a gentle taper to blunt rounded ends and a small dried stem scar at one end. the skin is thin, smooth and glossy, a dark green with faint lighter green lengthwise stripes, almost no bumps and no spines. they are much shorter and slimmer than a long english cucumber and darker and glossier than a plump baladi cucumber. they are sold in small bags or trays or loose by the each, shown as three whole cucumbers lying loosely side by side at a slight diagonal, with no packaging, no tray and no leaves or flowers, fully inside the frame with both ends of each one visible.",
+      "section": "Other Vegetables",
+      "size": "",
+      "since": 108,
+      "search": {
+        "names": "Minigurke|Minigurken|Mini Gurke|Mini Gurken|Snackgurke|Snackgurken",
+        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "words": "Baby mini minis miniature miniatures bébé bébés",
+        "phrases": "pepino mini|pepinos mini|mini pepinos"
+      }
+    },
+    {
       "id": "mini_watermelon",
       "plu": "3421",
       "name": "Mini Watermelon",
@@ -17774,7 +17842,7 @@
       "search": {
         "names": "Kürbis|Kürbisse|citrouille|citrouilles|potiron|potirons|citrouille à tarte|abóbora|abóboras|jerimum|moranga|zucca|zucche|zucche halloween|dynia|dynie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Baby blanc blanche blancs blanches mini minis miniature miniatures bébé bébés branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Baby blanc blanche blancs blanches mini minis miniature miniatures bébé bébés branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Calabaza mini blanca"
       },
       "concept": "pumpkin_white_mini"
@@ -18337,10 +18405,11 @@
         "es": "Naranja Navel grande (Este/Central)"
       },
       "search": {
-        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas",
-        "family": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
+        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas|Orangen",
+        "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
-        "es": "Naranja Navel grande (Este/Central)"
+        "es": "Naranja Navel grande (Este/Central)",
+        "defaults": "Orangen"
       },
       "common": true,
       "concept": "navel_oranges",
@@ -18369,10 +18438,11 @@
         "es": "Naranja Navel grande (Oeste)"
       },
       "search": {
-        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas",
-        "family": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
+        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas|Orangen",
+        "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
-        "es": "Naranja Navel grande (Oeste)"
+        "es": "Naranja Navel grande (Oeste)",
+        "defaults": "Orangen"
       },
       "common": true,
       "concept": "navel_oranges",
@@ -18401,10 +18471,11 @@
         "es": "Naranja Navel mediana"
       },
       "search": {
-        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas",
-        "family": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
+        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas|Orangen",
+        "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "mittelgroß mittelgroße moyen moyenne moyens moyennes médio média médios médias medio media medi medie średni średnia średnie",
-        "es": "Naranja Navel mediana"
+        "es": "Naranja Navel mediana",
+        "defaults": "Orangen"
       },
       "common": true,
       "concept": "navel_oranges",
@@ -18431,10 +18502,11 @@
         "es": "Naranja Navel chica (Este/Central)"
       },
       "search": {
-        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas",
-        "family": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
+        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas|Orangen",
+        "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
-        "es": "Naranja Navel chica (Este/Central)"
+        "es": "Naranja Navel chica (Este/Central)",
+        "defaults": "Orangen"
       },
       "common": true,
       "concept": "navel_oranges",
@@ -18463,10 +18535,11 @@
         "es": "Naranja Navel chica (Oeste)"
       },
       "search": {
-        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas",
-        "family": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
+        "names": "Navelorange|Navelorangen|Nabelorange|navel|orange navel|laranja-da-baía|laranja-baía|laranja bahia|laranja umbigo|laranja-de-umbigo|navelina|navelate|arancia navel|navelinas|Orangen",
+        "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
-        "es": "Naranja Navel chica (Oeste)"
+        "es": "Naranja Navel chica (Oeste)",
+        "defaults": "Orangen"
       },
       "common": true,
       "concept": "navel_oranges",
@@ -18584,7 +18657,7 @@
       "search": {
         "names": "Nektarine|Nektarinen|nectarine|nectarines|brugnon|brugnons|nectarina|nectarinas|nettarina|nettarine|pesca noce|pesche noci|pesche nettarine|nektarynka|nektarynki|nektaryna",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Nectarinas blancas"
       },
       "concept": "nectarines_white"
@@ -18952,7 +19025,7 @@
       "search": {
         "names": "Zwiebel|Zwiebeln|Speisezwiebel|Speisezwiebeln|Gemüsezwiebel|Gemüsezwiebeln|oignon|oignons|cebola|cebolas|cipolla|cipolle|cebula|cebule",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Cebolla blanca para encurtir"
       },
       "concept": "onions_pickling_white"
@@ -20470,7 +20543,7 @@
       "search": {
         "names": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Durazno blanco grande"
       },
       "concept": "peaches_white_flesh",
@@ -20498,7 +20571,7 @@
       "search": {
         "names": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Durazno blanco chico"
       },
       "concept": "peaches_white_flesh",
@@ -20663,7 +20736,7 @@
       "search": {
         "names": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Durazno blanco grande"
       },
       "concept": "peaches_white_flesh",
@@ -20691,7 +20764,7 @@
       "search": {
         "names": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Durazno blanco chico"
       },
       "concept": "peaches_white_flesh",
@@ -21445,7 +21518,7 @@
       },
       "search": {
         "names": "Einlegegurke|Einlegegurken|Gewürzgurke|Gewürzgurken|Gürkchen|cornichon|cornichons|concombre à mariner|concombres à mariner|pepino para conserva|cetriolino|cetriolini|ogórek konserwowy|ogórki konserwowe|korniszon|korniszony|ogórki gruntowe|ogórek gruntowy",
-        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|Minigurke|Minigurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
+        "family": "Gurke|Gurken|Salatgurke|Salatgurken|Schlangengurke|Schlangengurken|concombre|concombres|concombre anglais|pepino|pepinos|cetriolo|cetrioli|ogórek|ogórki",
         "words": "",
         "es": "Pepino para encurtir"
       },
@@ -22672,7 +22745,7 @@
       "search": {
         "names": "Kartoffel|Kartoffeln|Erdapfel|Erdäpfel|Speisekartoffel|Speisekartoffeln|pomme de terre|pommes de terre|patate|patates|batata|batatas|batata inglesa|patata|ziemniak|ziemniaki|kartofel|kartofle",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Papa cambray blanca"
       },
       "concept": "potato_creamer_white"
@@ -22697,7 +22770,7 @@
       "search": {
         "names": "Kartoffel|Kartoffeln|Erdapfel|Erdäpfel|Speisekartoffel|Speisekartoffeln|pomme de terre|pommes de terre|patate|patates|batata|batatas|batata inglesa|patata|ziemniak|ziemniaki|kartofel|kartofle",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig lang lange langer langes länglich blanc blanche blancs blanches long longue longs longues allongé allongée allongés allongées branco branca brancos brancas longo longa longos longas comprido comprida alongado alongada bianco bianca bianchi bianche lungo lunga lunghi lunghe allungato biały biała białe jasny jasna jasne długi długa długie podłużny podłużna podłużne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles lang lange langer langes länglich blanc blanche blancs blanches long longue longs longues allongé allongée allongés allongées branco branca brancos brancas longo longa longos longas comprido comprida alongado alongada bianco bianca bianchi bianche lungo lunga lunghi lunghe allungato biały biała białe jasny jasna jasne długi długa długie podłużny podłużna podłużne",
         "es": "Papa blanca larga"
       },
       "concept": "potato_long_white"
@@ -22914,7 +22987,7 @@
       "search": {
         "names": "Pomelo|Pomelos|Pampelmuse|pomélo|pamplemousse|pamplemousse chinois|pomélo chinois|pomelo géant|chadèque|pampaleone|pomeli",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Pummelo blanco"
       },
       "concept": "pummelo_white"
@@ -22942,7 +23015,8 @@
         "names": "Kürbis|Kürbisse|citrouille|citrouilles|potiron|potirons|citrouille à tarte|abóbora|abóboras|jerimum|moranga|zucca|zucche|zucche halloween|dynia|dynie",
         "family": "",
         "words": "",
-        "es": "Calabaza"
+        "es": "Calabaza",
+        "defaults": "Kürbis|Kuerbis|Kürbisse|Kuerbisse"
       },
       "concept": "pumpkin"
     },
@@ -23347,7 +23421,7 @@
       "search": {
         "names": "Radieschen|Rettich|radis|radis rose|radis roses|rabanete|rabanetes|ravanello|ravanelli|rzodkiewka|rzodkiewki|rzodkiew",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig Bund Bündel blanc blanche blancs blanches botte bottes bouquet bouquets en botte branco branca brancos brancas maço maços molho molhos bianco bianca bianchi bianche mazzo mazzi mazzetto mazzetti biały biała białe jasny jasna jasne pęczek pęczki kiść",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles Bund Bündel blanc blanche blancs blanches botte bottes bouquet bouquets en botte branco branca brancos brancas maço maços molho molhos bianco bianca bianchi bianche mazzo mazzi mazzetto mazzetti biały biała białe jasny jasna jasne pęczek pęczki kiść",
         "es": "Rábano blanco en manojo"
       },
       "concept": "radish_bunched_white",
@@ -23426,7 +23500,7 @@
       "search": {
         "names": "Radieschen|Rettich|radis|radis rose|radis roses|rabanete|rabanetes|ravanello|ravanelli|rzodkiewka|rzodkiewki|rzodkiew",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Rábano blanco (Icicle)"
       },
       "concept": "radish_white_icicle"
@@ -23849,7 +23923,8 @@
         "names": "Rote Johannisbeere|Rote Johannisbeeren|Johannisbeere|Johannisbeeren|Ribisel|Ribiseln|groseille|groseilles|groseille à grappes|gadelle|gadelles|raisinet|raisinets|groselha|groselhas|ribes rosso|ribes|ribes rossi|porzeczka czerwona|czerwona porzeczka|porzeczka|porzeczki",
         "family": "",
         "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
-        "es": "Grosellas rojas"
+        "es": "Grosellas rojas",
+        "defaults": "Johannisbeere|Johannisbeeren"
       },
       "concept": "currants_red"
     },
@@ -24368,7 +24443,7 @@
         "family": "",
         "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
         "es": "Frambuesas rojas",
-        "defaults": "raspberry|raspberries"
+        "defaults": "raspberry|raspberries|Himbeere|Himbeeren"
       },
       "concept": "red_raspberries"
     },
@@ -25584,7 +25659,8 @@
         "names": "Wirsing|Wirsingkohl|Wirz|chou de Milan|choux de Milan|chou frisé|choux frisés|chou vert frisé|chou de Savoie|choux de Savoie|couve-lombarda|couve lombardo|couve saboia|verza|cavolo verza|cavolo di Milano|kapusta włoska",
         "family": "Kohl|Weißkohl|Kopfkohl|Weißkraut|Kabis|Spitzkohl|Spitzkraut|Spitzkabis|chou|choux|chou cabus|chou pommé|chou blanc|chou vert|chou pointu|repolho|repolhos|couve branca|couve coração|cavolo|cavoli|cavolo cappuccio|cavolo bianco|kapusta|kapusta biała|kapusta głowiasta",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
-        "es": "Repollo Savoy verde"
+        "es": "Repollo Savoy verde",
+        "defaults": "Wirsing|Wirsingkohl"
       },
       "concept": "cabbage_savoy_green"
     },
@@ -26584,7 +26660,7 @@
       "search": {
         "names": "Kürbis|Kürbisse|Winterkürbis|Speisekürbis|Speisekürbisse|courge|courges|abóbora|abóboras|moranga|jerimum|zucca|zucche|dynia|dynie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Calabaza Acorn Swan White Table Queen"
       },
       "concept": "squash_acorn_swan_white_table_queen"
@@ -26765,7 +26841,7 @@
         "family": "",
         "words": "",
         "es": "Fresas a granel",
-        "defaults": "strawberry|strawberries"
+        "defaults": "strawberry|strawberries|Erdbeere|Erdbeeren"
       },
       "concept": "strawberries_bulk",
       "dims": {
@@ -27817,7 +27893,7 @@
       "search": {
         "names": "Süßkartoffel|Süßkartoffeln|Batate|Bataten|patate douce|patates douces|pomme de terre douce|pommes de terre sucrées|batata-doce|batatas-doces|patata dolce|patate dolci|patata americana|batata|patate americane|batat|bataty|słodki ziemniak|słodkie ziemniaki",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig süß süße süßer süßes blanc blanche blancs blanches doux douce douces sucré sucrée sucrés sucrées branco branca brancos brancas doce doces bianco bianca bianchi bianche dolce dolci biały biała białe jasny jasna jasne słodki słodka słodkie",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles süß süße süßer süßes blanc blanche blancs blanches doux douce douces sucré sucrée sucrés sucrées branco branca brancos brancas doce doces bianco bianca bianchi bianche dolce dolci biały biała białe jasny jasna jasne słodki słodka słodkie",
         "es": "Camote blanco"
       },
       "common": true,
@@ -29334,7 +29410,7 @@
       "search": {
         "names": "Speiserübe|Speiserüben|Mairübe|Weiße Rübe|Rübe|Rüben|Mairübchen|Mairüben|Weiße Rübchen|Teltower Rübchen|Navetten|Rübstiel|Stielmus|navet|navets|rabiole|rabioles|navet blanc|navets blancs|navet violet|nabo|nabos|rapa|rape|rapa bianca|rape bianche|rzepa|rzepy",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Nabo blanco"
       },
       "concept": "turnip_white"
@@ -29676,6 +29752,39 @@
       "concept": "water_chestnuts"
     },
     {
+      "id": "water_gallon_jug",
+      "plu": "",
+      "name": "Water Gallon Jug",
+      "category": "other",
+      "aliases": [
+        "Water gallon",
+        "Gallon of water",
+        "Water jug",
+        "Water refill",
+        "Water gallon refill",
+        "Gallon water refill",
+        "Drinking water refill",
+        "Refill water",
+        "Galon de agua",
+        "Galón de agua",
+        "Garrafón de agua",
+        "Agua de garrafón",
+        "Recarga de agua",
+        "Agua purificada"
+      ],
+      "image": "water_gallon_jug.png",
+      "desc": "a water gallon jug is the plain one-gallon clear plastic jug a store fills with drinking water at its refill station: a squarish clear jug with a built-in carry handle on the shoulder and a white screw cap, slightly translucent, filled with clear water, standing upright. it is shown as one jug, completely blank, with no label, no sticker, no printing, no logo and no brand.",
+      "section": "Store Items",
+      "size": "",
+      "since": 108,
+      "search": {
+        "names": "Wasser|Trinkwasser|Wasserkanister|eau|eau potable|bidon d'eau|água|água potável|galão de água|acqua|acqua potabile|tanica d'acqua|woda|woda pitna|butla z wodą",
+        "family": "",
+        "words": "",
+        "needs": "water|agua|wasser|eau|acqua|woda"
+      }
+    },
+    {
       "id": "watercress",
       "plu": "4815",
       "name": "Watercress",
@@ -29829,7 +29938,7 @@
       "search": {
         "names": "Kartoffel|Kartoffeln|Erdapfel|Erdäpfel|Speisekartoffel|Speisekartoffeln|pomme de terre|pommes de terre|patate|patates|batata|batatas|batata inglesa|patata|ziemniak|ziemniaki|kartofel|kartofle",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Papa blanca para hornear"
       },
       "concept": "white_baking_potato"
@@ -29854,11 +29963,11 @@
         "es": "Champiñón blanco"
       },
       "search": {
-        "names": "Champignon|Champignons|Zuchtchampignon|Egerling|Portobello|Egerlinge|champignon de Paris|champignons de Paris|champignon blanc|champignons blancs|champignon brun|champignons bruns|champignon blond|portobellos|cremini|crimini|champinhom|cogumelo paris|cogumelo de paris|portobelo|cogumelo branco|cogumelo marron|prataiolo|prataioli|fungo champignon|funghi champignon|pieczarka|pieczarki|pieczarka brązowa|pieczarki brązowe",
-        "family": "Pilz|Pilze|Schwammerl|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "names": "Champignon|Champignons|Zuchtchampignon|Egerling|Portobello|Egerlinge|champignon de Paris|champignons de Paris|champignon blanc|champignons blancs|champignon brun|champignons bruns|champignon blond|portobellos|cremini|crimini|champinhom|cogumelo paris|cogumelo de paris|portobelo|cogumelo branco|cogumelo marron|prataiolo|prataioli|fungo champignon|funghi champignon|pieczarka|pieczarki|pieczarka brązowa|pieczarki brązowe|Pilz|Pilze",
+        "family": "Schwammerl|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Champiñón blanco",
-        "defaults": "mushroom|mushrooms"
+        "defaults": "mushroom|mushrooms|Pilz|Pilze|Champignon|Champignons"
       },
       "common": true,
       "concept": "white_button_mushrooms",
@@ -29887,7 +29996,7 @@
       "search": {
         "names": "Nektarine|Nektarinen|nectarine|nectarines|brugnon|brugnons|nectarina|nectarinas|nettarina|nettarine|pesca noce|pesche noci|pesche nettarine|nektarynka|nektarynki|nektaryna",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig flach flache platt blanc blanche blancs blanches plat plate plats plates branco branca brancos brancas achatado achatada chato chata bianco bianca bianchi bianche piatto piatta piatti piatte biały biała białe jasny jasna jasne płaski płaska płaskie",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles flach flache platt blanc blanche blancs blanches plat plate plats plates branco branca brancos brancas achatado achatada chato chata bianco bianca bianchi bianche piatto piatta piatti piatte biały biała białe jasny jasna jasne płaski płaska płaskie",
         "es": "Nectarina blanca plana"
       },
       "concept": "white_flesh_flat_nectarine"
@@ -29910,7 +30019,7 @@
       "search": {
         "names": "Nektarine|Nektarinen|nectarine|nectarines|brugnon|brugnons|nectarina|nectarinas|nettarina|nettarine|pesca noce|pesche noci|pesche nettarine|nektarynka|nektarynki|nektaryna",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles klein kleine kleiner kleines blanc blanche blancs blanches petit petite petits petites branco branca brancos brancas pequeno pequena pequenos pequenas miúdo miúda bianco bianca bianchi bianche piccolo piccola piccoli piccole biały biała białe jasny jasna jasne mały mała małe drobny drobna drobne",
         "es": "Nectarina blanca chica"
       },
       "concept": "white_flesh_nectarine",
@@ -29936,7 +30045,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
         "es": "Toronja blanca jumbo"
       },
       "concept": "grapefruit_white",
@@ -29964,7 +30073,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
         "es": "Toronja blanca jumbo"
       },
       "concept": "grapefruit_white",
@@ -29992,7 +30101,7 @@
       "search": {
         "names": "Grapefruit|Grapefruits|Pampelmuse|Pampelmusen|pamplemousse|pamplemousses|pomélo|pomelo|pomelos|pomélos|toranja|toranjas|toronja|grape fruit|pompelmo|pompelmi|grejpfrut|grejpfruty|grapefruity",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große XXL blanc blanche blancs blanches gros grosse grand grande extra-large très gros très grosse branco branca brancos brancas extra grandes bianco bianca bianchi bianche grandi gigante giganti biały biała białe jasny jasna jasne ekstra duży duża duże",
         "es": "Toronja blanca jumbo"
       },
       "concept": "grapefruit_white",
@@ -30020,11 +30129,11 @@
         "es": "Champiñón blanco grande"
       },
       "search": {
-        "names": "Champignon|Champignons|Zuchtchampignon|Egerling|Portobello|Egerlinge|champignon de Paris|champignons de Paris|champignon blanc|champignons blancs|champignon brun|champignons bruns|champignon blond|portobellos|cremini|crimini|champinhom|cogumelo paris|cogumelo de paris|portobelo|cogumelo branco|cogumelo marron|prataiolo|prataioli|fungo champignon|funghi champignon|pieczarka|pieczarki|pieczarka brązowa|pieczarki brązowe",
-        "family": "Pilz|Pilze|Schwammerl|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
-        "words": "weiß weiße weißer weißes weißfleischig groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
+        "names": "Champignon|Champignons|Zuchtchampignon|Egerling|Portobello|Egerlinge|champignon de Paris|champignons de Paris|champignon blanc|champignons blancs|champignon brun|champignons bruns|champignon blond|portobellos|cremini|crimini|champinhom|cogumelo paris|cogumelo de paris|portobelo|cogumelo branco|cogumelo marron|prataiolo|prataioli|fungo champignon|funghi champignon|pieczarka|pieczarki|pieczarka brązowa|pieczarki brązowe|Pilz|Pilze",
+        "family": "Schwammerl|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles groß große großer großes blanc blanche blancs blanches gros grosse grand grande grands grandes grosses branco branca brancos brancas graúdo graúda grado bianco bianca bianchi bianche grandi biały biała białe jasny jasna jasne duży duża duże",
         "es": "Champiñón blanco grande",
-        "defaults": "mushroom|mushrooms"
+        "defaults": "mushroom|mushrooms|Pilz|Pilze|Champignon|Champignons"
       },
       "common": true,
       "concept": "white_button_mushrooms",
@@ -30051,7 +30160,7 @@
       "search": {
         "names": "Zwiebel|Zwiebeln|Speisezwiebel|Speisezwiebeln|Gemüsezwiebel|Gemüsezwiebeln|oignon|oignons|cebola|cebolas|cipolla|cipolle|cebula|cebule",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Cebolla blanca"
       },
       "common": true,
@@ -30077,7 +30186,7 @@
       "search": {
         "names": "Kartoffel|Kartoffeln|Erdapfel|Erdäpfel|Speisekartoffel|Speisekartoffeln|pomme de terre|pommes de terre|patate|patates|batata|batatas|batata inglesa|patata|ziemniak|ziemniaki|kartofel|kartofle",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Papa blanca"
       },
       "concept": "white_potatoes"
@@ -30102,7 +30211,7 @@
       "search": {
         "names": "Kürbis|Kürbisse|citrouille|citrouilles|potiron|potirons|citrouille à tarte|abóbora|abóboras|jerimum|moranga|zucca|zucche|zucche halloween|dynia|dynie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Calabaza blanca"
       },
       "concept": "pumpkin_white"
@@ -30126,7 +30235,7 @@
       "search": {
         "names": "Weiße Sapote|sapote blanche|kazimira jadalna|białe sapote|sapota biała",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Zapote blanco"
       },
       "concept": "sapote_white"
@@ -30153,7 +30262,7 @@
       "search": {
         "names": "Sommerkürbis|courgette jaune|courgettes jaunes|courgette blanche|courgettes blanches|courgette grise|courgettes grises|courge d'été|courges d'été|abobrinha brasileira|abobrinha menina|abobrinha amarela|curgete amarela|zucchina gialla|zucchine gialle|dynia szparagowa|cukinia żółta|żółta cukinia",
         "family": "Kürbis|Kürbisse|Winterkürbis|Speisekürbis|Speisekürbisse|courge|courges|abóbora|abóboras|moranga|jerimum|zucca|zucche|dynia|dynie",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Calabacita blanca"
       },
       "concept": "white_squash"
@@ -30182,7 +30291,7 @@
       "search": {
         "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "es": "Nuez blanca"
       },
       "concept": "white_walnuts"
@@ -30207,7 +30316,7 @@
       "search": {
         "names": "Yams|Yamswurzel|Yamswurzeln|igname|ignames|inhame|cará|carás|yame|ignam|pochrzyn",
         "family": "",
-        "words": "weiß weiße weißer weißes weißfleischig blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
+        "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
         "secondary": "inhame",
         "es": "Ñame blanco"
       },
@@ -30762,7 +30871,7 @@
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig groß große großer großes jaune jaunes gros grosse grand grande grands grandes grosses amarelo amarela amarelos amarelas graúdo graúda grado giallo gialla gialli gialle grandi żółty żółta żółte duży duża duże",
         "es": "Cebolla amarilla grande",
-        "defaults": "onion|onions"
+        "defaults": "onion|onions|Zwiebel|Zwiebeln"
       },
       "common": true,
       "concept": "yellow_onion",
@@ -30792,7 +30901,7 @@
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig klein kleine kleiner kleines jaune jaunes petit petite petits petites amarelo amarela amarelos amarelas pequeno pequena pequenos pequenas miúdo miúda giallo gialla gialli gialle piccolo piccola piccoli piccole żółty żółta żółte mały mała małe drobny drobna drobne",
         "es": "Cebolla amarilla chica",
-        "defaults": "onion|onions"
+        "defaults": "onion|onions|Zwiebel|Zwiebeln"
       },
       "common": true,
       "concept": "yellow_onion",
