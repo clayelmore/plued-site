@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -262,6 +262,52 @@
         "es": "Hojas de sábila"
       },
       "concept": "aloe_vera_leaves"
+    },
+    {
+      "id": "roll_seeded_flat",
+      "plu": "",
+      "name": "Alpine Senner Roll",
+      "category": "other",
+      "aliases": [
+        "Alpine roll",
+        "Herdsman roll",
+        "Senner roll"
+      ],
+      "image": "roll_seeded_flat.png",
+      "desc": "an alpine seeded roll (sennerfladen) is a thick, rectangular wheat-rye roll about 15 cm long, 7 cm wide and 4 cm tall with rounded corners and a flat top. the whole top is crowded with green-gray pumpkin seeds and pale sunflower kernels, with golden shreds of baked gouda between them. the rectangular block crusted with pumpkin and sunflower seeds is its mark: it is not the round puffy turkish flatbread, not the squarish all-pumpkin roll and not the diamond cheese crust roll. shown as one whole roll in a three-quarter view; it must show no tomato topping and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Sennerfladen|Sennerbrötchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "alpine senner roll|alpine senner rolls|alpine roll|alpine rolls|herdsman roll|herdsman rolls|senner roll|senner rolls|senner fladen|alpine seeded roll|alpine seeded rolls",
+        "needs": "sennerbroetchen|sennerbrotchen|sennerfladen"
+      }
+    },
+    {
+      "id": "roll_alsatian",
+      "plu": "",
+      "name": "Alsatian Oval Roll",
+      "category": "other",
+      "aliases": [
+        "Alsatian rolls",
+        "Alsace roll",
+        "Baguette dough roll"
+      ],
+      "image": "roll_alsatian.png",
+      "desc": "an alsatian roll (elsässerbrötchen) is a plump oval roll about 13 cm long with blunt rounded ends. one ragged burst ridge runs lengthwise along the top where the folded seam opened. the crust is matte, golden to chestnut brown and dusted with white flour that has crackled into fine patches. the oval shape with one lengthwise ragged ridge is its mark: it is not the round flour-crackled stone-oven roll, not the round rose roll with torn flaps and not the smooth, shiny split-top roll with a neat cut. shown as one whole roll lying diagonally; it must show no seeds and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Elsässerbrötchen|Elsaesserbroetchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "alsatian oval roll|alsatian oval rolls|alsatian rolls|alsatian roll|alsace roll|alsace rolls|baguette dough roll|baguette dough rolls|elsasser brotchen|elsaesser broetchen|elsaesser weck|elsasser weck",
+        "needs": "elsaesserbroetchen|elsasserbrotchen"
+      }
     },
     {
       "id": "amaranth_leaves_all_sizes",
@@ -3521,6 +3567,31 @@
         "es": "Elote dulce bicolor"
       },
       "concept": "corn_sweet_bi_color"
+    },
+    {
+      "id": "loaf_wheat_boule_dark",
+      "plu": "",
+      "name": "Biokruste Hearth Loaf",
+      "category": "other",
+      "aliases": [
+        "Wheat bread",
+        "Rustic wheat loaf",
+        "Dark crust wheat bread",
+        "Crusty wheat loaf",
+        "Pan de trigo"
+      ],
+      "image": "loaf_wheat_boule_dark.png",
+      "desc": "a dark-baked wheat boule (weizenbrot) is a round wheat loaf about 20 cm across baked to a deep, almost dark chestnut crust, lightly floured. one deep ragged tear runs across the top and has lifted into a tall overhanging flap of crust. the crumb is creamy and open. the dark bake with one overhanging tear is its mark: it is not the pale straight-sided white tin loaf, not the oval three-slash wheat-rye loaf, not the golden cross-cut boule and not the golden curved-slash spelt boule. shown as one whole loaf standing by itself; it must show no stamp, no logo and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Weizenbrot|Biokruste",
+        "family": "",
+        "words": "",
+        "phrases": "biokruste hearth loaf|biokruste hearth loaves|rustic wheat loaf|rustic wheat loaves|dark crust wheat bread|dark crust wheat breads|biobio weizenbrot|bio weizenbrot|bio kruste|dark baked wheat boule|dark baked wheat boules",
+        "needs": "biokruste"
+      }
     },
     {
       "id": "black_currants",
@@ -7219,6 +7290,32 @@
       "concept": "coop_43_apples"
     },
     {
+      "id": "loaf_whole_rye_tin",
+      "plu": "",
+      "name": "Coarse Rye Tin Loaf",
+      "category": "other",
+      "aliases": [
+        "Whole rye bread",
+        "Rye wholegrain bread",
+        "Whole grain rye loaf",
+        "German rye bread",
+        "Dark rye tin loaf",
+        "Pan integral de centeno"
+      ],
+      "image": "loaf_whole_rye_tin.png",
+      "desc": "a whole rye tin loaf (roggen-vollkornbrot) is a rectangular tin loaf about 22 cm long with straight sides and a flat, very dark brown top cracked into a few long lines, with no seeds and no flakes. the cut face shows a dense, almost black-brown crumb packed with whole cracked rye kernels. the kernel-studded crumb in a flat-topped tin is its mark: it has no orange carrot flecks, unlike the carrot tin loaf, and it is not the free-form oval flensburg loaf. shown whole with two slices cut and leaning against the end; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Roggenvollkornbrot|Roggenvollkorn|Vollkornbrot",
+        "family": "",
+        "words": "",
+        "phrases": "coarse rye tin loaf|coarse rye tin loaves|whole rye bread|whole rye breads|rye wholegrain bread|rye wholegrain breads|whole grain rye loaf|whole grain rye loaves|german rye bread|german rye breads|dark rye tin loaf|dark rye tin loaves|pan integral de centeno|roggen vollkornbrot|whole rye tin loaf|whole rye tin loaves",
+        "needs": "roggenvollkorn|roggenvollkornbrot"
+      }
+    },
+    {
       "id": "roma_tomatoes_on_vine",
       "plu": "3336",
       "name": "Cocktail Roma Tomatoes on the Vine",
@@ -7980,6 +8077,31 @@
       "dims": {
         "size": "S",
         "region": "West"
+      }
+    },
+    {
+      "id": "roll_veggie_crisp",
+      "plu": "",
+      "name": "Crispy Filled Stick",
+      "category": "other",
+      "aliases": [
+        "Veggie roll",
+        "Vegetable stick roll",
+        "Crispy vegetable roll",
+        "Asia stick",
+        "Rollito de verduras"
+      ],
+      "image": "roll_veggie_crisp.png",
+      "desc": "a crispy filled stick (knusperstange asia) is a long, slim, straight rolled stick about 20 cm long, a thin crisp wrapper rolled into a tube, golden and coated in fine toasted crumbs. both ends are open and show a dark savory filling of finely chopped mixed vegetables with orange carrot bits. the open-ended crumb-coated tube with a vegetable filling is its mark: it is not the caraway-salt seele, not the seed-crusted quark stick and not the glossy seeded pretzel stick. shown as one whole stick beside a second one cut in half to show the filling; it must show no sauce and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Knusperstange|Veggierolle",
+        "family": "",
+        "words": "",
+        "phrases": "crispy filled stick|crispy filled sticks|vegetable stick roll|vegetable stick rolls|crispy vegetable roll|crispy vegetable rolls|asia stick|asia sticks|rollito de verduras|knusperstange asia|bio knusperstange asia|biobio knusperstange|bio veggierolle",
+        "needs": "knusperstange|veggierolle"
       }
     },
     {
@@ -11755,6 +11877,32 @@
         "es": "Uva espina"
       },
       "concept": "gooseberries"
+    },
+    {
+      "id": "roll_cheese_topped",
+      "plu": "",
+      "name": "Gouda Topped Roll",
+      "category": "other",
+      "aliases": [
+        "Cheese roll",
+        "Cheese bread roll",
+        "Cheese crust bun",
+        "Gouda roll",
+        "Cheesy roll",
+        "Pan con queso"
+      ],
+      "image": "roll_cheese_topped.png",
+      "desc": "a cheese crust roll (käsebrötchen) is a flat, diamond-shaped wheat roll about 13 cm long with two pointed ends and a gently domed middle. its whole top and sides are crusted in a fine, sandy, golden-orange layer of baked grated gouda crumbs, with no melted cap, no cut and no seeds. the diamond shape coated all over in sandy cheese crumb is its mark: it is not the lye-brown cheese pretzel stick with a melted strip and not the crescent ham and cheese croissant. shown whole with a second roll torn open to show the soft white crumb; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Käsebrötchen|Kaesebroetchen|Käsesemmel|Käseweck",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "gouda topped roll|gouda topped rolls|cheese bread roll|cheese bread rolls|cheese crust bun|cheese crust buns|gouda roll|gouda rolls|cheesy roll|cheesy rolls|pan con queso|kase brotchen|kaese broetchen|cheese crust roll|cheese crust rolls",
+        "needs": "kaesebroetchen|kaesesemmel|kaeseweck|kasebrotchen|kasesemmel|kaseweck"
+      }
     },
     {
       "id": "granny_smith_apples_large_v2",
@@ -17547,6 +17695,55 @@
       "concept": "malanga"
     },
     {
+      "id": "loaf_dark_malt",
+      "plu": "",
+      "name": "Malfabrot Malt Loaf",
+      "category": "other",
+      "aliases": [
+        "Malt bread",
+        "Dark malt bread",
+        "Malted rye loaf",
+        "Malfa bread",
+        "Malty brown loaf"
+      ],
+      "image": "loaf_dark_malt.png",
+      "desc": "a dark malt loaf (malfabrot) is a long free-form oval loaf about 30 cm long with a smooth, dark mahogany-brown crust marked by fine shallow cracks, no cuts, no flour and no seeds. the crumb is mid-brown, dense, moist and even, colored by malt. its smooth dark oval with fine cracks is its mark: it is not the rough rye-meal flensburg loaf, not the oat-topped malted multigrain tin, not the whole rye tin and not the carrot tin loaf. shown whole with the end cut off and three slices leaning against it; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Malfabrot|Malfa",
+        "family": "",
+        "words": "",
+        "phrases": "malfabrot malt loaf|malfabrot malt loaves|dark malt bread|dark malt breads|malted rye loaf|malted rye loaves|malfa bread|malfa breads|malty brown loaf|malty brown loaves|malfa brot|dark malt loaf|dark malt loaves",
+        "needs": "malfabrot"
+      }
+    },
+    {
+      "id": "loaf_malted_multigrain",
+      "plu": "",
+      "name": "Malted Loaf (Malzmehrkorn)",
+      "category": "other",
+      "aliases": [
+        "Malted multigrain bread",
+        "Malt multigrain loaf",
+        "Multigrain loaf",
+        "Oat-topped multigrain bread"
+      ],
+      "image": "loaf_malted_multigrain.png",
+      "desc": "a malted multigrain loaf (malzmehrkornbrot) is a free-form oval loaf about 26 cm long, baked on the stone and not in a tin, with a dark reddish-brown malt crust. the whole domed top is covered in coarse pale oat and barley flakes, with no flour and no cracks. the crumb is warm brown and dotted with whole grains. its flake-covered oval sets it apart from the floured, cracked sunflower loaf, the bare smooth dark malt loaf and the flat-topped whole rye tin loaf. shown whole with two slices cut and leaning at the cut end; it must not show a tin shape, seeds on the sides and text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Malzmehrkornbrot|Malzmeister",
+        "family": "",
+        "words": "",
+        "phrases": "malted loaf malzmehrkorn|malted multigrain bread|malted multigrain breads|malt multigrain loaf|malt multigrain loaves|oat topped multigrain bread|oat topped multigrain breads|malz mehrkornbrot|malz mehrkorn|malted multigrain loaf|malted multigrain loaves",
+        "needs": "malzmehrkornbrot|malzmeister"
+      }
+    },
+    {
       "id": "mamey",
       "plu": "4310",
       "name": "Mamey",
@@ -19645,6 +19842,30 @@
       "concept": "negro_peppers"
     },
     {
+      "id": "loaf_glossy_country",
+      "plu": "",
+      "name": "Netzbrot Oval Loaf",
+      "category": "other",
+      "aliases": [
+        "Netzbrot",
+        "Wheat loaf",
+        "Soft wheat loaf",
+        "Netted bread"
+      ],
+      "image": "loaf_glossy_country.png",
+      "desc": "a netzbrot wheat loaf is a plump free-form oval loaf about 22 cm long with a medium golden-brown matte crust and darker bare sides. only the top is strewn with fine short pale flecks, with no cuts and no flour, and the crust has no tiger mosaic, no giraffe pattern and no polygon cells. the crumb is cream-white with small irregular pores. the pale-flecked, uncut top on a golden oval is its mark: it is not the smooth oval wheat-rye loaf with three slashes, not the round cross-cut wheat boule and not the white-floured munich loaf with big dark cracks. shown whole with two slices cut and lying in front of it, both slices fully inside the frame; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Netzbrot|Genetztes|Eingenetztes",
+        "family": "",
+        "words": "",
+        "phrases": "netzbrot oval loaf|netzbrot oval loaves|netzbrot|soft wheat loaf|soft wheat loaves|netted bread|netted breads|netz brot|netzbrot wheat loaf|netzbrot wheat loaves",
+        "needs": "eingenetztes|genetztes|netzbrot"
+      }
+    },
+    {
       "id": "new_mexico_pepper",
       "plu": "4700",
       "name": "New Mexico Pepper",
@@ -19795,6 +20016,31 @@
         "es": "Lechuga de hoja de roble"
       },
       "concept": "oak_leaf_lettuce"
+    },
+    {
+      "id": "loaf_odenwald",
+      "plu": "",
+      "name": "Odenwald Country Loaf",
+      "category": "other",
+      "aliases": [
+        "Odenwald bread",
+        "Odenwald country bread",
+        "Hilly loaf",
+        "Unscored country loaf",
+        "Rustic country loaf"
+      ],
+      "image": "loaf_odenwald.png",
+      "desc": "an odenwald country loaf is a round wheat-rye loaf about 22 cm across baked without any cut, so its whole top has burst into a lumpy, hilly surface of uneven bulges divided by ragged cracks. the crust is crackling and deep golden brown with no flour and no shine. the hilly, uncut top is its mark: it is not the cross-cut wheat boule, not the curved-slash spelt boule and not the glossy two-burst farmhouse loaf, and it has no seeds. shown as one whole loaf standing by itself; it must show no slices and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Odenwälderlandbrot|Odenwälder",
+        "family": "",
+        "words": "",
+        "phrases": "odenwald country loaf|odenwald country loaves|odenwald bread|odenwald breads|odenwald country bread|odenwald country breads|hilly loaf|hilly loaves|unscored country loaf|unscored country loaves|rustic country loaf|rustic country loaves|odenwalder landbrot|odenwaelder landbrot",
+        "needs": "odenwaelder|odenwaelderlandbrot|odenwalder|odenwalderlandbrot"
+      }
     },
     {
       "id": "okra_chinese",
@@ -23811,6 +24057,31 @@
       }
     },
     {
+      "id": "pastry_poultry_sausage",
+      "plu": "",
+      "name": "Poultry Frikandel Roll",
+      "category": "other",
+      "aliases": [
+        "Chicken sausage roll",
+        "Poultry sausage roll",
+        "Chicken pastry roll",
+        "Frikandel roll",
+        "Rollo de salchicha de pollo"
+      ],
+      "image": "pastry_poultry_sausage.png",
+      "desc": "a poultry sausage pastry (geflügelrolle) is a straight, round tube of pale golden puff pastry about 15 cm long with six evenly spaced browned bands cut straight across it, each band at right angles to the length. both ends are open and cut flush, showing a thick, pale beige-pink skinless sausage level with the pastry. the straight crosswise bands with a flush pale sausage are its mark: it is not the spiral-wrapped sausage roll with a red frankfurter sticking out and not the flat slab with diagonal slits and red curry filling. shown whole with a cut half beside it; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Geflügelrolle|Gefluegelrolle|Hähnchenrolle|Geflügel Rolle",
+        "family": "",
+        "words": "",
+        "phrases": "poultry frikandel roll|poultry frikandel rolls|chicken sausage roll|chicken sausage rolls|poultry sausage roll|poultry sausage rolls|chicken pastry roll|chicken pastry rolls|frikandel roll|frikandel rolls|rollo de salchicha de pollo|geflugel rolle|gefluegel rolle|poultry sausage pastry|poultry sausage pastries",
+        "needs": "gefluegelrolle|geflugelrolle|haehnchenrolle|hahnchenrolle"
+      }
+    },
+    {
       "id": "prema17_apples_large",
       "plu": "3627",
       "name": "PremA17 Apples - Large",
@@ -23994,6 +24265,32 @@
         "es": "Ciruela pasa con hueso"
       },
       "concept": "prunes"
+    },
+    {
+      "id": "party_sun_rolls",
+      "plu": "",
+      "name": "Pull-Apart Party Rolls",
+      "category": "other",
+      "aliases": [
+        "Party sun",
+        "Pull-apart rolls",
+        "Party rolls",
+        "Roll wreath",
+        "Sharing rolls",
+        "Panecillos para compartir"
+      ],
+      "image": "party_sun_rolls.png",
+      "desc": "pull-apart party rolls (partysonne) are one large round bake made of eleven small golden rolls baked touching: ten in a ring around one in the center, like a flower. the ring rolls carry toppings in turn: sesame, poppy seed, pumpkin seeds, sunflower seeds and grated cheese baked golden, and the center roll is plain. eleven joined rolls in a flower are the mark: it is not a single kaiser roll and not a single seeded country roll. shown whole from above at a slight angle, standing by itself; it must show no dips and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Partysonne|Brötchensonne|Broetchensonne|Partybrötchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "pull apart party rolls|pull apart party roll|party sun|party suns|pull apart rolls|pull apart roll|party rolls|party roll|roll wreath|roll wreaths|sharing rolls|sharing roll|panecillos para compartir|party sonne",
+        "needs": "broetchensonne|brotchensonne|partybroetchen|partybrotchen|partysonne"
+      }
     },
     {
       "id": "pummelo_red",
@@ -27210,6 +27507,33 @@
       "concept": "seckel_pears"
     },
     {
+      "id": "baguette_multigrain",
+      "plu": "",
+      "name": "Seeded Baguette (Mehrkorn)",
+      "category": "other",
+      "aliases": [
+        "Multigrain baguette",
+        "Seeded baguette",
+        "Multi-seed baguette",
+        "Grain baguette",
+        "Wholegrain baguette",
+        "Baguette multigrano",
+        "Baguette de semillas"
+      ],
+      "image": "baguette_multigrain.png",
+      "desc": "a multigrain baguette (mehrkornbaguette) is a long, slim baguette about 50 cm long with tapered ends, made from brown grain dough, whose whole crust is coated in a mix of sunflower kernels, sesame, linseed and oat flakes. five diagonal slashes open along the top into paler ridges. the seed coat on a full-length slashed baguette is its mark: it is not the floury, seedless stone-oven baguette, not the onion-flecked baguette and not the short, uncut seeded quark stick. shown as one whole baguette lying diagonally; it must show no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Mehrkornbaguette",
+        "family": "Baguette|Baguettes|Weizenbaguette|Stangenweißbrot|Pariser Weißbrot|baguete|baguetes|baghetta|bagietka|bagietki",
+        "words": "mit Kernen kernhaltig avec pépins com sementes com caroço com semente com grainha con semi z pestkami z pestką",
+        "phrases": "seeded baguette mehrkorn|multigrain baguette|multigrain baguettes|seeded baguette|seeded baguettes|multi seed baguette|multi seed baguettes|grain baguette|grain baguettes|wholegrain baguette|wholegrain baguettes|baguette multigrano|baguette de semillas|biobio mehrkornbaguette|bio mehrkornbaguette|mehrkorn baguette",
+        "needs": "mehrkornbaguette"
+      }
+    },
+    {
       "id": "roll_grain_mix",
       "plu": "",
       "name": "Seeded Country Roll",
@@ -27815,6 +28139,30 @@
       "concept": "snow_peas"
     },
     {
+      "id": "roll_butter_soft",
+      "plu": "",
+      "name": "Soft Glazed Roll",
+      "category": "other",
+      "aliases": [
+        "Milk roll",
+        "Soft white roll",
+        "Pan de leche",
+        "Bollo de leche"
+      ],
+      "image": "roll_butter_soft.png",
+      "desc": "a soft butter roll (butterbrötchen) is one smooth, oval milk roll about 11 cm long, softly domed, with a perfectly smooth, unbroken, glossy golden top. it has no cut, no stamp pattern, no knot, no seeds and no sugar, and its sides fade to a pale cream where it was baked against its neighbors. the smooth, unbroken glossy top is its mark: it is not the knotted brioche, not the pinwheel kaiser roll, not the split-top roll with a burst cut and not the joined double roll. shown as one whole roll standing by itself; it must show no wrapper and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Butterbrötchen|Butterbroetchen|Milchbrötchen|Milchbroetchen",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "soft glazed roll|soft glazed rolls|milk roll|milk rolls|pan de leche|bollo de leche|golden toast butterbroetchen|golden toast butterbrotchen|butter broetchen|butter brotchen|soft butter roll|soft butter rolls",
+        "needs": "butterbroetchen|butterbrotchen|milchbroetchen|milchbrotchen"
+      }
+    },
+    {
       "id": "pretzel_soft",
       "plu": "",
       "name": "Soft Pretzel",
@@ -28404,6 +28752,31 @@
         "es": "Melón Sprite"
       },
       "concept": "sprite_melon"
+    },
+    {
+      "id": "roll_raisin",
+      "plu": "",
+      "name": "Square Raisin Roll",
+      "category": "other",
+      "aliases": [
+        "Raisin rolls",
+        "Raisin bun",
+        "Fruit roll",
+        "Pan de pasas",
+        "Bollo de pasas"
+      ],
+      "image": "roll_raisin.png",
+      "desc": "a rustic bun with raisins (rosinenbrötchen) is a squarish, block-shaped wheat roll about 10 cm long with cut, slightly uneven sides and a rough top. the crust is matte and light golden, with no egg wash and no shine, and dark raisins sit in the dough, showing through the crust and at the cut sides. the square cut, matte crust and raisins are its mark: it is not a glossy round bun, not the knotted brioche and not the smooth soft butter roll. shown as one whole bun standing by itself; it must show no sugar, no icing and no text.",
+      "section": "Bakery",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Rosinenbrötchen|Rosinenbroetchen|Rosis Liebling",
+        "family": "Brötchen|Semmel|Semmeln|Weck|Wecken|Weckle|Rundstück|Rundstücke|petit pain|petits pains|pãozinho|pãezinhos|panino|panini|bułka|bułki|bułeczka|bułeczki",
+        "words": "",
+        "phrases": "square raisin roll|square raisin rolls|raisin rolls|raisin roll|raisin bun|raisin buns|pan de pasas|bollo de pasas|rosinen broetchen|rosinen brotchen|rosi s liebling|rosis liebling|rustic bun with raisins",
+        "needs": "liebling|rosinenbroetchen|rosinenbrotchen"
+      }
     },
     {
       "id": "squash_acorn_golden",

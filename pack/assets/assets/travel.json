@@ -76,6 +76,21 @@
         "sha256": "a4449a9df9c789d668b5f7ed6637b85d6248117cf3c5bb126f8d3ccc666aa699"
       }
     },
+    "baguette_multigrain.png": {
+      "full": {
+        "bytes": 12506,
+        "path": "assets/travel/baguette_multigrain.png",
+        "px": 256,
+        "sha256": "ac7b14fd8f0c32f5e820a3cbdfb73e4df623827887d9c7aaae9ba3374a2812e3"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 5917,
+        "path": "assets/travel/small/baguette_multigrain.png",
+        "px": 160,
+        "sha256": "7d8e11e6f256903615eca600d9cfeb718787bf13b1ee7c6017e184117860eb96"
+      }
+    },
     "baguette_onion.png": {
       "full": {
         "bytes": 18598,
@@ -826,6 +841,21 @@
         "sha256": "bd8be413a3cea24593f42550696b4136d41f654d965378c6e6c206f8bbd28099"
       }
     },
+    "loaf_dark_malt.png": {
+      "full": {
+        "bytes": 20992,
+        "path": "assets/travel/loaf_dark_malt.png",
+        "px": 256,
+        "sha256": "e82c9189d9809ff0be1d4092fff350272c032ac3253e8408b008669f569972ae"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 9404,
+        "path": "assets/travel/small/loaf_dark_malt.png",
+        "px": 160,
+        "sha256": "12565b0f51c0f2bc20398af3d9b8729378b95c3095363d8621aecde595352da8"
+      }
+    },
     "loaf_farmhouse.png": {
       "full": {
         "bytes": 32155,
@@ -854,6 +884,36 @@
         "path": "assets/travel/small/loaf_flensburg_dark.png",
         "px": 160,
         "sha256": "b12d5979ef97016e8a262745ff6737a3fe65b853e003edbd4d26803ac385dfe6"
+      }
+    },
+    "loaf_glossy_country.png": {
+      "full": {
+        "bytes": 27096,
+        "path": "assets/travel/loaf_glossy_country.png",
+        "px": 256,
+        "sha256": "eef22040fd9cb5dbf2399968b5310f0a094d9f86a56ec792fbbc8a5a24155203"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 11749,
+        "path": "assets/travel/small/loaf_glossy_country.png",
+        "px": 160,
+        "sha256": "577f4e9f801ff2b7b83197add20904391f5b73d4df0e0a6a664ac4b07d163516"
+      }
+    },
+    "loaf_malted_multigrain.png": {
+      "full": {
+        "bytes": 24412,
+        "path": "assets/travel/loaf_malted_multigrain.png",
+        "px": 256,
+        "sha256": "9ac705967529ea7b693110e9886eb8c5b05a84736e22f6abb1dc77c95a4ab6df"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 10538,
+        "path": "assets/travel/small/loaf_malted_multigrain.png",
+        "px": 160,
+        "sha256": "fe23d6b2a54d9a16f24cfa328c2cf5f343ffb84af6bed544f4afe529d6846531"
       }
     },
     "loaf_mecklenburg.png": {
@@ -899,6 +959,21 @@
         "path": "assets/travel/small/loaf_mustard_sunflower.png",
         "px": 160,
         "sha256": "3fee7b424da2bd2d4c0fb89cd411c8df953c95fbdb2dbb3bde09c5ffcce46994"
+      }
+    },
+    "loaf_odenwald.png": {
+      "full": {
+        "bytes": 30111,
+        "path": "assets/travel/loaf_odenwald.png",
+        "px": 256,
+        "sha256": "892decc47bbf7b9cc33809ccea2232aba28640eb0e4237f4d045f9d067c8b7ff"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 12852,
+        "path": "assets/travel/small/loaf_odenwald.png",
+        "px": 160,
+        "sha256": "4d8ed500c1e273f46aea4829950371c470d9517a09ff2a43b5558ddadec5f5f9"
       }
     },
     "loaf_paderborn.png": {
@@ -1021,6 +1096,21 @@
         "sha256": "e38e4a8d5d8eb0627679488ed9e6eb688715bc08100e52291fdb522e5f884b21"
       }
     },
+    "loaf_wheat_boule_dark.png": {
+      "full": {
+        "bytes": 48553,
+        "path": "assets/travel/loaf_wheat_boule_dark.png",
+        "px": 256,
+        "sha256": "7312f5f2190f609c7bd890c18b30e662c620fb6fa6d7cb0c6af234d9881c26d0"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 20222,
+        "path": "assets/travel/small/loaf_wheat_boule_dark.png",
+        "px": 160,
+        "sha256": "540fc7785dd5f0080366ac64fce3790bdcc8515290e363d5d6867424550e54fd"
+      }
+    },
     "loaf_wheat_crust.png": {
       "full": {
         "bytes": 46696,
@@ -1064,6 +1154,21 @@
         "path": "assets/travel/small/loaf_white_tin.png",
         "px": 160,
         "sha256": "9e7398e7dcd6d1a7bf0d6c4b8a0e8a8ffb1f78ee824f4a28a3adb2e58b8d4d14"
+      }
+    },
+    "loaf_whole_rye_tin.png": {
+      "full": {
+        "bytes": 19177,
+        "path": "assets/travel/loaf_whole_rye_tin.png",
+        "px": 256,
+        "sha256": "e9503d1c2bb71c80690d299398dffa1ddd8e339d554c3f3ccb42a6393d170ce5"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 8428,
+        "path": "assets/travel/small/loaf_whole_rye_tin.png",
+        "px": 160,
+        "sha256": "c1a5188f9c156396051f0e77315433b366686e8ba60d8731d9c851ea2e0b8bd8"
       }
     },
     "loaf_world_champion.png": {
@@ -1201,6 +1306,21 @@
         "sha256": "7f1e1212f0188d622becd8f76e6697cdf87ec3d351f9c097ea64d0d2fb8ce04b"
       }
     },
+    "party_sun_rolls.png": {
+      "full": {
+        "bytes": 48761,
+        "path": "assets/travel/party_sun_rolls.png",
+        "px": 256,
+        "sha256": "674f7fd41c7c4f295b341fdaf81b62fb837a30f2b984836fb1d94a80e9a25a18"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 20559,
+        "path": "assets/travel/small/party_sun_rolls.png",
+        "px": 160,
+        "sha256": "dff710559e618354d15c7bd0a884bb05b53a82b5fd7a48ea3d06b9414c961f70"
+      }
+    },
     "pastry_apple_streusel_danish.png": {
       "full": {
         "bytes": 47069,
@@ -1334,6 +1454,21 @@
         "path": "assets/travel/small/pastry_poppy_butterfly.png",
         "px": 160,
         "sha256": "543b7b24ff046e424690a86dc90152107c914272846dc02cc5df71b3c9ce7ab8"
+      }
+    },
+    "pastry_poultry_sausage.png": {
+      "full": {
+        "bytes": 16134,
+        "path": "assets/travel/pastry_poultry_sausage.png",
+        "px": 256,
+        "sha256": "12878043d663d72bab972c21eb53cbc635a43dc157018ee81401682939b87ef2"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 7538,
+        "path": "assets/travel/small/pastry_poultry_sausage.png",
+        "px": 160,
+        "sha256": "3aba756c0c588f533d4b089232fa1b4b37ecc10f418cf1270f9121097fbbbbe8"
       }
     },
     "pastry_quark_pocket.png": {
@@ -1651,6 +1786,51 @@
         "sha256": "ebec9e2dbf6f6f88f9cca41ba83664e00b075df63a728e2b3235a5f638a1c645"
       }
     },
+    "roll_alsatian.png": {
+      "full": {
+        "bytes": 30475,
+        "path": "assets/travel/roll_alsatian.png",
+        "px": 256,
+        "sha256": "b5abdca696473c9d5e8bebc89af08d0c339ed97cc988510fea83a0cc1ce78f61"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 13032,
+        "path": "assets/travel/small/roll_alsatian.png",
+        "px": 160,
+        "sha256": "3fd544cf6e8ed48ee672d0ca0e420790669677c0ed96621f6ac1787f16d4bfd5"
+      }
+    },
+    "roll_butter_soft.png": {
+      "full": {
+        "bytes": 19023,
+        "path": "assets/travel/roll_butter_soft.png",
+        "px": 256,
+        "sha256": "06083e8d7a2307d06a42eb3d59f05955e69dfe29f0f6f343e44261046e9991b3"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 8911,
+        "path": "assets/travel/small/roll_butter_soft.png",
+        "px": 160,
+        "sha256": "fd0f1cfc0459ab7fa8dffc9301e210c3e45ea4d1d3fc0ca2df09264a66e329df"
+      }
+    },
+    "roll_cheese_topped.png": {
+      "full": {
+        "bytes": 27871,
+        "path": "assets/travel/roll_cheese_topped.png",
+        "px": 256,
+        "sha256": "3f3497f64f75070ec2219b4871a8fb9a4a079a1a4221ff89baf835ef55b06e07"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 12284,
+        "path": "assets/travel/small/roll_cheese_topped.png",
+        "px": 160,
+        "sha256": "4035ca7a7a155e42abcf28df37c1dcc0518749917da79732ce7fefc9629b7df9"
+      }
+    },
     "roll_double_split.png": {
       "full": {
         "bytes": 21741,
@@ -1771,6 +1951,21 @@
         "sha256": "bf515ada67dcef0f38f7812c492e69f70200e33ff8ea2f9711fd46fddeda42b1"
       }
     },
+    "roll_raisin.png": {
+      "full": {
+        "bytes": 28446,
+        "path": "assets/travel/roll_raisin.png",
+        "px": 256,
+        "sha256": "806130788c2b888e11699ad46bd3559639c65e4b1a46f0fc07ca24a334acb442"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 12499,
+        "path": "assets/travel/small/roll_raisin.png",
+        "px": 160,
+        "sha256": "dfa461358e02e0defa4edc64305374993ff460be2f890b1c2e8afb32c2f6ea5f"
+      }
+    },
     "roll_rose.png": {
       "full": {
         "bytes": 41341,
@@ -1799,6 +1994,21 @@
         "path": "assets/travel/small/roll_rye.png",
         "px": 160,
         "sha256": "b186c276f16f219383f9c802491f4f607fff71004bf6a8002a662112fea5e415"
+      }
+    },
+    "roll_seeded_flat.png": {
+      "full": {
+        "bytes": 23131,
+        "path": "assets/travel/roll_seeded_flat.png",
+        "px": 256,
+        "sha256": "26c8c31ba84f08351d8838d0a7bbf4acd8d30848f7f93004c47f5fd0d6e218e9"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 10190,
+        "path": "assets/travel/small/roll_seeded_flat.png",
+        "px": 160,
+        "sha256": "81d9c84bd58ecd63f7e18f2cdcbcf58e0654b4660ed7a491a9e811232b1a4f44"
       }
     },
     "roll_sesame.png": {
@@ -1874,6 +2084,21 @@
         "path": "assets/travel/small/roll_sunflower_seed.png",
         "px": 160,
         "sha256": "8012f50062ede82c0d45e9410d4645015621f731406f7ea1e819918bf61f02a2"
+      }
+    },
+    "roll_veggie_crisp.png": {
+      "full": {
+        "bytes": 15129,
+        "path": "assets/travel/roll_veggie_crisp.png",
+        "px": 256,
+        "sha256": "adbc056c6cab28581457e1f29ed19cb9dd7ca7ac539f405486b8f40a184c2a96"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 7081,
+        "path": "assets/travel/small/roll_veggie_crisp.png",
+        "px": 160,
+        "sha256": "855cf76552762cc4d97395b9296104fb88ebea64172ca80594541c2e4c82488d"
       }
     },
     "roll_walnut_rustic.png": {

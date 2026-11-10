@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\").",
+  "version": 11,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\"). 15 more Netto items joined on 2026-11-10 (owner, asked what should happen with the items still left out: \"Draw all 15\"): best guesses from the product type, two from the name alone.",
   "items": [
     {
       "id": "jocote",
@@ -2137,6 +2137,244 @@
         "Glazed apple cake"
       ],
       "desc": "A mini apple cake (Apfelkuchen im Schälchen) is a small round cake baked in its own plain, unprinted, pleated paper tray of natural light-brown baking paper, whose fluted rim stands a little higher than the cake all the way around. The top is covered with fanned thin apple slices arranged in a ring, golden at the edges and shining under a clear apricot glaze, over a pale golden sponge. It is round in a pleated tray with a fan of apple slices, unlike the rectangular marbled cherry cake in its straight-sided tray, and it has no streusel. Shown whole in the tray at a slight angle, the tray filling the frame; it must show no whole apples, no print on the tray and no text."
+    },
+    {
+      "id": "roll_raisin",
+      "name": "Square Raisin Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_raisin.png",
+      "since": 110,
+      "aliases": [
+        "Raisin rolls",
+        "Raisin bun",
+        "Fruit roll",
+        "Pan de pasas",
+        "Bollo de pasas"
+      ],
+      "desc": "A rustic bun with raisins (Rosinenbrötchen) is a squarish, block-shaped wheat roll about 10 cm long with cut, slightly uneven sides and a rough top. The crust is matte and light golden, with no egg wash and no shine, and dark raisins sit in the dough, showing through the crust and at the cut sides. The square cut, matte crust and raisins are its mark: it is not a glossy round bun, not the knotted brioche and not the smooth soft butter roll. Shown as one whole bun standing by itself; it must show no sugar, no icing and no text."
+    },
+    {
+      "id": "roll_alsatian",
+      "name": "Alsatian Oval Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_alsatian.png",
+      "since": 110,
+      "aliases": [
+        "Alsatian rolls",
+        "Alsace roll",
+        "Baguette dough roll"
+      ],
+      "desc": "An Alsatian roll (Elsässerbrötchen) is a plump oval roll about 13 cm long with blunt rounded ends. One ragged burst ridge runs lengthwise along the top where the folded seam opened. The crust is matte, golden to chestnut brown and dusted with white flour that has crackled into fine patches. The oval shape with one lengthwise ragged ridge is its mark: it is not the round flour-crackled stone-oven roll, not the round rose roll with torn flaps and not the smooth, shiny split-top roll with a neat cut. Shown as one whole roll lying diagonally; it must show no seeds and no text."
+    },
+    {
+      "id": "loaf_odenwald",
+      "name": "Odenwald Country Loaf",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_odenwald.png",
+      "since": 110,
+      "aliases": [
+        "Odenwald bread",
+        "Odenwald country bread",
+        "Hilly loaf",
+        "Unscored country loaf",
+        "Rustic country loaf"
+      ],
+      "desc": "An Odenwald country loaf is a round wheat-rye loaf about 22 cm across baked without any cut, so its whole top has burst into a lumpy, hilly surface of uneven bulges divided by ragged cracks. The crust is crackling and deep golden brown with no flour and no shine. The hilly, uncut top is its mark: it is not the cross-cut wheat boule, not the curved-slash spelt boule and not the glossy two-burst farmhouse loaf, and it has no seeds. Shown as one whole loaf standing by itself; it must show no slices and no text."
+    },
+    {
+      "id": "party_sun_rolls",
+      "name": "Pull-Apart Party Rolls",
+      "category": "other",
+      "section": "Bakery",
+      "image": "party_sun_rolls.png",
+      "since": 110,
+      "aliases": [
+        "Party sun",
+        "Pull-apart rolls",
+        "Party rolls",
+        "Roll wreath",
+        "Sharing rolls",
+        "Panecillos para compartir"
+      ],
+      "desc": "Pull-apart party rolls (Partysonne) are one large round bake made of eleven small golden rolls baked touching: ten in a ring around one in the center, like a flower. The ring rolls carry toppings in turn: sesame, poppy seed, pumpkin seeds, sunflower seeds and grated cheese baked golden, and the center roll is plain. Eleven joined rolls in a flower are the mark: it is not a single Kaiser roll and not a single seeded country roll. Shown whole from above at a slight angle, standing by itself; it must show no dips and no text."
+    },
+    {
+      "id": "loaf_glossy_country",
+      "name": "Netzbrot Oval Loaf",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_glossy_country.png",
+      "since": 110,
+      "aliases": [
+        "Netzbrot",
+        "Wheat loaf",
+        "Soft wheat loaf",
+        "Netted bread"
+      ],
+      "desc": "A Netzbrot wheat loaf is a plump free-form oval loaf about 22 cm long with a medium golden-brown matte crust and darker bare sides. Only the top is strewn with fine short pale flecks, with no cuts and no flour, and the crust has no tiger mosaic, no giraffe pattern and no polygon cells. The crumb is cream-white with small irregular pores. The pale-flecked, uncut top on a golden oval is its mark: it is not the smooth oval wheat-rye loaf with three slashes, not the round cross-cut wheat boule and not the white-floured Munich loaf with big dark cracks. Shown whole with two slices cut and lying in front of it, both slices fully inside the frame; it must show no text."
+    },
+    {
+      "id": "loaf_dark_malt",
+      "name": "Malfabrot Malt Loaf",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_dark_malt.png",
+      "since": 110,
+      "aliases": [
+        "Malt bread",
+        "Dark malt bread",
+        "Malted rye loaf",
+        "Malfa bread",
+        "Malty brown loaf"
+      ],
+      "desc": "A dark malt loaf (Malfabrot) is a long free-form oval loaf about 30 cm long with a smooth, dark mahogany-brown crust marked by fine shallow cracks, no cuts, no flour and no seeds. The crumb is mid-brown, dense, moist and even, colored by malt. Its smooth dark oval with fine cracks is its mark: it is not the rough rye-meal Flensburg loaf, not the oat-topped malted multigrain tin, not the whole rye tin and not the carrot tin loaf. Shown whole with the end cut off and three slices leaning against it; it must show no text."
+    },
+    {
+      "id": "loaf_malted_multigrain",
+      "name": "Malted Loaf (Malzmehrkorn)",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_malted_multigrain.png",
+      "since": 110,
+      "aliases": [
+        "Malted multigrain bread",
+        "Malt multigrain loaf",
+        "Multigrain loaf",
+        "Oat-topped multigrain bread"
+      ],
+      "desc": "A malted multigrain loaf (Malzmehrkornbrot) is a free-form oval loaf about 26 cm long, baked on the stone and not in a tin, with a dark reddish-brown malt crust. The whole domed top is covered in coarse pale oat and barley flakes, with no flour and no cracks. The crumb is warm brown and dotted with whole grains. Its flake-covered oval sets it apart from the floured, cracked sunflower loaf, the bare smooth dark malt loaf and the flat-topped whole rye tin loaf. Shown whole with two slices cut and leaning at the cut end; it must not show a tin shape, seeds on the sides and text."
+    },
+    {
+      "id": "loaf_whole_rye_tin",
+      "name": "Coarse Rye Tin Loaf",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_whole_rye_tin.png",
+      "since": 110,
+      "aliases": [
+        "Whole rye bread",
+        "Rye wholegrain bread",
+        "Whole grain rye loaf",
+        "German rye bread",
+        "Dark rye tin loaf",
+        "Pan integral de centeno"
+      ],
+      "desc": "A whole rye tin loaf (Roggen-Vollkornbrot) is a rectangular tin loaf about 22 cm long with straight sides and a flat, very dark brown top cracked into a few long lines, with no seeds and no flakes. The cut face shows a dense, almost black-brown crumb packed with whole cracked rye kernels. The kernel-studded crumb in a flat-topped tin is its mark: it has no orange carrot flecks, unlike the carrot tin loaf, and it is not the free-form oval Flensburg loaf. Shown whole with two slices cut and leaning against the end; it must show no text."
+    },
+    {
+      "id": "loaf_wheat_boule_dark",
+      "name": "Biokruste Hearth Loaf",
+      "category": "other",
+      "section": "Bakery",
+      "image": "loaf_wheat_boule_dark.png",
+      "since": 110,
+      "aliases": [
+        "Wheat bread",
+        "Rustic wheat loaf",
+        "Dark crust wheat bread",
+        "Crusty wheat loaf",
+        "Pan de trigo"
+      ],
+      "desc": "A dark-baked wheat boule (Weizenbrot) is a round wheat loaf about 20 cm across baked to a deep, almost dark chestnut crust, lightly floured. One deep ragged tear runs across the top and has lifted into a tall overhanging flap of crust. The crumb is creamy and open. The dark bake with one overhanging tear is its mark: it is not the pale straight-sided white tin loaf, not the oval three-slash wheat-rye loaf, not the golden cross-cut boule and not the golden curved-slash spelt boule. Shown as one whole loaf standing by itself; it must show no stamp, no logo and no text."
+    },
+    {
+      "id": "roll_cheese_topped",
+      "name": "Gouda Topped Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_cheese_topped.png",
+      "since": 110,
+      "aliases": [
+        "Cheese roll",
+        "Cheese bread roll",
+        "Cheese crust bun",
+        "Gouda roll",
+        "Cheesy roll",
+        "Pan con queso"
+      ],
+      "desc": "A cheese crust roll (Käsebrötchen) is a flat, diamond-shaped wheat roll about 13 cm long with two pointed ends and a gently domed middle. Its whole top and sides are crusted in a fine, sandy, golden-orange layer of baked grated Gouda crumbs, with no melted cap, no cut and no seeds. The diamond shape coated all over in sandy cheese crumb is its mark: it is not the lye-brown cheese pretzel stick with a melted strip and not the crescent ham and cheese croissant. Shown whole with a second roll torn open to show the soft white crumb; it must show no text."
+    },
+    {
+      "id": "roll_butter_soft",
+      "name": "Soft Glazed Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_butter_soft.png",
+      "since": 110,
+      "aliases": [
+        "Milk roll",
+        "Soft white roll",
+        "Pan de leche",
+        "Bollo de leche"
+      ],
+      "desc": "A soft butter roll (Butterbrötchen) is one smooth, oval milk roll about 11 cm long, softly domed, with a perfectly smooth, unbroken, glossy golden top. It has no cut, no stamp pattern, no knot, no seeds and no sugar, and its sides fade to a pale cream where it was baked against its neighbors. The smooth, unbroken glossy top is its mark: it is not the knotted brioche, not the pinwheel Kaiser roll, not the split-top roll with a burst cut and not the joined double roll. Shown as one whole roll standing by itself; it must show no wrapper and no text."
+    },
+    {
+      "id": "roll_seeded_flat",
+      "name": "Alpine Senner Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_seeded_flat.png",
+      "since": 110,
+      "aliases": [
+        "Alpine roll",
+        "Herdsman roll",
+        "Senner roll"
+      ],
+      "desc": "An alpine seeded roll (Sennerfladen) is a thick, rectangular wheat-rye roll about 15 cm long, 7 cm wide and 4 cm tall with rounded corners and a flat top. The whole top is crowded with green-gray pumpkin seeds and pale sunflower kernels, with golden shreds of baked Gouda between them. The rectangular block crusted with pumpkin and sunflower seeds is its mark: it is not the round puffy Turkish flatbread, not the squarish all-pumpkin roll and not the diamond cheese crust roll. Shown as one whole roll in a three-quarter view; it must show no tomato topping and no text."
+    },
+    {
+      "id": "baguette_multigrain",
+      "name": "Seeded Baguette (Mehrkorn)",
+      "category": "other",
+      "section": "Bakery",
+      "image": "baguette_multigrain.png",
+      "since": 110,
+      "aliases": [
+        "Multigrain baguette",
+        "Seeded baguette",
+        "Multi-seed baguette",
+        "Grain baguette",
+        "Wholegrain baguette",
+        "Baguette multigrano",
+        "Baguette de semillas"
+      ],
+      "desc": "A multigrain baguette (Mehrkornbaguette) is a long, slim baguette about 50 cm long with tapered ends, made from brown grain dough, whose whole crust is coated in a mix of sunflower kernels, sesame, linseed and oat flakes. Five diagonal slashes open along the top into paler ridges. The seed coat on a full-length slashed baguette is its mark: it is not the floury, seedless stone-oven baguette, not the onion-flecked baguette and not the short, uncut seeded quark stick. Shown as one whole baguette lying diagonally; it must show no text."
+    },
+    {
+      "id": "roll_veggie_crisp",
+      "name": "Crispy Filled Stick",
+      "category": "other",
+      "section": "Bakery",
+      "image": "roll_veggie_crisp.png",
+      "since": 110,
+      "aliases": [
+        "Veggie roll",
+        "Vegetable stick roll",
+        "Crispy vegetable roll",
+        "Asia stick",
+        "Rollito de verduras"
+      ],
+      "desc": "A crispy filled stick (Knusperstange Asia) is a long, slim, straight rolled stick about 20 cm long, a thin crisp wrapper rolled into a tube, golden and coated in fine toasted crumbs. Both ends are open and show a dark savory filling of finely chopped mixed vegetables with orange carrot bits. The open-ended crumb-coated tube with a vegetable filling is its mark: it is not the caraway-salt Seele, not the seed-crusted quark stick and not the glossy seeded pretzel stick. Shown as one whole stick beside a second one cut in half to show the filling; it must show no sauce and no text."
+    },
+    {
+      "id": "pastry_poultry_sausage",
+      "name": "Poultry Frikandel Roll",
+      "category": "other",
+      "section": "Bakery",
+      "image": "pastry_poultry_sausage.png",
+      "since": 110,
+      "aliases": [
+        "Chicken sausage roll",
+        "Poultry sausage roll",
+        "Chicken pastry roll",
+        "Frikandel roll",
+        "Rollo de salchicha de pollo"
+      ],
+      "desc": "A poultry sausage pastry (Geflügelrolle) is a straight, round tube of pale golden puff pastry about 15 cm long with six evenly spaced browned bands cut straight across it, each band at right angles to the length. Both ends are open and cut flush, showing a thick, pale beige-pink skinless sausage level with the pastry. The straight crosswise bands with a flush pale sausage are its mark: it is not the spiral-wrapped sausage roll with a red frankfurter sticking out and not the flat slab with diagonal slits and red curry filling. Shown whole with a cut half beside it; it must show no text."
     }
   ]
 }

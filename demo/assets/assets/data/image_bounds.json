@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1220,
+  "image_count": 1235,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -555,6 +555,12 @@
       "top": 0.263671875,
       "right": 1.0,
       "bottom": 0.734375
+    },
+    "baguette_multigrain.png": {
+      "left": 0.001953125,
+      "top": 0.26953125,
+      "right": 0.998046875,
+      "bottom": 0.73046875
     },
     "baguette_onion.png": {
       "left": 0.009765625,
@@ -3706,6 +3712,12 @@
       "right": 0.97265625,
       "bottom": 0.828125
     },
+    "loaf_dark_malt.png": {
+      "left": 0.005859375,
+      "top": 0.294921875,
+      "right": 0.994140625,
+      "bottom": 0.72265625
+    },
     "loaf_farmhouse.png": {
       "left": 0.013671875,
       "top": 0.17578125,
@@ -3717,6 +3729,18 @@
       "top": 0.26171875,
       "right": 0.966796875,
       "bottom": 0.740234375
+    },
+    "loaf_glossy_country.png": {
+      "left": 0.005859375,
+      "top": 0.17578125,
+      "right": 0.9921875,
+      "bottom": 0.833984375
+    },
+    "loaf_malted_multigrain.png": {
+      "left": 0.005859375,
+      "top": 0.251953125,
+      "right": 0.99609375,
+      "bottom": 0.75
     },
     "loaf_mecklenburg.png": {
       "left": 0.00390625,
@@ -3735,6 +3759,12 @@
       "top": 0.16796875,
       "right": 0.955078125,
       "bottom": 0.83203125
+    },
+    "loaf_odenwald.png": {
+      "left": 0.076171875,
+      "top": 0.169921875,
+      "right": 0.921875,
+      "bottom": 0.833984375
     },
     "loaf_paderborn.png": {
       "left": 0.00390625,
@@ -3784,6 +3814,12 @@
       "right": 0.998046875,
       "bottom": 0.75390625
     },
+    "loaf_wheat_boule_dark.png": {
+      "left": 0.001953125,
+      "top": 0.001953125,
+      "right": 0.998046875,
+      "bottom": 0.998046875
+    },
     "loaf_wheat_crust.png": {
       "left": 0.017578125,
       "top": 0.005859375,
@@ -3801,6 +3837,12 @@
       "top": 0.1640625,
       "right": 0.99609375,
       "bottom": 0.8359375
+    },
+    "loaf_whole_rye_tin.png": {
+      "left": 0.005859375,
+      "top": 0.314453125,
+      "right": 0.99609375,
+      "bottom": 0.71484375
     },
     "loaf_world_champion.png": {
       "left": 0.00390625,
@@ -4606,6 +4648,12 @@
       "right": 0.615234375,
       "bottom": 0.962890625
     },
+    "party_sun_rolls.png": {
+      "left": 0.0078125,
+      "top": 0.001953125,
+      "right": 0.990234375,
+      "bottom": 0.998046875
+    },
     "pasilla_pepper_green.png": {
       "left": 0.3828125,
       "top": 0.0,
@@ -4707,6 +4755,12 @@
       "top": 0.068359375,
       "right": 0.99609375,
       "bottom": 0.9140625
+    },
+    "pastry_poultry_sausage.png": {
+      "left": 0.03515625,
+      "top": 0.3046875,
+      "right": 0.96484375,
+      "bottom": 0.693359375
     },
     "pastry_quark_pocket.png": {
       "left": 0.013671875,
@@ -5740,6 +5794,24 @@
       "right": 0.8046875,
       "bottom": 0.8359375
     },
+    "roll_alsatian.png": {
+      "left": 0.01171875,
+      "top": 0.17578125,
+      "right": 0.990234375,
+      "bottom": 0.828125
+    },
+    "roll_butter_soft.png": {
+      "left": 0.033203125,
+      "top": 0.234375,
+      "right": 0.96484375,
+      "bottom": 0.765625
+    },
+    "roll_cheese_topped.png": {
+      "left": 0.00390625,
+      "top": 0.16796875,
+      "right": 0.990234375,
+      "bottom": 0.830078125
+    },
     "roll_double_split.png": {
       "left": 0.013671875,
       "top": 0.26953125,
@@ -5788,6 +5860,12 @@
       "right": 0.994140625,
       "bottom": 0.736328125
     },
+    "roll_raisin.png": {
+      "left": 0.083984375,
+      "top": 0.171875,
+      "right": 0.8984375,
+      "bottom": 0.828125
+    },
     "roll_rose.png": {
       "left": 0.03515625,
       "top": 0.048828125,
@@ -5799,6 +5877,12 @@
       "top": 0.171875,
       "right": 0.912109375,
       "bottom": 0.830078125
+    },
+    "roll_seeded_flat.png": {
+      "left": 0.01171875,
+      "top": 0.255859375,
+      "right": 0.986328125,
+      "bottom": 0.744140625
     },
     "roll_sesame.png": {
       "left": 0.087890625,
@@ -5829,6 +5913,12 @@
       "top": 0.05078125,
       "right": 0.982421875,
       "bottom": 0.94921875
+    },
+    "roll_veggie_crisp.png": {
+      "left": 0.0078125,
+      "top": 0.30078125,
+      "right": 0.990234375,
+      "bottom": 0.677734375
     },
     "roll_walnut_rustic.png": {
       "left": 0.01953125,
