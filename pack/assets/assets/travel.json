@@ -451,6 +451,21 @@
         "sha256": "197059d097c6f53ede2d0e52cfb75d25d572ae608619a88977fe3ad7e8ccb960"
       }
     },
+    "empty_crate.png": {
+      "full": {
+        "bytes": 16389,
+        "path": "assets/travel/empty_crate.png",
+        "px": 256,
+        "sha256": "1b532feaa3db13fa0b7ae1105b3d7dfb82f1f0a0a84c765b66a2ee2864e69d8f"
+      },
+      "since": 110,
+      "small": {
+        "bytes": 9733,
+        "path": "assets/travel/small/empty_crate.png",
+        "px": 160,
+        "sha256": "85ee06839cc51f110949f5f4fd307023d2aa1066ada45823e16005cae59aad71"
+      }
+    },
     "filberts_in_shell.png": {
       "full": {
         "bytes": 28641,

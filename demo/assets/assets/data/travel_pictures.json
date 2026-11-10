@@ -14,6 +14,7 @@
     "197059d097c6f53ede2d0e52cfb75d25d572ae608619a88977fe3ad7e8ccb960": "donut_glazed.png",
     "1a09a4e85d20d0ba3273bd6f89c0423d6167673f39d967fa3450266972a780ed": "green_olives_fresh.png",
     "1ad5313671bb4f49c9fbfab24b5faa4aaf40a57b7b02ea717ee79b78fa0060e5": "peanuts_raw_in_shell.png",
+    "1b532feaa3db13fa0b7ae1105b3d7dfb82f1f0a0a84c765b66a2ee2864e69d8f": "empty_crate.png",
     "1c877cfca383b0b24f48e0390127d97974d00c85c4d59593ed94f004b7689fc5": "brioche_knot.png",
     "1c9fa02e8dc89ab7ab27a7928594b1f74aeb108a1dde9578d0d63d2fc13105c6": "berliner.png",
     "1d51d85696bc65f1413f244d266e262179525c028546d4aac3e0179fcc7334e1": "muffin_bakery.png",
@@ -91,6 +92,7 @@
     "84ecb04e322886978524e7703e484712dc5f8bb4a71cde1d5cbc5b42ffcc00ef": "roll_multi_seed.png",
     "858ec8afc57cbe062700bc988a7b90c74ca1e083936d19fca9537e8ec074cba0": "bulk_candy.png",
     "859440aa8f13e9c1c4792763c440e8718047bd2095d87eb5ec10696e0d719572": "chestnuts.png",
+    "85ee06839cc51f110949f5f4fd307023d2aa1066ada45823e16005cae59aad71": "empty_crate.png",
     "874ce2067a7c8d2e956add69b16849f2b79b67ef979fdef1d53ee7294baf44fb": "pistachios_red.png",
     "88bd7e099701fe2e870ef3b2ac49cfbf6a734396964efb3a5997e4e3a890ec37": "pretzel_soft.png",
     "89572566515c44e64599ce1d3b660239ca0c386e49fab9a349e140aaf822d3bd": "mloukhiye.png",
@@ -173,8 +175,10 @@
     "ff41a5543ca0ceb22def3ff093a3fad926fdfa76b2af6502995236c47d46a3a6": "chile_manzano.png"
   },
   "previous": {
+    "061a3253254f1ce884ea8627558049dd1597174993b7778b117ecca57204a444": "empty_crate.png",
     "09e0459e8878054e091a1c88d25cbe6cc3c3ec218baf194b1d5417af2164213a": "apple_turnover.png",
     "1b41108f43afcd5a2adc59d1c7d57086e85d0193881c05b90caf70866359a557": "apple_turnover.png",
+    "a5cd6cadb34a3c4cf99559268a9a9b6c79ef3592439ca23c4cfcca28a8ec627b": "empty_crate.png",
     "a8a81bafdbfc3f0d62f50f0bfc89148b0dac451ac5c3689dadb537fd89404bfb": "pizza_snack.png",
     "d95587ede3694ec7f75927578e9d91c1252af0dd63bf5d098d9ccf0b332676a1": "italian_prune_plums.png",
     "eeae145f201a905894e3b189dabde2686a6e17604d745008a41d72f4154edde8": "pizza_snack.png",

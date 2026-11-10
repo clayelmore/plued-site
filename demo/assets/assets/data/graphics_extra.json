@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU.",
+  "version": 9,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU.",
   "items": [
     {
       "id": "jocote",
@@ -673,6 +673,28 @@
       ],
       "desc": "Bulk candy is the loose mixed candy a store sells by weight from self-serve bulk bins: a small loose pile of round jelly beans, sugar-coated orange and lemon fruit slices, small round gumdrops and sugared gummy rings in red, orange, yellow, green and purple, heaped on the surface. It is shown with no fish, bear, worm, animal or character shapes, and with no bag, no bin, no scoop, no wrappers, no brand, no text and no labels.",
       "since": 108
+    },
+    {
+      "id": "empty_crate",
+      "name": "Empty Bottle Crate",
+      "category": "other",
+      "section": "Store Items",
+      "image": "empty_crate.png",
+      "aliases": [
+        "Empty crate",
+        "Empty crates",
+        "Bottle crate",
+        "Bottle crates",
+        "Beverage crate",
+        "Empty bottle crate",
+        "Crate deposit",
+        "Deposit crate",
+        "Crate return",
+        "Caja de envases vacía",
+        "Caja retornable vacía"
+      ],
+      "desc": "An empty bottle crate is the returnable hard-plastic beverage crate a shopper brings back to the store for the deposit: one rectangular blue plastic crate with ribbed side walls, a hand-hold opening on each short side and a molded grid of 20 round bottle compartments inside, shown empty from the front and slightly above. It is shown with no bottles, no caps, no label, no printing, no logo and no brand.",
+      "since": 110
     },
     {
       "id": "pretzel_soft",

@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -9302,6 +9302,37 @@
       "dims": {
         "size": "S",
         "region": "West"
+      }
+    },
+    {
+      "id": "empty_crate",
+      "plu": "",
+      "name": "Empty Bottle Crate",
+      "category": "other",
+      "aliases": [
+        "Empty crate",
+        "Empty crates",
+        "Bottle crate",
+        "Bottle crates",
+        "Beverage crate",
+        "Empty bottle crate",
+        "Crate deposit",
+        "Deposit crate",
+        "Crate return",
+        "Caja de envases vacía",
+        "Caja retornable vacía"
+      ],
+      "image": "empty_crate.png",
+      "desc": "an empty bottle crate is the returnable hard-plastic beverage crate a shopper brings back to the store for the deposit: one rectangular blue plastic crate with ribbed side walls, a hand-hold opening on each short side and a molded grid of 20 round bottle compartments inside, shown empty from the front and slightly above. it is shown with no bottles, no caps, no label, no printing, no logo and no brand.",
+      "section": "Store Items",
+      "size": "",
+      "since": 110,
+      "search": {
+        "names": "Träger leer|Traeger leer|Leerer Träger|Leerkasten|Leerkästen|Leergutkasten|Pfandkasten|Pfandkiste|Getränkekasten|Getränkekiste|Kasten leer|Kiste leer",
+        "family": "",
+        "words": "",
+        "phrases": "crate|crates|empty crate|empty crates|empty bottle crate|bottle crate|bottle crates|beverage crate|crate deposit|deposit crate|kasten leer|kiste leer|leerer kasten|leere kiste",
+        "needs": "träger|traeger|leerkasten|leerkästen|leergutkasten|pfandkasten|pfandkiste|getränkekasten|getränkekiste"
       }
     },
     {
