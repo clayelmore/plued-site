@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A PLUed challenge - play the same codes</title>
+  <meta name="description" content="Someone challenged you on PLUed. Play the same produce codes and see who leads.">
+  <link rel="canonical" href="https://plued.app/c/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PLUed">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_US">
+  <meta property="og:title" content="You have been challenged on PLUed">
+  <meta property="og:description" content="Play the same produce codes and see who leads.">
+  <meta property="og:url" content="https://plued.app/c/">
+  <!-- A challenge is shared inside a message's text. Where an app still draws
+       a preview for it, the preview is the compact one: the small square app
+       icon and a summary card. -->
+  <meta property="og:image" content="https://plued.app/assets/img/app-icon.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="stylesheet" href="/assets/site.css?v=482e2028">
+  <!-- No redirect here. The challenge rides after the # in this page's
+       address, which a browser never sends to a server; this page hands it
+       to the browser demo only when the player taps Play. -->
+  <style>
+    .door { text-align: center; padding: 12vh 20px; }
+    .door .card { max-width: 34em; margin: 0 auto; text-align: center; }
+    .door h1 { margin-bottom: .4em; }
+    .door p { max-width: 34em; margin: 0 auto 1.2em; }
+    .door .cta-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 1.4em; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <main class="door">
+    <div class="card">
+      <span class="eyebrow">PLUed</span>
+      <h1 id="challenge-title">You have been challenged on PLUed</h1>
+      <p id="challenge-lead">Play the same codes and see who leads.</p>
+      <p id="challenge-empty" hidden>This link has no challenge in it.</p>
+      <div class="cta-row">
+        <button type="button" class="button" id="challenge-play" hidden>See the board in your browser</button>
+        <button type="button" class="button kraft" id="challenge-copy">Copy link</button>
+      </div>
+      <p id="challenge-update">Have PLUed? Update to the newest version and the link opens in the app. Or copy the link and open it in PLUed under Stats, Challenges.</p>
+      <p><a class="text-button" id="challenge-get" href="/get/">Get the app</a></p>
+    </div>
+  </main>
+  <script>
+  (function () {
+    'use strict';
+    // The words, English and Spanish, chosen by the browser's language.
+    var TEXT = {
+      en: {
+        title: 'You have been challenged on PLUed',
+        lead: 'Play the same codes and see who leads.',
+        play: 'See the board in your browser',
+        copy: 'Copy link',
+        copied: 'Copied',
+        update: 'Have PLUed? Update to the newest version and the link opens in the app. Or copy the link and open it in PLUed under Stats, Challenges.',
+        get: 'Get the app',
+        empty: 'This link has no challenge in it.'
+      },
+      es: {
+        title: 'Te han retado en PLUed',
+        lead: 'Juega los mismos códigos y mira quién va primero.',
+        play: 'Ver la tabla en el navegador',
+        copy: 'Copiar enlace',
+        copied: 'Copiado',
+        update: '¿Tienes PLUed? Actualízala a la versión más reciente y el enlace se abrirá en la app. O copia el enlace y ábrelo en PLUed, en Progreso, Retos.',
+        get: 'Obtener la app',
+        empty: 'Este enlace no trae ningún reto.'
+      }
+    };
+
+    // The browser demo shows a challenge's board from build 110 on. Its own
+    // version.json (same site, nothing from the link in the request) says
+    // which build is live; on any doubt the button stays hidden.
+    var MIN_DEMO_BUILD = 110;
+    function demoCanPlay(fetchFn) {
+      try {
+        return Promise.resolve(fetchFn('/demo/version.json', { cache: 'no-store' }))
+          .then(function (res) { return res && res.ok ? res.json() : null; })
+          .then(function (info) {
+            var build = info ? parseInt(String(info.build_number), 10) : NaN;
+            return !isNaN(build) && build >= MIN_DEMO_BUILD;
+          })
+          .catch(function () { return false; });
+      } catch (e) {
+        return Promise.resolve(false);
+      }
+    }
+
+    var lang = String((navigator && navigator.language) || '').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+    var t = TEXT[lang];
+    if (lang === 'es') {
+      document.documentElement.lang = 'es';
+      document.title = 'Un reto de PLUed - juega los mismos códigos';
+    }
+    function el(id) { return document.getElementById(id); }
+    el('challenge-title').textContent = t.title;
+    el('challenge-lead').textContent = t.lead;
+    el('challenge-play').textContent = t.play;
+    el('challenge-copy').textContent = t.copy;
+    el('challenge-update').textContent = t.update;
+    el('challenge-get').textContent = t.get;
+    el('challenge-empty').textContent = t.empty;
+
+    var payload = String(location.hash || '').replace(/^#/, '');
+    if (!payload) {
+      el('challenge-play').hidden = true;
+      el('challenge-empty').hidden = false;
+    } else {
+      demoCanPlay(window.fetch ? window.fetch.bind(window) : function () { throw new Error('no fetch'); })
+        .then(function (ok) { el('challenge-play').hidden = !ok; });
+    }
+
+    el('challenge-play').addEventListener('click', function () {
+      if (!payload) return;
+      // The demo reads the challenge from its own address after the #, or
+      // from this tab's storage. Never from a query string.
+      try { sessionStorage.setItem('plued_challenge', payload); } catch (e) {}
+      location.href = '/demo/?start=challenge#' + payload;
+    });
+
+    el('challenge-copy').addEventListener('click', function () {
+      var button = el('challenge-copy');
+      try {
+        navigator.clipboard.writeText(location.href).then(function () {
+          button.textContent = t.copied;
+        }, function () {});
+      } catch (e) {}
+    });
+
+    // For the site check, which runs this script in Node with a stubbed page.
+    if (typeof window !== 'undefined') window.__pluedChallengePage = { demoCanPlay: demoCanPlay, lang: lang };
+  })();
+  </script>
+</body>
+</html>
