@@ -189,6 +189,7 @@
     <button id="refresh">Refresh list</button>
     <button id="digest" class="quiet">Send digest email now</button>
     <div id="status"></div>
+    <p class="note" id="storePlanCount" hidden></p>
     <div class="wrap"><table id="packs" hidden>
       <thead><tr>
         <th>Store</th><th>Codes</th><th>Received</th><th>Flags</th><th>Actions</th>
@@ -1199,7 +1200,17 @@
     var hasRequest = !!entry.graphic_requests;
     tr.innerHTML =
       '<td>' + esc(entry.store_name || '(unnamed)') +
-        '<div class="id">' + esc(entry.pack_id) + '</div></td>' +
+        '<div class="id">' + esc(entry.pack_id) + '</div>' +
+        // Build 111: the builder's optional contact email (owner only; the
+        // registry never serves it on a public route).
+        (entry.contact_email
+          ? '<div class="note contact-email">Email: <a href="mailto:' + esc(encodeURIComponent(entry.contact_email)) + '">' +
+            esc(entry.contact_email) + '</a>' +
+            (typeof entry.contact_email_at === 'number'
+              ? ' <span class="id">(given ' + esc(new Date(entry.contact_email_at).toLocaleDateString()) + ')</span>' : '') +
+            '</div>'
+          : '') +
+        '</td>' +
       '<td>' + (entry.codes_count || 0) + '</td>' +
       '<td>' + new Date(entry.received_at).toLocaleString() + '</td>' +
       '<td class="flags">' + (flags || (hasRequest || hasLogo ? '' : '<span class="note">none</span>')) + '</td>' +
@@ -1281,7 +1292,46 @@
     actions.appendChild(view);
     actions.appendChild(document.createTextNode(' '));
     actions.appendChild(del);
+    // Build 111: remove the contact email on request (the pack stays).
+    if (entry.contact_email) {
+      var rmEmail = document.createElement('button');
+      rmEmail.className = 'quiet';
+      rmEmail.textContent = 'Remove email';
+      rmEmail.onclick = function () {
+        if (!confirm('Remove the contact email ' + entry.contact_email + ' from "' + (entry.store_name || entry.pack_id) + '"?\n\nThe pack stays as it is.')) return;
+        setStatus('Removing the email...');
+        fetch(API + '/packs/' + entry.pack_id + '/contact', { method: 'DELETE', headers: auth() }).then(function (res) {
+          if (!res.ok) { setStatus(apiError(res), 'err'); return; }
+          load();
+        }).catch(function () { setStatus('Network error.', 'err'); });
+      };
+      actions.appendChild(document.createTextNode(' '));
+      actions.appendChild(rmEmail);
+    }
     return tr;
+  }
+
+  // Build 111: presses of the builder's "See Store Plans" button, counted per
+  // UTC day and language with nothing about the person (Bearer read). A
+  // worker without the route (404) or any failure hides the line.
+  var storePlanCount = document.getElementById('storePlanCount');
+  function loadStorePlanCount() {
+    fetch(API + '/count/store-plan', { headers: auth() }).then(function (res) {
+      if (!res.ok) { storePlanCount.hidden = true; return; }
+      return res.json().then(function (body) {
+        var days = (body && body.days) || [];
+        function sum(from, to) {
+          var n = 0;
+          days.slice(from, to).forEach(function (d) { n += Number(d.total) || 0; });
+          return n;
+        }
+        // days[0] is today (UTC), days[1] yesterday.
+        storePlanCount.textContent = 'Store Plan button (builder): ' + sum(0, 1) + ' today, ' +
+          sum(1, 2) + ' yesterday, ' + sum(1, 8) + ' in the 7 days before today, ' +
+          sum(0, 30) + ' in 30 days. Counted per day, nothing about the person.';
+        storePlanCount.hidden = false;
+      });
+    }).catch(function () { storePlanCount.hidden = true; });
   }
 
   // `note` (optional): a line to leave on screen once the list has reloaded.
@@ -1299,6 +1349,7 @@
         renderRequests(entries);
         // Owner: nothing to digest -> no send button.
         digestBtn.hidden = entries.length === 0;
+        loadStorePlanCount();
         if (typeof note === 'string' && note) setStatus(note, 'err');
         else setStatus(entries.length + ' hosted pack(s).', 'ok');
       });
