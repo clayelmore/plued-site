@@ -44,6 +44,8 @@
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--kraft); vertical-align: top; }
   th { font-size: 11px; letter-spacing: .08em; color: var(--ink-soft); }
   td.actions { white-space: nowrap; }
+  /* A set logo's file name can be 60 characters: the button keeps its row, the full name is its tooltip (2026-11-15). */
+  td.actions button.logo-set { max-width: 220px; overflow: hidden; text-overflow: ellipsis; vertical-align: middle; }
   td .id { color: var(--ink-soft); font: 12px ui-monospace, monospace; }
   .badge {
     display: inline-block; font-size: 11px; font-weight: 700; border-radius: 999px;
@@ -1259,7 +1261,8 @@
     // in the flags cell and closes it again.
     var logo = document.createElement('button');
     logo.textContent = logoButtonLabel(entry);
-    logo.className = 'secondary';
+    logo.className = 'secondary logo-set';
+    logo.title = logo.textContent;
     logo.addEventListener('click', function () {
       var cell = tr.querySelector('.flags');
       var open = cell.querySelector('.logo-editor');
