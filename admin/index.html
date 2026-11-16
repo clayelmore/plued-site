@@ -78,6 +78,12 @@
   /* The wide logo (2026-10-08): its thumbnail on the app's cream band, 3:1. */
   .store-logo .logo-band { display: inline-flex; flex: none; box-sizing: border-box; width: 96px; height: 32px; border: 1px solid #e5d9c3; border-radius: 6px; background: #faf6ee; overflow: hidden; }
   .store-logo .logo-band img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  /* The pack view (2026-11-15): the pack's logos on the app's cream, larger than a row's. */
+  #viewerLogo { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; }
+  #viewerLogo .logo-badge { display: inline-flex; flex: none; align-items: center; justify-content: center; box-sizing: border-box; width: 72px; height: 72px; border: 1px solid #e5d9c3; border-radius: 14px; background: #faf6ee; overflow: hidden; }
+  #viewerLogo .logo-band { display: inline-flex; flex: none; box-sizing: border-box; width: 216px; max-width: 100%; height: 72px; border: 1px solid #e5d9c3; border-radius: 10px; background: #faf6ee; overflow: hidden; }
+  #viewerLogo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  #viewerLogo .logo-badge img { width: 58px; height: 58px; }
   /* Set logo: one field per picture, each with its own Clear. Wraps at 390 px. */
   .logo-editor { margin-top: 8px; padding: 10px 12px; border: 1px solid var(--kraft); border-radius: 8px; background: #fff; max-width: 460px; }
   .logo-editor-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 6px 8px; margin-bottom: 8px; }
@@ -263,6 +269,7 @@
     <button id="closeView" class="quiet">Close</button>
     <button id="toggleRaw" class="quiet">Show raw JSON</button>
     <h2 id="viewerTitle" style="margin:10px 0 6px;font-size:18px;"></h2>
+    <div id="viewerLogo"></div>
     <div class="wrap"><table id="codesTable">
       <thead><tr><th>Graphic</th><th>Code</th><th>Name</th><th>Category</th><th>Size</th><th>Graphic file</th></tr></thead>
       <tbody></tbody>
@@ -282,6 +289,28 @@
   var packJson = document.getElementById('packJson');
   var codesTbody = document.querySelector('#codesTable tbody');
   var viewerTitle = document.getElementById('viewerTitle');
+  var viewerLogo = document.getElementById('viewerLogo');
+
+  /** The pack view's logo line: the square and the wide logo the pack has
+      now, drawn as pictures only, or a plain "No logo on this pack." */
+  function renderViewerLogo(store, logoRef, wideRef) {
+    viewerLogo.textContent = '';
+    function pic(cls, ref, alt) {
+      var box = document.createElement('span'); box.className = cls;
+      var img = document.createElement('img');
+      img.alt = alt; img.title = ref;
+      img.src = '/assets/logos/' + encodeURIComponent(ref);
+      box.appendChild(img);
+      viewerLogo.appendChild(box);
+    }
+    if (logoRef) pic('logo-badge', logoRef, store + ' logo');
+    if (wideRef) pic('logo-band', wideRef, store + ' wide logo');
+    var note = document.createElement('span'); note.className = 'note';
+    note.textContent = logoRef || wideRef
+      ? (logoRef && wideRef ? 'Square and wide logo' : logoRef ? 'Square logo, no wide logo' : 'Wide logo, no square logo')
+      : 'No logo on this pack.';
+    viewerLogo.appendChild(note);
+  }
   var requestsCard = document.getElementById('requests');
   var requestRows = document.getElementById('requestRows');
   var IMG_BASE = 'https://plued.app/demo/assets/assets/images/produce/';
@@ -1244,6 +1273,10 @@
         res.json().then(function (body) {
           viewerTitle.textContent = (body.store || entry.store_name || '(unnamed)') +
             ' \u00b7 ' + ((body.codes || []).length) + ' code(s)';
+          var brand = (body && body.brand) || {};
+          renderViewerLogo(body.store || entry.store_name || 'Store',
+            typeof entry.logo_ref === 'string' && entry.logo_ref ? entry.logo_ref : (brand.logo_ref || ''),
+            typeof entry.logo_wide_ref === 'string' && entry.logo_wide_ref ? entry.logo_wide_ref : (brand.logo_wide_ref || ''));
           renderCodesTable(body);
           viewer.dataset.packId = entry.pack_id;
           packJson.textContent = JSON.stringify(body, null, 2);
