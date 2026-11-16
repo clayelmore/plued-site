@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\"). 15 more Netto items joined on 2026-11-10 (owner, asked what should happen with the items still left out: \"Draw all 15\"): best guesses from the product type, two from the name alone.",
+  "version": 12,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\"). 15 more Netto items joined on 2026-11-10 (owner, asked what should happen with the items still left out: \"Draw all 15\"): best guesses from the product type, two from the name alone. Cut watermelon chunks joined on 2026-11-14 (owner: \"On my task pack, I have cut watermelon chunks.\"): a store's own number for cut fruit; the live IFPS list has no row for cut watermelon.",
   "items": [
     {
       "id": "jocote",
@@ -2375,6 +2375,30 @@
         "Rollo de salchicha de pollo"
       ],
       "desc": "A poultry sausage pastry (Geflügelrolle) is a straight, round tube of pale golden puff pastry about 15 cm long with six evenly spaced browned bands cut straight across it, each band at right angles to the length. Both ends are open and cut flush, showing a thick, pale beige-pink skinless sausage level with the pastry. The straight crosswise bands with a flush pale sausage are its mark: it is not the spiral-wrapped sausage roll with a red frankfurter sticking out and not the flat slab with diagonal slits and red curry filling. Shown whole with a cut half beside it; it must show no text."
+    },
+    {
+      "id": "watermelon_cut_chunks",
+      "name": "Cubed Watermelon",
+      "category": "fruit",
+      "section": "Melons",
+      "image": "watermelon_cut_chunks.png",
+      "since": 114,
+      "aliases": [
+        "Watermelon cubes",
+        "Watermelon cube",
+        "Watermelon chunks",
+        "Watermelon chunk",
+        "Diced watermelon",
+        "Watermelon pieces",
+        "Sandía en cubos",
+        "Sandía en cubitos",
+        "Sandía en trozos",
+        "Sandía picada",
+        "Sandía cortada",
+        "Trozos de sandía",
+        "Cubos de sandía"
+      ],
+      "desc": "Cubed watermelon: about twelve cubes of red seedless watermelon with no rind, shown in a small heap with no bowl, no plate and no fork."
     }
   ]
 }

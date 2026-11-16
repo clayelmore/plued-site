@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -2477,6 +2477,9 @@
       "name": "Baby Sweet Corn",
       "category": "vegetable",
       "aliases": [
+        "Babymais",
+        "Maíz baby",
+        "Maíz dulce baby",
         "Elote dulce baby",
         "elote baby",
         "elotitos"
@@ -2492,7 +2495,9 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "Baby süß süße süßer süßes mini minis miniature miniatures bébé bébés doux douce douces sucré sucrée sucrés sucrées doce doces dolce dolci słodki słodka słodkie",
-        "es": "Elote dulce baby"
+        "es": "Elote dulce baby",
+        "phrases": "Maíz baby|Maíz dulce baby|baby sweet corn|sweet corn baby|sweetcorn baby|fresh sweet corn baby|local sweet corn baby|sweet corn mini|mini sweet corn|sweetcorn mini|mini sweetcorn|elote dulce baby|elote dulce mini|elote baby|elote mini|maiz dulce baby|maiz dulce mini|maiz baby|maiz mini|mini maiz|baby maiz",
+        "needs": "baby|mini|minis|miniature|miniatures|bébé|bébés|tierno|tiernos|elotito|elotitos|babymais"
       },
       "concept": "corn_sweet_baby"
     },
@@ -3551,6 +3556,7 @@
       "category": "vegetable",
       "aliases": [
         "peaches and cream corn",
+        "Maíz dulce",
         "Elote dulce bicolor"
       ],
       "image": "corn_sweet_bi_color.png",
@@ -3564,7 +3570,8 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "mehrfarbig bunt zweifarbig zweifarbige süß süße süßer süßes bicolore bicolores multicolore multicolores panaché panachés panachée panachées doux douce douces sucré sucrée sucrés sucrées bicolor multicolor tricolor doce doces bicolori dolce dolci dwukolorowy dwukolorowa dwukolorowe wielokolorowy wielokolorowa wielokolorowe słodki słodka słodkie",
-        "es": "Elote dulce bicolor"
+        "es": "Elote dulce bicolor",
+        "phrases": "Maíz dulce|sweet corn|sweetcorn|local sweet corn|fresh sweet corn|elote dulce"
       },
       "concept": "corn_sweet_bi_color"
     },
@@ -7591,6 +7598,7 @@
       "category": "vegetable",
       "aliases": [
         "White, Trimmed",
+        "Maíz blanco",
         "Elote blanco",
         "elote",
         "elote blanco recortado"
@@ -7606,7 +7614,8 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
-        "es": "Elote blanco"
+        "es": "Elote blanco",
+        "phrases": "Maíz blanco|white sweet corn|sweet corn white|white sweetcorn|maiz blanco|maiz dulce blanco|elote dulce blanco"
       },
       "concept": "corn_white_trimmed"
     },
@@ -7617,9 +7626,9 @@
       "category": "vegetable",
       "aliases": [
         "Yellow, Trimmed",
+        "Maíz",
         "Elote amarillo",
         "elote dulce amarillo",
-        "elote dulce",
         "elote amarillo recortado"
       ],
       "image": "corn_yellow_trimmed.png",
@@ -7633,7 +7642,9 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig jaune jaunes amarelo amarela amarelos amarelas giallo gialla gialli gialle żółty żółta żółte",
-        "es": "Elote amarillo"
+        "es": "Elote amarillo",
+        "phrases": "maiz|yellow sweet corn|sweet corn yellow|yellow sweetcorn|maiz amarillo|maiz dulce amarillo|elote dulce amarillo",
+        "defaults": "maiz|maíz"
       },
       "common": true,
       "concept": "corn_yellow_trimmed"
@@ -8238,6 +8249,39 @@
         "es": "Chile Cubanelle"
       },
       "concept": "cubanelle_pepper"
+    },
+    {
+      "id": "watermelon_cut_chunks",
+      "plu": "",
+      "name": "Cubed Watermelon",
+      "category": "fruit",
+      "aliases": [
+        "Watermelon cubes",
+        "Watermelon cube",
+        "Watermelon chunks",
+        "Watermelon chunk",
+        "Diced watermelon",
+        "Watermelon pieces",
+        "Sandía en cubos",
+        "Sandía en cubitos",
+        "Sandía en trozos",
+        "Sandía picada",
+        "Sandía cortada",
+        "Trozos de sandía",
+        "Cubos de sandía"
+      ],
+      "image": "watermelon_cut_chunks.png",
+      "desc": "cubed watermelon: about twelve cubes of red seedless watermelon with no rind, shown in a small heap with no bowl, no plate and no fork.",
+      "section": "Melons",
+      "size": "",
+      "since": 114,
+      "search": {
+        "names": "Wassermelone|Wassermelonen|pastèque|pastèques|melon d'eau|melancia|melancias|anguria|angurie|cocomero|cocomeri|melone d'acqua|arbuz|arbuzy",
+        "family": "",
+        "words": "",
+        "phrases": "cut watermelon|watermelon cut|cut watermelon chunks|cut watermelon cubes|watermelon cut up|cut up watermelon",
+        "needs": "watermelon|watermelons|sandia|sandias|sandía|sandías"
+      }
     },
     {
       "id": "cucumber",
@@ -15063,7 +15107,8 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "groß große großer großes dekorativ dekorative bemalt bemalte Zier gros grosse grand grande grands grandes grosses décoratif décorative décoratifs décoratives graúdo graúda grado decorativo decorativa ornamental grandi ornamentale ornamentali decorativi decorative duży duża duże ozdobny ozdobna ozdobne dekoracyjny dekoracyjna dekoracyjne",
-        "es": "Maíz indio decorativo grande"
+        "es": "Maíz indio decorativo grande",
+        "needs": "indian|indio|india|decorative|decorativo|decorativa|decorativos|decorativas|ornamental|ornamentales|flint|strawberry|fresa|popcorn|palomero|calico|painted|multicolor|multicolored|colored|red|purple|orange|blue|rojo|roja|morado|morada|azul|zier|ziermais|dekorativ|dekorative|dekorativer|dekoratives|bemalt|bemalte|décoratif|décorative|décoratifs|décoratives|decorativi|ornamentale|ornamentali|ozdobny|ozdobna|ozdobne|dekoracyjny|dekoracyjna|dekoracyjne"
       },
       "concept": "corn_indian_decorative",
       "dims": {
@@ -15093,7 +15138,8 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "Baby dekorativ dekorative bemalt bemalte Zier mini minis miniature miniatures bébé bébés décoratif décorative décoratifs décoratives decorativo decorativa ornamental ornamentale ornamentali decorativi decorative ozdobny ozdobna ozdobne dekoracyjny dekoracyjna dekoracyjne",
-        "es": "Maíz indio decorativo mini"
+        "es": "Maíz indio decorativo mini",
+        "needs": "indian|indio|india|decorative|decorativo|decorativa|decorativos|decorativas|ornamental|ornamentales|flint|strawberry|fresa|popcorn|palomero|calico|painted|multicolor|multicolored|colored|red|purple|orange|blue|rojo|roja|morado|morada|azul|zier|ziermais|dekorativ|dekorative|dekorativer|dekoratives|bemalt|bemalte|décoratif|décorative|décoratifs|décoratives|decorativi|ornamentale|ornamentali|ozdobny|ozdobna|ozdobne|dekoracyjny|dekoracyjna|dekoracyjne"
       },
       "concept": "corn_indian_decorative_mini"
     },
@@ -29295,7 +29341,8 @@
         "names": "Mais|Zuckermais|Maiskolben|Kukuruz|maïs|maïs doux|épi de maïs|épis de maïs|maïs en épi|maïs sucré|blé d'Inde|milho|milho verde|maçaroca|milho doce|mais dolce|granoturco|granturco|pannocchia|pannocchie|kukurydza|kukurydza cukrowa",
         "family": "",
         "words": "",
-        "es": "Maíz indio fresa"
+        "es": "Maíz indio fresa",
+        "needs": "indian|indio|india|decorative|decorativo|decorativa|decorativos|decorativas|ornamental|ornamentales|flint|strawberry|fresa|popcorn|palomero|calico|painted|multicolor|multicolored|colored|red|purple|orange|blue|rojo|roja|morado|morada|azul|zier|ziermais|dekorativ|dekorative|dekorativer|dekoratives|bemalt|bemalte|décoratif|décorative|décoratifs|décoratives|decorativi|ornamentale|ornamentali|ozdobny|ozdobna|ozdobne|dekoracyjny|dekoracyjna|dekoracyjne"
       },
       "concept": "corn_indian_strawberry"
     },

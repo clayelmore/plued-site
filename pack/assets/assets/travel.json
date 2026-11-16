@@ -2251,6 +2251,21 @@
         "sha256": "bf5ba57a993301f6e04a69103741426c0729c5df38f0748167be3df6c0d9785a"
       }
     },
+    "watermelon_cut_chunks.png": {
+      "full": {
+        "bytes": 27970,
+        "path": "assets/travel/watermelon_cut_chunks.png",
+        "px": 256,
+        "sha256": "5aca892e3d7cc1d5ad4455bf22892e9deb7edcc7c748b64932d2a967cdf379a2"
+      },
+      "since": 114,
+      "small": {
+        "bytes": 12506,
+        "path": "assets/travel/small/watermelon_cut_chunks.png",
+        "px": 160,
+        "sha256": "dabd05e25234bb53d41a7fd340270bf130a93989e27af3f03dc812f8d88af591"
+      }
+    },
     "white_walnuts_in_shell.png": {
       "full": {
         "bytes": 35137,

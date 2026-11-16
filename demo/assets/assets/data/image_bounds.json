@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1235,
+  "image_count": 1236,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -1751,10 +1751,10 @@
       "bottom": 0.939453125
     },
     "corn_sweet_baby.png": {
-      "left": 0.404296875,
-      "top": 0.076171875,
-      "right": 0.5859375,
-      "bottom": 0.93359375
+      "left": 0.41015625,
+      "top": 0.056640625,
+      "right": 0.58984375,
+      "bottom": 0.943359375
     },
     "corn_sweet_bi_color.png": {
       "left": 0.359375,
@@ -7119,6 +7119,12 @@
       "top": 0.064453125,
       "right": 0.841796875,
       "bottom": 0.958984375
+    },
+    "watermelon_cut_chunks.png": {
+      "left": 0.015625,
+      "top": 0.17578125,
+      "right": 0.986328125,
+      "bottom": 0.828125
     },
     "watermelon_orange_seedless.png": {
       "left": 0.072265625,
