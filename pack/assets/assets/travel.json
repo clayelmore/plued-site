@@ -61,6 +61,21 @@
         "sha256": "bd82ede96721855f7f2aa821f9562e131180f3e69c1192a04b1f1c3209894a78"
       }
     },
+    "argentine_red_shrimp.png": {
+      "full": {
+        "bytes": 30537,
+        "path": "assets/travel/argentine_red_shrimp.png",
+        "px": 256,
+        "sha256": "bdb66b4599e9da3c5158d2f385f5e4e449e82dd8c108dc85df9d9bb4956b0cd8"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 13599,
+        "path": "assets/travel/small/argentine_red_shrimp.png",
+        "px": 160,
+        "sha256": "c03705dec8c045fb44766f51206fac50f451ca9b2d9631cd39a9ef95de55c9e2"
+      }
+    },
     "baguette.png": {
       "full": {
         "bytes": 10092,
@@ -436,6 +451,51 @@
         "sha256": "9ced2ff8a901c60fdc1cb6927ee6d9ca5f56f3685e26394600c23d386a0cddf3"
       }
     },
+    "christmas_sweets_mini.png": {
+      "full": {
+        "bytes": 26054,
+        "path": "assets/travel/christmas_sweets_mini.png",
+        "px": 256,
+        "sha256": "f42408d0db4469d06ff54750210119bee8bcea3fe02127e6a2126023ef2e91bd"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 12083,
+        "path": "assets/travel/small/christmas_sweets_mini.png",
+        "px": 160,
+        "sha256": "eb97e7bd01728150edad1721acb0089a62c9f37033b4dab7a0a6cc2e8766d1d1"
+      }
+    },
+    "christmas_sweets_premium.png": {
+      "full": {
+        "bytes": 28991,
+        "path": "assets/travel/christmas_sweets_premium.png",
+        "px": 256,
+        "sha256": "2ffa3d7f9ba55818924ff222469db6ac1dd3e608ab703ad5be26487da95b130e"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 13189,
+        "path": "assets/travel/small/christmas_sweets_premium.png",
+        "px": 160,
+        "sha256": "c371c8ec2953956538b3288a0f76c964a778b7bb203ebe64c28e0707bafe4fd3"
+      }
+    },
+    "christmas_sweets_traditional.png": {
+      "full": {
+        "bytes": 23677,
+        "path": "assets/travel/christmas_sweets_traditional.png",
+        "px": 256,
+        "sha256": "f558453cd59e52b9daf408f22e9ca7a97813f9edf14370371114a7a7756c8a2b"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 11115,
+        "path": "assets/travel/small/christmas_sweets_traditional.png",
+        "px": 160,
+        "sha256": "18cd0940d13f3b6c3e8b7da1b2aff22240cf103fb974c2db492df3ce9f17cd94"
+      }
+    },
     "ciabatta.png": {
       "full": {
         "bytes": 21099,
@@ -676,6 +736,21 @@
         "sha256": "c47a8b88ce6dd39c437e8468eec5fba1e1d27b81526be6eeb24ed3313f4d40ce"
       }
     },
+    "gray_clams.png": {
+      "full": {
+        "bytes": 33745,
+        "path": "assets/travel/gray_clams.png",
+        "px": 256,
+        "sha256": "2464505a4a4f3e9572c1b3a59cb8f3d35d9772c8d90e46705a40c2c2f1af7035"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 14417,
+        "path": "assets/travel/small/gray_clams.png",
+        "px": 160,
+        "sha256": "1bdfd554d0b65d2e9172e4e2675ec85503efb6034125aacc622a5f81ab417842"
+      }
+    },
     "green_almonds.png": {
       "full": {
         "bytes": 27870,
@@ -749,6 +824,21 @@
         "path": "assets/travel/small/guajes.png",
         "px": 160,
         "sha256": "6211396965c8ba6f7934e6f55497cfcd319433da60d8d5f7cc9a525ea89f3c7e"
+      }
+    },
+    "ham_croquettes.png": {
+      "full": {
+        "bytes": 26953,
+        "path": "assets/travel/ham_croquettes.png",
+        "px": 256,
+        "sha256": "c966566486e8a88406e66d7cd8ed9f4b6e216593b33130cdd1d7b54f20a51459"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 11859,
+        "path": "assets/travel/small/ham_croquettes.png",
+        "px": 160,
+        "sha256": "0931cc6581534987cba5abb6a060cfef28472d68a879bd7167d4d790f1d920bf"
       }
     },
     "hierba_mora.png": {
@@ -1576,6 +1666,21 @@
         "sha256": "e25b0bca3fcd3510097d80dfdd0b0e0532d2c20b9da8734cb46d2ec1f918d4ad"
       }
     },
+    "pink_tomato.png": {
+      "full": {
+        "bytes": 20321,
+        "path": "assets/travel/pink_tomato.png",
+        "px": 256,
+        "sha256": "074217c841d9da96afba38fc7eeb99612bb13167bb42fdcd25f0099306d909ae"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 9770,
+        "path": "assets/travel/small/pink_tomato.png",
+        "px": 160,
+        "sha256": "2bab2262b88e2b679ec1e4e185385fea80a71e1201e455bb9f11a8926923a2a4"
+      }
+    },
     "pistachios_natural.png": {
       "full": {
         "bytes": 27608,
@@ -1619,6 +1724,36 @@
         "path": "assets/travel/small/pizza_snack.png",
         "px": 160,
         "sha256": "233234e6b0bf2a8a0f75ae533df919b54857859b0f61f802c1c5828a9214bcf0"
+      }
+    },
+    "pochas_beans.png": {
+      "full": {
+        "bytes": 23484,
+        "path": "assets/travel/pochas_beans.png",
+        "px": 256,
+        "sha256": "4a6e53923460bab79958b4e171ac71d50fd819f42184e82e68496504fc8cd3c9"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 11292,
+        "path": "assets/travel/small/pochas_beans.png",
+        "px": 160,
+        "sha256": "8448b505aaa3b6fb659606c0640894fb2ae5b376539164dfbd46987c6987d3b8"
+      }
+    },
+    "polvoron.png": {
+      "full": {
+        "bytes": 20711,
+        "path": "assets/travel/polvoron.png",
+        "px": 256,
+        "sha256": "f93b9644cc341250fd337c89452be708f433ae28bf096225b0cc97c19e6f4e67"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 9604,
+        "path": "assets/travel/small/polvoron.png",
+        "px": 160,
+        "sha256": "f5ded62ed838389da4803034aa48f9c530727b32f9399c863967c10c73b68ac6"
       }
     },
     "pretzel_butter_corner.png": {
@@ -2146,6 +2281,21 @@
         "sha256": "99958e4d6252d2b967ee10e7e9e0a7bc8b4de7bc3a524fb3f73514249698207f"
       }
     },
+    "shrimp_tails.png": {
+      "full": {
+        "bytes": 35078,
+        "path": "assets/travel/shrimp_tails.png",
+        "px": 256,
+        "sha256": "a1f8cbd085c51332c26026dfe228471ea865e28ab6774a3c35aefc2ede38a41b"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 15093,
+        "path": "assets/travel/small/shrimp_tails.png",
+        "px": 160,
+        "sha256": "a98fdbbd96bef73e1f5d0e77a242d6b77b21660522291c9b8c856df7909d54fb"
+      }
+    },
     "simit_sesame_ring.png": {
       "full": {
         "bytes": 42969,
@@ -2176,6 +2326,36 @@
         "sha256": "e6b90f8ebfbf65245ef48545a0c3f95b7e69332005d9be0cc276243ab4526d01"
       }
     },
+    "squid_strips_rabas.png": {
+      "full": {
+        "bytes": 23118,
+        "path": "assets/travel/squid_strips_rabas.png",
+        "px": 256,
+        "sha256": "18c1cc26a1951f706f215a7ef7cc1991810360a97f21e31b9d7776cfa7d82746"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 10818,
+        "path": "assets/travel/small/squid_strips_rabas.png",
+        "px": 160,
+        "sha256": "f4912a60c8380f76952695ae0bbed3cdfd145ad6b9a14787ddd64a4a45dbe584"
+      }
+    },
+    "squid_tube_pota.png": {
+      "full": {
+        "bytes": 14453,
+        "path": "assets/travel/squid_tube_pota.png",
+        "px": 256,
+        "sha256": "d90697c3e0b86379d68d9e9fcf5d0d689212e0f3ef3d810f14f145d07bca0b79"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 6987,
+        "path": "assets/travel/small/squid_tube_pota.png",
+        "px": 160,
+        "sha256": "4925a6c086efb16976677e2cf1672e5662d67590eb9b70a78e82010d1a9ef224"
+      }
+    },
     "sunflower_seeds.png": {
       "full": {
         "bytes": 31141,
@@ -2189,6 +2369,21 @@
         "path": "assets/travel/small/sunflower_seeds.png",
         "px": 160,
         "sha256": "7df36c1e1db77e38dc9a14b4ab9c0e451c5f072b905725901ee309665153786e"
+      }
+    },
+    "sweet_pastries_assorted.png": {
+      "full": {
+        "bytes": 34953,
+        "path": "assets/travel/sweet_pastries_assorted.png",
+        "px": 256,
+        "sha256": "00d250bd3e0054226a72ae111f0cfea90ab4d4b8033c095221e21ce5c069dd7e"
+      },
+      "since": 117,
+      "small": {
+        "bytes": 15106,
+        "path": "assets/travel/small/sweet_pastries_assorted.png",
+        "px": 160,
+        "sha256": "302be8c22966c379b6304545266d6dda647a44856f6f3bbfaa33fbf4ece70ff3"
       }
     },
     "tortillas_flour.png": {

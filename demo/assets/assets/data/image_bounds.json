@@ -2,7 +2,7 @@
   "version": 1,
   "generated_by": "tool/build_image_bounds.dart",
   "alpha_threshold": 128,
-  "image_count": 1236,
+  "image_count": 1249,
   "bounds": {
     "abate_fetel_pears.png": {
       "left": 0.263671875,
@@ -255,6 +255,12 @@
       "top": 0.154296875,
       "right": 0.8359375,
       "bottom": 0.861328125
+    },
+    "argentine_red_shrimp.png": {
+      "left": 0.0,
+      "top": 0.173828125,
+      "right": 1.0,
+      "bottom": 0.830078125
     },
     "arra_thirty_grapes.png": {
       "left": 0.22265625,
@@ -1599,6 +1605,24 @@
       "top": 0.107421875,
       "right": 0.71484375,
       "bottom": 0.892578125
+    },
+    "christmas_sweets_mini.png": {
+      "left": 0.03125,
+      "top": 0.197265625,
+      "right": 0.966796875,
+      "bottom": 0.80078125
+    },
+    "christmas_sweets_premium.png": {
+      "left": 0.001953125,
+      "top": 0.181640625,
+      "right": 0.99609375,
+      "bottom": 0.8359375
+    },
+    "christmas_sweets_traditional.png": {
+      "left": 0.0234375,
+      "top": 0.181640625,
+      "right": 0.93359375,
+      "bottom": 0.810546875
     },
     "ciabatta.png": {
       "left": 0.005859375,
@@ -2962,6 +2986,12 @@
       "right": 0.65625,
       "bottom": 0.689453125
     },
+    "gray_clams.png": {
+      "left": 0.0,
+      "top": 0.169921875,
+      "right": 0.994140625,
+      "bottom": 0.826171875
+    },
     "green_almonds.png": {
       "left": 0.017578125,
       "top": 0.185546875,
@@ -3081,6 +3111,12 @@
       "top": 0.111328125,
       "right": 0.697265625,
       "bottom": 0.810546875
+    },
+    "ham_croquettes.png": {
+      "left": 0.013671875,
+      "top": 0.171875,
+      "right": 0.916015625,
+      "bottom": 0.826171875
     },
     "hami_melon.png": {
       "left": 0.2578125,
@@ -5122,6 +5158,12 @@
       "right": 0.884765625,
       "bottom": 0.861328125
     },
+    "pink_tomato.png": {
+      "left": 0.07421875,
+      "top": 0.18359375,
+      "right": 0.921875,
+      "bottom": 0.826171875
+    },
     "pinole_peppers.png": {
       "left": 0.357421875,
       "top": 0.123046875,
@@ -5272,11 +5314,23 @@
       "right": 0.76953125,
       "bottom": 0.939453125
     },
+    "pochas_beans.png": {
+      "left": 0.00390625,
+      "top": 0.177734375,
+      "right": 0.994140625,
+      "bottom": 0.822265625
+    },
     "polk_greens.png": {
       "left": 0.08203125,
       "top": 0.03515625,
       "right": 0.90234375,
       "bottom": 0.955078125
+    },
+    "polvoron.png": {
+      "left": 0.029296875,
+      "top": 0.181640625,
+      "right": 0.96875,
+      "bottom": 0.810546875
     },
     "pomegranate_large.png": {
       "left": 0.17578125,
@@ -6244,6 +6298,12 @@
       "right": 0.884765625,
       "bottom": 0.873046875
     },
+    "shrimp_tails.png": {
+      "left": 0.005859375,
+      "top": 0.169921875,
+      "right": 0.99609375,
+      "bottom": 0.833984375
+    },
     "simit_sesame_ring.png": {
       "left": 0.001953125,
       "top": 0.005859375,
@@ -6399,6 +6459,18 @@
       "top": 0.056640625,
       "right": 0.732421875,
       "bottom": 0.935546875
+    },
+    "squid_strips_rabas.png": {
+      "left": 0.044921875,
+      "top": 0.201171875,
+      "right": 0.94921875,
+      "bottom": 0.810546875
+    },
+    "squid_tube_pota.png": {
+      "left": 0.0390625,
+      "top": 0.287109375,
+      "right": 0.9609375,
+      "bottom": 0.724609375
     },
     "st_edmunds_pippin_apples.png": {
       "left": 0.134765625,
@@ -6609,6 +6681,12 @@
       "top": 0.091796875,
       "right": 0.865234375,
       "bottom": 0.869140625
+    },
+    "sweet_pastries_assorted.png": {
+      "left": 0.00390625,
+      "top": 0.173828125,
+      "right": 0.998046875,
+      "bottom": 0.830078125
     },
     "sweet_pixie_plums.png": {
       "left": 0.236328125,

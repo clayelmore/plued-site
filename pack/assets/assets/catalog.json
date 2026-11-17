@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "items": [
     {
       "id": "abate_fetel_pears",
@@ -532,7 +532,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Pera Anjou grande",
-        "defaults": "pear|pears|Birne|Birnen"
+        "defaults": "pear|pears|Birne|Birnen|pera|peras"
       },
       "common": true,
       "concept": "anjou_pears",
@@ -565,7 +565,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Pera Anjou chica",
-        "defaults": "pear|pears|Birne|Birnen"
+        "defaults": "pear|pears|Birne|Birnen|pera|peras"
       },
       "common": true,
       "concept": "anjou_pears",
@@ -1156,6 +1156,33 @@
         "words": ""
       },
       "concept": "apriums"
+    },
+    {
+      "id": "argentine_red_shrimp",
+      "plu": "",
+      "name": "Argentine Red Shrimp",
+      "category": "other",
+      "aliases": [
+        "Gambón",
+        "Gambones",
+        "Gambón austral",
+        "Gambón extragrande",
+        "Langostino argentino",
+        "Argentine shrimp",
+        "Argentinian red shrimp",
+        "Red shrimp"
+      ],
+      "image": "argentine_red_shrimp.png",
+      "desc": "argentine red shrimp (spanish gambón) are large whole raw shrimp sold loose by weight at the fish counter: a small group of three, each about 17 cm long with the head and legs attached and the long antennae swept back along the body, an even deep coral red-orange shell all over although raw, slightly translucent and glossy, each in a different pose. no plate and no ice.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Garnele|Garnelen|crevette|crevettes|camarão|camarões|gamberetto|gamberetti|krewetka|krewetki",
+        "family": "",
+        "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
+        "needs": "gambon|gambones|shrimp|shrimps|prawn|prawns|langostino|langostinos"
+      }
     },
     {
       "id": "cucumber_armenian",
@@ -2638,6 +2665,8 @@
       "aliases": [
         "Yellow (Cavendish)",
         "Guineo",
+        "Plátano de Canarias",
+        "Plátanos de Canarias",
         "Plátano",
         "guineos",
         "plátano chiapas",
@@ -2655,7 +2684,8 @@
         "names": "Banane|Bananen|bananes|banana|bananas|banan|banany",
         "family": "",
         "words": "",
-        "es": "Plátano"
+        "es": "Plátano",
+        "phrases": "Plátano de Canarias|Plátanos de Canarias"
       },
       "common": true,
       "concept": "bananas",
@@ -2760,6 +2790,9 @@
       "category": "fruit",
       "aliases": [
         "Bartlett/Williams",
+        "Pera Ercolina",
+        "Pera Ercolini",
+        "Ercolina",
         "Pera Bartlett chica",
         "peras bartlett"
       ],
@@ -2774,7 +2807,8 @@
         "names": "Williams Christ|Williams-Christ-Birne|Williamsbirne|poire Williams|Bon-Chrétien Williams|Williams|poire William|poires Williams|poire Bartlett|poires Bartlett|pera williams|peras williams|pere Williams|pere William|William|Bonkreta Williamsa",
         "family": "Birne|Birnen|poire|poires|pera|peras|pêra|pêras|pere|gruszka|gruszki",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
-        "es": "Pera Bartlett chica"
+        "es": "Pera Bartlett chica",
+        "phrases": "Pera Ercolina|Pera Ercolini"
       },
       "common": true,
       "concept": "bartlett_pears",
@@ -3571,7 +3605,7 @@
         "family": "",
         "words": "mehrfarbig bunt zweifarbig zweifarbige süß süße süßer süßes bicolore bicolores multicolore multicolores panaché panachés panachée panachées doux douce douces sucré sucrée sucrés sucrées bicolor multicolor tricolor doce doces bicolori dolce dolci dwukolorowy dwukolorowa dwukolorowe wielokolorowy wielokolorowa wielokolorowe słodki słodka słodkie",
         "es": "Elote dulce bicolor",
-        "phrases": "Maíz dulce|sweet corn|sweetcorn|local sweet corn|fresh sweet corn|elote dulce"
+        "phrases": "Maíz dulce|sweet corn|sweetcorn|local sweet corn|fresh sweet corn|elote dulce|maiz dulce en mazorca"
       },
       "concept": "corn_sweet_bi_color"
     },
@@ -4103,6 +4137,34 @@
         "names": "bolillo",
         "family": "",
         "words": ""
+      }
+    },
+    {
+      "id": "sweet_pastries_assorted",
+      "plu": "",
+      "name": "Bollería Assortment",
+      "category": "other",
+      "aliases": [
+        "Surtido bollería dulce",
+        "Surtido de bollería",
+        "Bollería dulce",
+        "Bollería surtida",
+        "Mini bollería",
+        "Assorted sweet pastries",
+        "Assorted pastries",
+        "Sweet pastries",
+        "Mini pastries",
+        "Assorted mini pastries",
+        "Sweet bakery assortment"
+      ],
+      "image": "sweet_pastries_assorted.png",
+      "desc": "a bollería assortment is the mix of small sweet pastries a bakery sells loose by weight: a small pile of six mini pastries, each a different kind, golden brown glossy baked laminated dough, a mini croissant, a mini chocolate napolitana with dark chocolate showing at its ends, a heart-shaped sugar-glazed palmier, a spiral raisin swirl, a small custard-filled puff and a sugar-dusted braided pastry. it is shown with no plate and no donuts.",
+      "section": "Bakery",
+      "size": "",
+      "since": 117,
+      "search": {
+        "phrases": "surtido bolleria dul|surtido bolleria dulce|surtido bolleria|sweet bakery assortment|assorted sweet pastries|assorted pastries|sweet pastries|mini pastries|assorted mini pastries",
+        "needs": "bolleria|bollerias"
       }
     },
     {
@@ -4865,6 +4927,8 @@
       "category": "vegetable",
       "aliases": [
         "Butternut",
+        "Calabaza cacahuete",
+        "Calabazas cacahuete",
         "Calabaza Butternut",
         "calabaza mantequilla"
       ],
@@ -4880,6 +4944,7 @@
         "family": "",
         "words": "",
         "es": "Calabaza Butternut",
+        "phrases": "Calabaza cacahuete|Calabazas cacahuete",
         "needs": "butternut|butternuss|butternusskurbis|butternutkurbis|squash|kurbis|kuerbis|calabaza|courge|abobora|zucca|dynia"
       },
       "common": true,
@@ -5034,6 +5099,8 @@
       "aliases": [
         "prickly pear",
         "tuna",
+        "Higo chumbo",
+        "Higos chumbos",
         "tuna verde",
         "tuna blanca",
         "tuna roja"
@@ -5049,7 +5116,8 @@
         "names": "Kaktusfeige|Kaktusfeigen|figue de Barbarie|figues de Barbarie|figo-da-índia|figos-da-índia|fico d'India|fichi d'India|ficodindia|fichidindia|opuncja|opuncja figowa",
         "family": "",
         "words": "",
-        "es": "Tuna"
+        "es": "Tuna",
+        "phrases": "Higo chumbo|Higos chumbos"
       },
       "concept": "cactus_pear"
     },
@@ -5376,6 +5444,9 @@
       "category": "fruit",
       "aliases": [
         "Physalis/Ground Cherry",
+        "Alquejenje",
+        "Alquequenje",
+        "Alquejenjes",
         "Uchuva (physalis)",
         "golden berry",
         "uchuva"
@@ -5656,7 +5727,7 @@
         "family": "",
         "words": "lose en vrac vrac a granel avulso sfuso sfusa sfusi sfuse rinfusa alla rinfusa luzem na wagę luz",
         "es": "Zanahoria suelta",
-        "defaults": "carrot|carrots|Karotte|Karotten|Möhre|Möhren|Moehre|Moehren"
+        "defaults": "carrot|carrots|Karotte|Karotten|Möhre|Möhren|Moehre|Moehren|zanahoria|zanahorias"
       },
       "common": true,
       "concept": "carrots_loose",
@@ -5715,7 +5786,8 @@
         "names": "Cashewkern|Cashewkerne|Cashewnuss|Cashewnüsse|Cashew|Cashews|noix de cajou|cajou|cajous|castanha de caju|castanhas de caju|caju|anacardo|anacardi|orzech nerkowca|orzechy nerkowca|nerkowiec|nerkowce",
         "family": "",
         "words": "",
-        "es": "Nuez de la India"
+        "es": "Nuez de la India",
+        "needs": "cashew|cashews|india|anacardo|anacardos|maranon|maranones|caju|cajou|cajous|cashewkern|cashewkerne|cashewnuss|cashewnusse|cashewnuesse|anacardi|nerkowca|nerkowiec|nerkowce"
       },
       "concept": "cashews"
     },
@@ -6494,6 +6566,9 @@
       "category": "fruit",
       "aliases": [
         "Regular/Red/Black",
+        "Picota",
+        "Picotas",
+        "Cereza picota",
         "Cerezas rojas/negras",
         "cerezas",
         "cerezas rojas"
@@ -6509,7 +6584,8 @@
         "names": "Kirsche|Kirschen|Süßkirsche|Süßkirschen|cerise|cerises|bigarreau|bigarreaux|cereja|cerejas|ciliegia|ciliegie|czereśnia|czereśnie|wiśnia|wiśnie",
         "family": "",
         "words": "rot rote roter rotes rotfleischig schwarz schwarze schwarzer schwarzes rouge rouges noir noire noirs noires vermelho vermelha vermelhos vermelhas preto preta pretos pretas negro negra rosso rossa rossi rosse nero nera neri nere czerwony czerwona czerwone czarny czarna czarne ciemny ciemna ciemne",
-        "es": "Cerezas rojas/negras"
+        "es": "Cerezas rojas/negras",
+        "phrases": "Cereza picota"
       },
       "common": true,
       "concept": "red_black_cherries"
@@ -6863,8 +6939,9 @@
       "category": "vegetable",
       "aliases": [
         "Garden Chives",
+        "Cebollino",
+        "Cebollinos",
         "Cebollín",
-        "cebollino",
         "cebollines"
       ],
       "image": "chives.png",
@@ -6878,7 +6955,8 @@
         "names": "Schnittlauch|ciboulette|cebolinho|erba cipollina|szczypiorek|szczypior",
         "family": "",
         "words": "",
-        "es": "Cebollín"
+        "es": "Cebollín",
+        "phrases": "cebollino|cebollinos"
       },
       "concept": "chives"
     },
@@ -6953,6 +7031,31 @@
         "es": "Choy sum baby"
       },
       "concept": "choy_sum_baby"
+    },
+    {
+      "id": "christmas_sweets_traditional",
+      "plu": "",
+      "name": "Christmas Assortment",
+      "category": "other",
+      "aliases": [
+        "Surtido navideño",
+        "Surtido navideño tradicional",
+        "Surtido de Navidad",
+        "Dulces de Navidad",
+        "Navidad tradicional",
+        "Christmas sweets",
+        "Traditional Christmas sweets",
+        "Christmas sweets assortment"
+      ],
+      "image": "christmas_sweets_traditional.png",
+      "desc": "a traditional christmas sweets mix is the loose assortment of spanish christmas sweets a store sells by weight: a small pile of about nine individually wrapped pieces, polvorones twist-wrapped in plain white, pale pink and pale yellow tissue paper, two small rectangular pieces in plain gold and silver foil, one small bar of pale almond nougat (turrón) and one unwrapped pale round mantecado shortbread. soft traditional colors; plain wrappers with no printing, no box and no bowl.",
+      "section": "Bakery",
+      "size": "",
+      "since": 117,
+      "search": {
+        "phrases": "christmas assortment|christmas assortments|christmas sweets|traditional christmas sweets|christmas sweets assortment",
+        "needs": "navidad|navideno|navidena|navidenos|navidenas"
+      }
     },
     {
       "id": "ciabatta",
@@ -8229,6 +8332,12 @@
       "aliases": [
         "Cubanelle",
         "Cubenell",
+        "Pimiento italiano",
+        "Pimiento italiano verde",
+        "Pimiento verde freír",
+        "Pimiento verde para freír",
+        "Pimiento de freír",
+        "Pimiento para freír",
         "Chile Cubanelle",
         "ají cubanela",
         "pimiento cubanela",
@@ -8246,7 +8355,8 @@
         "names": "poivron doux|poivrons doux|piment doux|piments doux|pimenta americana|pimento doce|pimento italiano|peperone dolce|peperoni dolci|friggitello|friggitelli|papryka słodka|papryczka słodka",
         "family": "Paprika|Paprikas|Gemüsepaprika|Paprikaschote|Paprikaschoten|Peperoni|poivron|poivrons|poivron carré|pimentão|pimentões|pimento|pimentos|peperone|papryka|papryki",
         "words": "",
-        "es": "Chile Cubanelle"
+        "es": "Chile Cubanelle",
+        "phrases": "Pimiento italiano|Pimiento italiano verde|Pimiento verde freír|Pimiento verde para freír|Pimiento de freír|Pimiento para freír"
       },
       "concept": "cubanelle_pepper"
     },
@@ -9375,9 +9485,7 @@
         "Lamuyo Green Pepper",
         "Pimiento alargado verde",
         "pimiento lamuyo",
-        "pimiento italiano",
-        "pimiento lamuyo verde",
-        "pimiento italiano verde"
+        "pimiento lamuyo verde"
       ],
       "image": "elongated_green_pepper.png",
       "desc": "long and blocky pepper with a deep, glossy green skin. it has a slightly tapered shape, generally thicker-walled than standard bell peppers, with 3-4 lobes. the length can be up to 6-8 inches.",
@@ -9771,6 +9879,8 @@
         "English/Seedless",
         "Long cucumber",
         "Cucumber long",
+        "Pepino holandés",
+        "Pepinos holandeses",
         "Pepino inglés",
         "pepino europeo",
         "pepino sin semilla"
@@ -9787,7 +9897,7 @@
         "family": "",
         "words": "",
         "es": "Pepino inglés",
-        "phrases": "Long cucumber|Cucumber long"
+        "phrases": "Long cucumber|Cucumber long|Pepino holandés|Pepinos holandeses"
       },
       "concept": "english_cucumber"
     },
@@ -9886,7 +9996,8 @@
         "names": "Endivie|Eskariol|Winterendivie|Endiviensalat|Endivien|Escariol|Glatte Endivie|scarole|scaroles|escarole|chicorée scarole|chicorée endive|escarola|scarola|indivia scarola|endywia",
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
-        "es": "Escarola verde"
+        "es": "Escarola verde",
+        "defaults": "escarola|escarolas"
       },
       "concept": "escarole_batavian_chicory_green"
     },
@@ -10166,6 +10277,8 @@
       "category": "fruit",
       "aliases": [
         "Black/Mission",
+        "Breva",
+        "Brevas",
         "Higos negros"
       ],
       "image": "figs_black.png",
@@ -10180,7 +10293,7 @@
         "family": "",
         "words": "schwarz schwarze schwarzer schwarzes noir noire noirs noires preto preta pretos pretas negro negra nero nera neri nere czarny czarna czarne ciemny ciemna ciemne",
         "es": "Higos negros",
-        "defaults": "fig|figs|Feige|Feigen"
+        "defaults": "fig|figs|Feige|Feigen|higo|higos"
       },
       "concept": "figs_black"
     },
@@ -10637,6 +10750,33 @@
       "concept": "french_pears"
     },
     {
+      "id": "pochas_beans",
+      "plu": "",
+      "name": "Fresh Pochas Beans",
+      "category": "vegetable",
+      "aliases": [
+        "Pochas",
+        "Pocha",
+        "Pochas frescas",
+        "Alubia pocha",
+        "Alubias pochas",
+        "Pochas beans",
+        "Pocha beans",
+        "Fresh pochas"
+      ],
+      "image": "pochas_beans.png",
+      "desc": "fresh pochas are the white beans of navarra and la rioja picked before they dry, sold loose in the pod: a small pile of seven pods, each 12 to 15 cm long and slightly lumpy over the beans, pale yellow-cream to washed-out pale green with light streaks, one pod split open to show five plump round ivory-white beans, with a few loose ivory-white beans in front. not bright green and not red mottled.",
+      "section": "Peas & Beans",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Bohne|Bohnen|Grüne Bohne|Grüne Bohnen|Fisole|Fisolen|Buschbohnen|Stangenbohnen|Keniabohnen|haricot|haricots|haricot vert|haricots verts|haricot princesse|haricots princesses|fève verte|fèves vertes|haricots français|feijão|feijão-verde|vagem|vagens|fagiolo|fagioli|fagiolino|fagiolini|fasola|fasolka|fasolka szparagowa",
+        "family": "",
+        "words": "frisch frische frischer frisches frais fraîche fraîches fresco fresca frescos frescas freschi fresche świeży świeża świeże",
+        "needs": "pocha|pochas"
+      }
+    },
+    {
       "id": "prunes_fresh",
       "plu": "3274",
       "name": "Fresh Prunes",
@@ -10959,7 +11099,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Manzana Gala grande (Este/Central)",
-        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel|manzana|manzanas"
       },
       "common": true,
       "concept": "gala_apples",
@@ -10991,7 +11131,7 @@
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
         "es": "Manzana Gala grande (Oeste)",
-        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel|manzana|manzanas"
       },
       "common": true,
       "concept": "gala_apples",
@@ -11023,7 +11163,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Manzana Gala chica (Este/Central)",
-        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel|manzana|manzanas"
       },
       "common": true,
       "concept": "gala_apples",
@@ -11054,7 +11194,7 @@
         "family": "",
         "words": "klein kleine kleiner kleines petit petite petits petites pequeno pequena pequenos pequenas miúdo miúda piccolo piccola piccoli piccole mały mała małe drobny drobna drobne",
         "es": "Manzana Gala chica (Oeste)",
-        "defaults": "apple|apples|Apfel|Äpfel|Aepfel"
+        "defaults": "apple|apples|Apfel|Äpfel|Aepfel|manzana|manzanas"
       },
       "common": true,
       "concept": "gala_apples",
@@ -11795,8 +11935,9 @@
       "category": "fruit",
       "aliases": [
         "Golden",
+        "Kiwigold",
+        "Kiwi gold",
         "Kiwi dorado",
-        "kiwi gold",
         "kiwi amarillo",
         "sungold"
       ],
@@ -11811,7 +11952,8 @@
         "names": "Kiwi|Kiwis|Kiwifrucht|quivi|quiuí",
         "family": "",
         "words": "golden goldene goldener goldenes goldgelb doré dorée dorés dorées dourado dourada dourados douradas dorato dorata dorati dorate złoty złota złote",
-        "es": "Kiwi dorado"
+        "es": "Kiwi dorado",
+        "phrases": "Kiwi gold"
       },
       "concept": "golden_kiwifruit"
     },
@@ -13569,6 +13711,35 @@
       }
     },
     {
+      "id": "gray_clams",
+      "plu": "",
+      "name": "Gray Clams",
+      "category": "other",
+      "aliases": [
+        "Almeja gris",
+        "Almejas",
+        "Almeja",
+        "Almeja japónica",
+        "Almeja japonesa",
+        "Clams",
+        "Clam",
+        "Grey clams",
+        "Japanese clams",
+        "Carpet shell clams"
+      ],
+      "image": "gray_clams.png",
+      "desc": "gray clams are live carpet shell clams sold loose by weight at the fish counter: a small pile of about eleven closed clams, each 3 to 4 cm, oval shells with a fine crisscross of radial and concentric ridges, mottled gray with darker gray-brown zigzag markings and blotches, wet and slightly glossy. not smooth and not heart-shaped cockles; no plate and no ice.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Venusmuschel|Venusmuscheln|palourde|palourdes|amêijoa|amêijoas|vongola|vongole",
+        "family": "",
+        "words": "",
+        "needs": "almeja|almejas|clam|clams"
+      }
+    },
+    {
       "id": "green_almonds",
       "plu": "",
       "name": "Green Almonds",
@@ -13903,6 +14074,8 @@
       "category": "vegetable",
       "aliases": [
         "Green/Spring",
+        "Cebolla tierna",
+        "Cebollas tiernas",
         "Cebolla verde (cebollín)",
         "cebolla de rabo",
         "cebollitas",
@@ -13925,7 +14098,8 @@
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
         "secondary": "échalote|échalotes",
-        "es": "Cebolla verde (cebollín)"
+        "es": "Cebolla verde (cebollín)",
+        "phrases": "Cebolla tierna|Cebollas tiernas"
       },
       "common": true,
       "concept": "green_onions_scallions"
@@ -13936,6 +14110,9 @@
       "name": "Green Pears",
       "category": "fruit",
       "aliases": [
+        "Pera Blanquilla",
+        "Peras blanquillas",
+        "Blanquilla",
         "Pera verde",
         "happi pear",
         "peras verdes (hw624)"
@@ -13951,7 +14128,8 @@
         "names": "Birne|Birnen|poire|poires|pera|peras|pêra|pêras|pere|gruszka|gruszki",
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
-        "es": "Pera verde"
+        "es": "Pera verde",
+        "phrases": "Pera Blanquilla|Peras blanquillas"
       },
       "concept": "green_pears_hw624"
     },
@@ -13962,10 +14140,11 @@
       "category": "vegetable",
       "aliases": [
         "garden peas",
+        "Guisante",
+        "Guisantes",
         "Chícharo verde",
         "chícharo",
         "chícharo en vaina",
-        "guisantes",
         "arvejas",
         "chícharos verdes"
       ],
@@ -13980,7 +14159,8 @@
         "names": "Erbse|Erbsen|pois|petit pois|petits pois|pois à écosser|pois verts|ervilha|ervilhas|pisello|piselli|groch|groszek",
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
-        "es": "Chícharo verde"
+        "es": "Chícharo verde",
+        "defaults": "guisante|guisantes"
       },
       "concept": "green_peas"
     },
@@ -14120,6 +14300,32 @@
       },
       "common": true,
       "concept": "habanero_pepper"
+    },
+    {
+      "id": "ham_croquettes",
+      "plu": "",
+      "name": "Ham Croquettes",
+      "category": "other",
+      "aliases": [
+        "Croquetas de jamón",
+        "Croquetas jamón",
+        "Croqueta de jamón",
+        "Croquetas",
+        "Ham croquette",
+        "Croquettes",
+        "Spanish ham croquettes"
+      ],
+      "image": "ham_croquettes.png",
+      "desc": "ham croquettes are the spanish croquetas de jamón a deli counter sells loose: a small pile of six short cylinders about 5 cm long with rounded ends and an even golden breadcrumb coating with a dry sandy texture, lightly fried to a pale gold, one cut in half to show the creamy white béchamel filling flecked with small pink pieces of cured ham. it is shown with no plate and no sauce.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Krokette|Kroketten|croquette|croquettes|croquete|croquetes|crocchetta|crocchette|krokiet|krokiety",
+        "family": "",
+        "words": "",
+        "needs": "croqueta|croquetas|croquette|croquettes"
+      }
     },
     {
       "id": "croissant_ham_cheese",
@@ -16730,6 +16936,10 @@
       "category": "fruit",
       "aliases": [
         "Regular",
+        "Limón Verna",
+        "Limones Verna",
+        "Limón Fino",
+        "Limones Finos",
         "Limón amarillo grande",
         "limón eureka",
         "limones amarillos"
@@ -16745,7 +16955,8 @@
         "names": "Zitrone|Zitronen|citron|citrons|limão|limões|limão-siciliano|limone|limoni|cytryna|cytryny",
         "family": "",
         "words": "groß große großer großes gros grosse grand grande grands grandes grosses graúdo graúda grado grandi duży duża duże",
-        "es": "Limón amarillo grande"
+        "es": "Limón amarillo grande",
+        "phrases": "Limón Verna|Limones Verna|Limón Fino|Limones Finos"
       },
       "common": true,
       "concept": "lemons",
@@ -18822,6 +19033,31 @@
       "concept": "milwa_apples"
     },
     {
+      "id": "christmas_sweets_mini",
+      "plu": "",
+      "name": "Mini Christmas Assortment",
+      "category": "other",
+      "aliases": [
+        "Surtido mini",
+        "Surtido navideño mini",
+        "Mini polvorones",
+        "Mini Christmas sweets",
+        "Christmas sweets mini"
+      ],
+      "image": "christmas_sweets_mini.png",
+      "desc": "a mini christmas sweets mix is a loose assortment of bite-size spanish christmas sweets sold by weight: a pile of about twenty-five very small pieces, each about 2 cm, tiny round and oval shortbread bites (mini polvorones and mantecados) twist-wrapped in plain white, cream and pale pastel tissue paper, a few tiny pieces in plain matte gold paper, four tiny unwrapped shortbread bites dusted with powdered sugar and two tiny cubes of almond nougat. plain wrappers with no printing, no box and no bowl.",
+      "section": "Bakery",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "",
+        "family": "",
+        "words": "Baby mini minis miniature miniatures bébé bébés",
+        "phrases": "mini christmas assortment|mini christmas sweets|christmas sweets mini|surtido mini|surtido mini granel|surtidos mini|mini surtido",
+        "needs": "navidad|navideno|navidena|navidenos|navidenas|polvoron"
+      }
+    },
+    {
       "id": "mini_cucumbers",
       "plu": "",
       "name": "Mini Cucumbers",
@@ -19596,6 +19832,10 @@
       "category": "fruit",
       "aliases": [
         "Navel",
+        "Naranja de mesa",
+        "Naranjas de mesa",
+        "Naranja postre",
+        "Naranja de postre",
         "Naranja Navel mediana",
         "naranja sin semilla",
         "naranjas navel"
@@ -19612,6 +19852,7 @@
         "family": "Orange|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "words": "mittelgroß mittelgroße moyen moyenne moyens moyennes médio média médios médias medio media medi medie średni średnia średnie",
         "es": "Naranja Navel mediana",
+        "phrases": "Naranja de mesa|Naranjas de mesa|Naranja postre|Naranja de postre",
         "defaults": "Orangen"
       },
       "common": true,
@@ -20831,6 +21072,10 @@
       "name": "Oranges - Valencia, Medium",
       "category": "fruit",
       "aliases": [
+        "Naranja zumo",
+        "Naranja de zumo",
+        "Naranjas de zumo",
+        "Naranja para zumo",
         "Naranja Valencia mediana",
         "naranja valenciana",
         "naranja de jugo",
@@ -20847,7 +21092,8 @@
         "names": "Orange|Orangen|Apfelsine|Apfelsinen|Saftorange|Saftorangen|Blondorange|Blondorangen|oranges|laranja|laranjas|arancia|arance|pomarańcza|pomarańcze",
         "family": "",
         "words": "mittelgroß mittelgroße moyen moyenne moyens moyennes médio média médios médias medio media medi medie średni średnia średnie",
-        "es": "Naranja Valencia mediana"
+        "es": "Naranja Valencia mediana",
+        "phrases": "Naranja zumo|Naranja de zumo|Naranjas de zumo|Naranja para zumo"
       },
       "concept": "valencia_oranges",
       "dims": {
@@ -20952,7 +21198,8 @@
         "names": "Austernpilz|Austernpilze|Austernseitling|pleurote|pleurotes|pleurote en huître|cogumelo-ostra|pleuroto-ostra|hiratake|pleurotus|shimeji|fungo ostrica|funghi pleurotus|pleurotto|pleurotti|orecchione|orecchioni|sfiandrina|cardoncello|cardoncelli|boczniak|boczniaki",
         "family": "Pilz|Pilze|Schwammerl|champignon|champignons|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
         "words": "",
-        "es": "Hongos seta"
+        "es": "Hongos seta",
+        "defaults": "seta|setas"
       },
       "concept": "oyster_mushrooms"
     },
@@ -22072,7 +22319,8 @@
         "names": "Pfirsich|Pfirsiche|pêche|pêches|pêssego|pêssegos|pesca|pesche|brzoskwinia|brzoskwinie",
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig groß große großer großes jaune jaunes gros grosse grand grande grands grandes grosses amarelo amarela amarelos amarelas graúdo graúda grado giallo gialla gialli gialle grandi żółty żółta żółte duży duża duże",
-        "es": "Durazno amarillo grande"
+        "es": "Durazno amarillo grande",
+        "phrases": "melocoton rojo|melocotones rojos"
       },
       "common": true,
       "concept": "peaches_yellow_flesh",
@@ -22304,6 +22552,9 @@
       "name": "Pears - Guyot",
       "category": "fruit",
       "aliases": [
+        "Pera Limonera",
+        "Peras limoneras",
+        "Limonera",
         "Pera Guyot",
         "peras guyot"
       ],
@@ -22318,7 +22569,8 @@
         "names": "Birne|Birnen|poire|poires|pera|peras|pêra|pêras|pere|gruszka|gruszki",
         "family": "",
         "words": "",
-        "es": "Pera Guyot"
+        "es": "Pera Guyot",
+        "phrases": "Pera Limonera|Peras limoneras"
       },
       "concept": "pears_guyot"
     },
@@ -23106,6 +23358,30 @@
       }
     },
     {
+      "id": "pink_tomato",
+      "plu": "",
+      "name": "Pink Tomato",
+      "category": "vegetable",
+      "aliases": [
+        "Tomate rosa",
+        "Tomates rosa",
+        "Tomate rosa de Barbastro",
+        "Tomate rosado",
+        "Pink tomatoes",
+        "Spanish pink tomato"
+      ],
+      "image": "pink_tomato.png",
+      "desc": "a pink tomato (spanish tomate rosa, the rosa de barbastro type) is one large flattened beefsteak-shaped tomato with soft irregular lobes around the stem end, dusty rose-pink thin skin, slightly matte, a little green-yellow at the shoulders and a small green calyx. not bright red and not deeply pleated.",
+      "section": "Tomatoes & Tomatillos",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Tomate|Tomaten|Paradeiser|Fleischtomate|Fleischtomaten|tomates|pomodoro|pomodori|pomidor|pomidory",
+        "family": "",
+        "words": "rosa rose roses cor-de-rosa rosada rosado rosato rosata rosati rosate rosè różowy różowa różowe"
+      }
+    },
+    {
       "id": "pinole_peppers",
       "plu": "4704",
       "name": "Pinole Peppers",
@@ -23797,6 +24073,32 @@
       "concept": "polk_greens"
     },
     {
+      "id": "polvoron",
+      "plu": "",
+      "name": "Polvorón Shortbread",
+      "category": "other",
+      "aliases": [
+        "Polvorón",
+        "Polvorones",
+        "Polvoron",
+        "Polvorons",
+        "Mantecado",
+        "Mantecados",
+        "Spanish shortbread",
+        "Polvoron shortbread",
+        "Polvoron cookie",
+        "Polvoron cookies"
+      ],
+      "image": "polvoron.png",
+      "desc": "a polvorón is the crumbly spanish christmas shortbread made with lard, flour and sugar: a small group of three, two wrapped one by one in thin white tissue paper with both ends twisted like a candy wrapper, slightly crinkled and plain, and one unwrapped in front, a thick pale tan crumbly shortbread cookie about 5 cm long dusted with powdered sugar. it is shown with no printing, no logo and no brand.",
+      "section": "Bakery",
+      "size": "",
+      "since": 117,
+      "search": {
+        "needs": "polvoron|polvorones|mantecado|shortbread"
+      }
+    },
+    {
       "id": "pomegranate_large",
       "plu": "3440",
       "name": "Pomegranate - Large",
@@ -23938,8 +24240,10 @@
       "category": "vegetable",
       "aliases": [
         "Portabella",
+        "Portobello",
+        "Champiñón Portobello",
+        "Champiñones Portobello",
         "Hongos portabella",
-        "portobello",
         "hongo portobello"
       ],
       "image": "portabella_mushrooms.png",
@@ -23953,7 +24257,8 @@
         "names": "Champignon|Champignons|Zuchtchampignon|Egerling|Portobello|Egerlinge|champignon de Paris|champignons de Paris|champignon blanc|champignons blancs|champignon brun|champignons bruns|champignon blond|portobellos|cremini|crimini|champinhom|cogumelo paris|cogumelo de paris|portobelo|cogumelo branco|cogumelo marron|prataiolo|prataioli|fungo champignon|funghi champignon|pieczarka|pieczarki|pieczarka brązowa|pieczarki brązowe",
         "family": "Pilz|Pilze|Schwammerl|cogumelo|cogumelos|fungo|funghi|grzyb|grzyby",
         "words": "",
-        "es": "Hongos portabella"
+        "es": "Hongos portabella",
+        "phrases": "Champiñón Portobello|Champiñones Portobello"
       },
       "common": true,
       "concept": "portabella_mushrooms"
@@ -24177,6 +24482,28 @@
         "es": "Manzana PremA280"
       },
       "concept": "prema280_apples"
+    },
+    {
+      "id": "christmas_sweets_premium",
+      "plu": "",
+      "name": "Premium Christmas Assortment",
+      "category": "other",
+      "aliases": [
+        "Surtido navideño premium",
+        "Navidad premium",
+        "Surtido de Navidad premium",
+        "Premium Christmas sweets",
+        "Christmas sweets premium"
+      ],
+      "image": "christmas_sweets_premium.png",
+      "desc": "a premium christmas sweets mix is the richer loose assortment of spanish christmas sweets a store sells by weight: a small pile of about nine pieces twist-wrapped in plain shiny gold and deep burgundy foil, two dark chocolate coated bonbons, two small bites of hard almond nougat (turrón) showing whole almonds and one unwrapped dark cocoa shortbread. rich gold, burgundy and chocolate colors; plain wrappers with no printing, no box and no bowl.",
+      "section": "Bakery",
+      "size": "",
+      "since": 117,
+      "search": {
+        "phrases": "premium christmas assortment|premium christmas sweets|christmas sweets premium",
+        "needs": "navidad|navideno|navidena|navidenos|navidenas"
+      }
     },
     {
       "id": "president_plums_all_sizes",
@@ -25306,6 +25633,9 @@
       "category": "vegetable",
       "aliases": [
         "Red",
+        "Lombarda",
+        "Lombardas",
+        "Col lombarda",
         "Repollo morado",
         "col morada",
         "repollo rojo",
@@ -25322,7 +25652,8 @@
         "names": "Rotkohl|Rotkraut|Blaukraut|Rotkabis|Blaukabis|chou rouge|choux rouges|repolho roxo|repolho vermelho|couve roxa|cavolo rosso|cavoli rossi|cavolo cappuccio rosso|cavolo viola|kapusta czerwona|czerwona kapusta",
         "family": "Kohl|Weißkohl|Kopfkohl|Weißkraut|Kabis|Spitzkohl|Spitzkraut|Spitzkabis|chou|choux|chou cabus|chou pommé|chou blanc|chou vert|chou pointu|repolho|repolhos|couve branca|couve coração|cavolo|cavoli|cavolo cappuccio|cavolo bianco|kapusta|kapusta biała|kapusta głowiasta",
         "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
-        "es": "Repollo morado"
+        "es": "Repollo morado",
+        "phrases": "Col lombarda|lombarda|lombardas|col lombarda"
       },
       "concept": "red_cabbage"
     },
@@ -25766,8 +26097,9 @@
       "category": "vegetable",
       "aliases": [
         "Red",
-        "Cebolla morada",
-        "cebolla roja"
+        "Cebolla roja",
+        "Cebollas rojas",
+        "Cebolla morada"
       ],
       "image": "red_onion.png",
       "desc": "showing deep purple-red papery skin, round globe shape",
@@ -25780,7 +26112,8 @@
         "names": "Zwiebel|Zwiebeln|Speisezwiebel|Speisezwiebeln|Gemüsezwiebel|Gemüsezwiebeln|oignon|oignons|cebola|cebolas|cipolla|cipolle|cebula|cebule",
         "family": "",
         "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
-        "es": "Cebolla morada"
+        "es": "Cebolla morada",
+        "phrases": "Cebolla roja|Cebollas rojas"
       },
       "common": true,
       "concept": "red_onion"
@@ -25982,7 +26315,7 @@
         "family": "",
         "words": "rot rote roter rotes rotfleischig rouge rouges vermelho vermelha vermelhos vermelhas rosso rossa rossi rosse czerwony czerwona czerwone",
         "es": "Frambuesas rojas",
-        "defaults": "raspberry|raspberries|Himbeere|Himbeeren"
+        "defaults": "raspberry|raspberries|Himbeere|Himbeeren|frambuesa|frambuesas"
       },
       "concept": "red_raspberries"
     },
@@ -26410,7 +26743,7 @@
         "family": "Tomate|Tomaten|Paradeiser|Fleischtomate|Fleischtomaten|tomates|pomodoro|pomodori|pomidor|pomidory",
         "words": "",
         "es": "Tomate Roma",
-        "phrases": "Jitomate guaje|Jitomate huaje"
+        "phrases": "Jitomate guaje|Jitomate huaje|tomate pera|tomates pera"
       },
       "common": true,
       "concept": "roma_tomatoes"
@@ -26881,6 +27214,8 @@
       "category": "vegetable",
       "aliases": [
         "Regular",
+        "Nabicol",
+        "Nabicoles",
         "colinabo",
         "nabo sueco"
       ],
@@ -27344,6 +27679,8 @@
       "category": "vegetable",
       "aliases": [
         "Savoy",
+        "Repollo rizado",
+        "Repollos rizados",
         "Repollo Savoy verde",
         "repollo savoy"
       ],
@@ -27359,6 +27696,7 @@
         "family": "Kohl|Weißkohl|Kopfkohl|Weißkraut|Kabis|Spitzkohl|Spitzkraut|Spitzkabis|chou|choux|chou cabus|chou pommé|chou blanc|chou vert|chou pointu|repolho|repolhos|couve branca|couve coração|cavolo|cavoli|cavolo cappuccio|cavolo bianco|kapusta|kapusta biała|kapusta głowiasta",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
         "es": "Repollo Savoy verde",
+        "phrases": "Repollo rizado|Repollos rizados",
         "defaults": "Wirsing|Wirsingkohl"
       },
       "concept": "cabbage_savoy_green"
@@ -28000,6 +28338,33 @@
         "es": "Caqui rojo brillante"
       },
       "concept": "shiny_red_persimmon_all_sizes"
+    },
+    {
+      "id": "shrimp_tails",
+      "plu": "",
+      "name": "Shrimp Tails",
+      "category": "other",
+      "aliases": [
+        "Cola de gamba",
+        "Colas de gamba",
+        "Cola gamba",
+        "Colas de langostino",
+        "Camarón sin cabeza",
+        "Shrimp tail",
+        "Headless shrimp",
+        "Raw shrimp tails"
+      ],
+      "image": "shrimp_tails.png",
+      "desc": "shrimp tails are raw headless shrimp with the shell on, sold loose by weight at the fish counter: a small pile of about nine tails, each curled in a loose c shape, with a translucent grayish-pink shell and a small tail fan, glossy and wet. no heads, not peeled, raw and not cooked orange; no plate and no ice.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Garnele|Garnelen|crevette|crevettes|camarão|camarões|gamberetto|gamberetti|krewetka|krewetki",
+        "family": "",
+        "words": "",
+        "needs": "gamba|gambas|shrimp|shrimps|prawn|prawns|langostino|langostinos|camaron|camarones"
+      }
     },
     {
       "id": "loaf_siegerland",
@@ -28898,6 +29263,61 @@
       "concept": "squash_australian_blue"
     },
     {
+      "id": "squid_strips_rabas",
+      "plu": "",
+      "name": "Squid Strips",
+      "category": "other",
+      "aliases": [
+        "Rabas",
+        "Raba",
+        "Rabas de pota",
+        "Rabas de calamar",
+        "Tiras de calamar",
+        "Rabas a granel",
+        "Tiras de pota",
+        "Squid strip",
+        "Raw squid strips"
+      ],
+      "image": "squid_strips_rabas.png",
+      "desc": "squid strips (spanish rabas) are raw squid cut lengthwise into strips and sold loose at the fish counter for frying: a small pile of about twelve strips, each about 7 cm long and 1 cm wide, off-white and slightly translucent, glossy and wet, with a faint pink tint on a few edges. strips, not rings; raw, not breaded and not fried; no plate.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Kalmar|Kalmare|calmar|calmars|encornet|encornets|lula|lulas|calamaro|calamari|kałamarnica|kałamarnice|kalmary",
+        "family": "",
+        "words": "",
+        "needs": "raba|rabas|squid|calamar|calamares"
+      }
+    },
+    {
+      "id": "squid_tube_pota",
+      "plu": "",
+      "name": "Squid Tube",
+      "category": "other",
+      "aliases": [
+        "Tubo de pota",
+        "Tubo pota",
+        "Tubo de calamar",
+        "Tubos de pota",
+        "Squid tubes",
+        "Pota squid tube",
+        "Jumbo squid tube",
+        "Cleaned squid tube"
+      ],
+      "image": "squid_tube_pota.png",
+      "desc": "a squid tube is the cleaned body of the jumbo flying squid (spanish pota), sold loose at the fish counter: one raw tube about 22 cm long, a smooth tapered cone open at the wide end, thick off-white flesh with a faint pinkish-purple tint on the outer surface, glossy and wet, lying at a slight angle. no head, no tentacles and no fins.",
+      "section": "Store Items",
+      "size": "",
+      "since": 117,
+      "search": {
+        "names": "Kalmar|Kalmare|calmar|calmars|encornet|encornets|lula|lulas|calamaro|calamari|kałamarnica|kałamarnice|kalmary",
+        "family": "",
+        "words": "",
+        "needs": "pota|potas|squid|calamar|calamares"
+      }
+    },
+    {
       "id": "st_edmunds_pippin_apples",
       "plu": "3353",
       "name": "St. Edmund's Pippin Apples",
@@ -29092,6 +29512,8 @@
       "name": "Strawberries - Bulk",
       "category": "fruit",
       "aliases": [
+        "Fresón",
+        "Fresones",
         "Fresas a granel"
       ],
       "image": "strawberries_bulk.png",
@@ -29106,7 +29528,7 @@
         "family": "",
         "words": "",
         "es": "Fresas a granel",
-        "defaults": "strawberry|strawberries|Erdbeere|Erdbeeren"
+        "defaults": "strawberry|strawberries|Erdbeere|Erdbeeren|fresón|fresones"
       },
       "concept": "strawberries_bulk",
       "dims": {
@@ -30426,7 +30848,9 @@
         "names": "Mangold|Krautstiel|Krautstiele|blette|blettes|bette|bettes|poirée|bette à carde|bettes à carde|côte de bette|côtes de bette|côtes de bettes|côtes de blette|acelga|acelgas|acelga colorida|bietola|bietole|bieta|biete|biete coste|erbette|boćwina|botwina|burak liściowy",
         "family": "",
         "words": "grün grüne grüner grünes vert verte verts vertes verde verdes verdi zielony zielona zielone",
-        "es": "Acelga verde"
+        "es": "Acelga verde",
+        "phrases": "acelga amarilla|acelgas amarillas|acelga de aqui|acelga amarilla de aqui",
+        "defaults": "acelga|acelgas"
       },
       "concept": "swiss_chard_green"
     },
@@ -32155,6 +32579,14 @@
         "Walnuts - Regular",
         "Jowz",
         "Joz",
+        "Nuez de Navarra",
+        "Nueces de Navarra",
+        "Nuez Navarra",
+        "Nuez C. Navarra",
+        "Nuez del país",
+        "Nueces del país",
+        "Nuez de California",
+        "Nueces de California",
         "Nuez de Castilla",
         "nuez de nogal",
         "nuez inglesa",
@@ -32175,7 +32607,8 @@
         "names": "Walnuss|Walnüsse|noix|noix de Grenoble|noz|nozes|noce|noci|orzech włoski|orzechy włoskie",
         "family": "",
         "words": "",
-        "es": "Nuez de Castilla"
+        "es": "Nuez de Castilla",
+        "phrases": "Nuez de Navarra|Nueces de Navarra|Nuez Navarra|Nuez C. Navarra|Nuez del país|Nueces del país|Nuez de California|Nueces de California"
       },
       "concept": "walnuts"
     },
@@ -32730,6 +33163,8 @@
         "white zucchini",
         "white pattypan squash",
         "white summer squash",
+        "Calabacín blanco",
+        "Calabacines blancos",
         "Calabacita blanca",
         "calabaza blanca"
       ],
@@ -32744,7 +33179,8 @@
         "names": "Sommerkürbis|courgette jaune|courgettes jaunes|courgette blanche|courgettes blanches|courgette grise|courgettes grises|courge d'été|courges d'été|abobrinha brasileira|abobrinha menina|abobrinha amarela|curgete amarela|zucchina gialla|zucchine gialle|dynia szparagowa|cukinia żółta|żółta cukinia",
         "family": "Kürbis|Kürbisse|Winterkürbis|Speisekürbis|Speisekürbisse|courge|courges|abóbora|abóboras|moranga|jerimum|zucca|zucche|dynia|dynie",
         "words": "weiß weiße weißer weißes weißfleischig hell helle heller helles blanc blanche blancs blanches branco branca brancos brancas bianco bianca bianchi bianche biały biała białe jasny jasna jasne",
-        "es": "Calabacita blanca"
+        "es": "Calabacita blanca",
+        "phrases": "Calabacín blanco|Calabacines blancos"
       },
       "concept": "white_squash"
     },
@@ -33409,7 +33845,8 @@
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig groß große großer großes jaune jaunes gros grosse grand grande grands grandes grosses amarelo amarela amarelos amarelas graúdo graúda grado giallo gialla gialli gialle grandi żółty żółta żółte duży duża duże",
         "es": "Cebolla amarilla grande",
-        "defaults": "onion|onions|Zwiebel|Zwiebeln"
+        "phrases": "cebolla guisar|cebolla para guisar|cebollas para guisar|cebolla de guisar",
+        "defaults": "onion|onions|Zwiebel|Zwiebeln|cebolla|cebollas"
       },
       "common": true,
       "concept": "yellow_onion",
@@ -33439,7 +33876,7 @@
         "family": "",
         "words": "gelb gelbe gelber gelbes gelbfleischig klein kleine kleiner kleines jaune jaunes petit petite petits petites amarelo amarela amarelos amarelas pequeno pequena pequenos pequenas miúdo miúda giallo gialla gialli gialle piccolo piccola piccoli piccole żółty żółta żółte mały mała małe drobny drobna drobne",
         "es": "Cebolla amarilla chica",
-        "defaults": "onion|onions|Zwiebel|Zwiebeln"
+        "defaults": "onion|onions|Zwiebel|Zwiebeln|cebolla|cebollas"
       },
       "common": true,
       "concept": "yellow_onion",
@@ -33922,7 +34359,7 @@
         "family": "",
         "words": "",
         "es": "Calabaza italiana",
-        "phrases": "calabacita|calabacitas",
+        "phrases": "calabacita|calabacitas|calabacin|calabacines|calabacin verde|calabacines verdes",
         "defaults": "calabacita|calabacitas"
       },
       "common": true,

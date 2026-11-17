@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\"). 15 more Netto items joined on 2026-11-10 (owner, asked what should happen with the items still left out: \"Draw all 15\"): best guesses from the product type, two from the name alone. Cut watermelon chunks joined on 2026-11-14 (owner: \"On my task pack, I have cut watermelon chunks.\"): a store's own number for cut fruit; the live IFPS list has no row for cut watermelon.",
+  "version": 13,
+  "note": "Graphics-only catalog entries: produce (Latin set 2026-09-14, Middle Eastern set 2026-10-06), and store items such as bakery (2026-10-05), with no global IFPS code (retailer-assigned at the store), pickable in the builder by name and alias, never taught as a PLU. desc is the render prompt and the picker search text. Hierba mora left this list on 2026-10-08: it is PLU 3483 (Solanum americanum on the live IFPS row), so the seed item purple_herb now uses hierba_mora.png, carries the entry's aliases, and its 'since' keeps the carried copies. A cacao pod joined on 2026-10-09 (a store sells it under its own number; the live IFPS list has no row for cacao or cocoa). Three joined on 2026-10-20 from the daily pack check: a Baladi cucumber (a store's own number; the live IFPS list has no Baladi row, its nearest is 4062 Green/Ridge/Short, already the plain Cucumber), walnuts in the shell (a store's own number; note the live IFPS list does carry 4943 Walnuts Regular, which the seed does not teach yet) and Montreal bagels (bakery). Walnuts in the shell left this list on 2026-10-21 (nuts-release): PLU 4943 Walnuts Regular is taught now, so the seed item walnuts uses walnuts_in_shell.png, carries the entry's English aliases (bare Nuez and Nueces stay off it: in Mexico plain nuez is the pecan; the Spanish table gives it nuez de Castilla and nuez con cáscara), and its since 101 keeps the carried copies. Three joined on 2026-11-08 from the daily pack check (owner: \"Yes, switch Gurke and add mini cucumbers\"; \"We're going to do that. Other items can be in there too. It works.\"): mini cucumbers (Edeka Jens 7136 \"Mini Gurke\"; the live IFPS list has no mini or snack cucumber row), and two store items that are not produce, a one-gallon water refill jug (Woodmans 100) and bulk candy (Woodmans 807). 28 bakery items joined on 2026-11-09 from the daily pack check, from a discount store's bake-off list (owner: \"Let's build the bakery pictures. Have them ready to roll if somebody has something in there.\"); the store sells them under its own numbers, so they carry no PLU. An empty bottle crate joined on 2026-11-10 (owner: \"Let's give them everything so everything has a picture.\"): the same store's row 2902 \"Träger leer\", the returnable crate a shopper brings back for the deposit; not produce, no PLU. 33 more bakery items joined on 2026-11-10 from Netto's bake-off list (owner: \"build the rest of Netto's bake-off\"), named from public Netto cashier card sets and Netto's own offer photos; the store sells them under its own numbers, so they carry no PLU. 17 more joined the same day from Netto's current flyers and its cake list (owner: \"11 current flyer items\", \"One chocolate muffin\", \"Six cakes\"). 15 more Netto items joined on 2026-11-10 (owner, asked what should happen with the items still left out: \"Draw all 15\"): best guesses from the product type, two from the name alone. Cut watermelon chunks joined on 2026-11-14 (owner: \"On my task pack, I have cut watermelon chunks.\"): a store's own number for cut fruit; the live IFPS list has no row for cut watermelon. Thirteen joined on 2026-11-16 from a store in northern Spain (owner: \"Make sure we have all the Christmas things they need.\" \"Including the seafood.\"): a polvorón, three Christmas sweets mixes (traditional, premium and mini; the store's \"SURTIDO MINI GRANEL\" is read as the mini mix, an uncertain reading), assorted sweet pastries, ham croquettes, squid strips (rabas), shrimp tails, a squid tube (pota), Argentine red shrimp (gambón) and gray clams, which are store items and not produce, plus fresh pochas beans and a pink tomato, which are produce; the store sells all thirteen under its own numbers, so they carry no PLU, and the live IFPS list was not queried again for pochas or a pink tomato in this unit.",
   "items": [
     {
       "id": "jocote",
@@ -2399,6 +2399,252 @@
         "Cubos de sandía"
       ],
       "desc": "Cubed watermelon: about twelve cubes of red seedless watermelon with no rind, shown in a small heap with no bowl, no plate and no fork."
+    },
+    {
+      "id": "polvoron",
+      "name": "Polvorón Shortbread",
+      "category": "other",
+      "section": "Bakery",
+      "image": "polvoron.png",
+      "aliases": [
+        "Polvorón",
+        "Polvorones",
+        "Polvoron",
+        "Polvorons",
+        "Mantecado",
+        "Mantecados",
+        "Spanish shortbread",
+        "Polvoron shortbread",
+        "Polvoron cookie",
+        "Polvoron cookies"
+      ],
+      "desc": "A polvorón is the crumbly Spanish Christmas shortbread made with lard, flour and sugar: a small group of three, two wrapped one by one in thin white tissue paper with both ends twisted like a candy wrapper, slightly crinkled and plain, and one unwrapped in front, a thick pale tan crumbly shortbread cookie about 5 cm long dusted with powdered sugar. It is shown with no printing, no logo and no brand.",
+      "since": 117
+    },
+    {
+      "id": "christmas_sweets_traditional",
+      "name": "Christmas Assortment",
+      "category": "other",
+      "section": "Bakery",
+      "image": "christmas_sweets_traditional.png",
+      "aliases": [
+        "Surtido navideño",
+        "Surtido navideño tradicional",
+        "Surtido de Navidad",
+        "Dulces de Navidad",
+        "Navidad tradicional",
+        "Christmas sweets",
+        "Traditional Christmas sweets",
+        "Christmas sweets assortment"
+      ],
+      "desc": "A traditional Christmas sweets mix is the loose assortment of Spanish Christmas sweets a store sells by weight: a small pile of about nine individually wrapped pieces, polvorones twist-wrapped in plain white, pale pink and pale yellow tissue paper, two small rectangular pieces in plain gold and silver foil, one small bar of pale almond nougat (turrón) and one unwrapped pale round mantecado shortbread. Soft traditional colors; plain wrappers with no printing, no box and no bowl.",
+      "since": 117
+    },
+    {
+      "id": "christmas_sweets_premium",
+      "name": "Premium Christmas Assortment",
+      "category": "other",
+      "section": "Bakery",
+      "image": "christmas_sweets_premium.png",
+      "aliases": [
+        "Surtido navideño premium",
+        "Navidad premium",
+        "Surtido de Navidad premium",
+        "Premium Christmas sweets",
+        "Christmas sweets premium"
+      ],
+      "desc": "A premium Christmas sweets mix is the richer loose assortment of Spanish Christmas sweets a store sells by weight: a small pile of about nine pieces twist-wrapped in plain shiny gold and deep burgundy foil, two dark chocolate coated bonbons, two small bites of hard almond nougat (turrón) showing whole almonds and one unwrapped dark cocoa shortbread. Rich gold, burgundy and chocolate colors; plain wrappers with no printing, no box and no bowl.",
+      "since": 117
+    },
+    {
+      "id": "christmas_sweets_mini",
+      "name": "Mini Christmas Assortment",
+      "category": "other",
+      "section": "Bakery",
+      "image": "christmas_sweets_mini.png",
+      "aliases": [
+        "Surtido mini",
+        "Surtido navideño mini",
+        "Mini polvorones",
+        "Mini Christmas sweets",
+        "Christmas sweets mini"
+      ],
+      "desc": "A mini Christmas sweets mix is a loose assortment of bite-size Spanish Christmas sweets sold by weight: a pile of about twenty-five very small pieces, each about 2 cm, tiny round and oval shortbread bites (mini polvorones and mantecados) twist-wrapped in plain white, cream and pale pastel tissue paper, a few tiny pieces in plain matte gold paper, four tiny unwrapped shortbread bites dusted with powdered sugar and two tiny cubes of almond nougat. Plain wrappers with no printing, no box and no bowl.",
+      "since": 117
+    },
+    {
+      "id": "sweet_pastries_assorted",
+      "name": "Bollería Assortment",
+      "category": "other",
+      "section": "Bakery",
+      "image": "sweet_pastries_assorted.png",
+      "aliases": [
+        "Surtido bollería dulce",
+        "Surtido de bollería",
+        "Bollería dulce",
+        "Bollería surtida",
+        "Mini bollería",
+        "Assorted sweet pastries",
+        "Assorted pastries",
+        "Sweet pastries",
+        "Mini pastries",
+        "Assorted mini pastries",
+        "Sweet bakery assortment"
+      ],
+      "desc": "A bollería assortment is the mix of small sweet pastries a bakery sells loose by weight: a small pile of six mini pastries, each a different kind, golden brown glossy baked laminated dough, a mini croissant, a mini chocolate napolitana with dark chocolate showing at its ends, a heart-shaped sugar-glazed palmier, a spiral raisin swirl, a small custard-filled puff and a sugar-dusted braided pastry. It is shown with no plate and no donuts.",
+      "since": 117
+    },
+    {
+      "id": "ham_croquettes",
+      "name": "Ham Croquettes",
+      "category": "other",
+      "section": "Store Items",
+      "image": "ham_croquettes.png",
+      "aliases": [
+        "Croquetas de jamón",
+        "Croquetas jamón",
+        "Croqueta de jamón",
+        "Croquetas",
+        "Ham croquette",
+        "Croquettes",
+        "Spanish ham croquettes"
+      ],
+      "desc": "Ham croquettes are the Spanish croquetas de jamón a deli counter sells loose: a small pile of six short cylinders about 5 cm long with rounded ends and an even golden breadcrumb coating with a dry sandy texture, lightly fried to a pale gold, one cut in half to show the creamy white béchamel filling flecked with small pink pieces of cured ham. It is shown with no plate and no sauce.",
+      "since": 117
+    },
+    {
+      "id": "pochas_beans",
+      "name": "Fresh Pochas Beans",
+      "category": "vegetable",
+      "section": "Peas & Beans",
+      "image": "pochas_beans.png",
+      "aliases": [
+        "Pochas",
+        "Pocha",
+        "Pochas frescas",
+        "Alubia pocha",
+        "Alubias pochas",
+        "Pochas beans",
+        "Pocha beans",
+        "Fresh pochas"
+      ],
+      "desc": "Fresh pochas are the white beans of Navarra and La Rioja picked before they dry, sold loose in the pod: a small pile of seven pods, each 12 to 15 cm long and slightly lumpy over the beans, pale yellow-cream to washed-out pale green with light streaks, one pod split open to show five plump round ivory-white beans, with a few loose ivory-white beans in front. Not bright green and not red mottled.",
+      "since": 117
+    },
+    {
+      "id": "squid_strips_rabas",
+      "name": "Squid Strips",
+      "category": "other",
+      "section": "Store Items",
+      "image": "squid_strips_rabas.png",
+      "aliases": [
+        "Rabas",
+        "Raba",
+        "Rabas de pota",
+        "Rabas de calamar",
+        "Tiras de calamar",
+        "Rabas a granel",
+        "Tiras de pota",
+        "Squid strip",
+        "Raw squid strips"
+      ],
+      "desc": "Squid strips (Spanish rabas) are raw squid cut lengthwise into strips and sold loose at the fish counter for frying: a small pile of about twelve strips, each about 7 cm long and 1 cm wide, off-white and slightly translucent, glossy and wet, with a faint pink tint on a few edges. Strips, not rings; raw, not breaded and not fried; no plate.",
+      "since": 117
+    },
+    {
+      "id": "shrimp_tails",
+      "name": "Shrimp Tails",
+      "category": "other",
+      "section": "Store Items",
+      "image": "shrimp_tails.png",
+      "aliases": [
+        "Cola de gamba",
+        "Colas de gamba",
+        "Cola gamba",
+        "Colas de langostino",
+        "Camarón sin cabeza",
+        "Shrimp tail",
+        "Headless shrimp",
+        "Raw shrimp tails"
+      ],
+      "desc": "Shrimp tails are raw headless shrimp with the shell on, sold loose by weight at the fish counter: a small pile of about nine tails, each curled in a loose C shape, with a translucent grayish-pink shell and a small tail fan, glossy and wet. No heads, not peeled, raw and not cooked orange; no plate and no ice.",
+      "since": 117
+    },
+    {
+      "id": "squid_tube_pota",
+      "name": "Squid Tube",
+      "category": "other",
+      "section": "Store Items",
+      "image": "squid_tube_pota.png",
+      "aliases": [
+        "Tubo de pota",
+        "Tubo pota",
+        "Tubo de calamar",
+        "Tubos de pota",
+        "Squid tubes",
+        "Pota squid tube",
+        "Jumbo squid tube",
+        "Cleaned squid tube"
+      ],
+      "desc": "A squid tube is the cleaned body of the jumbo flying squid (Spanish pota), sold loose at the fish counter: one raw tube about 22 cm long, a smooth tapered cone open at the wide end, thick off-white flesh with a faint pinkish-purple tint on the outer surface, glossy and wet, lying at a slight angle. No head, no tentacles and no fins.",
+      "since": 117
+    },
+    {
+      "id": "argentine_red_shrimp",
+      "name": "Argentine Red Shrimp",
+      "category": "other",
+      "section": "Store Items",
+      "image": "argentine_red_shrimp.png",
+      "aliases": [
+        "Gambón",
+        "Gambones",
+        "Gambón austral",
+        "Gambón extragrande",
+        "Langostino argentino",
+        "Argentine shrimp",
+        "Argentinian red shrimp",
+        "Red shrimp"
+      ],
+      "desc": "Argentine red shrimp (Spanish gambón) are large whole raw shrimp sold loose by weight at the fish counter: a small group of three, each about 17 cm long with the head and legs attached and the long antennae swept back along the body, an even deep coral red-orange shell all over although raw, slightly translucent and glossy, each in a different pose. No plate and no ice.",
+      "since": 117
+    },
+    {
+      "id": "gray_clams",
+      "name": "Gray Clams",
+      "category": "other",
+      "section": "Store Items",
+      "image": "gray_clams.png",
+      "aliases": [
+        "Almeja gris",
+        "Almejas",
+        "Almeja",
+        "Almeja japónica",
+        "Almeja japonesa",
+        "Clams",
+        "Clam",
+        "Grey clams",
+        "Japanese clams",
+        "Carpet shell clams"
+      ],
+      "desc": "Gray clams are live carpet shell clams sold loose by weight at the fish counter: a small pile of about eleven closed clams, each 3 to 4 cm, oval shells with a fine crisscross of radial and concentric ridges, mottled gray with darker gray-brown zigzag markings and blotches, wet and slightly glossy. Not smooth and not heart-shaped cockles; no plate and no ice.",
+      "since": 117
+    },
+    {
+      "id": "pink_tomato",
+      "name": "Pink Tomato",
+      "category": "vegetable",
+      "section": "Tomatoes & Tomatillos",
+      "image": "pink_tomato.png",
+      "aliases": [
+        "Tomate rosa",
+        "Tomates rosa",
+        "Tomate rosa de Barbastro",
+        "Tomate rosado",
+        "Pink tomatoes",
+        "Spanish pink tomato"
+      ],
+      "desc": "A pink tomato (Spanish tomate rosa, the Rosa de Barbastro type) is one large flattened beefsteak-shaped tomato with soft irregular lobes around the stem end, dusty rose-pink thin skin, slightly matte, a little green-yellow at the shoulders and a small green calyx. Not bright red and not deeply pleated.",
+      "since": 117
     }
   ]
 }
